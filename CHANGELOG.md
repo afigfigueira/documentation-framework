@@ -50,7 +50,7 @@ Entries are recorded in reverse chronological order.
 | **Repository** | Repository structure or supporting artefacts. |
 
 ---
-Documentation Framework Personal Use License v1.0
+
 # Change History
 
 | # | Date | Author | Type | Document | Impact | Description |
