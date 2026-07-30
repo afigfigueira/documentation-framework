@@ -50,9 +50,14 @@ Entries are recorded in reverse chronological order.
 | **Repository** | Repository structure or supporting artefacts. |
 
 ---
-
+Documentation Framework Personal Use License v1.0
 # Change History
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
-
+| 6 | 2026-07-30 | Arnaldo Figueira | Updated | /LICENSE.md | Major | LICENSE file was updated with provisional version of Documentation Framework Personal Use License v1.0 rules. |
+| 5 | 2026-07-30 | Arnaldo Figueira | Created | /Architectural Milestones.md | Major | Created the file that records the completion of significant architectural milestones in the evolution of the Documentation Framework. |
+| 4 | 2026-07-30 | Arnaldo Figueira | Created | /README.md | Major | Created the README file for Documentation Framework. |
+| 3 | 2026-07-30 | Arnaldo Figueira | Created | /LICENSE.md | Major | Created the Documentation Framework file for LICENSE rules. |
+| 2 | 2026-07-30 | Arnaldo Figueira | Updated | /CHANGELOG.md | Major | CHANGELOG was updated with rules for recording modification to the canonical repository. |
+| 1 | 2026-07-30 | Arnaldo Figueira | Created | /CHANGELOG.md | Major | Created the Documentation Framework file for CHANGELOG records. |
