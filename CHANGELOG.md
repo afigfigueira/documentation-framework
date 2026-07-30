@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 14 | 2026-07-30 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestones M2 was completed. |
 | 13 | 2026-07-30 | Arnaldo Figueira | Update | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Draft Updated. |
 | 12 | 2026-07-30 | Arnaldo Figueira | Update | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Draft content. |
 | 11 | 2026-07-30 | Arnaldo Figueira | Created | /Foundation/DF-FND-001-FrameworkManifest.md | Major | Created the Framework Manifest. |

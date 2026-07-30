@@ -76,8 +76,8 @@ Establish a compromises that defines the long-term implementation strategy for t
 
 | #Status | Order Date | Start Date | Completion Date |Document | Path |
 |--:|:-----------|-----------|-----------|-------------------|-------------------|
-| S | 2026-07-30 | 2026-07-30 | yyyy-mm-dd | README | /06-Roadmaps/README.md | 
-| S | 2026-07-30 | 2026-07-30 | yyyy-mm-dd | DF-RDM-001 — Documentation Framework Roadmap | /06-Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | 
+| C | 2026-07-30 | 2026-07-30 | 2026-07-30 | README | /Roadmaps/README.md | 
+| C | 2026-07-30 | 2026-07-30 | 2026-07-30 | DF-RDM-001 — Documentation Framework Roadmap | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | 
 
 ---
 
