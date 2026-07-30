@@ -55,9 +55,10 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 12 | 2026-07-30 | Arnaldo Figueira | Completed | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Documentation Framework Roadmap was completed. |
 | 11 | 2026-07-30 | Arnaldo Figueira | Created | /Foundation/DF-FND-001-FrameworkManifest.md | Major | Created the Framework Manifest. |
-| 10 | 2026-07-25 | Arnaldo Figueira | Created | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Created the Documentation Framework Roadmap. |
-| 9 | 2026-07-25 | Arnaldo Figueira | Created | /Roadmaps/README.md | Major | Created the README file for Roadmaps. |
+| 10 | 2026-07-30 | Arnaldo Figueira | Created | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Created the Documentation Framework Roadmap. |
+| 9 | 2026-07-30 | Arnaldo Figueira | Created | /Roadmaps/README.md | Major | Created the README file for Roadmaps. |
 | 8 | 2026-07-30 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestones M0, M1 and M2 were defined and updated with tasks. |
 | 7 | 2026-07-30 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | The Architectural Milestones filename was changed from Architectural Milestones.md to ArchitecturalMilestones.md. Implemented the configuration protocol for entries in the milestone file. |
 | 6 | 2026-07-30 | Arnaldo Figueira | Updated | /LICENSE.md | Major | LICENSE file was updated with provisional version of Documentation Framework Personal Use License v1.0 rules. |
