@@ -66,7 +66,7 @@ The lifecycle is intentionally simple:
 
 ## Milestone M2 — Roadamaps
 
-**Milestone Status:** In Progress
+**Milestone Status:** Completed
 
 ### Objectives
 
@@ -93,7 +93,7 @@ Establish the conceptual and architectural foundations of the Documentation Fram
 
 | #Status | Order Date | Start Date | Completion Date |Document | Path |
 |--:|:-----------|-----------|-----------|-------------------|-------------------|
-| S | 2026-07-30 | 2026-07-30 | yyyy-mm-dd | DF-FND-001 — Framework Manifest | /00-Foundation/DF-FND-001-FrameworkManifest.md | 
+| C | 2026-07-30 | 2026-07-30 | 2026-07-30 | DF-FND-001 — Framework Manifest | /00-Foundation/DF-FND-001-FrameworkManifest.md | 
 | S | 2026-07-30 | 2026-07-30 | yyyy-mm-dd | DF-FND-002 — Research Journal | /00-Foundation/DF-FND-002-ResearchJournal.md | 
 | S | 2026-07-30 | 2026-07-30 | yyyy-mm-dd | DF-FND-003 — Evolution Timeline | /00-Foundation/DF-FND-003-EvolutionTimeline.md | 
 | O | 2026-07-30 | yyyy-mm-dd | yyyy-mm-dd | DF-FND-004 — Architectural Blueprint | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md | 

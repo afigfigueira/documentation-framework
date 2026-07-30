@@ -2,15 +2,15 @@
 
 # Framework Manifest
 
-**Document ID:** DF-FND-001
-
-**Document Type:** Framework Manifest
-
-**Status:** Approved
-
-**Version:** 1.0
-
-**Baseline:** 1.0
+| Metadata | Value |
+|----------|-------|
+| **Document ID** | DF-FND-001 |
+| **Title** | Framework Manifest |
+| **Author** | Arnaldo Figueira |
+| **Status** | Approved |
+| **Version** | 1.0 |
+| **Baseline** | 1.0 |
+| **Language** | English |
 
 ---
 
