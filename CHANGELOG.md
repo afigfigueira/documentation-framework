@@ -55,7 +55,8 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
-| 12 | 2026-07-30 | Arnaldo Figueira | Completed | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Documentation Framework Roadmap was completed. |
+| 13 | 2026-07-30 | Arnaldo Figueira | Update | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Draft Updated. |
+| 12 | 2026-07-30 | Arnaldo Figueira | Update | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Draft content. |
 | 11 | 2026-07-30 | Arnaldo Figueira | Created | /Foundation/DF-FND-001-FrameworkManifest.md | Major | Created the Framework Manifest. |
 | 10 | 2026-07-30 | Arnaldo Figueira | Created | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Created the Documentation Framework Roadmap. |
 | 9 | 2026-07-30 | Arnaldo Figueira | Created | /Roadmaps/README.md | Major | Created the README file for Roadmaps. |
