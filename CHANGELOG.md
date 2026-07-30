@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 17 | 2026-07-30 | Arnaldo Figueira | Updated | /Foundation/DF-FND-002-ResearchJournal.md | Major | The Research Journal for Documentation Framework was updated with new content |
 | 16 | 2026-07-30 | Arnaldo Figueira | Created | /Foundation/DF-FND-002-ResearchJournal.md | Major | The Research Journal file for Documentation Framework was created. |
 | 15 | 2026-07-30 | Arnaldo Figueira | Updated | /Foundation/DF-FND-001-FrameworkManifest.md | Minor | Update of Framework Manifest header. |
 | 14 | 2026-07-30 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestones M2 was completed. |
