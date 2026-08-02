@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 28 | 2026-08-02 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | The Milestone M3 was added to Architectural Milestones Document for Documentation Framework. |
 | 27 | 2026-08-02 | Arnaldo Figueira | Updated | /README.md | Major | The README Document for Documentation Framework was updated with new content and Milesone M0 was completed. |
 | 26 | 2026-08-02 | Arnaldo Figueira | Updated | /Foundation/DF-FND-006-DesignRationale.md | Major | The Design Rationale Document for Documentation Framework was updated with new content and MilesoneM1 was completed. |
 | 25 | 2026-08-02 | Arnaldo Figueira | Created | /Foundation/DF-FND-006-DesignRationale.md | Major | The Design Rationale file for Documentation Framework was created. |

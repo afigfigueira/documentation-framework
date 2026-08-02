@@ -64,7 +64,27 @@ The lifecycle is intentionally simple:
 
 ---
 
+## Milestone M3 — Core Architecture
 
+**Milestone Status:** In Progress
+
+### Objectives
+
+Define the architectural model governing the Documentation Framework.
+
+### Documents
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+|--:|:-----------|-----------|-----------|-------------------|-------------------|
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-001 — Architecture Overview | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-002 — Architectural Principles | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-003 — Architectural Concepts | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-004 — Architectural Layers | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-005 — Architectural Components | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-006 — Terminology | /01-Architecture/DF-ARC-006-Terminology.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-007 — Component Documentation Structure | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
+
+---
 
 ## Milestone M2 — Roadamaps
 
@@ -85,7 +105,7 @@ Establish a compromises that defines the long-term implementation strategy for t
 
 ## Milestone M1 — Foundation
 
-**Milestone Status:** completed
+**Milestone Status:** Completed
 
 ### Objectives
 
@@ -106,7 +126,7 @@ Establish the conceptual and architectural foundations of the Documentation Fram
 
 ## Milestone M0 — Repository Initialization
 
-**Milestone Status:** In Progress
+**Milestone Status:** Completed
 
 ### Objectives
 
@@ -127,3 +147,5 @@ Establish the conceptual and architectural foundations of the Documentation Fram
 ---
 
 **End of Document**
+
+---
