@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 24 | 2026-08-02 | Arnaldo Figueira | Updated | /Foundation/DF-FND-005-FrameworkEvolution.md | Major | The Framework Evolution Document for Documentation Framework was updated with new content. |
 | 23 | 2026-08-01 | Arnaldo Figueira | Created | /Foundation/DF-FND-005-FrameworkEvolution.md | Major | The Framework Evolution file for Documentation Framework was created. |
 | 22 | 2026-08-01 | Arnaldo Figueira | Updated | /Foundation/DF-FND-004-ArchitecturalBlueprint.md | Major | The Architectural Blueprint Document for Documentation Framework was updated with new content. |
 | 21 | 2026-08-01 | Arnaldo Figueira | Updated | /Foundation/DF-FND-003-EvolutionTimeline.md | Major | Update of Evolution Timeline Document header. |
@@ -63,7 +64,7 @@ Entries are recorded in reverse chronological order.
 | 18 | 2026-07-30 | Arnaldo Figueira | Created | /Foundation/DF-FND-003-EvolutionTimeline.md | Major | The Evolution Timeline file for Documentation Framework was created. |
 | 17 | 2026-07-30 | Arnaldo Figueira | Updated | /Foundation/DF-FND-002-ResearchJournal.md | Major | The Research Journal for Documentation Framework was updated with new content |
 | 16 | 2026-07-30 | Arnaldo Figueira | Created | /Foundation/DF-FND-002-ResearchJournal.md | Major | The Research Journal file for Documentation Framework was created. |
-| 15 | 2026-07-30 | Arnaldo Figueira | Updated | /Foundation/DF-FND-001-FrameworkManifest.md | Minor | Update of Framework Manifest header. |
+| 15 | 2026-07-30 | Arnaldo Figueira | Updated | /Foundation/DF-FND-001-FrameworkManifest.md | Editorial | Update of Framework Manifest header. |
 | 14 | 2026-07-30 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestones M2 was completed. |
 | 13 | 2026-07-30 | Arnaldo Figueira | Update | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Draft Updated. |
 | 12 | 2026-07-30 | Arnaldo Figueira | Update | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Draft content. |
