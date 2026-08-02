@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 25 | 2026-08-02 | Arnaldo Figueira | Created | /Foundation/DF-FND-006-DesignRationale.md | Major | The Design Rationale file for Documentation Framework was created. |
 | 24 | 2026-08-02 | Arnaldo Figueira | Updated | /Foundation/DF-FND-005-FrameworkEvolution.md | Major | The Framework Evolution Document for Documentation Framework was updated with new content. |
 | 23 | 2026-08-01 | Arnaldo Figueira | Created | /Foundation/DF-FND-005-FrameworkEvolution.md | Major | The Framework Evolution file for Documentation Framework was created. |
 | 22 | 2026-08-01 | Arnaldo Figueira | Updated | /Foundation/DF-FND-004-ArchitecturalBlueprint.md | Major | The Architectural Blueprint Document for Documentation Framework was updated with new content. |
