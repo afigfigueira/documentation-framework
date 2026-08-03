@@ -66,7 +66,7 @@ The lifecycle is intentionally simple:
 
 ## Milestone M3 — Core Architecture
 
-**Milestone Status:** In Progress
+**Milestone Status:** Completed
 
 ### Objectives
 

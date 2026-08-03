@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 45 | 2026-08-03 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone Status of Milestone M3 - Core Architecture was marked as Completed. |
 | 44 | 2026-08-03 | Arnaldo Figueira | Updated | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md | Major | The Component Documentation Structure Document for Documentation Framework was updated with new content. |
 | 43 | 2026-08-03 | Arnaldo Figueira | Created | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md | Major | Created the Component Documentation Structure Document. |
 | 42 | 2026-08-03 | Arnaldo Figueira | Updated | /01-Architecture/DF-ARC-006-Terminology.md | Major | The Terminology DF-ARC-006 Document for Documentation Framework was updated with new content. |
