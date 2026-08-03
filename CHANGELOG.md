@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 48 | 2026-08-03 | Arnaldo Figueira | Created | /Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md | Major | Created the Metadata Roadmap. |
 | 47 | 2026-08-03 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Added a canonical Milestone Status model to the Architectural Milestones specification. |
 | 46 | 2026-08-03 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone M2 was reopened to include Roadmaps for Components as described in DF-RDM-001 — Documentation Framework Roadmap Document. |
 | 45 | 2026-08-03 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone Status of Milestone M3 - Core Architecture was marked as Completed. |
