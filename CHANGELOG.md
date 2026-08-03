@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 35 | 2026-08-03 | Arnaldo Figueira | Updated | /01-Architecture/DF-ARC-001-ArchitectureOverview.md | Editorial | The format of the main trunk of the existing trees in document DF-ARC-001 was standardized to five TABS |
 | 34 | 2026-08-03 | Arnaldo Figueira | Updated | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md | Major | The Architectural Concepts Document for Documentation Framework was updated with new content. |
 | 33 | 2026-08-03 | Arnaldo Figueira | Created | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md | Major | Created the Architectural Concepts Document. |
 | 32 | 2026-08-03 | Arnaldo Figueira | Updated | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md | Major | The Architectural Principles Document for Documentation Framework was updated with new content. |
