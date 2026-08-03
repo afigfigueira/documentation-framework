@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 51 | 2026-08-03 | Arnaldo Figueira | Created | /02-Documentation/Metadata/README.md | Major | Added Metadata component README. |
 | 50 | 2026-08-03 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Added Milestone M4 - Metadata Component with canonical document paths to Architectural Milestones Document. |
 | 49 | 2026-08-03 | Arnaldo Figueira | Updated | /Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md | Major | The Metadata Roadmap was updated with new content. |
 | 48 | 2026-08-03 | Arnaldo Figueira | Created | /Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md | Major | Created the Metadata Roadmap. |
