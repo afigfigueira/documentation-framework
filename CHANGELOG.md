@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 41 | 2026-08-03 | Arnaldo Figueira | Created | /01-Architecture/DF-ARC-006-Terminology.md | Major | Created the Terminology Document DF-ARC-006. |
 | 40 | 2026-08-03 | Arnaldo Figueira | Updated | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md | Major | The Architectural Components Document for Documentation Framework was updated with new content. |
 | 39 | 2026-08-03 | Arnaldo Figueira | Created | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md | Major | Created the Architectural Components Document. |
 | 38 | 2026-08-03 | Arnaldo Figueira | Updated | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md | Major | The Architectural Layers Document for Documentation Framework was updated with new content. |
