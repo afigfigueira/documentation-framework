@@ -55,6 +55,54 @@ The lifecycle is intentionally simple:
 
 ---
 
+# Milestone Status
+
+The **Milestone Status** field represents the overall progress of an architectural milestone.
+
+Only the following values are valid.
+
+| Status | Description |
+|----------|-------------|
+| **Not Started** | None of the documents belonging to the milestone have entered the implementation process. All associated records remain in the **Open** state. |
+| **In Progress** | One or more documents belonging to the milestone are currently being developed. At least one associated record is in the **Started** state, while the milestone is not yet complete. |
+| **Completed** | Every document belonging to the milestone has been completed. All associated records are in the **Completed** state and the milestone is considered finished. |
+
+---
+
+## Milestone Lifecycle
+
+```text
+ Not Started
+       │
+       ▼
+ In Progress
+       │
+       ▼
+  Completed
+```
+
+The milestone lifecycle is intentionally simple.
+
+- **Not Started** → No work has begun on any document belonging to the milestone.
+- **In Progress** → At least one document is under development.
+- **Completed** → All documents associated with the milestone have been completed.
+
+---
+
+## Relationship with Record Status
+
+A milestone status is derived from the status of its associated records.
+
+| Milestone Status | Record Status Composition |
+|------------------|--------------------------|
+| **Not Started** | All records are **Open**. |
+| **In Progress** | At least one record is **Started** or **Completed**, but not all records are **Completed**. |
+| **Completed** | All records are **Completed**. |
+
+The **Milestone Status** is therefore not managed independently. It is a summary status derived from the collection of record statuses belonging to the milestone.
+
+---
+
 # Table Template
 
 | #Status | Order Date | Start Date | Completion Date |Document | Path |

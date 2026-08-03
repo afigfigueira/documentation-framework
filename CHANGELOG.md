@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 47 | 2026-08-03 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Added a canonical Milestone Status model to the Architectural Milestones specification. |
 | 46 | 2026-08-03 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone M2 was reopened to include Roadmaps for Components as described in DF-RDM-001 — Documentation Framework Roadmap Document. |
 | 45 | 2026-08-03 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone Status of Milestone M3 - Core Architecture was marked as Completed. |
 | 44 | 2026-08-03 | Arnaldo Figueira | Updated | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md | Major | The Component Documentation Structure Document for Documentation Framework was updated with new content. |
@@ -88,8 +89,8 @@ Entries are recorded in reverse chronological order.
 | 16 | 2026-07-30 | Arnaldo Figueira | Created | /00-Foundation/DF-FND-002-ResearchJournal.md | Major | The Research Journal file for Documentation Framework was created. |
 | 15 | 2026-07-30 | Arnaldo Figueira | Updated | /00-Foundation/DF-FND-001-FrameworkManifest.md | Editorial | Update of Framework Manifest header. |
 | 14 | 2026-07-30 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestones M2 was completed. |
-| 13 | 2026-07-30 | Arnaldo Figueira | Update | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Draft Updated. |
-| 12 | 2026-07-30 | Arnaldo Figueira | Update | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Draft content. |
+| 13 | 2026-07-30 | Arnaldo Figueira | Updated | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Draft Updated. |
+| 12 | 2026-07-30 | Arnaldo Figueira | Updated | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Draft content. |
 | 11 | 2026-07-30 | Arnaldo Figueira | Created | /00-Foundation/DF-FND-001-FrameworkManifest.md | Major | Created the Framework Manifest. |
 | 10 | 2026-07-30 | Arnaldo Figueira | Created | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | Major | Created the Documentation Framework Roadmap. |
 | 9 | 2026-07-30 | Arnaldo Figueira | Created | /Roadmaps/README.md | Major | Created the README file for Roadmaps. |
