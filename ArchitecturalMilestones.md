@@ -88,7 +88,7 @@ Define the architectural model governing the Documentation Framework.
 
 ## Milestone M2 — Roadamaps
 
-**Milestone Status:** Completed
+**Milestone Status:** In Progress
 
 ### Objectives
 
@@ -100,6 +100,15 @@ Establish a compromises that defines the long-term implementation strategy for t
 |--:|:-----------|-----------|-----------|-------------------|-------------------|
 | C | 2026-07-30 | 2026-07-30 | 2026-07-30 | README | /Roadmaps/README.md | 
 | C | 2026-07-30 | 2026-07-30 | 2026-07-30 | DF-RDM-001 — Documentation Framework Roadmap | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | 
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-010 - Metadata Roadmap | /Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md | 
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-020 - Document Identity Roadmap | /Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md | 
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-030 - Templates Roadmap | /Roadmaps/02-Documentation/Templates/DF-RDM-030-TemplatesRoadmap.md | 
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-040 - Registry Roadmap | /Roadmaps/04-Discovery/Registry/DF-RDM-040-RegistryRoadmap.md | 
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-050 - Workflow Roadmap | /Roadmaps/03-Governance/Workflow/DF-RDM-050-WorkflowRoadmap.md | 
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-060 - Policies Roadmap | /Roadmaps/03-Governance/Policies/DF-RDM-060-PoliciesRoadmap.md | 
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-070 - Baselines Roadmap | /Roadmaps/03-Governance/Baselines/DF-RDM-070-BaselinesRoadmap.md | 
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-080 - Relationships Roadmap | /Roadmaps/04-Discovery/Relationships/DF-RDM-080-RelationshipsRoadmap.md | 
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-090 - Knowledge Graph Roadmap | /Roadmaps/04-Discovery/KnowledgeGraph/DF-RDM-090-KnowledgeGraphRoadmap.md | 
 
 ---
 
