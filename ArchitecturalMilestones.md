@@ -77,8 +77,8 @@ Define the architectural model governing the Documentation Framework.
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 |--:|:-----------|-----------|-----------|-------------------|-------------------|
 | C | 2026-08-02 | 2026-08-02 | 2026-08-03 | DF-ARC-001 — Architecture Overview | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
-| S | 2026-08-03 | 2026-08-03 | yyyy-mm-dd | DF-ARC-002 — Architectural Principles | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-003 — Architectural Concepts | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+| C | 2026-08-03 | 2026-08-03 | 2026-08-03 | DF-ARC-002 — Architectural Principles | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
+| O | 2026-08-03 | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-003 — Architectural Concepts | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-004 — Architectural Layers | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-005 — Architectural Components | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-006 — Terminology | /01-Architecture/DF-ARC-006-Terminology.md |
