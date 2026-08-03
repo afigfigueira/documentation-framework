@@ -80,7 +80,7 @@ Define the architectural model governing the Documentation Framework.
 | C | 2026-08-03 | 2026-08-03 | 2026-08-03 | DF-ARC-002 — Architectural Principles | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
 | C | 2026-08-03 | 2026-08-03 | 2026-08-03 | DF-ARC-003 — Architectural Concepts | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
 | C | 2026-08-03 | 2026-08-03 | 2026-08-03 | DF-ARC-004 — Architectural Layers | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
-| S | 2026-08-03 | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-005 — Architectural Components | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
+| S | 2026-08-03 | 2026-08-03 | yyyy-mm-dd | DF-ARC-005 — Architectural Components | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-006 — Terminology | /01-Architecture/DF-ARC-006-Terminology.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-ARC-007 — Component Documentation Structure | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
 
