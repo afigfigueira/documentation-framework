@@ -125,7 +125,7 @@ Define the architectural model governing metadata within the Documentation Frame
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 |--:|:-----------|:-----------|:-----------|------------------------------|-----------------------------------------------------------------------------------------------|
 | C | 2026-08-03 | 2026-08-03 | 2026-08-03 | README | /02-Documentation/Metadata/README.md |
-| S | 2026-08-03 | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-001 — Metadata Architecture | /02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md |
+| S | 2026-08-03 | 2026-08-03 | yyyy-mm-dd | DF-MTD-001 — Metadata Architecture | /02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-002 — Metadata Concepts | /02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-003 — Metadata Model | /02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-004 — Metadata Elements | /02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md |
