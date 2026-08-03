@@ -112,6 +112,37 @@ The **Milestone Status** is therefore not managed independently. It is a summary
 
 ---
 
+## Milestone M4 — Metadata Component
+
+**Milestone Status:** Not Started
+
+### Objectives
+
+Define the architectural model governing metadata within the Documentation Framework.
+
+### Documents
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+|--:|:-----------|:-----------|:-----------|------------------------------|-----------------------------------------------------------------------------------------------|
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | README | /02-Documentation/Metadata/README.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-001 — Metadata Architecture | /02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-002 — Metadata Concepts | /02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-003 — Metadata Model | /02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-004 — Metadata Elements | /02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-005 — Metadata Schema | /02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-006 — Metadata Lifecycle | /02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-007 — Metadata Validation | /02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-008 — Metadata Governance | /02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-009 — Metadata Relationships | /02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-010 — Metadata Constraints | /02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-011 — Metadata Extensibility | /02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-012 — Metadata Best Practices | /02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-013 — Metadata Dictionary | /02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-014 — Metadata Specification | /02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-015 — Metadata Examples | /02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md |
+
+---
+
 ## Milestone M3 — Core Architecture
 
 **Milestone Status:** Completed
