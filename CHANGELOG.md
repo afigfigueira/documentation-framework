@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 31 | 2026-08-03 | Arnaldo Figueira | Created | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md | Major | Created the Architectural Principles Document. |
 | 30 | 2026-08-03 | Arnaldo Figueira | Updated | /01-Architecture/DF-ARC-001-ArchitectureOverview.md | Major | The Architecture Overview Document for Documentation Framework was updated with new content. |
 | 29 | 2026-08-02 | Arnaldo Figueira | Created | /01-Architecture/DF-ARC-001-ArchitectureOverview.md | Major | Created the Architecture Overview Document. |
 | 28 | 2026-08-02 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | The Milestone M3 was added to Architectural Milestones Document for Documentation Framework. |
