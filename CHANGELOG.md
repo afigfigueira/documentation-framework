@@ -51,10 +51,11 @@ Entries are recorded in reverse chronological order.
 
 ---
 
-# Change History
+# Change History 
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 56 | 2026-08-03 | Arnaldo Figueira | Created | /02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md | Major | Added DF-MTD-002 — Metadata Concepts Document. |
 | 55 | 2026-08-04 | Arnaldo Figueira | Updated | /*.md | Editorial | Replaced all TAB characters with four-space indentation across the documentation to improve Markdown rendering consistency in version control platforms. |
 | 54 | 2026-08-03 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md | Major | Added initial content to DF-MTD-001 - Metadata Architecture Document. |
 | 53 | 2026-08-03 | Arnaldo Figueira | Created | /02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md | Major | Added DF-MTD-001 - Metadata Architecture Document. |

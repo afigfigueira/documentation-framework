@@ -192,7 +192,7 @@ Metadata interacts with other architectural components through explicit architec
 ```text
 
             ┌──────────────────────────────────────────────────────┐
-            │                       Metadata                      │
+            │                       Metadata                       │
             │                          │                           │
             │       ┌──────────────────┼──────────────────┐        │
             │       │                  │                  │        │
