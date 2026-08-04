@@ -71,13 +71,13 @@ For example.
 
 ```text
 
-			docs/
+                    docs/
 
-			notes/
+                    notes/
 
-			temp/
+                    temp/
 
-			misc/
+                    misc/
 
 ```
 
@@ -320,15 +320,15 @@ For example.
 
 ```text
 
-			docs/
+                    docs/
 
-			architecture/
+                    architecture/
 
-			research/
+                    research/
 
-			reference/
+                    reference/
 
-			notes/
+                    notes/
 
 ```
 
@@ -608,15 +608,15 @@ For example.
 
 ```text id="ev3-1"
 
-			Architecture Template
+                    Architecture Template
 
-			Research Template
+                    Research Template
 
-			Reference Template
+                    Reference Template
 
-			Specification Template
+                    Specification Template
 
-			README Template
+                    README Template
 
 ```
 
@@ -884,13 +884,13 @@ For example.
 
 ```text id="ev4-1"
 
-			Title
+                    Title
 
-			Author
+                    Author
 
-			Version
+                    Version
 
-			Date
+                    Date
 
 ```
 
@@ -936,17 +936,17 @@ For example.
 
 ```text id="ev4-2"
 
-			Document ID
+                    Document ID
 
-			Title
+                    Title
 
-			Version
+                    Version
 
-			Status
+                    Status
 
-			Project
+                    Project
 
-			Language
+                    Language
 
 ```
 
@@ -1081,11 +1081,11 @@ For example.
 
 ```text id="ev5-1"
 
-			DOC-001
+                    DOC-001
 
-			DOC-002
+                    DOC-002
 
-			DOC-003
+                    DOC-003
 
 ```
 
@@ -1119,15 +1119,15 @@ For example.
 
 ```text id="ev5-2"
 
-			META
+                    META
 
-			ARC
+                    ARC
 
-			ANL
+                    ANL
 
-			REF
+                    REF
 
-			STD
+                    STD
 
 ```
 
@@ -1149,13 +1149,13 @@ For example.
 
 ```text id="ev5-3"
 
-			META-DCL
+                    META-DCL
 
-			META-WFL
+                    META-WFL
 
-			META-REF
+                    META-REF
 
-			META-CON
+                    META-CON
 
 ```
 
@@ -1175,11 +1175,11 @@ Conceptually.
 
 ```text id="ev5-4"
 
-			META-DCL-001
+                    META-DCL-001
 
-			META-DCL-002
+                    META-DCL-002
 
-			META-DCL-003
+                    META-DCL-003
 
 ```
 
@@ -1250,19 +1250,19 @@ For example.
 
 ```text id="ev5-5"
 
-			Document ID
+                    Document ID
 
-			Family
+                    Family
 
-			Type
+                    Type
 
-			Class
+                    Class
 
-			Version
+                    Version
 
-			Revision
+                    Revision
 
-			Status
+                    Status
 
 ```
 
@@ -1423,7 +1423,7 @@ A new document Family was then introduced.
 
 ```text id="ev6-1"
 
-			META
+                    META
 
 ```
 
@@ -1441,9 +1441,9 @@ For example.
 
 ```text id="ev6-2"
 
-			META-DCL
+                    META-DCL
 
-			Documentation Classification
+                    Documentation Classification
 
 ```
 
@@ -1468,13 +1468,13 @@ For example.
 
 ```text id="ev6-3"
 
-			META-DCL
+                    META-DCL
 
-			META-REF
+                    META-REF
 
-			META-CON
+                    META-CON
 
-			META-WFL
+                    META-WFL
 
 ```
 
@@ -1510,31 +1510,25 @@ For example.
 
 ```text id="ev6-4"
 
-				 META-DCL
+                 META-DCL
+                    ↓
 
-					↓
+                   uses
+                    ↓
 
-				   uses
+                 META-REF
+                    ↓
 
-					↓
+               complements
+                    ↓
 
-				 META-REF
+                 META-CON
+                    ↓
 
-					↓
+                relates to
+                    ↓
 
-			   complements
-
-					↓
-
-				 META-CON
-
-					↓
-
-				relates to
-
-					↓
-
-				 META-WFL
+                 META-WFL
 
 ```
 
@@ -1716,11 +1710,10 @@ Initially, a very simple model was adopted.
 
 ```text id="ev7-1"
 
-				  Draft
+                  Draft
+                    ↓
 
-					↓
-
-				 Approved
+                 Approved
 
 ```
 
@@ -1738,15 +1731,13 @@ The next step consisted of introducing an intermediate phase.
 
 ```text id="ev7-2"
 
-				  Draft
+                  Draft
+                    ↓
 
-					↓
+                  Review
+                    ↓
 
-				  Review
-
-					↓
-
-				 Approved
+                 Approved
 
 ```
 
@@ -1768,15 +1759,15 @@ For example.
 
 ```text id="ev7-3"
 
-			Draft
+                    Draft
 
-			Review
+                    Review
 
-			Approved
+                    Approved
 
-			Deprecated
+                    Deprecated
 
-			Archived
+                    Archived
 
 ```
 
@@ -2014,15 +2005,15 @@ For example.
 
 ```text id="ev8-1"
 
-			docs/
+                    docs/
 
-			architecture/
+                    architecture/
 
-			meta/
+                    meta/
 
-			research/
+                    research/
 
-			reference/
+                    reference/
 
 ```
 
@@ -2097,15 +2088,13 @@ Conceptually.
 
 ```text id="ev8-2"
 
-				 Document
+                 Document
+                    ↓
 
-					↓
+              Represented by
+                    ↓
 
-			  Represented by
-
-					↓
-
-			  Registry Entry
+              Registry Entry
 
 ```
 
@@ -2354,17 +2343,17 @@ For example.
 
 ```text id="ev9-1"
 
-			Defines
+                    Defines
 
-			Depends On
+                    Depends On
 
-			References
+                    References
 
-			Implements
+                    Implements
 
-			Replaces
+                    Replaces
 
-			Extends
+                    Extends
 
 ```
 
@@ -2384,15 +2373,13 @@ Conceptually.
 
 ```text id="ev9-2"
 
-				 Document
+                 Document
+                    ↓
 
-					↓
+               Relationship
+                    ↓
 
-			   Relationship
-
-					↓
-
-				 Document
+                 Document
 
 ```
 
@@ -2424,31 +2411,25 @@ For example.
 
 ```text id="ev9-3"
 
-			   Architecture
+               Architecture
+                    ↓
 
-					↓
+                 Defines
+                    ↓
 
-				 Defines
+                Component
+                    ↓
 
-					↓
+              Implemented By
+                    ↓
 
-				Component
+               Specification
+                    ↓
 
-					↓
+               Referenced By
+                    ↓
 
-			  Implemented By
-
-					↓
-
-			   Specification
-
-					↓
-
-			   Referenced By
-
-					↓
-
-				 Research
+                 Research
 
 ```
 
@@ -2646,11 +2627,11 @@ Consider the following scenario.
 
 ```text id="ev10-1"
 
-			Document A → Version 3
+                    Document A  →  Version 3
 
-			Document B → Version 7
+                    Document B  →  Version 7
 
-			Document C → Version 2
+                    Document C  →  Version 2
 
 ```
 
@@ -2672,15 +2653,14 @@ Conceptually.
 
 ```text id="ev10-2"
 
-			   Baseline 2.0
+               Baseline 2.0
+                    ↓
 
-					↓
+               Document A  v3
 
-			   Document A v3
+               Document B  v7
 
-			   Document B v7
-
-			   Document C v2
+               Document C  v2
 
 ```
 
@@ -2713,15 +2693,13 @@ For example.
 
 ```text id="ev10-3"
 
-			    Baseline 1.0
+                Baseline 1.0
+                    ↓
 
-					↓
+                Baseline 2.0
+                    ↓
 
-			    Baseline 2.0
-
-					↓
-
-				Baseline 3.0
+                Baseline 3.0
 
 ```
 
@@ -2916,11 +2894,10 @@ The relationship was relatively straightforward.
 
 ```text id="ev11-1"
 
-			   VisualEngine
+               VisualEngine
+                    ↓
 
-					↓
-
-			  Documentation
+               Documentation
 
 ```
 
@@ -2936,11 +2913,11 @@ It gradually became evident that the influence flowed in both directions.
 
 ```text id="ev11-2"
 
-			   VisualEngine
+               VisualEngine
 
-					⇅
+                    ⇅
 
-		 Documentation Framework
+         Documentation Framework
 
 ```
 
@@ -3229,11 +3206,10 @@ Evolution was typically represented as.
 
 ```text id="ev12-1"
 
-				 Document
+                 Document
+                    ↓
 
-					↓
-
-			    New Version
+               New Version
 
 ```
 
@@ -3243,19 +3219,16 @@ The model became.
 
 ```text id="ev12-2"
 
-				  Change
+                 Change
+                    ↓
 
-					↓
+                 Document
+                    ↓
 
-				 Document
+                 Workflow
+                    ↓
 
-					↓
-
-				 Workflow
-
-					↓
-
-			    New Version
+                New Version
 
 ```
 
@@ -3304,15 +3277,13 @@ Conceptually.
 
 ```text id="ev12-3"
 
-				  Change
+                  Change
+                    ↓
 
-					↓
+                 Workflow
+                    ↓
 
-				 Workflow
-
-					↓
-
-				 Document
+                 Document
 
 ```
 
@@ -3330,23 +3301,19 @@ For example.
 
 ```text id="ev12-4"
 
-				  Change
+                  Change
+                    ↓
 
-					↓
+               Architecture
+                    ↓
 
-			   Architecture
+              Documentation
+                    ↓
 
-					↓
+              Implementation
+                    ↓
 
-			  Documentation
-
-					↓
-
-			  Implementation
-
-					↓
-
-				Validation
+                Validation
 
 ```
 
@@ -3538,39 +3505,31 @@ Conceptually.
 
 ```text id="ev13-1"
 
-				Templates
+                 Templates
+                    ↓
 
-					↓
+                 Metadata
+                    ↓
 
-				Metadata
+            Document Identity
+                    ↓
 
-					↓
+              META Documents
+                    ↓
 
-			Document Identity
+                 Workflow
+                    ↓
 
-					↓
+                 Registry
+                    ↓
 
-			  META Documents
+              Knowledge Graph
+                    ↓
 
-					↓
+                Baselines
+                    ↓
 
-				 Workflow
-
-					↓
-
-				 Registry
-
-					↓
-
-			  Knowledge Graph
-
-					↓
-
-				Baselines
-
-					↓
-
-				   CMS
+                   CMS
 
 ```
 
@@ -4279,63 +4238,49 @@ The complete chronology can be summarized as follows.
 
 ```text
 
-		  Informal Documentation
+          Informal Documentation
+                    ↓
 
-					↓
+               Conventions
+                    ↓
 
-			   Conventions
+                 Templates
+                    ↓
 
-					↓
+                 Metadata
+                    ↓
 
-				 Templates
+            Document Identity
+                    ↓
 
-					↓
+              META Documents
+                    ↓
 
-				 Metadata
+                 Workflow
+                    ↓
 
-					↓
+                 Registry
+                    ↓
 
-			Document Identity
+             Knowledge Graph
+                    ↓
 
-					↓
+                Baselines
+                    ↓
 
-			  META Documents
+               VisualEngine
+                    ↓
 
-					↓
+                   CMS
+                    ↓
 
-				 Workflow
+               Consolidation
+                    ↓
 
-					↓
+              Current State
+                    ↓
 
-				 Registry
-
-					↓
-
-			 Knowledge Graph
-
-					↓
-
-				Baselines
-
-					↓
-
-			   VisualEngine
-
-					↓
-
-				   CMS
-
-					↓
-
-			   Consolidation
-
-					↓
-
-			  Current State
-
-					↓
-
-			 Future Evolution
+             Future Evolution
 
 ```
 
@@ -4379,3 +4324,4 @@ It represents only the current state of an architecture deliberately designed to
 
 **End of Document**
 
+---

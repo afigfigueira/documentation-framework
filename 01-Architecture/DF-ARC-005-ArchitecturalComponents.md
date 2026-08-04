@@ -60,25 +60,33 @@ The Documentation Framework is organized as a collection of cooperating architec
 Conceptually.
 
 ```text
-        Foundation
-            │
-            ▼
-      Architecture
-            │
-            ▼
- Documentation Components
-            │
-            ▼
-  Governance Components
-            │
-            ▼
-   Discovery Components
-            │
-            ▼
-  Automation Components
-            │
-            ▼
-  Integration Components
+
+                Foundation
+                    │
+                    ▼
+
+               Architecture
+                    │
+                    ▼
+
+        Documentation Components
+                    │
+                    ▼
+
+          Governance Components
+                    │
+                    ▼
+
+           Discovery Components
+                    │
+                    ▼
+
+          Automation Components
+                    │
+                    ▼
+
+         Integration Components
+
 ```
 
 Each component performs a specific architectural function.
@@ -410,34 +418,43 @@ Conceptually.
 
 ```text
 
-				Metadata
-					│
-					▼
-			Document Identity
-					│
-					▼
-			  Classification
-					│
-					▼
-				 Workflow
-					│
-					▼
-				 Policies
-					│
-					▼
-				 Registry
-					│
-					▼
-			  Relationships
-					│
-					▼
-			 Knowledge Graph
-					│
-					▼
-				Validation
-					│
-					▼
-				Automation
+                Metadata
+                    │
+                    ▼
+
+            Document Identity
+                    │
+                    ▼
+
+              Classification
+                    │
+                    ▼
+
+                 Workflow
+                    │
+                    ▼
+
+                 Policies
+                    │
+                    ▼
+
+                 Registry
+                    │
+                    ▼
+
+              Relationships
+                    │
+                    ▼
+
+             Knowledge Graph
+                    │
+                    ▼
+
+                Validation
+                    │
+                    ▼
+
+                Automation
 
 ```
 
@@ -490,19 +507,25 @@ Components shall remain independent from implementation technologies.
 The Documentation Framework follows a dependency hierarchy.
 
 ```text
-		 Documentation Components
-					│
-					▼
-           Governance Components
-					│
-					▼
-		   Discovery Components
-					│
-					▼
-		  Automation Components
-					│
-					▼
-		 Integration Components
+
+        Documentation Components
+                    │
+                    ▼
+
+          Governance Components
+                    │
+                    ▼
+
+           Discovery Components
+                    │
+                    ▼
+
+          Automation Components
+                    │
+                    ▼
+
+         Integration Components
+
 ```
 
 Dependencies shall always follow the layered architecture defined in **DF-ARC-004 — Architectural Layers**.

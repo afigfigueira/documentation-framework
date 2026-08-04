@@ -38,26 +38,26 @@ Conceptually.
 
 ```text
 
-					Architecture
-							│
-							├── 00-Foundation
-							├── 01-Architecture
-							├── 02-Documentation
-							├── 03-Governance
-							├── 04-Discovery
-							├── 05-Automation
-							└── 06-Integration
+                    Architecture
+                    │
+                    ├── 00-Foundation
+                    ├── 01-Architecture
+                    ├── 02-Documentation
+                    ├── 03-Governance
+                    ├── 04-Discovery
+                    ├── 05-Automation
+                    └── 06-Integration
 
 
-						Roadmaps
-							│
-							├── 00-Foundation
-							├── 01-Architecture
-							├── 02-Documentation
-							├── 03-Governance
-							├── 04-Discovery
-							├── 05-Automation
-							└── 06-Integration
+                    Roadmaps
+                    │
+                    ├── 00-Foundation
+                    ├── 01-Architecture
+                    ├── 02-Documentation
+                    ├── 03-Governance
+                    ├── 04-Discovery
+                    ├── 05-Automation
+                    └── 06-Integration
 
 ```
 
@@ -71,15 +71,15 @@ The Roadmaps directory defines the evolution strategy for that structure.
 
 ```text
 
-					Roadmaps
-					│
-					├── 00-Foundation
-					├── 01-Architecture
-					├── 02-Documentation
-					├── 03-Governance
-					├── 04-Discovery
-					├── 05-Automation
-					└── 06-Integration
+                    Roadmaps
+                    │
+                    ├── 00-Foundation
+                    ├── 01-Architecture
+                    ├── 02-Documentation
+                    ├── 03-Governance
+                    ├── 04-Discovery
+                    ├── 05-Automation
+                    └── 06-Integration
 
 ```
 
@@ -95,20 +95,20 @@ For example.
 
 ```text
 
-					Roadmaps
-					│
-					├── 02-Documentation
-					│   ├── Metadata
-					│   │   └── DF-MTD-RDM-001.md
-					│   │
-					│   ├── DocumentIdentity
-					│   │   └── DF-DID-RDM-001.md
-					│   │
-					│   ├── Classification
-					│   │   └── DF-CLS-RDM-001.md
-					│   │
-					│   └── Templates
-					│       └── DF-TPL-RDM-001.md
+                    Roadmaps
+                    │
+                    ├── 02-Documentation
+                    │   ├── Metadata
+                    │   │   └── DF-MTD-RDM-001.md
+                    │   │
+                    │   ├── DocumentIdentity
+                    │   │   └── DF-DID-RDM-001.md
+                    │   │
+                    │   ├── Classification
+                    │   │   └── DF-CLS-RDM-001.md
+                    │   │
+                    │   └── Templates
+                    │       └── DF-TPL-RDM-001.md
 
 ```
 

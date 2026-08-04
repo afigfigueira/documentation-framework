@@ -277,24 +277,30 @@ Conceptually.
 ```text
 
          Documentation as Knowledge
-					│
-					▼
+                    │
+                    ▼
+
             Explicit Architecture
-					│
-					▼
+                    │
+                    ▼
+
       Separation of Responsibilities
-					│
-					▼
+                    │
+                    ▼
+
            Layered Architecture
-					│
-					▼
+                    │
+                    ▼
+
                 Governance
-					│
-					▼
+                    │
+                    ▼
+
                Traceability
-					│
-					▼
-				Automation
+                    │
+                    ▼
+
+                Automation
 
 ```
 

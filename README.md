@@ -86,34 +86,34 @@ The Documentation Framework is organized into architectural layers.
 
 ```text
 
-			Documentation Framework
-			│
-			├── Foundation
-			│
-			├── Architecture
-			│
-			├── Documentation
-			│   ├── Metadata
-			│   ├── Document Identity
-			│   ├── Classification
-			│   └── Templates
-			│
-			├── Governance
-			│   ├── Workflow
-			│   ├── Policies
-			│   ├── Reviews
-			│   └── Baselines
-			│
-			├── Discovery
-			│   ├── Registry
-			│   ├── Relationships
-			│   ├── Knowledge Graph
-			│   ├── Navigation
-			│   └── Search
-			│
-			├── Automation
-			│
-			└── Integration
+            Documentation Framework
+            │
+            ├── Foundation
+            │
+            ├── Architecture
+            │
+            ├── Documentation
+            │   ├── Metadata
+            │   ├── Document Identity
+            │   ├── Classification
+            │   └── Templates
+            │
+            ├── Governance
+            │   ├── Workflow
+            │   ├── Policies
+            │   ├── Reviews
+            │   └── Baselines
+            │
+            ├── Discovery
+            │   ├── Registry
+            │   ├── Relationships
+            │   ├── Knowledge Graph
+            │   ├── Navigation
+            │   └── Search
+            │
+            ├── Automation
+            │
+            └── Integration
 
 ```
 
@@ -322,20 +322,20 @@ A typical Documentation Framework repository is organized as follows.
 
 ```text
 
-			DocumentationFramework/
-			│
-			├── Foundation/
-			├── Architecure/
-			├── Components/
-			│   ├── Metadata/
-			│   ├── DocumentIdentity/
-			│   ├── Classification/
-			│   └── ...
-			│
-			├── Roadmaps/
-			├── Templates/
-			├── Reference/
-			└── Analysis/
+                    DocumentationFramework/
+                    │
+                    ├── Foundation/
+                    ├── Architecture/
+                    ├── Components/
+                    │   ├── Metadata/
+                    │   ├── DocumentIdentity/
+                    │   ├── Classification/
+                    │   └── ...
+                    │
+                    ├── Roadmaps/
+                    ├── Templates/
+                    ├── Reference/
+                    └── Analysis/
 
 ```
 

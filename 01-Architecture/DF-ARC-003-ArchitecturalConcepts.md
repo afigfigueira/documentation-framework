@@ -56,28 +56,35 @@ Conceptually.
 
 ```text
 
-				Knowledge
-					│
-					▼
-			  Documentation
-					│
-					▼
-				 Document
-					│
-					▼
-				 Metadata
-					│
-					▼
-				 Identity
-					│
-					▼
-			  Classification
-					│
-					▼
-			  Relationships
-					│
-					▼
-				Registry
+                Knowledge
+                    │
+                    ▼
+
+              Documentation
+                    │
+                    ▼
+
+                 Document
+                    │
+                    ▼
+
+                 Metadata
+                    │
+                    ▼
+
+                 Identity
+                    │
+                    ▼
+
+              Classification
+                    │
+                    ▼
+
+              Relationships
+                    │
+                    ▼
+
+                Registry
 
 ```
 
@@ -297,27 +304,32 @@ Conceptually.
 
 ```text
 
-					Knowledge
-						│
-						▼
-				  Documentation
-						│
-						▼
-					Document
-						│				 
-		 ┌──────────────┼──────────────┐
-		 │            	│              │
-		 ▼            	▼              ▼
-	  Metadata       Identity    Classification
-						│
-						▼
-				  Relationships
-						│
-						▼
-					Registry
-						│
-						▼
-				 Knowledge Graph
+                        Knowledge
+                            │
+                            ▼
+
+                      Documentation
+                            │
+                            ▼
+
+                         Document
+                            │
+          ┌─────────────────┼─────────────────┐
+          │                 │                 │
+          ▼                 ▼                 ▼
+      Metadata          Identity        Classification
+                            │
+                            ▼
+
+                      Relationships
+                            │
+                            ▼
+
+                         Registry
+                            │
+                            ▼
+
+                     Knowledge Graph
 
 ```
 
@@ -365,32 +377,40 @@ The concepts form a dependency hierarchy.
 
 ```text
 
-				Knowledge
-					│
-					▼
-			   Documentation
-					│
-					▼
-				 Document
-					│
-					▼
-				 Metadata
-					│
-					▼
-				 Identity
-					│
-					▼
-			  Classification
-					│
-					▼
-			  Relationships
-					│
-					▼
-				Registry
-					│
-					▼
-			 Knowledge Graph
-			 
+                Knowledge
+                    │
+                    ▼
+
+               Documentation
+                    │
+                    ▼
+
+                 Document
+                    │
+                    ▼
+
+                 Metadata
+                    │
+                    ▼
+
+                 Identity
+                    │
+                    ▼
+
+              Classification
+                    │
+                    ▼
+
+              Relationships
+                    │
+                    ▼
+
+                Registry
+                    │
+                    ▼
+
+             Knowledge Graph
+
 ```
 
 Higher-level concepts depend upon lower-level concepts.

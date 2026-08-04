@@ -71,19 +71,24 @@ Metadata belongs to the Documentation Layer of the Documentation Framework.
 
 ```text
 
-		 Documentation Framework
+           Documentation Framework
 
                 Foundation
-					│
+                    │
+                    │
                Architecture
-					│
+                    │
+                    │
            Documentation Layer
-					│
+                    │
+                    │
        ┌─────────────────────────┐
        │        Metadata         │
        └─────────────────────────┘
-					│
-					▼
+                    │
+                    │
+                    ▼
+
             Document Identity
              Classification
                 Templates
@@ -186,33 +191,30 @@ Metadata interacts with other architectural components through explicit architec
 
 ```text
 
-			┌──────────────────────────────────────────────────────┐
-			│                        Metadata                      │
-			│                          │                           │
-			│       ┌──────────────────┼──────────────────┐        │
-			│       │                  │                  │        │
-			│       ▼                  ▼                  ▼        │
-			│    Document        Classification       Templates    │
-			│    Identity                                          │
-			│                                                      │
-			└──────────────────────────────────────────────────────┘
-									   │
-									   ▼
+            ┌──────────────────────────────────────────────────────┐
+            │                       Metadata                      │
+            │                          │                           │
+            │       ┌──────────────────┼──────────────────┐        │
+            │       │                  │                  │        │
+            │       ▼                  ▼                  ▼        │
+            │    Document        Classification       Templates    │
+            │    Identity                                          │
+            │                                                      │
+            └──────────────────────────────────────────────────────┘
+                                       │
+                                       ▼
 
-							 Governance Components
-
-									   │
-									   ▼
+                             Governance Components
+                                       │
+                                       ▼
 
                               Discovery Components
-
-									   │
-									   ▼
+                                       │
+                                       ▼
 
                              Automation Components
-
-									   │
-									   ▼
+                                       │
+                                       ▼
 
                             Integration Components
 
@@ -373,3 +375,9 @@ An implementation conforms to the Metadata Architecture when:
 - DF-MTD-013 — Metadata Dictionary
 - DF-MTD-014 — Metadata Specification
 - DF-MTD-015 — Metadata Examples
+
+---
+
+**End of Document**
+
+---

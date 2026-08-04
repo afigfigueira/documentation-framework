@@ -66,22 +66,30 @@ Within the Documentation Framework, component documentation is organized as foll
 
 ```text
 
-		 Documentation Framework
-					│
-					▼ 
+         Documentation Framework
+                    │
+                    ▼
+
 		   Architectural Layer
-					│
-					▼ 
-			    Component
-					│
-					▼ 
-		 Component Documentation
-		 │
-         ├── README
-         ├── Architecture
-         ├── Structure
-         ├── Behavior
-         └── Reference
+                    │
+                    ▼
+
+                Component
+                    │
+                    ▼
+
+
+                    Component Documentation
+                    │
+                    ├── README
+                    │
+                    ├── Architecture
+                    │
+                    ├── Structure
+                    │
+                    ├── Behavior
+                    │
+                    └── Reference
 
 ```
 
@@ -95,17 +103,17 @@ Every component shall adopt the following directory structure.
 
 ```text
 
-					<Component>/
-					│
-					├── README.md
-					│
-					├── 01-Architecture/
-					│
-					├── 02-Structure/
-					│
-					├── 03-Behavior/
-					│
-					└── 04-Reference/
+                    <Component>/
+                    │
+                    ├── README.md
+                    │
+                    ├── 01-Architecture/
+                    │
+                    ├── 02-Structure/
+                    │
+                    ├── 03-Behavior/
+                    │
+                    └── 04-Reference/
 
 ```
 
@@ -210,28 +218,35 @@ Documentation should be read in the following sequence.
 
 ```text
 
-				  README
-					│
-					▼
-			   Architecture
-					│
-					▼
-				 Concepts
-					│
-					▼
-				  Model
-					│
-					▼
-				Elements
-					│
-					▼
-			    Structure
-					│
-					▼
-				 Behavior
-					│
-					▼
-				Reference
+                  README
+                    │
+                    ▼
+
+               Architecture
+                    │
+                    ▼
+
+                 Concepts
+                    │
+                    ▼
+
+                  Model
+                    │
+                    ▼
+
+                Elements
+                    │
+                    ▼
+
+                Structure
+                    │
+                    ▼
+
+                 Behavior
+                    │
+                    ▼
+
+                Reference
 
 ```
 
@@ -322,8 +337,8 @@ Roadmaps are maintained centrally under:
 
 ```text
 
-					docs/
-					└── 06-Roadmaps/
+                    docs/
+                    └── 06-Roadmaps/
 
 ```
 

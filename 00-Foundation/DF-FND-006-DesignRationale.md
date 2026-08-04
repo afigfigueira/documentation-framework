@@ -157,23 +157,19 @@ The process frequently followed this pattern.
 
 ```text id="dr1-1"
 
-			     Problem
+                 Problem
+                    ↓
 
-					↓
+               Observation
+                    ↓
 
-			   Observation
+                Experiment
+                    ↓
 
-					↓
+               Abstraction
+                    ↓
 
-			    Experiment
-
-					↓
-
-			   Abstraction
-
-					↓
-
-			   Architecture
+               Architecture
 
 ```
 
@@ -297,27 +293,22 @@ The Design Rationale can be represented as follows.
 
 ```text id="dr1-2"
 
-			     Problem
+                 Problem
+                    ↓
 
-					↓
+               Alternatives
+                    ↓
 
-			   Alternatives
+                 Decision
+                    ↓
 
-					↓
+               Architecture
+                    ↓
 
-			     Decision
+               Consequences
+                    ↓
 
-					↓
-
-			   Architecture
-
-					↓
-
-			   Consequences
-
-					↓
-
-			 Future Evolution
+             Future Evolution
 
 ```
 
@@ -740,19 +731,16 @@ Conceptually.
 
 ```text id="dr3-1"
 
-			    Knowledge
+                Knowledge
+                    ↓
 
-					↓
+                 Document
+                    ↓
 
-			     Document
+            Document Identity
+                    ↓
 
-					↓
-
-			Document Identity
-
-					↓
-
-			  Physical File
+              Physical File
 
 ```
 
@@ -1011,15 +999,13 @@ Conceptually.
 
 ```text id="dr4-1"
 
-			    Document
+                 Document
+                    ↓
 
-					↓
+            Document Identity
+                    ↓
 
-			Document Identity
-
-					↓
-
-			 Registry Entry
+             Registry Entry
 
 ```
 
@@ -1291,19 +1277,16 @@ Conceptually.
 
 ```text id="dr5-1"
 
-			    Document A
+                Document A
+                    ↓
 
-					↓
+                Document B
+                    ↓
 
-			    Document B
+                Document C
+                    ↓
 
-					↓
-
-			    Document C
-
-					↓
-
-			    Document D
+                Document D
 
 ```
 
@@ -1592,19 +1575,18 @@ Conceptually.
 
 ```text id="dr6-1"
 
-			    Documents
+                Documents
 
-					+
+                    +
 
-			     Metadata
+                 Metadata
 
-					+
+                    +
 
-			  Relationships
+              Relationships
+                    ↓
 
-					↓
-
-			    Baseline
+                Baseline
 
 ```
 
@@ -1898,23 +1880,19 @@ The architecture adopted the following structure.
 
 ```text id="dr7-1"
 
-			    Knowledge
+                Knowledge
+                    ↓
 
-					↓
+              Representation
+                    ↓
 
-			  Representation
+                Governance
+                    ↓
 
-					↓
+                Discovery
+                    ↓
 
-			    Governance
-
-					↓
-
-			    Discovery
-
-					↓
-
-			   Preservation
+               Preservation
 
 ```
 
@@ -2531,27 +2509,22 @@ The fundamental principles can be summarized as follows.
 
 ```text id="dr9-1"
 
-			    Separation
+                 eparation
+                    ↓
 
-					↓
+               Abstraction
+                    ↓
 
-			    Abstraction
+                Modularity
+                    ↓
 
-					↓
+               Independence
+                    ↓
 
-			    Modularity
+               Traceability
+                    ↓
 
-					↓
-
-			   Independence
-
-					↓
-
-			   Traceability
-
-					↓
-
-		  Knowledge Preservation
+          Knowledge Preservation
 
 ```
 

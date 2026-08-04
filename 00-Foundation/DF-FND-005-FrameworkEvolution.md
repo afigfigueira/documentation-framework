@@ -431,17 +431,17 @@ For example.
 
 ```text id="fe2-1"
 
-            META
+                    META
 
-            Architecture
+                    Architecture
 
-            Research
+                    Research
 
-            Specification
+                    Specification
 
-            Template
+                    Template
 
-            Analysis
+                    Analysis
 
 ```
 
@@ -505,22 +505,18 @@ Several components could already be recognized.
 ```text id="fe2-2"
 
                 Documents
-
                     ↓
 
                 Metadata
-
                     ↓
 
                 Identity
-
                     ↓
 
              Classification
-
                     ↓
 
-             Relationships
+              Relationships
 
 ```
 
@@ -658,11 +654,9 @@ A new conceptual layer then began to take shape.
 ```text id="fe3-1"
 
                 Knowledge
-
                     ↓
 
               Documentation
-
                     ↓
 
                  Storage
@@ -1074,27 +1068,21 @@ By the end of this phase, it was already possible to represent the system as an 
 ```text id="fe4-1"
 
                 Knowledge
-
                     ↓
 
               Documentation
-
                     ↓
 
-                Metadata
-
+                 Metadata
                     ↓
 
-                Workflow
-
+                 Workflow
                     ↓
 
                 Registry
-
                     ↓
 
              Knowledge Graph
-
                     ↓
 
                 Baselines
@@ -1393,26 +1381,21 @@ The complete evolution of the framework can be summarized as follows.
 ```text id="fe5-1"
 
               Documentation
-
                     ↓
 
-      Structured Documentation
-
+         Structured Documentation
                     ↓
 
-          Document System
-
+             Document System
                     ↓
 
-    Documentation Framework
-
+         Documentation Framework
                     ↓
 
-      Knowledge Architecture
-
+          Knowledge Architecture
                     ↓
 
-     Knowledge Infrastructure
+        Knowledge Infrastructure
 
 ```
 
@@ -1447,3 +1430,5 @@ This concludes the **Framework Evolution** document of the **Documentation Frame
 ---
 
 **End of Document**
+
+---

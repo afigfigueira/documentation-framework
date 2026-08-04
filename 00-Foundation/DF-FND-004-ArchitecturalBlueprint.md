@@ -155,27 +155,28 @@ The Documentation Framework can be represented as follows.
 
 ```text id="ab1-1"
 
-								 Documentation Framework
-											│
-											│	
-				  ┌─────────────────────────┼─────────────────────────┐
-				  │						    │						  │
-				  │                         │                         │
-				  │						    │						  │
-			Documentation               Governance                Knowledge
-				  │						    │						  │		
-				  │                         │                         │
-				  │						    │						  │
-				  ├───────────┐             │            ┌────────────┤
-				  │		   	  │			    │			 │			  │
-				  │           │             │            │			  │
-				  │		   	  │			    │			 │			  │
-			  Documents    Metadata      Workflow     Registry    Baselines
-				  │
-				  │
-				  │
-				  ▼
-		   Knowledge Graph
+                                   Documentation Framework
+                                            │
+                                            │
+                  ┌─────────────────────────┼─────────────────────────┐
+                  │                         │                         │
+                  │                         │                         │
+                  │                         │                         │
+            Documentation               Governance                Knowledge
+                  │                         │                         │
+                  │                         │                         │
+                  │                         │                         │
+                  ├───────────┐             │            ┌────────────┤
+                  │           │             │            │            │
+                  │           │             │            │            │
+                  │           │             │            │            │
+              Documents    Metadata      Workflow     Registry    Baselines
+                  │
+                  │
+                  │
+                  ▼
+           Knowledge Graph
+
 ```
 
 This representation highlights three major areas.
@@ -275,19 +276,16 @@ For example.
 
 ```text id="ab1-2"
 
-			   VisualEngine
+               VisualEngine
+                    ↓
 
-					↓
+        Change Management System
+                    ↓
 
-		Change Management System
+         Documentation Framework
+                    ↓
 
-					↓
-
-		 Documentation Framework
-
-					↓
-
-			 Knowledge Base
+             Knowledge Base
 
 ```
 
@@ -358,23 +356,23 @@ Conceptually, the main components can be represented as follows.
 
 ```text id="ab2-1"
 
-					   Documentation Framework
-								  │
-								  │
-			┌─────────────────────┬─────────────────────┐
-			│					  │						│
-			│              		  │              		│
-			│					  │						│
-	  Representation    	  Governance     		Knowledge
-			│					  │						│
-			│              	      │              		│
-			│					  │						│
-			▼              		  ▼              		▼
-		Documents      		   Workflow      		 Registry
+                       Documentation Framework
+                                  │
+                                  │
+            ┌─────────────────────┬─────────────────────┐
+            │                     │                     │
+            │                     │                     │
+            │                     │                     │
+      Representation          Governance            Knowledge
+            │                     │                     │
+            │                     │                     │
+            │                     │                     │
+            ▼                     ▼                     ▼
+        Documents              Workflow              Registry
 
-		Metadata       		  Baselines          Knowledge Graph
+        Metadata              Baselines           Knowledge Graph
 
-		Templates      		   Policies           Relationships
+        Templates              Policies           Relationships
 
 ```
 
@@ -492,23 +490,19 @@ For example.
 
 ```text id="ab2-2"
 
-				  Draft
+                  Draft
+                    ↓
 
-					↓
+                  Review
+                    ↓
 
-				  Review
+                 Approved
+                    ↓
 
-					↓
+               Deprecated
+                    ↓
 
-				 Approved
-
-					↓
-
-				Deprecated
-
-					↓
-
-				 Archived
+                 Archived
 
 ```
 
@@ -588,17 +582,17 @@ Relationship types include.
 
 ```text id="ab2-3"
 
-			Defines
+                    Defines
 
-			Depends On
+                    Depends On
 
-			References
+                    References
 
-			Implements
+                    Implements
 
-			Extends
+                    Extends
 
-			Replaces
+                    Replaces
 
 ```
 
@@ -650,27 +644,22 @@ Conceptually.
 
 ```text id="ab2-4"
 
-				 Document
+                 Document
+                    ↓
 
-					↓
+                 Metadata
+                    ↓
 
-				 Metadata
+                 Registry
+                    ↓
 
-					↓
+             Knowledge Graph
+                    ↓
 
-				 Registry
+                Baselines
+                    ↓
 
-					↓
-
-			 Knowledge Graph
-
-					↓
-
-				Baselines
-
-					↓
-
-				 Workflow
+                 Workflow
 
 ```
 
@@ -760,12 +749,12 @@ They describe the document.
 Conceptually.
 
 ```text id="ab3-1"
-			
-			Document
-			│
-			├── Metadata
-			│
-			└── Content
+
+                    Document
+                    │
+                    ├── Metadata
+                    │
+                    └── Content
 
 ```
 
@@ -781,17 +770,17 @@ For example.
 
 ```text id="ab3-2"
 
-			Identification
+                    Identification
 
-			Classification
+                    Classification
 
-			Lifecycle
+                    Lifecycle
 
-			Ownership
+                    Ownership
 
-			Localization
+                    Localization
 
-			Technical Information
+                    Technical Information
 
 ```
 
@@ -911,7 +900,7 @@ For example.
 
 ```text id="ab3-3"
 
-			META-DCL-001
+                    META-DCL-001
 
 ```
 
@@ -950,23 +939,19 @@ Conceptually.
 
 ```text id="ab3-4"
 
-				 Metadata
+                 Metadata
+                    ↓
 
-					↓
+                Describes
+                    ↓
 
-				Describes
+                 Document
 
-					↓
+                    ↑
+              Identified By
+                    ↓
 
-				 Document
-
-					↑
-
-			  Identified By
-
-					↓
-
-			Document Identity
+            Document Identity
 
 ```
 
@@ -1033,23 +1018,21 @@ Conceptually.
 
 ```text id="ab3-5"
 
-						 Document
-							│
-			   ┌────────────┴────────────┐
-			   │						 │
-			   │                         │
-			Metadata                  Content
-      
-							│
-							▼
+                         Document
+                            │
+               ┌────────────┴────────────┐
+               │                         │
+               │                         │
+           Metadata                   Content
+                            │
+                            ▼
 
-					Document Identity
+                    Document Identity
+                            │
+                            ▼
 
-							│
-							▼
-
-			Registry / Workflow / Baselines /
-					 Knowledge Graph
+           Registry / Workflow / Baselines /
+                     Knowledge Graph
 
 ```
 
@@ -1110,17 +1093,17 @@ The governance layer can be represented as follows.
 
 ```text id="ab4-1"
 
-			Governance Layer
-			│
-			├── Workflow
-			│
-			├── Policies
-			│
-			├── States
-			│
-			├── Responsibilities
-			│
-			└── Baselines
+                    Governance Layer
+                    │
+                    ├── Workflow
+                    │
+                    ├── Policies
+                    │
+                    ├── States
+                    │
+                    ├── Responsibilities
+                    │
+                    └── Baselines
 
 ```
 
@@ -1152,24 +1135,20 @@ Conceptually.
 
 ```text id="ab4-2"
 
-				  Draft
+                  Draft
+                    ↓
 
-					↓
+                  Review
+                    ↓
 
-				  Review
+                 Approved
+                    ↓
 
-					↓
+                Deprecated
+                    ↓
 
-				 Approved
+                 Archived
 
-					↓
-
-				Deprecated
-
-					↓
-
-				 Archived
-				
 ```
 
 The architecture supports different states.
@@ -1204,28 +1183,25 @@ For example.
 
 ```text id="ab4-3"
 
-				  Draft
+                  Draft
+                    ↓
 
-					↓
+                  Review
+                    ↓
 
-				  Review
+                 Approved
 
-					↓
-
-				 Approved
-				
 ```
 
 Whereas.
 
 ```text id="ab4-4"
 
-				 Archived
+                 Archived
+                    ↓
 
-					↓
+                  Draft
 
-				  Draft
-				
 ```
 
 may not be permitted.
@@ -1261,13 +1237,13 @@ For example.
 
 ```text id="ab4-5"
 
-			Author
+                    Author
 
-			Reviewer
+                    Reviewer
 
-			Owner
+                    Owner
 
-			Approver
+                    Approver
 
 ```
 
@@ -1332,16 +1308,14 @@ Conceptually.
 
 ```text id="ab4-6"
 
-				  Change
+                  Change
+                    ↓
 
-					↓
+                 Workflow
+                    ↓
 
-				 Workflow
+                 Document
 
-					↓
-
-				 Document
-					
 ```
 
 The CMS initiates the change.
@@ -1401,28 +1375,23 @@ Conceptually.
 
 ```text id="ab4-7"
 
-				 Document
+                 Document
+                    ↓
 
-					↓
+                 Metadata
+                    ↓
 
-				 Metadata
+                 Workflow
+                    ↓
 
-					↓
+                 Policies
+                    ↓
 
-				 Workflow
+                  States
+                    ↓
 
-					↓
+                Baselines
 
-				 Policies
-
-					↓
-
-				  States
-
-					↓
-
-				Baselines
-				
 ```
 
 This sequence represents documentation governance throughout the entire knowledge lifecycle.
@@ -1484,24 +1453,20 @@ Conceptually.
 
 ```text id="ab5-1"
 
-				Knowledge
+                Knowledge
+                    ↓
 
-					↓
+                Documents
+                    ↓
 
-				Documents
+                 Registry
+                    ↓
 
-					↓
+             Knowledge Graph
+                    ↓
 
-				 Registry
+                Navigation
 
-					↓
-
-			 Knowledge Graph
-
-					↓
-
-				Navigation
-				
 ```
 
 Each component adds a new capability for exploring documentation.
@@ -1541,19 +1506,19 @@ Conceptually.
 
 ```text id="ab5-2"
 
-			Registry Entry
-			│
-			├── Document ID
-			│
-			├── Metadata
-			│
-			├── Status
-			│
-			├── Version
-			│
-			├── Baseline
-			│
-			└── Relationships
+                    Registry Entry
+                    │
+                    ├── Document ID
+                    │
+                    ├── Metadata
+                    │
+                    ├── Status
+                    │
+                    ├── Version
+                    │
+                    ├── Baseline
+                    │
+                    └── Relationships
 
 ```
 
@@ -1617,11 +1582,10 @@ Conceptually.
 
 ```text id="ab5-3"
 
-				 Document
+                 Document
+                    ↓
 
-					↓
-
-				   Node
+                   Node
 
 ```
 
@@ -1637,17 +1601,17 @@ For example.
 
 ```text id="ab5-4"
 
-			Defines
+                    Defines
 
-			Depends On
+                    Depends On
 
-			References
+                    References
 
-			Extends
+                    Extends
 
-			Implements
+                    Implements
 
-			Replaces
+                    Replaces
 
 ```
 
@@ -1699,27 +1663,22 @@ For example.
 
 ```text id="ab5-5"
 
-			   Architecture
+               Architecture
+                    ↓
 
-					↓
+                 Defines
+                    ↓
 
-				 Defines
+                Component
+                    ↓
 
-					↓
+               Specification
+                    ↓
 
-				Component
+              Implementation
+                    ↓
 
-					↓
-
-			   Specification
-
-					↓
-
-			  Implementation
-
-					↓
-
-				 Research
+                 Research
 
 ```
 
@@ -1756,23 +1715,19 @@ Conceptually.
 
 ```text id="ab5-6"
 
-				 Registry
+                 Registry
+                    ↓
 
-					↓
+                  Locate
+                    ↓
 
-				  Locate
+                 Document
+                    ↓
 
-					↓
+             Knowledge Graph
+                    ↓
 
-				 Document
-
-					↓
-
-			 Knowledge Graph
-
-					↓
-
-				 Explore
+                 Explore
 
 ```
 
@@ -1834,28 +1789,23 @@ Conceptually.
 
 ```text id="ab5-7"
 
-				Documents
+                Documents
+                    ↓
 
-					↓
+                 Metadata
+                    ↓
 
-				Metadata
+                 Registry
+                    ↓
 
-					↓
+              Knowledge Graph
+                    ↓
 
-				 Registry
+            Semantic Navigation
+                    ↓
 
-					↓
+            Knowledge Discovery
 
-			 Knowledge Graph
-
-					↓
-
-		   Semantic Navigation
-
-					↓
-
-		   Knowledge Discovery
-				
 ```
 
 This sequence represents the complete path from the document to knowledge discovery.
@@ -1928,17 +1878,16 @@ Conceptually.
 
 ```text id="ab6-1"
 
-				Baseline
+                Baseline
+                    ↓
 
-					↓
+                Document A
 
-				Document A
+                Document B
 
-				Document B
+                Document C
 
-				Document C
-
-				Document D
+                Document D
 
 ```
 
@@ -1999,17 +1948,17 @@ Conceptually.
 
 ```text id="ab6-2"
 
-			Baseline
-			│
-			├── Identifier
-			│
-			├── Version
-			│
-			├── Creation Date
-			│
-			├── Included Documents
-			│
-			└── Description
+                    Baseline
+                    │
+                    ├── Identifier
+                    │
+                    ├── Version
+                    │
+                    ├── Creation Date
+                    │
+                    ├── Included Documents
+                    │
+                    └── Description
 
 ```
 
@@ -2139,15 +2088,13 @@ Conceptually.
 
 ```text id="ab6-3"
 
-				Changes
+                 Changes
+                    ↓
 
-					↓
+                Documents
+                    ↓
 
-				Documents
-
-					↓
-
-				Baseline
+                Baseline
 
 ```
 
@@ -2192,27 +2139,22 @@ Conceptually.
 
 ```text id="ab6-4"
 
-				Documents
+                Documents
+                    ↓
 
-					↓
+                 Workflow
+                    ↓
 
-				Workflow
+            Approved Documents
+                    ↓
 
-					↓
+                Baseline
+                    ↓
 
-				Approved Documents
+          Knowledge Preservation
+                    ↓
 
-					↓
-
-				Baseline
-
-					↓
-
-				Knowledge Preservation
-
-					↓
-
-				Historical Evolution
+          Historical Evolution
 
 ```
 
@@ -2275,21 +2217,21 @@ Conceptually.
 
                     Project Ecosystem
 
-							│
-							│
- 			 ┌──────────────┬──────────────┐
- 			 │				│			   │	
-			 │              │              │
-	   VisualEngine        CMS        Source Code
-			 │              │              │
- 			 │				│			   │	
-			 └──────────────┴──────────────┘
-							│
-							│
-				 Documentation Framework
-							│
-							│							
-					  Knowledge Base
+                            │
+                            │
+             ┌──────────────┬──────────────┐
+             │              │              │
+             │              │              │
+        VisualEngine       CMS        Source Code
+             │              │              │
+             │              │              │
+             └──────────────┴──────────────┘
+                            │
+                            │
+                 Documentation Framework
+                            │
+                            │
+                     Knowledge Base
 
 ```
 
@@ -2321,19 +2263,16 @@ The interaction can be represented as follows.
 
 ```text id="ab7-2"
 
-			   Architecture
+               Architecture
+                    ↓
 
-					↓
+              Documentation
+                    ↓
 
-			  Documentation
+                Knowledge
+                    ↓
 
-					↓
-
-				Knowledge
-
-					↓
-
-				Evolution
+                Evolution
 
 ```
 
@@ -2353,19 +2292,16 @@ Conceptually.
 
 ```text id="ab7-3"
 
-				  Change
+                  Change
+                    ↓
 
-					↓
+                 Decision
+                    ↓
 
-				 Decision
+               Documentation
+                    ↓
 
-					↓
-
-			   Documentation
-
-					↓
-
-				 Baseline
+                Baseline
 
 ```
 
@@ -2467,27 +2403,22 @@ Conceptually.
 
 ```text id="ab7-4"
 
-				 Research
+                 Research
+                    ↓
 
-					↓
+               Architecture
+                    ↓
 
-			   Architecture
+              Implementation
+                    ↓
 
-					↓
+              Documentation
+                    ↓
 
-			  Implementation
+             Knowledge Graph
+                    ↓
 
-					↓
-
-			   Documentation
-
-					↓
-
-			 Knowledge Graph
-
-					↓
-
-		 Historical Preservation
+         Historical Preservation
 
 ```
 
@@ -2566,27 +2497,22 @@ Conceptually.
 
 ```text id="ab7-5"
 
-				Research
+                 Research
+                    ↓
 
-					↓
+                   CMS
+                    ↓
 
-				   CMS
+               VisualEngine
+                    ↓
 
-					↓
+         Documentation Framework
+                    ↓
 
-			  VisualEngine
+              Knowledge Base
+                    ↓
 
-					↓
-
-		 Documentation Framework
-
-					↓
-
-			 Knowledge Base
-
-					↓
-
-			 Future Evolution
+             Future Evolution
 
 ```
 
@@ -2639,23 +2565,19 @@ The Documentation Framework can be represented through five major layers.
 
 ```text id="ab8-1"
 
-			 Knowledge Layer
+             Knowledge Layer
+                    ↓
 
-					↓
+           Documentation Layer
+                    ↓
 
-		   Documentation Layer
+             Governance Layer
+                    ↓
 
-					↓
+             Discovery Layer
+                    ↓
 
-			Governance Layer
-
-					↓
-
-			 Discovery Layer
-
-					↓
-
-		   Preservation Layer
+            Preservation Layer
 
 ```
 
@@ -2753,23 +2675,19 @@ Conceptually.
 
 ```text id="ab8-2"
 
-			    Knowledge
+                Knowledge
+                    ↓
 
-					↓
+              Documentation
+                    ↓
 
-			  Documentation
+                Governance
+                    ↓
 
-					↓
+                Discovery
+                    ↓
 
-			    Governance
-
-					↓
-
-			    Discovery
-
-					↓
-
-			  Preservation
+              Preservation
 
 ```
 
@@ -2783,27 +2701,22 @@ The complete lifecycle can also be represented as follows.
 
 ```text id="ab8-3"
 
-				  Idea
+                   Idea
+                    ↓
 
-					↓
+                 Decision
+                    ↓
 
-			    Decision
+                Document
+                    ↓
 
-					↓
+                 Approval
+                    ↓
 
-				Document
+                 Baseline
+                    ↓
 
-					↓
-
-				Approval
-
-					↓
-
-				Baseline
-
-					↓
-
-		   Historical Knowledge
+           Historical Knowledge
 
 ```
 
@@ -2819,27 +2732,22 @@ The architecture responds in a predictable manner.
 
 ```text id="ab8-4"
 
-				  Change
+                  Change
+                    ↓
 
-					↓
+                 Workflow
+                    ↓
 
-			     Workflow
+             Metadata Update
+                    ↓
 
-					↓
+             Registry Update
+                    ↓
 
-			 Metadata Update
+          Knowledge Graph Update
+                    ↓
 
-					↓
-
-			 Registry Update
-
-					↓
-
-		 Knowledge Graph Update
-
-					↓
-
-				 Baseline
+                Baseline
 
 ```
 
@@ -2855,19 +2763,16 @@ Conceptually.
 
 ```text id="ab8-5"
 
-			    Metadata
+                 Metadata
+                    ↓
 
-					↓
+                Registry
+                    ↓
 
-			    Registry
+             Knowledge Graph
+                    ↓
 
-					↓
-
-			 Knowledge Graph
-
-					↓
-
-				Baselines
+                Baselines
 
 ```
 
@@ -2947,33 +2852,33 @@ Another way to represent the system is through the following architecture.
 
 ```text id="ab8-6"
 
-			Knowledge
+                    Knowledge
 
-	────────────────────────────
+         ────────────────────────────
 
-			Documents
+                    Documents
 
-			Metadata
+                    Metadata
 
-			Templates
+                    Templates
 
-	────────────────────────────
+         ────────────────────────────
 
-			Workflow
+                    Workflow
 
-			Policies
+                    Policies
 
-	────────────────────────────
+         ────────────────────────────
 
-			Registry
+                    Registry
 
-		 Knowledge Graph
+                Knowledge Graph
 
-	────────────────────────────
+         ────────────────────────────
 
-		   Baselines
+                    Baselines
 
-			History
+                    History
 
 ```
 
@@ -3017,27 +2922,22 @@ Conceptually.
 
 ```text id="ab8-7"
 
-				Knowledge
+                Knowledge
+                    ↓
 
-					↓
+              Documentation
+                    ↓
 
-			  Documentation
+               Governance
+                    ↓
 
-					↓
+                Discovery
+                    ↓
 
-			    Governance
+              Preservation
+                    ↓
 
-					↓
-
-			    Discovery
-
-					↓
-
-			   Preservation
-
-					↓
-
-		   Knowledge Evolution
+           Knowledge Evolution
 
 ```
 
@@ -3334,27 +3234,22 @@ The entire architecture can be summarized by the following conceptual sequence.
 
 ```text id="ab9-1"
 
-				Knowledge
+                Knowledge
+                    ↓
 
-					↓
+              Representation
+                    ↓
 
-			  Representation
+                Governance
+                    ↓
 
-					↓
+                Discovery
+                    ↓
 
-			    Governance
+               Preservation
+                    ↓
 
-					↓
-
-			    Discovery
-
-					↓
-
-			   Preservation
-
-					↓
-
-			    Evolution
+                Evolution
 
 ```
 
@@ -3437,40 +3332,40 @@ The entire architecture can be represented as follows.
 
 ```text id="ab10-1"
 
-			             Knowledge
-							 │
-							 │
-			┌────────────────┴────────────────┐
+                         Knowledge
+                             │
+                             │
+            ┌────────────────┴────────────────┐
             │                                 │
             │                                 │
             │                                 │
-	  Representation               		  Governance
+      Representation                      Governance
             │                                 │
-			│                           	  │
             │                                 │
-		Documents                  		  Workflow
+            │                                 │
+        Documents                          Workflow
 
-		Metadata                          Policies
+        Metadata                          Policies
 
-		Identity                   		  Baselines
-			│                                 │
-			│                                 │
-			└────────────────┬────────────────┘
-							 │
-							 │
-						 Discovery
-							 │
-							 │							 
-						  Registry
-							 │
-							 │							 
-					  Knowledge Graph
-							 │
-							 │							 
-						Preservation
-							 │
-							 │
-				    Historical Knowledge
+         Identity                         Baselines
+            │                                 │
+            │                                 │
+            └────────────────┬────────────────┘
+                             │
+                             │
+                         Discovery
+                             │
+                             │
+                         Registry
+                             │
+                             │
+                      Knowledge Graph
+                             │
+                             │
+                        Preservation
+                             │
+                             │
+                   Historical Knowledge
 
 ```
 
@@ -3484,31 +3379,25 @@ The knowledge lifecycle can also be represented as follows.
 
 ```text id="ab10-2"
 
-			    Knowledge
+                Knowledge
+                    ↓
 
-					↓
+                 Decision
+                    ↓
 
-				 Decision
+              Documentation
+                    ↓
 
-					↓
+                Governance
+                    ↓
 
-			  Documentation
+                Discovery
+                    ↓
 
-					↓
+               Preservation
+                    ↓
 
-				Governance
-
-					↓
-
-				Discovery
-
-					↓
-
-			   Preservation
-
-					↓
-
-		   Knowledge Evolution
+           Knowledge Evolution
 
 ```
 
@@ -3759,3 +3648,5 @@ This concludes the **Architectural Blueprint** document for the **Documentation 
 ---
 
 **End of Document**
+
+---

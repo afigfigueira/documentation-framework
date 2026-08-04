@@ -65,14 +65,14 @@ Conceptually.
 
 ```text
 
-					     Documentation Layer
+                         Documentation Layer
 
-					┌───────────────────────────┐
-					│ Metadata                  │
-					│ Document Identity         │
-					│ Classification            │
-					│ Templates                 │
-					└───────────────────────────┘
+                    ┌───────────────────────────┐
+                    │ Metadata                  │
+                    │ Document Identity         │
+                    │ Classification            │
+                    │ Templates                 │
+                    └───────────────────────────┘
 
 ```
 

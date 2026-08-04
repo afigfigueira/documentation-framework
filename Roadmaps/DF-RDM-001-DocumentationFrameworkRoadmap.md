@@ -75,26 +75,27 @@ Conceptually.
 
 ```text
 
-					Architecture
-							│
-							├── Foundation
-							├── Architecture
-							├── Documentation
-							├── Governance
-							├── Discovery
-							├── Automation
-							└── Integration
+                    Architecture
+                    │
+                    ├── Foundation
+                    ├── Architecture
+                    ├── Documentation
+                    ├── Governance
+                    ├── Discovery
+                    ├── Automation
+                    └── Integration
 
-					   Roadmaps
-							│
-							├── Foundation Roadmaps
-							├── Architecture Roadmaps
-							├── Documentation Roadmaps
-							├── Governance Roadmaps
-							├── Discovery Roadmaps
-							├── Automation Roadmaps
-							└── Integration Roadmaps
-							
+
+                    Roadmaps
+                    │
+                    ├── Foundation Roadmaps
+                    ├── Architecture Roadmaps
+                    ├── Documentation Roadmaps
+                    ├── Governance Roadmaps
+                    ├── Discovery Roadmaps
+                    ├── Automation Roadmaps
+                    └── Integration Roadmaps
+
 ```
 
 The roadmap reflects the architecture.
@@ -109,58 +110,58 @@ The Documentation Framework repository is organised as follows.
 
 ```text
 
-					DocumentationFramework
-					│
-					├── 00-Foundation
-					├── 01-Architecture
-					├── 02-Documentation
-					│   ├── Metadata
-					│   ├── DocumentIdentity
-					│   ├── Classification
-					│   └── Templates
-					│
-					├── 03-Governance
-					│   ├── Workflow
-					│   ├── Policies
-					│   ├── Reviews
-					│   └── Baselines
-					│
-					├── 04-Discovery
-					│   ├── Registry
-					│   ├── Relationships
-					│   ├── KnowledgeGraph
-					│   ├── Navigation
-					│   └── Search
-					│
-					├── 05-Automation
-					│   ├── Validation
-					│   ├── MetadataGeneration
-					│   ├── RegistryGeneration
-					│   ├── ConsistencyVerification
-					│   └── DocumentationGenerators
-					│
-					├── 06-Integration
-					│   ├── SourceControl
-					│   ├── CICD
-					│   ├── IDEExtensions
-					│   ├── DocumentationPlatforms
-					│   └── AIIntegration
-					│
-					├── Roadmaps
-					│   ├── 00-Foundation
-					│   ├── 01-Architecture
-					│   ├── 02-Documentation
-					│   ├── 03-Governance
-					│   ├── 04-Discovery
-					│   ├── 05-Automation
-					│   └── 06-Integration
-					│
-					├── Resources
-					│   └── DocumentTemplates
-					│
-					├── Guides
-					└── Reference
-					
+                    DocumentationFramework
+                    │
+                    ├── 00-Foundation
+                    ├── 01-Architecture
+                    ├── 02-Documentation
+                    │   ├── Metadata
+                    │   ├── DocumentIdentity
+                    │   ├── Classification
+                    │   └── Templates
+                    │
+                    ├── 03-Governance
+                    │   ├── Workflow
+                    │   ├── Policies
+                    │   ├── Reviews
+                    │   └── Baselines
+                    │
+                    ├── 04-Discovery
+                    │   ├── Registry
+                    │   ├── Relationships
+                    │   ├── KnowledgeGraph
+                    │   ├── Navigation
+                    │   └── Search
+                    │
+                    ├── 05-Automation
+                    │   ├── Validation
+                    │   ├── MetadataGeneration
+                    │   ├── RegistryGeneration
+                    │   ├── ConsistencyVerification
+                    │   └── DocumentationGenerators
+                    │
+                    ├── 06-Integration
+                    │   ├── SourceControl
+                    │   ├── CICD
+                    │   ├── IDEExtensions
+                    │   ├── DocumentationPlatforms
+                    │   └── AIIntegration
+                    │
+                    ├── Roadmaps
+                    │   ├── 00-Foundation
+                    │   ├── 01-Architecture
+                    │   ├── 02-Documentation
+                    │   ├── 03-Governance
+                    │   ├── 04-Discovery
+                    │   ├── 05-Automation
+                    │   └── 06-Integration
+                    │
+                    ├── Resources
+                    │   └── DocumentTemplates
+                    │
+                    ├── Guides
+                    └── Reference
+
 ```
 
 ---
@@ -193,20 +194,20 @@ For example.
 
 ```text
 
-					Roadmaps
-					│
-					├── 02-Documentation
-					│   ├── Metadata
-					│   │   └── DF-MTD-RDM-001.md
-					│   │
-					│   ├── DocumentIdentity
-					│   │   └── DF-DID-RDM-001.md
-					│   │
-					│   ├── Classification
-					│   │   └── DF-CLS-RDM-001.md
-					│   │
-					│   └── Templates
-					│       └── DF-TPL-RDM-001.md
+                    Roadmaps
+                    │
+                    ├── 02-Documentation
+                    │   ├── Metadata
+                    │   │   └── DF-MTD-RDM-001.md
+                    │   │
+                    │   ├── DocumentIdentity
+                    │   │   └── DF-DID-RDM-001.md
+                    │   │
+                    │   ├── Classification
+                    │   │   └── DF-CLS-RDM-001.md
+                    │   │
+                    │   └── Templates
+                    │       └── DF-TPL-RDM-001.md
 
 ```
 

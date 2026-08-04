@@ -146,17 +146,19 @@ Most documentation was organised solely through directories.
 For example.
 
 ```text
-docs/
 
-README.md
+                    docs/
 
-Architecture.md
+                    README.md
 
-Design.md
+                    Architecture.md
 
-Notes.md
+                    Design.md
 
-Todo.md
+                    Notes.md
+
+                    Todo.md
+
 ```
 
 Although functional.
@@ -231,19 +233,16 @@ Up to this point, the evolution can be summarised as follows.
 
 ```text
 
-				  Notes
+                  Notes
+                    ↓
 
-					↓
+                Documents
+                    ↓
 
-				Documents
+            Document Collection
+                    ↓
 
-					↓
-
-		    Document Collection
-
-					↓
-
-			Need for Organization
+            Need for Organization
 
 ```
 
@@ -401,11 +400,10 @@ Conceptually.
 
 ```text id="tpl1"
 
-				 Template
+                 Template
+                    ↓
 
-					↓
-
-			   New Document
+               New Document
 
 ```
 
@@ -464,15 +462,15 @@ For example.
 
 ```text id="tpl2"
 
-				Architecture Template
+                    Architecture Template
 
-				Research Template
+                    Research Template
 
-				Specification Template
+                    Specification Template
 
-				Reference Template
+                    Reference Template
 
-				README Template
+                    README Template
 
 ```
 
@@ -759,11 +757,11 @@ A conceptual separation then began to emerge.
 
 ```text id="md1"
 
-					Document
-					│
-					├── Content
-					│
-					└── Metadata
+                    Document
+                    │
+                    ├── Content
+                    │
+                    └── Metadata
 
 ```
 
@@ -824,17 +822,17 @@ Conceptually.
 
 ```text id="md2"
 
-					Document ID
+                    Document ID
 
-					Title
+                    Title
 
-					Version
+                    Version
 
-					Status
+                    Status
 
-					Project
+                    Project
 
-					Language
+                    Language
 
 ```
 
@@ -1020,13 +1018,13 @@ For example.
 
 ```text id="id1"
 
-					Architecture.md
+                    Architecture.md
 
-					Design.md
+                    Design.md
 
-					README.md
+                    README.md
 
-					Notes.md
+                    Notes.md
 
 ```
 
@@ -1085,11 +1083,11 @@ For example.
 
 ```text id="id2"
 
-					DOC-001
+                    DOC-001
 
-					DOC-002
+                    DOC-002
 
-					DOC-003
+                    DOC-003
 
 ```
 
@@ -1129,17 +1127,17 @@ For example.
 
 ```text id="id3"
 
-					META
+                    META
 
-					ARC
+                    ARC
 
-					ANL
+                    ANL
 
-					REF
+                    REF
 
-					STD
+                    STD
 
-					RFC
+                    RFC
 
 ```
 
@@ -1163,13 +1161,13 @@ For example.
 
 ```text id="id4"
 
-					META-DCL
+                    META-DCL
 
-					META-WFL
+                    META-WFL
 
-					META-CON
+                    META-CON
 
-					META-REF
+                    META-REF
 
 ```
 
@@ -1191,11 +1189,11 @@ Conceptually.
 
 ```text id="id5"
 
-					META-DCL-001
+                    META-DCL-001
 
-					META-DCL-002
+                    META-DCL-002
 
-					META-DCL-003
+                    META-DCL-003
 
 ```
 
@@ -1269,21 +1267,21 @@ For example.
 
 ```text id="id6"
 
-					Document ID
+                    Document ID
 
-					Family
+                    Family
 
-					Type
+                    Type
 
-					Class
+                    Class
 
-					Version
+                    Version
 
-					Revision
+                    Revision
 
-					Status
+                    Status
 
-					Baseline
+                    Baseline
 
 ```
 
@@ -1441,11 +1439,10 @@ Conceptually.
 
 ```text id="meta1"
 
-				  META
+                   META
+                    ↓
 
-					↓
-
-			Documentation Rules
+            Documentation Rules
 
 ```
 
@@ -1463,7 +1460,7 @@ A new Family was created.
 
 ```text id="meta2"
 
-					META
+                    META
 
 ```
 
@@ -1499,13 +1496,13 @@ For example.
 
 ```text id="meta3"
 
-					META-DCL
+                    META-DCL
 
-					META-REF
+                    META-REF
 
-					META-CON
+                    META-CON
 
-					META-WFL
+                    META-WFL
 
 ```
 
@@ -1563,31 +1560,25 @@ For example.
 
 ```text id="meta4"
 
-				META-DCL
+                META-DCL
+                    ↓
 
-					↓
+                 Defines
+                    ↓
 
-				 Defines
+                META-REF
+                    ↓
 
-					↓
+                  Uses
+                    ↓
 
-				META-REF
+                META-CON
+                    ↓
 
-					↓
+                Related to
+                    ↓
 
-				  Uses
-
-					↓
-
-				META-CON
-
-					↓
-
-				Related to
-
-					↓
-
-				META-WFL
+                META-WFL
 
 ```
 
@@ -1719,21 +1710,21 @@ For example.
 
 ```text id="bl1"
 
-					Architecture
+                    Architecture
 
-					Version 2.1
+                    Version 2.1
 
-					Documentation
+                    Documentation
 
-					Version 1.4
+                    Version 1.4
 
-					Reference
+                    Reference
 
-					Version 3.0
+                    Version 3.0
 
-					Workflow
+                    Workflow
 
-					Version 1.2
+                    Version 1.2
 
 ```
 
@@ -1775,17 +1766,17 @@ Conceptually.
 
 ```text id="bl2"
 
-					Baseline
-					│
-					├── Architecture
-					│
-					├── Reference
-					│
-					├── Workflow
-					│
-					├── Templates
-					│
-					└── Standards
+                    Baseline
+                    │
+                    ├── Architecture
+                    │
+                    ├── Reference
+                    │
+                    ├── Workflow
+                    │
+                    ├── Templates
+                    │
+                    └── Standards
 
 ```
 
@@ -1836,23 +1827,19 @@ For example.
 
 ```text id="bl3"
 
-				   Draft
+                   Draft
+                    ↓
 
-					↓
+                  Review
+                    ↓
 
-				  Review
+                 Approved
+                    ↓
 
-					↓
+                Deprecated
+                    ↓
 
-				 Approved
-
-					↓
-
-				Deprecated
-
-					↓
-
-				 Archived
+                 Archived
 
 ```
 
@@ -1932,15 +1919,15 @@ For example.
 
 ```text id="bl4"
 
-					Baseline
+                    Baseline
 
-					Version
+                    Version
 
-					Revision
+                    Revision
 
-					Status
+                    Status
 
-					Last Updated
+                    Last Updated
 
 ```
 
@@ -2042,17 +2029,17 @@ For example.
 
 ```text id="reg1"
 
-					docs/
+                    docs/
 
-					architecture/
+                    architecture/
 
-					meta/
+                    meta/
 
-					analysis/
+                    analysis/
 
-					templates/
+                    templates/
 
-					research/
+                    research/
 
 ```
 
@@ -2111,13 +2098,11 @@ Conceptually.
 
 ```text id="reg2"
 
-			 Document Registry
+             Document Registry
+                    ↓
 
-					↓
-
-				  Knows
-
-					↓
+                  Knows
+                    ↓
 
 			  All Documents
 
@@ -2177,15 +2162,13 @@ Conceptually.
 
 ```text id="reg3"
 
-				 Document
+                 Document
+                    ↓
 
-					↓
+               Represented by
+                    ↓
 
-			   Represented by
-
-					↓
-
-			   Registry Entry
+               Registry Entry
 
 ```
 
@@ -2223,20 +2206,17 @@ For example.
 
 ```text id="reg4"
 
-			   Architecture
+              Architecture
+                    ↓
 
-					↓
+                Reference
+                    ↓
 
-				Reference
+                 Workflow
+                    ↓
 
-					↓
+                  META
 
-				 Workflow
-
-					↓
-
-				  META
-				  
 ```
 
 Documents progressively ceased to form a tree.
@@ -2445,17 +2425,17 @@ For example.
 
 ```text id="rel1"
 
-					Defines
+                    Defines
 
-					References
+                    References
 
-					Depends On
+                    Depends On
 
-					Replaces
+                    Replaces
 
-					Extends
+                    Extends
 
-					Implements
+                    Implements
 
 ```
 
@@ -2497,23 +2477,19 @@ Conceptually.
 
 ```text id="rel2"
 
-				 Document
+                 Document
+                    ↓
 
-					↓
+                Related To
+                    ↓
 
-				Related To
+                 Document
+                    ↓
 
-					↓
+                Related To
+                    ↓
 
-				 Document
-
-					↓
-
-				Related To
-
-					↓
-
-				 Document
+                 Document
 
 ```
 
@@ -2551,31 +2527,25 @@ For example.
 
 ```text id="rel3"
 
-			   Architecture
+               Architecture
+                    ↓
 
-					↓
+                 Defines
+                    ↓
 
-				 Defines
+                Component
+                    ↓
 
-					↓
+              Implemented By
+                    ↓
 
-				Component
+               Specification
+                    ↓
 
-					↓
+               Referenced By
+                    ↓
 
-			  Implemented By
-
-					↓
-
-			   Specification
-
-					↓
-
-			   Referenced By
-
-					↓
-
-				 Research
+                 Research
 
 ```
 
@@ -2791,11 +2761,10 @@ Initially, an extremely simple workflow was proposed.
 
 ```text id="wf1"
 
-				  Draft
+                  Draft
+                    ↓
 
-					↓
-
-				 Approved
+                 Approved
 
 ```
 
@@ -2811,15 +2780,13 @@ A new intermediate stage quickly emerged.
 
 ```text id="wf2"
 
-				  Draft
+                  Draft
+                    ↓
 
-					↓
+                  Review
+                    ↓
 
-				 Review
-
-					↓
-
-				Approved
+                 Approved
 
 ```
 
@@ -2841,15 +2808,15 @@ For example.
 
 ```text id="wf3"
 
-					Draft
+                    Draft
 
-					Review
+                    Review
 
-					Approved
+                    Approved
 
-					Deprecated
+                    Deprecated
 
-					Archived
+                    Archived
 
 ```
 
@@ -3099,15 +3066,13 @@ The research revealed a different model.
 
 ```text id="ve1"
 
-			   VisualEngine
+               VisualEngine
+                    ↓
 
-					↓
+               Documentation
+                    ↓
 
-			   Documentation
-
-					↓
-
-			   VisualEngine
+               VisualEngine
 
 ```
 
@@ -3145,9 +3110,9 @@ Conceptually.
 
 ```text id="ve2"
 
-					VisualEngine
+                    VisualEngine
 
-					Documentation Framework
+                    Documentation Framework
 
 ```
 
@@ -3427,15 +3392,13 @@ Until this point, evolution had been understood as follows.
 
 ```text id="cms1"
 
-				 Document
+                 Document
+                    ↓
 
-					↓
+                 Workflow
+                    ↓
 
-				 Workflow
-
-					↓
-
-			   New Version
+               New Version
 
 ```
 
@@ -3445,19 +3408,17 @@ The hierarchy became different.
 
 ```text id="cms2"
 
-				  Change
+                  Change
+                    ↓
 
-					↓
+                 Document
+                    ↓
 
-				 Document
+                 Workflow
+                    ↓
 
-					↓
+               New Version
 
-				 Workflow
-
-					↓
-
-			   New Version
 ```
 
 This inversion profoundly transformed the entire conceptual architecture.
@@ -3504,19 +3465,16 @@ Conceptually.
 
 ```text id="cms3"
 
-		  Change Management System
+          Change Management System
+                    ↓
 
-					↓
+          Documentation Framework
+                    ↓
 
-		  Documentation Framework
+                 Workflow
+                    ↓
 
-					↓
-
-				 Workflow
-
-					↓
-
-				Documents
+                 Documents
 
 ```
 
@@ -3567,23 +3525,19 @@ For example.
 
 ```text id="cms4"
 
-				  Change
+                  Change
+                    ↓
 
-					↓
+                 Document
+                    ↓
 
-				 Document
+              Architecture
+                    ↓
 
-					↓
+                   Code
+                    ↓
 
-			   Architecture
-
-					↓
-
-				   Code
-
-					↓
-
-				 Behavior
+                 Behavior
 
 ```
 
@@ -3641,19 +3595,16 @@ Looking at the research as a whole revealed a recurring sequence.
 
 ```text id="cms5"
 
-				  Change
+                  Change
+                    ↓
 
-					↓
+                Knowledge
+                    ↓
 
-				Knowledge
+               Documentation
+                    ↓
 
-					↓
-
-			  Documentation
-
-					↓
-
-			  Implementation
+              Implementation
 
 ```
 
@@ -3739,43 +3690,34 @@ The evolution can be summarized as follows.
 
 ```
 
-				Documents
+                 Documents
+                    ↓
 
-					↓
+                 emplates
+                    ↓
 
-				Templates
+                 Metadata
+                    ↓
 
-					↓
+            Document Identity
+                    ↓
 
-				 Metadata
+             META Documents
+                    ↓
 
-					↓
+                Baselines
+                    ↓
 
-			Document Identity
+                 Registry
+                    ↓
 
-					↓
+               Relationships
+                    ↓
 
-			 META Documents
+                 Workflow
+                    ↓
 
-					↓
-
-				Baselines
-
-					↓
-
-				Registry
-
-					↓
-
-			   Relationships
-
-					↓
-
-				 Workflow
-
-					↓
-
-			  CMS Integration
+              CMS Integration
 
 ```
 
@@ -4064,3 +4006,5 @@ And those abstractions will, in turn, give rise to new ways of understanding, re
 ---
 
 **End of Document**
+
+---

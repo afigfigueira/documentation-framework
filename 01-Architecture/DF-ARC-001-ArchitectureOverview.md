@@ -83,21 +83,21 @@ Conceptually.
 
 ```text
 
-					Documentation Framework
-					│
-					├── Foundation
-					│
-					├── Architecture
-					│
-					├── Documentation Layer
-					│
-					├── Governance Layer
-					│
-					├── Discovery Layer
-					│
-					├── Automation Layer
-					│
-					└── Integration Layer
+                    Documentation Framework
+                    │
+                    ├── Foundation
+                    │
+                    ├── Architecture
+                    │
+                    ├── Documentation Layer
+                    │
+                    ├── Governance Layer
+                    │
+                    ├── Discovery Layer
+                    │
+                    ├── Automation Layer
+                    │
+                    └── Integration Layer
 
 ```
 
@@ -212,25 +212,31 @@ The Documentation Framework follows a hierarchical dependency model.
 
 ```text
 
-			    Foundation
-					│
-					▼
-			   Architecture
-					│
-					▼
-			  Documentation
-					│
-					▼
-			    Governance
-					│
-					▼
-			    Discovery
-					│
-					▼
-			    Automation
-					│
-					▼
-			   Integration
+                Foundation
+                    │
+                    ▼
+
+               Architecture
+                    │
+                    ▼
+
+              Documentation
+                    │
+                    ▼
+
+                Governance
+                    │
+                    ▼
+
+                Discovery
+                    │
+                    ▼
+
+                Automation
+                    │
+                    ▼
+
+               Integration
 
 ```
 
@@ -269,19 +275,23 @@ Conceptually.
 
 ```text
 
-		   Foundation Documents
-					│
-					▼
-		   Architectural Model
-					│
-					▼
-		 Architectural Components
-					│
-					▼
-		 Component Specifications
-					│
-					▼
-			 Implementation
+           Foundation Documents
+                    │
+                    ▼
+
+           Architectural Model
+                    │
+                    ▼
+
+         Architectural Components
+                    │
+                    ▼
+
+         Component Specifications
+                    │
+                    ▼
+
+             Implementation
 
 ```
 

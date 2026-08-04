@@ -58,24 +58,24 @@ The Documentation Framework is organized into six architectural layers.
 
 ```text
 
-						Documentation Framework
+                         Documentation Framework
 
-					┌──────────────────────────────┐
-					│ Foundation                   │
-					├──────────────────────────────┤
-					│ Architecture                 │
-					├──────────────────────────────┤
-					│ Documentation                │
-					├──────────────────────────────┤
-					│ Governance                   │
-					├──────────────────────────────┤
-					│ Discovery                    │
-					├──────────────────────────────┤
-					│ Automation                   │
-					├──────────────────────────────┤
-					│ Integration                  │
-					└──────────────────────────────┘
-					
+                    ┌──────────────────────────────┐
+                    │ Foundation                   │
+                    ├──────────────────────────────┤
+                    │ Architecture                 │
+                    ├──────────────────────────────┤
+                    │ Documentation                │
+                    ├──────────────────────────────┤
+                    │ Governance                   │
+                    ├──────────────────────────────┤
+                    │ Discovery                    │
+                    ├──────────────────────────────┤
+                    │ Automation                   │
+                    ├──────────────────────────────┤
+                    │ Integration                  │
+                    └──────────────────────────────┘
+
 ```
 
 Each layer builds upon the capabilities provided by lower layers.
@@ -267,26 +267,32 @@ Conceptually.
 
 ```text
 
-			    Foundation
-					│
-					▼
-			   Architecture
-					│
-					▼
-			   Documentation
-					│
-					▼
-			    Governance
-					│
-					▼
-			    Discovery
-					│
-					▼
-			    Automation
-					│
-					▼
-			    Integration
-		
+                Foundation
+                    │
+                    ▼
+
+               Architecture
+                    │
+                    ▼
+
+              Documentation
+                    │
+                    ▼
+
+                Governance
+                    │
+                    ▼
+
+                Discovery
+                    │
+                    ▼
+
+                Automation
+                    │
+                    ▼
+
+               Integration
+
 ```
 
 No architectural layer shall introduce dependencies on higher layers.

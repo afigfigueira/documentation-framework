@@ -37,13 +37,15 @@ The **Status** field represents the current stage of the work associated with a 
 
 ```text
 
-				   Open
-					│
-					▼
-				 Started
-					│
-					▼
-				Completed
+                  Open
+                    │
+                    ▼
+
+                 Started
+                    │
+                    ▼
+
+                Completed
 
 ```
 
@@ -72,13 +74,15 @@ Only the following values are valid.
 ## Milestone Lifecycle
 
 ```text
- Not Started
-       │
-       ▼
- In Progress
-       │
-       ▼
-  Completed
+               Not Started
+                    │
+                    ▼
+
+               In Progress
+                    │
+                    ▼
+
+                Completed
 ```
 
 The milestone lifecycle is intentionally simple.
