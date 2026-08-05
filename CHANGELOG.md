@@ -55,6 +55,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 59 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md | Major | Added initial content to DF-MTD-003 — Metadata Model Document. |
 | 58 | 2026-08-04 | Arnaldo Figueira | Created | /02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md | Major | Added DF-MTD-003 — Metadata Model Document. |
 | 57 | 2026-08-04 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md | Major | Added initial content to DF-MTD-002 — Metadata Concepts Document. |
 | 56 | 2026-08-04 | Arnaldo Figueira | Created | /02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md | Major | Added DF-MTD-002 — Metadata Concepts Document. |
