@@ -137,7 +137,7 @@ Define the architectural model governing metadata within the Documentation Frame
 | C | 2026-08-05 | 2026-08-05 | 2026-08-05 | DF-MTD-006 — Metadata Lifecycle | /02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md |
 | C | 2026-08-05 | 2026-08-05 | 2026-08-05 | DF-MTD-007 — Metadata Validation | /02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md |
 | C | 2026-08-05 | 2026-08-05 | 2026-08-05 | DF-MTD-008 — Metadata Governance | /02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md |
-| S | 2026-08-05 | 2026-08-05 | yyyy-mm-dd | DF-MTD-009 — Metadata Relationships | /02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md |
+| C | 2026-08-05 | 2026-08-05 | 2026-08-05 | DF-MTD-009 — Metadata Relationships | /02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-010 — Metadata Constraints | /02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-011 — Metadata Extensibility | /02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-012 — Metadata Best Practices | /02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md |
