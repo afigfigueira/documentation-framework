@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 66 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md | Major | Added initial content to DF-MTD-006 — Metadata Lifecycle Document. |
 | 65 | 2026-08-05 | Arnaldo Figueira | Created | /02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md | Major | Added DF-MTD-006 — Metadata Lifecycle Document. |
 | 64 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md | Correction | Removed an unintended metadata table column introduced by a typographical error. |
 | 63 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md | Major | Added initial content to DF-MTD-005 — Metadata Schema Document. |
