@@ -9,7 +9,7 @@
 | **Family** | Metadata |
 | **Type** | Model |
 | **Component** | Metadata 
-| **Author** | Arnaldo Figueira ||
+| **Author** | Arnaldo Figueira |
 | **Status** | Draft |
 | **Version** | 1.0 |
 | **Revision** | 0 |

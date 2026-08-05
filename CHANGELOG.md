@@ -48,6 +48,7 @@ Entries are recorded in reverse chronological order.
 | **Minor** | Extends existing architecture without changing established concepts. |
 | **Editorial** | Editorial improvements only. |
 | **Repository** | Repository structure or supporting artefacts. |
+| **Correction** | Corrects errors, inconsistencies, omissions, or unintended content without modifying the architectural intent, normative specification, or functional behavior of the Documentation Framework. |
 
 ---
 
@@ -55,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 64 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md | Correction | Removed an unintended metadata table column introduced by a typographical error. |
 | 63 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md | Major | Added initial content to DF-MTD-005 — Metadata Schema Document. |
 | 62 | 2026-08-05 | Arnaldo Figueira | Created | /02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md | Major | Added DF-MTD-005 — Metadata Schema Document. |
 | 61 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md | Major | Added initial content to DF-MTD-004 — Metadata Elements Document. |
