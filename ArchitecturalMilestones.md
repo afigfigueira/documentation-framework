@@ -133,7 +133,7 @@ Define the architectural model governing metadata within the Documentation Frame
 | C | 2026-08-04 | 2026-08-04 | 2026-08-04 | DF-MTD-002 — Metadata Concepts | /02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md |
 | C | 2026-08-04 | 2026-08-04 | 2026-08-05 | DF-MTD-003 — Metadata Model | /02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md |
 | C | 2026-08-05 | 2026-08-05 | 2026-08-05 | DF-MTD-004 — Metadata Elements | /02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-005 — Metadata Schema | /02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md |
+| S | 2026-08-05 | 2026-08-05 | yyyy-mm-dd | DF-MTD-005 — Metadata Schema | /02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-006 — Metadata Lifecycle | /02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-007 — Metadata Validation | /02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-008 — Metadata Governance | /02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md |
