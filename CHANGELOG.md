@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 73 | 2026-08-05 | Arnaldo Figueira | Created | /02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md | Major | Added DF-MTD-010 — Metadata Constraints Document. |
 | 72 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md | Major | Added initial content to DF-MTD-009 — Metadata Relationships Document. |
 | 71 | 2026-08-05 | Arnaldo Figueira | Created | /02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md | Major | Added DF-MTD-009 — Metadata Relationships Document. |
 | 70 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md | Major | Added initial content to DF-MTD-008 — Metadata Governance Document. |
