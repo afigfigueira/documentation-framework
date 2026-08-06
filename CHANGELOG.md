@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 82 | 2026-08-06 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md | Major | Added initial content to DF-MTD-014 — Metadata Specification Document. |
 | 81 | 2026-08-06 | Arnaldo Figueira | Created | /02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md | Major | Added DF-MTD-014 — Metadata Specification Document. |
 | 80 | 2026-08-06 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md | Major | Added initial content to DF-MTD-013 — Metadata Dictionary Document. |
 | 79 | 2026-08-06 | Arnaldo Figueira | Created | /02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md | Major | Added DF-MTD-013 — Metadata Dictionary Document. |
