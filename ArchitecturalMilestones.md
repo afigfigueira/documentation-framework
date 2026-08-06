@@ -128,7 +128,7 @@ Define the complete architectural specification of the Document Identity compone
 
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 |--:|:-----------|:-----------|:-----------|------------------------------|--------------------------------------------------------------------------------------------------------------|
-| S | 2026-08-06 | 2026-08-06 | yyyy-mm-dd | README | /02-Documentation/DocumentIdentity/README.md |
+| C | 2026-08-06 | 2026-08-06 | 2026-08-06 | README | /02-Documentation/DocumentIdentity/README.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-001 — Document Identity Architecture | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-002 — Document Identity Concepts | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002-DocumentIdentityConcepts.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-003 — Document Identity Model | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003-DocumentIdentityModel.md |
