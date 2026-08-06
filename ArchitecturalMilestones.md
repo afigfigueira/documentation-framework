@@ -141,7 +141,7 @@ Define the architectural model governing metadata within the Documentation Frame
 | C | 2026-08-05 | 2026-08-05 | 2026-08-05 | DF-MTD-010 — Metadata Constraints | /02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md |
 | C | 2026-08-06 | 2026-08-06 | 2026-08-06 | DF-MTD-011 — Metadata Extensibility | /02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md |
 | C | 2026-08-06 | 2026-08-06 | 2026-08-06 | DF-MTD-012 — Metadata Best Practices | /02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-013 — Metadata Dictionary | /02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md |
+| S | 2026-08-06 | 2026-08-06 | yyyy-mm-dd | DF-MTD-013 — Metadata Dictionary | /02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-014 — Metadata Specification | /02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-MTD-015 — Metadata Examples | /02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md |
 
