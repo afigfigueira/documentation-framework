@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 76 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md | Major | Added initial content to DF-MTD-011 — Metadata Extensibility Document. |
 | 75 | 2026-08-06 | Arnaldo Figueira | Created | /02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md | Major | Added DF-MTD-011 — Metadata Extensibility Document. |
 | 74 | 2026-08-05 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md | Major | Added initial content to DF-MTD-010 — Metadata Constraints Document. |
 | 73 | 2026-08-05 | Arnaldo Figueira | Created | /02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md | Major | Added DF-MTD-010 — Metadata Constraints Document. |
