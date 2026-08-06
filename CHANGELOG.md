@@ -51,11 +51,12 @@ Entries are recorded in reverse chronological order.
 | **Correction** | Corrects errors, inconsistencies, omissions, or unintended content without modifying the architectural intent, normative specification, or functional behavior of the Documentation Framework. |
 
 ---
-
+ 
 # Change History 
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 81 | 2026-08-06 | Arnaldo Figueira | Created | /02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md | Major | Added DF-MTD-014 — Metadata Specification Document. |
 | 80 | 2026-08-06 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md | Major | Added initial content to DF-MTD-013 — Metadata Dictionary Document. |
 | 79 | 2026-08-06 | Arnaldo Figueira | Created | /02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md | Major | Added DF-MTD-013 — Metadata Dictionary Document. |
 | 78 | 2026-08-06 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md | Major | Added initial content to DF-MTD-012 — Metadata Best Practices Document. |
