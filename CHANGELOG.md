@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 88 | 2026-08-06 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Added Milestone M5 — Document Identity Component with canonical document paths to Architectural Milestones Document. |
 | 87 | 2026-08-06 | Arnaldo Figueira | Updated | /Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md | Major | Added initial content to DF-RDM-020 - Document Identity Roadmap Document. |
 | 86 | 2026-08-06 | Arnaldo Figueira | Created | /Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md | Major | Added DF-RDM-020 - Document Identity Roadmap Document. |
 | 85 | 2026-08-06 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone Status of Milestone M4 — Metadata Component was marked as Completed. |

@@ -116,6 +116,37 @@ The **Milestone Status** is therefore not managed independently. It is a summary
 
 ---
 
+## Milestone M5 — Document Identity Component
+
+**Milestone Status:** Not Started
+
+### Objectives
+
+Define the complete architectural specification of the Document Identity component.
+
+### Documents
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+|--:|:-----------|:-----------|:-----------|------------------------------|--------------------------------------------------------------------------------------------------------------|
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | README | /02-Documentation/DocumentIdentity/README.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-001 — Document Identity Architecture | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-002 — Document Identity Concepts | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002-DocumentIdentityConcepts.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-003 — Document Identity Model | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003-DocumentIdentityModel.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-004 — Document Identity Elements | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004-DocumentIdentityElements.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-005 — Document Identity Schema | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005-DocumentIdentitySchema.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-006 — Document Identity Lifecycle | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006-DocumentIdentityLifecycle.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-007 — Document Identity Validation | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007-DocumentIdentityValidation.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-008 — Document Identity Governance | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008-DocumentIdentityGovernance.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-009 — Document Identity Relationships | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009-DocumentIdentityRelationships.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-010 — Document Identity Constraints | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010-DocumentIdentityConstraints.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-011 — Document Identity Extensibility | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011-DocumentIdentityExtensibility.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-012 — Document Identity Best Practices | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-012-DocumentIdentityBestPractices.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-013 — Document Identity Dictionary | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-013-DocumentIdentityDictionary.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-014 — Document Identity Specification | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-014-DocumentIdentitySpecification.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-015 — Document Identity Examples | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-015-DocumentIdentityExamples.md |
+
+---
+
 ## Milestone M4 — Metadata Component
 
 **Milestone Status:** Completed
