@@ -143,7 +143,7 @@ Define the architectural model governing metadata within the Documentation Frame
 | C | 2026-08-06 | 2026-08-06 | 2026-08-06 | DF-MTD-012 — Metadata Best Practices | /02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md |
 | C | 2026-08-06 | 2026-08-06 | 2026-08-06 | DF-MTD-013 — Metadata Dictionary | /02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md |
 | C | 2026-08-06 | 2026-08-06 | 2026-08-06 | DF-MTD-014 — Metadata Specification | /02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md |
-| S | 2026-08-06 | 2026-08-06 | yyyy-mm-dd | DF-MTD-015 — Metadata Examples | /02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md |
+| C | 2026-08-06 | 2026-08-06 | 2026-08-06 | DF-MTD-015 — Metadata Examples | /02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md |
 
 ---
 
