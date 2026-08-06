@@ -130,7 +130,7 @@ Define the complete architectural specification of the Document Identity compone
 |--:|:-----------|:-----------|:-----------|------------------------------|--------------------------------------------------------------------------------------------------------------|
 | C | 2026-08-06 | 2026-08-06 | 2026-08-06 | README | /02-Documentation/DocumentIdentity/README.md |
 | C | 2026-08-06 | 2026-08-06 | 2026-08-06 | DF-DID-001 — Document Identity Architecture | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-002 — Document Identity Concepts | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002-DocumentIdentityConcepts.md |
+| S | 2026-08-06 | 2026-08-06 | yyyy-mm-dd | DF-DID-002 — Document Identity Concepts | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002-DocumentIdentityConcepts.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-003 — Document Identity Model | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003-DocumentIdentityModel.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-004 — Document Identity Elements | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004-DocumentIdentityElements.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-005 — Document Identity Schema | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005-DocumentIdentitySchema.md |
