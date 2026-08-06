@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 86 | 2026-08-06 | Arnaldo Figueira | Created | /Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md | Major | Added DF-RDM-020 - Document Identity Roadmap Document. |
 | 85 | 2026-08-06 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone Status of Milestone M4 — Metadata Component was marked as Completed. |
 | 84 | 2026-08-06 | Arnaldo Figueira | Updated | /02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md | Major | Added initial content to DF-MTD-015 — Metadata Examples Document. |
 | 83 | 2026-08-06 | Arnaldo Figueira | Created | /02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md | Major | Added DF-MTD-015 — Metadata Examples Document. |

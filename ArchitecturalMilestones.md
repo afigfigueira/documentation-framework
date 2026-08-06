@@ -184,7 +184,7 @@ Establish a compromises that defines the long-term implementation strategy for t
 | C | 2026-07-30 | 2026-07-30 | 2026-07-30 | README | /Roadmaps/README.md | 
 | C | 2026-07-30 | 2026-07-30 | 2026-07-30 | DF-RDM-001 — Documentation Framework Roadmap | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md | 
 | C | 2026-08-03 | 2026-08-03 | 2026-08-03 | DF-RDM-010 - Metadata Roadmap | /Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md | 
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-020 - Document Identity Roadmap | /Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md | 
+| S | 2026-08-03 | 2026-08-03 | yyyy-mm-dd | DF-RDM-020 - Document Identity Roadmap | /Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md | 
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-030 - Templates Roadmap | /Roadmaps/02-Documentation/Templates/DF-RDM-030-TemplatesRoadmap.md | 
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-040 - Registry Roadmap | /Roadmaps/04-Discovery/Registry/DF-RDM-040-RegistryRoadmap.md | 
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-RDM-050 - Workflow Roadmap | /Roadmaps/03-Governance/Workflow/DF-RDM-050-WorkflowRoadmap.md | 
