@@ -2,7 +2,7 @@
 
 # DF-DID-002 – Document Identity Concepts
 
-| Property | Value |
+| Metadata | Value |
 |----------|-------|
 | **Document ID** | DF-DID-002 |
 | **Title** | Document Identity Concepts |

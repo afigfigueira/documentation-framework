@@ -56,7 +56,8 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
-| 95 | 2026-08-07 | Arnaldo Figueira | Created | 02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003-DocumentIdentityModel.md | Major | Added DF-DID-003 — Document Identity Model Document. |
+| 94 | 2026-08-06 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003-DocumentIdentityModel.md | Major | Added initial content to DF-DID-003 — Document Identity Model Document. |
+| 95 | 2026-08-07 | Arnaldo Figueira | Created | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003-DocumentIdentityModel.md | Major | Added DF-DID-003 — Document Identity Model Document. |
 | 94 | 2026-08-06 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002-DocumentIdentityConcepts.md | Major | Added initial content to DF-DID-002 — Document Identity Concepts Document. |
 | 93 | 2026-08-06 | Arnaldo Figueira | Created | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002-DocumentIdentityConcepts.md | Major | Added DF-DID-002 — Document Identity Concepts Document. |
 | 92 | 2026-08-06 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md | Major | Added initial content to DF-DID-001 — Document Identity Architecture Document. |
