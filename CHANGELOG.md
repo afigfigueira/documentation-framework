@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 115 | 2026-08-08 | Arnaldo Figueira | Created | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-013-DocumentIdentityDictionary.md | Major | Added DF-DID-013 — Document Identity Dictionary Document. |
 | 114 | 2026-08-08 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-012-DocumentIdentityBestPractices.md | Major | Added initial content to DF-DID-012 — Document Identity Best Practices Document. |
 | 113 | 2026-08-08 | Arnaldo Figueira | Created | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-012-DocumentIdentityBestPractices.md | Major | Added DF-DID-012 — Document Identity Best Practices Document. |
 | 112 | 2026-08-08 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011-DocumentIdentityExtensibility.md | Major | Added initial content to DF-DID-011 — Document Identity Extensibility Document. |
