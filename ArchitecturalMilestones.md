@@ -143,7 +143,7 @@ Define the complete architectural specification of the Document Identity compone
 | C | 2026-08-08 | 2026-08-08 | 2026-08-08 | DF-DID-012 — Document Identity Best Practices | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-012-DocumentIdentityBestPractices.md |
 | C | 2026-08-08 | 2026-08-08 | 2026-08-08 | DF-DID-013 — Document Identity Dictionary | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-013-DocumentIdentityDictionary.md |
 | C | 2026-08-08 | 2026-08-08 | 2026-08-08 | DF-DID-014 — Document Identity Specification | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-014-DocumentIdentitySpecification.md |
-| S | 2026-08-08 | 2026-08-08 | yyyy-mm-dd | DF-DID-015 — Document Identity Examples | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-015-DocumentIdentityExamples.md |
+| C | 2026-08-08 | 2026-08-08 | 2026-08-08 | DF-DID-015 — Document Identity Examples | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-015-DocumentIdentityExamples.md |
 
 ---
 
