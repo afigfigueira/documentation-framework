@@ -66,7 +66,7 @@ Each element represents a distinct architectural concept.
 
 # 4. Architectural Elements
 
-## 4.1 Document Identity
+## 4.1. Document Identity
 
 ### 4.1.1. Description
 
@@ -89,7 +89,7 @@ It represents the permanent identity associated with a document.
 
 ---
 
-## 4.2 Identifier
+## 4.2. Identifier
 
 ### 4.2.1. Description
 
@@ -112,7 +112,7 @@ It provides the value through which the identity is referenced.
 
 ---
 
-## 4.3 Identity Domain
+## 4.3. Identity Domain
 
 ### 4.3.1. Description
 
@@ -132,7 +132,7 @@ The **Identity Domain** defines the architectural scope in which document identi
 
 ---
 
-## 4.4 Identity Status
+## 4.4. Identity Status
 
 ### 4.4.1. Description
 
@@ -152,7 +152,7 @@ The complete lifecycle semantics are defined in **DF-DID-006 – Document Identi
 
 ---
 
-## 4.5 Identity Reference
+## 4.5. Identity Reference
 
 ### 4.5.1. Description
 
