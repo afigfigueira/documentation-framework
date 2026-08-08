@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 121 | 2026-08-08 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone Status of Milestone M5 — Document Identity Component was marked as Completed. |
 | 120 | 2026-08-08 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-015-DocumentIdentityExamples.md | Major | Added initial content to DF-DID-015 — Document Identity Examples Document. |
 | 119 | 2026-08-08 | Arnaldo Figueira | Created | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-015-DocumentIdentityExamples.md | Major | Added DF-DID-015 — Document Identity Examples Document. |
 | 118 | 2026-08-08 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-014-DocumentIdentitySpecification.md | Major | Added initial content to DF-DID-014 — Document Identity Specification Document. |
