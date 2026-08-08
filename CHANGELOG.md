@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 110 | 2026-08-08 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010-DocumentIdentityConstraints.md | Major | Added initial content to DF-DID-010 — Document Identity Constraints Document. |
 | 109 | 2026-08-08 | Arnaldo Figueira | Created | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010-DocumentIdentityConstraints.md | Major | Added DF-DID-010 — Document Identity Constraints Document. |
 | 108 | 2026-08-08 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009-DocumentIdentityRelationships.md | Major | Added initial content to DF-DID-009 — Document Identity Relationships Document. |
 | 107 | 2026-08-08 | Arnaldo Figueira | Created | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009-DocumentIdentityRelationships.md | Major | Added DF-DID-009 — Document Identity Relationships Document. |

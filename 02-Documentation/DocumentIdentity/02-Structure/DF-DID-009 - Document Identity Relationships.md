@@ -7,7 +7,7 @@
 | **Document ID** | DF-DID-009 |
 | **Title** | Document Identity Relationships |
 | **Family** | Documentation |
-| **Type** | Behavior |
+| **Type** | Structure |
 | **Component** | Document Identity |
 | **Author** | Arnaldo Figueira |
 | **Status** | Canonical |
