@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 106 | 2026-08-08 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008-DocumentIdentityGovernance.md | Major | Added initial content to DF-DID-008 — Document Identity Governance Document. |
 | 105 | 2026-08-08 | Arnaldo Figueira | Created | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008-DocumentIdentityGovernance.md | Major | Added DF-DID-008 — Document Identity Governance Document. |
 | 104 | 2026-08-08 | Arnaldo Figueira | Updated | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007-DocumentIdentityValidation.md | Major | Added initial content to DF-DID-007 — Document Identity Validation Document. |
 | 103 | 2026-08-08 | Arnaldo Figueira | Created | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007-DocumentIdentityValidation.md | Major | Added DF-DID-007 — Document Identity Validation Document. |
