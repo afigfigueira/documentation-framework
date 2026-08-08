@@ -138,7 +138,7 @@ Define the complete architectural specification of the Document Identity compone
 | C | 2026-08-08 | 2026-08-08 | 2026-08-08 | DF-DID-007 — Document Identity Validation | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007-DocumentIdentityValidation.md |
 | C | 2026-08-08 | 2026-08-08 | 2026-08-08 | DF-DID-008 — Document Identity Governance | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008-DocumentIdentityGovernance.md |
 | C | 2026-08-08 | 2026-08-08 | 2026-08-08 | DF-DID-009 — Document Identity Relationships | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009-DocumentIdentityRelationships.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-010 — Document Identity Constraints | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010-DocumentIdentityConstraints.md |
+| S | 2026-08-08 | 2026-08-08 | yyyy-mm-dd | DF-DID-010 — Document Identity Constraints | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010-DocumentIdentityConstraints.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-011 — Document Identity Extensibility | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011-DocumentIdentityExtensibility.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-012 — Document Identity Best Practices | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-012-DocumentIdentityBestPractices.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-DID-013 — Document Identity Dictionary | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-013-DocumentIdentityDictionary.md |
