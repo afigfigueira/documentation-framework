@@ -128,7 +128,7 @@ Define the complete architectural specification of the Classification component.
 
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 |--:|:-----------|:-----------|:-----------|------------------------------|--------------------------------------------------------------------------------------------------------------|
-| S | 2026-08-09 | 2026-08-09 | yyyy-mm-dd | README | /02-Documentation/Classification/README.md |
+| C | 2026-08-09 | 2026-08-09 | 2026-08-09 | README | /02-Documentation/Classification/README.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-001 — Classification Architecture | /02-Documentation/Classification/DF-CLS-001-ClassificationArchitecture.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-002 — Classification Concepts | /02-Documentation/Classification/DF-CLS-002-ClassificationConcepts.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-003 — Classification Model | /02-Documentation/Classification/DF-CLS-003-ClassificationModel.md |
