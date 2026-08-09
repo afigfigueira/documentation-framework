@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 133 | 2026-08-09 | Arnaldo Figueira | Updated | /02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md | Major | Added initial content to DF-CLS-002 — Classification Concepts Document. |
 | 132 | 2026-08-09 | Arnaldo Figueira | Created | /02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md | Major | Added DF-CLS-002 — Classification Concepts Document. |
 | 131 | 2026-08-09 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md  | Correction | Paths in Milestone M6 — Classification Component and logs recorded in this document related with Milestone M6 were corrected. |
 | 130 | 2026-08-09 | Arnaldo Figueira | Updated | /02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md | Major | Added initial content to DF-CLS-001 — Classification Architecture Document. |

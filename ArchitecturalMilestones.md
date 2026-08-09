@@ -130,7 +130,7 @@ Define the complete architectural specification of the Classification component.
 |--:|:-----------|:-----------|:-----------|------------------------------|--------------------------------------------------------------------------------------------------------------|
 | C | 2026-08-09 | 2026-08-09 | 2026-08-09 | README | /02-Documentation/Classification/README.md |
 | C | 2026-08-09 | 2026-08-09 | 2026-08-09 | DF-CLS-001 — Classification Architecture | /02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md |
-| S | 2026-08-09 | 2026-08-09 | yyyy-mm-dd | DF-CLS-002 — Classification Concepts | /02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md |
+| C | 2026-08-09 | 2026-08-09 | 2026-08-09 | DF-CLS-002 — Classification Concepts | /02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-003 — Classification Model | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-004 — Classification Elements | /02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-005 — Classification Schema | /02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md |
