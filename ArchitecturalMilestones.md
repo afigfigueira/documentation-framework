@@ -116,6 +116,37 @@ The **Milestone Status** is therefore not managed independently. It is a summary
 
 ---
 
+## Milestone M6 — Classification Component
+
+**Milestone Status:** Not Started
+
+### Objectives
+
+Define the complete architectural specification of the Classification component.
+
+### Documents
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+|--:|:-----------|:-----------|:-----------|------------------------------|--------------------------------------------------------------------------------------------------------------|
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | README | /02-Documentation/Classification/README.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-001 — Classification Architecture | /02-Documentation/Classification/DF-CLS-001-ClassificationArchitecture.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-002 — Classification Concepts | /02-Documentation/Classification/DF-CLS-002-ClassificationConcepts.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-003 — Classification Model | /02-Documentation/Classification/DF-CLS-003-ClassificationModel.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-004 — Classification Elements | /02-Documentation/Classification/DF-CLS-004-ClassificationElements.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-005 — Classification Schema | /02-Documentation/Classification/DF-CLS-005-ClassificationSchema.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-006 — Classification Lifecycle | /02-Documentation/Classification/DF-CLS-006-ClassificationLifecycle.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-007 — Classification Validation | /02-Documentation/Classification/DF-CLS-007-ClassificationValidation.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-008 — Classification Governance | /02-Documentation/Classification/DF-CLS-008-ClassificationGovernance.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-009 — Classification Relationships | /02-Documentation/Classification/DF-CLS-009-ClassificationRelationships.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-010 — Classification Constraints | /02-Documentation/Classification/DF-CLS-010-ClassificationConstraints.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-011 — Classification Extensibility | /02-Documentation/Classification/DF-CLS-011-ClassificationExtensibility.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-012 — Classification Best Practices | /02-Documentation/Classification/DF-CLS-012-ClassificationBestPractices.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-013 — Classification Dictionary | /02-Documentation/Classification/DF-CLS-013-ClassificationDictionary.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-014 — Classification Specification | /02-Documentation/Classification/DF-CLS-014-ClassificationSpecification.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-015 — Classification Examples | /02-Documentation/Classification/DF-CLS-015-ClassificationExamples.md |
+
+---
+
 ## Milestone M5 — Document Identity Component
 
 **Milestone Status:** Completed
