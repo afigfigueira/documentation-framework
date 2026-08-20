@@ -553,6 +553,7 @@ The Classification component has the following architectural boundaries:
 
                     ┌─────────────────────────────────────────┐
                     │              Classification             │
+                    ├─────────────────────────────────────────┤
                     │                                         │
                     │    Classification Concepts              │
                     │    Classification Model                 │
@@ -1014,3 +1015,5 @@ The subsequent documents progressively specify its internal structure and behavi
 ---
 
 **End of Document**
+
+---
