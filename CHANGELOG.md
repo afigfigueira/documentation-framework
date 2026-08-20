@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 136 | 2026-08-20 | Arnaldo Figueira | Created | /02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md | Major | Added DF-CLS-004 — Classification Elements Document. |
 | 135 | 2026-08-20 | Arnaldo Figueira | Updated | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md | Major | Added initial content to DF-CLS-003 — Classification Model Document. |
 | 134 | 2026-08-20 | Arnaldo Figueira | Created | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md | Major | Added DF-CLS-003 — Classification Model Document. |
 | 133 | 2026-08-09 | Arnaldo Figueira | Updated | /02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md | Major | Added initial content to DF-CLS-002 — Classification Concepts Document. |
