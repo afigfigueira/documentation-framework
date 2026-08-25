@@ -134,7 +134,7 @@ Define the complete architectural specification of the Classification component.
 | C | 2026-08-20 | 2026-08-20 | 2026-08-20 | DF-CLS-003 — Classification Model | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md |
 | C | 2026-08-20 | 2026-08-20 | 2026-08-20 | DF-CLS-004 — Classification Elements | /02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md |
 | C | 2026-08-25 | 2026-08-25 | 2026-08-25 | DF-CLS-005 — Classification Schema | /02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md |
-| S | 2026-08-25 | 2026-08-25 | yyyy-mm-dd | DF-CLS-006 — Classification Lifecycle | /02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md |
+| C | 2026-08-25 | 2026-08-25 | 2026-08-25 | DF-CLS-006 — Classification Lifecycle | /02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-007 — Classification Validation | /02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-008 — Classification Governance | /02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-009 — Classification Relationships | /02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md |
