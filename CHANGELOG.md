@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 140 | 2026-08-25 | Arnaldo Figueira | Correction | /02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md | Major | Correction of topic number (41. Related Documents) content numeration and some text formating. |
 | 139 | 2026-08-25 | Arnaldo Figueira | Updated | /02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md | Major | Added initial content to DF-CLS-005 — Classification Schema Document. |
 | 138 | 2026-08-25 | Arnaldo Figueira | Created | /02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md | Major | Added DF-CLS-005 — Classification Schema Document. |
 | 137 | 2026-08-20 | Arnaldo Figueira | Updated | /02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md | Major | Added initial content to DF-CLS-004 — Classification Elements Document. |

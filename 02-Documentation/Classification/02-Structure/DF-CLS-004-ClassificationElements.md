@@ -248,7 +248,7 @@ Conceptually:
                     │
                     ▼
 
-                  Type
+                   Type
 
 ```
 
@@ -272,9 +272,9 @@ where:
 
 ```text
 
-    META = Family
-    DCL  = Type
-    001  = sequential document identifier
+    META  =  Family
+    DCL   =  Type
+    001   =  sequential document identifier
 
 ```
 
@@ -361,8 +361,8 @@ rather than:
           Family
             │
             └── Type
-                 │
-                 └── Class
+                │
+                └── Class
 
 ```
 
@@ -437,7 +437,7 @@ Conceptually:
 
 ```text id="cls-el-012"
 
-              Family + Type
+             Family  +  Type
                     │
                     ▼
 
@@ -449,7 +449,7 @@ For example:
 
 ```text
 
-    META + DCL
+    META  +  DCL
 
 ```
 
@@ -471,7 +471,7 @@ The three elements can be represented conceptually as:
 
 ```text id="cls-el-013"
 
-    Classification = (Family, Type, Class)
+    Classification  =  (Family, Type, Class)
 
 ```
 
@@ -501,9 +501,9 @@ Conceptually:
 
             Classification
             │
-            ├── Family = Family Value
-            ├── Type   = Type Value
-            └── Class  = Class Value
+            ├── Family  =  Family Value
+            ├── Type    =  Type Value
+            └── Class   =  Class Value
 
 ```
 
@@ -531,8 +531,8 @@ For example:
 
 ```text
 
-    Element = Family
-    Value   = META
+    Element  =  Family
+    Value    =  META
 
 ```
 
@@ -540,8 +540,8 @@ and:
 
 ```text
 
-    Element = Type
-    Value   = DCL
+    Element  =  Type
+    Value    =  DCL
 
 ```
 
@@ -661,9 +661,9 @@ For example, multiple documents may have:
 
 ```text
 
-    Family = META
-    Type   = DCL
-    Class  = <same value>
+    Family  =  META
+    Type    =  DCL
+    Class   =  <same value>
 
 ```
 
@@ -858,7 +858,7 @@ The following interpretations are therefore avoided:
 
 ```text
 
-Family = Type
+Family  =  Type
 
 ```
 
@@ -866,7 +866,7 @@ or:
 
 ```text
 
-    Type = Class
+    Type  =  Class
 
 ```
 
@@ -883,8 +883,8 @@ Instead:
 ```text
 
           Family
-            │
-            └── Type
+          │
+          └── Type
 
           Class
 
@@ -921,12 +921,12 @@ For example:
 
 ```text
 
-    Classification Element Lifecycle
-                    │
-                    ├── Definition
-                    ├── Activation
-                    ├── Deprecation
-                    └── Retirement
+            Classification Element Lifecycle
+            │
+            ├── Definition
+            ├── Activation
+            ├── Deprecation
+            └── Retirement
 
 ```
 
@@ -968,12 +968,13 @@ The principal relationships between the elements are:
 
 ```text id="cls-el-021"
 
-Family
-  │
-  │ specializes
-  ▼
+                  Family
+                    │
+               specializes
+                    │
+                    ▼
 
-Type
+                   Type
 
 
                   Class
@@ -1069,7 +1070,7 @@ Family and Type have a hierarchical relationship:
 
 ```text id="cls-el-023"
 
-          Family
+            Family
             │
             └── Type
 
@@ -1079,7 +1080,8 @@ Class remains an independent classification dimension:
 
 ```text id="cls-el-024"
 
-      Classification
+            Classification
+            │
             ├── Family
             ├── Type
             └── Class
@@ -1096,9 +1098,9 @@ A future representation may express:
 
 ```text
 
-    Family = META
-    Type   = DCL
-    Class  = <value>
+    Family  =  META
+    Type    =  DCL
+    Class   =  <value>
 
 ```
 
@@ -1156,11 +1158,11 @@ Their responsibilities are:
 
 ```text
 
-    Family →  broad documentary domain
+    Family  →  broad documentary domain
 
-    Type   →  specific documentary category
+    Type    →  specific documentary category
 
-    Class  →  documentary nature or role
+    Class   →  documentary nature or role
 
 ```
 
@@ -1168,7 +1170,7 @@ Family and Type form a hierarchy:
 
 ```text
 
-          Family
+............Family
             │
             └── Type
 
@@ -1179,6 +1181,7 @@ Class represents an additional classification dimension:
 ```text
 
             Classification
+            │
             ├── Family
             ├── Type
             └── Class
@@ -1191,9 +1194,9 @@ The distinction remains:
 
 ```text
 
-Classification → describes semantic organization
+    Classification     →  describes semantic organization
 
-Document Identity → identifies the document
+    Document Identity  →  identifies the document
 
 ```
 
@@ -1203,7 +1206,7 @@ The formal representation of these elements is deferred to **DF-CLS-005 — Clas
 
 # 41. Related Documents
 
-## Foundation
+## 41.1. Foundation
 
 - DF-FND-001 — Framework Manifest
 - DF-FND-002 — Research Journal
@@ -1212,7 +1215,7 @@ The formal representation of these elements is deferred to **DF-CLS-005 — Clas
 - DF-FND-005 — Framework Evolution
 - DF-FND-006 — Design Rationale
 
-## Architecture
+## 41.2. Architecture
 
 - DF-ARC-001 — Architecture Overview
 - DF-ARC-002 — Architectural Principles
@@ -1222,7 +1225,7 @@ The formal representation of these elements is deferred to **DF-CLS-005 — Clas
 - DF-ARC-006 — Terminology
 - DF-ARC-007 — Component Documentation Structure
 
-## Documentation Layer
+## 41.3. Documentation Layer
 
 - DF-MTD-001 — Metadata Architecture
 - DF-MTD-002 — Metadata Concepts
@@ -1230,7 +1233,7 @@ The formal representation of these elements is deferred to **DF-CLS-005 — Clas
 - DF-MTD-004 — Metadata Elements
 - DF-MTD-005 — Metadata Schema
 
-## Classification
+## 41.4. Classification
 
 - DF-CLS-001 — Classification Architecture
 - DF-CLS-002 — Classification Concepts
