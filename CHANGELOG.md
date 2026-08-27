@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 146 | 2026-08-27 | Arnaldo Figueira | Updated | /02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md | Major | Added initial content to DF-CLS-008 — Classification Governance Document. |
 | 145 | 2026-08-27 | Arnaldo Figueira | Created | /02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md | Major | Added DF-CLS-008 — Classification Governance Document. |
 | 144 | 2026-08-27 | Arnaldo Figueira | Updated | /02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md | Major | Added initial content to DF-CLS-007 — Classification Validation Document. |
 | 143 | 2026-08-25 | Arnaldo Figueira | Created | /02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md | Major | Added DF-CLS-007 — Classification Validation Document. |
