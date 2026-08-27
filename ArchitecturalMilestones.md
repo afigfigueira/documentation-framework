@@ -137,7 +137,7 @@ Define the complete architectural specification of the Classification component.
 | C | 2026-08-25 | 2026-08-25 | 2026-08-25 | DF-CLS-006 — Classification Lifecycle | /02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md |
 | C | 2026-08-25 | 2026-08-25 | 2026-08-27 | DF-CLS-007 — Classification Validation | /02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md |
 | C | 2026-08-27 | 2026-08-27 | 2026-08-27 | DF-CLS-008 — Classification Governance | /02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-009 — Classification Relationships | /02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md |
+| S | 2026-08-27 | 2026-08-27 | yyyy-mm-dd | DF-CLS-009 — Classification Relationships | /02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-010 — Classification Constraints | /02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-011 — Classification Extensibility | /02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-012 — Classification Best Practices | /02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md |
