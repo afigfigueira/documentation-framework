@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 149 | 2026-08-28 | Arnaldo Figueira | Created | /02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md | Major | Added DF-CLS-010 — Classification Constraints Document. |
 | 148 | 2026-08-28 | Arnaldo Figueira | Updated | /02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md | Major | Added initial content to DF-CLS-009 — Classification Relationships Document. |
 | 147 | 2026-08-27 | Arnaldo Figueira | Created | /02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md | Major | Added DF-CLS-009 — Classification Relationships Document. |
 | 146 | 2026-08-27 | Arnaldo Figueira | Updated | /02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md | Major | Added initial content to DF-CLS-008 — Classification Governance Document. |
