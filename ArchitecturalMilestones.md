@@ -140,7 +140,7 @@ Define the complete architectural specification of the Classification component.
 | C | 2026-08-27 | 2026-08-27 | 2026-08-28 | DF-CLS-009 — Classification Relationships | /02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md |
 | C | 2026-08-28 | 2026-08-28 | 2026-08-29 | DF-CLS-010 — Classification Constraints | /02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md |
 | C | 2026-08-29 | 2026-08-29 | 2026-09-06 | DF-CLS-011 — Classification Extensibility | /02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-012 — Classification Best Practices | /02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md |
+| S | 2026-09-06 | 2026-09-06 | yyyy-mm-dd | DF-CLS-012 — Classification Best Practices | /02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-013 — Classification Dictionary | /02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-014 — Classification Specification | /02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-CLS-015 — Classification Examples | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md |
