@@ -354,7 +354,7 @@ The following relationship:
 
 ```text
 
-            Family ──contains──► Type
+            Family  ─────  contains  ─────►  Type
 
 ```
 
