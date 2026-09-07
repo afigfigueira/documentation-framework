@@ -118,7 +118,7 @@ The **Milestone Status** is therefore not managed independently. It is a summary
 
 ## Milestone M6 — Classification Component
 
-**Milestone Status:** In Progress
+**Milestone Status:** Completed
 
 ### Objectives
 
@@ -143,7 +143,7 @@ Define the complete architectural specification of the Classification component.
 | C | 2026-09-06 | 2026-09-06 | 2026-09-06 | DF-CLS-012 — Classification Best Practices | /02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md |
 | C | 2026-09-06 | 2026-09-06 | 2026-09-06 | DF-CLS-013 — Classification Dictionary | /02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md |
 | C | 2026-09-06 | 2026-09-06 | 2026-09-07 | DF-CLS-014 — Classification Specification | /02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md |
-| S | 2026-09-07 | 2026-09-07 | yyyy-mm-dd | DF-CLS-015 — Classification Examples | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md |
+| C | 2026-09-07 | 2026-09-07 | 2026-09-07 | DF-CLS-015 — Classification Examples | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md |
 
 ---
 
