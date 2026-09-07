@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 159 | 2026-09-07 | Arnaldo Figueira | Created | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md | Major | Added DF-CLS-015 — Classification Examples Document. |
 | 158 | 2026-09-07 | Arnaldo Figueira | Updated | /02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md | Major | Added initial content to DF-CLS-014 — Classification Specification Document. |
 | 157 | 2026-09-06 | Arnaldo Figueira | Created | /02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md | Major | Added DF-CLS-014 — Classification Specification Document. |
 | 156 | 2026-09-06 | Arnaldo Figueira | Updated | /02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md | Major | Added initial content to DF-CLS-013 — Classification Dictionary Document. |
