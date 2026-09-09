@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 162 | 2026-09-09 | Arnaldo Figueira | Created | /Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md | Major | Added DF-RDM-040 - Templates Roadmap Document. |
 | 161 | 2026-09-09 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestones M2 has been corrected and updated. |
 | 160 | 2026-09-07 | Arnaldo Figueira | Updated | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md | Major | Added initial content to DF-CLS-015 — Classification Examples Document. |
 | 159 | 2026-09-07 | Arnaldo Figueira | Created | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md | Major | Added DF-CLS-015 — Classification Examples Document. |
