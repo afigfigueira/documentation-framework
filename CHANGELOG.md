@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 164 | 2026-09-10 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Added Milestone M7 — Templates Component with canonical document paths to Architectural Milestones Document. |
 | 163 | 2026-09-10 | Arnaldo Figueira | Updated | /Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md | Major | Added initial content to DF-RDM-040 - Templates Roadmap Document. |
 | 162 | 2026-09-09 | Arnaldo Figueira | Created | /Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md | Major | Added DF-RDM-040 - Templates Roadmap Document. |
 | 161 | 2026-09-09 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestones M2 has been corrected and updated. |

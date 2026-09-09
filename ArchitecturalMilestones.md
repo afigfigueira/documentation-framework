@@ -116,6 +116,37 @@ The **Milestone Status** is therefore not managed independently. It is a summary
 
 ---
 
+## Milestone M7 — Templates Component
+
+**Milestone Status:** Not Started
+
+### Objectives
+
+Define the complete architectural specification of the Templates component.
+
+## Documents
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+| ------: | :--------- | :--------- | :-------------- | ------------------------------------- | -------------------------------------------------------------------------- |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | README | /02-Documentation/Templates/README.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-001 — Templates Architecture | /02-Documentation/Templates/DF-TPL-001-TemplatesArchitecture.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-002 — Templates Concepts | /02-Documentation/Templates/DF-TPL-002-TemplatesConcepts.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-003 — Templates Model | /02-Documentation/Templates/DF-TPL-003-TemplatesModel.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-004 — Template Elements | /02-Documentation/Templates/DF-TPL-004-TemplateElements.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-005 — Templates Schema | /02-Documentation/Templates/DF-TPL-005-TemplatesSchema.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-006 — Templates Lifecycle | /02-Documentation/Templates/DF-TPL-006-TemplatesLifecycle.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-007 — Templates Validation | /02-Documentation/Templates/DF-TPL-007-TemplatesValidation.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-008 — Templates Governance | /02-Documentation/Templates/DF-TPL-008-TemplatesGovernance.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-009 — Templates Relationships | /02-Documentation/Templates/DF-TPL-009-TemplatesRelationships.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-010 — Templates Constraints | /02-Documentation/Templates/DF-TPL-010-TemplatesConstraints.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-011 — Templates Extensibility | /02-Documentation/Templates/DF-TPL-011-TemplatesExtensibility.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | Templates Best Practices | /02-Documentation/Templates/DF-TPL-012-TemplatesBestPractices.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | Templates Dictionary | /02-Documentation/Templates/DF-TPL-013-TemplatesDictionary.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | Templates Specification | /02-Documentation/Templates/DF-TPL-014-TemplatesSpecification.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | Templates Examples | /02-Documentation/Templates/DF-TPL-015-TemplatesExamples.md |
+
+---
+
 ## Milestone M6 — Classification Component
 
 **Milestone Status:** Completed
