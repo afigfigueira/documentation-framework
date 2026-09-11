@@ -128,7 +128,7 @@ Define the complete architectural specification of the Templates component.
 
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 | ------: | :--------- | :--------- | :-------------- | ------------------------------------- | -------------------------------------------------------------------------- |
-| S | 2026-09-11 | 2026-09-11 | yyyy-mm-dd | README | /02-Documentation/Templates/README.md |
+| C | 2026-09-11 | 2026-09-11 | 2026-09-11 | README | /02-Documentation/Templates/README.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-001 — Templates Architecture | /02-Documentation/Templates/DF-TPL-001-TemplatesArchitecture.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-002 — Templates Concepts | /02-Documentation/Templates/DF-TPL-002-TemplatesConcepts.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-003 — Templates Model | /02-Documentation/Templates/DF-TPL-003-TemplatesModel.md |
