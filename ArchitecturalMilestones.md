@@ -129,21 +129,21 @@ Define the complete architectural specification of the Templates component.
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 | ------: | :--------- | :--------- | :-------------- | ------------------------------------- | -------------------------------------------------------------------------- |
 | C | 2026-09-11 | 2026-09-11 | 2026-09-11 | README | /02-Documentation/Templates/README.md |
-| S | 2026-09-13 | 2026-09-13 | yyyy-mm-dd | DF-TPL-001 — Templates Architecture | /02-Documentation/Templates/DF-TPL-001-TemplatesArchitecture.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-002 — Templates Concepts | /02-Documentation/Templates/DF-TPL-002-TemplatesConcepts.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-003 — Templates Model | /02-Documentation/Templates/DF-TPL-003-TemplatesModel.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-004 — Template Elements | /02-Documentation/Templates/DF-TPL-004-TemplateElements.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-005 — Templates Schema | /02-Documentation/Templates/DF-TPL-005-TemplatesSchema.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-006 — Templates Lifecycle | /02-Documentation/Templates/DF-TPL-006-TemplatesLifecycle.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-007 — Templates Validation | /02-Documentation/Templates/DF-TPL-007-TemplatesValidation.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-008 — Templates Governance | /02-Documentation/Templates/DF-TPL-008-TemplatesGovernance.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-009 — Templates Relationships | /02-Documentation/Templates/DF-TPL-009-TemplatesRelationships.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-010 — Templates Constraints | /02-Documentation/Templates/DF-TPL-010-TemplatesConstraints.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-011 — Templates Extensibility | /02-Documentation/Templates/DF-TPL-011-TemplatesExtensibility.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-012 — Templates Best Practices | /02-Documentation/Templates/DF-TPL-012-TemplatesBestPractices.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-013 — Templates Dictionary | /02-Documentation/Templates/DF-TPL-013-TemplatesDictionary.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-014 — Templates Specification | /02-Documentation/Templates/DF-TPL-014-TemplatesSpecification.md |
-| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-015 — Templates Examples | /02-Documentation/Templates/DF-TPL-015-TemplatesExamples.md |
+| S | 2026-09-13 | 2026-09-13 | yyyy-mm-dd | DF-TPL-001 — Templates Architecture | /02-Documentation/Templates/01-Architecture/DF-TPL-001-TemplatesArchitecture.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-002 — Templates Concepts | /02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-003 — Templates Model | /02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-004 — Template Elements | /02-Documentation/Templates/02-Structure/DF-TPL-004-TemplateElements.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-005 — Templates Schema | /02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-006 — Templates Lifecycle | /02-Documentation/Templates/03-Behavior/DF-TPL-006-TemplatesLifecycle.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-007 — Templates Validation | /02-Documentation/Templates/03-Behavior/DF-TPL-007-TemplatesValidation.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-008 — Templates Governance | /02-Documentation/Templates/03-Behavior/DF-TPL-008-TemplatesGovernance.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-009 — Templates Relationships | /02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-010 — Templates Constraints | /02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-011 — Templates Extensibility | /02-Documentation/Templates/03-Behavior/DF-TPL-011-TemplatesExtensibility.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-012 — Templates Best Practices | /02-Documentation/Templates/04-Reference/DF-TPL-012-TemplatesBestPractices.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-013 — Templates Dictionary | /02-Documentation/Templates/04-Reference/DF-TPL-013-TemplatesDictionary.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-014 — Templates Specification | /02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md |
+| O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-015 — Templates Examples | /02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md |
 
 ---
 
