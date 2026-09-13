@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 167 | 2026-09-13 | Arnaldo Figueira | Created | /02-Documentation/Templates/DF-TPL-001-TemplatesArchitecture.md | Major | Added DF-TPL-001 — Templates Architecture Document. |
 | 166 | 2026-09-11 | Arnaldo Figueira | Updated | /02-Documentation/Templates/README.md | Major | Added initial content to Document Templates Component README Document. |
 | 165 | 2026-09-11 | Arnaldo Figueira | Created | /02-Documentation/Templates/README.md | Major | Added Document Templates Component README Document. |
 | 164 | 2026-09-10 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Added Milestone M7 — Templates Component with canonical document paths to Architectural Milestones Document. |
