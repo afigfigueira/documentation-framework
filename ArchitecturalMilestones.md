@@ -131,7 +131,7 @@ Define the complete architectural specification of the Templates component.
 | C | 2026-09-11 | 2026-09-11 | 2026-09-11 | README | /02-Documentation/Templates/README.md |
 | C | 2026-09-13 | 2026-09-13 | 2026-09-13 | DF-TPL-001 — Templates Architecture | /02-Documentation/Templates/01-Architecture/DF-TPL-001-TemplatesArchitecture.md |
 | C | 2026-09-13 | 2026-09-13 | 2026-09-13 | DF-TPL-002 — Templates Concepts | /02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md |
-| S | 2026-09-13 | 2026-09-13 | yyyy-mm-dd | DF-TPL-003 — Templates Model | /02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md |
+| C | 2026-09-13 | 2026-09-13 | 2026-09-13 | DF-TPL-003 — Templates Model | /02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-004 — Template Elements | /02-Documentation/Templates/02-Structure/DF-TPL-004-TemplateElements.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-005 — Templates Schema | /02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-006 — Templates Lifecycle | /02-Documentation/Templates/03-Behavior/DF-TPL-006-TemplatesLifecycle.md |

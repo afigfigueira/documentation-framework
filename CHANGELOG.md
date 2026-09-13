@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 172 | 2026-09-13 | Arnaldo Figueira | Updated | /02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md | Major | Added initial content to DF-TPL-003 — Templates Model Document. |
 | 171 | 2026-09-13 | Arnaldo Figueira | Created | /02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md | Major | Added DF-TPL-003 — Templates Model Document. |
 | 170 | 2026-09-13 | Arnaldo Figueira | Updated | /02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md | Major | Added initial content to DF-TPL-002 — Templates Concepts Document. |
 | 169 | 2026-09-13 | Arnaldo Figueira | Created | /02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md | Major | Added DF-TPL-002 — Templates Concepts Document. |
