@@ -2,19 +2,20 @@
 
 # DF-TPL-001 — Templates Architecture
 
-| Metadata        | Value                  |
-| --------------- | ---------------------- |
-| **Document ID** | DF-TPL-001             |
-| **Title**       | Templates Architecture |
-| **Family**      | Templates              |
-| **Type**        | Architecture           |
-| **Component**   | Templates              |
-| **Author**      | Arnaldo Figueira       |
-| **Status**      | Draft                  |
-| **Version**     | 1.0                    |
-| **Revision**    | 0                      |
-| **Baseline**    | 1.0                    |
-| **Language**    | English                |
+| Metadata        | Value                           |
+| --------------- | ------------------------------- |
+| **Document ID** | DF-TPL-001                      |
+| **Title**       | Templates Architecture          |
+| **Family**      | Templates                       |
+| **Type**        | Component Architecture Document |
+| **Component**   | Templates                       |
+| **Author**      | Arnaldo Figueira                |
+| **Status**      | Draft                           |
+| **Version**     | 1.0                             |
+| **Revision**    | 0                               |
+| **Baseline**    | 1.0                             |
+| **Language**    | English                         |
+| **Date**        | 2026-09-13                      |
 
 ---
 
@@ -680,9 +681,9 @@ The Templates architecture therefore establishes a controlled foundation for the
 
 # Change History
 
-| Version | Revision | Date       | Change                                            |
-| ------- | -------: | ---------- | ------------------------------------------------- |
-| 1.0     |        0 | 2026-09-13 | Initial definition of the Templates architecture. |
+| # | Date       | Author           | Type            | Document   | Description                                       |
+| - | ---------- | ---------------- | --------------- | ---------- | ------------------------------------------------- |
+| 1 | 13/09/2026 | Arnaldo Figueira | Add New Content | DF-TPL-001 | Initial definition of the Templates architecture. |
 
 ---
 
