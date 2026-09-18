@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 177 | 2026-09-18 | Arnaldo Figueira | Created | /02-Documentation/Templates/03-Behavior/DF-TPL-006-TemplatesLifecycle.md | Major | Added DF-TPL-006 — Templates Lifecycle Document. |
 | 176 | 2026-09-18 | Arnaldo Figueira | Updated | /02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md | Major | Added initial content to DF-TPL-005 — Templates Schema Document. |
 | 175 | 2026-09-18 | Arnaldo Figueira | Created | /02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md | Major | Added DF-TPL-005 — Templates Schema Document. |
 | 174 | 2026-09-18 | Arnaldo Figueira | Updated | /02-Documentation/Templates/02-Structure/DF-TPL-004-TemplateElements.md | Major | Added initial content to DF-TPL-004 — Template Elements Document. |
