@@ -135,7 +135,7 @@ Define the complete architectural specification of the Templates component.
 | C | 2026-09-18 | 2026-09-18 | 2026-09-18 | DF-TPL-004 — Template Elements | /02-Documentation/Templates/02-Structure/DF-TPL-004-TemplateElements.md |
 | C | 2026-09-18 | 2026-09-18 | 2026-09-18 | DF-TPL-005 — Templates Schema | /02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md |
 | C | 2026-09-18 | 2026-09-18 | 2026-09-19 | DF-TPL-006 — Templates Lifecycle | /02-Documentation/Templates/03-Behavior/DF-TPL-006-TemplatesLifecycle.md |
-| S | 2026-09-19 | 2026-09-19 | yyyy-mm-dd | DF-TPL-007 — Templates Validation | /02-Documentation/Templates/03-Behavior/DF-TPL-007-TemplatesValidation.md |
+| C | 2026-09-19 | 2026-09-19 | 2026-09-19 | DF-TPL-007 — Templates Validation | /02-Documentation/Templates/03-Behavior/DF-TPL-007-TemplatesValidation.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-008 — Templates Governance | /02-Documentation/Templates/03-Behavior/DF-TPL-008-TemplatesGovernance.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-009 — Templates Relationships | /02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-010 — Templates Constraints | /02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md |
