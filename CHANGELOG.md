@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 189 | 2026-09-22 | Arnaldo Figueira | Created | /02-Documentation/Templates/04-Reference/DF-TPL-012-TemplatesBestPractices.md | Major | Added DF-TPL-012 — Templates Best Practices Document. |
 | 188 | 2026-09-22 | Arnaldo Figueira | Updated | /02-Documentation/Templates/03-Behavior/DF-TPL-011-TemplatesExtensibility.md | Major | Added initial content to DF-TPL-011 — Templates Extensibility Document. |
 | 187 | 2026-09-22 | Arnaldo Figueira | Created | /02-Documentation/Templates/03-Behavior/DF-TPL-011-TemplatesExtensibility.md | Major | Added DF-TPL-011 — Templates Extensibility Document. |
 | 186 | 2026-09-22 | Arnaldo Figueira | Updated | /02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md | Major | Added initial content to DF-TPL-010 — Templates Constraints Document. |
