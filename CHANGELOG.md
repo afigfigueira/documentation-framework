@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 185 | 2026-09-22 | Arnaldo Figueira | Created | /02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md | Major | Added DF-TPL-010 — Templates Constraints Document. |
 | 184 | 2026-09-22 | Arnaldo Figueira | Updated | /02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md | Major | Added initial content to DF-TPL-009 — Templates Relationships Document. |
 | 183 | 2026-09-22 | Arnaldo Figueira | Created | /02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md | Major | Added DF-TPL-009 — Templates Relationships Document. |
 | 182 | 2026-09-22 | Arnaldo Figueira | Updated | /02-Documentation/Templates/03-Behavior/DF-TPL-008-TemplatesGovernance.md | Major | Added initial content to DF-TPL-008 — Templates Governance Document. |
