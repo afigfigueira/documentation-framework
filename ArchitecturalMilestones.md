@@ -141,7 +141,7 @@ Define the complete architectural specification of the Templates component.
 | C | 2026-09-22 | 2026-09-22 | 2026-09-22 | DF-TPL-010 — Templates Constraints | /02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md |
 | C | 2026-09-22 | 2026-09-22 | 2026-09-22 | DF-TPL-011 — Templates Extensibility | /02-Documentation/Templates/03-Behavior/DF-TPL-011-TemplatesExtensibility.md |
 | C | 2026-09-22 | 2026-09-22 | 2026-09-23 | DF-TPL-012 — Templates Best Practices | /02-Documentation/Templates/04-Reference/DF-TPL-012-TemplatesBestPractices.md |
-| S | 2026-09-23 | 2026-09-23 | yyyy-mm-dd | DF-TPL-013 — Templates Dictionary | /02-Documentation/Templates/04-Reference/DF-TPL-013-TemplatesDictionary.md |
+| C | 2026-09-23 | 2026-09-23 | 2026-09-23 | DF-TPL-013 — Templates Dictionary | /02-Documentation/Templates/04-Reference/DF-TPL-013-TemplatesDictionary.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-014 — Templates Specification | /02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md |
 | O | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | DF-TPL-015 — Templates Examples | /02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md |
 
