@@ -56,6 +56,7 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 197 | 2026-09-23 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone Status of Milestone M7 — Document Identity Component was marked as Completed. |
 | 196 | 2026-09-23 | Arnaldo Figueira | Updated | /02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md | Major | Added initial content to DF-TPL-015 — Templates Examples Document. |
 | 195 | 2026-09-23 | Arnaldo Figueira | Created | /02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md | Major | Added DF-TPL-015 — Templates Examples Document. |
 | 194 | 2026-09-23 | Arnaldo Figueira | Updated | /02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md | Major | Added initial content to DF-TPL-014 — Templates Specification Document. |

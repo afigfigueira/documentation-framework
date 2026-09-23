@@ -118,7 +118,7 @@ The **Milestone Status** is therefore not managed independently. It is a summary
 
 ## Milestone M7 — Templates Component
 
-**Milestone Status:** In Progress
+**Milestone Status:** Completed
 
 ### Objectives
 
