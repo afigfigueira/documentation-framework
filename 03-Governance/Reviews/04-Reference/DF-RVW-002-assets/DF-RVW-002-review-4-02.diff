@@ -1,0 +1,207 @@
+--- before-4.02-REVIEW/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ after-4.02-REVIEW/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 5 |
++| **Revision** | 6 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -27,6 +27,8 @@
+ Revision 4 records the localized Step 4.01 UPDATE in §10. Sections 1–9 retain the historical Step 3, translation and REVIEW event scopes; §10 states the current source edition and finding states. The Blueprint now has Version 2.0 Revision 1 and is updated—pending validation.
+ 
+ Revision 5 records the Step 4.01 VALIDATE DOCUMENT result in §11. Sections 9–10 retain event-time states; §11 governs current local closure and the next command.
++
++Revision 6 adds Step 4.02 REVIEW in §12. Prior event sections preserve their dated scope. Manifest findings are Open; its source is unchanged.
+ 
+ ## 2. Concrete changes — before/after
+ 
+@@ -88,7 +90,7 @@
+ 
+ The attached matrix contains all 89 positions, input/current editions and hashes, REVIEW/UPDATE/VALIDATE, findings, CHANGELOG and Milestone. The classification table retains content-based proposals with application pending in the 79 original documents. The new supporting-document rows have been applied. Dependencies: Foundation before Architecture; identity/classification owners before consumers; Metadata divergences resolved with domain owners without copying examples into a canonical catalog.
+ 
+-Current Step 4.01: REVIEW, UPDATE and scoped VALIDATE DOCUMENT complete. Blueprint Version 2.0 Revision 1 remains Draft, Baseline Not assigned. Next command: **REVIEW DOCUMENT DF-FND-001**, Step 4.02.
++Current Step 4.01: REVIEW, UPDATE and scoped VALIDATE DOCUMENT complete. Blueprint Version 2.0 Revision 1 remains Draft, Baseline Not assigned. Step 4.02 REVIEW complete in §12; next command: **UPDATE DF-FND-001**.
+ 
+ ## 6. Scoped validation and evidence
+ 
+@@ -100,7 +102,7 @@
+ 
+ ## 7. Subordinate exports and traceability
+ 
+-Files in `DF-RVW-002-assets/` are subordinate representations of this report's inventories and evidence: input manifest, thematic coverage, classification, progress matrix, allocation/impact map, current manifest, validation results and complete diffs. CSV/JSON/diff exports are not new normative sources or a parallel document series. The original Step 3 evidence and diff retain their R1 provenance; current tracking and manifest record report V1.0 R5. Historical translation tracking remains associated with R2. Translating the report does not imply that the historical exports have been translated. The current manifest identifies its parent and hashes sources/exports, excluding itself; the external receipt records the manifest and package hashes.
++Files in `DF-RVW-002-assets/` are subordinate representations of this report's inventories and evidence: input manifest, thematic coverage, classification, progress matrix, allocation/impact map, current manifest, validation results and complete diffs. CSV/JSON/diff exports are not new normative sources or a parallel document series. The original Step 3 evidence and diff retain their R1 provenance; current tracking and manifest record report V1.0 R6. Historical translation tracking remains associated with R2. Translating the report does not imply that the historical exports have been translated. The current manifest identifies its parent and hashes sources/exports, excluding itself; the external receipt records the manifest and package hashes.
+ 
+ Original central records: #198 extends event types; #199 records policy creation pending validation; #200 report creation pending validation; #201 Milestones; #202 consolidation of earlier reviews; #203 scoped policy validation; #204 scoped validation of the remaining registers/evidence. Date: 2026-09-30; author: Codex — AI assistant. M8 establishes the input with explicit limits; M9 conventions/supporting documents/tracking, without source propagation; M10–M14 remain pending. These historical entries remain unchanged.
+ 
+@@ -117,6 +119,7 @@
+ | 2026-09-30 | 1.0 | 3 | Step 4.01: complete Blueprint REVIEW; nine findings and two warnings; current progress matrix expressed in technical English | Draft; Baseline Not assigned; compatible informational report update; Blueprint unchanged; #208 pending checks, #210 later integrity/traceability result |
+ | 2026-09-30 | 1.0 | 4 | Step 4.01 UPDATE: report records Blueprint V2.0 R1, material before/after, update map and pending validation | Draft; Baseline Not assigned; compatible informational update; source findings Corrected—pending validation; #212 |
+ | 2026-09-30 | 1.0 | 5 | Step 4.01 VALIDATE DOCUMENT: exact Blueprint edition, eleven verified local closures and current tracking | Draft; Baseline Not assigned; source unchanged V2.0 R1; #214–216 |
++| 2026-09-30 | 1.0 | 6 | Step 4.02 full Manifest REVIEW; six findings and one warning; source unchanged | Draft; Baseline Not assigned; compatible informational update; #218 with subsequent batch checks #220 |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -425,3 +428,118 @@
+ ### 11.5. Next command
+ 
+ **CONTINUAR** starts **Step 4.02 — REVIEW DOCUMENT DF-FND-001 — Framework Manifest**. It does not execute that source’s UPDATE or VALIDATE stages automatically.
++
++
++## 12. Step 4.02 — REVIEW DF-FND-001 — Framework Manifest
++
++### 12.1. Source, coverage and result
++
++**REVIEW completed with six findings and one warning, all Open.** UPDATE and VALIDATE DOCUMENT have not been performed. Source `00-Foundation/DF-FND-001-FrameworkManifest.md` is unchanged: Version 1.0, Revision absent, Author Arnaldo Figueira, Approved, Baseline 1.0, Language English; Family/Type absent. SHA-256: `ba259eb305048893eabbd720271a9f5e8d14ceb6f138b441827089665128883b`.
++
++The complete source was read: 6198 bytes, 265 lines, all sixteen numbered sections, header and every list/paragraph; no diagrams or operational Markdown links. The received approval/Baseline declarations are preserved, not renewed or independently verified. Comparison coverage and exact hashes are recorded in `DF-RVW-002-review-4-02-evidence.json`; partial comparisons do not complete those sources’ cycles.
++
++Current totals: **26 Open, 11 Closed—verified, one Not applicable—scope decision**. The seven new Manifest records are separate local occurrences linked to existing thematic findings. Their addition does not reopen the eleven verified Blueprint closures or INV-02.
++
++### 12.2. Findings and concrete proposals
++
++#### FND001-01 — Medium
++
++**Source:** Header.
++
++**Observed:** Family, Type and Revision absent; input Approved/Baseline 1.0
++
++**Proposed correction:** Add Family=Foundation, Type=Architecture; omit invented Component/Class. First changed working successor uses Revision 1, Draft and Baseline Not assigned; retain original Author and historical declarations.
++
++**Closure criterion:** Header conforms to responsibility-based classification and edition policy; input history preserved without inferred Revision 0.
++
++**Related records:** REV2-03. **State:** Open.
++
++#### FND001-02 — High
++
++**Source sections:** 6, 8, 10.
++
++**Observed:** Section 6 calls META Documentation, Documentation Standards, Naming Conventions and Supporting Reference Documents families; section 10 lists META/ARC/DES/REF/CON/WFL/REG/TMP/ANL as current families.
++
++**Proposed correction:** Qualify received lists as historical vocabulary. Distinguish canonical component Family, non-component Foundation/Architecture/Roadmap areas, document responsibility Type, stable allocation series and subject roles. Reference responsible sources instead of inventing components or aliases.
++
++**Closure criterion:** Sections 6/8/10 and related occurrences use the same scoped Family contract; no current code-based family taxonomy or new series/component is inferred.
++
++**Related records:** REV2-03; INV-06. **State:** Open.
++
++#### FND001-03 — High
++
++**Source sections:** 8.
++
++**Observed:** Architectural documents describe architecture; Process documents describe processes; Reference documents describe standards; no explicit Structure responsibility or complete Type contract.
++
++**Proposed correction:** State the uniform Architecture/Structure/Behavior/Reference responsibilities. Separate Family from Type and normative/informative authority from classification; Reference includes both under explicit declarations.
++
++**Closure criterion:** Four and only four current Type values; structural responsibilities covered; no inference of normative authority from Type or directory.
++
++**Related records:** REV2-03; REV2-12. **State:** Open.
++
++#### FND001-04 — Medium
++
++**Source sections:** 12.
++
++**Observed:** Evolution may include new document types, without a boundary on the adopted Type vocabulary.
++
++**Proposed correction:** Allow additional document roles, Templates, content and components within the current four Type values. A future change to the classification contract requires an explicit governed decision, compatibility assessment and coordinated source reconciliation.
++
++**Closure criterion:** Extensibility does not silently widen Type or recalculate permanent identifiers; compatibility and rollout are explicit.
++
++**Related records:** REV2-03; REV2-04. **State:** Open.
++
++#### FND001-05 — Medium
++
++**Source sections:** 6, 8, 9, 15.
++
++**Observed:** Every document and canonical documentation statements leave normalization applicability unspecified.
++
++**Proposed correction:** Explicitly exclude every README.md, CHANGELOG.md and ArchitecturalMilestones.md from document normalization while retaining content, references, inventory, hashes and their own record conventions. The primary-responsibility principle can still apply to functional content.
++
++**Closure criterion:** No ID/Family/Type/edition/header requirement is imposed on these filenames anywhere; content/traceability obligations remain.
++
++**Related records:** INV-02 (Not applicable scope decision, not reopened). **State:** Open.
++
++#### FND001-06 — High
++
++**Source sections:** 1, 8, 11, 15.
++
++**Observed:** Canonical entry point and shall always be interpreted before any other document, combined with unconditional preservation of naming/relationships, provide no responsible-source/conflict boundary.
++
++**Proposed correction:** Preserve the Manifest as the framework orientation entry point. Separate reading precedence from semantic authority; domain owners define their contracts and the adopted working rules govern this review. Corrections require evidence and preserve historical identity/decisions rather than freeze invalid declarations. Distinguish received canonical/Approved claims from a new Draft successor.
++
++**Closure criterion:** Entry-point role does not override owner specifications; conflict handling and controlled correction are explicit; no mandatory runtime dependency or inherited approval is inferred.
++
++**Related records:** REV2-03; REV2-04; REV2-12. **State:** Open.
++
++#### FND001-W01 — Low
++
++**Source sections:** 1, 6, 13, 15.
++
++**Observed:** Entry-point role has no navigable responsible-source or recommended-reading map; external frameworks are examples without supplied specification references.
++
++**Proposed correction:** Add a concise map to existing Blueprint, Architecture, Classification, Identity and review-policy sources using actual supplied paths. Preserve section 13 external-function boundary and qualify the comparison scope; do not fabricate external CMS/DMS specifications.
++
++**Closure criterion:** Links resolve to intended source identities; documentary references are not mandatory dependency edges; unseen external specifications are not claimed reviewed.
++
++**Related records:** FND004-W02 (local closure retained; separate Manifest scope). **State:** Open.
++
++### 12.3. UPDATE scope, authority and compatibility proposal
++
++Proposed batch: only DF-FND-001 plus the consolidated report, evidence and central tracking. Preserve all sixteen sections and the permanent ID/path. Retain mission, vision, philosophy, domain independence, knowledge model and §13’s external-function boundary. Add a compact actual-source map and local edition history; explain the received vocabulary historically rather than silently rewriting it as a present taxonomy.
++
++Proposed header: Family Foundation, Type Architecture, no invented Component/Class, English, Draft, Baseline Not assigned. Retain Arnaldo Figueira’s original contribution; record Codex’s actual update contribution if UPDATE executes. Proposed successor is **V2.0 R1**: replacing the currently open-ended Type and Family interpretation/precedence with the adopted closed classification and scoped authority convention changes what the contract permits. This is an incompatible convention interpretation, although no identity/path migration is required. No historical Revision 0, approval date or Baseline membership is invented. This is a proposal, not a performed source change; UPDATE must assess the final exact change and show before/after.
++
++Responsible boundaries: Manifest states framework identity/orientation; Blueprint supplies cross-domain design; Architecture owns structure; Classification owns classification semantics; Identity owns logical keys; Metadata owns descriptors; Review Policy governs this working process. Documentary references are distinct from mandatory execution dependencies. Owner-source divergences remain open until their scheduled cycles.
++
++### 12.4. Tracking and executed checks
++
++CHANGELOG #217 records the REVIEW, #218 report V1.0 R5→R6, #219 M10 tracking and #220 subsequent evidence-integrity checks. M10 remains In Progress: Blueprint C, Manifest S, four remaining records O. Manifest start date is 2026-09-30; no completion date. M9 identifies report R6 without changing its historical acceptance scope. Prior entries and M0–M7 remain preserved.
++
++Executed checks cover exact unchanged source/input hash, all sixteen section references, related-source hashes, preserved stable matrix positions, current matrix/manifest hashes, original normalized-source preservation except the already updated Blueprint, six unchanged README files, central event sequence and historical milestone preservation. They validate this REVIEW/evidence batch, **not the Manifest’s semantic conformance or a corrected source edition**. See `DF-RVW-002-review-4-02-checks.json` and the complete report/register diff. Historical R5 validation evidence retains its earlier scope. Current checkpoint: `Context-Working-Step-4-02-Review.zip`; final integrated delivery remains pending.
++
++### 12.5. Next command
++
++**CONTINUAR** or **UPDATE DF-FND-001** executes the proposed Manifest correction, exact before/after, successor history and tracking, then pauses before VALIDATE DOCUMENT. It does not update other domain sources automatically.
+--- before-4.02-REVIEW/Context/CHANGELOG.md
++++ after-4.02-REVIEW/Context/CHANGELOG.md
+@@ -58,6 +58,10 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 220 | 2026-09-30 | Codex — AI assistant | Validated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Step 4.02 REVIEW evidence/traceability checks PASS: unchanged source, coverage/section IDs, comparison hashes, stable 89-position matrix, current hashes, central history and original source preservation except prior Blueprint update. No VALIDATE DOCUMENT of Manifest or finding closure; report section 12; M10. |
++| 219 | 2026-09-30 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M10 In Progress: Blueprint C, Manifest O to S start 2026-09-30 with REVIEW complete and UPDATE/VALIDATE pending; four O; no completion date; M9 report R6; historical records preserved. |
++| 218 | 2026-09-30 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R5 to R6 Draft/unassigned: full Manifest REVIEW, proposed before/after and V2.0 R1 compatibility assessment, seven Open records; 26 Open, 11 Closed-verified, INV-02 Not applicable; evidence checks pending. |
++| 217 | 2026-09-30 | Codex — AI assistant | Reviewed | /00-Foundation/DF-FND-001-FrameworkManifest.md | Correction | Step 4.02 full REVIEW: V1.0 Revision absent Approved/Baseline 1.0 unchanged; ba259eb305048893eabbd720271a9f5e8d14ceb6f138b441827089665128883b; all 16 sections; six findings and one warning Open; classification, scope, authority and references proposals; report section 12; M10. |
+ | 216 | 2026-09-30 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M10 Blueprint review cycle S to C, completion 2026-09-30; five Foundation records O; milestone remains In Progress by record composition; M9 report R5; historical records preserved. |
+ | 215 | 2026-09-30 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R4 to R5 Draft/unassigned: validation evidence, eleven local closures, remaining scope, source unchanged and next 4.02 REVIEW; current matrix/manifest and checkpoint; no integrated conformity claim. |
+ | 214 | 2026-09-30 | Codex — AI assistant | Validated | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md | Correction | Step 4.01 exact V2.0 R1 SHA-256 941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6: local Blueprint correction scope PASS; eleven local findings Closed-verified, 19 earlier records remain Open; no source edit, approval or Baseline; report section 11 and validation-4-01.json; M10. |
+--- before-4.02-REVIEW/Context/ArchitecturalMilestones.md
++++ after-4.02-REVIEW/Context/ArchitecturalMilestones.md
+@@ -273,6 +273,8 @@
+ 
+ Step 4.01 VALIDATE (2026-09-30): local Blueprint correction scope PASS on unchanged V2.0 R1; eleven local findings Closed-verified. Record C, completion 2026-09-30; five records O. M10 remains In Progress under record composition. Draft/unassigned; no approval or integrated conformity. Report V1.0 R5 section 11; CHANGELOG #214-216.
+ 
++Step 4.02 REVIEW (2026-09-30): Manifest source unchanged V1.0, Revision absent, Approved/Baseline 1.0. Six findings and one warning Open; S record, no completion date. M10 composition: one C, one S, four O; In Progress. Report V1.0 R6 section 12; CHANGELOG #217-220.
++
+ ### Objectives and acceptance
+ 
+ Execute complete REVIEW/UPDATE/VALIDATE cycles for the six sources; reconcile responsible definitions, record actual editions and verification evidence. Partial Step 2 readings do not complete these cycles.
+@@ -281,7 +283,7 @@
+ 
+ | #Status | Order Date | Start Date | Completion Date | Document | Path |
+ | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+-| O | 2026-09-30 |  |  | DF-FND-001 | /00-Foundation/DF-FND-001-FrameworkManifest.md |
++| S | 2026-09-30 | 2026-09-30 |  | DF-FND-001 — V1.0, Revision absent; REVIEW complete; UPDATE/VALIDATE pending | /00-Foundation/DF-FND-001-FrameworkManifest.md |
+ | O | 2026-09-30 |  |  | DF-FND-002 | /00-Foundation/DF-FND-002-ResearchJournal.md |
+ | O | 2026-09-30 |  |  | DF-FND-003 | /00-Foundation/DF-FND-003-EvolutionTimeline.md |
+ | C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-FND-004 — V2.0 R1 Draft, scoped validation PASS | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md |
+@@ -296,7 +298,7 @@
+ 
+ Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+ 
+-Current supporting report edition: DF-RVW-002 V1.0 R5 includes the Step 4.01 review, update and scoped validation; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
++Current supporting report edition: DF-RVW-002 V1.0 R6 includes the Step 4.01 cycle and Step 4.02 Manifest review; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+ 
+ ### Objectives and acceptance
+ 
