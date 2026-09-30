@@ -1,0 +1,186 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/7",
+  "step": "4.02 UPDATE",
+  "date": "2026-09-30",
+  "source": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+  "input_edition": {
+    "version": "1.0",
+    "revision": null,
+    "status": "Approved",
+    "baseline": "1.0",
+    "author": "Arnaldo Figueira",
+    "family": null,
+    "type": null,
+    "language": "English"
+  },
+  "input_sha256": "ba259eb305048893eabbd720271a9f5e8d14ceb6f138b441827089665128883b",
+  "output_edition": {
+    "version": "2.0",
+    "revision": 1,
+    "status": "Draft",
+    "baseline": "Not assigned",
+    "family": "Foundation",
+    "type": "Architecture",
+    "language": "English"
+  },
+  "output_sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+  "compatibility": "Incompatible permitted-classification and interpretation-authority convention; major Version successor with first declared Revision 1",
+  "identity_path_migration": "None",
+  "section_changes": [
+    {
+      "section": "1",
+      "before_sha256": "f3a17d51d6d5d4b2404ae4aa2f49d02e8369ecb8535e80dadd9123ce53042784",
+      "after_sha256": "8da4060e66e29f5cbe9b6dcd5dccaaec48bd7fa944b32b194fd316440c6d7713",
+      "change": "Replaced body; heading and section number retained"
+    },
+    {
+      "section": "6",
+      "before_sha256": "d4b4633c59797c71295f9787a4d962776181344d3aae83234e9ac93f8c87eaf0",
+      "after_sha256": "1433f8448509dbcc4fe90e27eff8d42d1d1d482d234b052f06b1893a8e2341ab",
+      "change": "Replaced body; heading and section number retained"
+    },
+    {
+      "section": "8",
+      "before_sha256": "66feeb4333adda9e207f310a2266f8e560794bd617ec1b8ea50b018bf0852fb7",
+      "after_sha256": "2358d8faa29eb01b139ecfaaa7d2196e062166e902e53e32ffcf59c8bd3614ea",
+      "change": "Replaced body; heading and section number retained"
+    },
+    {
+      "section": "10",
+      "before_sha256": "6578a6fb40af618ce4913aa9c8e1e65aa1499efe16695686cf8611c9c043963a",
+      "after_sha256": "36a5808ba8f24ecea439c67613ab849ad683caa98612898b6c7d5063880a8676",
+      "change": "Replaced body; heading and section number retained"
+    },
+    {
+      "section": "11",
+      "before_sha256": "7d136db91cbbbb18cbce23b61e0eaa8cb5666a7cba60b3b2fe5401cd9e120c8b",
+      "after_sha256": "a11cfe0e683463ef3a56dc351d0174b5272b527da496189a977d90a8a93ddbd6",
+      "change": "Replaced body; heading and section number retained"
+    },
+    {
+      "section": "12",
+      "before_sha256": "91defbe69e92660e71537fe0d1c77a9adb0dc9c20690f84bf0b58f6c560fd0e2",
+      "after_sha256": "81afe4a7f9a88bffbb35c1a2ee7d68e4e8c8928f6e40a8a2b18f99308ac9806a",
+      "change": "Replaced body; heading and section number retained"
+    },
+    {
+      "section": "15",
+      "before_sha256": "91399a292d07b2471f20ad15ffe3b147b87bb5d07c9f77015fc33ea2c2f5914a",
+      "after_sha256": "305ec7aca5747f112a9121bfbe55937183101f1983e8dd3b2f49a519e40d3982",
+      "change": "Replaced body; heading and section number retained"
+    },
+    {
+      "section": "9",
+      "change": "Functional-file scope qualification"
+    },
+    {
+      "section": "13",
+      "change": "Original paragraphs retained; external operational/evidence qualification added"
+    },
+    {
+      "section": "17",
+      "change": "New local edition history"
+    }
+  ],
+  "applied_map": [
+    {
+      "id": "FND001-01",
+      "severity": "Medium",
+      "sections": "Header",
+      "before": "Family, Type and Revision absent; input Approved/Baseline 1.0",
+      "proposal": "Add Family=Foundation, Type=Architecture; omit invented Component/Class. First changed working successor uses Revision 1, Draft and Baseline Not assigned; retain original Author and historical declarations.",
+      "closure_criterion": "Header conforms to responsibility-based classification and edition policy; input history preserved without inferred Revision 0.",
+      "related_records": "REV2-03",
+      "state": "Corrected—pending validation",
+      "applied_sections": "Header; §17",
+      "after": "Family Foundation; Type Architecture; V2.0 R1 Draft/unassigned; original and actual update contributions; input history retained",
+      "validation_performed": false
+    },
+    {
+      "id": "FND001-02",
+      "severity": "High",
+      "sections": "6, 8, 10",
+      "before": "Section 6 calls META Documentation, Documentation Standards, Naming Conventions and Supporting Reference Documents families; section 10 lists META/ARC/DES/REF/CON/WFL/REG/TMP/ANL as current families.",
+      "proposal": "Qualify received lists as historical vocabulary. Distinguish canonical component Family, non-component Foundation/Architecture/Roadmap areas, document responsibility Type, stable allocation series and subject roles. Reference responsible sources instead of inventing components or aliases.",
+      "closure_criterion": "Sections 6/8/10 and related occurrences use the same scoped Family contract; no current code-based family taxonomy or new series/component is inferred.",
+      "related_records": "REV2-03; INV-06",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§§6, 8, 10",
+      "after": "Historical lists qualified; canonical component/area Family separated from Type, subject roles, series and identity",
+      "validation_performed": false
+    },
+    {
+      "id": "FND001-03",
+      "severity": "High",
+      "sections": "8",
+      "before": "Architectural documents describe architecture; Process documents describe processes; Reference documents describe standards; no explicit Structure responsibility or complete Type contract.",
+      "proposal": "State the uniform Architecture/Structure/Behavior/Reference responsibilities. Separate Family from Type and normative/informative authority from classification; Reference includes both under explicit declarations.",
+      "closure_criterion": "Four and only four current Type values; structural responsibilities covered; no inference of normative authority from Type or directory.",
+      "related_records": "REV2-03; REV2-12",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§8; summaries §§6, 10, 12",
+      "after": "Four Type values defined with independent authority and scope; Structure responsibility explicit",
+      "validation_performed": false
+    },
+    {
+      "id": "FND001-04",
+      "severity": "Medium",
+      "sections": "12",
+      "before": "Evolution may include new document types, without a boundary on the adopted Type vocabulary.",
+      "proposal": "Allow additional document roles, Templates, content and components within the current four Type values. A future change to the classification contract requires an explicit governed decision, compatibility assessment and coordinated source reconciliation.",
+      "closure_criterion": "Extensibility does not silently widen Type or recalculate permanent identifiers; compatibility and rollout are explicit.",
+      "related_records": "REV2-03; REV2-04",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§12; §10",
+      "after": "Evolution adds roles/content within four Types; explicit decision required for a future classification-contract change; identities preserved",
+      "validation_performed": false
+    },
+    {
+      "id": "FND001-05",
+      "severity": "Medium",
+      "sections": "6, 8, 9, 15",
+      "before": "Every document and canonical documentation statements leave normalization applicability unspecified.",
+      "proposal": "Explicitly exclude every README.md, CHANGELOG.md and ArchitecturalMilestones.md from document normalization while retaining content, references, inventory, hashes and their own record conventions. The primary-responsibility principle can still apply to functional content.",
+      "closure_criterion": "No ID/Family/Type/edition/header requirement is imposed on these filenames anywhere; content/traceability obligations remain.",
+      "related_records": "INV-02 (Not applicable scope decision, not reopened)",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§§6, 8, 9, 15",
+      "after": "Functional filenames explicitly excluded everywhere from normalization, with inventory/hash/content and register conventions retained",
+      "validation_performed": false
+    },
+    {
+      "id": "FND001-06",
+      "severity": "High",
+      "sections": "1, 8, 11, 15",
+      "before": "Canonical entry point and shall always be interpreted before any other document, combined with unconditional preservation of naming/relationships, provide no responsible-source/conflict boundary.",
+      "proposal": "Preserve the Manifest as the framework orientation entry point. Separate reading precedence from semantic authority; domain owners define their contracts and the adopted working rules govern this review. Corrections require evidence and preserve historical identity/decisions rather than freeze invalid declarations. Distinguish received canonical/Approved claims from a new Draft successor.",
+      "closure_criterion": "Entry-point role does not override owner specifications; conflict handling and controlled correction are explicit; no mandatory runtime dependency or inherited approval is inferred.",
+      "related_records": "REV2-03; REV2-04; REV2-12",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§§1, 8, 11, 15; §17",
+      "after": "Orientation precedence separated from owner authority; conflict/correction, working convention and historical approval boundaries explicit",
+      "validation_performed": false
+    },
+    {
+      "id": "FND001-W01",
+      "severity": "Low",
+      "sections": "1, 6, 13, 15",
+      "before": "Entry-point role has no navigable responsible-source or recommended-reading map; external frameworks are examples without supplied specification references.",
+      "proposal": "Add a concise map to existing Blueprint, Architecture, Classification, Identity and review-policy sources using actual supplied paths. Preserve section 13 external-function boundary and qualify the comparison scope; do not fabricate external CMS/DMS specifications.",
+      "closure_criterion": "Links resolve to intended source identities; documentary references are not mandatory dependency edges; unseen external specifications are not claimed reviewed.",
+      "related_records": "FND004-W02 (local closure retained; separate Manifest scope)",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§§13, 15.1",
+      "after": "Eight actual supplied-source links with responsibility/evidence limits; external operational boundary preserved",
+      "validation_performed": false
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Corrected—pending validation": 7,
+    "Closed—verified": 11,
+    "Not applicable—scope decision": 1
+  },
+  "source_validation_performed": false
+}

@@ -1,0 +1,64 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/7",
+  "scope": "Construction/integrity only; not VALIDATE DOCUMENT",
+  "checks": {
+    "header_written": true,
+    "all_16_section_numbers_retained": true,
+    "unchanged_bodies_2_3_4_5_7_14_16": true,
+    "eight_actual_links_and_ids": true,
+    "input_hash_in_history": true,
+    "77_unrelated_normalized_sources_unchanged": true,
+    "validated_Blueprint_hash_unchanged": true,
+    "six_READMEs_unchanged": true,
+    "89_stable_matrix_positions": true,
+    "current_matrix_hashes": true,
+    "changelog_sequence_223_to_1": true,
+    "prior_events_preserved": true,
+    "historical_M0_M7_preserved": true
+  },
+  "references": [
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "identity_matches": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "sha256": "cc0f76249a5b21025ae502169b9026f36b87370053119a36e921554ffe16fa4d",
+      "identity_matches": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "sha256": "e0840a725ed0214e37d78be25d664615c4c43fea4e535334dfe47e55d20d5481",
+      "identity_matches": true
+    },
+    {
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md",
+      "sha256": "33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3",
+      "identity_matches": true
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "sha256": "b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc",
+      "identity_matches": true
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206",
+      "identity_matches": true
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "identity_matches": true
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "sha256": "5f51c2525ccd498b9dcbdfe3f935d4d98ce6e352a8ed79f659ae6c7d8c33fd10",
+      "identity_matches": true
+    }
+  ],
+  "source_validation_performed": false,
+  "finding_closure": false
+}

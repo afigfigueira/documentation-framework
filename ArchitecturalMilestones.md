@@ -275,6 +275,8 @@ Step 4.01 VALIDATE (2026-09-30): local Blueprint correction scope PASS on unchan
 
 Step 4.02 REVIEW (2026-09-30): Manifest source unchanged V1.0, Revision absent, Approved/Baseline 1.0. Six findings and one warning Open; S record, no completion date. M10 composition: one C, one S, four O; In Progress. Report V1.0 R6 section 12; CHANGELOG #217-220.
 
+Step 4.02 UPDATE (2026-09-30): Manifest V2.0 R1 Draft/unassigned; seven local corrections pending VALIDATE DOCUMENT. Record remains S, no completion date; M10 In Progress (one C, one S, four O). Report V1.0 R7 section 13; CHANGELOG #221-223.
+
 ### Objectives and acceptance
 
 Execute complete REVIEW/UPDATE/VALIDATE cycles for the six sources; reconcile responsible definitions, record actual editions and verification evidence. Partial Step 2 readings do not complete these cycles.
@@ -283,7 +285,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
-| S | 2026-09-30 | 2026-09-30 |  | DF-FND-001 — V1.0, Revision absent; REVIEW complete; UPDATE/VALIDATE pending | /00-Foundation/DF-FND-001-FrameworkManifest.md |
+| S | 2026-09-30 | 2026-09-30 |  | DF-FND-001 — V2.0 R1 Draft; UPDATE complete; validation pending | /00-Foundation/DF-FND-001-FrameworkManifest.md |
 | O | 2026-09-30 |  |  | DF-FND-002 | /00-Foundation/DF-FND-002-ResearchJournal.md |
 | O | 2026-09-30 |  |  | DF-FND-003 | /00-Foundation/DF-FND-003-EvolutionTimeline.md |
 | C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-FND-004 — V2.0 R1 Draft, scoped validation PASS | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md |
@@ -298,7 +300,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
 
-Current supporting report edition: DF-RVW-002 V1.0 R6 includes the Step 4.01 cycle and Step 4.02 Manifest review; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+Current supporting report edition: DF-RVW-002 V1.0 R7 includes the Step 4.01 cycle and Step 4.02 Manifest review/update; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 
