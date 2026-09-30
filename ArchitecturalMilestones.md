@@ -283,6 +283,8 @@ Step 4.03 REVIEW (2026-09-30): Design Rationale source unchanged V1.0, Revision 
 
 Step 4.03 UPDATE (2026-09-30): Design Rationale V2.0 R1 Draft/unassigned; nine local corrections pending VALIDATE DOCUMENT. Record S, no completion date; M10 In Progress (two C, one S, three O). Report V1.0 R10 section 16; CHANGELOG #231-233.
 
+Step 4.03 VALIDATE (2026-09-30): exact unchanged Design Rationale V2.0 R1 local correction scope PASS; nine local records Closed-verified. Cycle C, completion 2026-09-30; M10 In Progress (three C, three O). Draft/unassigned; integrated reconciliation pending. Report V1.0 R11 section 17; CHANGELOG #234-236.
+
 ### Objectives and acceptance
 
 Execute complete REVIEW/UPDATE/VALIDATE cycles for the six sources; reconcile responsible definitions, record actual editions and verification evidence. Partial Step 2 readings do not complete these cycles.
@@ -296,7 +298,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 | O | 2026-09-30 |  |  | DF-FND-003 | /00-Foundation/DF-FND-003-EvolutionTimeline.md |
 | C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-FND-004 — V2.0 R1 Draft, scoped validation PASS | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md |
 | O | 2026-09-30 |  |  | DF-FND-005 | /00-Foundation/DF-FND-005-FrameworkEvolution.md |
-| S | 2026-09-30 | 2026-09-30 |  | DF-FND-006 — V2.0 R1 Draft; UPDATE complete; validation pending | /00-Foundation/DF-FND-006-DesignRationale.md |
+| C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-FND-006 — V2.0 R1 Draft; scoped validation PASS | /00-Foundation/DF-FND-006-DesignRationale.md |
 
 ---
 
@@ -306,7 +308,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
 
-Current supporting report edition: DF-RVW-002 V1.0 R10 includes the Step 4.01/4.02 scoped cycles and Step 4.03 REVIEW/UPDATE; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+Current supporting report edition: DF-RVW-002 V1.0 R11 includes the Step 4.01/4.02/4.03 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 
