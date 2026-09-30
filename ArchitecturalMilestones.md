@@ -265,7 +265,9 @@ Dependencies: M10; reconcile owner definitions before consumers. Evidence: DF-RV
 
 ## Milestone M10 — Foundation review cycles
 
-**Milestone Status:** Not Started
+**Milestone Status:** In Progress
+
+Step 4.01 (2026-09-30): Blueprint REVIEW completed with findings; its complete REVIEW/UPDATE/VALIDATE cycle remains Started. Source V1.0, Revision absent, Approved, Baseline 1.0 is unchanged; report DF-RVW-002 V1.0 R3, section 9; CHANGELOG #207-210. No completion date.
 
 ### Objectives and acceptance
 
@@ -278,7 +280,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 | O | 2026-09-30 |  |  | DF-FND-001 | /00-Foundation/DF-FND-001-FrameworkManifest.md |
 | O | 2026-09-30 |  |  | DF-FND-002 | /00-Foundation/DF-FND-002-ResearchJournal.md |
 | O | 2026-09-30 |  |  | DF-FND-003 | /00-Foundation/DF-FND-003-EvolutionTimeline.md |
-| O | 2026-09-30 |  |  | DF-FND-004 | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md |
+| S | 2026-09-30 | 2026-09-30 |  | DF-FND-004 | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md |
 | O | 2026-09-30 |  |  | DF-FND-005 | /00-Foundation/DF-FND-005-FrameworkEvolution.md |
 | O | 2026-09-30 |  |  | DF-FND-006 | /00-Foundation/DF-FND-006-DesignRationale.md |
 
@@ -289,6 +291,8 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 **Milestone Status:** Completed
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+
+Current supporting report edition: DF-RVW-002 V1.0 R3 includes the Step 4.01 review; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 
