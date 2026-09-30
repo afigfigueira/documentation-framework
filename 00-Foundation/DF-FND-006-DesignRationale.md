@@ -6,11 +6,18 @@
 |----------|-------|
 | **Document ID** | DF-FND-006 |
 | **Title** | Design Rationale |
-| **Author** | Arnaldo Figueira |
-| **Status** | Approved |
-| **Version** | 1.0 |
-| **Baseline** | 1.0 |
+| **Family** | Foundation |
+| **Type** | Architecture |
+| **Author** | Arnaldo Figueira; Codex — AI assistant |
+| **Status** | Draft |
+| **Version** | 2.0 |
+| **Revision** | 1 |
+| **Baseline** | Not assigned |
 | **Language** | English |
+
+**Working-edition scope:** Step 4.03 UPDATE; corrected—pending VALIDATE DOCUMENT. Historical problem/alternative/decision narratives preserve the received account. Statements of benefits are architectural intentions or received assessments, not newly verified implementation results. Current owner contracts and evidence limits are qualified below.
+
+All README.md, CHANGELOG.md and ArchitecturalMilestones.md files are non-normalized, wherever located. They retain content/reference/inventory/hash checks and their own names/record conventions without required normalized IDs, classification or edition headers. This document’s Family=Foundation and Type=Architecture reflect design-rationale responsibility; Type is independent of permanent identity and approval.
 
 # 1. Introduction and Design Philosophy
 
@@ -155,23 +162,15 @@ They were discovered during development.
 
 The process frequently followed this pattern.
 
-```text id="dr1-1"
+<!-- view: dr1-1 -->
+**View dr1-1 — Historical discovery activity example; no universal lifecycle.**
 
-                 Problem
-                    ↓
-
-               Observation
-                    ↓
-
-                Experiment
-                    ↓
-
-               Abstraction
-                    ↓
-
-               Architecture
-
-```
+| Element / relation | Meaning |
+|---|---|
+| Problem | Context prompting investigation. |
+| Observation / experiment | Evidence gathering; activities may overlap. |
+| Abstraction / architecture | Possible conceptual outcome; no mandatory component sequence. |
+<!-- end-view -->
 
 This pattern was repeated countless times.
 
@@ -214,16 +213,7 @@ The Design Rationale also preserves these changes in perspective.
 
 ## 1.11. Relationship with Other Documents
 
-The Design Rationale complements several documents within the compendium.
-
-For example.
-
-* **Architectural Blueprint** describes the final architecture.
-* **Framework Evolution** describes the historical journey.
-* **Research Journal** documents the discovery process.
-* **Design Rationale** explains the decisions.
-
-Each document presents a different perspective on the same reality.
+This rationale complements the Blueprint’s intended architecture, Framework Evolution’s historical account, the Research Journal’s discovery record and the Evolution Timeline’s chronology. It explains motivations, alternatives and consequences; it does not replace responsible specifications or establish a final implemented architecture. Actual source paths and current evidence limits appear in §10.17.
 
 ---
 
@@ -291,26 +281,15 @@ Conceptually.
 
 The Design Rationale can be represented as follows.
 
-```text id="dr1-2"
+<!-- view: dr1-2 -->
+**View dr1-2 — Decision-analysis perspectives; no execution dependency.**
 
-                 Problem
-                    ↓
-
-               Alternatives
-                    ↓
-
-                 Decision
-                    ↓
-
-               Architecture
-                    ↓
-
-               Consequences
-                    ↓
-
-             Future Evolution
-
-```
+| Element / relation | Meaning |
+|---|---|
+| Problem / alternatives | Describe the context and considered options. |
+| Decision / architecture | Record the adopted rationale and intended contract. |
+| Consequences / future evolution | Assess trade-offs and later changes; no unconditional outcome. |
+<!-- end-view -->
 
 This model will guide the entire analysis presented in the following sections.
 
@@ -421,21 +400,9 @@ Content answers the question.
 
 ## 2.6. Metadata
 
-Metadata came to represent administrative and structural information.
+Metadata represents descriptive information about a document and its exact edition: for example, Document ID references, Family, Type, Version, Revision, Status and Language. These examples are not a completed Metadata Dictionary or Profile.
 
-For example.
-
-* Document ID;
-* Version;
-* Revision;
-* Status;
-* Project;
-* Family;
-* Language.
-
-Metadata answers the question.
-
-> "What is this document?"
+Document Identity owns identity semantics; Classification owns category meanings; Governance capabilities own state/evolution rules. Metadata describes values under those owner contracts. Conceptual separation does not require separate physical files or make descriptors independent of the edition they describe.
 
 ---
 
@@ -475,17 +442,7 @@ This was ultimately the alternative that was adopted.
 
 ## 2.8. Architectural Consequences
 
-The separation produced effects far beyond document organization.
-
-It became possible to.
-
-* validate Metadata;
-* index documents;
-* build the Registry;
-* create automatic search mechanisms;
-* establish document identity.
-
-A large part of the architecture emerged directly from this decision.
+Separating descriptive information from technical content supports intended validation, indexing, registration and search contracts. Identity remains a distinct domain contract referenced by Metadata, not an identity assigned by the descriptor component. Each capability retains its owner responsibilities; this design benefit is not proof of an implemented validator, Registry or search service.
 
 ---
 
@@ -510,46 +467,25 @@ Many of these capabilities would have been extremely difficult to implement.
 
 ## 2.10. Impact on Evolution
 
-The separation also facilitated document evolution.
+Content and descriptors can have distinct conceptual responsibilities while remaining coordinated within one edition. A technical edit may change Version/Revision, lifecycle assessment, descriptive values, indexed views and relationship evidence. A descriptor edit may change persisted bytes and require an edition successor even when the technical proposition is unchanged.
 
-A change in Metadata no longer implied conceptual changes to the content.
-
-Likewise.
-
-A technical update no longer affected administrative properties.
-
-Each category could evolve independently.
+Independence of meaning therefore does not mean independent evolution without synchronization. Exact-edition provenance and the applicable review policy govern the coordinated change.
 
 ---
 
 ## 2.11. Impact on the Architecture
 
-It later became evident that virtually every component of the Documentation Framework depended on this decision.
+Workflow, Registry, Knowledge Graph and Baselines consume descriptive contracts for their respective purposes. Their use of Metadata does not transfer governance, identity or relationship authority to it, and does not guarantee that all operations ignore technical content. Reviews, semantic relationship assessment and impact evidence may inspect content.
 
-For example.
-
-* Workflow;
-* Registry;
-* Knowledge Graph;
-* Baselines.
-
-All of them use Metadata.
-
-None of them need to interpret the technical content directly.
+A mandatory dependency is recorded consumer→provider with its contract, scope and justification; a historical influence or descriptive association is separately typed. No complete mandatory dependency graph is verified by this retrospective rationale.
 
 ---
 
 ## 2.12. Relationship with Knowledge
 
-Another important consequence was the clarification of the concept of knowledge.
+Technical content represents the knowledge communicated by a document. Metadata describes the document and its edition; explicit relationships also represent knowledge about connections and provenance. These roles are distinct without requiring knowledge to reside exclusively in one representation.
 
-Knowledge came to reside exclusively within the content.
-
-Metadata does not represent technical knowledge.
-
-It represents information about the representation of that knowledge.
-
-This distinction became one of the fundamental principles of the framework.
+Descriptor definitions themselves have architectural meaning, but Metadata does not replace the semantics owned by Identity, Classification, Relationships or Governance. This distinction is consistent with the relationship-based knowledge principle in §5.14.
 
 ---
 
@@ -569,18 +505,7 @@ The architecture came to reflect this reality explicitly.
 
 ## 2.14. Subsequent Influence
 
-Several future decisions resulted directly from this separation.
-
-Among them.
-
-* the creation of the Document Identity;
-* the definition of the Registry;
-* the implementation of Baselines;
-* document governance.
-
-Without Metadata as an independent entity.
-
-These solutions would hardly have emerged in their current form.
+The received account associates this separation with later Identity, Registry, Baselines and governance design. Its reference to “implementation of Baselines” is retained as a historical assessment, not verified implementation evidence. The architectural rationale is that explicit descriptors enable consumers to use traceable document information under their own contracts.
 
 ---
 
@@ -650,22 +575,9 @@ Its limitations quickly became apparent.
 
 ## 3.3. Limitations of Physical Identification
 
-As the project evolved, operations such as the following became increasingly common.
+Renaming a file or relocating its representation does not by itself change the logical document. Splitting or merging technical content may instead create distinct successor entities and requires an explicit decision about retained/new identities, provenance and affected references.
 
-* renaming documents;
-* reorganizing directories;
-* splitting documents;
-* merging documents.
-
-Whenever this occurred.
-
-The identity of the document appeared to change.
-
-In reality.
-
-The knowledge remained the same.
-
-Only its representation had changed.
+Do not assume that every split or merge preserves the same knowledge under one unchanged identity. Preserve original entities and history; allocate any genuinely new identity only through the responsible allocation decision. This update performs no split, merge or new allocation.
 
 ---
 
@@ -719,66 +631,35 @@ This was the solution that was adopted.
 
 ## 3.6. The Concept of Document Identity
 
-The architecture then began to distinguish explicitly between.
+The model distinguishes represented knowledge, logical document entities, their permanent identity and physical representations. These are associations, not successive structural Layers or a mandatory execution chain.
 
-Document.
+<!-- view: dr3-1 -->
+**View dr3-1 — Entity/representation associations.**
 
-Physical representation.
+| Element / relation | Meaning |
+|---|---|
+| Knowledge | Represented subject matter. |
+| Document → Identity | Has one logical identity under its applicable normalized contract. |
+| Document → physical representation | May have located representations; not a second identity key. |
+<!-- end-view -->
 
-Identity.
-
-Conceptually.
-
-```text id="dr3-1"
-
-                Knowledge
-                    ↓
-
-                 Document
-                    ↓
-
-            Document Identity
-                    ↓
-
-              Physical File
-
-```
-
-Each layer came to perform a distinct function.
+The identity domain and identifier belong to Document Identity. An exact edition adds Version/Revision or an immutable equivalent; a representation location is neither a second identity key nor the identity of the knowledge itself.
 
 ---
 
 ## 3.7. Independence from Location
 
-An immediate consequence of this decision was independence from the file system.
+A valid logical identity survives ordinary renaming, relocation and format changes while references to physical representations are updated with provenance. Semantic split/merge decisions follow §3.3 instead of being treated as mere location changes.
 
-Documents may.
-
-* change their name;
-* change their directory;
-* change their format.
-
-The identity remains unchanged.
-
-This property became fundamental to the entire architecture.
+These normalized identity contracts do not impose document IDs or normalized headers on README.md, CHANGELOG.md or ArchitecturalMilestones.md. Those functional files retain their own names, content responsibilities, inventories and record conventions.
 
 ---
 
 ## 3.8. Independence from Version
 
-Document evolution also ceased to affect identity.
+Ordinary Version/Revision evolution and reclassification do not recalculate a valid logical document identity. Status describes the applicable edition. A collective Baseline selects exact immutable editions under explicit eligibility, approval and inclusion evidence; it is not another document identity or a new current version of every member.
 
-New versions.
-
-New revisions.
-
-New Baselines.
-
-All of these represent evolution.
-
-Not a change of identity.
-
-The document remains the same.
+A Draft successor does not inherit approval or retarget old Baseline members.
 
 ---
 
@@ -799,51 +680,21 @@ These answers no longer depended on the physical organization.
 
 ## 3.10. Benefits for the Registry
 
-Another important consequence was the creation of the Registry.
-
-Each entry became identified by the Document Identity.
-
-The Registry no longer depended on.
-
-* names;
-* directories;
-* the project structure.
-
-It became dependent exclusively on the logical identity.
+Document Identity supplies the permanent logical key of a Registry entry. The complete entry may also require exact edition references, derived descriptive values, current/historical locations and contextual membership or relationship references with provenance. Key independence from a filename does not make the full record dependent exclusively on identity.
 
 ---
 
 ## 3.11. Benefits for the Knowledge Graph
 
-The same applied to the Knowledge Graph.
-
-Relationships came to connect.
-
-Document Identities.
-
-Rather than files.
-
-This decision made the graph significantly more robust.
-
-Physical reorganizations no longer affected the structure of the knowledge.
+Graph document nodes reference logical identities; typed relationship records can connect those nodes independently of physical filenames. Location changes require refreshed representation references, while semantic split/merge and edition-sensitive relationships may require explicit graph/context updates. Physical independence does not guarantee that every reorganization is semantically impact-free.
 
 ---
 
 ## 3.12. Architectural Consequences
 
-The Document Identity quickly became one of the pillars of the Documentation Framework.
+Registry, Knowledge Graph and Baselines use identity contracts for logical document keys, nodes and selected edition references. Workflow or a Research Journal may reference those identities within their own contracts.
 
-Several components came to depend on it.
-
-For example.
-
-* Workflow;
-* Registry;
-* Knowledge Graph;
-* Baselines;
-* Research Journal.
-
-Its influence extended far beyond the original problem it was intended to solve.
+These examples distinguish registered capability components from document consumers. Mandatory contract use is stated consumer→provider; a documentary reference is not automatically a mandatory runtime dependency. The complete dependency graph remains pending responsible-source reconciliation.
 
 ---
 
@@ -861,13 +712,7 @@ Such as software components or domain objects.
 
 ## 3.14. Influence on the Evolution of the Framework
 
-Following the introduction of the Document Identity.
-
-A large part of the architecture began to evolve differently.
-
-New components naturally assumed that every document possessed a permanent identity.
-
-This assumption simplified countless future decisions.
+Normalized documents use traceable permanent identities while classifications, locations and editions evolve. Functional files named README.md, CHANGELOG.md and ArchitecturalMilestones.md remain outside document normalization; they do not receive IDs merely to satisfy this assumption. Identity permanence preserves valid allocations without accepting erroneous collisions or creating ambiguous aliases.
 
 ---
 
@@ -987,29 +832,19 @@ This was the solution that was adopted.
 
 ## 4.5. The Concept of the Registry
 
-The Registry emerged as an architectural catalog.
+Registry provides a logical catalog of document entities and traceable edition views. Entries reference identities, descriptive values and representation locations; the declared scope distinguishes current, Draft and historical views.
 
-It does not contain documents.
+<!-- view: dr4-1 -->
+**View dr4-1 — Registry references; not process or Layer order.**
 
-It contains information about documents.
+| Element / relation | Meaning |
+|---|---|
+| Registry entry → Document Identity | References its permanent logical key. |
+| Registry edition view → exact document edition | References edition-specific values and provenance. |
+| Registry view → location / relationship records | Exposes traceable derived references; retains owner semantics. |
+<!-- end-view -->
 
-Each entry represents a document entity.
-
-Conceptually.
-
-```text id="dr4-1"
-
-                 Document
-                    ↓
-
-            Document Identity
-                    ↓
-
-             Registry Entry
-
-```
-
-The Registry came to know every document within the system.
+An intended catalog role does not prove that every supplied document has been registered or that an implemented index is complete.
 
 ---
 
@@ -1061,47 +896,21 @@ Without requiring knowledge of the directory structure.
 
 ## 4.9. Benefits for Evolution
 
-Another important consequence was the simplification of document evolution.
-
-Changes such as.
-
-* folder reorganization;
-* file renaming;
-* migration between projects.
-
-No longer affected the logical organization.
-
-The Registry preserves document continuity.
+Renaming and relocation can preserve logical document continuity while current location/index references are refreshed with source-edition provenance. Migration between projects must assess identity domain and semantic scope; it is not automatically a physical-only change. Registry supports this traceability rather than guaranteeing zero impact for every migration.
 
 ---
 
 ## 4.10. Benefits for Automation
 
-The existence of a structured catalog also opened new possibilities.
-
-For example.
-
-* automatic index generation;
-* consistency validation;
-* orphan document identification;
-* statistics generation;
-* document auditing.
-
-These capabilities would not be feasible using only the file system.
+A structured catalog can support index generation, orphan detection, consistency checks, statistics and auditing. A filesystem inventory may also provide some of these functions; the catalog’s benefit is explicit logical scope and descriptive provenance. This rationale states intended capabilities, not executed automation results.
 
 ---
 
 ## 4.11. Relationship with Metadata
 
-The Registry does not duplicate information.
+Registry indexes or projects values from identified Metadata Instances and owner records. Repeated values are permitted as traceable derived views; they must identify source editions and be refreshed or marked stale when the source changes.
 
-Each entry uses the existing Metadata.
-
-The Registry organizes.
-
-Metadata describes.
-
-This separation avoids redundancy and keeps the architecture consistent.
+Non-redundancy means one semantic authority per definition/record, not a requirement for one physical copy. Registry does not redefine identity, classification, lifecycle or relationship semantics.
 
 ---
 
@@ -1119,15 +928,9 @@ This decision guarantees long-term stability.
 
 ## 4.13. Relationship with the Knowledge Graph
 
-The introduction of the Registry also revealed a limitation.
+Registry provides existence and lookup views and may expose references or derived indexes of relationship records. Relationships owns typed relationship semantics and records; Knowledge Graph projects their semantic network for navigation and analysis.
 
-The Registry organizes documents.
-
-But it does not represent the relationships between them.
-
-This observation would later lead to the emergence of the Knowledge Graph.
-
-It was precisely during the use of the Registry that this need became evident.
+The historical emergence of graph exploration complements the catalog without making Registry incapable of displaying relation references or making the graph the sole relationship authority.
 
 ---
 
@@ -1163,11 +966,7 @@ This decision also established the foundations for more advanced discovery and n
 
 ## 4.16. Conclusion
 
-The introduction of the Registry marked the transition from directory-based organization to document entity-based organization.
-
-By separating the documentation catalog from the physical representation of documents, the Documentation Framework acquired significantly greater capabilities for discovery, organization, and automation.
-
-The next section examines the decision that complemented the Registry and completed the framework's discovery layer: the introduction of the **Knowledge Graph**, responsible for explicitly representing the relationships between documents and between the concepts they describe.
+The Registry rationale separates logical cataloging from physical directory organization. Exact-edition descriptive provenance and relationship references support coherent lookup without competing domain definitions. Knowledge Graph complements that catalog with semantic network projections; Relationships owns typed records. Discovery also includes Navigation and Search under Architecture’s inventory, so graph introduction is not proof that the current Discovery scope is complete.
 
 ---
 
@@ -1238,18 +1037,11 @@ Several possibilities were evaluated.
 
 ### 5.4.1. Alternative A
 
-Use only hyperlinks between documents.
+Use only untyped hyperlinks between documents.
 
-Advantages.
+Advantages: simple navigation and immediate representation.
 
-* simplicity;
-* immediate implementation.
-
-Disadvantages.
-
-* lack of semantics;
-* difficult automation;
-* impossible dependency analysis.
+Limitations: links alone do not specify relationship kinds, required contracts or edition provenance; reliable dependency analysis needs those semantics. Hyperlinks can carry or accompany explicit semantics, so analysis is not inherently impossible merely because links are used.
 
 ---
 
@@ -1269,30 +1061,19 @@ This was the solution ultimately adopted.
 
 ## 5.5. The Graph Concept
 
-The architecture then began to treat each document as a node.
+Knowledge Graph projects document/concept nodes and typed Relationships records as a semantic network. Dependency edges are one relationship kind; not every edge is a required dependency.
 
-Dependencies became represented as relationships.
+<!-- view: dr5-1 -->
+**View dr5-1 — Illustrative typed graph edges; no global DAG claim.**
 
-Conceptually.
+| Element / relation | Meaning |
+|---|---|
+| A → B | Required contract example: A consumes B; real scope/justification required. |
+| A → C | Documentary reference example; not automatically required execution. |
+| C → D | Navigation association example; no universal processing order. |
+<!-- end-view -->
 
-```text id="dr5-1"
-
-                Document A
-                    ↓
-
-                Document B
-                    ↓
-
-                Document C
-                    ↓
-
-                Document D
-
-```
-
-The documentation system ceased to be a collection of entities.
-
-It became a network.
+Required edges use consumer→provider and identify the required contract/scope. Navigation, documentary reference, historical influence and snapshot context are separate relation kinds. No global DAG or mandatory cycle resolution is established by this illustrative view.
 
 ---
 
@@ -1316,51 +1097,19 @@ This observation further reinforced the vision of the Documentation Framework as
 
 ## 5.7. Separation Between Registry and Knowledge Graph
 
-It also became necessary to clarify responsibilities.
-
-The Registry answers.
-
-> "Which documents exist?"
-
-The Knowledge Graph answers.
-
-> "How are these documents related?"
-
-This separation became permanent.
-
-Each component remained specialized.
+Registry answers existence/lookup questions through traceable entries; Relationships owns typed connection records; Knowledge Graph answers network/navigation questions through projections of those records. These complementary responsibilities permit derived relationship views without creating competing semantic authorities.
 
 ---
 
 ## 5.8. Architectural Benefits
 
-The introduction of the Knowledge Graph provided several advantages.
-
-For example.
-
-* explicit representation of dependencies;
-* impact analysis;
-* discovery of related knowledge;
-* contextual navigation;
-* structural visualization.
-
-These capabilities do not naturally belong to the Registry.
+Typed, provenance-aware graph projections can support dependency and impact analysis, contextual navigation, related-knowledge discovery and visualization. Registry may display derived relation references or indexes; Relationships remains the record owner. Benefits depend on complete, current source records and suitable implementation evidence, not on the presence of a graph alone.
 
 ---
 
 ## 5.9. Benefits for Evolution
 
-Another important consequence was the ease of evolution.
-
-Whenever a document changes.
-
-The graph immediately identifies.
-
-* dependent documents;
-* affected documents;
-* related knowledge areas.
-
-Document evolution became significantly more controlled.
+A refreshed graph can help identify affected or dependent nodes when relevant relationship records and source editions are available. The received claim that the graph “immediately identifies” impact is historical design language, not a verified response-time or completeness guarantee. Analysis may require content review and reconciliation of stale or incomplete relationships.
 
 ---
 
@@ -1399,29 +1148,13 @@ This capability became part of the long-term vision of the framework.
 
 ## 5.12. Relationship with Metadata
 
-As with the Registry.
-
-The Knowledge Graph uses Metadata.
-
-But it does not replace it.
-
-Metadata describes documents.
-
-The graph describes relationships.
-
-This distinction preserves the separation of responsibilities.
+Metadata supplies descriptive values for graph nodes under its own contract. Relationships supplies typed edge semantics and records; Document Identity supplies document keys. Knowledge Graph projects these inputs with provenance and does not become the owner of their definitions.
 
 ---
 
 ## 5.13. Relationship with Baselines
 
-Another interesting consequence became apparent later.
-
-Baselines no longer represented only documents.
-
-They also preserved the state of the graph itself.
-
-The evolution of relationships became part of the architectural memory of the system.
+A Baseline may preserve the relevant relationship configuration or traceable verification evidence alongside selected immutable document editions. It does not automatically capture every live graph node/edge or rely on current paths to reconstruct historical context. Required scope, exact references and inclusion evidence must be explicit.
 
 ---
 
@@ -1437,27 +1170,13 @@ This idea became one of the conceptual pillars of the Documentation Framework.
 
 ## 5.15. Evaluation
 
-In retrospect.
-
-The introduction of the Knowledge Graph completed the Discovery layer of the architecture.
-
-The Registry provides a catalog view.
-
-The Knowledge Graph provides a semantic view.
-
-They complement each other.
-
-Neither replaces the other.
+The historical Registry/Knowledge Graph distinction explains catalog and semantic-network perspectives. Current Discovery includes Relationships, Navigation and Search as well; graph introduction did not establish verified completeness of that entire area. The current ownership/projection boundaries govern the intended design.
 
 ---
 
 ## 5.16. Conclusion
 
-The creation of the Knowledge Graph represented the natural evolution of an architecture that had begun treating documents as elements of a knowledge network.
-
-By making the relationships between documents, decisions, and concepts explicit, the Documentation Framework definitively moved beyond the traditional file-based view of documentation and became a true knowledge representation system.
-
-The next part examines another fundamental architectural decision: the introduction of **Baselines**, responsible for preserving consistent states of knowledge and ensuring their historical traceability.
+Graph rationale makes connections between document entities and represented concepts explicit. Relationships owns typed records; Knowledge Graph projects them, and Registry exposes traceable catalog views. This intended network architecture is not proof of a complete implemented knowledge system. Baselines contributes explicit preservation of selected editions and their relevant relationship context, as described next.
 
 ---
 
@@ -1505,17 +1224,7 @@ It became clear that complete states needed to be preserved.
 
 ## 6.3. Limitations of Versioning
 
-The first solution considered was to rely solely on document versioning.
-
-Each document could evolve independently.
-
-However.
-
-This approach proved insufficient.
-
-Knowing the version of an individual document does not reveal the overall state of the project.
-
-A mechanism was required to group multiple documents into a single consistent state.
+Individual edition histories do not by themselves identify a coherent collective configuration. A Baseline must explicitly select exact document editions, identified by logical identity plus Version/Revision or equivalent immutable reference, and preserve relevant context. An unqualified list of current documents is insufficient to reconstruct the selected state.
 
 ---
 
@@ -1565,64 +1274,36 @@ This was the solution ultimately adopted.
 
 ## 6.6. The Baseline Concept
 
-A Baseline came to represent a snapshot in the evolution of knowledge.
+A Baseline is a collective snapshot of explicitly selected approved immutable document editions and relevant pinned relationship context or traceable verification evidence. Its identity is separate from member document identities and editions.
 
-It does not correspond to a single document.
+<!-- view: dr6-1 -->
+**View dr6-1 — Conditional snapshot selection.**
 
-It corresponds to a consistent set of documents and their relationships.
+| Element / relation | Meaning |
+|---|---|
+| Selected edition | Logical identity plus exact Version/Revision or immutable equivalent. |
+| Approval / eligibility / consistency | Separate explicit evidence for the exact selection scope. |
+| Preserved context | Pinned relevant relationship configuration or verification evidence. |
+| Baseline | Explicit immutable member selection; no automatic inclusion. |
+<!-- end-view -->
 
-Conceptually.
-
-```text id="dr6-1"
-
-                Documents
-
-                    +
-
-                 Metadata
-
-                    +
-
-              Relationships
-                    ↓
-
-                Baseline
-
-```
-
-Each Baseline represents an architectural snapshot of the system.
+Selection preserves a declared scope; it does not require every current document or the complete live graph to be included. Old members remain fixed when current documents evolve.
 
 ---
 
 ## 6.7. Consistent States
 
-One important consequence of this decision was the definition of consistency.
+A coherent selection must satisfy its declared consistency and eligibility criteria with evidence. Review/validation results, formal approval and Baseline inclusion are separate events; a passing validation alone does not create a Baseline or prove that a received Baseline declaration has actual immutable membership.
 
-Not every document version belongs to the same Baseline.
-
-Only those that form a coherent set.
-
-Therefore.
-
-A Baseline always represents a validated state.
-
-Never an arbitrary combination of documents.
+The received assertion that a Baseline “always represents a validated state” expresses an intended quality condition, not verified evidence for every supplied snapshot.
 
 ---
 
 ## 6.8. Separation Between Revision and Baseline
 
-Another important decision was to clearly distinguish.
+A logical document identity is stable through ordinary evolution. Version/Revision identifies the applicable edition; Status describes that edition under its lifecycle contract. A Baseline identifies a collective selected configuration of exact editions and context.
 
-Revision.
-
-Baseline.
-
-A revision describes the evolution of an individual document.
-
-A Baseline describes the evolution of the knowledge as a whole.
-
-This distinction remains fundamental to the architecture.
+This review uses the edition-successor rules in the Review Policy: compatible correction preserves Version and increments Revision; compatible additive contract increments minor Version; incompatible contract increments major Version; Revision remains monotonic. With no received Revision, the first edited successor declares Revision 1 without inventing historical Revision 0. Validation alone does not increment an unchanged source.
 
 ---
 
@@ -1644,51 +1325,19 @@ These capabilities would be extremely difficult to achieve using traditional ver
 
 ## 6.10. Benefits for Governance
 
-Baselines also came to play an important role in governance.
-
-A new Baseline can only be created when the documentation set reaches a sufficiently stable state.
-
-In this way.
-
-The architecture clearly distinguishes between.
-
-Continuous evolution.
-
-Consolidated knowledge.
+Baselines is primarily allocated to Governance. Snapshot creation requires the applicable explicit approval, eligibility, selection and consistency evidence; perceived stability is not enough by itself. Continuous Draft evolution remains distinct from approved immutable selection. This local correction grants no approval or Baseline membership.
 
 ---
 
 ## 6.11. Benefits for the Knowledge Graph
 
-Another interesting consequence emerged through integration with the Knowledge Graph.
-
-Relationships also evolve.
-
-Consequently.
-
-Each Baseline preserves.
-
-* documents;
-* Metadata;
-* relationships.
-
-The architectural memory now includes the structure of knowledge itself.
+Relationships evolve independently of their graph projection. A selected snapshot pins relevant record/configuration references or verification evidence associated with its exact document editions. The complete live graph is not automatically frozen; preserved scope and provenance must be stated so later changes cannot silently retarget historical context.
 
 ---
 
 ## 6.12. Benefits for Research
 
-The concept also proved highly valuable for research documentation.
-
-Each research phase can be preserved as a Baseline.
-
-Making it possible to understand.
-
-* hypotheses;
-* experiments;
-* conclusions.
-
-Within the context in which they were originally produced.
+Research phases may be preserved through explicit eligible edition selection and context evidence when the relevant approval/selection criteria are satisfied. This can retain hypotheses, experiments and conclusions as they were represented. Merely reaching a phase boundary or editing research documents does not automatically create a Baseline.
 
 ---
 
@@ -1704,18 +1353,9 @@ Baselines embody precisely this vision.
 
 ## 6.14. Subsequent Influence
 
-After the introduction of Baselines.
+Workflow, Registry, Knowledge Graph and Evolution Timeline may refer to snapshot context or preserved historical configurations. Such contextual use is not automatically a mandatory live dependency on Baselines for every operation.
 
-Several components naturally began to rely on them.
-
-For example.
-
-* Workflow;
-* Registry;
-* Knowledge Graph;
-* Evolution Timeline.
-
-The architecture explicitly incorporated the temporal dimension.
+Actual required contracts must be recorded consumer→provider with their scope. Baselines itself requires identity/edition-selection contracts; potential required cycles must remain visible for reconciliation, not be concealed by relabeling an indispensable dependency as a reference. No global mandatory graph is verified here.
 
 ---
 
@@ -1733,11 +1373,7 @@ To preserving the knowledge and architectural state that existed at each stage o
 
 ## 6.16. Conclusion
 
-The introduction of Baselines enabled the Documentation Framework to incorporate the temporal dimension of knowledge engineering.
-
-By preserving complete and consistent states of documentation, Metadata, and architectural relationships, the framework now provides a far richer historical perspective than that offered by traditional document versioning alone.
-
-The next part examines another architectural decision that proved essential to the maturity of the framework: the adoption of a **layered architecture**, responsible for organizing the Documentation Framework components according to clearly defined responsibilities while reducing coupling between them.
+Baseline rationale adds explicit collective selection to individual edition histories. Coherent immutable members and scoped relationship context enable intended reconstruction and comparison, subject to evidence. Validation, approval and inclusion remain distinct; received snapshots are preserved without claiming verification of their original approval. Baselines belongs to Governance while contributing to cross-cutting Preservation. The next chapter explains organizational rationale without redefining that allocation.
 
 ---
 
@@ -1777,17 +1413,7 @@ This decision became one of the main factors responsible for the framework's cla
 
 ## 7.2. The Initial Problem
 
-During the early stages.
-
-The components evolved relatively independently.
-
-Although they functioned correctly.
-
-Their responsibilities gradually began to overlap.
-
-Some components started to depend on the internal details of others.
-
-This situation represented a risk to future evolution.
+The received account describes components as functioning correctly while responsibilities began to overlap. Those statements are historical assessments with no implementation test evidence or dated measurement supplied. The design problem remains valid: clarify owner contracts, permitted projections and dependencies so growth does not create competing definitions or unjustified coupling.
 
 ---
 
@@ -1856,147 +1482,73 @@ This was the solution ultimately adopted.
 
 ## 7.6. The Layer Concept
 
-Each layer came to represent a distinct architectural responsibility.
+The received rationale used knowledge, representation, governance, discovery and preservation as conceptual levels. In this edition, these are five conceptual concerns: Knowledge, Documentation/representation, Governance, Discovery and Preservation.
 
-For example.
-
-* knowledge;
-* representation;
-* governance;
-* discovery;
-* preservation.
-
-The layers do not represent software modules.
-
-They represent conceptual levels.
+They are distinct from the seven structural areas: Foundation, Architecture, Documentation, Governance, Discovery, Automation and Integration. Knowledge is represented subject matter; Preservation is cross-cutting. Neither becomes a newly registered structural Layer or component. Architecture owns primary component allocation; its received six/seven count discrepancy remains pending in its own cycle.
 
 ---
 
 ## 7.7. Architectural Organization
 
-Conceptually.
+The conceptual concern view explains contributions, not structural hierarchy, execution order or mandatory dependencies.
 
-The architecture adopted the following structure.
+<!-- view: dr7-1 -->
+**View dr7-1 — Five conceptual concerns; no structural/dependency chain.**
 
-```text id="dr7-1"
+| Element / relation | Meaning |
+|---|---|
+| Knowledge | Subject matter represented by documentary entities. |
+| Documentation / representation | Identity, classification, content and descriptive contracts. |
+| Governance | Evolution, reviews, approval and selection conditions. |
+| Discovery | Traceable catalog and typed network/navigation views. |
+| Preservation | Cross-cutting history and immutable editions; Baselines in Governance. |
+<!-- end-view -->
 
-                Knowledge
-                    ↓
-
-              Representation
-                    ↓
-
-                Governance
-                    ↓
-
-                Discovery
-                    ↓
-
-               Preservation
-
-```
-
-Each layer adds new capabilities.
-
-None replaces the previous one.
+Each concern contributes a different perspective; participation does not move a component from its primary structural area.
 
 ---
 
 ## 7.8. Separation of Responsibilities
 
-The layered architecture clarified the role of every component.
+Primary structural allocations remain distinct from conceptual participation.
 
-For example.
+| Capability | Primary structural area | Conceptual contribution |
+|---|---|---|
+| Metadata / Document Identity / Classification / Templates | Documentation | Representation and descriptive contracts. |
+| Workflow / Policies / Reviews / Baselines | Governance | Controlled evolution and explicit preservation selection. |
+| Registry / Relationships / Knowledge Graph / Navigation / Search | Discovery | Catalog, typed network and navigation. |
 
-Metadata belongs to the Representation layer.
-
-Workflow belongs to the Governance layer.
-
-The Registry belongs to the Discovery layer.
-
-Baselines belong to the Preservation layer.
-
-This organization eliminated many architectural ambiguities.
+Baselines contributes to Preservation while remaining in Governance; Metadata contributes to representation while remaining in Documentation. The table summarizes supplied architecture responsibilities and does not register new components or claim all source discrepancies resolved.
 
 ---
 
 ## 7.9. Reduced Coupling
 
-Another important consequence was the reduction of coupling.
-
-Components became dependent primarily on the abstractions of their own layer.
-
-Rather than on the implementations of other components.
-
-This decision significantly increased the flexibility of the architecture.
+Clear owner contracts support controlled coupling. A component may require provider contracts within or across structural areas; primary allocation alone does not prove independence. Required edges use consumer→provider, with contract/scope and justification. Derived views and conceptual participation are separately identified. Integrated dependency reconciliation remains pending.
 
 ---
 
 ## 7.10. Benefits for Evolution
 
-The architecture became much better prepared for future growth.
-
-New components can be introduced.
-
-Without requiring changes to the existing structure.
-
-Each layer can evolve while keeping the others stable.
+New capabilities may be introduced through explicit responsibilities, structural allocation and impact assessment while preserving existing contracts. Structural areas are not interchangeable with conceptual concerns. Growth is an intended design property, not a guarantee that no existing contract or consumer will ever require a coordinated change.
 
 ---
 
 ## 7.11. Benefits for Understanding
 
-The architecture also became significantly easier to understand.
-
-Instead of analyzing dozens of individual components.
-
-It became possible to understand the layers first.
-
-And only afterwards the components contained within each one.
-
-The architecture became considerably more accessible.
+Readers can first understand conceptual concerns and structural organization, then the responsible component contracts. The two views answer different questions. A simplified concern map must not be treated as the complete seven-area structure or a dependency proof.
 
 ---
 
 ## 7.12. Benefits for Reuse
 
-Another important advantage was reuse.
-
-Some projects may require only a subset of the layers.
-
-For example.
-
-Only.
-
-* Metadata;
-* Registry;
-* Workflow.
-
-Without implementing the entire infrastructure.
-
-The architecture became genuinely modular.
+A project may adopt a subset of capabilities only when the required provider contracts and applicable governance conditions are satisfied. Metadata, Registry and Workflow are an illustrative selection, not a self-contained implementation claim or permission to omit required Identity/Policies contracts. Scope and conformance evidence must be explicit.
 
 ---
 
 ## 7.13. Relationship with Other Components
 
-The layered architecture does not replace the remaining concepts.
-
-On the contrary.
-
-It provides them with a coherent organizational structure.
-
-Metadata.
-
-Registry.
-
-Knowledge Graph.
-
-Baselines.
-
-Continue to perform exactly the same responsibilities.
-
-They simply occupy clearly defined positions within the architecture.
+Organizational views clarify responsibilities without replacing domain definitions. Metadata describes, Identity identifies, Classification categorizes, Relationships owns typed records, Registry catalogs, Knowledge Graph projects, Governance capabilities control evolution/review/selection. Conceptual participation and primary structural allocation remain distinct; current contract changes require coordinated owner/consumer reconciliation.
 
 ---
 
@@ -2028,11 +1580,7 @@ And provided a sufficiently stable structure to accommodate future extensions.
 
 ## 7.16. Conclusion
 
-Organizing the Documentation Framework into layers marked the transition from a collection of independent components to a truly structured architecture.
-
-By clearly separating representation, governance, discovery, and knowledge preservation, the framework acquired a coherent organization capable of evolving over time.
-
-The next part examines the decision that ultimately allowed the Documentation Framework to transcend the context in which it was created: its **independence from the VisualEngine**, transforming it into a reusable infrastructure for any knowledge engineering project.
+The organization rationale groups responsibilities for understanding and evolution. Five conceptual concerns coexist with seven structural areas, with Baselines primarily in Governance and Preservation cross-cutting. This clarification preserves historical motivation without asserting that received allocation/dependency contradictions have been globally resolved. The next chapter considers framework independence and optional consumers.
 
 ---
 
@@ -2142,19 +1690,9 @@ This was the solution ultimately adopted.
 
 ## 8.6. Conceptual Separation
 
-The architecture then began to distinguish clearly between two concepts.
+DF concepts do not require VisualEngine as a provider or implementation. VisualEngine may consume DF documentary contracts under an explicit integration; that consumer relationship does not contradict DF independence from its origin project. It also does not imply that a consumer requires no DF contracts.
 
-VisualEngine.
-
-Documentation Framework.
-
-The former uses documentation.
-
-The latter manages documented knowledge.
-
-They collaborate.
-
-But neither depends architecturally on the other.
+DF defines documentary concepts and contracts. CMS governs changes; DMS or an applicable process executes operational document management. This rationale does not implement external functionality or claim review of unseen external specifications.
 
 ---
 
@@ -2175,17 +1713,7 @@ Each project acquired its own lifecycle.
 
 ## 8.8. Benefits for Evolution
 
-Another important consequence was evolutionary freedom.
-
-The Documentation Framework can continue evolving.
-
-Even if the VisualEngine remains stable.
-
-Likewise.
-
-The VisualEngine can evolve.
-
-Without requiring modifications to the documentation infrastructure.
+DF and VisualEngine have distinct lifecycle and scope decisions. Either may evolve without requiring the other to change when shared consumer contracts remain compatible. A change that breaks an applicable integration contract requires explicit impact assessment and coordination; independence is not unconditional zero coupling.
 
 ---
 
@@ -2219,23 +1747,7 @@ The framework no longer belonged to a single domain.
 
 ## 8.11. Relationship Between the Two Projects
 
-Independence does not imply isolation.
-
-The VisualEngine naturally continues to use the Documentation Framework.
-
-But it does so in the same way as any other project would.
-
-The relationship became one of.
-
-Provider.
-
-Consumer.
-
-Rather than.
-
-Project.
-
-Submodule.
+The optional integration is VisualEngine as consumer of DF documentary contracts, with DF as provider. When a contract is required in that declared integration, its dependency is consumer→provider. This scoped consumption is distinct from a claim that DF is a mandatory internal submodule of every project, and from a reverse DF→VisualEngine requirement.
 
 ---
 
@@ -2340,20 +1852,7 @@ Several independent decisions gradually converged into a coherent set of archite
 
 ## 9.3. Principle of Separation of Responsibilities
 
-The first principle to emerge was the clear separation of responsibilities.
-
-This principle is reflected throughout virtually every component.
-
-For example.
-
-* Content and Metadata;
-* Registry and Knowledge Graph;
-* Workflow and Baselines;
-* Architecture and implementation.
-
-Each component has a clearly defined responsibility.
-
-This separation reduces complexity and facilitates evolution.
+Separation of responsibilities applies to both logical entities and capability components. Content represents knowledge; Metadata supplies descriptors. Identity, Classification and Governance retain their semantics. Relationships owns typed connection records; Registry and Knowledge Graph expose traceable catalog/network projections. Baselines selects immutable editions. Architectural definitions remain distinct from operational implementation. Repeated derived values do not create competing authorities.
 
 ---
 
@@ -2379,15 +1878,7 @@ The architecture favors stable abstractions.
 
 ## 9.5. Principle of Modularity
 
-From an early stage, it became evident that the architecture should grow by adding new components.
-
-Rather than by continually modifying existing ones.
-
-This led to a modular architecture.
-
-Each component can evolve relatively independently.
-
-Without compromising the overall system.
+Modularity permits capability growth and coordinated evolution through explicit owner/provider contracts. Existing components may require compatible refinements or deliberate incompatible successors; adding a new component is not always preferable to modifying a contract. Independent evolution remains conditional on satisfied shared contracts and recorded impact.
 
 ---
 
@@ -2507,26 +1998,16 @@ The architecture forms a coherent system of principles.
 
 The fundamental principles can be summarized as follows.
 
-```text id="dr9-1"
+<!-- view: dr9-1 -->
+**View dr9-1 — Principle contributions; no prescribed order.**
 
-                 eparation
-                    ↓
-
-               Abstraction
-                    ↓
-
-                Modularity
-                    ↓
-
-               Independence
-                    ↓
-
-               Traceability
-                    ↓
-
-          Knowledge Preservation
-
-```
+| Element / relation | Meaning |
+|---|---|
+| Separation | Distinct semantic owners and projections. |
+| Abstraction / modularity | Conceptual contracts and coordinated capability growth. |
+| Independence | Physical/origin-project independence with explicit provider contracts. |
+| Traceability / knowledge preservation | Exact editions, context and immutable selection. |
+<!-- end-view -->
 
 This sequence summarizes much of the philosophy behind the Documentation Framework.
 
@@ -2644,26 +2125,7 @@ But also the intellectual journey that led to the existing architecture.
 
 ## 10.5. The Role of the Design Rationale
 
-Within the documentation compendium.
-
-The Design Rationale serves a specific purpose.
-
-It does not define the architecture.
-
-It does not describe implementation.
-
-It does not recount chronology.
-
-It explains decisions.
-
-This perspective naturally complements documents such as.
-
-* Architectural Blueprint;
-* Framework Evolution;
-* Research Journal;
-* Evolution Timeline.
-
-Each approaches the architecture from a different perspective.
+Design Rationale explains motivations, alternatives, decisions and consequences. It complements Blueprint design contracts, Manifest orientation, Framework Evolution’s historical journey, Research Journal discovery and Evolution Timeline chronology. It does not replace owner specifications or constitute implementation verification. Actual supplied references and limits appear in §10.17.
 
 ---
 
@@ -2790,17 +2252,9 @@ Every component of the Documentation Framework exists to realize this vision.
 
 ## 10.14. Future Perspective
 
-The architecture is now sufficiently mature to support new capabilities.
+The received account assessed the architecture as sufficiently mature for automatic validation, semantic analysis, AI integration, graph visualization and process automation. This is preserved as a historical design assessment without a supplied assessment date or implementation evidence.
 
-Among them.
-
-* automatic validation;
-* semantic analysis;
-* artificial intelligence integration;
-* advanced Knowledge Graph visualization;
-* documentation process automation.
-
-These future developments should continue to respect the principles established throughout this document.
+Those capabilities remain intended extension possibilities; current integrated conformity, operational maturity and release readiness require their own exact-edition and implementation evidence. This local update establishes none of those results.
 
 ---
 
@@ -2827,6 +2281,37 @@ The **Design Rationale** completes the architectural documentation of the Docume
 While the architecture describes the structure of the system, the Design Rationale explains the reasons for its existence.
 
 Together with the **Architectural Blueprint**, the **Framework Evolution**, the **Research Journal**, and the **Evolution Timeline**, this document contributes to a comprehensive understanding of the evolution of the Documentation Framework, ensuring that the knowledge accumulated throughout its development remains accessible, understandable, and reusable for future architectural evolution.
+
+---
+
+## 10.17. Responsible Sources and Reading Map
+
+The following links identify supplied documentary references, not mandatory execution dependencies. This rationale explains decisions; owner sources retain their definitions. Known discrepancies remain scheduled for reconciliation. No unseen external specification, complete Metadata catalog/Profile, new element ID or publication event is created here.
+
+| Source | Role / current evidence limit |
+|---|---|
+| [DF-FND-001 — Framework Manifest](DF-FND-001-FrameworkManifest.md) | Framework orientation and scoped interpretation; locally validated Draft V2.0 R1. |
+| [DF-FND-004 — Architectural Blueprint](DF-FND-004-ArchitecturalBlueprint.md) | Intended cross-domain contracts; locally validated Draft V2.0 R1; integrated reconciliation pending. |
+| [DF-FND-005 — Framework Evolution](DF-FND-005-FrameworkEvolution.md) | Historical development account; received source, own cycle pending. |
+| [DF-FND-002 — Research Journal](DF-FND-002-ResearchJournal.md) | Discovery record; received source, own cycle pending. |
+| [DF-FND-003 — Evolution Timeline](DF-FND-003-EvolutionTimeline.md) | Chronology; received source, own cycle pending. |
+| [DF-ARC-004 — Architectural Layers](../01-Architecture/DF-ARC-004-ArchitecturalLayers.md) | Structural areas/allocation; received six/seven and dependency discrepancy pending. |
+| [DF-ARC-005 — Architectural Components](../01-Architecture/DF-ARC-005-ArchitecturalComponents.md) | Capability owners/inventory; received dependencies require reconciliation. |
+| [DF-MTD-001 — Metadata Architecture](../02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md) | Descriptive responsibilities/non-responsibilities; detailed owner-source rollout pending. |
+| [DF-DID-005 — Document Identity Schema](../02-Documentation/DocumentIdentity/02-Structure/DF-DID-005%20-%20Document%20Identity%20Schema.md) | Identity owner contract; representation/schema discrepancies remain pending. |
+| [DF-RVW-001 — Review Policy](../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md) | Adopted working classification, allocation, editions and process; Draft, not published rollout evidence. |
+| [DF-RVW-002 — Review Report](../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md) | Findings and exact-edition progress; this UPDATE remains pending source validation. |
+
+---
+
+## 10.18. Edition History
+
+| Date/event | Version | Revision | Contribution and change | Status / Baseline evidence |
+|---|---|---|---|---|
+| Received 2026-09-30; original creation/approval date not supplied | 1.0 | Not declared | Original contribution: Arnaldo Figueira. Input SHA-256: `6e911db07e6eba28222fb1f020b472c940543ed0ce873ca6c3945eaa69bbb66d`. Received retrospective rationale and maturity assessments preserved historically. | Received Approved / Baseline 1.0; actual approval and snapshot membership not independently verified. |
+| 2026-09-30 — Step 4.03 UPDATE | 2.0 | 1 | Update by Codex — AI assistant, retaining original contribution. Applied FND006-01–07/W01/W02: descriptive coupling, identity transformations/scope, relationship authority, immutable selection, typed views/dependencies, conceptual/structural allocation and evidence/reference limits. Incompatible allocation/authority and selection/dependency contract interpretation; ID/path retained. | Draft / Not assigned; corrected—pending validation. CHANGELOG #231; DF-RVW-002 §16; M10 remains Started. |
+
+No historical Revision 0 or approval date is inferred. Validation alone does not modify this exact source edition; subsequent disk edits require evidence for the resulting bytes. Contribution, authorization, validation, approval and Baseline selection remain distinct.
 
 ---
 

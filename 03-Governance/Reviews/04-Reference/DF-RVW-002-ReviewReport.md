@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 9 |
+| **Revision** | 10 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -35,6 +35,8 @@ Revision 7 records the Step 4.02 Manifest UPDATE in §13. Historical REVIEW stat
 Revision 8 records Step 4.02 VALIDATE DOCUMENT in §14. §§12–13 retain their event-time states; §14 supplies current local closure and the next command.
 
 Revision 9 adds Step 4.03 Design Rationale REVIEW in §15. Prior event scopes/closures remain preserved; nine new local records are Open and source bytes are unchanged.
+
+Revision 10 records the actual Step 4.03 UPDATE in §16. §15 preserves the REVIEW-time state; current source corrections remain pending validation.
 
 ## 2. Concrete changes — before/after
 
@@ -96,7 +98,7 @@ Steps 1–3 are complete within their stated scopes; Step 4 covers individual cy
 
 The attached matrix contains all 89 positions, input/current editions and hashes, REVIEW/UPDATE/VALIDATE, findings, CHANGELOG and Milestone. The classification table retains content-based proposals with application pending in the 79 original documents. The new supporting-document rows have been applied. Dependencies: Foundation before Architecture; identity/classification owners before consumers; Metadata divergences resolved with domain owners without copying examples into a canonical catalog.
 
-Current Step 4.01: REVIEW, UPDATE and scoped VALIDATE DOCUMENT complete. Blueprint Version 2.0 Revision 1 remains Draft, Baseline Not assigned. Step 4.02 REVIEW, UPDATE and local VALIDATE DOCUMENT complete. Manifest V2.0 R1 remains Draft/unassigned. Step 4.03 REVIEW complete in §15; next command: **UPDATE DF-FND-006**.
+Current Step 4.01: REVIEW, UPDATE and scoped VALIDATE DOCUMENT complete. Blueprint Version 2.0 Revision 1 remains Draft, Baseline Not assigned. Step 4.02 REVIEW, UPDATE and local VALIDATE DOCUMENT complete. Manifest V2.0 R1 remains Draft/unassigned. Step 4.03 REVIEW and UPDATE complete; Design Rationale V2.0 R1 is corrected—pending validation. Next command: **VALIDATE DOCUMENT DF-FND-006**.
 
 ## 6. Scoped validation and evidence
 
@@ -108,7 +110,7 @@ Translation follow-up checks compare Revision 2 against the complete Portuguese 
 
 ## 7. Subordinate exports and traceability
 
-Files in `DF-RVW-002-assets/` are subordinate representations of this report's inventories and evidence: input manifest, thematic coverage, classification, progress matrix, allocation/impact map, current manifest, validation results and complete diffs. CSV/JSON/diff exports are not new normative sources or a parallel document series. The original Step 3 evidence and diff retain their R1 provenance; current tracking and manifest record report V1.0 R9. Historical translation tracking remains associated with R2. Translating the report does not imply that the historical exports have been translated. The current manifest identifies its parent and hashes sources/exports, excluding itself; the external receipt records the manifest and package hashes.
+Files in `DF-RVW-002-assets/` are subordinate representations of this report's inventories and evidence: input manifest, thematic coverage, classification, progress matrix, allocation/impact map, current manifest, validation results and complete diffs. CSV/JSON/diff exports are not new normative sources or a parallel document series. The original Step 3 evidence and diff retain their R1 provenance; current tracking and manifest record report V1.0 R10. Historical translation tracking remains associated with R2. Translating the report does not imply that the historical exports have been translated. The current manifest identifies its parent and hashes sources/exports, excluding itself; the external receipt records the manifest and package hashes.
 
 Original central records: #198 extends event types; #199 records policy creation pending validation; #200 report creation pending validation; #201 Milestones; #202 consolidation of earlier reviews; #203 scoped policy validation; #204 scoped validation of the remaining registers/evidence. Date: 2026-09-30; author: Codex — AI assistant. M8 establishes the input with explicit limits; M9 conventions/supporting documents/tracking, without source propagation; M10–M14 remain pending. These historical entries remain unchanged.
 
@@ -129,6 +131,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-09-30 | 1.0 | 7 | Step 4.02 UPDATE: exact Manifest successor, seven applied corrections and full diff | Draft; Baseline Not assigned; compatible informational update; #222; source validation pending |
 | 2026-09-30 | 1.0 | 8 | Step 4.02 local Manifest validation; seven verified closures, exact unchanged source and tracking | Draft; Baseline Not assigned; source V2.0 R1 unchanged; #224–226 |
 | 2026-09-30 | 1.0 | 9 | Step 4.03 full Design Rationale REVIEW; seven findings and two warnings, source unchanged | Draft; Baseline Not assigned; compatible informational update; #228; later review-evidence checks #230 |
+| 2026-09-30 | 1.0 | 10 | Step 4.03 UPDATE: actual Design Rationale V2.0 R1, nine corrections and full source/diff | Draft; Baseline Not assigned; compatible informational update; #232; source validation pending |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -790,3 +793,54 @@ Historical R8 validation exports retain their scope. Current exports and `Contex
 ### 15.5. Next command
 
 **CONTINUAR** or **UPDATE DF-FND-006** executes the localized correction, actual successor/compatibility, full source, diff, history and central tracking, then pauses before VALIDATE DOCUMENT. It does not update peer domain sources automatically.
+
+
+## 16. Step 4.03 — UPDATE DF-FND-006 — Design Rationale
+
+### 16.1. Exact successor and compatibility
+
+**UPDATE completed; VALIDATE DOCUMENT pending.** Source ID/path retained. Received V1.0, Revision absent, Approved/Baseline 1.0 becomes **V2.0 R1 Draft, Baseline Not assigned**, Family Foundation, Type Architecture, English. No Component/Class is invented. Author retains Arnaldo Figueira’s original contribution and records Codex — AI assistant’s actual update contribution. Authorization is distinct from authorship or approval.
+
+Input SHA-256: `6e911db07e6eba28222fb1f020b472c940543ed0ce873ca6c3945eaa69bbb66d`. Output SHA-256: `0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6`.
+
+The actual change replaces Baselines-in-Preservation allocation, unscoped graph/relationship authority, unconditional snapshot/dependency interpretations and descriptor independence with the adopted owner and exact-edition contracts. This is an incompatible architectural-contract interpretation, requiring major Version 2.0; Revision 1 is the first declared working Revision. No ID/path migration or historical Revision 0 is invented. New source §10.18 preserves received declarations and explicitly unknown historical dates; old approval/Baseline is not inherited.
+
+### 16.2. Material before/after and pending records
+
+| Record | Written sections | Before | Actual result | State |
+|---|---|---|---|---|
+| FND006-01 | Header; working scope; §10.18 | Family/Type and Revision absent; input Approved/Baseline 1.0. | Foundation/Architecture; V2.0 R1 Draft/unassigned; original and actual update contributions; no invented Component/Class or Revision 0 | Corrected—pending validation |
+| FND006-02 | §§2.6/2.8/2.10–2.12/2.14; 5.14 | Technical update no longer affected administrative properties; none of the consumers need technical content; knowledge resides exclusively in content, although 5.14 also locates knowledge in relationships. | Conceptual separation with edition synchronization; descriptor and domain authority separated; no content-free or knowledge-exclusivity guarantee | Corrected—pending validation |
+| FND006-03 | §§3.3/3.6–3.8/3.10–3.12/3.14; 4.9 | Splitting/merging grouped with renaming as only representation changes; Registry dependent exclusively on identity; every document assumed to possess permanent identity. | Rename versus semantic split/merge; explicit identity/provenance decisions; normalized scope and key/full-record distinction | Corrected—pending validation |
+| FND006-04 | §§4.5/4.11/4.13/4.16; 5.4.1/5.5/5.7–5.9/5.12/5.15–5.16; 9.3 | Registry does not duplicate information and does not represent relationships; Knowledge Graph describes relationships and its introduction completed Discovery; Relationships owner is absent. | Relationships owns typed records; Registry and graph project with exact provenance; repeated derived values permitted; current Discovery scope qualified | Corrected—pending validation |
+| FND006-05 | §§3.8; 5.13; 6.3/6.6–6.8/6.10–6.12/6.16 | Baseline a set of documents; always a validated state; stability enough for creation; graph state preserved without exact-edition selection, approval and pinned context. | Exact immutable edition selection, explicit approval/eligibility/inclusion and scoped pinned context; research phases not automatic Baselines | Corrected—pending validation |
+| FND006-06 | All eight views; §§2.11/3.12/6.14/7.9/7.12/8.6/8.8/8.11/9.5 | Eight unlabeled arrow views; components rely on Baselines and vice versa without required-contract scope; neither project depends architecturally on the other despite provider/consumer relation. | Every view typed; required edges consumer→provider with contract/scope; optional/reference/history distinct; genuine mandatory cycles remain visible; typo corrected | Corrected—pending validation |
+| FND006-07 | §§7.6–7.13/7.16; 6.10 | Knowledge/Representation/Governance/Discovery/Preservation called layers; Metadata assigned Representation and Baselines Preservation. | Five conceptual concerns versus seven structural areas; Metadata Documentation; Baselines Governance; no Knowledge/Preservation structural Layer | Corrected—pending validation |
+| FND006-W01 | Working scope; §§1.11/2.8/2.14/4.5/4.10/5.9/5.15/7.2/10.14/10.18 | Final architecture, implemented Baselines, graph immediately identifies impacts, components functioned correctly and architecture now sufficiently mature without supplied verification evidence. | Historical assessments qualified; intended capability distinguished from implementation, release and global conformity evidence | Corrected—pending validation |
+| FND006-W02 | §§1.11/10.5/10.17/10.18 | Related documents referenced only by title; current-versus-history owner map absent. | Eleven actual source links, roles and evidence limits; exact input and actual successor history | Corrected—pending validation |
+
+Material source excerpts and consequences:
+
+- §2.10 states that content/descriptors have distinct responsibilities while technical changes may require edition/status/index/relationship synchronization; conceptual separation is not administrative independence.
+- §3.3 distinguishes rename/relocation from semantic split/merge requiring explicit retained/new identities and provenance. No actual new identity is allocated.
+- §4.11 permits repeated derived values with source-edition provenance; §5.7 assigns typed records to Relationships, catalog views to Registry and network projections to Knowledge Graph.
+- §§6.6–6.8 define selected immutable editions and relevant pinned context, distinguishing validation, approval, inclusion, document identity, edition and collective Baseline.
+- §7.8 allocates Metadata to Documentation and Baselines to Governance; Preservation remains a conceptual cross-cutting concern.
+- §6.14 requires indispensable dependencies to remain visible for reconciliation; §8.11 identifies optional VisualEngine consumer→DF provider contracts without a reverse origin-project dependency.
+- §10.14 preserves the received maturity assessment historically; §10.17 adds eleven actual-path references with evidence limits.
+
+All ten chapters and all existing numbered sections remain. Fifty-six section bodies were materially updated; eight original diagram IDs are retained in explicitly typed Markdown tables, including correction of dr9-1’s “eparation” typo. The problem/alternative/decision/consequence narrative remains, while absolute current-contract claims are replaced or qualified. Added §10.17 supplies navigation and responsible sources; §10.18 supplies local history. The full diff normalizes line endings for readable comparison and includes complete source/report/register changes.
+
+### 16.3. Tracking and delivery checks
+
+Current totals: **19 Open, nine Corrected—pending validation, 18 Closed—verified, one Not applicable—scope decision**. No new record is closed. Earlier Blueprint/Manifest local validation and prior cross-source findings retain their scopes. No complete catalog/Profile, new Metadata Element ID, publication/approval, implementation result, global mandatory DAG or new Baseline is created.
+
+CHANGELOG #231 records actual Design Rationale UPDATE pending validation, #232 report V1.0 R9→R10, #233 current milestone tracking. M10 remains In Progress: Blueprint C, Manifest C, Design Rationale S, three O. Design Rationale has no completion date. M9 identifies report R10; previous events and M0–M7 remain preserved.
+
+Construction checks confirm written metadata, preservation of original section numbers/eight views, eleven resolving reference identities, source history/input hash, unchanged other 76 original normalized sources, unchanged validated Blueprint/Manifest hashes, six unchanged README files, stable 89-position matrix and current hashes. These are construction/integrity checks, **not VALIDATE DOCUMENT or semantic finding closure**. The complete corrected source and affected contracts require the next stage’s inspection.
+
+Current map/classification/construction exports, progress, manifest and full diff belong to report R10. Earlier R9 review exports retain historical Open states. `Context-Working-Step-4-03-Update.zip` contains this update batch and is not final Context-Reviewed.zip.
+
+### 16.4. Next command
+
+**CONTINUAR** or **VALIDATE DOCUMENT DF-FND-006** validates the exact V2.0 R1 with its input, all nine closure criteria and affected-source contracts. It does not advance to Step 4.04 or infer approval. A failure produces a traceable corrective successor.

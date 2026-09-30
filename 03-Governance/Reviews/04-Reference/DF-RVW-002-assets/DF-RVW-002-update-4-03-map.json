@@ -1,0 +1,452 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/10",
+  "step": "4.03 UPDATE",
+  "date": "2026-09-30",
+  "source": "00-Foundation/DF-FND-006-DesignRationale.md",
+  "input_edition": {
+    "version": "1.0",
+    "revision": null,
+    "status": "Approved",
+    "baseline": "1.0",
+    "author": "Arnaldo Figueira",
+    "language": "English",
+    "family": null,
+    "type": null
+  },
+  "input_sha256": "6e911db07e6eba28222fb1f020b472c940543ed0ce873ca6c3945eaa69bbb66d",
+  "output_edition": {
+    "version": "2.0",
+    "revision": 1,
+    "status": "Draft",
+    "baseline": "Not assigned",
+    "family": "Foundation",
+    "type": "Architecture",
+    "language": "English"
+  },
+  "output_sha256": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6",
+  "compatibility": "Incompatible structural allocation, relationship authority and snapshot/dependency contract interpretation; major Version successor, first declared Revision 1",
+  "identity_path_migration": "None",
+  "section_changes": [
+    {
+      "section": "1.11",
+      "before_sha256": "c8f4fbb68cb99de143c580de16cd7d98478a08ff02a6ef3050b832b822195e83",
+      "after_sha256": "401d117e88726ecc99ca63f1061d3120327281dd250f5b51af488d3ea3d669ae"
+    },
+    {
+      "section": "2.6",
+      "before_sha256": "bea5a49d4ae43acecb6b9178a5ecc219f5c7f4288070f57762ed0bd074174288",
+      "after_sha256": "b11f7ad0632a2b1da95c4a9cbb0b163de0b4e981255a2f4760aba0ac6ff9e091"
+    },
+    {
+      "section": "2.8",
+      "before_sha256": "98e5aad5b749d268c1a66a8a048c308d1925c2629558261eea2213eaa0031fcb",
+      "after_sha256": "6835e703c639b8a85c41aec58a16c7dc99bd8e11e85fb92cebacddc9cc3ce792"
+    },
+    {
+      "section": "2.10",
+      "before_sha256": "86e7e1ca55f26bfd18b28e1846cc9cdd8fe379d7cb6505fca609adf4c92da090",
+      "after_sha256": "c02a4d1997df2e67d3e25b63d087f8635a3d3b749ec9fd117447df39e2ca9e62"
+    },
+    {
+      "section": "2.11",
+      "before_sha256": "593cc1a5a32b091e2995dcbd3de8a9f4b3993b820b61881104b55194f59461d4",
+      "after_sha256": "85136ac151ae13a70a52892f6f8e13cdf95c4ff7571dc739ca2605daa54a7abc"
+    },
+    {
+      "section": "2.12",
+      "before_sha256": "3d0f276b3d1fcc1fb29ec6e620b59eefea57c634b03d4c3d2a6713e6307ac649",
+      "after_sha256": "c80da0bf356dccb10f225c64aab67fc6433aefce5d40b27d8254211594d3360e"
+    },
+    {
+      "section": "2.14",
+      "before_sha256": "41eb4701318c4ec898b4412c1d6fdd9eb85401d1a5e88a3379d5f15e7afa48bf",
+      "after_sha256": "36516b9b7397c2cb4592dc42ebf328518a0629178cb3941ec92b8fbb79e3f900"
+    },
+    {
+      "section": "3.3",
+      "before_sha256": "320343b240e98dcecc5fde14584f1952f696f2b482a91447a1eaa5430a2fabcd",
+      "after_sha256": "9bccf49b62c78b020c09e9989fdbb99bce784899628fdba9a81c45d54e8d42bb"
+    },
+    {
+      "section": "3.6",
+      "before_sha256": "a293a8b452d8b89567978076a3ca2cdfdd8e74565521c13a4afeaa5fefd72889",
+      "after_sha256": "53aabad41109c0f52852ba8e21b6d55d4847b77a11d3792a4a4492e97742228a"
+    },
+    {
+      "section": "3.7",
+      "before_sha256": "827f8c6a53bf02734d1f6ac48c09da5ff21ede111c365df1198c17b5ebfb5bec",
+      "after_sha256": "994251a6563b2909c70face0fe8bc0e6cf51c89516e5ac4df7ec1c15c4a8cd00"
+    },
+    {
+      "section": "3.8",
+      "before_sha256": "2babfefb442c9cb94327e647b5b7579e6d24ac0ef772855111a14d16a5c2e5aa",
+      "after_sha256": "c5622113ada5640cc697d70b95bbde677b0c1affcfd2bf808403daa234ede1bf"
+    },
+    {
+      "section": "3.10",
+      "before_sha256": "f1b2b9d1ffa22ad9e6c17bfb7e00db4b6469a62e0bca52346a233ea612df5c25",
+      "after_sha256": "c3892d642bdd3d4a3ccbd5d7255b4707e96b4eaf9fead653807137f8eb8b5a0d"
+    },
+    {
+      "section": "3.11",
+      "before_sha256": "4fc8f652c3d71e22f898f2f43a321ac9d882d5084cf4904d5e48961bd75afcaf",
+      "after_sha256": "829e7b49cc3d3dfa9c3dc6b79892fe14520ffbcd185fe9d003ffcfd70333a4b9"
+    },
+    {
+      "section": "3.12",
+      "before_sha256": "d12f135a5d95b8d01f02918ecb375d6e4fb86877c64788a2521646b8f720ae74",
+      "after_sha256": "f9244f2ece98ebf4c53866bec19d9cf1a46031b1da97e18055b2522169a67c1b"
+    },
+    {
+      "section": "3.14",
+      "before_sha256": "303cfdbe450f5c1a4dd5e9c6d84f846a58c7863c8adfc00bb24fe21c4196740f",
+      "after_sha256": "6e57f96b1bb95f1eb23744e21e97fe6cf6b8fde980f6d2f04dba2d761dd1ad23"
+    },
+    {
+      "section": "4.5",
+      "before_sha256": "776108412e1ffb316c853750aad3cbe13b22a56655cbd59a14c3902d82ac0dd1",
+      "after_sha256": "fae99346735f9261da8b890f4197b40c5db5392f9e9064058f1fbde4fd348ce0"
+    },
+    {
+      "section": "4.9",
+      "before_sha256": "7006974d23685062b138151e4b8c7665804135523e719b44088d6e5b147a258b",
+      "after_sha256": "3767df52d6d7bad7d929ef0262c442b32225992c836b70dbaeb322cdd03ee92b"
+    },
+    {
+      "section": "4.10",
+      "before_sha256": "36b2415b1b38fa6a1cdb85d9d4416dda9d05269f7ae6124a22a04ddb2ac81bd6",
+      "after_sha256": "732307880a234b5124c95abd27636b33dd69e2416d1a1a53099dda62aa812520"
+    },
+    {
+      "section": "4.11",
+      "before_sha256": "97310c6f2608ae0412862fa841dd2ecdf1423928c46a6978811bebf8b85106a1",
+      "after_sha256": "df68ec352a942eb1c2f1e710ec84a3e2bbd6c54debcc8975f42d0724c6d34a49"
+    },
+    {
+      "section": "4.13",
+      "before_sha256": "754367a6a7f57c9877cd2c5b7f9f95861306f16e2fe390c3b51148669432d403",
+      "after_sha256": "826cebc62f6c4c90c2466b86528f1253ff328506874cd04b4758ca928dad5572"
+    },
+    {
+      "section": "4.16",
+      "before_sha256": "43c406b2f926d8ab4b1fdac4f7ed88449b2f8c3cc0be2257f769f84dca12f0da",
+      "after_sha256": "06eef7312b47a9d64e8d8489c054854c2ce74c1fb102d92d518306eb6860f4ba"
+    },
+    {
+      "section": "5.4.1",
+      "before_sha256": "0442b2a76a38d89afbc3b9d5aabd19cd41ee7e989ca67acb6784281cdaa0e835",
+      "after_sha256": "23384ffced8d3a3de145d40e008c2e570fc70b27cdf29c34775715f69f061b9a"
+    },
+    {
+      "section": "5.5",
+      "before_sha256": "593a17509dd1e7ed14ef13ac8b6fd4b1cf5149d1f116297b285e8d10311e6adf",
+      "after_sha256": "3a87854faffce83d7ab538a2e0604507d856173f71e15c31b380d832c4b7b9b9"
+    },
+    {
+      "section": "5.7",
+      "before_sha256": "5164cc298eabdb4c4d31eae547c629a8d1dd475b15eccce976c099092f484b40",
+      "after_sha256": "0f5b54bced58612927134e23d904970c3a3077b2f8f59c8921a6415d194f12d6"
+    },
+    {
+      "section": "5.8",
+      "before_sha256": "f2d395cb5cc6e1a441c0118203ababd41ce44bf5c89d41e108e85eb5cc6add76",
+      "after_sha256": "47b829017b877b0a72d929316d260892d1d81088d965aab02c14ea3929ac3d4d"
+    },
+    {
+      "section": "5.9",
+      "before_sha256": "cc4b9ca1c4d8d4f75a17c11293669bf597c36ba3ce6673efa7684d0fcb1d0824",
+      "after_sha256": "00e0eebf341309b213fff98c61bd304b1005dd291781cdff6f16d77c78cf384b"
+    },
+    {
+      "section": "5.12",
+      "before_sha256": "0ea21f2073775f210ca7b0b714104674767be51f41f24619aeb6e65fe7bd1ba4",
+      "after_sha256": "4687fd172798396e0af6ca8ad01bcb75e3614ef41e40d094ff971f3fd0367189"
+    },
+    {
+      "section": "5.13",
+      "before_sha256": "ea198b037211c85b199605acd7550253db8a2c4ef9092e021b96b5a975817985",
+      "after_sha256": "f7414467518947c48af517496e59e8a9b496430dc250fa6225f6d01f6f5d5c73"
+    },
+    {
+      "section": "5.15",
+      "before_sha256": "e6a45b518369c8a9454ca948b4b994928d47d316cc5b126229d89d7217719267",
+      "after_sha256": "e3856da51d8f64cff0e5c37794483e94416ae590d98282e3a261eb21aa3c5cea"
+    },
+    {
+      "section": "5.16",
+      "before_sha256": "a5f982afe8febdb5419e71cd534f2d5bd1f257bdcf18d371884344c2256e7995",
+      "after_sha256": "3906e1471f7e9caab769b941a4728be78ba549629b6c8218c7079b4d6f82bb6f"
+    },
+    {
+      "section": "6.3",
+      "before_sha256": "3432746db788f62459c06c2d16f561c2234dc9110af2c79793aecb8c5dffd205",
+      "after_sha256": "26405799dee88b939ba787bb3b4f0f3d3d209fe49c4dd127c2505753c66a3cb8"
+    },
+    {
+      "section": "6.6",
+      "before_sha256": "ee62744dfa3689a3bf35fc0dad106dbab031fb912e429bcc36b074f921a67b95",
+      "after_sha256": "171039af21e447316d703c8978bd5fab4c100887522ce17af58067171a2de897"
+    },
+    {
+      "section": "6.7",
+      "before_sha256": "fd22f2e806ece469e10445a45ff22b47c8958697f1720d905abfd024c70c4fb4",
+      "after_sha256": "870aa416cfdda1832ac1a47e08d680ed5157a16347cf76b73ccdb50de525c025"
+    },
+    {
+      "section": "6.8",
+      "before_sha256": "50bee78937a7aff377c45aed0c397bbc8d7fe5543305c83ba71954c09a64a390",
+      "after_sha256": "43b7cf7044dfdd34d465b4440e369d1fae9e00093f59f7e0c4cf1d9f034204db"
+    },
+    {
+      "section": "6.10",
+      "before_sha256": "b16d6a7465ae1202bf1e9b57ceddc3656ceb1c1f4aff4a5a57e4a4900b06fa7c",
+      "after_sha256": "29e3e0361c33d30467055e51e3478f06c880dafdd6bec6ddd9606c839cf62ae0"
+    },
+    {
+      "section": "6.11",
+      "before_sha256": "d76abd69dc037184de3619c7e036fa5bdc082aaffa2a25857f2f6bbb8509653a",
+      "after_sha256": "29088800600314daf63039f78745bee6461ba5a2bd54e00b7b36a4fb19f99fdf"
+    },
+    {
+      "section": "6.12",
+      "before_sha256": "6cd68351e80b52e1ede3d80e12d7ab772aa06bb3d8fa7afa917f7cdc713078de",
+      "after_sha256": "2b3aa20adc786ab4a9f8af9e8978b6a2cff2b628641eafc601ac4c98343720df"
+    },
+    {
+      "section": "6.14",
+      "before_sha256": "75bb38caf71e31cdc6ae816375e0faf51fd3fbbd63d94cd6c0f575c8b9c48916",
+      "after_sha256": "da30fcc9ee27ea7bddc77f998a816f5acca8bbd57e28481ff7b0978aaf93ce52"
+    },
+    {
+      "section": "6.16",
+      "before_sha256": "17e1010fcde360c99eed8f8e1fbd7161ba8033382687d76671da2fe392492e40",
+      "after_sha256": "5514743ef38acf848bee6d8878fc4ccda4f4f5fd1e588027264a86c162157f82"
+    },
+    {
+      "section": "7.2",
+      "before_sha256": "67322abaa566d863bdae53cfadaafbfb44de894c1d2bfb66e1e091be52203a70",
+      "after_sha256": "612149c1ef306fb29baaf621d505a24b4ad110ce6884c911b3440a2ec410de47"
+    },
+    {
+      "section": "7.6",
+      "before_sha256": "45674490e9601524a5ac555b27dafa4a4e33d1a6beb46cf0cdf50c8e1e3ea722",
+      "after_sha256": "5e5298d536304ac9187c449a1fbd31ceb252cbefa07bde2ebb4673078be342aa"
+    },
+    {
+      "section": "7.7",
+      "before_sha256": "f3a8b565ca4c74f0b8397e4a3ce7901090d770a8c86f025fb209381df18183c3",
+      "after_sha256": "69be3dd93114727e4c8785a95510f8d61da8e9722b320031aa86e9c66e53f39c"
+    },
+    {
+      "section": "7.8",
+      "before_sha256": "16d5e671a3d0368bb134cce46b8cabd7700db200c84a37d0e4396ac1cf3856de",
+      "after_sha256": "6a723f96824e40f95f7189e0033953fab954d51ee5c8c99076bee0ced0711f4e"
+    },
+    {
+      "section": "7.9",
+      "before_sha256": "27b71407a9413cc07591108fa3ff587a9b79addd41c2f9a42bf10c1333fdf794",
+      "after_sha256": "8550ee663be3fa72ee6448ff372e2ea2a6994c7a5b9409283059aa6cc4abe384"
+    },
+    {
+      "section": "7.10",
+      "before_sha256": "fbed2c048fd6fefd5aeab48fc6ad82e9ba48a079607ff06a5eee8e540b3b8039",
+      "after_sha256": "191e80c51592cda3f8856e822bc9dd5e9ddaddd2437d628ba99dcd915cdd9ea7"
+    },
+    {
+      "section": "7.11",
+      "before_sha256": "8cbfdbebbc959200573c8cdf8e7930107cece4298aa7b981533db22cdc0f5c78",
+      "after_sha256": "cb1622ac2485dedab673e90cc1d3f67f8ca57d80cf1d517525fdfda925c6fc41"
+    },
+    {
+      "section": "7.12",
+      "before_sha256": "2b0dc7547537aaabf521775aa9ce299f9cab07974b6d8fe7cdbf74328cbb8898",
+      "after_sha256": "4db3c70353d5474488d32fd4606e03835df91adc2e09b88848e6528e8567820b"
+    },
+    {
+      "section": "7.13",
+      "before_sha256": "2113382244a2e837a83a5fb30cdc2915ebc416f6863b3ff7a9129dd791d8ca6b",
+      "after_sha256": "42a5edfc0527299e8e26f98d6883d75b6808d67a5eb41c378013ef0126be7261"
+    },
+    {
+      "section": "7.16",
+      "before_sha256": "6f51e1b78ccfdaf0159af911fc1356389bc123447815e90fa2d7ff67b32c34b7",
+      "after_sha256": "d3dd42fe12d80e7d905758c4592b88579f44df62e804fde97ed7917f4c613087"
+    },
+    {
+      "section": "8.6",
+      "before_sha256": "3c848953610af8e9a40794208319dc8015461b3f272f61a46f8f2979bb591edc",
+      "after_sha256": "88e93167ab9cfaa43073fa6f6d8a8a7c45596dc871185cd51740283df870c013"
+    },
+    {
+      "section": "8.8",
+      "before_sha256": "3ea22dced95779e711f1db3850d5631dae1233635e53b1d3e1e9a81467d3e1c4",
+      "after_sha256": "dceaef1b88aafc3dd1a7b7e4cf9eb11abb2d0337214b8ab8ab1554913bab14cc"
+    },
+    {
+      "section": "8.11",
+      "before_sha256": "e1e42a4bad255f06a3b0e36cd5e9adb939c27faf8f00a74b77f416776582bc9b",
+      "after_sha256": "1fbd3a3072a98996a778aa9315d978f9ceb4c1cfa28c9568f5ea9be5f0445a53"
+    },
+    {
+      "section": "9.3",
+      "before_sha256": "8558d8ef894ded2cb6d74a63fa262259734e7eef2bc8adf550e41c3f2648f232",
+      "after_sha256": "31e0f295be68acd552440216ed43887d6b732a852dd7a1481831133b5277cca5"
+    },
+    {
+      "section": "9.5",
+      "before_sha256": "4ced5328803c09d3e4d29311d09b859c63a53c9cfce15d6b775840b44a32ea9a",
+      "after_sha256": "4c4988206d5bf67e4f84e8e6a1230ca403546a4c79dfb62a8aad8515cda90fcc"
+    },
+    {
+      "section": "10.5",
+      "before_sha256": "5100ad3ea2cb0e6f4cedc8311931c7a44045de55883854ef9bd227b93782285b",
+      "after_sha256": "a38d55a4c20516b596c488c6ce4a212cf3460240b74d6281897ddd85571d8e86"
+    },
+    {
+      "section": "10.14",
+      "before_sha256": "b1b64d8cc7736d052a50345273abf41dc4518425f503e81fd8253d99f21a06ae",
+      "after_sha256": "8611485da4c296e5f1039b5feba363536523adfdbd9f5f5d0c730d58cda73575"
+    }
+  ],
+  "view_ids": [
+    "dr1-1",
+    "dr1-2",
+    "dr3-1",
+    "dr4-1",
+    "dr5-1",
+    "dr6-1",
+    "dr7-1",
+    "dr9-1"
+  ],
+  "added_sections": [
+    "10.17",
+    "10.18"
+  ],
+  "applied_map": [
+    {
+      "id": "FND006-01",
+      "severity": "Medium",
+      "sections": "Header",
+      "before": "Family/Type and Revision absent; input Approved/Baseline 1.0.",
+      "proposal": "Add Family Foundation, Type Architecture because the primary role is design-decision rationale and principles, not chronology alone. Omit invented Component/Class. Retain original contribution/history; first changed successor Draft/unassigned, Revision 1.",
+      "closure_criterion": "Header reflects primary responsibility; actual compatibility determines Version; no Revision 0 or renewed approval inferred.",
+      "related_records": "REV2-03; REV2-12",
+      "state": "Corrected—pending validation",
+      "applied_sections": "Header; working scope; §10.18",
+      "after": "Foundation/Architecture; V2.0 R1 Draft/unassigned; original and actual update contributions; no invented Component/Class or Revision 0",
+      "validation_performed": false
+    },
+    {
+      "id": "FND006-02",
+      "severity": "High",
+      "sections": "2.6, 2.8, 2.10, 2.11, 2.12, 2.14, 5.14",
+      "before": "Technical update no longer affected administrative properties; none of the consumers need technical content; knowledge resides exclusively in content, although 5.14 also locates knowledge in relationships.",
+      "proposal": "Keep conceptual separation of content and descriptors but distinguish it from physical separation or independent edition changes. Identity owns identity; Metadata represents descriptors. Technical edits may require edition/status/index updates; content-sensitive reviews or relationship evidence may inspect content. Describe knowledge entities, descriptors and relationships without mutually exclusive claims or competing semantic owners.",
+      "closure_criterion": "No absolute administrative independence or content-free consumer guarantee remains; descriptor/domain authority and exact-edition coupling are explicit; 2.12 and 5.14 are coherent.",
+      "related_records": "REV2-06; REV2-08; FND004-04 (earlier local closure retained)",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§§2.6/2.8/2.10–2.12/2.14; 5.14",
+      "after": "Conceptual separation with edition synchronization; descriptor and domain authority separated; no content-free or knowledge-exclusivity guarantee",
+      "validation_performed": false
+    },
+    {
+      "id": "FND006-03",
+      "severity": "High",
+      "sections": "3.3, 3.7, 3.8, 3.10, 3.12, 3.14",
+      "before": "Splitting/merging grouped with renaming as only representation changes; Registry dependent exclusively on identity; every document assumed to possess permanent identity.",
+      "proposal": "Distinguish rename/relocation from semantic split/merge, requiring explicit retained/new identities and provenance rather than assume same knowledge. Scope normalized identity away from excluded functional files. Identity is the logical key, while entries/consumers may require edition, location and owner contracts. Preserve IDs across ordinary version/reclassification; no unplanned allocations.",
+      "closure_criterion": "Split/merge does not silently reuse one identity for distinct successors; rename and edition evolution retain valid identity; functional exclusion and key-versus-full-record distinction explicit.",
+      "related_records": "REV2-04; REV2-09; INV-02 remains Not applicable",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§§3.3/3.6–3.8/3.10–3.12/3.14; 4.9",
+      "after": "Rename versus semantic split/merge; explicit identity/provenance decisions; normalized scope and key/full-record distinction",
+      "validation_performed": false
+    },
+    {
+      "id": "FND006-04",
+      "severity": "High",
+      "sections": "4.11, 4.13, 4.16, 5.5, 5.7, 5.8, 5.12, 5.15, 5.16, 9.3",
+      "before": "Registry does not duplicate information and does not represent relationships; Knowledge Graph describes relationships and its introduction completed Discovery; Relationships owner is absent.",
+      "proposal": "Distinguish authoritative typed Relationships records from Registry references/derived indexes and Knowledge Graph projections. Non-redundancy means one semantic authority with traceable edition provenance, not a physical single-copy rule. Preserve historical emergence but do not describe Registry/Graph as all current Discovery capabilities.",
+      "closure_criterion": "Relationship ownership and permitted projections explicit; no exclusive graph or physical no-copy contract; current Discovery overview does not omit other registered responsibilities.",
+      "related_records": "REV2-12; FND004-06 (earlier local closure retained)",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§§4.5/4.11/4.13/4.16; 5.4.1/5.5/5.7–5.9/5.12/5.15–5.16; 9.3",
+      "after": "Relationships owns typed records; Registry and graph project with exact provenance; repeated derived values permitted; current Discovery scope qualified",
+      "validation_performed": false
+    },
+    {
+      "id": "FND006-05",
+      "severity": "High",
+      "sections": "3.8, 5.13, 6.3, 6.6, 6.7, 6.8, 6.10, 6.11, 6.12, 6.16",
+      "before": "Baseline a set of documents; always a validated state; stability enough for creation; graph state preserved without exact-edition selection, approval and pinned context.",
+      "proposal": "Define collective snapshot of explicitly selected immutable document editions plus relevant pinned relationship context/evidence. Distinguish logical identity, Version/Revision, edition Status and Baseline; validate selection and require explicit approval/inclusion per policy. Research phases may be selected only when criteria are satisfied. Preserve old snapshots; do not infer membership from edits, validation or current paths.",
+      "closure_criterion": "Members resolve to exact editions; validation is distinct from approval/selection; changed Draft successors do not alter past membership; no automatic whole-graph or research-phase snapshot assumed.",
+      "related_records": "FND004-07/08 (earlier local closures retained); REV2-02",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§§3.8; 5.13; 6.3/6.6–6.8/6.10–6.12/6.16",
+      "after": "Exact immutable edition selection, explicit approval/eligibility/inclusion and scoped pinned context; research phases not automatic Baselines",
+      "validation_performed": false
+    },
+    {
+      "id": "FND006-06",
+      "severity": "High",
+      "sections": "1.8, 1.15, 2.11, 3.6, 3.12, 4.5, 5.5, 6.6, 6.14, 7.7, 7.9, 7.12, 8.6, 8.11, 9.13",
+      "before": "Eight unlabeled arrow views; components rely on Baselines and vice versa without required-contract scope; neither project depends architecturally on the other despite provider/consumer relation.",
+      "proposal": "Type every view as historical activity, conceptual association, selection or principle map. Mandatory dependencies use consumer-to-provider with contract/scope; distinguish navigation, snapshot context and external optional consumption. Do not relabel a genuine required cycle to hide it. Qualify partial adoption by required provider contracts; DF independence from VisualEngine does not imply consumers require no DF contracts. Preserve eight view IDs and correct dr9-1 eparation typo during UPDATE.",
+      "closure_criterion": "All eight views have explicit meanings/direction; required edges separate from chronology/reference; no blanket independence or unsupported global DAG/cycle claim.",
+      "related_records": "REV2-02; FND004-05 (earlier local closure retained)",
+      "state": "Corrected—pending validation",
+      "applied_sections": "All eight views; §§2.11/3.12/6.14/7.9/7.12/8.6/8.8/8.11/9.5",
+      "after": "Every view typed; required edges consumer→provider with contract/scope; optional/reference/history distinct; genuine mandatory cycles remain visible; typo corrected",
+      "validation_performed": false
+    },
+    {
+      "id": "FND006-07",
+      "severity": "High",
+      "sections": "7.6, 7.7, 7.8, 7.10, 7.11, 7.13, 7.16",
+      "before": "Knowledge/Representation/Governance/Discovery/Preservation called layers; Metadata assigned Representation and Baselines Preservation.",
+      "proposal": "Retain historical concern rationale but distinguish five conceptual concerns from seven structural areas. Use Documentation for primary Metadata allocation and Governance for Baselines; Preservation cross-cutting, not a new structural Layer/component. Reference Architecture responsibility and qualify pending six/seven source discrepancy.",
+      "closure_criterion": "All chapter 7 allocations distinguish conceptual concerns and structural primary allocation; Baselines Governance; no invented Knowledge/Preservation structural areas.",
+      "related_records": "REV2-01; INV-04; FND004-02 (earlier local closure retained)",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§§7.6–7.13/7.16; 6.10",
+      "after": "Five conceptual concerns versus seven structural areas; Metadata Documentation; Baselines Governance; no Knowledge/Preservation structural Layer",
+      "validation_performed": false
+    },
+    {
+      "id": "FND006-W01",
+      "severity": "Medium",
+      "sections": "1.11, 2.14, 5.9, 5.15, 7.2, 7.8, 8.14, 10.14",
+      "before": "Final architecture, implemented Baselines, graph immediately identifies impacts, components functioned correctly and architecture now sufficiently mature without supplied verification evidence.",
+      "proposal": "Preserve received historical assessments as such; distinguish intended capability, architectural rationale and implementation/validation evidence. Qualify immediate/completeness claims and do not invent dates, measures, approval or operation results.",
+      "closure_criterion": "No unqualified present operational maturity or immediate impact-analysis guarantee; received assessments traceable with explicit current evidence limits.",
+      "related_records": "FND004-W01 (earlier local closure retained)",
+      "state": "Corrected—pending validation",
+      "applied_sections": "Working scope; §§1.11/2.8/2.14/4.5/4.10/5.9/5.15/7.2/10.14/10.18",
+      "after": "Historical assessments qualified; intended capability distinguished from implementation, release and global conformity evidence",
+      "validation_performed": false
+    },
+    {
+      "id": "FND006-W02",
+      "severity": "Low",
+      "sections": "1.11, 10.5, 10.16",
+      "before": "Related documents referenced only by title; current-versus-history owner map absent.",
+      "proposal": "Add a concise actual-path map for Blueprint, Manifest, Framework Evolution, Research Journal, Evolution Timeline and affected owners/policy/report. Identify rationale versus chronology/specification roles; links do not create mandatory execution dependencies.",
+      "closure_criterion": "Links resolve to intended IDs; historical/current roles distinct; no unrelated owner source is silently updated or external specification invented.",
+      "related_records": "FND004-W02; FND001-W01 (earlier local closures retained)",
+      "state": "Corrected—pending validation",
+      "applied_sections": "§§1.11/10.5/10.17/10.18",
+      "after": "Eleven actual source links, roles and evidence limits; exact input and actual successor history",
+      "validation_performed": false
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Corrected—pending validation": 9,
+    "Closed—verified": 18,
+    "Not applicable—scope decision": 1
+  },
+  "source_validation_performed": false
+}
