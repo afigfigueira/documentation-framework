@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 4 |
+| **Revision** | 5 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -25,6 +25,8 @@ Revision 2 is the full English translation of the Portuguese Revision 1 requeste
 Revision 3 adds the complete Step 4.01 REVIEW of DF-FND-004 in §9. This is a compatible informational report update, not a change to the report’s normative contract; Version remains 1.0. The reviewed Blueprint remains unchanged. Current review progress and finding totals are stated in §9.1.
 
 Revision 4 records the localized Step 4.01 UPDATE in §10. Sections 1–9 retain the historical Step 3, translation and REVIEW event scopes; §10 states the current source edition and finding states. The Blueprint now has Version 2.0 Revision 1 and is updated—pending validation.
+
+Revision 5 records the Step 4.01 VALIDATE DOCUMENT result in §11. Sections 9–10 retain event-time states; §11 governs current local closure and the next command.
 
 ## 2. Concrete changes — before/after
 
@@ -86,7 +88,7 @@ Steps 1–3 are complete within their stated scopes; Step 4 covers individual cy
 
 The attached matrix contains all 89 positions, input/current editions and hashes, REVIEW/UPDATE/VALIDATE, findings, CHANGELOG and Milestone. The classification table retains content-based proposals with application pending in the 79 original documents. The new supporting-document rows have been applied. Dependencies: Foundation before Architecture; identity/classification owners before consumers; Metadata divergences resolved with domain owners without copying examples into a canonical catalog.
 
-Current Step 4.01: REVIEW completed in §9; UPDATE completed in §10; VALIDATE DOCUMENT pending. Next command: **VALIDATE DOCUMENT DF-FND-004**, current Version 2.0 Revision 1, Draft, Baseline Not assigned.
+Current Step 4.01: REVIEW, UPDATE and scoped VALIDATE DOCUMENT complete. Blueprint Version 2.0 Revision 1 remains Draft, Baseline Not assigned. Next command: **REVIEW DOCUMENT DF-FND-001**, Step 4.02.
 
 ## 6. Scoped validation and evidence
 
@@ -98,7 +100,7 @@ Translation follow-up checks compare Revision 2 against the complete Portuguese 
 
 ## 7. Subordinate exports and traceability
 
-Files in `DF-RVW-002-assets/` are subordinate representations of this report's inventories and evidence: input manifest, thematic coverage, classification, progress matrix, allocation/impact map, current manifest, validation results and complete diffs. CSV/JSON/diff exports are not new normative sources or a parallel document series. The original Step 3 evidence and diff retain their R1 provenance; current tracking and manifest record report V1.0 R4. Historical translation tracking remains associated with R2. Translating the report does not imply that the historical exports have been translated. The current manifest identifies its parent and hashes sources/exports, excluding itself; the external receipt records the manifest and package hashes.
+Files in `DF-RVW-002-assets/` are subordinate representations of this report's inventories and evidence: input manifest, thematic coverage, classification, progress matrix, allocation/impact map, current manifest, validation results and complete diffs. CSV/JSON/diff exports are not new normative sources or a parallel document series. The original Step 3 evidence and diff retain their R1 provenance; current tracking and manifest record report V1.0 R5. Historical translation tracking remains associated with R2. Translating the report does not imply that the historical exports have been translated. The current manifest identifies its parent and hashes sources/exports, excluding itself; the external receipt records the manifest and package hashes.
 
 Original central records: #198 extends event types; #199 records policy creation pending validation; #200 report creation pending validation; #201 Milestones; #202 consolidation of earlier reviews; #203 scoped policy validation; #204 scoped validation of the remaining registers/evidence. Date: 2026-09-30; author: Codex — AI assistant. M8 establishes the input with explicit limits; M9 conventions/supporting documents/tracking, without source propagation; M10–M14 remain pending. These historical entries remain unchanged.
 
@@ -114,6 +116,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-09-30 | 1.0 | 2 | Follow-up 3.2.1: full English translation of R1; Language Portuguese→English; compatible editorial change; review conclusions and finding states retained | Draft; Baseline Not assigned; update recorded pending validation in #205; subsequent scoped checks in #206 |
 | 2026-09-30 | 1.0 | 3 | Step 4.01: complete Blueprint REVIEW; nine findings and two warnings; current progress matrix expressed in technical English | Draft; Baseline Not assigned; compatible informational report update; Blueprint unchanged; #208 pending checks, #210 later integrity/traceability result |
 | 2026-09-30 | 1.0 | 4 | Step 4.01 UPDATE: report records Blueprint V2.0 R1, material before/after, update map and pending validation | Draft; Baseline Not assigned; compatible informational update; source findings Corrected—pending validation; #212 |
+| 2026-09-30 | 1.0 | 5 | Step 4.01 VALIDATE DOCUMENT: exact Blueprint edition, eleven verified local closures and current tracking | Draft; Baseline Not assigned; source unchanged V2.0 R1; #214–216 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -371,3 +374,54 @@ Evidence exports under DF-RVW-002-assets belong to report V1.0 R4: update map, c
 ### 10.6. Next command
 
 **CONTINUAR** or **VALIDATE DOCUMENT DF-FND-004** runs validation on Version 2.0 Revision 1 with its exact hash and affected-source comparisons. It does not advance to 4.02 or infer approval from a passing check. A failed check produces a traceable corrective successor; closure requires evidence from that validation stage.
+
+
+## 11. Step 4.01 — VALIDATE DOCUMENT DF-FND-004
+
+### 11.1. Result and exact edition
+
+**PASS for the localized Blueprint correction scope.** All ten chapters, all 44 views, the affected contract occurrences and the eleven closure criteria were inspected. Source Version 2.0 Revision 1 remains Draft, Baseline Not assigned, Family Foundation, Type Architecture. SHA-256: `941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6`. The source is byte-identical to the UPDATE checkpoint; no Version/Revision increment or source-history edit is made for validation alone.
+
+The source’s pending-validation phrases and §10.21 describe the UPDATE-time assessment. This later event supersedes that pending state in current tracking, without rewriting the preserved event snapshot. Validation is not approval, publication, Baseline inclusion or a guarantee of consequences. Any subsequent disk edit requires checks on the resulting bytes; attribution records actual contributions rather than transferring authorship through authorization.
+
+### 11.2. Verified local closure
+
+| Record | Verified source sections | Before validation | Result |
+|---|---|---|---|
+| FND004-01 | Header; §§2.5/3.6 | Corrected—pending validation | Closed—verified; Family Foundation; Type Architecture; Version 2.0 Revision 1 Draft; Baseline Not assigned |
+| FND004-02 | §§1.6–1.7; 4.3; 8.2–8.8/8.16/8.19; 10.3 | Corrected—pending validation | Closed—verified; Five explicit conceptual concerns, seven structural areas; Baselines primarily Governance and contributing to Preservation |
+| FND004-03 | §§1.5.3; 2.6; 3.5/3.11–3.14; 9.4 | Corrected—pending validation | Closed—verified; Historical example qualified; stable DF-SSS-NNN allocation independent of mutable Family/Type; Domain+Identifier key; Title mutable |
+| FND004-04 | §§2.5; 3.3–3.7/3.16/3.19; 8.15; 9.5; 10.6 | Corrected—pending validation | Closed—verified; Scoped descriptive authority; Dictionary defines, Schema organizes/references, Profile restricts, Instance carries edition values; domain owners retain semantics |
+| FND004-05 | All 44 views, particularly §8.11; summaries in §§8–10 | Corrected—pending validation | Closed—verified; Explicit view kind and relation direction; selected dependencies consumer→provider; no required adjacent-component chain or claimed global DAG |
+| FND004-06 | §§2.9–2.10/2.13; 5.4–5.16; 6.11–6.12; 9.10 | Corrected—pending validation | Closed—verified; Relationships owns typed records; Registry catalogs/projects with exact-edition provenance; graph is semantic network projection |
+| FND004-07 | §§2.11; 4.11; 6.3–6.12/6.15/6.18; 8.9–8.10; 9.16; 10.9 | Corrected—pending validation | Closed—verified; Exact-edition members, explicit approval and selection gates; old snapshots unchanged; Draft successors do not inherit membership |
+| FND004-08 | §§3.7; 4.5–4.10; 6.8 | Corrected—pending validation | Closed—verified; Document entity, Version/Revision edition, Status for applicable edition, independent collective Baseline; missing input Revision not invented |
+| FND004-09 | §§1.5.1; 2.1–2.3/2.7/2.13–2.16; 8.4; 10.3/10.17 | Corrected—pending validation | Closed—verified; Entity/capability/role distinguished; Classification and Reviews explicit; META historical, not current Family/Type; functional-file exclusion explicit |
+| FND004-W01 | §§1.12; 8.17/8.18; 10.13/10.15/10.18/10.21 and adjacent summaries | Corrected—pending validation | Closed—verified; Received assessments preserved historically; intended design distinguished from integrated conformity, release or implementation evidence |
+| FND004-W02 | §§1.10; 7.2–7.13/7.17–7.18; 10.17/10.20 | Corrected—pending validation | Closed—verified; Actual source reference map added; DF/CMS/DMS/project roles distinguished; no unseen external specifications claimed reviewed |
+
+The complete closure criteria and comparison limits are retained in `DF-RVW-002-validation-4-01.json`. Classification is responsibility-based with four Type values; permanent identity is independent of mutable classification; Dictionary/Schema/Profile/Instance authority is separated; typed mandatory edges use consumer→provider; relationship records and discovery projections have distinct owners; Baselines selects exact editions through explicit gates; entity/edition/state dimensions remain distinct; historical maturity and external-system boundaries are qualified.
+
+### 11.3. Scope and unresolved corpus work
+
+Current totals: **19 Open, 11 Closed—verified, one Not applicable—scope decision (INV-02)**. The eleven closures apply to FND004-01–09 and FND004-W01/W02 in this source only. Related earlier cross-source findings remain Open. In particular, Architecture’s count/direction discrepancies, Metadata Schema authority conflicts, incomplete catalogs/Profile contracts, Classification rollout, DID schema/state differences and CLS-003 recovery are not closed by this result. No global mandatory DAG or integrated implementation conformity is claimed.
+
+All eleven reference targets resolve and declare their expected IDs. All original numbered sections and 44 unique views are retained; Markdown tables are rectangular. The 78 other original normalized sources and six README files retain their input hashes. The eight functional files remain outside normalization scope. Header/history, checkpoint/manifest integrity and exact source hash checks pass.
+
+### 11.4. Tracking and before/after
+
+| Item | Before | After |
+|---|---|---|
+| Blueprint | V2.0 R1; updated pending validation | Same edition/hash; local validation PASS; Draft/unassigned |
+| Local findings | Eleven corrected pending validation | Eleven Closed—verified |
+| Review Report | V1.0 R4 | V1.0 R5; technical English; Draft/unassigned |
+| M10 | One S, five O | One C, five O; In Progress under record-composition rule |
+| CHANGELOG | Through #213 | #214 validation; #215 report update; #216 tracking |
+
+Blueprint record completion date is 2026-09-30. Completion means this document’s scoped REVIEW/UPDATE/VALIDATE cycle has finished; it does not complete Foundation reconciliation or approve the source. M10 remains In Progress because one record is Completed and five remain Open, as allowed by the existing Relationship with Record Status composition table. Historical M0–M7 and prior event rows are retained.
+
+Current progress, manifest, validation evidence and batch diff belong to report R5. Earlier UPDATE maps, construction checks and diffs remain historical R4 evidence with their pending state. `Context-Working-Step-4-01-Validated.zip` is this cycle’s checkpoint, not the final Context-Reviewed.zip.
+
+### 11.5. Next command
+
+**CONTINUAR** starts **Step 4.02 — REVIEW DOCUMENT DF-FND-001 — Framework Manifest**. It does not execute that source’s UPDATE or VALIDATE stages automatically.
