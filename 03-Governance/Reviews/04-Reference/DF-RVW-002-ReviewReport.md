@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 8 |
+| **Revision** | 9 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -33,6 +33,8 @@ Revision 6 adds Step 4.02 REVIEW in §12. Prior event sections preserve their da
 Revision 7 records the Step 4.02 Manifest UPDATE in §13. Historical REVIEW states remain in §12; current source corrections are pending validation.
 
 Revision 8 records Step 4.02 VALIDATE DOCUMENT in §14. §§12–13 retain their event-time states; §14 supplies current local closure and the next command.
+
+Revision 9 adds Step 4.03 Design Rationale REVIEW in §15. Prior event scopes/closures remain preserved; nine new local records are Open and source bytes are unchanged.
 
 ## 2. Concrete changes — before/after
 
@@ -94,7 +96,7 @@ Steps 1–3 are complete within their stated scopes; Step 4 covers individual cy
 
 The attached matrix contains all 89 positions, input/current editions and hashes, REVIEW/UPDATE/VALIDATE, findings, CHANGELOG and Milestone. The classification table retains content-based proposals with application pending in the 79 original documents. The new supporting-document rows have been applied. Dependencies: Foundation before Architecture; identity/classification owners before consumers; Metadata divergences resolved with domain owners without copying examples into a canonical catalog.
 
-Current Step 4.01: REVIEW, UPDATE and scoped VALIDATE DOCUMENT complete. Blueprint Version 2.0 Revision 1 remains Draft, Baseline Not assigned. Step 4.02 REVIEW, UPDATE and local VALIDATE DOCUMENT complete. Manifest V2.0 R1 remains Draft/unassigned. Next command: **REVIEW DOCUMENT DF-FND-006**, Step 4.03.
+Current Step 4.01: REVIEW, UPDATE and scoped VALIDATE DOCUMENT complete. Blueprint Version 2.0 Revision 1 remains Draft, Baseline Not assigned. Step 4.02 REVIEW, UPDATE and local VALIDATE DOCUMENT complete. Manifest V2.0 R1 remains Draft/unassigned. Step 4.03 REVIEW complete in §15; next command: **UPDATE DF-FND-006**.
 
 ## 6. Scoped validation and evidence
 
@@ -106,7 +108,7 @@ Translation follow-up checks compare Revision 2 against the complete Portuguese 
 
 ## 7. Subordinate exports and traceability
 
-Files in `DF-RVW-002-assets/` are subordinate representations of this report's inventories and evidence: input manifest, thematic coverage, classification, progress matrix, allocation/impact map, current manifest, validation results and complete diffs. CSV/JSON/diff exports are not new normative sources or a parallel document series. The original Step 3 evidence and diff retain their R1 provenance; current tracking and manifest record report V1.0 R8. Historical translation tracking remains associated with R2. Translating the report does not imply that the historical exports have been translated. The current manifest identifies its parent and hashes sources/exports, excluding itself; the external receipt records the manifest and package hashes.
+Files in `DF-RVW-002-assets/` are subordinate representations of this report's inventories and evidence: input manifest, thematic coverage, classification, progress matrix, allocation/impact map, current manifest, validation results and complete diffs. CSV/JSON/diff exports are not new normative sources or a parallel document series. The original Step 3 evidence and diff retain their R1 provenance; current tracking and manifest record report V1.0 R9. Historical translation tracking remains associated with R2. Translating the report does not imply that the historical exports have been translated. The current manifest identifies its parent and hashes sources/exports, excluding itself; the external receipt records the manifest and package hashes.
 
 Original central records: #198 extends event types; #199 records policy creation pending validation; #200 report creation pending validation; #201 Milestones; #202 consolidation of earlier reviews; #203 scoped policy validation; #204 scoped validation of the remaining registers/evidence. Date: 2026-09-30; author: Codex — AI assistant. M8 establishes the input with explicit limits; M9 conventions/supporting documents/tracking, without source propagation; M10–M14 remain pending. These historical entries remain unchanged.
 
@@ -126,6 +128,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-09-30 | 1.0 | 6 | Step 4.02 full Manifest REVIEW; six findings and one warning; source unchanged | Draft; Baseline Not assigned; compatible informational update; #218 with subsequent batch checks #220 |
 | 2026-09-30 | 1.0 | 7 | Step 4.02 UPDATE: exact Manifest successor, seven applied corrections and full diff | Draft; Baseline Not assigned; compatible informational update; #222; source validation pending |
 | 2026-09-30 | 1.0 | 8 | Step 4.02 local Manifest validation; seven verified closures, exact unchanged source and tracking | Draft; Baseline Not assigned; source V2.0 R1 unchanged; #224–226 |
+| 2026-09-30 | 1.0 | 9 | Step 4.03 full Design Rationale REVIEW; seven findings and two warnings, source unchanged | Draft; Baseline Not assigned; compatible informational update; #228; later review-evidence checks #230 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -646,3 +649,144 @@ Source history retains its UPDATE-time pending row; central #224 records the lat
 ### 14.5. Next command
 
 **CONTINUAR** starts **Step 4.03 — REVIEW DOCUMENT DF-FND-006 — Design Rationale**. It does not execute that source’s UPDATE or VALIDATE phases automatically.
+
+
+## 15. Step 4.03 — REVIEW DF-FND-006 — Design Rationale
+
+### 15.1. Source, coverage and outcome
+
+**REVIEW completed with seven findings and two warnings; all nine records Open.** UPDATE and VALIDATE DOCUMENT have not been performed. Source `00-Foundation/DF-FND-006-DesignRationale.md` remains byte-identical to input. Received Version 1.0, Revision absent, Author Arnaldo Figueira, Approved, Baseline 1.0, Language English; Family/Type absent. SHA-256: `6e911db07e6eba28222fb1f020b472c940543ed0ce873ca6c3945eaa69bbb66d`.
+
+The complete 61,508-byte, 2,835-line source was read: all ten chapters, header, paragraphs, lists and eight diagrams (dr1-1, dr1-2, dr3-1, dr4-1, dr5-1, dr6-1, dr7-1, dr9-1). No operational Markdown links are declared. Comparison sections and hashes are explicit in `DF-RVW-002-review-4-03-evidence.json`; partial owner-source comparisons do not complete their cycles.
+
+The primary responsibility is architectural design rationale and principles; proposed Type is Architecture despite the retrospective narrative. Historical chronology alone would have a different classification. The received Approved/Baseline declarations are preserved, not independently renewed or verified. Current totals: **28 Open, 18 Closed—verified, one Not applicable—scope decision**. New local occurrences do not reopen the eighteen prior Blueprint/Manifest closures.
+
+### 15.2. Findings and concrete proposals
+
+#### FND006-01 — Medium
+
+**Source sections:** Header.
+
+**Observed:** Family/Type and Revision absent; input Approved/Baseline 1.0.
+
+**Proposed correction:** Add Family Foundation, Type Architecture because the primary role is design-decision rationale and principles, not chronology alone. Omit invented Component/Class. Retain original contribution/history; first changed successor Draft/unassigned, Revision 1.
+
+**Closure criterion:** Header reflects primary responsibility; actual compatibility determines Version; no Revision 0 or renewed approval inferred.
+
+**Related records:** REV2-03; REV2-12. **State:** Open.
+
+#### FND006-02 — High
+
+**Source sections:** 2.6, 2.8, 2.10, 2.11, 2.12, 2.14, 5.14.
+
+**Observed:** Technical update no longer affected administrative properties; none of the consumers need technical content; knowledge resides exclusively in content, although 5.14 also locates knowledge in relationships.
+
+**Proposed correction:** Keep conceptual separation of content and descriptors but distinguish it from physical separation or independent edition changes. Identity owns identity; Metadata represents descriptors. Technical edits may require edition/status/index updates; content-sensitive reviews or relationship evidence may inspect content. Describe knowledge entities, descriptors and relationships without mutually exclusive claims or competing semantic owners.
+
+**Closure criterion:** No absolute administrative independence or content-free consumer guarantee remains; descriptor/domain authority and exact-edition coupling are explicit; 2.12 and 5.14 are coherent.
+
+**Related records:** REV2-06; REV2-08; FND004-04 (earlier local closure retained). **State:** Open.
+
+#### FND006-03 — High
+
+**Source sections:** 3.3, 3.7, 3.8, 3.10, 3.12, 3.14.
+
+**Observed:** Splitting/merging grouped with renaming as only representation changes; Registry dependent exclusively on identity; every document assumed to possess permanent identity.
+
+**Proposed correction:** Distinguish rename/relocation from semantic split/merge, requiring explicit retained/new identities and provenance rather than assume same knowledge. Scope normalized identity away from excluded functional files. Identity is the logical key, while entries/consumers may require edition, location and owner contracts. Preserve IDs across ordinary version/reclassification; no unplanned allocations.
+
+**Closure criterion:** Split/merge does not silently reuse one identity for distinct successors; rename and edition evolution retain valid identity; functional exclusion and key-versus-full-record distinction explicit.
+
+**Related records:** REV2-04; REV2-09; INV-02 remains Not applicable. **State:** Open.
+
+#### FND006-04 — High
+
+**Source sections:** 4.11, 4.13, 4.16, 5.5, 5.7, 5.8, 5.12, 5.15, 5.16, 9.3.
+
+**Observed:** Registry does not duplicate information and does not represent relationships; Knowledge Graph describes relationships and its introduction completed Discovery; Relationships owner is absent.
+
+**Proposed correction:** Distinguish authoritative typed Relationships records from Registry references/derived indexes and Knowledge Graph projections. Non-redundancy means one semantic authority with traceable edition provenance, not a physical single-copy rule. Preserve historical emergence but do not describe Registry/Graph as all current Discovery capabilities.
+
+**Closure criterion:** Relationship ownership and permitted projections explicit; no exclusive graph or physical no-copy contract; current Discovery overview does not omit other registered responsibilities.
+
+**Related records:** REV2-12; FND004-06 (earlier local closure retained). **State:** Open.
+
+#### FND006-05 — High
+
+**Source sections:** 3.8, 5.13, 6.3, 6.6, 6.7, 6.8, 6.10, 6.11, 6.12, 6.16.
+
+**Observed:** Baseline a set of documents; always a validated state; stability enough for creation; graph state preserved without exact-edition selection, approval and pinned context.
+
+**Proposed correction:** Define collective snapshot of explicitly selected immutable document editions plus relevant pinned relationship context/evidence. Distinguish logical identity, Version/Revision, edition Status and Baseline; validate selection and require explicit approval/inclusion per policy. Research phases may be selected only when criteria are satisfied. Preserve old snapshots; do not infer membership from edits, validation or current paths.
+
+**Closure criterion:** Members resolve to exact editions; validation is distinct from approval/selection; changed Draft successors do not alter past membership; no automatic whole-graph or research-phase snapshot assumed.
+
+**Related records:** FND004-07/08 (earlier local closures retained); REV2-02. **State:** Open.
+
+#### FND006-06 — High
+
+**Source sections:** 1.8, 1.15, 2.11, 3.6, 3.12, 4.5, 5.5, 6.6, 6.14, 7.7, 7.9, 7.12, 8.6, 8.11, 9.13.
+
+**Observed:** Eight unlabeled arrow views; components rely on Baselines and vice versa without required-contract scope; neither project depends architecturally on the other despite provider/consumer relation.
+
+**Proposed correction:** Type every view as historical activity, conceptual association, selection or principle map. Mandatory dependencies use consumer-to-provider with contract/scope; distinguish navigation, snapshot context and external optional consumption. Do not relabel a genuine required cycle to hide it. Qualify partial adoption by required provider contracts; DF independence from VisualEngine does not imply consumers require no DF contracts. Preserve eight view IDs and correct dr9-1 eparation typo during UPDATE.
+
+**Closure criterion:** All eight views have explicit meanings/direction; required edges separate from chronology/reference; no blanket independence or unsupported global DAG/cycle claim.
+
+**Related records:** REV2-02; FND004-05 (earlier local closure retained). **State:** Open.
+
+#### FND006-07 — High
+
+**Source sections:** 7.6, 7.7, 7.8, 7.10, 7.11, 7.13, 7.16.
+
+**Observed:** Knowledge/Representation/Governance/Discovery/Preservation called layers; Metadata assigned Representation and Baselines Preservation.
+
+**Proposed correction:** Retain historical concern rationale but distinguish five conceptual concerns from seven structural areas. Use Documentation for primary Metadata allocation and Governance for Baselines; Preservation cross-cutting, not a new structural Layer/component. Reference Architecture responsibility and qualify pending six/seven source discrepancy.
+
+**Closure criterion:** All chapter 7 allocations distinguish conceptual concerns and structural primary allocation; Baselines Governance; no invented Knowledge/Preservation structural areas.
+
+**Related records:** REV2-01; INV-04; FND004-02 (earlier local closure retained). **State:** Open.
+
+#### FND006-W01 — Medium
+
+**Source sections:** 1.11, 2.14, 5.9, 5.15, 7.2, 7.8, 8.14, 10.14.
+
+**Observed:** Final architecture, implemented Baselines, graph immediately identifies impacts, components functioned correctly and architecture now sufficiently mature without supplied verification evidence.
+
+**Proposed correction:** Preserve received historical assessments as such; distinguish intended capability, architectural rationale and implementation/validation evidence. Qualify immediate/completeness claims and do not invent dates, measures, approval or operation results.
+
+**Closure criterion:** No unqualified present operational maturity or immediate impact-analysis guarantee; received assessments traceable with explicit current evidence limits.
+
+**Related records:** FND004-W01 (earlier local closure retained). **State:** Open.
+
+#### FND006-W02 — Low
+
+**Source sections:** 1.11, 10.5, 10.16.
+
+**Observed:** Related documents referenced only by title; current-versus-history owner map absent.
+
+**Proposed correction:** Add a concise actual-path map for Blueprint, Manifest, Framework Evolution, Research Journal, Evolution Timeline and affected owners/policy/report. Identify rationale versus chronology/specification roles; links do not create mandatory execution dependencies.
+
+**Closure criterion:** Links resolve to intended IDs; historical/current roles distinct; no unrelated owner source is silently updated or external specification invented.
+
+**Related records:** FND004-W02; FND001-W01 (earlier local closures retained). **State:** Open.
+
+### 15.3. Proposed UPDATE batch and compatibility
+
+Only Design Rationale plus the consolidated report, subordinate evidence and central tracking are proposed for UPDATE. Preserve all ten chapters and existing section numbers, problem/alternative/decision/consequence structure, permanent ID/path and received historical rationale. Qualify historical emergence separately from current contracts. Retain the eight view IDs while replacing ambiguous ASCII arrows with explicitly typed rendered tables or appropriate diagrams. Add responsibility/navigation map and local edition history; record actual update contribution without transferring authorship through user authorization.
+
+Proposed header: Family Foundation, Type Architecture, no invented Component/Class, English, Draft, Baseline Not assigned. **Proposed successor V2.0 R1**: replacing current Baselines-in-Preservation allocation, graph/relationship authority and unconditional dependency/edition interpretation changes architectural contracts, beyond compatible editorial correction. No ID/path migration is required; Revision 1 is the first declared working Revision. UPDATE must assess the final actual change and show exact before/after; this proposal has not been applied.
+
+Metadata owns descriptors; Identity owns logical keys; Classification owns categories; Relationships owns typed records; Registry/Knowledge Graph expose traceable views; Baselines preserves explicit exact-edition selections in Governance; Architecture owns structural allocation. A retrospective rationale neither replaces these definitions nor establishes an implemented capability. Mandatory consumer/provider dependencies must remain visible rather than be relabeled to conceal cycles. Full dependency reconciliation remains outside this localized REVIEW.
+
+### 15.4. Tracking and REVIEW-evidence checks
+
+CHANGELOG #227 records this full REVIEW; #228 report V1.0 R8→R9; #229 M10 tracking; #230 later evidence-integrity checks. M10 remains In Progress: Blueprint C, Manifest C, Design Rationale S, three remaining records O. Design Rationale start date 2026-09-30; no completion date. M9 identifies report R9 without changing its historical acceptance scope. Earlier central rows and M0–M7 remain preserved.
+
+Checks confirm unchanged source/input hash, all ten chapters and eight unique diagram IDs, every finding section reference, current comparison hashes, preserved other original sources except the previously updated Blueprint/Manifest, their validated hashes, six README files, 89 stable matrix positions, current tracking/manifest hashes and preserved event history. These checks concern the REVIEW/evidence batch, **not VALIDATE DOCUMENT, semantic closure or approval**. Results: `DF-RVW-002-review-4-03-checks.json`; full report/register diff: `DF-RVW-002-review-4-03.diff`.
+
+Historical R8 validation exports retain their scope. Current exports and `Context-Working-Step-4-03-Review.zip` belong to report R9. Final integrated Context-Reviewed.zip remains pending.
+
+### 15.5. Next command
+
+**CONTINUAR** or **UPDATE DF-FND-006** executes the localized correction, actual successor/compatibility, full source, diff, history and central tracking, then pauses before VALIDATE DOCUMENT. It does not update peer domain sources automatically.

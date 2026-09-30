@@ -1,0 +1,252 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/9",
+  "date": "2026-09-30",
+  "step": "4.03 REVIEW",
+  "source": "00-Foundation/DF-FND-006-DesignRationale.md",
+  "sha256": "6e911db07e6eba28222fb1f020b472c940543ed0ce873ca6c3945eaa69bbb66d",
+  "source_edition": {
+    "version": "1.0",
+    "revision": null,
+    "status": "Approved",
+    "baseline": "1.0",
+    "author": "Arnaldo Figueira",
+    "language": "English",
+    "family": null,
+    "type": null
+  },
+  "coverage": {
+    "bytes": 61508,
+    "lines": 2835,
+    "chapters": [
+      [
+        "1",
+        "Introduction and Design Philosophy"
+      ],
+      [
+        "2",
+        "Separating Content from Metadata"
+      ],
+      [
+        "3",
+        "The Decision to Introduce Document Identity"
+      ],
+      [
+        "4",
+        "The Decision to Introduce the Registry"
+      ],
+      [
+        "5",
+        "The Decision to Introduce the Knowledge Graph"
+      ],
+      [
+        "6",
+        "The Decision to Introduce Baselines"
+      ],
+      [
+        "7",
+        "The Decision to Adopt a Layered Architecture"
+      ],
+      [
+        "8",
+        "The Decision to Make the Framework Independent"
+      ],
+      [
+        "9",
+        "Architectural Principles Emerging from the Design Decisions"
+      ],
+      [
+        "10",
+        "Final Reflections and Architectural Memory"
+      ]
+    ],
+    "views": [
+      "dr1-1",
+      "dr1-2",
+      "dr3-1",
+      "dr4-1",
+      "dr5-1",
+      "dr6-1",
+      "dr7-1",
+      "dr9-1"
+    ],
+    "method": "Complete source read through consecutive untruncated chunks; all paragraphs, lists, header and eight diagrams",
+    "operational_links": 0
+  },
+  "comparison_sources": [
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "5.6",
+        "5.8",
+        "6.7",
+        "8.11",
+        "8.16",
+        "9.10"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "6",
+        "8",
+        "13"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "4",
+        "15"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "6.4",
+        "7.1",
+        "7.2",
+        "7.3"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md",
+      "sha256": "7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "7"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "sha256": "b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "4.1",
+        "4.2",
+        "9"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "5.2"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "FND006-01",
+      "severity": "Medium",
+      "sections": "Header",
+      "before": "Family/Type and Revision absent; input Approved/Baseline 1.0.",
+      "proposal": "Add Family Foundation, Type Architecture because the primary role is design-decision rationale and principles, not chronology alone. Omit invented Component/Class. Retain original contribution/history; first changed successor Draft/unassigned, Revision 1.",
+      "closure_criterion": "Header reflects primary responsibility; actual compatibility determines Version; no Revision 0 or renewed approval inferred.",
+      "related_records": "REV2-03; REV2-12",
+      "state": "Open"
+    },
+    {
+      "id": "FND006-02",
+      "severity": "High",
+      "sections": "2.6, 2.8, 2.10, 2.11, 2.12, 2.14, 5.14",
+      "before": "Technical update no longer affected administrative properties; none of the consumers need technical content; knowledge resides exclusively in content, although 5.14 also locates knowledge in relationships.",
+      "proposal": "Keep conceptual separation of content and descriptors but distinguish it from physical separation or independent edition changes. Identity owns identity; Metadata represents descriptors. Technical edits may require edition/status/index updates; content-sensitive reviews or relationship evidence may inspect content. Describe knowledge entities, descriptors and relationships without mutually exclusive claims or competing semantic owners.",
+      "closure_criterion": "No absolute administrative independence or content-free consumer guarantee remains; descriptor/domain authority and exact-edition coupling are explicit; 2.12 and 5.14 are coherent.",
+      "related_records": "REV2-06; REV2-08; FND004-04 (earlier local closure retained)",
+      "state": "Open"
+    },
+    {
+      "id": "FND006-03",
+      "severity": "High",
+      "sections": "3.3, 3.7, 3.8, 3.10, 3.12, 3.14",
+      "before": "Splitting/merging grouped with renaming as only representation changes; Registry dependent exclusively on identity; every document assumed to possess permanent identity.",
+      "proposal": "Distinguish rename/relocation from semantic split/merge, requiring explicit retained/new identities and provenance rather than assume same knowledge. Scope normalized identity away from excluded functional files. Identity is the logical key, while entries/consumers may require edition, location and owner contracts. Preserve IDs across ordinary version/reclassification; no unplanned allocations.",
+      "closure_criterion": "Split/merge does not silently reuse one identity for distinct successors; rename and edition evolution retain valid identity; functional exclusion and key-versus-full-record distinction explicit.",
+      "related_records": "REV2-04; REV2-09; INV-02 remains Not applicable",
+      "state": "Open"
+    },
+    {
+      "id": "FND006-04",
+      "severity": "High",
+      "sections": "4.11, 4.13, 4.16, 5.5, 5.7, 5.8, 5.12, 5.15, 5.16, 9.3",
+      "before": "Registry does not duplicate information and does not represent relationships; Knowledge Graph describes relationships and its introduction completed Discovery; Relationships owner is absent.",
+      "proposal": "Distinguish authoritative typed Relationships records from Registry references/derived indexes and Knowledge Graph projections. Non-redundancy means one semantic authority with traceable edition provenance, not a physical single-copy rule. Preserve historical emergence but do not describe Registry/Graph as all current Discovery capabilities.",
+      "closure_criterion": "Relationship ownership and permitted projections explicit; no exclusive graph or physical no-copy contract; current Discovery overview does not omit other registered responsibilities.",
+      "related_records": "REV2-12; FND004-06 (earlier local closure retained)",
+      "state": "Open"
+    },
+    {
+      "id": "FND006-05",
+      "severity": "High",
+      "sections": "3.8, 5.13, 6.3, 6.6, 6.7, 6.8, 6.10, 6.11, 6.12, 6.16",
+      "before": "Baseline a set of documents; always a validated state; stability enough for creation; graph state preserved without exact-edition selection, approval and pinned context.",
+      "proposal": "Define collective snapshot of explicitly selected immutable document editions plus relevant pinned relationship context/evidence. Distinguish logical identity, Version/Revision, edition Status and Baseline; validate selection and require explicit approval/inclusion per policy. Research phases may be selected only when criteria are satisfied. Preserve old snapshots; do not infer membership from edits, validation or current paths.",
+      "closure_criterion": "Members resolve to exact editions; validation is distinct from approval/selection; changed Draft successors do not alter past membership; no automatic whole-graph or research-phase snapshot assumed.",
+      "related_records": "FND004-07/08 (earlier local closures retained); REV2-02",
+      "state": "Open"
+    },
+    {
+      "id": "FND006-06",
+      "severity": "High",
+      "sections": "1.8, 1.15, 2.11, 3.6, 3.12, 4.5, 5.5, 6.6, 6.14, 7.7, 7.9, 7.12, 8.6, 8.11, 9.13",
+      "before": "Eight unlabeled arrow views; components rely on Baselines and vice versa without required-contract scope; neither project depends architecturally on the other despite provider/consumer relation.",
+      "proposal": "Type every view as historical activity, conceptual association, selection or principle map. Mandatory dependencies use consumer-to-provider with contract/scope; distinguish navigation, snapshot context and external optional consumption. Do not relabel a genuine required cycle to hide it. Qualify partial adoption by required provider contracts; DF independence from VisualEngine does not imply consumers require no DF contracts. Preserve eight view IDs and correct dr9-1 eparation typo during UPDATE.",
+      "closure_criterion": "All eight views have explicit meanings/direction; required edges separate from chronology/reference; no blanket independence or unsupported global DAG/cycle claim.",
+      "related_records": "REV2-02; FND004-05 (earlier local closure retained)",
+      "state": "Open"
+    },
+    {
+      "id": "FND006-07",
+      "severity": "High",
+      "sections": "7.6, 7.7, 7.8, 7.10, 7.11, 7.13, 7.16",
+      "before": "Knowledge/Representation/Governance/Discovery/Preservation called layers; Metadata assigned Representation and Baselines Preservation.",
+      "proposal": "Retain historical concern rationale but distinguish five conceptual concerns from seven structural areas. Use Documentation for primary Metadata allocation and Governance for Baselines; Preservation cross-cutting, not a new structural Layer/component. Reference Architecture responsibility and qualify pending six/seven source discrepancy.",
+      "closure_criterion": "All chapter 7 allocations distinguish conceptual concerns and structural primary allocation; Baselines Governance; no invented Knowledge/Preservation structural areas.",
+      "related_records": "REV2-01; INV-04; FND004-02 (earlier local closure retained)",
+      "state": "Open"
+    },
+    {
+      "id": "FND006-W01",
+      "severity": "Medium",
+      "sections": "1.11, 2.14, 5.9, 5.15, 7.2, 7.8, 8.14, 10.14",
+      "before": "Final architecture, implemented Baselines, graph immediately identifies impacts, components functioned correctly and architecture now sufficiently mature without supplied verification evidence.",
+      "proposal": "Preserve received historical assessments as such; distinguish intended capability, architectural rationale and implementation/validation evidence. Qualify immediate/completeness claims and do not invent dates, measures, approval or operation results.",
+      "closure_criterion": "No unqualified present operational maturity or immediate impact-analysis guarantee; received assessments traceable with explicit current evidence limits.",
+      "related_records": "FND004-W01 (earlier local closure retained)",
+      "state": "Open"
+    },
+    {
+      "id": "FND006-W02",
+      "severity": "Low",
+      "sections": "1.11, 10.5, 10.16",
+      "before": "Related documents referenced only by title; current-versus-history owner map absent.",
+      "proposal": "Add a concise actual-path map for Blueprint, Manifest, Framework Evolution, Research Journal, Evolution Timeline and affected owners/policy/report. Identify rationale versus chronology/specification roles; links do not create mandatory execution dependencies.",
+      "closure_criterion": "Links resolve to intended IDs; historical/current roles distinct; no unrelated owner source is silently updated or external specification invented.",
+      "related_records": "FND004-W02; FND001-W01 (earlier local closures retained)",
+      "state": "Open"
+    }
+  ],
+  "result": "REVIEW complete with seven findings and two warnings; source unchanged; UPDATE/VALIDATE not performed",
+  "totals": {
+    "Open": 28,
+    "Closed—verified": 18,
+    "Not applicable—scope decision": 1
+  }
+}
