@@ -1,0 +1,702 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "edition": "1.0/2",
+  "date": "2026-09-30",
+  "self_hash": "excluded; recorded in external receipt",
+  "known_collision": "nominal CLS-003 still declares CLS-001; unresolved",
+  "files": [
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "ba259eb305048893eabbd720271a9f5e8d14ceb6f138b441827089665128883b",
+      "bytes": 6198,
+      "normalization_scope": true,
+      "input_sha256": "ba259eb305048893eabbd720271a9f5e8d14ceb6f138b441827089665128883b"
+    },
+    {
+      "path": "00-Foundation/DF-FND-002-ResearchJournal.md",
+      "sha256": "53fad4f5847ead6e54fc2a4e46947cf8b1b48a123d548fa96d8347cdbc891831",
+      "bytes": 88083,
+      "normalization_scope": true,
+      "input_sha256": "53fad4f5847ead6e54fc2a4e46947cf8b1b48a123d548fa96d8347cdbc891831"
+    },
+    {
+      "path": "00-Foundation/DF-FND-003-EvolutionTimeline.md",
+      "sha256": "69b6c3cc258d5e1f4a1682787193698b9ae111b0ccdfc179f86f1821d44bc211",
+      "bytes": 98872,
+      "normalization_scope": true,
+      "input_sha256": "69b6c3cc258d5e1f4a1682787193698b9ae111b0ccdfc179f86f1821d44bc211"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "74a254092deebeb00151d6044b5e023b6cdcc2444de6e3c5082897d42ad35446",
+      "bytes": 77493,
+      "normalization_scope": true,
+      "input_sha256": "74a254092deebeb00151d6044b5e023b6cdcc2444de6e3c5082897d42ad35446"
+    },
+    {
+      "path": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
+      "sha256": "0159036f4593633260414dcf0a98870895f9db177cada8cf4555c82f03fd8874",
+      "bytes": 31892,
+      "normalization_scope": true,
+      "input_sha256": "0159036f4593633260414dcf0a98870895f9db177cada8cf4555c82f03fd8874"
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "sha256": "6e911db07e6eba28222fb1f020b472c940543ed0ce873ca6c3945eaa69bbb66d",
+      "bytes": 61508,
+      "normalization_scope": true,
+      "input_sha256": "6e911db07e6eba28222fb1f020b472c940543ed0ce873ca6c3945eaa69bbb66d"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "sha256": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d",
+      "bytes": 9570,
+      "normalization_scope": true,
+      "input_sha256": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "sha256": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53",
+      "bytes": 9620,
+      "normalization_scope": true,
+      "input_sha256": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "sha256": "cc0f76249a5b21025ae502169b9026f36b87370053119a36e921554ffe16fa4d",
+      "bytes": 11202,
+      "normalization_scope": true,
+      "input_sha256": "cc0f76249a5b21025ae502169b9026f36b87370053119a36e921554ffe16fa4d"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab",
+      "bytes": 10140,
+      "normalization_scope": true,
+      "input_sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216",
+      "bytes": 11833,
+      "normalization_scope": true,
+      "input_sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "sha256": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb",
+      "bytes": 10155,
+      "normalization_scope": true,
+      "input_sha256": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "sha256": "e0840a725ed0214e37d78be25d664615c4c43fea4e535334dfe47e55d20d5481",
+      "bytes": 9469,
+      "normalization_scope": true,
+      "input_sha256": "e0840a725ed0214e37d78be25d664615c4c43fea4e535334dfe47e55d20d5481"
+    },
+    {
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md",
+      "sha256": "75b689426bec5e349f555ab41855732c1c689898a49563aa4bdf44ef7d4014e9",
+      "bytes": 29765,
+      "normalization_scope": true,
+      "input_sha256": "75b689426bec5e349f555ab41855732c1c689898a49563aa4bdf44ef7d4014e9"
+    },
+    {
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md",
+      "sha256": "33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3",
+      "bytes": 28822,
+      "normalization_scope": true,
+      "input_sha256": "33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3"
+    },
+    {
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md",
+      "sha256": "2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28",
+      "bytes": 29789,
+      "normalization_scope": true,
+      "input_sha256": "2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28"
+    },
+    {
+      "path": "02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md",
+      "sha256": "b83d95cae80262ce0cf72b42cd0f7a2b64f16ebab9c4bfcbca5fa65bf66f2215",
+      "bytes": 26087,
+      "normalization_scope": true,
+      "input_sha256": "b83d95cae80262ce0cf72b42cd0f7a2b64f16ebab9c4bfcbca5fa65bf66f2215"
+    },
+    {
+      "path": "02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md",
+      "sha256": "949674b939519664145cd57b4186ff5f1edfbbd5be268d015858bebcc0977b6f",
+      "bytes": 25874,
+      "normalization_scope": true,
+      "input_sha256": "949674b939519664145cd57b4186ff5f1edfbbd5be268d015858bebcc0977b6f"
+    },
+    {
+      "path": "02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md",
+      "sha256": "55f14b44a3977856568a1d5bf4d391987a5ce923fa2e464e8eb59bfa04e88d7b",
+      "bytes": 36039,
+      "normalization_scope": true,
+      "input_sha256": "55f14b44a3977856568a1d5bf4d391987a5ce923fa2e464e8eb59bfa04e88d7b"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md",
+      "sha256": "fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e",
+      "bytes": 33780,
+      "normalization_scope": true,
+      "input_sha256": "fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md",
+      "sha256": "9d2fe8a503c37d12143420e76205b44e4d031812516c3c30d151e3b3e8c288cb",
+      "bytes": 41209,
+      "normalization_scope": true,
+      "input_sha256": "9d2fe8a503c37d12143420e76205b44e4d031812516c3c30d151e3b3e8c288cb"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md",
+      "sha256": "5317d1a596490ad0bb7a976b0f9504324adcc10131b27e969b141bd392a84a26",
+      "bytes": 38919,
+      "normalization_scope": true,
+      "input_sha256": "5317d1a596490ad0bb7a976b0f9504324adcc10131b27e969b141bd392a84a26"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md",
+      "sha256": "3575675cef6d6f990161bc6d04365779b8c60094bc38bf809d767ef9fe6834e0",
+      "bytes": 38339,
+      "normalization_scope": true,
+      "input_sha256": "3575675cef6d6f990161bc6d04365779b8c60094bc38bf809d767ef9fe6834e0"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md",
+      "sha256": "e9634c8977c8c4dfddb5f1f04bb0c62c5df180794fea46471c14a8e524aa4a95",
+      "bytes": 40454,
+      "normalization_scope": true,
+      "input_sha256": "e9634c8977c8c4dfddb5f1f04bb0c62c5df180794fea46471c14a8e524aa4a95"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md",
+      "sha256": "4b7ae1b3ee972963d73534be64818b4b462079d708fbf2c37bfab3346248904c",
+      "bytes": 43087,
+      "normalization_scope": true,
+      "input_sha256": "4b7ae1b3ee972963d73534be64818b4b462079d708fbf2c37bfab3346248904c"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md",
+      "sha256": "a1ca8359af0f52b9723d418798ace0abc352233e76afd81597d181bf22f823f5",
+      "bytes": 35248,
+      "normalization_scope": true,
+      "input_sha256": "a1ca8359af0f52b9723d418798ace0abc352233e76afd81597d181bf22f823f5"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "sha256": "e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663",
+      "bytes": 33493,
+      "normalization_scope": true,
+      "input_sha256": "e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md",
+      "sha256": "204db601fc644f2fb799905beb8e03676ecf258a9a7dad7a4f509be0cf6e0603",
+      "bytes": 45979,
+      "normalization_scope": true,
+      "input_sha256": "204db601fc644f2fb799905beb8e03676ecf258a9a7dad7a4f509be0cf6e0603"
+    },
+    {
+      "path": "02-Documentation/Classification/README.md",
+      "sha256": "452c9910cdb26654cf475c21f6c4b3bf13f624d1c4b3bfd88538d818a1474c18",
+      "bytes": 13218,
+      "normalization_scope": false,
+      "input_sha256": "452c9910cdb26654cf475c21f6c4b3bf13f624d1c4b3bfd88538d818a1474c18"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md",
+      "sha256": "fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624",
+      "bytes": 7194,
+      "normalization_scope": true,
+      "input_sha256": "fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "sha256": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed",
+      "bytes": 7880,
+      "normalization_scope": true,
+      "input_sha256": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md",
+      "sha256": "79cd7dcc42cfd9f4c009787353a891f98253f0d01d73d8c9872e50cc614e180e",
+      "bytes": 9296,
+      "normalization_scope": true,
+      "input_sha256": "79cd7dcc42cfd9f4c009787353a891f98253f0d01d73d8c9872e50cc614e180e"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md",
+      "sha256": "d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f",
+      "bytes": 8837,
+      "normalization_scope": true,
+      "input_sha256": "d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "sha256": "b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc",
+      "bytes": 7345,
+      "normalization_scope": true,
+      "input_sha256": "b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md",
+      "sha256": "82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1",
+      "bytes": 10630,
+      "normalization_scope": true,
+      "input_sha256": "82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md",
+      "sha256": "9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d",
+      "bytes": 8649,
+      "normalization_scope": true,
+      "input_sha256": "9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md",
+      "sha256": "daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024",
+      "bytes": 9353,
+      "normalization_scope": true,
+      "input_sha256": "daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md",
+      "sha256": "4310e5f480844f017136329ba63befea90431ec8efd5cc53085f71ae164b7fe2",
+      "bytes": 8346,
+      "normalization_scope": true,
+      "input_sha256": "4310e5f480844f017136329ba63befea90431ec8efd5cc53085f71ae164b7fe2"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md",
+      "sha256": "02e2ae1cb164756db35f243e2e76f880a39523eae73f3b12661f4837030c7497",
+      "bytes": 8862,
+      "normalization_scope": true,
+      "input_sha256": "02e2ae1cb164756db35f243e2e76f880a39523eae73f3b12661f4837030c7497"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md",
+      "sha256": "3c3112e3f5dbb37dd93b31f8c3af33037a48fd2db9d53ac0fd4a1fb6cfea69d3",
+      "bytes": 8823,
+      "normalization_scope": true,
+      "input_sha256": "3c3112e3f5dbb37dd93b31f8c3af33037a48fd2db9d53ac0fd4a1fb6cfea69d3"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md",
+      "sha256": "692230e6c874ddd97e8215334534b61c12b487e7e2a9ea85b9ac506513cd8c8e",
+      "bytes": 9231,
+      "normalization_scope": true,
+      "input_sha256": "692230e6c874ddd97e8215334534b61c12b487e7e2a9ea85b9ac506513cd8c8e"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-013 - Document Identity Dictionary.md",
+      "sha256": "030354bc9d3c57fbe84bd576ecbd6e4e3e2f1b0c5bbea2e9a0ef8b5ecee30c61",
+      "bytes": 9729,
+      "normalization_scope": true,
+      "input_sha256": "030354bc9d3c57fbe84bd576ecbd6e4e3e2f1b0c5bbea2e9a0ef8b5ecee30c61"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "sha256": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668",
+      "bytes": 11345,
+      "normalization_scope": true,
+      "input_sha256": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md",
+      "sha256": "30d79dc17cbda645f4c2ab5541b7fcab8aef068e995e85321239329b1e6511c0",
+      "bytes": 14416,
+      "normalization_scope": true,
+      "input_sha256": "30d79dc17cbda645f4c2ab5541b7fcab8aef068e995e85321239329b1e6511c0"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/README.md",
+      "sha256": "2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7",
+      "bytes": 11730,
+      "normalization_scope": false,
+      "input_sha256": "2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7"
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md",
+      "sha256": "7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747",
+      "bytes": 11069,
+      "normalization_scope": true,
+      "input_sha256": "7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747"
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md",
+      "sha256": "1abf7b1d0c2b80b14bff6d49c902f9ba8f951889daf833522e33e2e08fe5e19c",
+      "bytes": 10401,
+      "normalization_scope": true,
+      "input_sha256": "1abf7b1d0c2b80b14bff6d49c902f9ba8f951889daf833522e33e2e08fe5e19c"
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "sha256": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746",
+      "bytes": 9576,
+      "normalization_scope": true,
+      "input_sha256": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746"
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md",
+      "sha256": "60dc7aa35153410b7bfacb774163d62959c3c830b6fa15948a82f913c0657568",
+      "bytes": 9264,
+      "normalization_scope": true,
+      "input_sha256": "60dc7aa35153410b7bfacb774163d62959c3c830b6fa15948a82f913c0657568"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md",
+      "sha256": "1ed13b4f94564703e5b5af1268941e21a329cfc62b9c67e3f69cc63b8c2fa302",
+      "bytes": 9266,
+      "normalization_scope": true,
+      "input_sha256": "1ed13b4f94564703e5b5af1268941e21a329cfc62b9c67e3f69cc63b8c2fa302"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md",
+      "sha256": "ed847e8f5e9026159ac119432c9b77cbaf6f790cd771296b99809a96759a74dc",
+      "bytes": 10119,
+      "normalization_scope": true,
+      "input_sha256": "ed847e8f5e9026159ac119432c9b77cbaf6f790cd771296b99809a96759a74dc"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md",
+      "sha256": "466cc09d475f690779ea0f929dcafea150e643f9d2a622e47d87f519426142fa",
+      "bytes": 8644,
+      "normalization_scope": true,
+      "input_sha256": "466cc09d475f690779ea0f929dcafea150e643f9d2a622e47d87f519426142fa"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206",
+      "bytes": 8323,
+      "normalization_scope": true,
+      "input_sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206"
+    },
+    {
+      "path": "02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md",
+      "sha256": "ddb15d2cbffe7ec2d4c0f9903226f65f98d3a63f82afa3864433173e5cc86acc",
+      "bytes": 8783,
+      "normalization_scope": true,
+      "input_sha256": "ddb15d2cbffe7ec2d4c0f9903226f65f98d3a63f82afa3864433173e5cc86acc"
+    },
+    {
+      "path": "02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md",
+      "sha256": "163c13b58acba33353e66d472649759ced513f6742d9231d3e60d7562ec632aa",
+      "bytes": 8937,
+      "normalization_scope": true,
+      "input_sha256": "163c13b58acba33353e66d472649759ced513f6742d9231d3e60d7562ec632aa"
+    },
+    {
+      "path": "02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md",
+      "sha256": "69112d8cce7fb5bb511c9d548bf64ab0e2a97c3b9bfd667d5225ccf626569c8d",
+      "bytes": 9110,
+      "normalization_scope": true,
+      "input_sha256": "69112d8cce7fb5bb511c9d548bf64ab0e2a97c3b9bfd667d5225ccf626569c8d"
+    },
+    {
+      "path": "02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md",
+      "sha256": "044fc204c8b877e705902d3a7fbfe7c2bd5b40fa18aa32ea6602f38131e7ab26",
+      "bytes": 8220,
+      "normalization_scope": true,
+      "input_sha256": "044fc204c8b877e705902d3a7fbfe7c2bd5b40fa18aa32ea6602f38131e7ab26"
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md",
+      "sha256": "324fd72a22bf6417d1f0a05f43ff1d01f7666c6f61916acf96c7730159935f61",
+      "bytes": 9564,
+      "normalization_scope": true,
+      "input_sha256": "324fd72a22bf6417d1f0a05f43ff1d01f7666c6f61916acf96c7730159935f61"
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "sha256": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e",
+      "bytes": 11003,
+      "normalization_scope": true,
+      "input_sha256": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e"
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md",
+      "sha256": "9de2984688ff67469ee6b0761aa445d0cc23b7075738e11277ece2462f24a7c8",
+      "bytes": 11998,
+      "normalization_scope": true,
+      "input_sha256": "9de2984688ff67469ee6b0761aa445d0cc23b7075738e11277ece2462f24a7c8"
+    },
+    {
+      "path": "02-Documentation/Metadata/README.md",
+      "sha256": "0a2091d1de0b64e1f470dd30479b6c50202748311a4ac2a6d472d40258b93d72",
+      "bytes": 8085,
+      "normalization_scope": false,
+      "input_sha256": "0a2091d1de0b64e1f470dd30479b6c50202748311a4ac2a6d472d40258b93d72"
+    },
+    {
+      "path": "02-Documentation/Templates/01-Architecture/DF-TPL-001-TemplatesArchitecture.md",
+      "sha256": "d7408ff1c43e04d57c4a794b06594f7e68dd759b445c45637adb3c4f7d7cc756",
+      "bytes": 21377,
+      "normalization_scope": true,
+      "input_sha256": "d7408ff1c43e04d57c4a794b06594f7e68dd759b445c45637adb3c4f7d7cc756"
+    },
+    {
+      "path": "02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md",
+      "sha256": "00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04",
+      "bytes": 20366,
+      "normalization_scope": true,
+      "input_sha256": "00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04"
+    },
+    {
+      "path": "02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md",
+      "sha256": "80a57e07e0494b19c849a10f8421108ed935698da2bf11373da4d02addb11087",
+      "bytes": 30478,
+      "normalization_scope": true,
+      "input_sha256": "80a57e07e0494b19c849a10f8421108ed935698da2bf11373da4d02addb11087"
+    },
+    {
+      "path": "02-Documentation/Templates/02-Structure/DF-TPL-004-TemplateElements.md",
+      "sha256": "79d6ed961b26ec03c7076a4cb6306f5beb6a56c89af7b4981c214482f00495e5",
+      "bytes": 21006,
+      "normalization_scope": true,
+      "input_sha256": "79d6ed961b26ec03c7076a4cb6306f5beb6a56c89af7b4981c214482f00495e5"
+    },
+    {
+      "path": "02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md",
+      "sha256": "bb711768b70f6724e6bc00e8e63eaf9310830f98115a91715a231ea6e770598a",
+      "bytes": 26079,
+      "normalization_scope": true,
+      "input_sha256": "bb711768b70f6724e6bc00e8e63eaf9310830f98115a91715a231ea6e770598a"
+    },
+    {
+      "path": "02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md",
+      "sha256": "b10b6174f5240b4f46157ba8bd9882035179ba862215ab6fdbbcee584669f1cf",
+      "bytes": 25669,
+      "normalization_scope": true,
+      "input_sha256": "b10b6174f5240b4f46157ba8bd9882035179ba862215ab6fdbbcee584669f1cf"
+    },
+    {
+      "path": "02-Documentation/Templates/03-Behavior/DF-TPL-006-TemplatesLifecycle.md",
+      "sha256": "581c43203ca39b6c9438fa4b8ad0f9b1de5e7ae4683b7af8cc0e538824fe610b",
+      "bytes": 19324,
+      "normalization_scope": true,
+      "input_sha256": "581c43203ca39b6c9438fa4b8ad0f9b1de5e7ae4683b7af8cc0e538824fe610b"
+    },
+    {
+      "path": "02-Documentation/Templates/03-Behavior/DF-TPL-007-TemplatesValidation.md",
+      "sha256": "e2e38a950e4cc7de513190bb63a8ea6f9a95db2073ee8e0fa59b11851767afa6",
+      "bytes": 21732,
+      "normalization_scope": true,
+      "input_sha256": "e2e38a950e4cc7de513190bb63a8ea6f9a95db2073ee8e0fa59b11851767afa6"
+    },
+    {
+      "path": "02-Documentation/Templates/03-Behavior/DF-TPL-008-TemplatesGovernance.md",
+      "sha256": "d6b69ae73b5ba54e94c465ee485bca91b6874bcc0151773bed5635f1826a3f9b",
+      "bytes": 21043,
+      "normalization_scope": true,
+      "input_sha256": "d6b69ae73b5ba54e94c465ee485bca91b6874bcc0151773bed5635f1826a3f9b"
+    },
+    {
+      "path": "02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md",
+      "sha256": "965a1eb1756a1a8e685af9f978558dd055f28b8ebb4e4080f2737ead42d30e12",
+      "bytes": 23395,
+      "normalization_scope": true,
+      "input_sha256": "965a1eb1756a1a8e685af9f978558dd055f28b8ebb4e4080f2737ead42d30e12"
+    },
+    {
+      "path": "02-Documentation/Templates/03-Behavior/DF-TPL-011-TemplatesExtensibility.md",
+      "sha256": "15607054122758cd163757836cf551779877aa90c7565d20f47220a406279b78",
+      "bytes": 19334,
+      "normalization_scope": true,
+      "input_sha256": "15607054122758cd163757836cf551779877aa90c7565d20f47220a406279b78"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-012-TemplatesBestPractices.md",
+      "sha256": "de45215261de1e4f6feffc727bbf0f38be2582f5cde2cb892a936112db65ce51",
+      "bytes": 17357,
+      "normalization_scope": true,
+      "input_sha256": "de45215261de1e4f6feffc727bbf0f38be2582f5cde2cb892a936112db65ce51"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-013-TemplatesDictionary.md",
+      "sha256": "4f039c17f2818bcfab51009cae38d31053e0e779ebc353d9722307e8b0d2901d",
+      "bytes": 28945,
+      "normalization_scope": true,
+      "input_sha256": "4f039c17f2818bcfab51009cae38d31053e0e779ebc353d9722307e8b0d2901d"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "sha256": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464",
+      "bytes": 24824,
+      "normalization_scope": true,
+      "input_sha256": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md",
+      "sha256": "c2713cf5f89d62527299f81e2bb32a6871b5a59c00016604e823551d0735255b",
+      "bytes": 24547,
+      "normalization_scope": true,
+      "input_sha256": "c2713cf5f89d62527299f81e2bb32a6871b5a59c00016604e823551d0735255b"
+    },
+    {
+      "path": "02-Documentation/Templates/README.md",
+      "sha256": "cf4866ed4e449d8542ecd5f11d19c21ffdd91b6a3d4f807dce55da59cd7b693a",
+      "bytes": 9451,
+      "normalization_scope": false,
+      "input_sha256": "cf4866ed4e449d8542ecd5f11d19c21ffdd91b6a3d4f807dce55da59cd7b693a"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "bytes": 20701,
+      "normalization_scope": true,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "sha256": "b57d4e0c45b04bfd1b462a3f3ab3bb7e8f1eb8bacd2f33dced52735ed6b88ccd",
+      "bytes": 20678,
+      "normalization_scope": true,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-allocation-map.json",
+      "sha256": "4f8a73fc20e937d2aa7ac99c7646edd07ae14297d5c52c12c0dcabb392afe86e",
+      "bytes": 29009,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-classificacao.csv",
+      "sha256": "2f8f1b6f5152d47119bde0774e61245b825dfdafa844ebaa140da01554272c92",
+      "bytes": 37343,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-evidence-step-2.json",
+      "sha256": "b389d51edaeb0fe2191d47ece413b7ef1db07f1eae0640ba14b85542cbbb96ed",
+      "bytes": 80161,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-export-provenance.json",
+      "sha256": "4014e21c3eb3f354cbe5e3ad2c9cde2563c17f477276621f9829e97de600e839",
+      "bytes": 599,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-input-manifest.json",
+      "sha256": "62fd88024d3e8a14a604b4465751c16ed61e275b3391f5b56ed162dc6597d5ae",
+      "bytes": 90981,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv",
+      "sha256": "44c3fd855f8c40e5d9e7ad5af474c4dccce0da2e6ca9d7563af4e2c315b864de",
+      "bytes": 50913,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-step-3.diff",
+      "sha256": "122cdf12309674cf24ffc143bb126839558db38fac85c095a6e6dc491673e7be",
+      "bytes": 58777,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-translation-R1-R2.diff",
+      "sha256": "e6f7c19f3e48a598f6c72a43a722a819f980d450f15a0173e8ffa74745b6baf6",
+      "bytes": 38111,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-translation-validation.json",
+      "sha256": "a361583fb634b1fdc7293d3fc17de637e478ec9fb3199de6bb5513bea98d04d4",
+      "bytes": 1149,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation.json",
+      "sha256": "b4f2b4e01f807ac7184fd7d4a021a73ab300337d0fbc1368aa2278b6203f65a1",
+      "bytes": 915,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "ArchitecturalMilestones.md",
+      "sha256": "b9c30c1ae1787e70eb6b29f131594121d4aaa408d7fea6182be59e611a78932a",
+      "bytes": 38861,
+      "normalization_scope": false,
+      "input_sha256": "9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "5ba071e9f71f16050f5175bdd6ad6783ca46b22cb673e6cf68fcd21f2074fc29",
+      "bytes": 44666,
+      "normalization_scope": false,
+      "input_sha256": "ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b"
+    },
+    {
+      "path": "README.md",
+      "sha256": "27166775bbaf3124dd17dce3c0369263f674f96146b2c15b24e0616aef719a00",
+      "bytes": 9549,
+      "normalization_scope": false,
+      "input_sha256": "27166775bbaf3124dd17dce3c0369263f674f96146b2c15b24e0616aef719a00"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md",
+      "sha256": "aa99f796a1443196f851fcbe7e89eab21f039e6e052fc4c7f9ec48498845e3b2",
+      "bytes": 16437,
+      "normalization_scope": true,
+      "input_sha256": "aa99f796a1443196f851fcbe7e89eab21f039e6e052fc4c7f9ec48498845e3b2"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md",
+      "sha256": "6ef6e9e51cf1c097eccb0b1ebe87c2b0ed34386b2eaaaccd52f3c60830b1e301",
+      "bytes": 11407,
+      "normalization_scope": true,
+      "input_sha256": "6ef6e9e51cf1c097eccb0b1ebe87c2b0ed34386b2eaaaccd52f3c60830b1e301"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md",
+      "sha256": "43b692c6521c6d0d87d7ea37f7030c2f2c768f113165d069b5d72f47901402ed",
+      "bytes": 7802,
+      "normalization_scope": true,
+      "input_sha256": "43b692c6521c6d0d87d7ea37f7030c2f2c768f113165d069b5d72f47901402ed"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md",
+      "sha256": "c2f539f513ca4b0943fe56771cd98d982ffd8dffdc93fe94d6f7817dfcf833bf",
+      "bytes": 17323,
+      "normalization_scope": true,
+      "input_sha256": "c2f539f513ca4b0943fe56771cd98d982ffd8dffdc93fe94d6f7817dfcf833bf"
+    },
+    {
+      "path": "Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "sha256": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224",
+      "bytes": 9151,
+      "normalization_scope": true,
+      "input_sha256": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224"
+    },
+    {
+      "path": "Roadmaps/DF-RDM-002-ArchitecturalImplementationStrategy.md",
+      "sha256": "6af9f06e3ef4a5980f6c25aed2d57dec0046c7a48c7bbf4c0977a214d984ca23",
+      "bytes": 20656,
+      "normalization_scope": true,
+      "input_sha256": "6af9f06e3ef4a5980f6c25aed2d57dec0046c7a48c7bbf4c0977a214d984ca23"
+    },
+    {
+      "path": "Roadmaps/README.md",
+      "sha256": "7cc32597d6cf48ab840cd02ba0a11184a82904cd244057c214c628bb66a2d3dc",
+      "bytes": 5466,
+      "normalization_scope": false,
+      "input_sha256": "7cc32597d6cf48ab840cd02ba0a11184a82904cd244057c214c628bb66a2d3dc"
+    }
+  ]
+}

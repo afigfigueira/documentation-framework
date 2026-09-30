@@ -1,0 +1,26 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "edition": "1.0/1",
+  "scope": "Step 3 only; not integrated conformity or approval",
+  "checks": {
+    "79_original_normalized_sources_unchanged": true,
+    "6_readme_unchanged": true,
+    "197_historical_changelog_rows_preserved": true,
+    "historical_milestone_tail_preserved": true,
+    "new_metadata_identity_and_classification": true,
+    "89_matrix_and_allocation_positions": true,
+    "81_proposed_normalized_types_uniform": true,
+    "all_matrix_and_allocation_paths_exist": true,
+    "new_policy_link_resolves": true,
+    "original_step_numbers_preserved": true,
+    "89_markdown_81_normalized_8_functional": true,
+    "changelog_unique_reverse_sequence_1_204": true,
+    "new_event_dates_real": true,
+    "new_milestone_states_and_records": true
+  },
+  "findings": {
+    "Open": 19,
+    "Not applicable — scope decision": 1,
+    "Closed — verified": 0
+  }
+}

@@ -1,0 +1,526 @@
+--- /dev/null
++++ working/Context/03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md
+@@ -0,0 +1,185 @@
++# Documentation Framework
++
++# DF-RVW-001 — Review Policy
++
++| Metadata | Value |
++|---|---|
++| **Document ID** | DF-RVW-001 |
++| **Title** | Review Policy |
++| **Family** | Reviews |
++| **Type** | Behavior |
++| **Component** | Reviews |
++| **Author** | Codex — AI assistant |
++| **Status** | Draft |
++| **Version** | 1.0 |
++| **Revision** | 1 |
++| **Baseline** | Not assigned |
++| **Language** | English |
++
++## 1. Purpose, authority and scope
++
++This document defines the working contracts for the review initiated on 2026-09-30 from the supplied Context.zip. Its authority for conducting this review derives from the user's explicit instructions in Load-Review-Context.md, edition 4, and the subsequent CONTINUAR command for Step 3. It does not evidence publication, framework-wide release approval, or operational implementation of Reviews.
++
++Reviews is an existing architectural component: DF-ARC-005 §6.3 assigns technical reviews, architectural reviews and consistency verification to it. This policy and DF-RVW-002 belong to that component; their location does not create a new Layer or component. Review artifacts are maintained under the existing 03-Governance/Reviews area, with Behavior and Reference documentation categories.
++
++The rules below govern working editions and this review's tracking. They are the responsible process source for these review conventions. Identity semantics remain owned by Document Identity; classification semantics by Classification; descriptive schemas/profiles by Metadata; framework architecture by Architecture. Those sources must incorporate the applicable decisions through their scheduled REVIEW/UPDATE/VALIDATE cycles. Their remaining discrepancies are recorded in DF-RVW-002, rather than reported as integrated consistency.
++
++Where received documents conflict with the user's adopted rules, the adopted rules govern the working review. The received rule remains preserved as input/historical evidence and is pending reconciliation; it is not a second governing rule for the same working operation. No completed rollout across existing sources is claimed by creating this policy.
++
++## 2. Normalized documents and functional files
++
++Every file named README.md, CHANGELOG.md or ArchitecturalMilestones.md in this corpus is a non-normalized functional file. It retains its name and does not require Document ID, Family, Type, Component, Version, Revision, Status or Baseline by virtue of document normalization. Do not infer a finding from absence of those fields. Do not automatically delete legitimate existing information.
++
++These files remain in inventories, SHA-256 manifests, content reviews and applicable structural, terminology, reference and consistency checks. CHANGELOG.md and ArchitecturalMilestones.md retain their own entry/milestone IDs, states, dates and historical conventions. Their maintenance is not conditional on normalized document metadata.
++
++The input corpus comprises 79 documents within normalization scope and 8 non-normalized files. Two normalized review documents are introduced by Step 3. Machine-readable exports attached to DF-RVW-002 are representations of its inventories and matrices, not independent normalized documents or new authorities. Each export identifies its parent document and edition in its manifest or accompanying report.
++
++## 3. Classification contract
++
++### 3.1. Uniform Type
++
++Type identifies the primary responsibility of every normalized document and uses exactly one value from {Architecture, Structure, Behavior, Reference}. There are no special Type values for Foundation, Architecture, global roadmaps or review artifacts.
++
++| Type | Primary responsibility |
++|---|---|
++| Architecture | Foundations, principles, concepts, conceptual models/elements and architectural decisions. |
++| Structure | Organization, composition, schemas, structural relationships, restrictions and element catalogs. |
++| Behavior | Processes, lifecycle, validation, governance, extensibility and planned evolution. |
++| Reference | Consultation, terminology, consolidated specifications, examples, recommendations and historical records. |
++
++Use the spelling Behavior. Base, Core, Schema, Dictionary and Lifecycle are not additional Type values. A historical evolution account is Reference; a process or evolution plan is Behavior. Assess content and primary responsibility rather than filename or directory alone. Normative or informative authority is established by explicit statements/references, never by Type=Reference alone. Validation is not approval.
++
++### 3.2. Family and Component
++
++| Document category | Family | Component |
++|---|---|---|
++| Belongs to a component | Canonical component name | Same canonical name, when the field is used. |
++| Foundation without a component | Foundation | Absent/not applicable. |
++| Architecture without a component | Architecture | Absent/not applicable. |
++| Global roadmap or global implementation strategy | Roadmap | Absent/not applicable. |
++| This review's policy/report | Reviews | Reviews. |
++
++Roadmap is an explicitly scoped documentary planning area for global, non-component plans. It reuses the received Family value in DF-RDM-001/002, not an invented component or Layer. These two documents use Type=Behavior. The existing Component=Documentation Framework in DF-RDM-002 must be assessed and removed from its working header in the scheduled UPDATE: the framework is the container, not a component of itself.
++
++Component roadmaps belong to the component they plan and therefore use Family=component, Type=Behavior and matching Component, regardless of central storage under Roadmaps. Current component names are Metadata, Document Identity, Classification and Templates. DocumentIdentity is a directory alias, not a competing canonical component name.
++
++Do not remove Component indiscriminately. The global roadmap decision is localized and does not remove it from component documents. Family/Type changes do not determine document identity or structural Layer allocation.
++
++### 3.3. Class
++
++Class remains a separate, optional semantic dimension. This policy does not create a complete Class vocabulary or make it mandatory. Retain received values as evidence, then assess each use in its document cycle. A value that merely repeats Type or misstates authority must be reconciled with evidence. New review artifacts omit Class because no additional distinction is needed. Optional does not mean unrestricted: any value used must have an explicit, non-conflicting definition.
++
++## 4. Identity convention for this corpus and review artifacts
++
++### 4.1. Representation and uniqueness
++
++The identity domain is Documentation Framework. Its representation prefix is DF. A working normalized document identifier follows DF-SSS-NNN, where SSS is a registered three-letter uppercase allocation-series code and NNN is a three-digit positive allocation number, 001–999. The full identifier is unique within the domain. Numbers are allocated within a series; equal numeric suffixes across different series are not collisions.
++
++Series codes are stable allocation namespaces, not the document's current Family, Type, component, location, version or revision. Preserve existing valid identifiers when those characteristics change. A series' original purpose is recorded for traceability, but it does not recalculate an existing document ID after reassignment/reclassification.
++
++| Series | Received origin/purpose | Step 3 action |
++|---|---|---|
++| FND | Foundation documents | Preserve existing allocations. |
++| ARC | Framework Architecture documents | Preserve existing allocations. |
++| MTD | Metadata documents | Preserve existing allocations. |
++| DID | Document Identity documents | Preserve existing allocations. |
++| CLS | Classification documents | Preserve unambiguous allocations; resolve the nominal CLS-003 collision. |
++| TPL | Templates documents | Preserve existing allocations. |
++| RDM | Planning documents | Preserve allocations even when Family becomes a component name. |
++| RVW | Review policy and consolidated review report | Allocate 001 to this policy and 002 to DF-RVW-002 after collision checks. |
++
++This is a corpus convention, not a format imposed on identities in other domains or an identifier-generation implementation. Scheduled reconciliation of DF-DID-005/010/014 owns its integration into the identity contract. Foundation and Classification must qualify the earlier Family/Type-based convention accordingly.
++
++### 4.2. Allocation, reservations and retirement
++
++New allocation requires an explicit series record and collision scan of headers, filenames, references, historical/reserved records and this review's allocation register. Do not reuse allocated/retired numbers. A gap does not prove availability; when allocation history is unavailable, record that limitation and use a documented allocation decision rather than infer a historical reservation. Missing IDs are not assigned to the eight functional files excluded in §2.
++
++000 is not allocated under this working convention; it is not implicitly a README code. RVW-001/002 are the only new allocations at Step 3; no future numbers are reserved. At 999, do not widen the syntax or silently recycle: register another unused three-letter series with traceable continuation and preserve all old IDs. A new domain is a separate semantic decision, not a shortcut for renumbering this corpus.
++
++Maintain an allocation register in DF-RVW-002's exports, including series, number, identifier, path, allocation status and evidence. Retired IDs remain reserved. The source archive and the input manifest preserve received declarations, including invalid ones; preservation is evidence, not acceptance of a collision.
++
++### 4.3. Localized correction and historical syntax
++
++No general ID migration is required by the adopted classification change. The nominal DF-CLS-003-ClassificationModel.md wrongly declares DF-CLS-001 and repeats the Architecture prose. Its correction is pending a distinct document recovery/update and path-scoped map. It is not a global DF-CLS-001→DF-CLS-003 replacement or an alias that makes one identifier resolve to two documents.
++
++Operational references must resolve to the intended final identity/path after a coordinated correction. Historical examples such as META-DCL-001, or earlier roadmap forms containing RDM as an extra segment, must be explicitly qualified where historical or revised where they purport to prescribe the current working convention. Do not rewrite history as if the new convention had always existed.
++
++Metadata Element IDs, document IDs, finding IDs, CHANGELOG numbers and Milestone IDs are separate entities. Creating this policy does not assign Metadata Element IDs or create element lifecycle/publication records.
++
++## 5. Version, Revision, Status and Baseline
++
++### 5.1. Received evidence
++
++The 79 in-scope input documents declare Version 1.0 and Baseline 1.0; 73 declare Revision 0 and six Foundation documents do not declare Revision. Historical sources distinguish significant Version evolution from backward-compatible Revision changes: DF-FND-002 §6.6 and DF-FND-004 §§4.10/6.8. Neither establishes a complete numerical successor contract for this review. The following working rule formalizes that gap while preserving input evidence.
++
++### 5.2. Edition successors
++
++Version uses the observed major.minor numeric form. Revision is a monotonic integer per document across version changes during this review.
++
++| Change | Version action | Revision action |
++|---|---|---|
++| Compatible correction/clarification/reclassification preserving contractual meaning | Keep Version. | Increment declared Revision by one; use 1 when absent. |
++| Compatible additive contract capability | Increment minor by one. | Increment declared Revision by one; use 1 when absent. |
++| Incompatible contract/convention change | Increment major by one and set minor to 0. | Increment declared Revision by one; use 1 when absent. |
++| Validation/reporting with no source content change | Keep Version. | Keep Revision; track the event centrally. |
++| New normalized review document | Initial Version 1.0. | Initial Revision 1; no invented Revision 0 history. |
++
++Explain compatibility per UPDATE. Changing a classification label does not automatically change Version; replacing what a classification/schema contract permits may be incompatible even if no IDs change. Assess changes to identity syntax/resolution separately from a filename correction. Do not reset an existing Revision counter on Version changes during this review. Future alternative numbering requires a traceable policy change, not an implied reset.
++
++Each completed persisted working edition with changed content receives its successor. Draft editing before an edition is finalized is preparation, not evidence of completed intermediate editions. If a validated/finalized edition needs a correction, create another successor and retain the failed validation event. No source revision is incremented merely to record this policy's adoption.
++
++### 5.3. Working lifecycle and Baseline
++
++Edited working documents start at Status=Draft, including successors of received Approved/Canonical documents. A subsequent explicit submission may use Review; formal approval/publication requires its own decision/evidence. Leave untouched source statuses unchanged. Canonical in a received header is preserved as historical evidence, not automatically granted to a successor or silently converted into Approved.
++
++A newly created or modified working edition has Baseline=Not assigned unless its exact inclusion is evidenced. Record original Status and Baseline in the edition history and input manifest. Do not change the original Baseline snapshot. Draft is a lifecycle state; Not assigned is an explicit absence marker in the human-readable working header, not a new Baseline identifier.
++
++This policy and DF-RVW-002 are Draft, Version 1.0, Revision 1, Baseline Not assigned. Passing their scoped checks does not approve/publish them or place them in a Baseline. The conventions for these working headers do not populate the canonical Metadata Dictionary or create a Metadata Profile lifecycle event by implication.
++
++## 6. REVIEW, UPDATE, VALIDATE and evidence
++
++Keep Step 1–7 and document substep numbers 4.01–4.87 stable. Step 3.1 identifies this policy; Step 3.2 identifies the consolidated report. The eight functional files keep their scheduled content/reference substeps but have no normalization requirement.
++
++REVIEW reports findings, sections, severity, proposed correction and closure evidence without modifying the reviewed source. UPDATE shows exact material before/after, compatibility assessment, full updated source, diff, edition history, central CHANGELOG entry and Milestone. Mark source corrections pending validation. VALIDATE compares the exact updated edition with its input and affected sources, checks related occurrences and records outcome/limits with SHA-256 evidence. A failure creates a traceable corrective step.
++
++Before any cross-document normative change or path/ID migration, identify the batch, rationale, affected documents and previous/new mapping. Do not claim integrated consistency during partial rollout. Resolve semantic references and actual dependencies separately; do not use a renamed relationship type to conceal a mandatory dependency cycle.
++
++Finding states used for this review are Open, Corrected—pending validation, Closed—verified and Not applicable—scope decision. These tracking states are not document Status, element lifecycle or Milestone Status. Closure requires evidence; scope exclusion requires the specific decision. INV-02 is Not applicable because the user excluded the eight functional files, not because IDs were assigned or validation passed.
++
++The input/final/validated manifests record paths, identity and edition where applicable, SHA-256 and scope. Evidence exports are attached to DF-RVW-002. A manifest's own hash belongs in its delivery receipt/enclosing package, not recursively inside its own contents. A document's hash is recorded outside the document itself. Validation logs do not force recursive revisions of themselves.
++
++## 7. Central CHANGELOG and Milestones
++
++Reuse CHANGELOG.md and ArchitecturalMilestones.md, retaining their historical content. They remain non-normalized. Keep the CHANGELOG's sequential #, reverse chronology, Author, Type, Document, Impact and Description columns. Add Reviewed and Validated event types to distinguish executed reviews/checks from document content updates; these event Types are not document Type values. Existing Created/Updated/etc. and impact values remain in force.
++
++Use Author=Codex — AI assistant for entries executed by this assistant. Do not attribute the edit to the user merely because the user authorized it. For each update, record source path/ID, old/new edition, material change, finding, validation state, report/diff link and Milestone in the Description. Append a later validation event rather than rewriting a pending-validation update into a historical success. Do not log future intentions as completed changes.
++
++Preserve M0–M7. Create M8–M14 for the review's verifiable results, with the existing Not Started/In Progress/Completed milestone states and O/S/C record states. A milestone's state derives from its own records for its declared work scope. Completion of a historical implementation milestone is not closure of a new review milestone.
++
++M8 establishes the received corpus, including explicit limitations. M9 establishes this review's policy, artifact identities, central tracking and scoped checks. M10 covers Foundation cycles; M11 Architecture cycles; M12 the four input Documentation components; M13 localized identity/path/reference reconciliation; M14 integrated validation and final delivery. M9 excludes propagation into all domain sources, which is assigned to M10–M13.
++
++No estimated completion date is invented. Completion dates are actual dates when criteria are satisfied. No new Blocked/Not applicable milestone state is introduced; describe blockers or non-applicable migration scope in the relevant milestone's evidence. A review Milestone=Completed means its documentary criteria were met, not approval, publication, release or Baseline membership.
++
++## 8. Downstream reconciliation and limits
++
++The policy becomes the operating convention for the review under the user's instructions. Framework source reconciliation remains pending in the stable plan: FND-004/FND-001/FND-006 for foundations and historical qualification; ARC-003/004/005/007/006 for concepts, allocation and documentation conventions; DID-005/010/014 for identity; CLS-002/003/004/005/007/013/014 for classification; MTD-003/004/005/013/014 for definitions, schemas and profiles; RDM-001/002 and component roadmaps for planning. Other affected consumers are included in their document cycles.
++
++This policy establishes process rules and the scoped use of current field names without declaring that their Metadata Element definitions/profile contracts already exist canonically. Dictionary/profile gaps, the CLS collision, DID schema differences, dependency ambiguity and other input findings remain Open. DF-RVW-002 provides evidence, mapping and progress; this policy does not replace any domain specification or perform its full validation.
++
++## 9. Sources
++
++- Load-Review-Context.md, edition 4: user-adopted rules, normalized-file exclusion, stepwise review, artifact and central tracking requirements. The instruction file remains a session input outside the Framework corpus.
++- DF-FND-002 §6.6: Version versus compatible Revision evolution.
++- DF-FND-004 §§4.5–4.11 and 6.3–6.8: working state, versioning and Baseline distinctions.
++- DF-FND-006 §6.8: document Revision versus collective Baseline.
++- DF-ARC-005 §6.3: existing Reviews component and responsibilities.
++- DF-ARC-007 §§5–10/14: documentation categories by responsibility; adoption here does not prove complete Reviews component specification.
++- DF-DID-005 §§3–9 and DF-DID-010 §§4–9: identity, domain, uniqueness and references; corpus representation contract pending source reconciliation.
++- DF-RDM-001 §§1–4 and DF-RDM-002 §§1–4: global planning area and evolution strategy.
++- Received CHANGELOG.md and ArchitecturalMilestones.md: historical formats, entry and milestone conventions, preserved in the input manifest.
++
++## 10. Edition history
++
++| Date | Version | Revision | Event | Scope and lifecycle |
++|---|---|---|---|---|
++| 2026-09-30 | 1.0 | 1 | Created at Step 3.1 | Initial working review policy; no previous edition; Draft; Baseline Not assigned. Scoped validation is logged centrally without changing this edition. |
+--- /dev/null
++++ working/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -0,0 +1,100 @@
++# DF-RVW-002 — Review Report
++
++| Metadata | Value |
++|---|---|
++| **Document ID** | DF-RVW-002 |
++| **Title** | Review Report |
++| **Family** | Reviews |
++| **Type** | Reference |
++| **Component** | Reviews |
++| **Author** | Codex — AI assistant |
++| **Status** | Draft |
++| **Version** | 1.0 |
++| **Revision** | 1 |
++| **Baseline** | Not assigned |
++| **Language** | Portuguese |
++
++## 1. Resultado e âmbito do Passo 3
++
++Política formalizada em [DF-RVW-001](../03-Behavior/DF-RVW-001-ReviewPolicy.md). Dois auxiliares integrados no componente Reviews já identificado em ARC-005 §6.3. Nenhum Layer acrescentado. Corpus de trabalho: 89 Markdown, 81 sujeitos a normalização e oito ficheiros funcionais. Os 79 documentos originais sujeitos a normalização conservam os bytes de entrada; não foram corrigidos nem aprovados neste passo. As fontes de domínio ainda têm regras divergentes, registadas abaixo. PASS deste passo refere-se apenas aos controlos explicitamente listados na §6.
++
++Entrada: Context.zip SHA-256 `c1bd902ff053fedd8d87459d622dd36fd3f4a10e4b23925596274706378562cc`. Instruções: edição 4, SHA-256 `d581565f1208fbc2d6d3faebb7b67d0590cced35471c92d55ff032996e6f506c`. Edições recebidas: Version 1.0/Baseline 1.0 em 79 documentos, Revision 0 em 73 e ausente em seis. Status de entrada preservados no manifesto. A revisão temática tocou 46 fontes com cobertura integral/parcial discriminada em `DF-RVW-002-evidence-step-2.json`; não substitui os ciclos completos. Não existe prova de aprovação/publicação dos novos auxiliares nem histórico externo de reservas RVW.
++
++## 2. Alterações concretas — antes/depois
++
++| Fonte/campo | Antes | Depois | Motivo/impacto |
++|---|---|---|---|
++| Política de revisão | Sem contrato numérico completo ou auxiliares identificados | DF-RVW-001 V1.0 R1 Draft, Baseline Not assigned | §§4–7: séries estáveis, sucessores de edição e tracking; integração nos donos de domínio pendente |
++| Type | Valores históricos divergentes, proposta anterior com exceções | Architecture, Structure, Behavior, Reference para todos os documentos normalizados | Regra do utilizador; sem Base/Core; cabeçalhos antigos ainda por atualizar |
++| Ficheiros funcionais | Ausência de campos tratada inicialmente como finding | Todas as ocorrências de README.md, CHANGELOG.md e ArchitecturalMilestones.md fora da normalização | INV-02 não aplicável; permanecem nas verificações de conteúdo/hashes/referências |
++| Roadmaps globais | Family Roadmap, Types específicos | Proposta Family Roadmap, Type Behavior, sem Component | RDM-001/002 ainda sem UPDATE; não inventar componente Framework |
++| Auxiliares | Relatórios preliminares fora do corpus | Reviews/Behavior para política; Reviews/Reference para relatório | Novos IDs RVW-001/002; Class omitida, dimensão opcional separada |
++| CHANGELOG Change Types | Termina em Superseded | Acrescenta Reviewed e Validated | Tipos de evento, distintos da enumeração documental |
++| CHANGELOG histórico | #1–197 | #1–197 preservados; novas #198–204 | #199/200 criados pendentes; resultados posteriores #203/204; INV-05 continua aberto |
++| Milestones | M0–M7 | Preserva M0–M7; acrescenta M8–M14 | M8/M9 Completed no âmbito documental declarado; M10–M14 Not Started |
++
++Excerto adicionado à política: “Type identifies the primary responsibility of every normalized document and uses exactly one value from {Architecture, Structure, Behavior, Reference}.”
++
++Excerto adicionado ao CHANGELOG: `Reviewed: A documented review has been executed; no source update implied.` A entrada #199 regista “initial review policy V1.0 R1 Draft, Baseline Not assigned” e “validation pending”; #203 regista o resultado posterior. O diff completo inclui as duas criações e os dois registos centrais, sem alterações aos documentos originais normalizados.
++
++## 3. Identidade e impacto
++
++Preservar 78 atribuições não colidentes. A ocorrência nominal CLS-003 continua a declarar CLS-001 e repete a prosa Architecture: recuperação distinta pendente, sem alias ou substituição global CLS-001→CLS-003. Os oito ficheiros funcionais não recebem ID. RVW-001 e RVW-002 são as únicas novas atribuições, após pesquisa em nomes, cabeçalhos, referências e históricos do corpus; histórico externo não disponível. Não se reservam outros números. DID-002–015 mantêm os caminhos recebidos com espaços até lote mapeado. `DF-RVW-002-allocation-map.json` regista as 89 posições e decisões antes de qualquer migração.
++
++Séries FND/ARC/MTD/DID/CLS/TPL/RDM/RVW são namespaces de atribuição estáveis, não a classificação corrente. Os formatos históricos META-DCL-001 e roadmaps com segmento adicional RDM serão qualificados nos ciclos correspondentes. Não foram atribuídos Metadata Element IDs.
++
++## 4. Findings e critérios de fecho
++
++Os seguintes registos conservam evidência e critérios dos Passos 1/2. Nas linhas REV2, todas as situações permanecem **Open**; a última coluna descreve o critério, não um resultado de validação. Total: 19 Open e INV-02 Not applicable—scope decision. Nenhum Closed—verified.
++
++| Finding | Evidência | Severidade | Ação/critério | Estado |
++|---|---|---|---|---|
++| INV-01 | Classification/01-Architecture/DF-CLS-003-ClassificationModel.md: cabeçalho Document ID=DF-CLS-001 e Title=Classification Architecture; mesmas declarações que CLS-001 | Alta | Comparar os dois conteúdos e referências; determinar se há conteúdo Model recuperável; resolver identidade e documento em falta; verificar unicidade | Aberto |
++| INV-02 | Seis README, CHANGELOG e ArchitecturalMilestones sem Document ID e edição declarada | Não aplicável | Ausência permitida: ficheiros não normalizados por regra explícita de 2026-09-30; sem atribuição de IDs/metadados | Não aplicável por alteração de âmbito |
++| INV-03 | DID-002 a DID-015 usam nomes com espaços; Milestones usa nomes concatenados | Média | Reconciliar nomes/caminhos e referências, distinguindo histórico de operacional; validação literal após correção | Aberto |
++| INV-04 | ARC-004 §4 afirma six architectural layers, mas enumera sete e §§5–11 descrevem sete | Média | Reconciliar modelo conceptual/estrutural; corrigir contagem e ocorrências relacionadas na revisão de ARC-004 | Aberto |
++| INV-05 | CHANGELOG #197: M7 — Document Identity Component; Milestones identifica M7 Templates e M5 Document Identity | Média | Verificar evento pretendido e corrigir o registo de forma identificável, preservando evidência anterior | Aberto |
++| INV-06 | Family Documentation em 15 documentos DID; Types específicos em Metadata e prefixados Component … Document em Templates | Média | Aplicar decisões Family/Type após fundamentação semântica por documento; não inferir apenas do diretório | Aberto |
++| INV-07 | Primeiro carácter de ARC-007 é U+0007 | Baixa | Remover carácter de controlo em UPDATE e verificar início do ficheiro | Aberto |
++| INV-08 | Referências a IDs não declarados: CLS-003, RDM-031, RDM-050/060/070/080/090/100 | Warning | Triar referências históricas, planeadas e operacionais; ausência no corpus não prova erro em todas as ocorrências | Aberto |
++
++| Finding | Severidade/âmbito | Evidência | Proposta | Critério de fecho (Open) |
++|---|---|---|---|---|
++| REV2-01 | Alta; Semântica/estrutura; origem Foundation + Architecture | FND-004 §§1.7, 8.2–8.7/8.16; ARC-004 §§4–15: Blueprint usa Knowledge/Preservation como vistas conceptuais; ARC-004 usa sete áreas estruturais; a distinção não está formalizada | Separar Layer conceptual, Layer estrutural e organização documental; manter alocação primária e participação transversal | ARC-003/004/005, FND-004 e resumos consumidores identificam a vista e não inventam componentes |
++| REV2-02 | Alta; Dependências; não afirmar DAG validado neste passo | ARC-003 §§4/8; ARC-004 §§12–13; ARC-005 §§10/12; MTD-001 §§4/8/9: Setas e sequências misturam fornecimento, consumo, abstração e dependência; MTD declara depender apenas de Foundation/Architecture enquanto usa informação com semântica de DID e Classification | Tipar relações, direção consumidor→fornecedor para dependência; distinguir contrato semântico, valores e execução; explicitar relações entre pares no mesmo Layer | Matriz tipada confrontada com fontes; nenhum ciclo de dependência obrigatória mascarado por reclassificação como relação |
++| REV2-03 | Alta; Classificação; autorização nas instruções §4 | FND-001 §§6/10; CLS-002 §§12–15; CLS-004 §§6–7; CLS-005 §§8–11/15; CLS-013 §§6.2–6.3: Family broad domain e Type histórico divergem do modelo componente + quatro Types adotado | Definir Family pertença ao componente ou área explicitamente admitida; enumeração única de Type em todos os documentos normalizados; conservar valores históricos como históricos | Sem definições actuais concorrentes em prosa, tabelas, diagrams, examples e validações |
++| REV2-04 | Alta; Convenção; migração geral não necessária na proposta | FND-004 §3.12; CLS-004 §7.4; CLS-005 §38; CLS-007 §§31–32; DID-010 §§5/9: Document ID é interpretado com Family/Type, mas a classificação é mutável e DID exige identidade estável | Preservar séries existentes como códigos de atribuição estáveis; retirar classificação corrente da construção/validação da identidade; qualificar META-DCL-001 como convenção histórica | Fonte DID explicita esquema; 78 ficheiros com identificação não colidente preservados; referências históricas qualificadas |
++| REV2-05 | Alta; Conteúdo/identidade; amplia INV-01 | Ficheiro nominal DF-CLS-003: cabeçalho e comparação com CLS-001; CLS-001 §37 e CLS-005 §6: O suposto Model declara Architecture; prosa fora dos diagramas é igual à de CLS-001 após normalização de whitespace | Conservar entrada e comparação; reconstrução explícita do Model a partir das fontes lidas e decisões, ou recuperação de edição genuína se fornecida; não só renomear cabeçalho | Um CLS-001 Architecture e um CLS-003 Model distintos, sem substituir globalmente referências a CLS-001 |
++| REV2-06 | Alta; Semântica interna de Metadata | MTD-003 §8/15; MTD-004 §11; MTD-005 §§3/5/7/18; MTD-013 §§5/9/12; MTD-014 §§6.3/7: Model/Elements dizem Schema defines elements; Dictionary reclama definição individual; responsabilidades podem ser confundidas | Dictionary define descritores/semântica; Schema organiza e referencia definições; Profile restringe uso; Instance contém valores por documento | Todos os documentos e diagramas distinguem definição de organização; cada descritor tem uma fonte responsável |
++| REV2-07 | Alta; Cobertura; não confundir aprovação desta revisão com lifecycle de elementos | MTD-013 §§7/13/15; MTD-005 §§11–12/14; MTD-014 §§6.3/14: Dictionary não contém catálogo canónico preenchido; MTD-001 no exemplo é explicitamente ilustrativo; Required no Dictionary pode competir com obrigação do Profile | Não promover exemplo a registo real; declarar catálogo por completar; obrigação/cardinalidade por Profile, com invariantes de descritor explicitados | Catálogo e Profiles rastreáveis; nenhum ID de Metadata Element ou lifecycle Published inventado |
++| REV2-08 | Média; Responsabilidade; conceito vs atividade | MTD-001 §7; MTD-002 §8; MTD-007 §§1–4; MTD-008 §§1–3; ARC-005 §§6/8: Metadata exclui validation/governance enquanto os documentos do componente definem essas matérias, sem separar contrato de execução | Componente define regras de domínio; governação e validação executam/evidenciam processos segundo contratos; componente permanece no Documentation Layer | Não deslocar Metadata para Governance/Automation só por haver Behavior; documentos indicam responsabilidade e âmbito |
++| REV2-09 | Alta; Responsabilidade de Document Identity | DID-001 §3 versus DID-014 §3 e README DocumentIdentity: Architecture exclui assign identifiers; Specification e README atribuem assigning ao componente | DID define regras e contrato de atribuição/preservação; execução por processo/implementação aplicável, sem algoritmo prescrito | Architecture, Specification, README e consumidores não transferem execução nem contradizem o contrato |
++| REV2-10 | Alta; Schema/contrato; reconciliação precisa no REVIEW de DID-004/005/006/014 | DID-003 §§4/6; DID-004 §§3–7; DID-005 §§3–5; DID-014 §§6–9: Schema lista Domain/Identifier/References; Specification exige Identity State/Canonical Reference; modelo cardinalidade 1:N versus schema 0..N para referências | Identidade permanente determinada por Domain+Identifier; estado pertence ao lifecycle, referências são associações externas; reconciliar status/state e canonical reference sem segunda identidade | Elementos, Model, Schema, Lifecycle e Specification concordam; manter 0..N referências permitidas, não obrigatórias |
++| REV2-11 | Média; Conformidade; solução concreta pendente do REVIEW de MTD-014 | MTD-014 §§6.8/9/11/15: Core exige todos requisitos obrigatórios incluindo governance/lifecycle; Extended repete tais capacidades como distinção | Definir um diferencial real de extensão sem relaxar Core; qualquer mudança de contrato explicitada no UPDATE | Critérios Core/Extended distintos e mensuráveis, sem exclusão silenciosa de requisito obrigatório |
++| REV2-12 | Média; Classificação/organização; sem aplicar mudanças de caminho neste passo | ARC-007 §§7–10/15; TPL-004 §1; TPL-010 §1; CLS-010 §§2–3; CLS/TPL Dictionaries §1: Título Elements/Constraints/Dictionary e diretório não determinam universalmente Type; ARC-007 aponta docs/06-Roadmaps ausente no corpus | Classificar por responsabilidade: Elements conceptual vs composição; Constraints Structure; Dictionary catálogo Structure ou consulta Reference; usar Roadmaps existente | Tabela por documento fundamentada; estrutura e links só alterados em lote rastreável; nenhum novo Type Schema/Dictionary |
++
++## 5. Plano estável e matrizes
++
++Passos 1–3 concluídos nos âmbitos declarados; 4: ciclos individuais; 5: lotes localizados; 6: validação integrada; 7: entrega final. Mantêm-se 4.01–4.87, inclusive a revisão dos oito ficheiros funcionais. Acrescentam-se 3.1 (política) e 3.2 (relatório); não se renumera o plano.
++
++A matriz anexa contém as 89 posições, edição de partida/atual e hashes, REVIEW/UPDATE/VALIDATE, findings, CHANGELOG e Milestone. A tabela de classificação mantém propostas por conteúdo e aplicação pendente nos 79 originais. As novas linhas dos auxiliares estão aplicadas. Dependências: Foundation antes de Architecture; donos de identidade/classificação antes dos consumidores; divergências Metadata resolvidas com os donos sem copiar exemplos como catálogo canónico.
++
++Próximo passo: **4.01 — REVIEW DF-FND-004 — Architectural Blueprint**, recebido Version 1.0, Revision ausente, Approved, Baseline 1.0. Apenas REVIEW; apresentar findings e proposta antes do UPDATE.
++
++## 6. Validação limitada e evidências
++
++Controlos executados no lote final: preservação SHA-256 dos 79 originais normalizados e dos seis README; preservação literal das 197 linhas históricas CHANGELOG e do bloco M0–M7; sequência única #1–204, datas novas reais; estados M8/M9 C/Completed e M10–M14 O/Not Started; cabeçalhos novos completos, Type pertencente aos quatro valores e Family/Component Reviews; IDs RVW distintos sem colisão recebida; 89 posições de matriz/mapa; propostas Type válidas para as 81 posições normalizadas; caminhos da matriz/mapa e ligação entre auxiliares resolvidos; manifesto atual com hashes externos aos documentos. Resultado: **PASS limitado ao lote do Passo 3**. Resultados máquina em `DF-RVW-002-validation.json`.
++
++Não se validou a conformidade integrada dos 79 cabeçalhos recebidos, unicidade global (CLS continua colidente), fecho dos 19 findings, semântica integral das fontes, referências antigas ou implementação operacional de Reviews. A manutenção dos registos não corrige INV-05 nem concede approval/Baseline. Nenhuma revisão de fonte incrementada por mero relatório.
++
++## 7. Exportações subordinadas e rastreabilidade
++
++Todos os ficheiros em `DF-RVW-002-assets/` pertencem a este relatório V1.0 R1: manifesto de entrada, cobertura temática, classificação, matriz de progresso, mapa de atribuição/impacto, manifesto atual, resultados de validação e diff completo. CSV/JSON/diff são representações de dados/evidência deste documento; não são novas fontes normativas ou uma série documental paralela. O manifesto atual identifica o parent e calcula hashes das fontes/exportações, excluindo a si próprio; o recibo externo regista o hash do manifesto e do pacote.
++
++Registos centrais: #198 extensão de eventos; #199 política criada pendente; #200 relatório criado pendente; #201 Milestones; #202 consolidação dos reviews anteriores; #203 validação limitada da política; #204 validação limitada dos restantes registos/evidências. Datas 2026-09-30; autor Codex — AI assistant. M8 estabelece entrada com limites; M9 regras/auxiliares/tracking, sem propagação; M10–M14 pendentes. Conteúdo integral dos registos e diff entregues no checkpoint Context-Working-Step-3.zip, que não é a entrega final Context-Reviewed.zip.
++
++## 8. Histórico local
++
++| Data | Version | Revision | Evento | Estado |
++|---|---|---|---|---|
++| 2026-09-30 | 1.0 | 1 | Criação no Passo 3.2; consolidação da entrada, decisões, findings e plano | Draft; Baseline Not assigned; validação limitada registada centralmente sem incrementar a fonte |
+--- input/Context/CHANGELOG.md
++++ working/Context/CHANGELOG.md
+@@ -37,6 +37,8 @@
+ | **Deprecated** | Document has been marked as obsolete. |
+ | **Removed** | Document has been removed from the repository. |
+ | **Superseded** | Document has been replaced by another canonical document. |
++| **Reviewed** | A documented review has been executed; no source update implied. |
++| **Validated** | Checks on a stated edition and scope have been executed; no approval implied. |
+ 
+ ---
+ 
+@@ -56,6 +58,13 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 204 | 2026-09-30 | Codex — AI assistant | Validated | DF-RVW-002; CHANGELOG.md; ArchitecturalMilestones.md | Repository | Step 3: scoped checks PASS: original normalized hashes unchanged, historical registers preserved, 89-position tracking and 81 uniform proposed classifications, #1-204 and M8-M14 consistent; 19 findings remain Open; no integrated validation or approval; report assets and full diff; M9. |
++| 203 | 2026-09-30 | Codex — AI assistant | Validated | /03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md | Repository | Step 3.1: V1.0 R1 scoped checks PASS: header, four-value Type, Reviews allocation and separation of review policy from domain source rollout; no source change, approval or Baseline; DF-RVW-002 validation evidence; M9. |
++| 202 | 2026-09-30 | Codex — AI assistant | Reviewed | DF-RVW-002 | Repository | Consolidated executed inventory and thematic review from Steps 1/2; 19 findings Open, INV-02 Not applicable by user scope decision; no original normalized source updated; M8; source hashes and coverage in report assets. |
++| 201 | 2026-09-30 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | Added review M8-M14, preserving M0-M7; M8/M9 documentary criteria completed, M10-M14 Not Started; no normative approval or Baseline; scoped checks pending #204; DF-RVW-002. |
++| 200 | 2026-09-30 | Codex — AI assistant | Created | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Step 3.2: initial consolidated report V1.0 R1 Draft, Baseline Not assigned; findings and stable plan; scoped validation pending; M8/M9. |
++| 199 | 2026-09-30 | Codex — AI assistant | Created | /03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md | Repository | Step 3.1: initial review policy V1.0 R1 Draft, Baseline Not assigned; uniform Type and functional-file scope; source propagation pending; validation pending; report DF-RVW-002; M9. |
++| 198 | 2026-09-30 | Codex — AI assistant | Extended | /CHANGELOG.md | Repository | Added Reviewed and Validated event types under DF-RVW-001 section 7; historical entries preserved; M9; scoped validation pending in #204. |
+ | 197 | 2026-09-23 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone Status of Milestone M7 — Document Identity Component was marked as Completed. |
+ | 196 | 2026-09-23 | Arnaldo Figueira | Updated | /02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md | Major | Added initial content to DF-TPL-015 — Templates Examples Document. |
+ | 195 | 2026-09-23 | Arnaldo Figueira | Created | /02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md | Major | Added DF-TPL-015 — Templates Examples Document. |
+--- input/Context/ArchitecturalMilestones.md
++++ working/Context/ArchitecturalMilestones.md
+@@ -113,6 +113,207 @@
+ |--:|:-----------|-----------|-----------|-------------------|-------------------|
+ | O:S:C | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | XXX-XXX-NNN — Doc. Name | XXX-XXX-NNN-Doc.Name.md |
+ | O:S:C | yyyy-mm-dd | yyyy-mm-dd | yyyy-mm-dd | XXX-XXX-NNN — Doc. Name | XXX-XXX-NNN-Doc.Name.md | 
++
++---
++
++### Review milestone scope — M8–M14
++
++The following milestones track this review. Completed means the stated review/documentary acceptance criteria are met; it does not admit Draft documents as official normative specifications, approve them, publish them or assign a Baseline. The earlier introduction and M0–M7 remain historical records. O/S/C and milestone states are reused for the declared review scope.
++
++## Milestone M14 — Integrated validation and final delivery
++
++**Milestone Status:** Not Started
++
++### Objectives and acceptance
++
++Verify all corrected editions, classification, dependencies, identities, paths and findings; reconcile central tracking and deliver Context-Reviewed.zip with exact manifest. Initial report creation does not complete this future result.
++
++Dependencies: M10-M13. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
++
++| #Status | Order Date | Start Date | Completion Date | Document | Path |
++| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
++| O | 2026-09-30 |  |  | DF-RVW-002 — integrated validation and final delivery | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md |
++
++---
++
++## Milestone M13 — Localized identity, planning and reference reconciliation
++
++**Milestone Status:** Not Started
++
++### Objectives and acceptance
++
++Recover distinct CLS-003; reconcile DID filename/reference mappings; review all roadmaps, root functional files and register findings. Validate affected operational references and qualify historical examples. General ID migration is unnecessary; localized correction remains pending.
++
++Dependencies: M10-M12; impact map before migration. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
++
++| #Status | Order Date | Start Date | Completion Date | Document | Path |
++| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
++| O | 2026-09-30 |  |  | DF-RDM-030 | /Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md |
++| O | 2026-09-30 |  |  | DF-RDM-020 | /Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md |
++| O | 2026-09-30 |  |  | DF-RDM-010 | /Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md |
++| O | 2026-09-30 |  |  | DF-RDM-040 | /Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md |
++| O | 2026-09-30 |  |  | DF-RDM-001 | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md |
++| O | 2026-09-30 |  |  | DF-RDM-002 | /Roadmaps/DF-RDM-002-ArchitecturalImplementationStrategy.md |
++| O | 2026-09-30 |  |  | README.md | /Roadmaps/README.md |
++| O | 2026-09-30 |  |  | ArchitecturalMilestones.md | /ArchitecturalMilestones.md |
++| O | 2026-09-30 |  |  | CHANGELOG.md | /CHANGELOG.md |
++| O | 2026-09-30 |  |  | README.md | /README.md |
++| O | 2026-09-30 |  |  | Nominal DF-CLS-003; wrong received declaration | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md |
++
++---
++
++## Milestone M12 — Documentation component review cycles
++
++**Milestone Status:** Not Started
++
++### Objectives and acceptance
++
++Complete cycles for all 60 normalized component sources and content/reference checks for four README files; reconcile Metadata, Document Identity, Classification and Templates.
++
++Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
++
++| #Status | Order Date | Start Date | Completion Date | Document | Path |
++| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
++| O | 2026-09-30 |  |  | DF-CLS-001 | /02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md |
++| O | 2026-09-30 |  |  | DF-CLS-002 | /02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md |
++| O | 2026-09-30 |  |  | DF-CLS-001 | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md |
++| O | 2026-09-30 |  |  | DF-CLS-004 | /02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md |
++| O | 2026-09-30 |  |  | DF-CLS-005 | /02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md |
++| O | 2026-09-30 |  |  | DF-CLS-009 | /02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md |
++| O | 2026-09-30 |  |  | DF-CLS-006 | /02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md |
++| O | 2026-09-30 |  |  | DF-CLS-007 | /02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md |
++| O | 2026-09-30 |  |  | DF-CLS-008 | /02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md |
++| O | 2026-09-30 |  |  | DF-CLS-010 | /02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md |
++| O | 2026-09-30 |  |  | DF-CLS-011 | /02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md |
++| O | 2026-09-30 |  |  | DF-CLS-012 | /02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md |
++| O | 2026-09-30 |  |  | DF-CLS-013 | /02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md |
++| O | 2026-09-30 |  |  | DF-CLS-014 | /02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md |
++| O | 2026-09-30 |  |  | DF-CLS-015 | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md |
++| O | 2026-09-30 |  |  | README.md | /02-Documentation/Classification/README.md |
++| O | 2026-09-30 |  |  | DF-DID-001 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
++| O | 2026-09-30 |  |  | DF-DID-002 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
++| O | 2026-09-30 |  |  | DF-DID-003 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
++| O | 2026-09-30 |  |  | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
++| O | 2026-09-30 |  |  | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
++| O | 2026-09-30 |  |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
++| O | 2026-09-30 |  |  | DF-DID-010 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md |
++| O | 2026-09-30 |  |  | DF-DID-006 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md |
++| O | 2026-09-30 |  |  | DF-DID-007 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md |
++| O | 2026-09-30 |  |  | DF-DID-008 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md |
++| O | 2026-09-30 |  |  | DF-DID-011 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md |
++| O | 2026-09-30 |  |  | DF-DID-012 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md |
++| O | 2026-09-30 |  |  | DF-DID-013 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-013 - Document Identity Dictionary.md |
++| O | 2026-09-30 |  |  | DF-DID-014 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md |
++| O | 2026-09-30 |  |  | DF-DID-015 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md |
++| O | 2026-09-30 |  |  | README.md | /02-Documentation/DocumentIdentity/README.md |
++| O | 2026-09-30 |  |  | DF-MTD-001 | /02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md |
++| O | 2026-09-30 |  |  | DF-MTD-002 | /02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md |
++| O | 2026-09-30 |  |  | DF-MTD-003 | /02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md |
++| O | 2026-09-30 |  |  | DF-MTD-004 | /02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md |
++| O | 2026-09-30 |  |  | DF-MTD-005 | /02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md |
++| O | 2026-09-30 |  |  | DF-MTD-009 | /02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md |
++| O | 2026-09-30 |  |  | DF-MTD-010 | /02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md |
++| O | 2026-09-30 |  |  | DF-MTD-013 | /02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md |
++| O | 2026-09-30 |  |  | DF-MTD-006 | /02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md |
++| O | 2026-09-30 |  |  | DF-MTD-007 | /02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md |
++| O | 2026-09-30 |  |  | DF-MTD-008 | /02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md |
++| O | 2026-09-30 |  |  | DF-MTD-011 | /02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md |
++| O | 2026-09-30 |  |  | DF-MTD-012 | /02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md |
++| O | 2026-09-30 |  |  | DF-MTD-014 | /02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md |
++| O | 2026-09-30 |  |  | DF-MTD-015 | /02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md |
++| O | 2026-09-30 |  |  | README.md | /02-Documentation/Metadata/README.md |
++| O | 2026-09-30 |  |  | DF-TPL-001 | /02-Documentation/Templates/01-Architecture/DF-TPL-001-TemplatesArchitecture.md |
++| O | 2026-09-30 |  |  | DF-TPL-002 | /02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md |
++| O | 2026-09-30 |  |  | DF-TPL-003 | /02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md |
++| O | 2026-09-30 |  |  | DF-TPL-004 | /02-Documentation/Templates/02-Structure/DF-TPL-004-TemplateElements.md |
++| O | 2026-09-30 |  |  | DF-TPL-005 | /02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md |
++| O | 2026-09-30 |  |  | DF-TPL-009 | /02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md |
++| O | 2026-09-30 |  |  | DF-TPL-006 | /02-Documentation/Templates/03-Behavior/DF-TPL-006-TemplatesLifecycle.md |
++| O | 2026-09-30 |  |  | DF-TPL-007 | /02-Documentation/Templates/03-Behavior/DF-TPL-007-TemplatesValidation.md |
++| O | 2026-09-30 |  |  | DF-TPL-008 | /02-Documentation/Templates/03-Behavior/DF-TPL-008-TemplatesGovernance.md |
++| O | 2026-09-30 |  |  | DF-TPL-010 | /02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md |
++| O | 2026-09-30 |  |  | DF-TPL-011 | /02-Documentation/Templates/03-Behavior/DF-TPL-011-TemplatesExtensibility.md |
++| O | 2026-09-30 |  |  | DF-TPL-012 | /02-Documentation/Templates/04-Reference/DF-TPL-012-TemplatesBestPractices.md |
++| O | 2026-09-30 |  |  | DF-TPL-013 | /02-Documentation/Templates/04-Reference/DF-TPL-013-TemplatesDictionary.md |
++| O | 2026-09-30 |  |  | DF-TPL-014 | /02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md |
++| O | 2026-09-30 |  |  | DF-TPL-015 | /02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md |
++| O | 2026-09-30 |  |  | README.md | /02-Documentation/Templates/README.md |
++
++---
++
++## Milestone M11 — Architecture review cycles
++
++**Milestone Status:** Not Started
++
++### Objectives and acceptance
++
++Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
++
++Dependencies: M10; reconcile owner definitions before consumers. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
++
++| #Status | Order Date | Start Date | Completion Date | Document | Path |
++| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
++| O | 2026-09-30 |  |  | DF-ARC-001 | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
++| O | 2026-09-30 |  |  | DF-ARC-002 | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
++| O | 2026-09-30 |  |  | DF-ARC-003 | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
++| O | 2026-09-30 |  |  | DF-ARC-004 | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
++| O | 2026-09-30 |  |  | DF-ARC-005 | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
++| O | 2026-09-30 |  |  | DF-ARC-006 | /01-Architecture/DF-ARC-006-Terminology.md |
++| O | 2026-09-30 |  |  | DF-ARC-007 | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
++
++---
++
++## Milestone M10 — Foundation review cycles
++
++**Milestone Status:** Not Started
++
++### Objectives and acceptance
++
++Execute complete REVIEW/UPDATE/VALIDATE cycles for the six sources; reconcile responsible definitions, record actual editions and verification evidence. Partial Step 2 readings do not complete these cycles.
++
++Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
++
++| #Status | Order Date | Start Date | Completion Date | Document | Path |
++| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
++| O | 2026-09-30 |  |  | DF-FND-001 | /00-Foundation/DF-FND-001-FrameworkManifest.md |
++| O | 2026-09-30 |  |  | DF-FND-002 | /00-Foundation/DF-FND-002-ResearchJournal.md |
++| O | 2026-09-30 |  |  | DF-FND-003 | /00-Foundation/DF-FND-003-EvolutionTimeline.md |
++| O | 2026-09-30 |  |  | DF-FND-004 | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md |
++| O | 2026-09-30 |  |  | DF-FND-005 | /00-Foundation/DF-FND-005-FrameworkEvolution.md |
++| O | 2026-09-30 |  |  | DF-FND-006 | /00-Foundation/DF-FND-006-DesignRationale.md |
++
++---
++
++## Milestone M9 — Review conventions and tracking
++
++**Milestone Status:** Completed
++
++### Objectives and acceptance
++
++Establish review policy, two artifact identities, stable plan, central records and scoped checks. Completion excludes downstream source propagation, integrated consistency and approval. Completed on 2026-09-30.
++
++Dependencies: M8. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
++
++| #Status | Order Date | Start Date | Completion Date | Document | Path |
++| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
++| C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-RVW-001 | /03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md |
++| C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-RVW-002 — conventions and tracking | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md |
++
++---
++
++## Milestone M8 — Received corpus established
++
++**Milestone Status:** Completed
++
++### Objectives and acceptance
++
++Inventory all 87 input Markdown files, record editions/hashes, collisions and evidence limits. Acceptance excludes correction of input findings; completed on 2026-09-30.
++
++Dependencies: supplied Context.zip. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
++
++| #Status | Order Date | Start Date | Completion Date | Document | Path |
++| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
++| C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-RVW-002 — input inventory | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md |
+ 
+ ---
+ 

@@ -116,6 +116,209 @@ The **Milestone Status** is therefore not managed independently. It is a summary
 
 ---
 
+### Review milestone scope — M8–M14
+
+The following milestones track this review. Completed means the stated review/documentary acceptance criteria are met; it does not admit Draft documents as official normative specifications, approve them, publish them or assign a Baseline. The earlier introduction and M0–M7 remain historical records. O/S/C and milestone states are reused for the declared review scope.
+
+## Milestone M14 — Integrated validation and final delivery
+
+**Milestone Status:** Not Started
+
+### Objectives and acceptance
+
+Verify all corrected editions, classification, dependencies, identities, paths and findings; reconcile central tracking and deliver Context-Reviewed.zip with exact manifest. Initial report creation does not complete this future result.
+
+Dependencies: M10-M13. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+| O | 2026-09-30 |  |  | DF-RVW-002 — integrated validation and final delivery | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md |
+
+---
+
+## Milestone M13 — Localized identity, planning and reference reconciliation
+
+**Milestone Status:** Not Started
+
+### Objectives and acceptance
+
+Recover distinct CLS-003; reconcile DID filename/reference mappings; review all roadmaps, root functional files and register findings. Validate affected operational references and qualify historical examples. General ID migration is unnecessary; localized correction remains pending.
+
+Dependencies: M10-M12; impact map before migration. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+| O | 2026-09-30 |  |  | DF-RDM-030 | /Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md |
+| O | 2026-09-30 |  |  | DF-RDM-020 | /Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md |
+| O | 2026-09-30 |  |  | DF-RDM-010 | /Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md |
+| O | 2026-09-30 |  |  | DF-RDM-040 | /Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md |
+| O | 2026-09-30 |  |  | DF-RDM-001 | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md |
+| O | 2026-09-30 |  |  | DF-RDM-002 | /Roadmaps/DF-RDM-002-ArchitecturalImplementationStrategy.md |
+| O | 2026-09-30 |  |  | README.md | /Roadmaps/README.md |
+| O | 2026-09-30 |  |  | ArchitecturalMilestones.md | /ArchitecturalMilestones.md |
+| O | 2026-09-30 |  |  | CHANGELOG.md | /CHANGELOG.md |
+| O | 2026-09-30 |  |  | README.md | /README.md |
+| O | 2026-09-30 |  |  | Nominal DF-CLS-003; wrong received declaration | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md |
+
+---
+
+## Milestone M12 — Documentation component review cycles
+
+**Milestone Status:** Not Started
+
+### Objectives and acceptance
+
+Complete cycles for all 60 normalized component sources and content/reference checks for four README files; reconcile Metadata, Document Identity, Classification and Templates.
+
+Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+| O | 2026-09-30 |  |  | DF-CLS-001 | /02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md |
+| O | 2026-09-30 |  |  | DF-CLS-002 | /02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md |
+| O | 2026-09-30 |  |  | DF-CLS-001 | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md |
+| O | 2026-09-30 |  |  | DF-CLS-004 | /02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md |
+| O | 2026-09-30 |  |  | DF-CLS-005 | /02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md |
+| O | 2026-09-30 |  |  | DF-CLS-009 | /02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md |
+| O | 2026-09-30 |  |  | DF-CLS-006 | /02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md |
+| O | 2026-09-30 |  |  | DF-CLS-007 | /02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md |
+| O | 2026-09-30 |  |  | DF-CLS-008 | /02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md |
+| O | 2026-09-30 |  |  | DF-CLS-010 | /02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md |
+| O | 2026-09-30 |  |  | DF-CLS-011 | /02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md |
+| O | 2026-09-30 |  |  | DF-CLS-012 | /02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md |
+| O | 2026-09-30 |  |  | DF-CLS-013 | /02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md |
+| O | 2026-09-30 |  |  | DF-CLS-014 | /02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md |
+| O | 2026-09-30 |  |  | DF-CLS-015 | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md |
+| O | 2026-09-30 |  |  | README.md | /02-Documentation/Classification/README.md |
+| O | 2026-09-30 |  |  | DF-DID-001 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
+| O | 2026-09-30 |  |  | DF-DID-002 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
+| O | 2026-09-30 |  |  | DF-DID-003 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
+| O | 2026-09-30 |  |  | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
+| O | 2026-09-30 |  |  | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
+| O | 2026-09-30 |  |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
+| O | 2026-09-30 |  |  | DF-DID-010 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md |
+| O | 2026-09-30 |  |  | DF-DID-006 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md |
+| O | 2026-09-30 |  |  | DF-DID-007 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md |
+| O | 2026-09-30 |  |  | DF-DID-008 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md |
+| O | 2026-09-30 |  |  | DF-DID-011 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md |
+| O | 2026-09-30 |  |  | DF-DID-012 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md |
+| O | 2026-09-30 |  |  | DF-DID-013 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-013 - Document Identity Dictionary.md |
+| O | 2026-09-30 |  |  | DF-DID-014 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md |
+| O | 2026-09-30 |  |  | DF-DID-015 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md |
+| O | 2026-09-30 |  |  | README.md | /02-Documentation/DocumentIdentity/README.md |
+| O | 2026-09-30 |  |  | DF-MTD-001 | /02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md |
+| O | 2026-09-30 |  |  | DF-MTD-002 | /02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md |
+| O | 2026-09-30 |  |  | DF-MTD-003 | /02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md |
+| O | 2026-09-30 |  |  | DF-MTD-004 | /02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md |
+| O | 2026-09-30 |  |  | DF-MTD-005 | /02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md |
+| O | 2026-09-30 |  |  | DF-MTD-009 | /02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md |
+| O | 2026-09-30 |  |  | DF-MTD-010 | /02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md |
+| O | 2026-09-30 |  |  | DF-MTD-013 | /02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md |
+| O | 2026-09-30 |  |  | DF-MTD-006 | /02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md |
+| O | 2026-09-30 |  |  | DF-MTD-007 | /02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md |
+| O | 2026-09-30 |  |  | DF-MTD-008 | /02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md |
+| O | 2026-09-30 |  |  | DF-MTD-011 | /02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md |
+| O | 2026-09-30 |  |  | DF-MTD-012 | /02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md |
+| O | 2026-09-30 |  |  | DF-MTD-014 | /02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md |
+| O | 2026-09-30 |  |  | DF-MTD-015 | /02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md |
+| O | 2026-09-30 |  |  | README.md | /02-Documentation/Metadata/README.md |
+| O | 2026-09-30 |  |  | DF-TPL-001 | /02-Documentation/Templates/01-Architecture/DF-TPL-001-TemplatesArchitecture.md |
+| O | 2026-09-30 |  |  | DF-TPL-002 | /02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md |
+| O | 2026-09-30 |  |  | DF-TPL-003 | /02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md |
+| O | 2026-09-30 |  |  | DF-TPL-004 | /02-Documentation/Templates/02-Structure/DF-TPL-004-TemplateElements.md |
+| O | 2026-09-30 |  |  | DF-TPL-005 | /02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md |
+| O | 2026-09-30 |  |  | DF-TPL-009 | /02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md |
+| O | 2026-09-30 |  |  | DF-TPL-006 | /02-Documentation/Templates/03-Behavior/DF-TPL-006-TemplatesLifecycle.md |
+| O | 2026-09-30 |  |  | DF-TPL-007 | /02-Documentation/Templates/03-Behavior/DF-TPL-007-TemplatesValidation.md |
+| O | 2026-09-30 |  |  | DF-TPL-008 | /02-Documentation/Templates/03-Behavior/DF-TPL-008-TemplatesGovernance.md |
+| O | 2026-09-30 |  |  | DF-TPL-010 | /02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md |
+| O | 2026-09-30 |  |  | DF-TPL-011 | /02-Documentation/Templates/03-Behavior/DF-TPL-011-TemplatesExtensibility.md |
+| O | 2026-09-30 |  |  | DF-TPL-012 | /02-Documentation/Templates/04-Reference/DF-TPL-012-TemplatesBestPractices.md |
+| O | 2026-09-30 |  |  | DF-TPL-013 | /02-Documentation/Templates/04-Reference/DF-TPL-013-TemplatesDictionary.md |
+| O | 2026-09-30 |  |  | DF-TPL-014 | /02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md |
+| O | 2026-09-30 |  |  | DF-TPL-015 | /02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md |
+| O | 2026-09-30 |  |  | README.md | /02-Documentation/Templates/README.md |
+
+---
+
+## Milestone M11 — Architecture review cycles
+
+**Milestone Status:** Not Started
+
+### Objectives and acceptance
+
+Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
+
+Dependencies: M10; reconcile owner definitions before consumers. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+| O | 2026-09-30 |  |  | DF-ARC-001 | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
+| O | 2026-09-30 |  |  | DF-ARC-002 | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
+| O | 2026-09-30 |  |  | DF-ARC-003 | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+| O | 2026-09-30 |  |  | DF-ARC-004 | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
+| O | 2026-09-30 |  |  | DF-ARC-005 | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
+| O | 2026-09-30 |  |  | DF-ARC-006 | /01-Architecture/DF-ARC-006-Terminology.md |
+| O | 2026-09-30 |  |  | DF-ARC-007 | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
+
+---
+
+## Milestone M10 — Foundation review cycles
+
+**Milestone Status:** Not Started
+
+### Objectives and acceptance
+
+Execute complete REVIEW/UPDATE/VALIDATE cycles for the six sources; reconcile responsible definitions, record actual editions and verification evidence. Partial Step 2 readings do not complete these cycles.
+
+Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+| O | 2026-09-30 |  |  | DF-FND-001 | /00-Foundation/DF-FND-001-FrameworkManifest.md |
+| O | 2026-09-30 |  |  | DF-FND-002 | /00-Foundation/DF-FND-002-ResearchJournal.md |
+| O | 2026-09-30 |  |  | DF-FND-003 | /00-Foundation/DF-FND-003-EvolutionTimeline.md |
+| O | 2026-09-30 |  |  | DF-FND-004 | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md |
+| O | 2026-09-30 |  |  | DF-FND-005 | /00-Foundation/DF-FND-005-FrameworkEvolution.md |
+| O | 2026-09-30 |  |  | DF-FND-006 | /00-Foundation/DF-FND-006-DesignRationale.md |
+
+---
+
+## Milestone M9 — Review conventions and tracking
+
+**Milestone Status:** Completed
+
+Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+
+### Objectives and acceptance
+
+Establish review policy, two artifact identities, stable plan, central records and scoped checks. Completion excludes downstream source propagation, integrated consistency and approval. Completed on 2026-09-30.
+
+Dependencies: M8. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+| C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-RVW-001 | /03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md |
+| C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-RVW-002 — conventions and tracking | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md |
+
+---
+
+## Milestone M8 — Received corpus established
+
+**Milestone Status:** Completed
+
+### Objectives and acceptance
+
+Inventory all 87 input Markdown files, record editions/hashes, collisions and evidence limits. Acceptance excludes correction of input findings; completed on 2026-09-30.
+
+Dependencies: supplied Context.zip. Evidence: DF-RVW-002 and its attached manifests/matrices. Source editions: received V1.0 (declared Revision or absent), except new review documents V1.0 R1. No estimated completion dates.
+
+| #Status | Order Date | Start Date | Completion Date | Document | Path |
+| ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+| C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-RVW-002 — input inventory | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md |
+
+---
+
 ## Milestone M7 — Templates Component
 
 **Milestone Status:** Completed

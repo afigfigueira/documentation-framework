@@ -37,6 +37,8 @@ Entries are recorded in reverse chronological order.
 | **Deprecated** | Document has been marked as obsolete. |
 | **Removed** | Document has been removed from the repository. |
 | **Superseded** | Document has been replaced by another canonical document. |
+| **Reviewed** | A documented review has been executed; no source update implied. |
+| **Validated** | Checks on a stated edition and scope have been executed; no approval implied. |
 
 ---
 
@@ -56,7 +58,16 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
-| 197 | 2026-09-23 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone Status of Milestone M7 — Document Identity Component was marked as Completed. |
+| 206 | 2026-09-30 | Codex — AI assistant | Validated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Editorial | Follow-up 3.2.1: V1.0 R2 scoped translation checks PASS; eight sections, 20 findings, source references/input hashes, identity/classification/lifecycle and next step preserved; current tracking hashes refreshed; no integrated validation or finding closure; DF-RVW-002-assets/DF-RVW-002-translation-validation.json; M9. |
+| 205 | 2026-09-30 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Editorial | Follow-up 3.2.1: full Portuguese-to-English translation; V1.0 R1 to V1.0 R2, Language English, Draft, Baseline Not assigned; compatible editorial change, findings/decisions retained; validation pending; DF-RVW-002-assets/DF-RVW-002-translation-R1-R2.diff; M9. |
+| 204 | 2026-09-30 | Codex — AI assistant | Validated | DF-RVW-002; CHANGELOG.md; ArchitecturalMilestones.md | Repository | Step 3: scoped checks PASS: original normalized hashes unchanged, historical registers preserved, 89-position tracking and 81 uniform proposed classifications, #1-204 and M8-M14 consistent; 19 findings remain Open; no integrated validation or approval; report assets and full diff; M9. |
+| 203 | 2026-09-30 | Codex — AI assistant | Validated | /03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md | Repository | Step 3.1: V1.0 R1 scoped checks PASS: header, four-value Type, Reviews allocation and separation of review policy from domain source rollout; no source change, approval or Baseline; DF-RVW-002 validation evidence; M9. |
+| 202 | 2026-09-30 | Codex — AI assistant | Reviewed | DF-RVW-002 | Repository | Consolidated executed inventory and thematic review from Steps 1/2; 19 findings Open, INV-02 Not applicable by user scope decision; no original normalized source updated; M8; source hashes and coverage in report assets. |
+| 201 | 2026-09-30 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | Added review M8-M14, preserving M0-M7; M8/M9 documentary criteria completed, M10-M14 Not Started; no normative approval or Baseline; scoped checks pending #204; DF-RVW-002. |
+| 200 | 2026-09-30 | Codex — AI assistant | Created | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Step 3.2: initial consolidated report V1.0 R1 Draft, Baseline Not assigned; findings and stable plan; scoped validation pending; M8/M9. |
+| 199 | 2026-09-30 | Codex — AI assistant | Created | /03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md | Repository | Step 3.1: initial review policy V1.0 R1 Draft, Baseline Not assigned; uniform Type and functional-file scope; source propagation pending; validation pending; report DF-RVW-002; M9. |
+| 198 | 2026-09-30 | Codex — AI assistant | Extended | /CHANGELOG.md | Repository | Added Reviewed and Validated event types under DF-RVW-001 section 7; historical entries preserved; M9; scoped validation pending in #204. |
+| 197 | 2026-09-23 | Arnaldo Figueira | Updated | /ArchitecturalMilestones.md | Major | Milestone Status of Milestone M7 — Templates Component was marked as Completed. |
 | 196 | 2026-09-23 | Arnaldo Figueira | Updated | /02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md | Major | Added initial content to DF-TPL-015 — Templates Examples Document. |
 | 195 | 2026-09-23 | Arnaldo Figueira | Created | /02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md | Major | Added DF-TPL-015 — Templates Examples Document. |
 | 194 | 2026-09-23 | Arnaldo Figueira | Updated | /02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md | Major | Added initial content to DF-TPL-014 — Templates Specification Document. |

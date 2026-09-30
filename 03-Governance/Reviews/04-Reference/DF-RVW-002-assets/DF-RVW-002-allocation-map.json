@@ -1,0 +1,630 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "version": "1.0",
+  "revision": 1,
+  "general_migration": "not required",
+  "external_history": "not available; no global uniqueness claim",
+  "allocations": [
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "declared_id": "DF-FND-001",
+      "nominal_id": "DF-FND-001",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "ba259eb305048893eabbd720271a9f5e8d14ceb6f138b441827089665128883b"
+    },
+    {
+      "path": "00-Foundation/DF-FND-002-ResearchJournal.md",
+      "declared_id": "DF-FND-002",
+      "nominal_id": "DF-FND-002",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "53fad4f5847ead6e54fc2a4e46947cf8b1b48a123d548fa96d8347cdbc891831"
+    },
+    {
+      "path": "00-Foundation/DF-FND-003-EvolutionTimeline.md",
+      "declared_id": "DF-FND-003",
+      "nominal_id": "DF-FND-003",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "69b6c3cc258d5e1f4a1682787193698b9ae111b0ccdfc179f86f1821d44bc211"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "declared_id": "DF-FND-004",
+      "nominal_id": "DF-FND-004",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "74a254092deebeb00151d6044b5e023b6cdcc2444de6e3c5082897d42ad35446"
+    },
+    {
+      "path": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
+      "declared_id": "DF-FND-005",
+      "nominal_id": "DF-FND-005",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "0159036f4593633260414dcf0a98870895f9db177cada8cf4555c82f03fd8874"
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "declared_id": "DF-FND-006",
+      "nominal_id": "DF-FND-006",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "6e911db07e6eba28222fb1f020b472c940543ed0ce873ca6c3945eaa69bbb66d"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "declared_id": "DF-ARC-001",
+      "nominal_id": "DF-ARC-001",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "declared_id": "DF-ARC-002",
+      "nominal_id": "DF-ARC-002",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "declared_id": "DF-ARC-003",
+      "nominal_id": "DF-ARC-003",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "cc0f76249a5b21025ae502169b9026f36b87370053119a36e921554ffe16fa4d"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "declared_id": "DF-ARC-004",
+      "nominal_id": "DF-ARC-004",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "declared_id": "DF-ARC-005",
+      "nominal_id": "DF-ARC-005",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "declared_id": "DF-ARC-006",
+      "nominal_id": "DF-ARC-006",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "declared_id": "DF-ARC-007",
+      "nominal_id": "DF-ARC-007",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "e0840a725ed0214e37d78be25d664615c4c43fea4e535334dfe47e55d20d5481"
+    },
+    {
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md",
+      "declared_id": "DF-CLS-001",
+      "nominal_id": "DF-CLS-001",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "75b689426bec5e349f555ab41855732c1c689898a49563aa4bdf44ef7d4014e9"
+    },
+    {
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md",
+      "declared_id": "DF-CLS-002",
+      "nominal_id": "DF-CLS-002",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3"
+    },
+    {
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md",
+      "declared_id": "DF-CLS-001",
+      "nominal_id": "DF-CLS-003",
+      "action": "Pending path-scoped CLS-003 recovery; not a global CLS-001 alias",
+      "input_sha256": "2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28"
+    },
+    {
+      "path": "02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md",
+      "declared_id": "DF-CLS-004",
+      "nominal_id": "DF-CLS-004",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "b83d95cae80262ce0cf72b42cd0f7a2b64f16ebab9c4bfcbca5fa65bf66f2215"
+    },
+    {
+      "path": "02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md",
+      "declared_id": "DF-CLS-005",
+      "nominal_id": "DF-CLS-005",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "949674b939519664145cd57b4186ff5f1edfbbd5be268d015858bebcc0977b6f"
+    },
+    {
+      "path": "02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md",
+      "declared_id": "DF-CLS-009",
+      "nominal_id": "DF-CLS-009",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "55f14b44a3977856568a1d5bf4d391987a5ce923fa2e464e8eb59bfa04e88d7b"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md",
+      "declared_id": "DF-CLS-006",
+      "nominal_id": "DF-CLS-006",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md",
+      "declared_id": "DF-CLS-007",
+      "nominal_id": "DF-CLS-007",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "9d2fe8a503c37d12143420e76205b44e4d031812516c3c30d151e3b3e8c288cb"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md",
+      "declared_id": "DF-CLS-008",
+      "nominal_id": "DF-CLS-008",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "5317d1a596490ad0bb7a976b0f9504324adcc10131b27e969b141bd392a84a26"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md",
+      "declared_id": "DF-CLS-010",
+      "nominal_id": "DF-CLS-010",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "3575675cef6d6f990161bc6d04365779b8c60094bc38bf809d767ef9fe6834e0"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md",
+      "declared_id": "DF-CLS-011",
+      "nominal_id": "DF-CLS-011",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "e9634c8977c8c4dfddb5f1f04bb0c62c5df180794fea46471c14a8e524aa4a95"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md",
+      "declared_id": "DF-CLS-012",
+      "nominal_id": "DF-CLS-012",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "4b7ae1b3ee972963d73534be64818b4b462079d708fbf2c37bfab3346248904c"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md",
+      "declared_id": "DF-CLS-013",
+      "nominal_id": "DF-CLS-013",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "a1ca8359af0f52b9723d418798ace0abc352233e76afd81597d181bf22f823f5"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "declared_id": "DF-CLS-014",
+      "nominal_id": "DF-CLS-014",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md",
+      "declared_id": "DF-CLS-015",
+      "nominal_id": "DF-CLS-015",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "204db601fc644f2fb799905beb8e03676ecf258a9a7dad7a4f509be0cf6e0603"
+    },
+    {
+      "path": "02-Documentation/Classification/README.md",
+      "declared_id": null,
+      "nominal_id": null,
+      "action": "Not applicable — functional file",
+      "input_sha256": "452c9910cdb26654cf475c21f6c4b3bf13f624d1c4b3bfd88538d818a1474c18"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md",
+      "declared_id": "DF-DID-001",
+      "nominal_id": "DF-DID-001",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "declared_id": "DF-DID-002",
+      "nominal_id": "DF-DID-002",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md",
+      "declared_id": "DF-DID-003",
+      "nominal_id": "DF-DID-003",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "79cd7dcc42cfd9f4c009787353a891f98253f0d01d73d8c9872e50cc614e180e"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md",
+      "declared_id": "DF-DID-004",
+      "nominal_id": "DF-DID-004",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "declared_id": "DF-DID-005",
+      "nominal_id": "DF-DID-005",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md",
+      "declared_id": "DF-DID-009",
+      "nominal_id": "DF-DID-009",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md",
+      "declared_id": "DF-DID-010",
+      "nominal_id": "DF-DID-010",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md",
+      "declared_id": "DF-DID-006",
+      "nominal_id": "DF-DID-006",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md",
+      "declared_id": "DF-DID-007",
+      "nominal_id": "DF-DID-007",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "4310e5f480844f017136329ba63befea90431ec8efd5cc53085f71ae164b7fe2"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md",
+      "declared_id": "DF-DID-008",
+      "nominal_id": "DF-DID-008",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "02e2ae1cb164756db35f243e2e76f880a39523eae73f3b12661f4837030c7497"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md",
+      "declared_id": "DF-DID-011",
+      "nominal_id": "DF-DID-011",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "3c3112e3f5dbb37dd93b31f8c3af33037a48fd2db9d53ac0fd4a1fb6cfea69d3"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md",
+      "declared_id": "DF-DID-012",
+      "nominal_id": "DF-DID-012",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "692230e6c874ddd97e8215334534b61c12b487e7e2a9ea85b9ac506513cd8c8e"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-013 - Document Identity Dictionary.md",
+      "declared_id": "DF-DID-013",
+      "nominal_id": "DF-DID-013",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "030354bc9d3c57fbe84bd576ecbd6e4e3e2f1b0c5bbea2e9a0ef8b5ecee30c61"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "declared_id": "DF-DID-014",
+      "nominal_id": "DF-DID-014",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md",
+      "declared_id": "DF-DID-015",
+      "nominal_id": "DF-DID-015",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "30d79dc17cbda645f4c2ab5541b7fcab8aef068e995e85321239329b1e6511c0"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/README.md",
+      "declared_id": null,
+      "nominal_id": null,
+      "action": "Not applicable — functional file",
+      "input_sha256": "2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7"
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md",
+      "declared_id": "DF-MTD-001",
+      "nominal_id": "DF-MTD-001",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747"
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md",
+      "declared_id": "DF-MTD-002",
+      "nominal_id": "DF-MTD-002",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "1abf7b1d0c2b80b14bff6d49c902f9ba8f951889daf833522e33e2e08fe5e19c"
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "declared_id": "DF-MTD-003",
+      "nominal_id": "DF-MTD-003",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746"
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md",
+      "declared_id": "DF-MTD-004",
+      "nominal_id": "DF-MTD-004",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "60dc7aa35153410b7bfacb774163d62959c3c830b6fa15948a82f913c0657568"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md",
+      "declared_id": "DF-MTD-005",
+      "nominal_id": "DF-MTD-005",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "1ed13b4f94564703e5b5af1268941e21a329cfc62b9c67e3f69cc63b8c2fa302"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md",
+      "declared_id": "DF-MTD-009",
+      "nominal_id": "DF-MTD-009",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "ed847e8f5e9026159ac119432c9b77cbaf6f790cd771296b99809a96759a74dc"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md",
+      "declared_id": "DF-MTD-010",
+      "nominal_id": "DF-MTD-010",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "466cc09d475f690779ea0f929dcafea150e643f9d2a622e47d87f519426142fa"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "declared_id": "DF-MTD-013",
+      "nominal_id": "DF-MTD-013",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206"
+    },
+    {
+      "path": "02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md",
+      "declared_id": "DF-MTD-006",
+      "nominal_id": "DF-MTD-006",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "ddb15d2cbffe7ec2d4c0f9903226f65f98d3a63f82afa3864433173e5cc86acc"
+    },
+    {
+      "path": "02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md",
+      "declared_id": "DF-MTD-007",
+      "nominal_id": "DF-MTD-007",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "163c13b58acba33353e66d472649759ced513f6742d9231d3e60d7562ec632aa"
+    },
+    {
+      "path": "02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md",
+      "declared_id": "DF-MTD-008",
+      "nominal_id": "DF-MTD-008",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "69112d8cce7fb5bb511c9d548bf64ab0e2a97c3b9bfd667d5225ccf626569c8d"
+    },
+    {
+      "path": "02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md",
+      "declared_id": "DF-MTD-011",
+      "nominal_id": "DF-MTD-011",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "044fc204c8b877e705902d3a7fbfe7c2bd5b40fa18aa32ea6602f38131e7ab26"
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md",
+      "declared_id": "DF-MTD-012",
+      "nominal_id": "DF-MTD-012",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "324fd72a22bf6417d1f0a05f43ff1d01f7666c6f61916acf96c7730159935f61"
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "declared_id": "DF-MTD-014",
+      "nominal_id": "DF-MTD-014",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e"
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md",
+      "declared_id": "DF-MTD-015",
+      "nominal_id": "DF-MTD-015",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "9de2984688ff67469ee6b0761aa445d0cc23b7075738e11277ece2462f24a7c8"
+    },
+    {
+      "path": "02-Documentation/Metadata/README.md",
+      "declared_id": null,
+      "nominal_id": null,
+      "action": "Not applicable — functional file",
+      "input_sha256": "0a2091d1de0b64e1f470dd30479b6c50202748311a4ac2a6d472d40258b93d72"
+    },
+    {
+      "path": "02-Documentation/Templates/01-Architecture/DF-TPL-001-TemplatesArchitecture.md",
+      "declared_id": "DF-TPL-001",
+      "nominal_id": "DF-TPL-001",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "d7408ff1c43e04d57c4a794b06594f7e68dd759b445c45637adb3c4f7d7cc756"
+    },
+    {
+      "path": "02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md",
+      "declared_id": "DF-TPL-002",
+      "nominal_id": "DF-TPL-002",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04"
+    },
+    {
+      "path": "02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md",
+      "declared_id": "DF-TPL-003",
+      "nominal_id": "DF-TPL-003",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "80a57e07e0494b19c849a10f8421108ed935698da2bf11373da4d02addb11087"
+    },
+    {
+      "path": "02-Documentation/Templates/02-Structure/DF-TPL-004-TemplateElements.md",
+      "declared_id": "DF-TPL-004",
+      "nominal_id": "DF-TPL-004",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "79d6ed961b26ec03c7076a4cb6306f5beb6a56c89af7b4981c214482f00495e5"
+    },
+    {
+      "path": "02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md",
+      "declared_id": "DF-TPL-005",
+      "nominal_id": "DF-TPL-005",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "bb711768b70f6724e6bc00e8e63eaf9310830f98115a91715a231ea6e770598a"
+    },
+    {
+      "path": "02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md",
+      "declared_id": "DF-TPL-009",
+      "nominal_id": "DF-TPL-009",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "b10b6174f5240b4f46157ba8bd9882035179ba862215ab6fdbbcee584669f1cf"
+    },
+    {
+      "path": "02-Documentation/Templates/03-Behavior/DF-TPL-006-TemplatesLifecycle.md",
+      "declared_id": "DF-TPL-006",
+      "nominal_id": "DF-TPL-006",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "581c43203ca39b6c9438fa4b8ad0f9b1de5e7ae4683b7af8cc0e538824fe610b"
+    },
+    {
+      "path": "02-Documentation/Templates/03-Behavior/DF-TPL-007-TemplatesValidation.md",
+      "declared_id": "DF-TPL-007",
+      "nominal_id": "DF-TPL-007",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "e2e38a950e4cc7de513190bb63a8ea6f9a95db2073ee8e0fa59b11851767afa6"
+    },
+    {
+      "path": "02-Documentation/Templates/03-Behavior/DF-TPL-008-TemplatesGovernance.md",
+      "declared_id": "DF-TPL-008",
+      "nominal_id": "DF-TPL-008",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "d6b69ae73b5ba54e94c465ee485bca91b6874bcc0151773bed5635f1826a3f9b"
+    },
+    {
+      "path": "02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md",
+      "declared_id": "DF-TPL-010",
+      "nominal_id": "DF-TPL-010",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "965a1eb1756a1a8e685af9f978558dd055f28b8ebb4e4080f2737ead42d30e12"
+    },
+    {
+      "path": "02-Documentation/Templates/03-Behavior/DF-TPL-011-TemplatesExtensibility.md",
+      "declared_id": "DF-TPL-011",
+      "nominal_id": "DF-TPL-011",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "15607054122758cd163757836cf551779877aa90c7565d20f47220a406279b78"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-012-TemplatesBestPractices.md",
+      "declared_id": "DF-TPL-012",
+      "nominal_id": "DF-TPL-012",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "de45215261de1e4f6feffc727bbf0f38be2582f5cde2cb892a936112db65ce51"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-013-TemplatesDictionary.md",
+      "declared_id": "DF-TPL-013",
+      "nominal_id": "DF-TPL-013",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "4f039c17f2818bcfab51009cae38d31053e0e779ebc353d9722307e8b0d2901d"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "declared_id": "DF-TPL-014",
+      "nominal_id": "DF-TPL-014",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md",
+      "declared_id": "DF-TPL-015",
+      "nominal_id": "DF-TPL-015",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "c2713cf5f89d62527299f81e2bb32a6871b5a59c00016604e823551d0735255b"
+    },
+    {
+      "path": "02-Documentation/Templates/README.md",
+      "declared_id": null,
+      "nominal_id": null,
+      "action": "Not applicable — functional file",
+      "input_sha256": "cf4866ed4e449d8542ecd5f11d19c21ffdd91b6a3d4f807dce55da59cd7b693a"
+    },
+    {
+      "path": "ArchitecturalMilestones.md",
+      "declared_id": null,
+      "nominal_id": null,
+      "action": "Not applicable — functional file",
+      "input_sha256": "9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "declared_id": null,
+      "nominal_id": null,
+      "action": "Not applicable — functional file",
+      "input_sha256": "ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b"
+    },
+    {
+      "path": "README.md",
+      "declared_id": null,
+      "nominal_id": null,
+      "action": "Not applicable — functional file",
+      "input_sha256": "27166775bbaf3124dd17dce3c0369263f674f96146b2c15b24e0616aef719a00"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md",
+      "declared_id": "DF-RDM-030",
+      "nominal_id": "DF-RDM-030",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "aa99f796a1443196f851fcbe7e89eab21f039e6e052fc4c7f9ec48498845e3b2"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md",
+      "declared_id": "DF-RDM-020",
+      "nominal_id": "DF-RDM-020",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "6ef6e9e51cf1c097eccb0b1ebe87c2b0ed34386b2eaaaccd52f3c60830b1e301"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md",
+      "declared_id": "DF-RDM-010",
+      "nominal_id": "DF-RDM-010",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "43b692c6521c6d0d87d7ea37f7030c2f2c768f113165d069b5d72f47901402ed"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md",
+      "declared_id": "DF-RDM-040",
+      "nominal_id": "DF-RDM-040",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "c2f539f513ca4b0943fe56771cd98d982ffd8dffdc93fe94d6f7817dfcf833bf"
+    },
+    {
+      "path": "Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "declared_id": "DF-RDM-001",
+      "nominal_id": "DF-RDM-001",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224"
+    },
+    {
+      "path": "Roadmaps/DF-RDM-002-ArchitecturalImplementationStrategy.md",
+      "declared_id": "DF-RDM-002",
+      "nominal_id": "DF-RDM-002",
+      "action": "Retain valid identity; classification independent",
+      "input_sha256": "6af9f06e3ef4a5980f6c25aed2d57dec0046c7a48c7bbf4c0977a214d984ca23"
+    },
+    {
+      "path": "Roadmaps/README.md",
+      "declared_id": null,
+      "nominal_id": null,
+      "action": "Not applicable — functional file",
+      "input_sha256": "7cc32597d6cf48ab840cd02ba0a11184a82904cd244057c214c628bb66a2d3dc"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "declared_id": "DF-RVW-001",
+      "nominal_id": "DF-RVW-001",
+      "action": "New allocation; corpus scan found no prior RVW occurrences; external allocation history unavailable"
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "declared_id": "DF-RVW-002",
+      "nominal_id": "DF-RVW-002",
+      "action": "New allocation; corpus scan found no prior RVW occurrences; external allocation history unavailable"
+    }
+  ]
+}

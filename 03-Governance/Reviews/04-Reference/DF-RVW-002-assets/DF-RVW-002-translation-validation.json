@@ -1,0 +1,29 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "edition": "1.0/2",
+  "date": "2026-09-30",
+  "scope": "English translation and related tracking only; not integrated framework validation",
+  "source_R1_sha256": "35427992dcc3929553b719fb07d2e52a4e6fc78f8cb3c98562dcfa22afe98829",
+  "report_R2_sha256": "b57d4e0c45b04bfd1b462a3f3ab3bb7e8f1eb8bacd2f33dced52735ed6b88ccd",
+  "checks": {
+    "eight_numbered_sections_preserved": true,
+    "all_20_finding_ids_ordered": true,
+    "finding_source_references_preserved": true,
+    "input_sha256_values_preserved": true,
+    "language_english_revision_2": true,
+    "identity_version_classification_lifecycle_preserved": true,
+    "finding_states_and_next_step_preserved": true,
+    "linked_policy_exists": true,
+    "historical_changelog_1_204_preserved": true,
+    "historical_milestones_M0_M7_preserved": true,
+    "source_R1_byte_copy_preserved": true,
+    "changelog_reverse_sequence_1_206": true,
+    "matrix_current_source_hashes": true,
+    "79_original_normalized_sources_unchanged": true
+  },
+  "findings": {
+    "Open": 19,
+    "Not applicable — scope decision": 1,
+    "Closed — verified": 0
+  }
+}

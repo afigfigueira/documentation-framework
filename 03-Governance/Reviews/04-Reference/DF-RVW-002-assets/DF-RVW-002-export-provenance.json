@@ -1,0 +1,19 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "current_report_edition": "1.0/2",
+  "historical_R1_exports": [
+    "DF-RVW-002-input-manifest.json",
+    "DF-RVW-002-evidence-step-2.json",
+    "DF-RVW-002-classificacao.csv",
+    "DF-RVW-002-allocation-map.json",
+    "DF-RVW-002-validation.json",
+    "DF-RVW-002-step-3.diff"
+  ],
+  "current_R2_exports": [
+    "DF-RVW-002-progress.csv",
+    "DF-RVW-002-current-manifest.json",
+    "DF-RVW-002-translation-R1-R2.diff",
+    "DF-RVW-002-translation-validation.json"
+  ],
+  "language_scope": "Only the report was translated; original export text retained"
+}
