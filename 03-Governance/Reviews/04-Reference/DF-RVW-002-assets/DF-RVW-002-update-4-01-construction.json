@@ -1,0 +1,22 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "edition": "1.0/4",
+  "scope": "Artifact construction and integrity checks only; not VALIDATE DOCUMENT",
+  "checks": {
+    "source_identity_path_retained": true,
+    "working_header_written": true,
+    "all_original_section_numbers_retained": true,
+    "44_view_ids_retained_once": true,
+    "new_source_authority_links_materialize": true,
+    "historical_input_hash_retained": true,
+    "78_unrelated_normalized_sources_unchanged": true,
+    "historical_changelog_rows_preserved": true,
+    "historical_M0_M7_preserved": true,
+    "changelog_reverse_sequence_1_213": true,
+    "matrix_current_hashes": true,
+    "89_stable_matrix_positions": true
+  },
+  "source_state": "Updated—pending validation",
+  "source_validation_performed": false,
+  "finding_closure": false
+}

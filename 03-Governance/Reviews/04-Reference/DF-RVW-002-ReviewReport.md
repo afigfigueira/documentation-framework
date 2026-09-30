@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 3 |
+| **Revision** | 4 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -23,6 +23,8 @@ Input: Context.zip SHA-256 `c1bd902ff053fedd8d87459d622dd36fd3f4a10e4b2392559627
 Revision 2 is the full English translation of the Portuguese Revision 1 requested by the user. It preserves the review decisions, evidence, finding states and next planned step. This compatible editorial change retains Version 1.0, Draft status and Baseline Not assigned. The scoped Step 3 results in this report describe the checks on the original batch; they do not silently extend that validation to a later edition. Translation checks and updated tracking are recorded separately in §7 and the edition history.
 
 Revision 3 adds the complete Step 4.01 REVIEW of DF-FND-004 in §9. This is a compatible informational report update, not a change to the report’s normative contract; Version remains 1.0. The reviewed Blueprint remains unchanged. Current review progress and finding totals are stated in §9.1.
+
+Revision 4 records the localized Step 4.01 UPDATE in §10. Sections 1–9 retain the historical Step 3, translation and REVIEW event scopes; §10 states the current source edition and finding states. The Blueprint now has Version 2.0 Revision 1 and is updated—pending validation.
 
 ## 2. Concrete changes — before/after
 
@@ -84,7 +86,7 @@ Steps 1–3 are complete within their stated scopes; Step 4 covers individual cy
 
 The attached matrix contains all 89 positions, input/current editions and hashes, REVIEW/UPDATE/VALIDATE, findings, CHANGELOG and Milestone. The classification table retains content-based proposals with application pending in the 79 original documents. The new supporting-document rows have been applied. Dependencies: Foundation before Architecture; identity/classification owners before consumers; Metadata divergences resolved with domain owners without copying examples into a canonical catalog.
 
-Current Step 4.01: REVIEW completed in §9; UPDATE and VALIDATE DOCUMENT remain pending. Next command: **UPDATE DF-FND-004**, received Version 1.0, Revision absent, Approved, Baseline 1.0. Proposed scope and compatibility assessment are stated in §9.4.
+Current Step 4.01: REVIEW completed in §9; UPDATE completed in §10; VALIDATE DOCUMENT pending. Next command: **VALIDATE DOCUMENT DF-FND-004**, current Version 2.0 Revision 1, Draft, Baseline Not assigned.
 
 ## 6. Scoped validation and evidence
 
@@ -96,7 +98,7 @@ Translation follow-up checks compare Revision 2 against the complete Portuguese 
 
 ## 7. Subordinate exports and traceability
 
-Files in `DF-RVW-002-assets/` are subordinate representations of this report's inventories and evidence: input manifest, thematic coverage, classification, progress matrix, allocation/impact map, current manifest, validation results and complete diffs. CSV/JSON/diff exports are not new normative sources or a parallel document series. The original Step 3 evidence and diff retain their R1 provenance; current tracking and manifest record report V1.0 R3. Historical translation tracking remains associated with R2. Translating the report does not imply that the historical exports have been translated. The current manifest identifies its parent and hashes sources/exports, excluding itself; the external receipt records the manifest and package hashes.
+Files in `DF-RVW-002-assets/` are subordinate representations of this report's inventories and evidence: input manifest, thematic coverage, classification, progress matrix, allocation/impact map, current manifest, validation results and complete diffs. CSV/JSON/diff exports are not new normative sources or a parallel document series. The original Step 3 evidence and diff retain their R1 provenance; current tracking and manifest record report V1.0 R4. Historical translation tracking remains associated with R2. Translating the report does not imply that the historical exports have been translated. The current manifest identifies its parent and hashes sources/exports, excluding itself; the external receipt records the manifest and package hashes.
 
 Original central records: #198 extends event types; #199 records policy creation pending validation; #200 report creation pending validation; #201 Milestones; #202 consolidation of earlier reviews; #203 scoped policy validation; #204 scoped validation of the remaining registers/evidence. Date: 2026-09-30; author: Codex — AI assistant. M8 establishes the input with explicit limits; M9 conventions/supporting documents/tracking, without source propagation; M10–M14 remain pending. These historical entries remain unchanged.
 
@@ -111,12 +113,13 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-09-30 | 1.0 | 1 | Created at Step 3.2; consolidated input, decisions, findings and plan; original language Portuguese | Draft; Baseline Not assigned; scoped validation recorded centrally without incrementing the source |
 | 2026-09-30 | 1.0 | 2 | Follow-up 3.2.1: full English translation of R1; Language Portuguese→English; compatible editorial change; review conclusions and finding states retained | Draft; Baseline Not assigned; update recorded pending validation in #205; subsequent scoped checks in #206 |
 | 2026-09-30 | 1.0 | 3 | Step 4.01: complete Blueprint REVIEW; nine findings and two warnings; current progress matrix expressed in technical English | Draft; Baseline Not assigned; compatible informational report update; Blueprint unchanged; #208 pending checks, #210 later integrity/traceability result |
+| 2026-09-30 | 1.0 | 4 | Step 4.01 UPDATE: report records Blueprint V2.0 R1, material before/after, update map and pending validation | Draft; Baseline Not assigned; compatible informational update; source findings Corrected—pending validation; #212 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
 ### 9.1. Reviewed edition, scope and outcome
 
-Reviewed source: `00-Foundation/DF-FND-004-ArchitecturalBlueprint.md`. Received/current edition: Version 1.0; Revision absent; Status Approved; Baseline 1.0; Author Arnaldo Figueira; Language English; SHA-256 `74a254092deebeb00151d6044b5e023b6cdcc2444de6e3c5082897d42ad35446`. Family and Type are absent. The complete 3,651-line, 77,493-byte source was read: all ten chapters, all tables and all 44 fenced diagrams. Chapter names and diagram IDs are recorded in the evidence export. Coverage of comparison sources is explicit; a full read for comparison does not complete those sources' scheduled document cycles.
+Reviewed source: `00-Foundation/DF-FND-004-ArchitecturalBlueprint.md`. Received/reviewed edition at the REVIEW event: Version 1.0; Revision absent; Status Approved; Baseline 1.0; Author Arnaldo Figueira; Language English; SHA-256 `74a254092deebeb00151d6044b5e023b6cdcc2444de6e3c5082897d42ad35446`. Family and Type are absent. The complete 3,651-line, 77,493-byte source was read: all ten chapters, all tables and all 44 fenced diagrams. Chapter names and diagram IDs are recorded in the evidence export. Coverage of comparison sources is explicit; a full read for comparison does not complete those sources' scheduled document cycles.
 
 Outcome: **REVIEW completed with nine findings and two warnings; all remain Open. UPDATE and VALIDATE DOCUMENT for DF-FND-004 have not been performed.** The source is byte-identical to the input edition. Its Author, Approved status and Baseline declaration are preserved as received evidence; this review does not renew approval or verify actual inclusion in Baseline 1.0. No document identity or path has changed.
 
@@ -304,3 +307,67 @@ New evidence exports are technical English and subordinate to report V1.0 R3. Ea
 ### 9.6. Next command
 
 **CONTINUAR** or **UPDATE DF-FND-004** executes the UPDATE phase of Step 4.01 only, using this review and showing exact changes, full updated source, edition assessment and tracking. It does not skip to Step 4.02 or automatically run VALIDATE DOCUMENT.
+
+## 10. Step 4.01 — UPDATE DF-FND-004 — Architectural Blueprint
+
+### 10.1. Applied edition and result
+
+The localized UPDATE is complete. Source path and Document ID remain `00-Foundation/DF-FND-004-ArchitecturalBlueprint.md` and DF-FND-004. Input Version 1.0, Revision absent, Approved, Baseline 1.0 becomes **Version 2.0, Revision 1, Draft, Baseline Not assigned**, Language English, Family Foundation, Type Architecture. No Component or Class is invented. Author records Arnaldo Figueira for the retained received contribution and Codex — AI assistant for this update; contribution, approval and responsibility attribution are distinct.
+
+Input SHA-256: `74a254092deebeb00151d6044b5e023b6cdcc2444de6e3c5082897d42ad35446`. Updated SHA-256: `941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6`. The input archive and review checkpoint retain the received bytes. Original numbered sections remain; 128 section bodies/headings were updated, the new Preservation subsection 1.7.5 was added, and sections 10.20/10.21 add the authority map and edition history. The 44 original view IDs remain, now represented as technical-English tables with explicit scope and relationship interpretation. CRLF is normalized to LF in this working edition; the textual diff normalizes both sides to avoid reporting every unchanged line as a formatting edit.
+
+**State: Updated—pending validation.** No VALIDATE DOCUMENT was executed, no finding was closed, no approval/publication was granted and no Baseline was created. The nine findings and two warnings from this document REVIEW are Corrected—pending validation. The 19 earlier cross-source/inventory findings remain Open; INV-02 remains Not applicable—scope decision. These are tracking records with overlapping root causes, not independent-root-cause counts.
+
+### 10.2. Compatibility decision
+
+The major Version increment is intentional. The received §3.12 interpreted current identity segments through mutable Family/Type; the new convention treats registered series as stable allocation namespaces and preserves permanent identity. The received §9.5 granted Metadata authority over all structural information; the updated contract confines Metadata to descriptive definitions/organization/value representation and retains domain semantics with their owners. Consumers that relied on the earlier current convention require reconciliation. This is an incompatible convention/authority change, even though no valid Document ID is renumbered.
+
+Revision 1 is the first declared working revision because the input has no Revision. It does not invent historical Revision 0. New content/edition does not inherit the received approval or Baseline declaration. This use of Version/Revision follows DF-RVW-001 §5 for the working review; the old edition’s declarations are preserved in the source history and input manifest. The report itself changes V1.0 R3→R4 as a compatible informational tracking update and remains Draft, Baseline Not assigned.
+
+### 10.3. Actual before/after map
+
+| Record | Applied sections | Before | After | State |
+|---|---|---|---|---|
+| FND004-01 | Header; §§2.5/3.6 | Family/Type absent; Version 1.0, Revision absent, Approved, Baseline 1.0 | Family Foundation; Type Architecture; Version 2.0 Revision 1 Draft; Baseline Not assigned | Corrected—pending validation |
+| FND004-02 | §§1.6–1.7; 4.3; 8.2–8.8/8.16/8.19; 10.3 | Four/five conceptual layers and ambiguous Baselines placement | Five explicit conceptual concerns, seven structural areas; Baselines primarily Governance and contributing to Preservation | Corrected—pending validation |
+| FND004-03 | §§1.5.3; 2.6; 3.5/3.11–3.14; 9.4 | META=Family, DCL=Type interpreted as current ID structure | Historical example qualified; stable DF-SSS-NNN allocation independent of mutable Family/Type; Domain+Identifier key; Title mutable | Corrected—pending validation |
+| FND004-04 | §§2.5; 3.3–3.7/3.16/3.19; 8.15; 9.5; 10.6 | Metadata is the official source of all structural information | Scoped descriptive authority; Dictionary defines, Schema organizes/references, Profile restricts, Instance carries edition values; domain owners retain semantics | Corrected—pending validation |
+| FND004-05 | All 44 views, particularly §8.11; summaries in §§8–10 | Unlabeled arrows used for different relations and dependency chain | Explicit view kind and relation direction; selected dependencies consumer→provider; no required adjacent-component chain or claimed global DAG | Corrected—pending validation |
+| FND004-06 | §§2.9–2.10/2.13; 5.4–5.16; 6.11–6.12; 9.10 | Relationships only represented in graph, also included in Registry Entry without provenance | Relationships owns typed records; Registry catalogs/projects with exact-edition provenance; graph is semantic network projection | Corrected—pending validation |
+| FND004-07 | §§2.11; 4.11; 6.3–6.12/6.15/6.18; 8.9–8.10; 9.16; 10.9 | Included Documents without explicit immutable editions; every change flow ends in Baseline | Exact-edition members, explicit approval and selection gates; old snapshots unchanged; Draft successors do not inherit membership | Corrected—pending validation |
+| FND004-08 | §§3.7; 4.5–4.10; 6.8 | Document/Revision/Baseline conflated; active state versus historical version state unclear | Document entity, Version/Revision edition, Status for applicable edition, independent collective Baseline; missing input Revision not invented | Corrected—pending validation |
+| FND004-09 | §§1.5.1; 2.1–2.3/2.7/2.13–2.16; 8.4; 10.3/10.17 | Document entities called capability components; META automatically normative; classification/review owners implicit | Entity/capability/role distinguished; Classification and Reviews explicit; META historical, not current Family/Type; functional-file exclusion explicit | Corrected—pending validation |
+| FND004-W01 | §§1.12; 8.17/8.18; 10.13/10.15/10.18/10.21 and adjacent summaries | Unqualified Mature/Consolidated assessments | Received assessments preserved historically; intended design distinguished from integrated conformity, release or implementation evidence | Corrected—pending validation |
+| FND004-W02 | §§1.10; 7.2–7.13/7.17–7.18; 10.17/10.20 | No responsibility/reference map; external operation boundary ambiguous | Actual source reference map added; DF/CMS/DMS/project roles distinguished; no unseen external specifications claimed reviewed | Corrected—pending validation |
+
+Material excerpts actually written to the source:
+
+- §3.12: “This edition preserves that example as historical evidence and replaces its use as a current identity-construction rule.” The table contrasts historical META-DCL-001 with current DF-SSS-NNN and retained DF-FND-004.
+- §9.5: “Metadata owns descriptive element definitions, organization and value representation; it references Identity, Classification and governance meanings rather than redefining them.”
+- §8.11: “A mandatory dependency identifies a consumer that requires a provider contract. Write its edge consumer→provider and record the contract, scope and justification.” The selected table includes Registry→Metadata and Knowledge Graph→Relationships, with contract kinds and justification; no global mandatory DAG is claimed.
+- §6.7, view ab6-2: “Included document editions” means “Document identity plus exact Version/Revision or immutable equivalent.”
+- §9.10: “Registry indexes and Knowledge Graph projections may expose repeated values or references with explicit provenance and source-edition synchronization.”
+
+The full diff includes removals, additions, tables and all updated views; the update map identifies changed sections and preserves view IDs. The original declaration “Relationships are represented only in the Knowledge Graph” is replaced by the scoped ownership/projection contract. The received maturity table is preserved as a historical assessment and qualified in §10.18 rather than promoted into a new verification result.
+
+### 10.4. Local history and central records
+
+New source §10.21 records the received V1.0 with Revision not declared, original contribution attribution and input hash; its original creation/approval date is explicitly unknown. The 2026-09-30 V2.0 R1 row records the assistant update, retained original contribution, incompatible convention decision and Draft/unassigned/pending-validation state. No history date or approval is invented.
+
+CHANGELOG #211 records the actual Blueprint UPDATE, V1.0/Revision absent→V2.0 R1, pending validation; #212 the report V1.0 R3→R4 and accompanying evidence; #213 current milestone tracking. These update events remain pending validation and are not rewritten as success events. Source VALIDATE DOCUMENT must add a later event on the exact updated hash.
+
+M10 remains In Progress. The Blueprint cycle remains S/Started, with current V2.0 R1 Draft and no completion date; the other five Foundation records remain O/Open. M9 identifies report R4 without changing its original acceptance scope; M0–M7 historical blocks and existing CHANGELOG rows remain preserved. No new milestone is created for this local edit.
+
+### 10.5. Localized rollout and evidence limits
+
+Only the Blueprint among the 79 original normalized sources is changed; the other 78 retain their input hashes. The six README files and eight-file non-normalization scope are unaffected. Report/central records and subordinate evidence are maintained as one traceable update batch. No document or path migration is applied.
+
+Detailed Identity, Classification, Architecture and Metadata sources have not yet incorporated all decisions; their recorded discrepancies remain open. The Blueprint reference map uses actual received paths, including encoded spaces for the existing DID filename. No canonical catalog/Profile, Metadata Element ID, Published lifecycle record, external implementation or new approved Baseline is fabricated.
+
+Artifact-construction checks confirm the requested working header was written, original section numbers and all 44 view IDs were retained, reference targets materialize, history input hash is preserved, unrelated normalized sources remain unchanged, central history is retained and the current matrix/manifest match the produced files. These are construction/integrity checks for delivery, **not VALIDATE DOCUMENT or semantic finding closure**. The next stage must inspect the complete new source against input and affected contracts, including the relationship directions and all related occurrences.
+
+Evidence exports under DF-RVW-002-assets belong to report V1.0 R4: update map, classification amendment, current progress matrix, update-construction receipt, current manifest and the full batch diff. Earlier review/translation/Step 3 evidence retains historical provenance. The checkpoint Context-Working-Step-4-01-Update.zip contains the full updated source, report, central registers and evidence; it is not the final Context-Reviewed.zip.
+
+### 10.6. Next command
+
+**CONTINUAR** or **VALIDATE DOCUMENT DF-FND-004** runs validation on Version 2.0 Revision 1 with its exact hash and affected-source comparisons. It does not advance to 4.02 or infer approval from a passing check. A failed check produces a traceable corrective successor; closure requires evidence from that validation stage.

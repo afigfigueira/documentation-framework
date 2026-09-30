@@ -1,0 +1,1104 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/4",
+  "step": "4.01 UPDATE",
+  "date": "2026-09-30",
+  "source": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+  "input_edition": {
+    "version": "1.0",
+    "revision": null,
+    "status": "Approved",
+    "baseline": "1.0",
+    "sha256": "74a254092deebeb00151d6044b5e023b6cdcc2444de6e3c5082897d42ad35446"
+  },
+  "resulting_edition": {
+    "version": "2.0",
+    "revision": 1,
+    "status": "Draft",
+    "baseline": "Not assigned",
+    "family": "Foundation",
+    "type": "Architecture",
+    "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6"
+  },
+  "identity_and_path_migration": "None; source identity/path retained",
+  "compatibility": "Incompatible identity-convention interpretation and semantic-authority change; major Version successor",
+  "section_changes": [
+    {
+      "section": "1.1",
+      "old_heading": "Introduction",
+      "new_heading": "Introduction",
+      "views_retained": []
+    },
+    {
+      "section": "1.5.1",
+      "old_heading": "Documentation is a system",
+      "new_heading": "Documentation is a system",
+      "views_retained": []
+    },
+    {
+      "section": "1.5.3",
+      "old_heading": "Permanent identity",
+      "new_heading": "Permanent identity",
+      "views_retained": []
+    },
+    {
+      "section": "1.6",
+      "old_heading": "Architecture Overview",
+      "new_heading": "Architecture Overview",
+      "views_retained": [
+        "ab1-1"
+      ]
+    },
+    {
+      "section": "1.7",
+      "old_heading": "Architectural Layers",
+      "new_heading": "Conceptual Views and Structural Organization",
+      "views_retained": []
+    },
+    {
+      "section": "1.7.1",
+      "old_heading": "Knowledge Layer",
+      "new_heading": "Knowledge Concern",
+      "views_retained": []
+    },
+    {
+      "section": "1.7.2",
+      "old_heading": "Documentation Layer",
+      "new_heading": "Documentation Concern",
+      "views_retained": []
+    },
+    {
+      "section": "1.7.3",
+      "old_heading": "Governance Layer",
+      "new_heading": "Governance Concern",
+      "views_retained": []
+    },
+    {
+      "section": "1.7.4",
+      "old_heading": "Discovery Layer",
+      "new_heading": "Discovery Concern",
+      "views_retained": []
+    },
+    {
+      "section": "1.10",
+      "old_heading": "Relationship with Other Systems",
+      "new_heading": "Relationship with Other Systems",
+      "views_retained": [
+        "ab1-2"
+      ]
+    },
+    {
+      "section": "1.12",
+      "old_heading": "Current State",
+      "new_heading": "Current State",
+      "views_retained": []
+    },
+    {
+      "section": "2.1",
+      "old_heading": "Introduction",
+      "new_heading": "Introduction",
+      "views_retained": []
+    },
+    {
+      "section": "2.2",
+      "old_heading": "Component Overview",
+      "new_heading": "Component Overview",
+      "views_retained": [
+        "ab2-1"
+      ]
+    },
+    {
+      "section": "2.3",
+      "old_heading": "Documents",
+      "new_heading": "Documents",
+      "views_retained": []
+    },
+    {
+      "section": "2.5",
+      "old_heading": "Metadata",
+      "new_heading": "Metadata",
+      "views_retained": []
+    },
+    {
+      "section": "2.6",
+      "old_heading": "Document Identity",
+      "new_heading": "Document Identity",
+      "views_retained": []
+    },
+    {
+      "section": "2.7",
+      "old_heading": "META Documents",
+      "new_heading": "Framework Documents and the Historical META Designation",
+      "views_retained": []
+    },
+    {
+      "section": "2.8",
+      "old_heading": "Workflow",
+      "new_heading": "Workflow",
+      "views_retained": [
+        "ab2-2"
+      ]
+    },
+    {
+      "section": "2.9",
+      "old_heading": "Registry",
+      "new_heading": "Registry",
+      "views_retained": []
+    },
+    {
+      "section": "2.10",
+      "old_heading": "Knowledge Graph",
+      "new_heading": "Knowledge Graph",
+      "views_retained": []
+    },
+    {
+      "section": "2.11",
+      "old_heading": "Baselines",
+      "new_heading": "Baselines",
+      "views_retained": []
+    },
+    {
+      "section": "2.13",
+      "old_heading": "Relationships",
+      "new_heading": "Relationships",
+      "views_retained": [
+        "ab2-3"
+      ]
+    },
+    {
+      "section": "2.14",
+      "old_heading": "Supporting Components",
+      "new_heading": "Supporting Mechanisms",
+      "views_retained": []
+    },
+    {
+      "section": "2.15",
+      "old_heading": "Separation of Responsibilities",
+      "new_heading": "Separation of Responsibilities",
+      "views_retained": []
+    },
+    {
+      "section": "2.16",
+      "old_heading": "Component Interaction",
+      "new_heading": "Component Interaction",
+      "views_retained": [
+        "ab2-4"
+      ]
+    },
+    {
+      "section": "2.18",
+      "old_heading": "Conclusion",
+      "new_heading": "Conclusion",
+      "views_retained": []
+    },
+    {
+      "section": "3.3",
+      "old_heading": "The Role of Metadata",
+      "new_heading": "The Role of Metadata",
+      "views_retained": [
+        "ab3-1"
+      ]
+    },
+    {
+      "section": "3.4",
+      "old_heading": "Conceptual Structure",
+      "new_heading": "Conceptual Structure",
+      "views_retained": [
+        "ab3-2"
+      ]
+    },
+    {
+      "section": "3.5",
+      "old_heading": "Identification",
+      "new_heading": "Identification",
+      "views_retained": []
+    },
+    {
+      "section": "3.6",
+      "old_heading": "Classification",
+      "new_heading": "Classification",
+      "views_retained": []
+    },
+    {
+      "section": "3.7",
+      "old_heading": "Lifecycle",
+      "new_heading": "Edition and Lifecycle",
+      "views_retained": []
+    },
+    {
+      "section": "3.8",
+      "old_heading": "Ownership",
+      "new_heading": "Responsibilities and Attribution",
+      "views_retained": []
+    },
+    {
+      "section": "3.10",
+      "old_heading": "Technical Information",
+      "new_heading": "Technical and Context Information",
+      "views_retained": []
+    },
+    {
+      "section": "3.11",
+      "old_heading": "Document Identity",
+      "new_heading": "Document Identity",
+      "views_retained": []
+    },
+    {
+      "section": "3.12",
+      "old_heading": "Document ID Structure",
+      "new_heading": "Document ID Structure",
+      "views_retained": [
+        "ab3-3"
+      ]
+    },
+    {
+      "section": "3.13",
+      "old_heading": "Identity Properties",
+      "new_heading": "Identity Properties",
+      "views_retained": []
+    },
+    {
+      "section": "3.14",
+      "old_heading": "Relationship Between Metadata and Identity",
+      "new_heading": "Relationship Between Metadata and Identity",
+      "views_retained": [
+        "ab3-4"
+      ]
+    },
+    {
+      "section": "3.16",
+      "old_heading": "Usage by the Remaining Components",
+      "new_heading": "Usage by Other Components",
+      "views_retained": []
+    },
+    {
+      "section": "3.18",
+      "old_heading": "Architectural View",
+      "new_heading": "Architectural View",
+      "views_retained": [
+        "ab3-5"
+      ]
+    },
+    {
+      "section": "4.3",
+      "old_heading": "Governance Architecture",
+      "new_heading": "Governance Architecture",
+      "views_retained": [
+        "ab4-1"
+      ]
+    },
+    {
+      "section": "4.4",
+      "old_heading": "Workflow",
+      "new_heading": "Workflow",
+      "views_retained": []
+    },
+    {
+      "section": "4.5",
+      "old_heading": "Document States",
+      "new_heading": "Document Edition States",
+      "views_retained": [
+        "ab4-2"
+      ]
+    },
+    {
+      "section": "4.6",
+      "old_heading": "States and Lifecycle",
+      "new_heading": "States and Lifecycle",
+      "views_retained": []
+    },
+    {
+      "section": "4.7",
+      "old_heading": "Transitions",
+      "new_heading": "Transitions",
+      "views_retained": [
+        "ab4-3",
+        "ab4-4"
+      ]
+    },
+    {
+      "section": "4.9",
+      "old_heading": "Responsibilities",
+      "new_heading": "Responsibilities",
+      "views_retained": [
+        "ab4-5"
+      ]
+    },
+    {
+      "section": "4.10",
+      "old_heading": "Versioning",
+      "new_heading": "Versioning",
+      "views_retained": []
+    },
+    {
+      "section": "4.11",
+      "old_heading": "Baselines",
+      "new_heading": "Baselines",
+      "views_retained": []
+    },
+    {
+      "section": "4.13",
+      "old_heading": "Integration with the CMS",
+      "new_heading": "Integration with the CMS",
+      "views_retained": [
+        "ab4-6"
+      ]
+    },
+    {
+      "section": "4.14",
+      "old_heading": "Integration with Metadata",
+      "new_heading": "Integration with Metadata",
+      "views_retained": []
+    },
+    {
+      "section": "4.17",
+      "old_heading": "Architectural View",
+      "new_heading": "Architectural View",
+      "views_retained": [
+        "ab4-7"
+      ]
+    },
+    {
+      "section": "5.1",
+      "old_heading": "Introduction",
+      "new_heading": "Introduction",
+      "views_retained": []
+    },
+    {
+      "section": "5.3",
+      "old_heading": "Conceptual Architecture",
+      "new_heading": "Conceptual Architecture",
+      "views_retained": [
+        "ab5-1"
+      ]
+    },
+    {
+      "section": "5.4",
+      "old_heading": "Registry",
+      "new_heading": "Registry",
+      "views_retained": []
+    },
+    {
+      "section": "5.5",
+      "old_heading": "Registry Responsibilities",
+      "new_heading": "Registry Responsibilities",
+      "views_retained": []
+    },
+    {
+      "section": "5.6",
+      "old_heading": "Conceptual Structure",
+      "new_heading": "Conceptual Structure",
+      "views_retained": [
+        "ab5-2"
+      ]
+    },
+    {
+      "section": "5.7",
+      "old_heading": "Physical Independence",
+      "new_heading": "Physical Independence",
+      "views_retained": []
+    },
+    {
+      "section": "5.9",
+      "old_heading": "Knowledge Graph",
+      "new_heading": "Knowledge Graph",
+      "views_retained": []
+    },
+    {
+      "section": "5.10",
+      "old_heading": "Documents as Nodes",
+      "new_heading": "Documents as Nodes",
+      "views_retained": [
+        "ab5-3"
+      ]
+    },
+    {
+      "section": "5.11",
+      "old_heading": "Relationships as Edges",
+      "new_heading": "Relationships as Edges",
+      "views_retained": [
+        "ab5-4"
+      ]
+    },
+    {
+      "section": "5.12.2",
+      "old_heading": "Dependency",
+      "new_heading": "Dependency",
+      "views_retained": []
+    },
+    {
+      "section": "5.13",
+      "old_heading": "Semantic Navigation",
+      "new_heading": "Semantic Navigation",
+      "views_retained": [
+        "ab5-5"
+      ]
+    },
+    {
+      "section": "5.15",
+      "old_heading": "Integration Between the Registry and the Knowledge Graph",
+      "new_heading": "Integration Between Registry and Knowledge Graph",
+      "views_retained": [
+        "ab5-6"
+      ]
+    },
+    {
+      "section": "5.16",
+      "old_heading": "Integration with Metadata",
+      "new_heading": "Integration with Metadata",
+      "views_retained": []
+    },
+    {
+      "section": "5.19",
+      "old_heading": "Architectural View",
+      "new_heading": "Architectural View",
+      "views_retained": [
+        "ab5-7"
+      ]
+    },
+    {
+      "section": "5.20",
+      "old_heading": "Conclusion",
+      "new_heading": "Conclusion",
+      "views_retained": []
+    },
+    {
+      "section": "6.3",
+      "old_heading": "Baseline Concept",
+      "new_heading": "Baseline Concept",
+      "views_retained": [
+        "ab6-1"
+      ]
+    },
+    {
+      "section": "6.4",
+      "old_heading": "Baseline as a Snapshot",
+      "new_heading": "Baseline as a Snapshot",
+      "views_retained": []
+    },
+    {
+      "section": "6.6",
+      "old_heading": "Inclusion Criteria",
+      "new_heading": "Inclusion Criteria",
+      "views_retained": []
+    },
+    {
+      "section": "6.7",
+      "old_heading": "Conceptual Structure",
+      "new_heading": "Conceptual Structure",
+      "views_retained": [
+        "ab6-2"
+      ]
+    },
+    {
+      "section": "6.8",
+      "old_heading": "Versioning",
+      "new_heading": "Versioning",
+      "views_retained": []
+    },
+    {
+      "section": "6.8.1",
+      "old_heading": "Document",
+      "new_heading": "Version",
+      "views_retained": []
+    },
+    {
+      "section": "6.8.2",
+      "old_heading": "Revision",
+      "new_heading": "Revision",
+      "views_retained": []
+    },
+    {
+      "section": "6.8.3",
+      "old_heading": "Baseline",
+      "new_heading": "Baseline",
+      "views_retained": []
+    },
+    {
+      "section": "6.9",
+      "old_heading": "Independence",
+      "new_heading": "Independence",
+      "views_retained": []
+    },
+    {
+      "section": "6.11",
+      "old_heading": "Integration with the Registry",
+      "new_heading": "Integration with Registry",
+      "views_retained": []
+    },
+    {
+      "section": "6.12",
+      "old_heading": "Integration with the Knowledge Graph",
+      "new_heading": "Integration with Knowledge Graph",
+      "views_retained": []
+    },
+    {
+      "section": "6.15",
+      "old_heading": "Relationship with the CMS",
+      "new_heading": "Relationship with CMS",
+      "views_retained": [
+        "ab6-3"
+      ]
+    },
+    {
+      "section": "6.18",
+      "old_heading": "Architectural View",
+      "new_heading": "Architectural View",
+      "views_retained": [
+        "ab6-4"
+      ]
+    },
+    {
+      "section": "6.19",
+      "old_heading": "Conclusion",
+      "new_heading": "Conclusion",
+      "views_retained": []
+    },
+    {
+      "section": "7.2",
+      "old_heading": "Principle of Independence",
+      "new_heading": "Principle of Independence",
+      "views_retained": []
+    },
+    {
+      "section": "7.3",
+      "old_heading": "Integration Architecture",
+      "new_heading": "Integration Architecture",
+      "views_retained": [
+        "ab7-1"
+      ]
+    },
+    {
+      "section": "7.5",
+      "old_heading": "Information Flow",
+      "new_heading": "Information Flow",
+      "views_retained": [
+        "ab7-2"
+      ]
+    },
+    {
+      "section": "7.6",
+      "old_heading": "Integration with the CMS",
+      "new_heading": "Integration with CMS",
+      "views_retained": [
+        "ab7-3"
+      ]
+    },
+    {
+      "section": "7.10",
+      "old_heading": "Integration with Tools",
+      "new_heading": "Integration with Tools",
+      "views_retained": []
+    },
+    {
+      "section": "7.11",
+      "old_heading": "Conceptual Interfaces",
+      "new_heading": "Conceptual Interfaces",
+      "views_retained": []
+    },
+    {
+      "section": "7.12",
+      "old_heading": "Global Knowledge Flow",
+      "new_heading": "Knowledge Contributions",
+      "views_retained": [
+        "ab7-4"
+      ]
+    },
+    {
+      "section": "7.13",
+      "old_heading": "Separation of Responsibilities",
+      "new_heading": "Separation of Responsibilities",
+      "views_retained": []
+    },
+    {
+      "section": "7.17",
+      "old_heading": "Architectural View",
+      "new_heading": "Architectural View",
+      "views_retained": [
+        "ab7-5"
+      ]
+    },
+    {
+      "section": "8.2",
+      "old_heading": "Overall View",
+      "new_heading": "Overall View",
+      "views_retained": [
+        "ab8-1"
+      ]
+    },
+    {
+      "section": "8.3",
+      "old_heading": "Knowledge Layer",
+      "new_heading": "Knowledge Concern",
+      "views_retained": []
+    },
+    {
+      "section": "8.4",
+      "old_heading": "Documentation Layer",
+      "new_heading": "Documentation Concern",
+      "views_retained": []
+    },
+    {
+      "section": "8.5",
+      "old_heading": "Governance Layer",
+      "new_heading": "Governance Concern",
+      "views_retained": []
+    },
+    {
+      "section": "8.6",
+      "old_heading": "Discovery Layer",
+      "new_heading": "Discovery Concern",
+      "views_retained": []
+    },
+    {
+      "section": "8.7",
+      "old_heading": "Preservation Layer",
+      "new_heading": "Preservation Concern",
+      "views_retained": []
+    },
+    {
+      "section": "8.8",
+      "old_heading": "Architectural Flow",
+      "new_heading": "Conceptual Participation",
+      "views_retained": [
+        "ab8-2"
+      ]
+    },
+    {
+      "section": "8.9",
+      "old_heading": "Knowledge Lifecycle",
+      "new_heading": "Knowledge and Edition Progression",
+      "views_retained": [
+        "ab8-3"
+      ]
+    },
+    {
+      "section": "8.10",
+      "old_heading": "Evolution Flow",
+      "new_heading": "Evolution Activities",
+      "views_retained": [
+        "ab8-4"
+      ]
+    },
+    {
+      "section": "8.11",
+      "old_heading": "Architectural Dependencies",
+      "new_heading": "Architectural Dependencies",
+      "views_retained": [
+        "ab8-5"
+      ]
+    },
+    {
+      "section": "8.12",
+      "old_heading": "Independent Components",
+      "new_heading": "Independent Components",
+      "views_retained": []
+    },
+    {
+      "section": "8.15",
+      "old_heading": "Global Consistency",
+      "new_heading": "Global Consistency",
+      "views_retained": []
+    },
+    {
+      "section": "8.16",
+      "old_heading": "Layered Architecture",
+      "new_heading": "Conceptual Views and Structural Allocation",
+      "views_retained": [
+        "ab8-6"
+      ]
+    },
+    {
+      "section": "8.17",
+      "old_heading": "Architectural Characteristics",
+      "new_heading": "Architectural Characteristics",
+      "views_retained": []
+    },
+    {
+      "section": "8.19",
+      "old_heading": "Consolidated View",
+      "new_heading": "Consolidated View",
+      "views_retained": [
+        "ab8-7"
+      ]
+    },
+    {
+      "section": "8.20",
+      "old_heading": "Conclusion",
+      "new_heading": "Conclusion",
+      "views_retained": []
+    },
+    {
+      "section": "9.3",
+      "old_heading": "Principle of Separation of Responsibilities",
+      "new_heading": "Principle of Separation of Responsibilities",
+      "views_retained": []
+    },
+    {
+      "section": "9.4",
+      "old_heading": "Principle of Permanent Identity",
+      "new_heading": "Principle of Permanent Identity",
+      "views_retained": []
+    },
+    {
+      "section": "9.5",
+      "old_heading": "Principle of Metadata as the Source of Truth",
+      "new_heading": "Principle of Scoped Semantic Authority",
+      "views_retained": []
+    },
+    {
+      "section": "9.9",
+      "old_heading": "Principle of Traceability",
+      "new_heading": "Principle of Traceability",
+      "views_retained": []
+    },
+    {
+      "section": "9.10",
+      "old_heading": "Principle of Non-Redundancy",
+      "new_heading": "Principle of Non-Redundant Definitions",
+      "views_retained": []
+    },
+    {
+      "section": "9.16",
+      "old_heading": "Principle of Historical Preservation",
+      "new_heading": "Principle of Historical Preservation",
+      "views_retained": []
+    },
+    {
+      "section": "9.18",
+      "old_heading": "Overall Philosophy",
+      "new_heading": "Overall Philosophy",
+      "views_retained": [
+        "ab9-1"
+      ]
+    },
+    {
+      "section": "10.3",
+      "old_heading": "Consolidated Architecture",
+      "new_heading": "Consolidated Architecture",
+      "views_retained": [
+        "ab10-1"
+      ]
+    },
+    {
+      "section": "10.4",
+      "old_heading": "Complete Architectural Flow",
+      "new_heading": "Knowledge and Edition Activities",
+      "views_retained": [
+        "ab10-2"
+      ]
+    },
+    {
+      "section": "10.6",
+      "old_heading": "The Role of Metadata",
+      "new_heading": "The Role of Metadata",
+      "views_retained": []
+    },
+    {
+      "section": "10.7",
+      "old_heading": "The Role of Governance",
+      "new_heading": "The Role of Governance",
+      "views_retained": []
+    },
+    {
+      "section": "10.8",
+      "old_heading": "The Role of Discovery",
+      "new_heading": "The Role of Discovery",
+      "views_retained": []
+    },
+    {
+      "section": "10.9",
+      "old_heading": "The Role of Baselines",
+      "new_heading": "The Role of Baselines",
+      "views_retained": []
+    },
+    {
+      "section": "10.13",
+      "old_heading": "Architectural Characteristics",
+      "new_heading": "Architectural Characteristics",
+      "views_retained": []
+    },
+    {
+      "section": "10.15",
+      "old_heading": "Architecture as Infrastructure",
+      "new_heading": "Architecture as Reusable Infrastructure",
+      "views_retained": []
+    },
+    {
+      "section": "10.17",
+      "old_heading": "Blueprint Closure",
+      "new_heading": "Blueprint Role and Authority",
+      "views_retained": []
+    },
+    {
+      "section": "10.18",
+      "old_heading": "Final Summary",
+      "new_heading": "Architectural Assessment and Verification Scope",
+      "views_retained": []
+    },
+    {
+      "section": "1.13",
+      "old_heading": "Conclusion",
+      "new_heading": "Conclusion",
+      "views_retained": []
+    },
+    {
+      "section": "3.19",
+      "old_heading": "Conclusion",
+      "new_heading": "Conclusion",
+      "views_retained": []
+    },
+    {
+      "section": "4.18",
+      "old_heading": "Conclusion",
+      "new_heading": "Conclusion",
+      "views_retained": []
+    },
+    {
+      "section": "7.18",
+      "old_heading": "Conclusion",
+      "new_heading": "Conclusion",
+      "views_retained": []
+    },
+    {
+      "section": "8.18",
+      "old_heading": "Architecture as a System",
+      "new_heading": "Architecture as a Conceptual System",
+      "views_retained": []
+    },
+    {
+      "section": "9.20",
+      "old_heading": "Conclusion",
+      "new_heading": "Conclusion",
+      "views_retained": []
+    },
+    {
+      "section": "10.19",
+      "old_heading": "Conclusion",
+      "new_heading": "Conclusion",
+      "views_retained": []
+    }
+  ],
+  "view_ids": [
+    "ab1-1",
+    "ab1-2",
+    "ab2-1",
+    "ab2-2",
+    "ab2-3",
+    "ab2-4",
+    "ab3-1",
+    "ab3-2",
+    "ab3-3",
+    "ab3-4",
+    "ab3-5",
+    "ab4-1",
+    "ab4-2",
+    "ab4-3",
+    "ab4-4",
+    "ab4-5",
+    "ab4-6",
+    "ab4-7",
+    "ab5-1",
+    "ab5-2",
+    "ab5-3",
+    "ab5-4",
+    "ab5-5",
+    "ab5-6",
+    "ab5-7",
+    "ab6-1",
+    "ab6-2",
+    "ab6-3",
+    "ab6-4",
+    "ab7-1",
+    "ab7-2",
+    "ab7-3",
+    "ab7-4",
+    "ab7-5",
+    "ab8-1",
+    "ab8-2",
+    "ab8-3",
+    "ab8-4",
+    "ab8-5",
+    "ab8-6",
+    "ab8-7",
+    "ab9-1",
+    "ab10-1",
+    "ab10-2"
+  ],
+  "applied_map": [
+    {
+      "record": "FND004-01",
+      "sections": "Header; §§2.5/3.6",
+      "before": "Family/Type absent; Version 1.0, Revision absent, Approved, Baseline 1.0",
+      "after": "Family Foundation; Type Architecture; Version 2.0 Revision 1 Draft; Baseline Not assigned"
+    },
+    {
+      "record": "FND004-02",
+      "sections": "§§1.6–1.7; 4.3; 8.2–8.8/8.16/8.19; 10.3",
+      "before": "Four/five conceptual layers and ambiguous Baselines placement",
+      "after": "Five explicit conceptual concerns, seven structural areas; Baselines primarily Governance and contributing to Preservation"
+    },
+    {
+      "record": "FND004-03",
+      "sections": "§§1.5.3; 2.6; 3.5/3.11–3.14; 9.4",
+      "before": "META=Family, DCL=Type interpreted as current ID structure",
+      "after": "Historical example qualified; stable DF-SSS-NNN allocation independent of mutable Family/Type; Domain+Identifier key; Title mutable"
+    },
+    {
+      "record": "FND004-04",
+      "sections": "§§2.5; 3.3–3.7/3.16/3.19; 8.15; 9.5; 10.6",
+      "before": "Metadata is the official source of all structural information",
+      "after": "Scoped descriptive authority; Dictionary defines, Schema organizes/references, Profile restricts, Instance carries edition values; domain owners retain semantics"
+    },
+    {
+      "record": "FND004-05",
+      "sections": "All 44 views, particularly §8.11; summaries in §§8–10",
+      "before": "Unlabeled arrows used for different relations and dependency chain",
+      "after": "Explicit view kind and relation direction; selected dependencies consumer→provider; no required adjacent-component chain or claimed global DAG"
+    },
+    {
+      "record": "FND004-06",
+      "sections": "§§2.9–2.10/2.13; 5.4–5.16; 6.11–6.12; 9.10",
+      "before": "Relationships only represented in graph, also included in Registry Entry without provenance",
+      "after": "Relationships owns typed records; Registry catalogs/projects with exact-edition provenance; graph is semantic network projection"
+    },
+    {
+      "record": "FND004-07",
+      "sections": "§§2.11; 4.11; 6.3–6.12/6.15/6.18; 8.9–8.10; 9.16; 10.9",
+      "before": "Included Documents without explicit immutable editions; every change flow ends in Baseline",
+      "after": "Exact-edition members, explicit approval and selection gates; old snapshots unchanged; Draft successors do not inherit membership"
+    },
+    {
+      "record": "FND004-08",
+      "sections": "§§3.7; 4.5–4.10; 6.8",
+      "before": "Document/Revision/Baseline conflated; active state versus historical version state unclear",
+      "after": "Document entity, Version/Revision edition, Status for applicable edition, independent collective Baseline; missing input Revision not invented"
+    },
+    {
+      "record": "FND004-09",
+      "sections": "§§1.5.1; 2.1–2.3/2.7/2.13–2.16; 8.4; 10.3/10.17",
+      "before": "Document entities called capability components; META automatically normative; classification/review owners implicit",
+      "after": "Entity/capability/role distinguished; Classification and Reviews explicit; META historical, not current Family/Type; functional-file exclusion explicit"
+    },
+    {
+      "record": "FND004-W01",
+      "sections": "§§1.12; 8.17/8.18; 10.13/10.15/10.18/10.21 and adjacent summaries",
+      "before": "Unqualified Mature/Consolidated assessments",
+      "after": "Received assessments preserved historically; intended design distinguished from integrated conformity, release or implementation evidence"
+    },
+    {
+      "record": "FND004-W02",
+      "sections": "§§1.10; 7.2–7.13/7.17–7.18; 10.17/10.20",
+      "before": "No responsibility/reference map; external operation boundary ambiguous",
+      "after": "Actual source reference map added; DF/CMS/DMS/project roles distinguished; no unseen external specifications claimed reviewed"
+    }
+  ],
+  "findings": [
+    {
+      "id": "FND004-01",
+      "kind": "Finding",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "Header conforms to the adopted four-value Type rule; the input edition remains traceable; no normalization fields are imposed on the eight functional files.",
+      "related_records": "INV-06; REV2-03/12"
+    },
+    {
+      "id": "FND004-02",
+      "kind": "Finding",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "All affected prose, summaries and diagrams label their view; one primary allocation per component; no new Knowledge or Preservation structural Layer is created by a conceptual view. ARC-004 count correction remains assigned to its own cycle.",
+      "related_records": "REV2-01; INV-04"
+    },
+    {
+      "id": "FND004-03",
+      "kind": "Finding",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "No current identity construction/validation depends on mutable classification; history is explicitly qualified; DF-FND-004 retains its ID; no global CLS-001 alias is introduced. Detailed representation ownership remains with Document Identity.",
+      "related_records": "REV2-04; INV-01/REV2-05"
+    },
+    {
+      "id": "FND004-04",
+      "kind": "Finding",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "Each responsibility is assigned to an explicit owner; §9.5 and summaries no longer make Metadata the owner of every domain definition; the overview agrees with the adopted descriptor/schema/profile/instance distinction. MTD-003 Schema-defines-elements discrepancies and the incomplete catalog remain open until their own cycles.",
+      "related_records": "REV2-06/07/08"
+    },
+    {
+      "id": "FND004-05",
+      "kind": "Finding",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "Dependency direction agrees with consumption statements; conceptual refinement, overview reference, lifecycle and navigation are distinct relationship kinds. No mandatory DAG or inter-layer consistency is declared until affected ARC/MTD contracts are reconciled.",
+      "related_records": "REV2-02"
+    },
+    {
+      "id": "FND004-06",
+      "kind": "Finding",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "No competing owners for relationship semantics; Registry/Knowledge Graph representations have explicit provenance and synchronization rules at contract level. Registry does not redefine Identity or Classification. Legitimate projections are not called semantic duplication.",
+      "related_records": "REV2-02/06; related REV2-09/10"
+    },
+    {
+      "id": "FND004-07",
+      "kind": "Finding",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "A prior approved edition can remain in an immutable Baseline while a new working edition is Draft and unassigned; later edits do not retarget the snapshot; no Baseline or approval record is fabricated. The Blueprint defines the conceptual contract, not a storage schema.",
+      "related_records": "Related REV2-10; DF-RVW-001 §5.3"
+    },
+    {
+      "id": "FND004-08",
+      "kind": "Finding",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "Version/Revision/Status/Baseline retain distinct meanings across all affected paragraphs and diagrams; future working corrections do not rewrite the received Approved/Baseline 1.0 evidence. No historical Revision 0 is invented for this source.",
+      "related_records": "Related REV2-10; DF-RVW-001 §5"
+    },
+    {
+      "id": "FND004-09",
+      "kind": "Finding",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "Document entities are not mistaken for new capability components; classification/quality assurance owners are visible; no Type Base/Core/META is created; the eight functional-file exclusions remain explicit. Detailed component enumeration stays owned by Architecture.",
+      "related_records": "REV2-03/08/12"
+    },
+    {
+      "id": "FND004-W01",
+      "kind": "Warning",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "The working edition does not present this review as proof of maturity, full conformance or operational implementation. Historical assessments remain traceable.",
+      "related_records": "REV2-07; other open review findings"
+    },
+    {
+      "id": "FND004-W02",
+      "kind": "Warning",
+      "state": "Corrected—pending validation",
+      "proposal_applied": true,
+      "validation_performed": false,
+      "closure_criterion": "All newly added references resolve to the intended current source paths; responsibility boundaries are explicit and implementation independence is preserved. No unseen external DMS/CMS specification is claimed as reviewed.",
+      "related_records": "DF-FND-001 §13; related REV2-08"
+    }
+  ],
+  "record_totals": {
+    "Open": 19,
+    "Corrected—pending validation": 11,
+    "Not applicable—scope decision": 1,
+    "Closed—verified": 0
+  },
+  "validation": "Not performed; next stage must inspect exact updated edition and affected contracts"
+}
