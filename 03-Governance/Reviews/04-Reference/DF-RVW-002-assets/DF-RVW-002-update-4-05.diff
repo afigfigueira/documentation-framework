@@ -1,0 +1,3035 @@
+--- before-4.05-UPDATE/Context/00-Foundation/DF-FND-002-ResearchJournal.md
++++ after-4.05-UPDATE/Context/00-Foundation/DF-FND-002-ResearchJournal.md
+@@ -7,22 +7,37 @@
+ |----------|-------|
+ | **Document ID** | DF-FND-002 |
+ | **Title** | Research Journal |
+-| **Author** | Arnaldo Figueira |
+-| **Status** | Approved |
++| **Family** | Foundation |
++| **Type** | Reference |
++| **Author** | Arnaldo Figueira; Codex — AI assistant (working update) |
++| **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Baseline** | 1.0 |
++| **Revision** | 1 |
++| **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+ 
+ 
+ ---
+ 
++## Working edition scope
++
++This Reference document preserves the received research record: questions, hypotheses, experiments described narratively, observations and conclusions. Its twelve phases are qualitative narrative order, not independently verified dated entries. No underlying experiment logs, assessment dates, implementation evidence, benchmarks or first-Baseline selection records were supplied. Received statements of discovery, benefits, scale, maturity and completeness are historical assessments rather than verified current operational results.
++
++Historical examples and earlier conventions remain visible. Where interpretation differs from the adopted review rules, sections explicitly label the received account and add current interpretation notes referring to the sources in §12.20. Those notes summarize existing owner responsibilities; this journal does not establish a new normative architecture contract, complete lifecycle policy, external specification or executable evolution plan. Future research directions remain non-binding possibilities.
++
++This working edition is V1.0 R1 Draft, Baseline Not assigned, with ten corrections pending VALIDATE DOCUMENT. Received Approved/Baseline 1.0 declarations and absent Revision are preserved in §12.21; no historical Revision 0 or approval date is inferred. Arnaldo Figueira retains the received contribution; Codex — AI assistant performed this working update. User authorization, authorship, review, validation and approval are distinct. Later edits on disk require assessment of the actual resulting bytes; prior evidence does not automatically cover the changed product or allocate responsibility for its consequences.
++
++---
++
+ # 1. The Origin of the Need
+ 
+ ---
+ 
+ ## 1.1. Introduction
+ 
++**Received research account — historical interpretation.**
++
+ This document constitutes the chronological record of the research that led to the emergence of the **Documentation Framework**.
+ 
+ Unlike a technical specification, this journal is not intended to describe the final architecture of the system.
+@@ -42,6 +57,8 @@
+ As happened with the VisualEngine, most of the solutions described here were not designed in advance.
+ 
+ They were discovered progressively.
++
++**Current interpretation note.** The word chronological describes the received narrative progression. Dates and experiment evidence are not supplied; the actual dated UPDATE event is separate in §12.21. Current architectural definitions belong to their owner sources (§12.20), not to historical research conclusions.
+ 
+ ---
+ 
+@@ -145,21 +162,20 @@
+ 
+ For example.
+ 
+-```text
+-
+-                    docs/
+-
+-                    README.md
+-
+-                    Architecture.md
+-
+-                    Design.md
+-
+-                    Notes.md
+-
+-                    Todo.md
+-
+-```
++<!-- original-section-view: 1.7 -->
++**Previously unnamed view in §1.7 — Historical file-list example.**
++
++Physical names; not normalized allocations or dependencies.
++
++| Position | Received term |
++| --- | --- |
++| 1 | docs/ |
++| 2 | README.md |
++| 3 | Architecture.md |
++| 4 | Design.md |
++| 5 | Notes.md |
++| 6 | Todo.md |
++<!-- end-original-section-view -->
+ 
+ Although functional.
+ 
+@@ -209,6 +225,8 @@
+ 
+ ## 1.10. The Need for Identity
+ 
++**Received research account — historical interpretation.**
++
+ As the documentation grew, it also became difficult to reference documents consistently.
+ 
+ Names varied.
+@@ -225,26 +243,26 @@
+ 
+ This idea would be developed later.
+ 
++**Current interpretation note.** Permanent identity is the logical key of a normalized document. Functional files are outside normalization scope; the current rule is stated in §4.15. Historical aspirations for every document do not allocate IDs to README files.
++
+ ---
+ 
+ ## 1.11. The Natural Evolution
+ 
+ Up to this point, the evolution can be summarised as follows.
+ 
+-```text
+-
+-                  Notes
+-                    ↓
+-
+-                Documents
+-                    ↓
+-
+-            Document Collection
+-                    ↓
+-
+-            Need for Organization
+-
+-```
++<!-- original-section-view: 1.11 -->
++**Previously unnamed view in §1.11 — Narrated emergence sequence.**
++
++Presentation order; no verified dates, execution order or dependency chain.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Notes |
++| 2 | Documents |
++| 3 | Document Collection |
++| 4 | Need for Organization |
++<!-- end-original-section-view -->
+ 
+ Although simple.
+ 
+@@ -302,6 +320,8 @@
+ ---
+ 
+ ## 1.15.  Research Status
++
++**Received research account — historical interpretation.**
+ 
+ At the end of this first phase, several important conclusions had already been reached.
+ 
+@@ -314,6 +334,8 @@
+ 
+ These observations would serve as the foundation for all subsequent research.
+ 
++**Current interpretation note.** Permanent identity is the logical key of a normalized document. Functional files are outside normalization scope; the current rule is stated in §4.15. Historical aspirations for every document do not allocate IDs to README files.
++
+ ---
+ 
+ ## 1.16.  Next Steps
+@@ -398,14 +420,16 @@
+ 
+ Conceptually.
+ 
+-```text id="tpl1"
+-
+-                 Template
+-                    ↓
+-
+-               New Document
+-
+-```
++<!-- view: tpl1 -->
++**View tpl1 — Historical Template derivation.**
++
++Illustrative creation from a Template; no runtime dependency asserted.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Template |
++| 2 | New Document |
++<!-- end-view -->
+ 
+ This approach immediately revealed several advantages.
+ 
+@@ -452,6 +476,8 @@
+ 
+ ## 2.6. The Emergence of Multiple Templates
+ 
++**Received research account — historical interpretation.**
++
+ The research then evolved towards a new model.
+ 
+ Instead of having only one Template.
+@@ -460,21 +486,23 @@
+ 
+ For example.
+ 
+-```text id="tpl2"
+-
+-                    Architecture Template
+-
+-                    Research Template
+-
+-                    Specification Template
+-
+-                    Reference Template
+-
+-                    README Template
+-
+-```
++<!-- view: tpl2 -->
++**View tpl2 — Historical Template-purpose examples.**
++
++Purpose examples; README remains functional/non-normalized.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Architecture Template |
++| 2 | Research Template |
++| 3 | Specification Template |
++| 4 | Reference Template |
++| 5 | README Template |
++<!-- end-view -->
+ 
+ Each Template came to reflect a specific purpose.
++
++**Current interpretation note.** The received category and Template names are historical subject/role examples. Current Type is exactly Architecture, Structure, Behavior or Reference according to primary responsibility; Family identifies a canonical component or scoped documentary area, independently of title, directory and permanent identity. Future research does not become Behavior solely through its topic.
+ 
+ ---
+ 
+@@ -542,6 +570,8 @@
+ 
+ ## 2.10. The Search for Common Elements
+ 
++**Received research account — historical interpretation.**
++
+ A new phase of the research then began.
+ 
+ Instead of looking for similar documents.
+@@ -561,9 +591,13 @@
+ 
+ This observation proved to be extremely important.
+ 
++**Current interpretation note.** Common information was a research observation, not a complete mandatory field catalog. Applicability depends on the actual descriptor contracts and effective Profile, with the functional-file exclusion in §4.15. This edition does not create Core/Extended catalogs or element lifecycle records.
++
+ ---
+ 
+ ## 2.11. The Birth of Metadata
++
++**Received research account — historical interpretation.**
+ 
+ It was precisely here that one of the fundamental discoveries of the Documentation Framework emerged.
+ 
+@@ -586,6 +620,8 @@
+ 
+ But the idea had been established.
+ 
++**Current interpretation note.** Author, version, status, dates and language are descriptors, not parts of the permanent logical identity. Metadata represents them; Identity, Classification and Governance retain their domain semantics. Separating content from descriptors does not require independent files or edition changes.
++
+ ---
+ 
+ ## 2.12. Templates as Contracts
+@@ -639,6 +675,8 @@
+ ---
+ 
+ ## 2.15. Research Status
++
++**Received research account — historical interpretation.**
+ 
+ At the end of this phase, several conclusions had been established.
+ 
+@@ -651,6 +689,8 @@
+ 
+ These conclusions would directly prepare the next stage.
+ 
++**Current interpretation note.** Common information was a research observation, not a complete mandatory field catalog. Applicability depends on the actual descriptor contracts and effective Profile, with the functional-file exclusion in §4.15. This edition does not create Core/Extended catalogs or element lifecycle records.
++
+ ---
+ 
+ ## 2.16. Next Steps
+@@ -669,6 +709,8 @@
+ 
+ ## 2.17. Conclusion
+ 
++**Received research account — historical interpretation.**
++
+ The first Templates represented the first concrete step towards the systematic organisation of documentation.
+ 
+ Although they did not solve every problem, they demonstrated that structural standardisation produced significant improvements in the quality and maintainability of documents.
+@@ -678,6 +720,8 @@
+ The content of a document and its structural identity are different concepts.
+ 
+ It was precisely this distinction that led to the emergence of **Metadata**, one of the fundamental pillars of the Documentation Framework.
++
++**Current interpretation note.** Author, version, status, dates and language are descriptors, not parts of the permanent logical identity. Metadata represents them; Identity, Classification and Governance retain their domain semantics. Separating content from descriptors does not require independent files or edition changes.
+ 
+ ---
+ 
+@@ -755,15 +799,16 @@
+ 
+ A conceptual separation then began to emerge.
+ 
+-```text id="md1"
+-
+-                    Document
+-                    │
+-                    ├── Content
+-                    │
+-                    └── Metadata
+-
+-```
++<!-- view: md1 -->
++**View md1 — Conceptual document decomposition.**
++
++Content and Metadata responsibilities; not physical storage or independent edition changes.
++
++| Conceptual whole | Concern |
++| --- | --- |
++| Document | Content |
++| Document | Metadata |
++<!-- end-view -->
+ 
+ Although apparently simple.
+ 
+@@ -772,6 +817,8 @@
+ ---
+ 
+ ## 3.5. Metadata Is Not Optional
++
++**Received research account — historical interpretation.**
+ 
+ Initially, it was thought that these data could be optional.
+ 
+@@ -792,10 +839,14 @@
+ 
+ It became an integral part of the document.
+ 
++**Current interpretation note.** The mandatory-Metadata/header observation concerns the historical normalized-document model. Every README.md, CHANGELOG.md and ArchitecturalMilestones.md is a non-normalized functional file at any location: no normalized ID, Family, Type, Component, Version, Revision, Status or Baseline is required. Their content, references, inventory and hashes remain reviewable. The received header list is illustrative, not a current complete mandatory catalog.
++
+ ---
+ 
+ ## 3.6. The Search for Uniformity
+ 
++**Received research account — historical interpretation.**
++
+ Once the importance of Metadata had been recognised.
+ 
+ A new challenge emerged.
+@@ -812,38 +863,45 @@
+ 
+ This distinction made it possible to reconcile consistency and flexibility.
+ 
++**Current interpretation note.** Dictionary defines descriptors, Schema organizes references to those definitions, Profile supplies applicable constraints and Instance supplies values under one effective Profile. A shared Family alone does not prove identical fields or a complete common-core/extension policy. No Metadata Element ID, catalog or Profile lifecycle record is allocated here.
++
+ ---
+ 
+ ## 3.7. The Document Header
+ 
++**Received research account — historical interpretation.**
++
+ It was during this phase that the idea of a standardised header began to emerge.
+ 
+ Conceptually.
+ 
+-```text id="md2"
+-
+-                    Document ID
+-
+-                    Title
+-
+-                    Version
+-
+-                    Status
+-
+-                    Project
+-
+-                    Language
+-
+-```
++<!-- view: md2 -->
++**View md2 — Historical header experiment.**
++
++Illustrative fields, not a current mandatory catalog.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Document ID |
++| 2 | Title |
++| 3 | Version |
++| 4 | Status |
++| 5 | Project |
++| 6 | Language |
++<!-- end-view -->
+ 
+ This header progressively became the entry point of every document.
+ 
+ Readers could immediately understand the context to which the document belonged.
+ 
++**Current interpretation note.** The mandatory-Metadata/header observation concerns the historical normalized-document model. Every README.md, CHANGELOG.md and ArchitecturalMilestones.md is a non-normalized functional file at any location: no normalized ID, Family, Type, Component, Version, Revision, Status or Baseline is required. Their content, references, inventory and hashes remain reviewable. The received header list is illustrative, not a current complete mandatory catalog.
++
+ ---
+ 
+ ## 3.8. Metadata as a Contract
+ 
++**Received research account — historical interpretation.**
++
+ Another important conceptual change consisted of no longer considering Metadata merely as auxiliary information.
+ 
+ It came to function as a genuine document contract.
+@@ -854,6 +912,8 @@
+ 
+ This principle enabled the automation of various tasks.
+ 
++**Current interpretation note.** Dictionary defines descriptors, Schema organizes references to those definitions, Profile supplies applicable constraints and Instance supplies values under one effective Profile. A shared Family alone does not prove identical fields or a complete common-core/extension policy. No Metadata Element ID, catalog or Profile lifecycle record is allocated here.
++
+ ---
+ 
+ ## 3.9. The First Identity
+@@ -875,6 +935,8 @@
+ ---
+ 
+ ## 3.10. Metadata and Automation
++
++**Received research account — historical interpretation.**
+ 
+ Another important discovery was the realisation that Metadata can be used by tools.
+ 
+@@ -892,10 +954,14 @@
+ 
+ This capability opened new possibilities for the evolution of the framework.
+ 
++**Current interpretation note.** Some lookup/index operations may use descriptors without inspecting content. Content-sensitive validation, relationship assessment and review may require content and related evidence. Automation is an intended capability, not verified execution from this narrative.
++
+ ---
+ 
+ ## 3.11. The Content Remains Independent
+ 
++**Received research account — historical interpretation.**
++
+ Despite the growing importance of Metadata.
+ 
+ A principle was also established.
+@@ -906,9 +972,13 @@
+ 
+ This separation made the document architecture much cleaner.
+ 
++**Current interpretation note.** Content and descriptive information have distinct conceptual responsibilities but can evolve together: technical edits may require Version/Revision, Status, Registry and relationship updates. Descriptors do not redefine knowledge/domain semantics; conceptual separation does not guarantee administrative independence or forbid all interactions.
++
+ ---
+ 
+ ## 3.12. The Beginning of Classification
++
++**Received research account — historical interpretation.**
+ 
+ As the number of documents increased.
+ 
+@@ -928,6 +998,8 @@
+ 
+ This requirement would prepare the next stage of the research.
+ 
++**Current interpretation note.** The received category and Template names are historical subject/role examples. Current Type is exactly Architecture, Structure, Behavior or Reference according to primary responsibility; Family identifies a canonical component or scoped documentary area, independently of title, directory and permanent identity. Future research does not become Behavior solely through its topic.
++
+ ---
+ 
+ ## 3.13. A New Perspective
+@@ -947,6 +1019,8 @@
+ ---
+ 
+ ## 3.14. Research Status
++
++**Received research account — historical interpretation.**
+ 
+ At the end of this phase, several conclusions had been established.
+ 
+@@ -960,10 +1034,14 @@
+ 
+ These ideas profoundly changed the project's original vision.
+ 
++**Current interpretation note.** Content and descriptive information have distinct conceptual responsibilities but can evolve together: technical edits may require Version/Revision, Status, Registry and relationship updates. Descriptors do not redefine knowledge/domain semantics; conceptual separation does not guarantee administrative independence or forbid all interactions.
++
+ ---
+ 
+ ## 3.15. Next Steps
+ 
++**Received research account — historical interpretation.**
++
+ The existence of Metadata naturally led to a new question.
+ 
+ If documents have identity.
+@@ -976,16 +1054,22 @@
+ 
+ The next phase of the research would be dedicated precisely to the creation of the first **Document Identifiers**, **Families**, **Types**, and **Classes**, establishing a permanent identity for every document.
+ 
++**Current interpretation note.** The received category and Template names are historical subject/role examples. Current Type is exactly Architecture, Structure, Behavior or Reference according to primary responsibility; Family identifies a canonical component or scoped documentary area, independently of title, directory and permanent identity. Future research does not become Behavior solely through its topic.
++
+ ---
+ 
+ ## 3.16. Conclusion
+ 
++**Received research account — historical interpretation.**
++
+ The discovery of Metadata marked the transition from a simple collection of documents to a true documentation system.
+ 
+ For the first time, documents acquired their own properties, independent of the knowledge they contained.
+ 
+ This separation between content and identity proved to be one of the fundamental principles of the Documentation Framework and paved the way for the formalisation of document classification, traceability, and the future automation of the entire ecosystem.
+ 
++**Current interpretation note.** Content and descriptive information have distinct conceptual responsibilities but can evolve together: technical edits may require Version/Revision, Status, Registry and relationship updates. Descriptors do not redefine knowledge/domain semantics; conceptual separation does not guarantee administrative independence or forbid all interactions.
++
+ ---
+ 
+ # 4. Document Identity
+@@ -1016,17 +1100,18 @@
+ 
+ For example.
+ 
+-```text id="id1"
+-
+-                    Architecture.md
+-
+-                    Design.md
+-
+-                    README.md
+-
+-                    Notes.md
+-
+-```
++<!-- view: id1 -->
++**View id1 — Historical physical-name examples.**
++
++Names, not permanent ID allocations; functional exclusions apply.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Architecture.md |
++| 2 | Design.md |
++| 3 | README.md |
++| 4 | Notes.md |
++<!-- end-view -->
+ 
+ This solution appeared to be sufficient.
+ 
+@@ -1053,6 +1138,8 @@
+ ---
+ 
+ ## 4.4. The Document as an Entity
++
++**Received research account — historical interpretation.**
+ 
+ During this phase, an important analogy began to emerge.
+ 
+@@ -1073,23 +1160,29 @@
+ 
+ This idea profoundly changed the document architecture.
+ 
++**Current interpretation note.** Ordinary rename, relocation, reclassification or edition evolution can retain logical identity. A semantic split/merge requires an explicit retained/new identity and provenance decision; it is not automatically the same entity. Repository/domain migration also requires scope assessment. No new identity is allocated in this UPDATE.
++
+ ---
+ 
+ ## 4.5. The First Identifier
+ 
++**Received research account — historical interpretation.**
++
+ The first proposal consisted of assigning a simple code to each document.
+ 
+ For example.
+ 
+-```text id="id2"
+-
+-                    DOC-001
+-
+-                    DOC-002
+-
+-                    DOC-003
+-
+-```
++<!-- view: id2 -->
++**View id2 — Historical identifier proposal.**
++
++Received DOC syntax preserved; not current DF operational syntax.
++
++| Position | Received term |
++| --- | --- |
++| 1 | DOC-001 |
++| 2 | DOC-002 |
++| 3 | DOC-003 |
++<!-- end-view -->
+ 
+ Although this partially solved the problem.
+ 
+@@ -1097,9 +1190,13 @@
+ 
+ The identifier conveyed no meaning.
+ 
++**Current interpretation note.** DOC and META-Family/Type codes are retained historical proposals, not current operational syntax. The adopted corpus format is DF-SSS-NNN: registered three-letter uppercase allocation series and positive 001–999, unique within the DF domain. Series are stable namespaces, not mutable Family/Type; reclassification does not recalculate a valid ID. Allocation requires collision/history checks; no 000/README ID or general migration is performed. DF-FND-002 remains unchanged.
++
+ ---
+ 
+ ## 4.6. The Search for Semantics
++
++**Received research account — historical interpretation.**
+ 
+ A new question then emerged.
+ 
+@@ -1117,38 +1214,45 @@
+ 
+ It would also communicate context.
+ 
++**Current interpretation note.** DOC and META-Family/Type codes are retained historical proposals, not current operational syntax. The adopted corpus format is DF-SSS-NNN: registered three-letter uppercase allocation series and positive 001–999, unique within the DF domain. Series are stable namespaces, not mutable Family/Type; reclassification does not recalculate a valid ID. Allocation requires collision/history checks; no 000/README ID or general migration is performed. DF-FND-002 remains unchanged.
++
+ ---
+ 
+ ## 4.7. The Emergence of Families
+ 
++**Received research account — historical interpretation.**
++
+ The first evolution consisted of grouping documents into broad areas.
+ 
+ For example.
+ 
+-```text id="id3"
+-
+-                    META
+-
+-                    ARC
+-
+-                    ANL
+-
+-                    REF
+-
+-                    STD
+-
+-                    RFC
+-
+-```
++<!-- view: id3 -->
++**View id3 — Historical category-code examples.**
++
++Old Family vocabulary, not current Family/Type enumeration.
++
++| Position | Received term |
++| --- | --- |
++| 1 | META |
++| 2 | ARC |
++| 3 | ANL |
++| 4 | REF |
++| 5 | STD |
++| 6 | RFC |
++<!-- end-view -->
+ 
+ Each Family came to represent a category of knowledge.
+ 
+ This organisation proved to be extremely useful.
+ 
++**Current interpretation note.** DOC and META-Family/Type codes are retained historical proposals, not current operational syntax. The adopted corpus format is DF-SSS-NNN: registered three-letter uppercase allocation series and positive 001–999, unique within the DF domain. Series are stable namespaces, not mutable Family/Type; reclassification does not recalculate a valid ID. Allocation requires collision/history checks; no 000/README ID or general migration is performed. DF-FND-002 remains unchanged.
++
+ ---
+ 
+ ## 4.8. The Concept of Type
+ 
++**Received research account — historical interpretation.**
++
+ It quickly became apparent that Family alone was still too generic.
+ 
+ Within the same Family there were very different documents.
+@@ -1159,24 +1263,29 @@
+ 
+ For example.
+ 
+-```text id="id4"
+-
+-                    META-DCL
+-
+-                    META-WFL
+-
+-                    META-CON
+-
+-                    META-REF
+-
+-```
++<!-- view: id4 -->
++**View id4 — Historical Family/Type code examples.**
++
++Old syntax retained as evidence, not mutable classification embedded in current identity.
++
++| Position | Received term |
++| --- | --- |
++| 1 | META-DCL |
++| 2 | META-WFL |
++| 3 | META-CON |
++| 4 | META-REF |
++<!-- end-view -->
+ 
+ The combination of Family + Type made identifiers much more expressive.
+ 
++**Current interpretation note.** DOC and META-Family/Type codes are retained historical proposals, not current operational syntax. The adopted corpus format is DF-SSS-NNN: registered three-letter uppercase allocation series and positive 001–999, unique within the DF domain. Series are stable namespaces, not mutable Family/Type; reclassification does not recalculate a valid ID. Allocation requires collision/history checks; no 000/README ID or general migration is performed. DF-FND-002 remains unchanged.
++
+ ---
+ 
+ ## 4.9. Numbering
+ 
++**Received research account — historical interpretation.**
++
+ Once Family and Type had been defined.
+ 
+ Only one element remained.
+@@ -1187,22 +1296,28 @@
+ 
+ Conceptually.
+ 
+-```text id="id5"
+-
+-                    META-DCL-001
+-
+-                    META-DCL-002
+-
+-                    META-DCL-003
+-
+-```
++<!-- view: id5 -->
++**View id5 — Historical numbering examples.**
++
++Received META examples; no current identity allocation or migration.
++
++| Position | Received term |
++| --- | --- |
++| 1 | META-DCL-001 |
++| 2 | META-DCL-002 |
++| 3 | META-DCL-003 |
++<!-- end-view -->
+ 
+ This convention made it possible to identify every document uniquely.
+ 
++**Current interpretation note.** DOC and META-Family/Type codes are retained historical proposals, not current operational syntax. The adopted corpus format is DF-SSS-NNN: registered three-letter uppercase allocation series and positive 001–999, unique within the DF domain. Series are stable namespaces, not mutable Family/Type; reclassification does not recalculate a valid ID. Allocation requires collision/history checks; no 000/README ID or general migration is performed. DF-FND-002 remains unchanged.
++
+ ---
+ 
+ ## 4.10. The Discovery of Classes
+ 
++**Received research account — historical interpretation.**
++
+ During practical use, another need emerged.
+ 
+ Not all documents fulfil the same role.
+@@ -1219,9 +1334,13 @@
+ 
+ Regardless of its Family.
+ 
++**Current interpretation note.** Class here is a received research category. This journal does not establish a current Class enumeration or infer one from title/Type. Family, responsibility-based Type and any explicitly defined optional Class are distinct dimensions; no Class field is invented for this source.
++
+ ---
+ 
+ ## 4.11. Identity Becomes Permanent
++
++**Received research account — historical interpretation.**
+ 
+ A particularly important decision was made during this phase.
+ 
+@@ -1237,10 +1356,14 @@
+ 
+ This principle brought documents significantly closer to software entities.
+ 
++**Current interpretation note.** Ordinary rename, relocation, reclassification or edition evolution can retain logical identity. A semantic split/merge requires an explicit retained/new identity and provenance decision; it is not automatically the same entity. Repository/domain migration also requires scope assessment. No new identity is allocated in this UPDATE.
++
+ ---
+ 
+ ## 4.12. The Separation Between Identity and Location
+ 
++**Received research account — historical interpretation.**
++
+ Another important conclusion was to completely separate.
+ 
+ Identity.
+@@ -1255,39 +1378,42 @@
+ 
+ This separation proved essential for the future evolution of the framework.
+ 
++**Current interpretation note.** Ordinary rename, relocation, reclassification or edition evolution can retain logical identity. A semantic split/merge requires an explicit retained/new identity and provenance decision; it is not automatically the same entity. Repository/domain migration also requires scope assessment. No new identity is allocated in this UPDATE.
++
+ ---
+ 
+ ## 4.13. Metadata Evolves
+ 
++**Received research account — historical interpretation.**
++
+ With the introduction of identifiers.
+ 
+ Metadata also became richer.
+ 
+ For example.
+ 
+-```text id="id6"
+-
+-                    Document ID
+-
+-                    Family
+-
+-                    Type
+-
+-                    Class
+-
+-                    Version
+-
+-                    Revision
+-
+-                    Status
+-
+-                    Baseline
+-
+-```
++<!-- view: id6 -->
++**View id6 — Historical descriptor field list.**
++
++Fields are descriptors, not identity segments; no Class/catalog is prescribed.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Document ID |
++| 2 | Family |
++| 3 | Type |
++| 4 | Class |
++| 5 | Version |
++| 6 | Revision |
++| 7 | Status |
++| 8 | Baseline |
++<!-- end-view -->
+ 
+ Metadata was no longer merely administrative.
+ 
+ It progressively came to represent the document structure itself.
++
++**Current interpretation note.** The field list describes the historical header experiment, not the semantic composition of permanent identity or a mandatory current schema. Descriptor applicability belongs to Dictionary/Schema/Profile contracts and the corresponding domain owners.
+ 
+ ---
+ 
+@@ -1311,6 +1437,8 @@
+ ---
+ 
+ ## 4.15. Research Status
++
++**Received research account — historical interpretation.**
+ 
+ At the end of this phase, several fundamental principles had been established.
+ 
+@@ -1324,6 +1452,8 @@
+ 
+ These decisions would remain virtually unchanged until the current architecture.
+ 
++**Current interpretation note.** Historical Family/Type/Class and every-document claims are not the current classification/identity contract. Family denotes the canonical component or scoped documentary area (Foundation here); Type uses the uniform four values Architecture, Structure, Behavior, Reference. Stable allocation series are independent of classification. Every README.md, CHANGELOG.md and ArchitecturalMilestones.md at any location is non-normalized: no normalized ID/header/classification or ID-based renaming is required; content/reference/hash checks still apply.
++
+ ---
+ 
+ ## 4.16. Next Steps
+@@ -1437,14 +1567,16 @@
+ 
+ Conceptually.
+ 
+-```text id="meta1"
+-
+-                   META
+-                    ↓
+-
+-            Documentation Rules
+-
+-```
++<!-- view: meta1 -->
++**View meta1 — Historical documentation-rule association.**
++
++Conceptual role, not a required component dependency.
++
++| Position | Received term |
++| --- | --- |
++| 1 | META |
++| 2 | Documentation Rules |
++<!-- end-view -->
+ 
+ This document did not describe the project.
+ 
+@@ -1454,24 +1586,34 @@
+ 
+ ## 5.5. A New Document Category
+ 
++**Received research account — historical interpretation.**
++
+ The need to distinguish these documents from all others quickly emerged.
+ 
+ A new Family was created.
+ 
+-```text id="meta2"
+-
+-                    META
+-
+-```
++<!-- view: meta2 -->
++**View meta2 — Historical META grouping.**
++
++Historical label, not current extra Type.
++
++| Position | Received term |
++| --- | --- |
++| 1 | META |
++<!-- end-view -->
+ 
+ This Family came to represent documents whose domain is the Documentation Framework itself.
+ 
+ It became one of the first Families to span the entire project.
+ 
++**Current interpretation note.** META and META-DCL/REF/CON/WFL are historical labels/proposals. They do not add current Types or recalculate IDs. Current domain definitions are maintained by their responsible sources; corpus presence or an old label does not grant approval. The received all-documents-version example excludes functional-file normalization under the adopted scope.
++
+ ---
+ 
+ ## 5.6. Self-Reference
+ 
++**Received research account — historical interpretation.**
++
+ During this phase, an interesting question emerged.
+ 
+ Can a system document itself?
+@@ -1486,34 +1628,43 @@
+ 
+ They document the rules used by all documents.
+ 
++**Current interpretation note.** Self-description is a historical design objective. It does not prove every current decision is fully represented or all sources are coherent. Responsible-source definitions and traceable edition references remain necessary.
++
+ ---
+ 
+ ## 5.7. The Emergence of the First META Documents
+ 
++**Received research account — historical interpretation.**
++
+ Specialised documents then began to appear.
+ 
+ For example.
+ 
+-```text id="meta3"
+-
+-                    META-DCL
+-
+-                    META-REF
+-
+-                    META-CON
+-
+-                    META-WFL
+-
+-```
++<!-- view: meta3 -->
++**View meta3 — Historical META specialization list.**
++
++Old proposal codes, not new/current ID allocations.
++
++| Position | Received term |
++| --- | --- |
++| 1 | META-DCL |
++| 2 | META-REF |
++| 3 | META-CON |
++| 4 | META-WFL |
++<!-- end-view -->
+ 
+ Each had clearly defined responsibilities.
+ 
+ Together, they began to form a true documentation architecture.
+ 
++**Current interpretation note.** META and META-DCL/REF/CON/WFL are historical labels/proposals. They do not add current Types or recalculate IDs. Current domain definitions are maintained by their responsible sources; corpus presence or an old label does not grant approval. The received all-documents-version example excludes functional-file normalization under the adopted scope.
++
+ ---
+ 
+ ## 5.8. From Convention to Specification
+ 
++**Received research account — historical interpretation.**
++
+ Until this point, many decisions were merely conventions.
+ 
+ With the introduction of META Documents, they became formalised.
+@@ -1536,6 +1687,8 @@
+ 
+ This change significantly increased the consistency of the framework.
+ 
++**Current interpretation note.** META and META-DCL/REF/CON/WFL are historical labels/proposals. They do not add current Types or recalculate IDs. Current domain definitions are maintained by their responsible sources; corpus presence or an old label does not grant approval. The received all-documents-version example excludes functional-file normalization under the adopted scope.
++
+ ---
+ 
+ ## 5.9. Knowledge About Knowledge
+@@ -1558,29 +1711,17 @@
+ 
+ For example.
+ 
+-```text id="meta4"
+-
+-                META-DCL
+-                    ↓
+-
+-                 Defines
+-                    ↓
+-
+-                META-REF
+-                    ↓
+-
+-                  Uses
+-                    ↓
+-
+-                META-CON
+-                    ↓
+-
+-                Related to
+-                    ↓
+-
+-                META-WFL
+-
+-```
++<!-- view: meta4 -->
++**View meta4 — Illustrative historical typed relations.**
++
++Received Defines/Uses/Related to associations; Uses lacks a required-contract assertion.
++
++| Source | Received relation | Target |
++| --- | --- | --- |
++| META-DCL | Defines | META-REF |
++| META-REF | Uses (not scoped as mandatory) | META-CON |
++| META-CON | Related to | META-WFL |
++<!-- end-view -->
+ 
+ For the first time, the documentation itself had its own architecture.
+ 
+@@ -1605,6 +1746,8 @@
+ 
+ ## 5.12. A Self-Describing Architecture
+ 
++**Received research account — historical interpretation.**
++
+ It was precisely during this phase that an ambitious objective emerged.
+ 
+ The Documentation Framework should be capable of explaining itself.
+@@ -1612,6 +1755,8 @@
+ Every documentation decision should be understandable by consulting the META Documents.
+ 
+ This objective would strongly influence all subsequent evolution.
++
++**Current interpretation note.** Self-description is a historical design objective. It does not prove every current decision is fully represented or all sources are coherent. Responsible-source definitions and traceable edition references remain necessary.
+ 
+ ---
+ 
+@@ -1708,25 +1853,18 @@
+ 
+ For example.
+ 
+-```text id="bl1"
+-
+-                    Architecture
+-
+-                    Version 2.1
+-
+-                    Documentation
+-
+-                    Version 1.4
+-
+-                    Reference
+-
+-                    Version 3.0
+-
+-                    Workflow
+-
+-                    Version 1.2
+-
+-```
++<!-- view: bl1 -->
++**View bl1 — Illustrative mixed document Versions.**
++
++Received example editions; no actual identified member selection.
++
++| Received subject | Illustrative Version |
++| --- | --- |
++| Architecture | Version 2.1 |
++| Documentation | Version 1.4 |
++| Reference | Version 3.0 |
++| Workflow | Version 1.2 |
++<!-- end-view -->
+ 
+ Individually.
+ 
+@@ -1754,6 +1892,8 @@
+ 
+ ## 6.4. The Concept of Baseline
+ 
++**Received research account — historical interpretation.**
++
+ A new idea was then introduced.
+ 
+ Instead of considering documents individually.
+@@ -1764,28 +1904,30 @@
+ 
+ Conceptually.
+ 
+-```text id="bl2"
+-
+-                    Baseline
+-                    │
+-                    ├── Architecture
+-                    │
+-                    ├── Reference
+-                    │
+-                    ├── Workflow
+-                    │
+-                    ├── Templates
+-                    │
+-                    └── Standards
+-
+-```
++<!-- view: bl2 -->
++**View bl2 — Historical snapshot grouping.**
++
++Illustrative subject members; current inclusion requires exact immutable editions.
++
++| Historical grouping | Illustrative subject |
++| --- | --- |
++| Baseline | Architecture |
++| Baseline | Reference |
++| Baseline | Workflow |
++| Baseline | Templates |
++| Baseline | Standards |
++<!-- end-view -->
+ 
+ A Baseline represents a coherent state of knowledge.
+ 
++**Current interpretation note.** The current DF Baseline synopsis selects immutable approved document editions by logical ID plus exact Version/Revision or equivalent, with relevant pinned relationship context and evidence. Snapshot identity, member identity, edition Status and explicit membership differ. A current path or header alone does not establish inclusion; changes do not retarget old members.
++
+ ---
+ 
+ ## 6.5. Baseline Is Not a Version
+ 
++**Received research account — historical interpretation.**
++
+ Initially, there was some tendency to confuse a Baseline with a version.
+ 
+ It quickly became clear that they are different concepts.
+@@ -1796,9 +1938,13 @@
+ 
+ This distinction became a fundamental principle.
+ 
++**Current interpretation note.** The current DF Baseline synopsis selects immutable approved document editions by logical ID plus exact Version/Revision or equivalent, with relevant pinned relationship context and evidence. Snapshot identity, member identity, edition Status and explicit membership differ. A current path or header alone does not establish inclusion; changes do not retarget old members.
++
+ ---
+ 
+ ## 6.6. The Role of Revisions
++
++**Received research account — historical interpretation.**
+ 
+ During this phase, it also became evident that not all changes have the same significance.
+ 
+@@ -1815,40 +1961,44 @@
+ 
+ A Revision represents small, backward-compatible changes.
+ 
++**Current interpretation note.** The received small-change Revision interpretation is historical. Under the adopted policy, Version is major.minor: compatible clarification keeps Version, compatible additive contracts increment minor, incompatible contracts increment major and reset minor. Each changed finalized edition increments Revision monotonically across Version changes; absent Revision first becomes 1. Validation alone changes neither field. Actual change compatibility must be assessed, not inferred from text size.
++
+ ---
+ 
+ ## 6.7. Document Status
+ 
++**Received research account — historical interpretation.**
++
+ Another important discovery was the realisation that document evolution does not depend solely on the version.
+ 
+ It also depends on the status.
+ 
+ For example.
+ 
+-```text id="bl3"
+-
+-                   Draft
+-                    ↓
+-
+-                  Review
+-                    ↓
+-
+-                 Approved
+-                    ↓
+-
+-                Deprecated
+-                    ↓
+-
+-                 Archived
+-
+-```
++<!-- view: bl3 -->
++**View bl3 — Historical state progression experiment.**
++
++Sample order, not current complete transition permissions or automatic approval.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Draft |
++| 2 | Review |
++| 3 | Approved |
++| 4 | Deprecated |
++| 5 | Archived |
++<!-- end-view -->
+ 
+ The status came to represent the point in the lifecycle at which a document currently exists.
+ 
++**Current interpretation note.** These are historical lifecycle experiments/state examples, not a universal current transition graph. States concern exact editions; an older Approved edition may coexist with a Draft successor. Applicable Governance owner policies determine transitions, eligibility and evidence. Review and validation do not automatically approve an edition.
++
+ ---
+ 
+ ## 6.8. The Collection Must Remain Consistent
+ 
++**Received research account — historical interpretation.**
++
+ An immediate consequence of this approach was the need to validate the entire documentation.
+ 
+ Whenever a document evolves.
+@@ -1863,10 +2013,14 @@
+ 
+ Or the change must be postponed.
+ 
++**Current interpretation note.** Approved snapshot selections remain immutable. A significant change may be prepared as a Draft successor without immediately creating a new Baseline or altering the old one. New snapshot selection requires applicable eligibility, consistency, approval and explicit inclusion decisions; it is neither automatic nor restricted to small increments by this journal.
++
+ ---
+ 
+ ## 6.9. The First Baseline
+ 
++**Received research account — historical interpretation.**
++
+ It was precisely during this phase that the project's first formal Baseline emerged.
+ 
+ Its objective was simple.
+@@ -1879,10 +2033,14 @@
+ 
+ Instead, they first passed through an evolution process.
+ 
++**Current interpretation note.** The first-Baseline statement is a received historical assertion. No selection identity/date/member-edition record or approval evidence was supplied for that event; this UPDATE does not reconstruct or certify it.
++
+ ---
+ 
+ ## 6.10. The Concept of Freezing
+ 
++**Received research account — historical interpretation.**
++
+ Another important idea emerged naturally.
+ 
+ An approved Baseline must remain immutable.
+@@ -1893,10 +2051,14 @@
+ 
+ This principle made it possible to preserve historical traceability.
+ 
++**Current interpretation note.** Approved snapshot selections remain immutable. A significant change may be prepared as a Draft successor without immediately creating a new Baseline or altering the old one. New snapshot selection requires applicable eligibility, consistency, approval and explicit inclusion decisions; it is neither automatic nor restricted to small increments by this journal.
++
+ ---
+ 
+ ## 6.11. Incremental Evolution
+ 
++**Received research account — historical interpretation.**
++
+ The research also demonstrated that large changes are more difficult to control.
+ 
+ Consequently.
+@@ -1907,31 +2069,37 @@
+ 
+ This model significantly simplified documentation management.
+ 
++**Current interpretation note.** Approved snapshot selections remain immutable. A significant change may be prepared as a Draft successor without immediately creating a new Baseline or altering the old one. New snapshot selection requires applicable eligibility, consistency, approval and explicit inclusion decisions; it is neither automatic nor restricted to small increments by this journal.
++
+ ---
+ 
+ ## 6.12. The Impact on Metadata
+ 
++**Received research account — historical interpretation.**
++
+ Metadata evolved once again.
+ 
+ New fields became part of the document header.
+ 
+ For example.
+ 
+-```text id="bl4"
+-
+-                    Baseline
+-
+-                    Version
+-
+-                    Revision
+-
+-                    Status
+-
+-                    Last Updated
+-
+-```
++<!-- view: bl4 -->
++**View bl4 — Historical snapshot/edition descriptor list.**
++
++Illustrative fields; snapshot identity, member edition and membership differ.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Baseline |
++| 2 | Version |
++| 3 | Revision |
++| 4 | Status |
++| 5 | Last Updated |
++<!-- end-view -->
+ 
+ The document now explicitly indicates the Baseline to which it belongs.
++
++**Current interpretation note.** The current DF Baseline synopsis selects immutable approved document editions by logical ID plus exact Version/Revision or equivalent, with relevant pinned relationship context and evidence. Snapshot identity, member identity, edition Status and explicit membership differ. A current path or header alone does not establish inclusion; changes do not retarget old members.
+ 
+ ---
+ 
+@@ -1955,6 +2123,8 @@
+ ---
+ 
+ ## 6.14. Research Status
++
++**Received research account — historical interpretation.**
+ 
+ At the end of this phase, several principles had been established.
+ 
+@@ -1967,10 +2137,14 @@
+ 
+ These decisions remained virtually unchanged throughout the subsequent phases.
+ 
++**Current interpretation note.** Approved snapshot selections remain immutable. A significant change may be prepared as a Draft successor without immediately creating a new Baseline or altering the old one. New snapshot selection requires applicable eligibility, consistency, approval and explicit inclusion decisions; it is neither automatic nor restricted to small increments by this journal.
++
+ ---
+ 
+ ## 6.15. Next Steps
+ 
++**Received research account — historical interpretation.**
++
+ The introduction of Baselines resolved the temporal consistency of the documentation.
+ 
+ However.
+@@ -1985,6 +2159,8 @@
+ 
+ These questions would lead directly to the emergence of the **Document Registry**, responsible for the organisation, discovery, and traceability of the entire documentation asset.
+ 
++**Current interpretation note.** The narrative assesses Baselines as solving temporal consistency. Current consistency depends on actual exact-edition selection and verification; an architectural idea alone is not evidence that the supplied corpus has been reconciled.
++
+ ---
+ 
+ ## 6.16. Conclusion
+@@ -2003,6 +2179,8 @@
+ 
+ ## 7.1. Introduction
+ 
++**Received research account — historical interpretation.**
++
+ The introduction of **Baselines** solved an important problem.
+ 
+ Documents could now evolve coherently.
+@@ -2019,6 +2197,8 @@
+ 
+ It was precisely from this need that the concept of the **Document Registry** was born.
+ 
++**Current interpretation note.** The narrative assesses Baselines as solving temporal consistency. Current consistency depends on actual exact-edition selection and verification; an architectural idea alone is not evidence that the supplied corpus has been reconciled.
++
+ ---
+ 
+ ## 7.2. The Problem
+@@ -2027,21 +2207,20 @@
+ 
+ For example.
+ 
+-```text id="reg1"
+-
+-                    docs/
+-
+-                    architecture/
+-
+-                    meta/
+-
+-                    analysis/
+-
+-                    templates/
+-
+-                    research/
+-
+-```
++<!-- view: reg1 -->
++**View reg1 — Historical directory example.**
++
++Physical organization, not structural Layers or classification authority.
++
++| Position | Received term |
++| --- | --- |
++| 1 | docs/ |
++| 2 | architecture/ |
++| 3 | meta/ |
++| 4 | analysis/ |
++| 5 | templates/ |
++| 6 | research/ |
++<!-- end-view -->
+ 
+ This approach was sufficient for a few dozen documents.
+ 
+@@ -2064,6 +2243,8 @@
+ ---
+ 
+ ## 7.4. Search Was Not Enough
++
++**Received research account — historical interpretation.**
+ 
+ Another attempt was to rely on text search.
+ 
+@@ -2080,10 +2261,14 @@
+ 
+ A different mechanism was required.
+ 
++**Current interpretation note.** The stated search limitation describes the research experience, not an impossibility theorem for all text/semantic search systems. Actual discovery capability depends on implementation, scope and evidence.
++
+ ---
+ 
+ ## 7.5. The Concept of a Registry
+ 
++**Received research account — historical interpretation.**
++
+ A new hypothesis was then formulated.
+ 
+ Perhaps every document should have a central registry.
+@@ -2096,21 +2281,25 @@
+ 
+ Conceptually.
+ 
+-```text id="reg2"
+-
+-             Document Registry
+-                    ↓
+-
+-                  Knows
+-                    ↓
+-
+-			  All Documents
+-
+-```
++<!-- view: reg2 -->
++**View reg2 — Intended Registry coverage association.**
++
++Knows means intended lookup coverage; not verified all-document registration.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Document Registry |
++| 2 | Knows |
++| 3 | All Documents |
++<!-- end-view -->
++
++**Current interpretation note.** Registry entries reference logical identities and exact edition views. They may index/project Metadata values and relationship references with source-edition provenance; refresh or mark stale when sources change. Separation is logical, not a guarantee of independent evolution. A projected copy is permitted without becoming competing semantic authority.
+ 
+ ---
+ 
+ ## 7.6. The Registry as a Catalogue
++
++**Received research account — historical interpretation.**
+ 
+ Initially, the Registry was understood as a catalogue.
+ 
+@@ -2128,9 +2317,13 @@
+ 
+ The Registry came to represent a formal index of the available knowledge.
+ 
++**Current interpretation note.** Registry entries reference logical identities and exact edition views. They may index/project Metadata values and relationship references with source-edition provenance; refresh or mark stale when sources change. Separation is logical, not a guarantee of independent evolution. A projected copy is permitted without becoming competing semantic authority.
++
+ ---
+ 
+ ## 7.7. Much More Than an Index
++
++**Received research account — historical interpretation.**
+ 
+ It quickly became apparent that the Registry could play a much more important role.
+ 
+@@ -2148,10 +2341,14 @@
+ 
+ This capability profoundly changed the value of the Registry.
+ 
++**Current interpretation note.** Lookup/obsolete-state/Baseline queries and growth are intended capabilities requiring complete current records and implementation evidence. The Registry does not remove every scale limitation or prove automatic completeness.
++
+ ---
+ 
+ ## 7.8. The Separation Between the Document and the Registry Entry
+ 
++**Received research account — historical interpretation.**
++
+ Another important decision was to clearly separate.
+ 
+ The document.
+@@ -2160,17 +2357,17 @@
+ 
+ Conceptually.
+ 
+-```text id="reg3"
+-
+-                 Document
+-                    ↓
+-
+-               Represented by
+-                    ↓
+-
+-               Registry Entry
+-
+-```
++<!-- view: reg3 -->
++**View reg3 — Document-to-catalog representation.**
++
++Logical representation relation, not physical or edition independence.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Document |
++| 2 | Represented by |
++| 3 | Registry Entry |
++<!-- end-view -->
+ 
+ The Registry does not replace the document.
+ 
+@@ -2178,6 +2375,8 @@
+ 
+ This separation made it possible to keep both independent.
+ 
++**Current interpretation note.** Registry entries reference logical identities and exact edition views. They may index/project Metadata values and relationship references with source-edition provenance; refresh or mark stale when sources change. Separation is logical, not a guarantee of independent evolution. A projected copy is permitted without becoming competing semantic authority.
++
+ ---
+ 
+ ## 7.9. The Registry as a Knowledge Discovery Mechanism
+@@ -2204,20 +2403,18 @@
+ 
+ For example.
+ 
+-```text id="reg4"
+-
+-              Architecture
+-                    ↓
+-
+-                Reference
+-                    ↓
+-
+-                 Workflow
+-                    ↓
+-
+-                  META
+-
+-```
++<!-- view: reg4 -->
++**View reg4 — Historical network illustration.**
++
++Unspecified connections; neither hierarchy nor mandatory dependency chain.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Architecture |
++| 2 | Reference |
++| 3 | Workflow |
++| 4 | META |
++<!-- end-view -->
+ 
+ Documents progressively ceased to form a tree.
+ 
+@@ -2246,6 +2443,8 @@
+ ---
+ 
+ ## 7.12. The Registry as a Service
++
++**Received research account — historical interpretation.**
+ 
+ Another important conceptual evolution was to stop viewing the Registry merely as a file.
+ 
+@@ -2260,10 +2459,14 @@
+ 
+ This perspective brought the Documentation Framework significantly closer to software architecture.
+ 
++**Current interpretation note.** Service/metadata-layer terminology is a historical conceptual analogy, not a new structural Layer or implemented service. Registry supplies catalog/lookup views; Governance and other domain owners retain validation/semantic authority. DF describes contracts; applicable systems, tools or manual processes execute operations.
++
+ ---
+ 
+ ## 7.13. Scalability
+ 
++**Received research account — historical interpretation.**
++
+ As the number of documents increased, it became evident that the Registry would enable the documentation to scale.
+ 
+ Without it.
+@@ -2274,10 +2477,14 @@
+ 
+ The size of the project would no longer represent a significant limitation.
+ 
++**Current interpretation note.** Lookup/obsolete-state/Baseline queries and growth are intended capabilities requiring complete current records and implementation evidence. The Registry does not remove every scale limitation or prove automatic completeness.
++
+ ---
+ 
+ ## 7.14. A New Perspective
+ 
++**Received research account — historical interpretation.**
++
+ During this phase, another particularly interesting idea also emerged.
+ 
+ The Registry does not manage documents.
+@@ -2289,6 +2496,8 @@
+ But extremely important.
+ 
+ The Registry became a metadata layer.
++
++**Current interpretation note.** Service/metadata-layer terminology is a historical conceptual analogy, not a new structural Layer or implemented service. Registry supplies catalog/lookup views; Governance and other domain owners retain validation/semantic authority. DF describes contracts; applicable systems, tools or manual processes execute operations.
+ 
+ ---
+ 
+@@ -2342,7 +2551,7 @@
+ 
+ ---
+ 
+-## 8.1 Introduction
++## 8.1. Introduction
+ 
+ The creation of the **Document Registry** solved an important problem.
+ 
+@@ -2419,33 +2628,38 @@
+ 
+ ## 8.5. The First Model
+ 
++**Received research account — historical interpretation.**
++
+ Several simple relationship types then began to emerge.
+ 
+ For example.
+ 
+-```text id="rel1"
+-
+-                    Defines
+-
+-                    References
+-
+-                    Depends On
+-
+-                    Replaces
+-
+-                    Extends
+-
+-                    Implements
+-
+-```
++<!-- view: rel1 -->
++**View rel1 — Historical relationship-kind examples.**
++
++Illustrative kinds; dependency is one kind with contract/scope, not all relationships.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Defines |
++| 2 | References |
++| 3 | Depends On |
++| 4 | Replaces |
++| 5 | Extends |
++| 6 | Implements |
++<!-- end-view -->
+ 
+ Although limited.
+ 
+ This set was sufficient to describe most existing dependencies.
+ 
++**Current interpretation note.** Relationships owns typed connection records. References, associations, replacement and required-contract dependency are distinct; only a declared required dependency uses consumer→provider with contract and scope. Relationship-record identity is separate from Document ID/Metadata Element ID; no record IDs or full type catalog are allocated here.
++
+ ---
+ 
+ ## 8.6. Relationships as Objects
++
++**Received research account — historical interpretation.**
+ 
+ Another important discovery was the realisation that a relationship also possesses properties.
+ 
+@@ -2465,42 +2679,46 @@
+ 
+ They became architectural objects.
+ 
++**Current interpretation note.** Relationships owns typed connection records. References, associations, replacement and required-contract dependency are distinct; only a declared required dependency uses consumer→provider with contract and scope. Relationship-record identity is separate from Document ID/Metadata Element ID; no record IDs or full type catalog are allocated here.
++
+ ---
+ 
+ ## 8.7. The Network Begins to Emerge
+ 
++**Received research account — historical interpretation.**
++
+ Once all relationships were represented explicitly.
+ 
+ A new structure became evident.
+ 
+ Conceptually.
+ 
+-```text id="rel2"
+-
+-                 Document
+-                    ↓
+-
+-                Related To
+-                    ↓
+-
+-                 Document
+-                    ↓
+-
+-                Related To
+-                    ↓
+-
+-                 Document
+-
+-```
++<!-- view: rel2 -->
++**View rel2 — Illustrative association path.**
++
++Generic Document nodes are distinct positions; Related To is not a required dependency.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Document |
++| 2 | Related To |
++| 3 | Document |
++| 4 | Related To |
++| 5 | Document |
++<!-- end-view -->
+ 
+ Documents definitively ceased to form a hierarchy.
+ 
+ They became a network.
+ 
++**Current interpretation note.** A graph is a conceptual projection of typed records, not proof that all relations are registered or an exploration implementation exists. Relationships owns records; Knowledge Graph projects them with provenance. General graph cycles are not necessarily mandatory dependency cycles.
++
+ ---
+ 
+ ## 8.8. The Discovery of the Knowledge Graph
+ 
++**Received research account — historical interpretation.**
++
+ It was during this phase that a particularly important idea emerged.
+ 
+ The Documentation Framework was not merely managing documents.
+@@ -2513,6 +2731,8 @@
+ 
+ This perspective profoundly changed the way documentation was understood.
+ 
++**Current interpretation note.** A graph is a conceptual projection of typed records, not proof that all relations are registered or an exploration implementation exists. Relationships owns records; Knowledge Graph projects them with provenance. General graph cycles are not necessarily mandatory dependency cycles.
++
+ ---
+ 
+ ## 8.9. Knowledge Navigation
+@@ -2525,29 +2745,17 @@
+ 
+ For example.
+ 
+-```text id="rel3"
+-
+-               Architecture
+-                    ↓
+-
+-                 Defines
+-                    ↓
+-
+-                Component
+-                    ↓
+-
+-              Implemented By
+-                    ↓
+-
+-               Specification
+-                    ↓
+-
+-               Referenced By
+-                    ↓
+-
+-                 Research
+-
+-```
++<!-- view: rel3 -->
++**View rel3 — Illustrative typed navigation relations.**
++
++Historical Defines/Implemented By/Referenced By meanings; not verified artifacts or mandatory execution.
++
++| Navigation source | Received relation | Navigation target |
++| --- | --- | --- |
++| Architecture | Defines | Component |
++| Component | Implemented By | Specification |
++| Specification | Referenced By | Research |
++<!-- end-view -->
+ 
+ Users no longer navigate directories.
+ 
+@@ -2571,6 +2779,8 @@
+ 
+ ## 8.11. Knowledge Becomes Discoverable
+ 
++**Received research account — historical interpretation.**
++
+ An unexpected consequence was the indirect discovery of knowledge.
+ 
+ By navigating relationships.
+@@ -2581,9 +2791,13 @@
+ 
+ Not merely search.
+ 
++**Current interpretation note.** A graph is a conceptual projection of typed records, not proof that all relations are registered or an exploration implementation exists. Relationships owns records; Knowledge Graph projects them with provenance. General graph cycles are not necessarily mandatory dependency cycles.
++
+ ---
+ 
+ ## 8.12. Relationships and Consistency
++
++**Received research account — historical interpretation.**
+ 
+ Another important benefit was automatic validation.
+ 
+@@ -2598,9 +2812,13 @@
+ 
+ The graph also began to support documentation consistency mechanisms.
+ 
++**Current interpretation note.** Automated checks are possibilities conditional on complete typed current data and implementation. A mandatory dependency cycle must remain visible for reconciliation; it cannot be hidden by relabeling required contracts as references. This journal verifies no global mandatory DAG.
++
+ ---
+ 
+ ## 8.13. The Registry Evolves
++
++**Received research account — historical interpretation.**
+ 
+ With the introduction of relationships.
+ 
+@@ -2616,6 +2834,8 @@
+ * history.
+ 
+ The Registry progressively assumed a central role within the framework architecture.
++
++**Current interpretation note.** Registry and Knowledge Graph expose traceable catalog/network projections; Relationships remains the authority for typed records. Repeated derived values are permitted with exact-edition/current-stale provenance; no physical single-copy rule or new semantic owner is created. Current Discovery also includes Navigation and Search; this historical narrative is not a complete component register.
+ 
+ ---
+ 
+@@ -2642,6 +2862,8 @@
+ ---
+ 
+ ## 8.15. Research Status
++
++**Received research account — historical interpretation.**
+ 
+ At the end of this phase, several principles had been established.
+ 
+@@ -2654,6 +2876,8 @@
+ 
+ These ideas significantly reshaped the architecture of the Documentation Framework.
+ 
++**Current interpretation note.** Registry and Knowledge Graph expose traceable catalog/network projections; Relationships remains the authority for typed records. Repeated derived values are permitted with exact-edition/current-stale provenance; no physical single-copy rule or new semantic owner is created. Current Discovery also includes Navigation and Search; this historical narrative is not a complete component register.
++
+ ---
+ 
+ ## 8.16. Next Steps
+@@ -2757,38 +2981,46 @@
+ 
+ ## 9.4. The First Model
+ 
++**Received research account — historical interpretation.**
++
+ Initially, an extremely simple workflow was proposed.
+ 
+-```text id="wf1"
+-
+-                  Draft
+-                    ↓
+-
+-                 Approved
+-
+-```
++<!-- view: wf1 -->
++**View wf1 — Initial historical lifecycle experiment.**
++
++Draft-to-Approved proposal, not current direct-approval permission.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Draft |
++| 2 | Approved |
++<!-- end-view -->
+ 
+ This approach solved the problem only partially.
+ 
+ Between an initial idea and final approval, there were several important stages.
+ 
++**Current interpretation note.** These are historical lifecycle experiments/state examples, not a universal current transition graph. States concern exact editions; an older Approved edition may coexist with a Draft successor. Applicable Governance owner policies determine transitions, eligibility and evidence. Review and validation do not automatically approve an edition.
++
+ ---
+ 
+ ## 9.5. The Review Process
+ 
++**Received research account — historical interpretation.**
++
+ A new intermediate stage quickly emerged.
+ 
+-```text id="wf2"
+-
+-                  Draft
+-                    ↓
+-
+-                  Review
+-                    ↓
+-
+-                 Approved
+-
+-```
++<!-- view: wf2 -->
++**View wf2 — Historical review-state experiment.**
++
++Sample progression; explicit validation/approval evidence is still required by applicable policy.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Draft |
++| 2 | Review |
++| 3 | Approved |
++<!-- end-view -->
+ 
+ The introduction of the review stage significantly improved the quality of the documentation.
+ 
+@@ -2796,36 +3028,44 @@
+ 
+ The document no longer depended exclusively on its author.
+ 
++**Current interpretation note.** These are historical lifecycle experiments/state examples, not a universal current transition graph. States concern exact editions; an older Approved edition may coexist with a Draft successor. Applicable Governance owner policies determine transitions, eligibility and evidence. Review and validation do not automatically approve an edition.
++
+ ---
+ 
+ ## 9.6. The Discovery of States
+ 
++**Received research account — historical interpretation.**
++
+ As the research progressed, it became evident that a document does not change only in terms of its content.
+ 
+ It also changes its state.
+ 
+ For example.
+ 
+-```text id="wf3"
+-
+-                    Draft
+-
+-                    Review
+-
+-                    Approved
+-
+-                    Deprecated
+-
+-                    Archived
+-
+-```
++<!-- view: wf3 -->
++**View wf3 — Historical state vocabulary.**
++
++List, not a complete current lifecycle or permission model.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Draft |
++| 2 | Review |
++| 3 | Approved |
++| 4 | Deprecated |
++| 5 | Archived |
++<!-- end-view -->
+ 
+ The state came to represent the document's position within its lifecycle.
+ 
++**Current interpretation note.** These are historical lifecycle experiments/state examples, not a universal current transition graph. States concern exact editions; an older Approved edition may coexist with a Draft successor. Applicable Governance owner policies determine transitions, eligibility and evidence. Review and validation do not automatically approve an edition.
++
+ ---
+ 
+ ## 9.7. State and Version Are Different Concepts
+ 
++**Received research account — historical interpretation.**
++
+ Initially, there was some confusion between these concepts.
+ 
+ It was soon concluded that.
+@@ -2836,9 +3076,13 @@
+ 
+ This distinction proved to be extremely important.
+ 
++**Current interpretation note.** Status is an edition-specific governance state, not a general operational-maturity certificate. Version/Revision, state, approval evidence and Baseline membership are distinct. Applicable owner definitions govern actual evolution, rather than this historical research synopsis.
++
+ ---
+ 
+ ## 9.8. Workflow as a Contract
++
++**Received research account — historical interpretation.**
+ 
+ Another conceptual evolution consisted of no longer considering the Workflow merely as a sequence of states.
+ 
+@@ -2856,9 +3100,13 @@
+ 
+ These rules significantly increased document consistency.
+ 
++**Current interpretation note.** The stated transition restrictions and role permissions are historical hypotheses/examples. This journal does not impose a complete current transition/permission policy, including an unconditional ban on archiving Draft or returning to an earlier state. Governance defines applicable contracts; DMS/CMS, tools or an applicable manual process execute authorized operations.
++
+ ---
+ 
+ ## 9.9. The Role of Responsibilities
++
++**Received research account — historical interpretation.**
+ 
+ During this phase, another question also emerged.
+ 
+@@ -2877,10 +3125,14 @@
+ 
+ This separation brought the Documentation Framework closer to software engineering processes.
+ 
++**Current interpretation note.** The stated transition restrictions and role permissions are historical hypotheses/examples. This journal does not impose a complete current transition/permission policy, including an unconditional ban on archiving Draft or returning to an earlier state. Governance defines applicable contracts; DMS/CMS, tools or an applicable manual process execute authorized operations.
++
+ ---
+ 
+ ## 9.10. Workflow as a Process
+ 
++**Received research account — historical interpretation.**
++
+ Another important discovery was the realization that the Workflow does not belong to the document.
+ 
+ It belongs to the documentation process.
+@@ -2891,6 +3143,8 @@
+ 
+ This distinction made it possible to reuse the same Workflow for different document types.
+ 
++**Current interpretation note.** The stated transition restrictions and role permissions are historical hypotheses/examples. This journal does not impose a complete current transition/permission policy, including an unconditional ban on archiving Draft or returning to an earlier state. Governance defines applicable contracts; DMS/CMS, tools or an applicable manual process execute authorized operations.
++
+ ---
+ 
+ ## 9.11. Knowledge Evolves Formally
+@@ -2911,6 +3165,8 @@
+ 
+ ## 9.12. Workflow and Baselines
+ 
++**Received research account — historical interpretation.**
++
+ The introduction of the Workflow also brought an important benefit to Baselines.
+ 
+ Only approved documents became eligible to be included in an official Baseline.
+@@ -2921,9 +3177,13 @@
+ 
+ It also depended on the state.
+ 
++**Current interpretation note.** Eligibility of exact approved editions is distinct from validation, selection and inclusion. A Draft working successor does not inherit prior approval or Baseline membership. Authorship records actual contributions, while review/validation/approval remain separate decisions; user authorization is not automatic authorship.
++
+ ---
+ 
+ ## 9.13. Process Automation
++
++**Received research account — historical interpretation.**
+ 
+ Another natural consequence was the possibility of automating several validations.
+ 
+@@ -2939,6 +3199,8 @@
+ 
+ It became something that could be executed automatically.
+ 
++**Current interpretation note.** The received sequence describes automation potential, not implementation evidence. Applicable operational systems/tools/processes may execute validations and governed transitions; DF documentary contracts do not themselves perform approvals, permissions, storage or publication.
++
+ ---
+ 
+ ## 9.14. A New Perspective
+@@ -2958,6 +3220,8 @@
+ ---
+ 
+ ## 9.15. Research Status
++
++**Received research account — historical interpretation.**
+ 
+ At the end of this phase, several principles had been established.
+ 
+@@ -2970,6 +3234,8 @@
+ * The Workflow supports automation.
+ 
+ These decisions definitively consolidated the document evolution model.
++
++**Current interpretation note.** Eligibility of exact approved editions is distinct from validation, selection and inclusion. A Draft working successor does not inherit prior approval or Baseline membership. Authorship records actual contributions, while review/validation/approval remain separate decisions; user authorization is not automatic authorship.
+ 
+ ---
+ 
+@@ -3058,23 +3324,25 @@
+ 
+ ## 10.4. A Bidirectional Relationship
+ 
++**Received research account — historical interpretation.**
++
+ Until then, it had been implicitly assumed that documentation followed the software.
+ 
+ However.
+ 
+ The research revealed a different model.
+ 
+-```text id="ve1"
+-
+-               VisualEngine
+-                    ↓
+-
+-               Documentation
+-                    ↓
+-
+-               VisualEngine
+-
+-```
++<!-- view: ve1 -->
++**View ve1 — Historical feedback/co-evolution.**
++
++Bidirectional influence, not proof of required runtime cycle.
++
++| Position | Received term |
++| --- | --- |
++| 1 | VisualEngine |
++| 2 | Documentation |
++| 3 | VisualEngine |
++<!-- end-view -->
+ 
+ The architecture influences the documentation.
+ 
+@@ -3082,10 +3350,14 @@
+ 
+ This relationship is bidirectional.
+ 
++**Current interpretation note.** Bidirectional influence/co-evolution is historical feedback, not evidence of two indispensable runtime contracts or harmless mandatory cycles. Any actual required edges must state consumer→provider contract/scope; genuine mandatory cycles remain visible for reconciliation.
++
+ ---
+ 
+ ## 10.5. Documentation as a Component
+ 
++**Received research account — historical interpretation.**
++
+ A new hypothesis was then formulated.
+ 
+ Perhaps documentation should be considered a component of the architecture itself.
+@@ -3096,10 +3368,14 @@
+ 
+ This shift profoundly changed the role of the Documentation Framework.
+ 
++**Current interpretation note.** DF is independent of its VisualEngine origin. Optional adoption may make VisualEngine a consumer of required DF documentary provider contracts within a declared scope; origin does not impose a reverse DF→VisualEngine requirement. Complementary ecosystem roles do not merge the projects or prove blanket structural independence in every integration.
++
+ ---
+ 
+ ## 10.6. Independence Is Preserved
+ 
++**Received research account — historical interpretation.**
++
+ Despite this integration.
+ 
+ An important principle was established.
+@@ -3108,19 +3384,24 @@
+ 
+ Conceptually.
+ 
+-```text id="ve2"
+-
+-                    VisualEngine
+-
+-                    Documentation Framework
+-
+-```
++<!-- view: ve2 -->
++**View ve2 — Historical ecosystem association.**
++
++Distinct projects; actual optional consumption must name required provider contracts.
++
++| Position | Received term |
++| --- | --- |
++| 1 | VisualEngine |
++| 2 | Documentation Framework |
++<!-- end-view -->
+ 
+ Both collaborate.
+ 
+ But neither depends structurally on the other.
+ 
+ This independence would allow the framework to be reused in other projects.
++
++**Current interpretation note.** DF is independent of its VisualEngine origin. Optional adoption may make VisualEngine a consumer of required DF documentary provider contracts within a declared scope; origin does not impose a reverse DF→VisualEngine requirement. Complementary ecosystem roles do not merge the projects or prove blanket structural independence in every integration.
+ 
+ ---
+ 
+@@ -3218,6 +3499,8 @@
+ 
+ ## 10.12. Integration with the Laboratory
+ 
++**Received research account — historical interpretation.**
++
+ A particularly interesting idea emerged during this phase.
+ 
+ The results produced by the Laboratory could be documented automatically.
+@@ -3234,9 +3517,13 @@
+ 
+ The Documentation Framework was beginning to move closer to scientific research.
+ 
++**Current interpretation note.** Laboratory and Domain Packages integration is a received possibility. No supplied external specification, automatic feed implementation, deployment or conformance is claimed as reviewed; the journal does not register new DF components.
++
+ ---
+ 
+ ## 10.13. Integration with the Domain Packages
++
++**Received research account — historical interpretation.**
+ 
+ Another important evolution consisted of associating documentation directly with the Domain Packages.
+ 
+@@ -3251,10 +3538,14 @@
+ 
+ But organized according to a common model.
+ 
++**Current interpretation note.** Laboratory and Domain Packages integration is a received possibility. No supplied external specification, automatic feed implementation, deployment or conformance is claimed as reviewed; the journal does not register new DF components.
++
+ ---
+ 
+ ## 10.14. The Discovery of Circularity
+ 
++**Received research account — historical interpretation.**
++
+ At the end of this phase, a particularly interesting observation emerged.
+ 
+ The Documentation Framework documents the VisualEngine.
+@@ -3267,9 +3558,13 @@
+ 
+ It represents a relationship of co-evolution.
+ 
++**Current interpretation note.** Bidirectional influence/co-evolution is historical feedback, not evidence of two indispensable runtime contracts or harmless mandatory cycles. Any actual required edges must state consumer→provider contract/scope; genuine mandatory cycles remain visible for reconciliation.
++
+ ---
+ 
+ ## 10.15. Research Status
++
++**Received research account — historical interpretation.**
+ 
+ At the end of this stage, several principles had been established.
+ 
+@@ -3283,10 +3578,14 @@
+ 
+ These ideas definitively consolidated the position of the Documentation Framework within the project's ecosystem.
+ 
++**Current interpretation note.** DF is independent of its VisualEngine origin. Optional adoption may make VisualEngine a consumer of required DF documentary provider contracts within a declared scope; origin does not impose a reverse DF→VisualEngine requirement. Complementary ecosystem roles do not merge the projects or prove blanket structural independence in every integration.
++
+ ---
+ 
+ ## 10.16. Next Steps
+ 
++**Received research account — historical interpretation.**
++
+ The integration with the VisualEngine revealed a new question.
+ 
+ If architecture and documentation evolve together.
+@@ -3303,10 +3602,14 @@
+ 
+ The explicit management of change.
+ 
++**Current interpretation note.** CMS initiates/governs change in the described ecosystem; DF defines documentary concepts and applicable representation/governance contracts; DMS or an applicable execution process performs operational document management. CMS is more than an explanation of why, while DF is not a file-management implementation. These responsibilities are a synopsis, not a reviewed complete external CMS/DMS specification.
++
+ ---
+ 
+ ## 10.17. Conclusion
+ 
++**Received research account — historical interpretation.**
++
+ The integration of the Documentation Framework with the VisualEngine marked the moment when they ceased to be viewed as separate projects.
+ 
+ They became complementary components of the same ecosystem.
+@@ -3317,6 +3620,8 @@
+ 
+ This integration naturally prepared the next stage of the research, where the focus would shift away from documents and toward the true origin of their evolution: **change**.
+ 
++**Current interpretation note.** DF is independent of its VisualEngine origin. Optional adoption may make VisualEngine a consumer of required DF documentary provider contracts within a declared scope; origin does not impose a reverse DF→VisualEngine requirement. Complementary ecosystem roles do not merge the projects or prove blanket structural independence in every integration.
++
+ ---
+ 
+ # 11. The Discovery of Integration with the Change Management System
+@@ -3325,6 +3630,8 @@
+ 
+ ## 11.1. Introduction
+ 
++**Received research account — historical interpretation.**
++
+ The integration of the Documentation Framework with the VisualEngine made it possible to understand that both evolved in a coordinated manner.
+ 
+ However.
+@@ -3339,9 +3646,13 @@
+ 
+ It was precisely from this reflection that the connection between the Documentation Framework and the **Change Management System (CMS)** emerged.
+ 
++**Current interpretation note.** CMS initiates/governs change in the described ecosystem; DF defines documentary concepts and applicable representation/governance contracts; DMS or an applicable execution process performs operational document management. CMS is more than an explanation of why, while DF is not a file-management implementation. These responsibilities are a synopsis, not a reviewed complete external CMS/DMS specification.
++
+ ---
+ 
+ ## 11.2. The Limit of the Workflow
++
++**Received research account — historical interpretation.**
+ 
+ For a long time, it was believed that the Workflow represented the complete mechanism for document evolution.
+ 
+@@ -3361,9 +3672,13 @@
+ 
+ **What initiates that process?**
+ 
++**Current interpretation note.** These are historical lifecycle experiments/state examples, not a universal current transition graph. States concern exact editions; an older Approved edition may coexist with a Draft successor. Applicable Governance owner policies determine transitions, eligibility and evidence. Review and validation do not automatically approve an edition.
++
+ ---
+ 
+ ## 11.3. Before the Document, There Is a Change
++
++**Received research account — historical interpretation.**
+ 
+ Looking retrospectively at the evolution of the documentation revealed a consistent pattern.
+ 
+@@ -3384,42 +3699,42 @@
+ 
+ Never the cause.
+ 
++**Current interpretation note.** Change-origin statements are received explanatory hypotheses, not universal causal laws. Documentation may record, motivate or propose a change; a document is not automatically verified evidence of a completed change. Change/document identities and actual contribution/review/approval records are distinct.
++
+ ---
+ 
+ ## 11.4. A New Hierarchy
+ 
+ Until this point, evolution had been understood as follows.
+ 
+-```text id="cms1"
+-
+-                 Document
+-                    ↓
+-
+-                 Workflow
+-                    ↓
+-
+-               New Version
+-
+-```
++<!-- view: cms1 -->
++**View cms1 — Historical document-centered evolution hypothesis.**
++
++Narrative activity order; not a mandatory pipeline or current hierarchy.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Document |
++| 2 | Workflow |
++| 3 | New Version |
++<!-- end-view -->
+ 
+ With the new perspective.
+ 
+ The hierarchy became different.
+ 
+-```text id="cms2"
+-
+-                  Change
+-                    ↓
+-
+-                 Document
+-                    ↓
+-
+-                 Workflow
+-                    ↓
+-
+-               New Version
+-
+-```
++<!-- view: cms2 -->
++**View cms2 — Historical change-origin evolution hypothesis.**
++
++Narrative activity order; no universal causal or execution rule.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Change |
++| 2 | Document |
++| 3 | Workflow |
++| 4 | New Version |
++<!-- end-view -->
+ 
+ This inversion profoundly transformed the entire conceptual architecture.
+ 
+@@ -3427,6 +3742,8 @@
+ 
+ ## 11.5. The Document as Evidence
+ 
++**Received research account — historical interpretation.**
++
+ Another important observation emerged naturally.
+ 
+ The document does not represent the change.
+@@ -3435,26 +3752,29 @@
+ 
+ For example.
+ 
+-An architectural decision.
+-
+-↓
+-
+-Produces documentation.
+-
+-↓
+-
+-Produces implementation.
+-
+-↓
+-
+-Produces tests.
++<!-- original-section-flow: 11.5 -->
++**Historical activity illustration in §11.5 — possible decision-related outputs.**
++
++| Narrated position | Activity/output |
++|---|---|
++| 1 | Architectural decision |
++| 2 | Documentation |
++| 3 | Implementation |
++| 4 | Tests |
++
++Narrated order is not a universal production sequence, execution dependency or supplied evidence of completed outputs.
++<!-- end-original-section-flow -->
+ 
+ The document is merely one manifestation of the change.
+ 
++**Current interpretation note.** The displayed order is an illustrative account of decision-related outputs, not a universal production chain. A document may represent a proposal, rationale or change evidence depending on its actual content/provenance. Implementation and tests can occur in another order or iteratively; no verified implementation/test output is supplied here.
++
+ ---
+ 
+ ## 11.6. The CMS as an Upper Layer
+ 
++**Received research account — historical interpretation.**
++
+ A new hypothesis was then formulated.
+ 
+ The Workflow belongs to the Documentation Framework.
+@@ -3463,27 +3783,29 @@
+ 
+ Conceptually.
+ 
+-```text id="cms3"
+-
+-          Change Management System
+-                    ↓
+-
+-          Documentation Framework
+-                    ↓
+-
+-                 Workflow
+-                    ↓
+-
+-                 Documents
+-
+-```
++<!-- view: cms3 -->
++**View cms3 — Historical CMS/DF responsibility association.**
++
++Not internal DF Layer allocation or mandatory system hierarchy.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Change Management System |
++| 2 | Documentation Framework |
++| 3 | Workflow |
++| 4 | Documents |
++<!-- end-view -->
+ 
+ This organization proved to be much more consistent.
+ 
++**Current interpretation note.** The Upper Layer phrase describes a historical integration hypothesis, not a new internal DF structural Layer or mandatory ecosystem hierarchy. CMS change initiation/governance, DF documentary definitions and DMS operational execution remain distinct. Consumer/provider dependencies require specific contract/scope evidence; this association view supplies no complete required graph.
++
+ ---
+ 
+ ## 11.7. The Workflow Remains Important
+ 
++**Received research account — historical interpretation.**
++
+ An immediate consequence of this discovery was the clarification of responsibilities.
+ 
+ The CMS does not replace the Workflow.
+@@ -3497,6 +3819,8 @@
+ Yet complementary.
+ 
+ Functions.
++
++**Current interpretation note.** CMS initiates/governs change in the described ecosystem; DF defines documentary concepts and applicable representation/governance contracts; DMS or an applicable execution process performs operational document management. CMS is more than an explanation of why, while DF is not a file-management implementation. These responsibilities are a synopsis, not a reviewed complete external CMS/DMS specification.
+ 
+ ---
+ 
+@@ -3519,30 +3843,30 @@
+ 
+ ## 11.9. Complete Traceability
+ 
++**Received research account — historical interpretation.**
++
+ With the integration of the CMS, it became possible to establish a complete traceability chain.
+ 
+ For example.
+ 
+-```text id="cms4"
+-
+-                  Change
+-                    ↓
+-
+-                 Document
+-                    ↓
+-
+-              Architecture
+-                    ↓
+-
+-                   Code
+-                    ↓
+-
+-                 Behavior
+-
+-```
++<!-- view: cms4 -->
++**View cms4 — Intended traceability navigation chain.**
++
++Provenance order illustration, not verified complete traceability or execution dependency.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Change |
++| 2 | Document |
++| 3 | Architecture |
++| 4 | Code |
++| 5 | Behavior |
++<!-- end-view -->
+ 
+ For the first time, it became possible to understand the complete origin of a decision.
+ 
++**Current interpretation note.** The traceability chain is intended provenance/navigation, not proof of complete decision origin or of a mandatory execution order. Actual links must identify records/editions and evidence; none is invented by this UPDATE.
++
+ ---
+ 
+ ## 11.10. The Role of META Documents
+@@ -3561,6 +3885,8 @@
+ 
+ ## 11.11. Baselines and Change
+ 
++**Received research account — historical interpretation.**
++
+ Another important consequence was the redefinition of Baselines.
+ 
+ A Baseline no longer represented only a coherent set of documents.
+@@ -3569,10 +3895,14 @@
+ 
+ This interpretation proved to be considerably more robust.
+ 
++**Current interpretation note.** A DF document Baseline remains an exact immutable document-edition selection with pinned relevant context and explicit approval/inclusion. CMS approved-change records may be linked as provenance, but a set of approved changes does not replace the document snapshot or certify implementation. This journal creates neither a CMS change set nor a Baseline.
++
+ ---
+ 
+ ## 11.12. The Evolution of Knowledge
+ 
++**Received research account — historical interpretation.**
++
+ During this phase, a particularly interesting idea became evident.
+ 
+ Neither the CMS manages documents.
+@@ -3587,32 +3917,34 @@
+ 
+ This distinction made the architecture much more elegant.
+ 
++**Current interpretation note.** CMS initiates/governs change in the described ecosystem; DF defines documentary concepts and applicable representation/governance contracts; DMS or an applicable execution process performs operational document management. CMS is more than an explanation of why, while DF is not a file-management implementation. These responsibilities are a synopsis, not a reviewed complete external CMS/DMS specification.
++
+ ---
+ 
+ ## 11.13. A New Perspective
+ 
+ Looking at the research as a whole revealed a recurring sequence.
+ 
+-```text id="cms5"
+-
+-                  Change
+-                    ↓
+-
+-                Knowledge
+-                    ↓
+-
+-               Documentation
+-                    ↓
+-
+-              Implementation
+-
+-```
++<!-- view: cms5 -->
++**View cms5 — Historical causal perspective.**
++
++Explanatory sequence, not universal production order or mandatory graph.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Change |
++| 2 | Knowledge |
++| 3 | Documentation |
++| 4 | Implementation |
++<!-- end-view -->
+ 
+ This sequence came to explain virtually the entire evolution of the project.
+ 
+ ---
+ 
+ ## 11.14. Research Status
++
++**Received research account — historical interpretation.**
+ 
+ At the end of this phase, several fundamental principles had been established.
+ 
+@@ -3626,10 +3958,14 @@
+ 
+ These conclusions permanently transformed the conceptual architecture of the framework.
+ 
++**Current interpretation note.** Change-origin statements are received explanatory hypotheses, not universal causal laws. Documentation may record, motivate or propose a change; a document is not automatically verified evidence of a completed change. Change/document identities and actual contribution/review/approval records are distinct.
++
+ ---
+ 
+ ## 11.15. Next Steps
+ 
++**Received research account — historical interpretation.**
++
+ With the integration of the CMS, virtually all the fundamental components of the Documentation Framework had been defined.
+ 
+ Only one final task remained.
+@@ -3646,10 +3982,14 @@
+ 
+ This synthesis will constitute the final part of this **Research Journal**.
+ 
++**Current interpretation note.** Completion of the conceptual architecture was a received assessment, not verified present implementation or integrated conformity. The historical component selection is not an exhaustive current register; global source reconciliation remains pending.
++
+ ---
+ 
+ ## 11.16. Conclusion
+ 
++**Received research account — historical interpretation.**
++
+ The integration with the **Change Management System** marked the moment when the Documentation Framework definitively ceased to be regarded merely as a documentation system.
+ 
+ It became part of a broader architecture dedicated to managing the evolution of knowledge.
+@@ -3658,6 +3998,8 @@
+ 
+ This discovery completed the conceptual architecture of the Documentation Framework and naturally prepared the conclusion of this research journal.
+ 
++**Current interpretation note.** Completion of the conceptual architecture was a received assessment, not verified present implementation or integrated conformity. The historical component selection is not an exhaustive current register; global source reconciliation remains pending.
++
+ ---
+ 
+ # 12. Research Summary, Lessons Learned, and Future Perspectives
+@@ -3680,6 +4022,8 @@
+ 
+ ## 12.2. An Unplanned Evolution
+ 
++**Received research account — historical interpretation.**
++
+ As happened with the VisualEngine.
+ 
+ The Documentation Framework was not created as a complete solution.
+@@ -3688,43 +4032,31 @@
+ 
+ The evolution can be summarized as follows.
+ 
+-```
+-
+-                 Documents
+-                    ↓
+-
+-                 emplates
+-                    ↓
+-
+-                 Metadata
+-                    ↓
+-
+-            Document Identity
+-                    ↓
+-
+-             META Documents
+-                    ↓
+-
+-                Baselines
+-                    ↓
+-
+-                 Registry
+-                    ↓
+-
+-               Relationships
+-                    ↓
+-
+-                 Workflow
+-                    ↓
+-
+-              CMS Integration
+-
+-```
++<!-- original-section-view: 12.2 -->
++**Previously unnamed view in §12.2 — Narrated research stages.**
++
++Presentation order only; received typo emplates corrected to Templates.
++
++| Position | Received term |
++| --- | --- |
++| 1 | Documents |
++| 2 | Templates |
++| 3 | Metadata |
++| 4 | Document Identity |
++| 5 | META Documents |
++| 6 | Baselines |
++| 7 | Registry |
++| 8 | Relationships |
++| 9 | Workflow |
++| 10 | CMS Integration |
++<!-- end-original-section-view -->
+ 
+ Each stage preserved the principles established by the previous one.
+ 
+ While introducing a new level of abstraction.
+ 
++**Current interpretation note.** The sequence records narrated emergence, not a verified dated chronology, dependency chain or proof that every later contract remained unchanged. The received emplates typo is corrected to Templates; the original unnamed view is tracked by section 12.2 rather than an invented historical ID.
++
+ ---
+ 
+ ## 12.3. The Real Problem
+@@ -3756,6 +4088,8 @@
+ ---
+ 
+ ## 12.5. The Importance of Metadata
++
++**Received research account — historical interpretation.**
+ 
+ One of the most significant discoveries was the separation between.
+ 
+@@ -3769,9 +4103,13 @@
+ 
+ This decision made document classification, validation, and traceability possible.
+ 
++**Current interpretation note.** Content and descriptive information have distinct conceptual responsibilities but can evolve together: technical edits may require Version/Revision, Status, Registry and relationship updates. Descriptors do not redefine knowledge/domain semantics; conceptual separation does not guarantee administrative independence or forbid all interactions.
++
+ ---
+ 
+ ## 12.6. Permanent Identity
++
++**Received research account — historical interpretation.**
+ 
+ Another fundamental conclusion was the definitive separation between.
+ 
+@@ -3785,6 +4123,8 @@
+ 
+ This decision proved essential for every subsequent evolution of the framework.
+ 
++**Current interpretation note.** Ordinary rename, relocation, reclassification or edition evolution can retain logical identity. A semantic split/merge requires an explicit retained/new identity and provenance decision; it is not automatically the same entity. Repository/domain migration also requires scope assessment. No new identity is allocated in this UPDATE.
++
+ ---
+ 
+ ## 12.7. META Documents
+@@ -3809,6 +4149,8 @@
+ 
+ ## 12.8. Baselines
+ 
++**Received research account — historical interpretation.**
++
+ Baselines introduced a new concept.
+ 
+ The stable state of knowledge.
+@@ -3819,10 +4161,14 @@
+ 
+ This approach brought the Documentation Framework much closer to configuration engineering principles.
+ 
++**Current interpretation note.** The current DF Baseline synopsis selects immutable approved document editions by logical ID plus exact Version/Revision or equivalent, with relevant pinned relationship context and evidence. Snapshot identity, member identity, edition Status and explicit membership differ. A current path or header alone does not establish inclusion; changes do not retarget old members.
++
+ ---
+ 
+ ## 12.9. The Registry
+ 
++**Received research account — historical interpretation.**
++
+ The Document Registry completely changed the way documentation is navigated.
+ 
+ Documentation was no longer simply a collection of files.
+@@ -3835,10 +4181,14 @@
+ 
+ And verifiable.
+ 
++**Current interpretation note.** Registry and Knowledge Graph expose traceable catalog/network projections; Relationships remains the authority for typed records. Repeated derived values are permitted with exact-edition/current-stale provenance; no physical single-copy rule or new semantic owner is created. Current Discovery also includes Navigation and Search; this historical narrative is not a complete component register.
++
+ ---
+ 
+ ## 12.10. The Knowledge Graph
+ 
++**Received research account — historical interpretation.**
++
+ The formalization of document relationships revealed a new reality.
+ 
+ The complete document collection forms a network.
+@@ -3849,9 +4199,13 @@
+ 
+ This perspective brought the Documentation Framework closer to modern knowledge management systems.
+ 
++**Current interpretation note.** A graph is a conceptual projection of typed records, not proof that all relations are registered or an exploration implementation exists. Relationships owns records; Knowledge Graph projects them with provenance. General graph cycles are not necessarily mandatory dependency cycles.
++
+ ---
+ 
+ ## 12.11. Workflow
++
++**Received research account — historical interpretation.**
+ 
+ Workflow introduced a temporal dimension.
+ 
+@@ -3866,10 +4220,14 @@
+ 
+ It became an entity with a formal lifecycle.
+ 
++**Current interpretation note.** Status is an edition-specific governance state, not a general operational-maturity certificate. Version/Revision, state, approval evidence and Baseline membership are distinct. Applicable owner definitions govern actual evolution, rather than this historical research synopsis.
++
+ ---
+ 
+ ## 12.12. Integration with the VisualEngine
+ 
++**Received research account — historical interpretation.**
++
+ Another important discovery was understanding that documentation and architecture evolve together.
+ 
+ Neither completely describes the other.
+@@ -3878,10 +4236,14 @@
+ 
+ This integration consolidated the role of the Documentation Framework as a cross-cutting infrastructure.
+ 
++**Current interpretation note.** DF is independent of its VisualEngine origin. Optional adoption may make VisualEngine a consumer of required DF documentary provider contracts within a declared scope; origin does not impose a reverse DF→VisualEngine requirement. Complementary ecosystem roles do not merge the projects or prove blanket structural independence in every integration.
++
+ ---
+ 
+ ## 12.13. The Role of the CMS
+ 
++**Received research account — historical interpretation.**
++
+ Integration with the Change Management System finally answered the question that had remained unresolved from the beginning.
+ 
+ Why do documents evolve?
+@@ -3894,9 +4256,13 @@
+ 
+ This conclusion permanently transformed the conceptual architecture of the framework.
+ 
++**Current interpretation note.** CMS initiates/governs change in the described ecosystem; DF defines documentary concepts and applicable representation/governance contracts; DMS or an applicable execution process performs operational document management. CMS is more than an explanation of why, while DF is not a file-management implementation. These responsibilities are a synopsis, not a reviewed complete external CMS/DMS specification.
++
+ ---
+ 
+ ## 12.14. Fundamental Principles
++
++**Received research account — historical interpretation.**
+ 
+ Looking back over the entire research journey.
+ 
+@@ -3912,6 +4278,8 @@
+ 
+ These principles now constitute the foundation of the Documentation Framework.
+ 
++**Current interpretation note.** Historical Family/Type/Class and every-document claims are not the current classification/identity contract. Family denotes the canonical component or scoped documentary area (Foundation here); Type uses the uniform four values Architecture, Structure, Behavior, Reference. Stable allocation series are independent of classification. Every README.md, CHANGELOG.md and ArchitecturalMilestones.md at any location is non-normalized: no normalized ID/header/classification or ID-based renaming is required; content/reference/hash checks still apply.
++
+ ---
+ 
+ ## 12.15. Lessons Learned
+@@ -3931,7 +4299,9 @@
+ 
+ ---
+ 
+-## 12.16 Future Perspectives
++## 12.16. Future Perspectives
++
++**Received research account — historical interpretation.**
+ 
+ Despite the level of maturity currently achieved.
+ 
+@@ -3949,6 +4319,8 @@
+ 
+ These areas represent natural opportunities for future evolution.
+ 
++**Current interpretation note.** Maturity/current-state language is the received undated assessment. Listed future research remains non-binding, without operational acceptance or release evidence. This working edition and local corrections are pending VALIDATE DOCUMENT; prior validations of other sources do not establish integrated conformity.
++
+ ---
+ 
+ ## 12.17. A New Way of Understanding Documentation
+@@ -3991,6 +4363,8 @@
+ 
+ ## 12.19. Closing Remarks
+ 
++**Received research account — historical interpretation.**
++
+ This concludes the **Research Journal** of the Documentation Framework.
+ 
+ This document has recorded the evolution of the ideas that gave rise to the framework, preserving not only the solutions that were discovered but also the reasoning process that led to its current architecture.
+@@ -4003,6 +4377,37 @@
+ 
+ And those abstractions will, in turn, give rise to new ways of understanding, representing, and managing documentary knowledge.
+ 
++**Current interpretation note.** Maturity/current-state language is the received undated assessment. Listed future research remains non-binding, without operational acceptance or release evidence. This working edition and local corrections are pending VALIDATE DOCUMENT; prior validations of other sources do not establish integrated conformity.
++
++---
++
++## 12.20. Related sources and evidence limits
++
++| Source | Responsibility and limit |
++|---|---|
++| [DF-FND-001 — Framework Manifest](DF-FND-001-FrameworkManifest.md) | Orientation and classification; V2.0 R1 Draft with earlier local validation. |
++| [DF-FND-003 — Evolution Timeline](DF-FND-003-EvolutionTimeline.md) | Related chronology; received source, full cycle pending. |
++| [DF-FND-004 — Architectural Blueprint](DF-FND-004-ArchitecturalBlueprint.md) | Framework architectural definitions; V2.0 R1 Draft with earlier local validation. |
++| [DF-FND-005 — Framework Evolution](DF-FND-005-FrameworkEvolution.md) | Historical evolution reference; V1.0 R1 Draft with earlier local validation. |
++| [DF-FND-006 — Design Rationale](DF-FND-006-DesignRationale.md) | Reasons for architectural decisions; V2.0 R1 Draft with earlier local validation. |
++| [DF-ARC-004 — Architectural Layers](../01-Architecture/DF-ARC-004-ArchitecturalLayers.md) | Structural owner; received six/seven discrepancy remains Open. |
++| [DF-ARC-005 — Architectural Components](../01-Architecture/DF-ARC-005-ArchitecturalComponents.md) | Registered responsibilities; complete reconciliation pending. |
++| [DF-RVW-001 — Review Policy](../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md) | Adopted corpus identity/edition/tracking policy; Draft. |
++| [DF-RVW-002 — Review Report](../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md) | Local review evidence; current UPDATE, VALIDATE DOCUMENT pending. |
++
++Links provide navigation/provenance, not mandatory execution dependencies. No external CMS, DMS, VisualEngine, Laboratory or Domain Packages specification is claimed as supplied/reviewed. Historical proposals and current owner contracts are read separately; this journal does not close cross-source identity, catalog/Profile, architecture or complete dependency findings.
++
++---
++
++## 12.21. Local edition history
++
++| Date | Version | Revision | Contribution/event | State and evidence |
++|---|---|---|---|---|
++| Not supplied | 1.0 | Absent | Received research record attributed to Arnaldo Figueira | Received Approved/Baseline 1.0 declarations; historical dates, selection and approval evidence not verified. |
++| 2026-10-04 | 1.0 | 1 | Codex — AI assistant: historical/current scope, descriptor/identity/snapshot/lifecycle/integration interpretation, all 38 views and inline flow, source map and local editorial corrections | Draft; Baseline Not assigned; compatible historical-reference clarification; ten local corrections pending VALIDATE DOCUMENT; CHANGELOG #251; report §22. |
++
++Input SHA-256: `53fad4f5847ead6e54fc2a4e46947cf8b1b48a123d548fa96d8347cdbc891831`. First declared working Revision 1; no historical Revision 0 invented. Received historical identity examples remain historical rather than migrated. Source identity/path unchanged. Updating this working edition neither alters historical immutable Baseline members nor grants approval. Later edits require evidence for the resulting bytes, distinct from authorization and contribution.
++
+ ---
+ 
+ **End of Document**
+--- before-4.05-UPDATE/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ after-4.05-UPDATE/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 15 |
++| **Revision** | 16 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -47,6 +47,8 @@
+ Revision 14 records Step 4.04 VALIDATE DOCUMENT in §20. Current totals: 19 Open, 36 Closed—verified, one Not applicable—scope decision; source V1.0 R1 unchanged, Draft/unassigned. Earlier event scopes remain preserved. Next: Step 4.05 REVIEW DF-FND-002.
+ 
+ Revision 15 adds Step 4.05 Research Journal REVIEW in §21. Current totals: 29 Open, 36 Closed—verified, one Not applicable—scope decision. Source unchanged; next UPDATE DF-FND-002. Earlier event-time states remain preserved.
++
++Revision 16 records Step 4.05 UPDATE in §22. Current totals: 19 Open, ten Corrected—pending validation, 36 Closed—verified and one Not applicable—scope decision. §21 retains REVIEW-time states. Next: VALIDATE DOCUMENT DF-FND-002.
+ 
+ ## 2. Concrete changes — before/after
+ 
+@@ -147,6 +149,7 @@
+ | 2026-10-04 | 1.0 | 13 | Step 4.04 UPDATE: Framework Evolution V1.0 R1, nine corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #242 |
+ | 2026-10-04 | 1.0 | 14 | Step 4.04 local Framework Evolution validation; nine verified closures; source unchanged | Draft; Baseline Not assigned; source V1.0 R1 hash retained; #244–246 |
+ | 2026-10-04 | 1.0 | 15 | Step 4.05 Research Journal REVIEW; eight findings and two warnings Open; source unchanged | Draft; Baseline Not assigned; compatible informational report update; #248; REVIEW evidence checks #250 |
++| 2026-10-04 | 1.0 | 16 | Step 4.05 UPDATE: Research Journal V1.0 R1, ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #252 |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -1305,3 +1308,61 @@
+ ### 21.5. Next command
+ 
+ **CONTINUAR** starts **4.05 — UPDATE DF-FND-002 — Research Journal**, applying localized corrections with actual compatibility assessment, full source/diff/history and tracking, then pauses before VALIDATE DOCUMENT.
++
++
++## 22. Step 4.05 — UPDATE DF-FND-002 — Research Journal
++
++### 22.1. Exact successor and compatibility
++
++**UPDATE complete; VALIDATE DOCUMENT pending.** Received V1.0, Revision absent, Approved/Baseline 1.0 becomes **V1.0 R1 Draft, Baseline Not assigned**, Foundation/Reference, English. Original ID/path retained; no Component/Class or historical Revision 0 invented. Received Arnaldo Figueira authorship and Codex — AI assistant's actual working contribution are retained, distinct from authorization and approval.
++
++Input SHA-256: `53fad4f5847ead6e54fc2a4e46947cf8b1b48a123d548fa96d8347cdbc891831`. Output SHA-256: `018b81c60884dfb13eda73083c134f4c1bfab4248184795f479ca1fd8ac851f6` (142,965 bytes; CRLF retained).
++
++The actual change preserves the research record and labels received hypotheses/claims as historical; current interpretation notes point to adopted owner responsibilities. All twelve chapters and original section numbers remain. This source explicitly establishes no new normative architectural contract, external specification or executable evolution process. Compatible clarification/reclassification retains Version 1.0; absent Revision first becomes 1. No approval or Baseline inclusion is inherited, and no identity migration is required.
++
++### 22.2. Applied corrections and concrete before/after
++
++| Record | Written source scope | Before | Actual result | State |
++|---|---|---|---|---|
++| FND002-01 | Header; scope; 12.21 | Family/Type and Revision absent; received Approved/Baseline 1.0. | Foundation/Reference, V1.0 R1 Draft/unassigned; received and actual working contributions separated, no R0/Component/Class invented. | Corrected—pending validation |
++| FND002-02 | 2.10–2.17; 3.5–3.16; 12.5 | Administrative descriptors said to belong to identity; Metadata mandatory for every document, common core/family compatibility unqualified, tools need no content and Metadata must never interfere with content. | Descriptors versus permanent identity/domain authority separated; Dictionary/Schema/Profile/Instance roles, one effective Profile and functional exclusions explicit; no content-free/independent-edition guarantee. | Corrected—pending validation |
++| FND002-03 | 1.10/1.15; 2.6; 3.12/3.15; 4.4–4.15; 5.5/5.7/5.8; 12.6/12.14 | Family+Type identity examples META-DCL-001 and category/Type/Class model said virtually unchanged until current architecture; every document has permanent ID/version including README examples. | DOC/META examples retained historically; current stable DF-SSS-NNN, four Types, canonical Family and exclusions explicit; no migration/allocations or Class invention. | Corrected—pending validation |
++| FND002-04 | 6.4–6.14; 9.12/9.15; 11.11; 12.8 | Baseline set of documents/redefined as approved changes; every significant change creates Baseline or change postponed; Revision only small compatible changes; exact selection/gates absent. | Exact immutable approved edition selection/pinned context, explicit eligibility/approval/inclusion; no automatic snapshot creation; major.minor compatibility and monotonic Revision; CMS changes distinct from document snapshot. | Corrected—pending validation |
++| FND002-05 | 7.5–7.14; 8.5–8.15; 12.9/12.10 | Registry entry independence and knowledge repository/metadata layer blur authoritative owner versus derived values; relationship examples treated as dependencies; graph auto-consistency unscoped. | Relationships records authoritative, Registry/Graph projections traceable with current/stale provenance; logical separation and derived copies permitted; relation kinds distinguished. | Corrected—pending validation |
++| FND002-06 | 6.7; 9.4–9.15; 11.2/11.7; 12.11 | Historical state chains look universal; cannot archive Draft or return to earlier states; Workflow executed automatically without owner/executor/edition distinctions. | Lifecycle experiments and transition restrictions historical; exact edition states and applicable Governance owner contracts, separate operational execution and contribution/review/approval evidence. | Corrected—pending validation |
++| FND002-07 | 10.4–10.17; 11.1–11.16; 12.12/12.13 | Neither DF/VisualEngine depends structurally on the other; circularity never a problem; CMS an Upper Layer merely explains why, all documentation consequence never cause; complete traceability asserted. | Historical feedback/causal hypotheses qualified; optional consumer/provider contracts, visible required cycles, CMS initiation/governance distinct from DF/DMS; no new CMS structural Layer or claimed external implementation. | Corrected—pending validation |
++| FND002-08 | All 38 fenced views; inline11.5 | 38 fenced views and inline decision/documentation/implementation/tests sequence mix examples, decomposition, chronology, states, causal flows and dependencies. | 35 named IDs and three previously unnamed section anchors preserved; every view typed as historical/example/decomposition/association/traceability; inline outputs not a universal execution chain. | Corrected—pending validation |
++| FND002-W01 | Scope; 1.1; 6.9; 6.15/7.1; 7.4/7.7/7.13; 8.7/8.11; 9.13; 11.9/11.15/11.16; 12.16/12.19 | Chronological journal has no dated entries/experiment evidence; first Baseline, complete graph/traceability, unlimited scale and current maturity asserted without supplied records. | Received chronology, experiments and maturity/completeness assessments preserved as undated narrative; evidence/automation/scale limits explicit, future directions non-binding. | Corrected—pending validation |
++| FND002-W02 | 8.1; 12.2; 12.16; 12.20/12.21 | No operational source links;12.2 summary says emplates;8.1/12.16 heading punctuation irregular; current-versus-history map absent. | Templates typo and heading punctuation corrected; nine resolving source-role links; input and local history distinguish received declarations from actual working contribution. | Corrected—pending validation |
++
++Material excerpts below are abbreviated; the full diff contains every removal/addition. Historical text is preserved under an explicit label rather than silently replaced with a modern convention.
++
++| Section/field | Before | Written addition/change | Impact |
++|---|---|---|---|
++| Header | Family/Type/Revision absent; Approved/Baseline 1.0 | Foundation / Reference / Revision 1 / Draft / Not assigned | First working successor; actual contribution recorded. |
++| 3.11 | Metadata must never directly interfere with the content. | Historical label; “technical edits may require Version/Revision, Status, Registry and relationship updates” | Conceptual separation does not imply independent editions. |
++| 4.8/4.9 | META-DCL and META-DCL-001 as Family/Type identifiers | Historical tables retain examples; “Series are stable namespaces, not mutable Family/Type” | Current identity convention distinct; no rewriting historical allocations. |
++| 6.6 | Revision represents small, backward-compatible changes. | Historical label; “increments Revision monotonically across Version changes” | Current policy distinguishes compatibility from edit size. |
++| 11.11 | Baseline ... coherent set of approved changes | Historical label; “a set of approved changes does not replace the document snapshot” | CMS provenance distinct from immutable document selection. |
++| 10.14 | This circularity does not constitute a problem. | Historical label; “genuine mandatory cycles remain visible for reconciliation” | Feedback does not justify concealing required cycles. |
++| 11.6 | CMS as an Upper Layer | “not a new internal DF structural Layer or mandatory ecosystem hierarchy” | External responsibilities preserved; current owner boundary explicit. |
++| 12.2 | emplates | Templates in the historical stage table | Editorial correction; narrative order preserved. |
++| 8.1/12.16 | Missing heading punctuation | Numbered headings retain numbers with standard punctuation | Local formatting only. |
++
++There are 118 amended section bodies, including 105 explicit historical/current interpretation notes and view transformations. All 38 fenced views become typed Markdown tables: 35 original named IDs remain unchanged, three originally unnamed views use their original section anchors (§§1.7/1.11/12.2), with no invented historical IDs. The inline §11.5 activity illustration also becomes a typed table. Every relation states its meaning; required dependencies, if asserted, preserve consumer→provider contract/scope. The historical relationship example keeps Defines/Implemented By/Referenced By as illustrative navigation semantics, not verified implementation or execution order.
++
++Added §12.20 contains nine actual-path source-role links; §12.21 preserves received edition/date limits and the dated actual working contribution, Draft/unassigned, ten pending corrections, CHANGELOG #251 and report §22. No new document/Metadata Element/relationship record IDs, catalog/Profile records or Baseline are allocated.
++
++### 22.3. Tracking and construction integrity
++
++Current totals: **19 Open, ten Corrected—pending validation, 36 Closed—verified, one Not applicable—scope decision**. No local correction is closed here. Functional-file tracking retains INV-02 as Not applicable under the adopted scope exclusion. Earlier exact-source closures retain their scopes; global architecture, identity, catalog/Profile and complete mandatory dependency reconciliation remain pending.
++
++CHANGELOG #251 records the actual source correction pending validation; #252 report R15→R16; #253 milestone tracking. M10 remains In Progress: four C, Research Journal S, Evolution Timeline O. No completion date; M9 identifies report R16 without expanding historical acceptance. Earlier events and M0–M7 remain preserved.
++
++Construction checks verify metadata, original numbered sections, all 35 named view IDs, three originally unnamed anchors, the inline flow, absence of untyped ASCII diagram fences, nine reference targets/identities, input/history evidence, 74 other unchanged original normalized sources, all four prior validated source hashes, six README files, 89 stable matrix positions, register history and current manifest. These checks are **construction/integrity only, not VALIDATE DOCUMENT, finding closure, approval or integrated conformity**. Full exact-source and affected-contract inspection remains the next phase.
++
++Current update map/classification/construction/progress/manifest and full diff belong to R16. R15 review evidence retains its event-time Open states. Checkpoint: `Context-Working-Step-4-05-Update.zip`; final Context-Reviewed.zip remains pending.
++
++### 22.4. Next command
++
++**CONTINUAR** starts **4.05 — VALIDATE DOCUMENT DF-FND-002**, checking the complete exact V1.0 R1 against its received source, all ten criteria and affected owner contracts, then pausing. Validation does not grant approval or start Evolution Timeline automatically.
+--- before-4.05-UPDATE/Context/CHANGELOG.md
++++ after-4.05-UPDATE/Context/CHANGELOG.md
+@@ -58,6 +58,9 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 253 | 2026-10-04 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M10 remains In Progress: four C, Research Journal S V1.0 R1 Draft/unassigned UPDATE complete validation pending, one O; no completion date; M9 report R16; historical events retained. |
++| 252 | 2026-10-04 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R15 to R16 Draft/unassigned; actual source before/after and compatibility; 19 Open, ten corrected pending validation, 36 Closed-verified, INV-02 Not applicable; construction checks only. |
++| 251 | 2026-10-04 | Codex — AI assistant | Updated | /00-Foundation/DF-FND-002-ResearchJournal.md | Correction | Step 4.05 actual UPDATE V1.0 Revision absent Approved/Baseline 1.0 to V1.0 R1 Draft/unassigned Foundation/Reference; compatible historical-reference clarification, 118 amended bodies, 38 typed views plus inline flow, nine references and local history; ten corrections pending validation; input 53fad4f5847ead6e54fc2a4e46947cf8b1b48a123d548fa96d8347cdbc891831, output 018b81c60884dfb13eda73083c134f4c1bfab4248184795f479ca1fd8ac851f6; report section 22; M10. |
+ | 250 | 2026-10-04 | Codex — AI assistant | Validated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Step 4.05 REVIEW evidence/traceability checks PASS: source unchanged, chapters/diagram inventory, finding section refs, comparison hashes, other source preservation and stable matrix/central history/manifest. Not VALIDATE DOCUMENT of Research Journal; ten records remain Open; report section 21; M10. |
+ | 249 | 2026-10-04 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M10 remains In Progress: four C, Research Journal O to S start 2026-10-04, one O; REVIEW complete, UPDATE/VALIDATE pending; no completion date; M9 report R15; historical blocks preserved. |
+ | 248 | 2026-10-04 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R14 to R15 Draft/unassigned: full Research Journal REVIEW and proposed V1.0 R1 historical-reference batch; ten new Open records; total 29 Open, 36 Closed-verified, INV-02 Not applicable; evidence checks pending. |
+--- before-4.05-UPDATE/Context/ArchitecturalMilestones.md
++++ after-4.05-UPDATE/Context/ArchitecturalMilestones.md
+@@ -293,6 +293,8 @@
+ 
+ Step 4.05 REVIEW (2026-10-04): Research Journal source unchanged V1.0, Revision absent, Approved/Baseline 1.0; eight findings/two warnings Open. Record S, no completion date. M10 In Progress (four C, one S, one O). Report V1.0 R15 section 21; CHANGELOG #247-250.
+ 
++Step 4.05 UPDATE (2026-10-04): Research Journal V1.0 R1 Draft/unassigned, ten corrections pending VALIDATE DOCUMENT. Record S; no completion date. M10 In Progress: four C, one S, one O. Report R16 section 22; CHANGELOG #251-253.
++
+ ### Objectives and acceptance
+ 
+ Execute complete REVIEW/UPDATE/VALIDATE cycles for the six sources; reconcile responsible definitions, record actual editions and verification evidence. Partial Step 2 readings do not complete these cycles.
+@@ -302,7 +304,7 @@
+ | #Status | Order Date | Start Date | Completion Date | Document | Path |
+ | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+ | C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-FND-001 — V2.0 R1 Draft; scoped validation PASS | /00-Foundation/DF-FND-001-FrameworkManifest.md |
+-| S | 2026-09-30 | 2026-10-04 |  | DF-FND-002 — V1.0, Revision absent; REVIEW complete; UPDATE/VALIDATE pending | /00-Foundation/DF-FND-002-ResearchJournal.md |
++| S | 2026-09-30 | 2026-10-04 |  | DF-FND-002 — V1.0 R1 Draft; UPDATE complete; validation pending | /00-Foundation/DF-FND-002-ResearchJournal.md |
+ | O | 2026-09-30 |  |  | DF-FND-003 | /00-Foundation/DF-FND-003-EvolutionTimeline.md |
+ | C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-FND-004 — V2.0 R1 Draft, scoped validation PASS | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md |
+ | C | 2026-09-30 | 2026-10-04 | 2026-10-04 | DF-FND-005 — V1.0 R1 Draft; scoped validation PASS | /00-Foundation/DF-FND-005-FrameworkEvolution.md |
+@@ -316,7 +318,7 @@
+ 
+ Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+ 
+-Current supporting report edition: DF-RVW-002 V1.0 R15 includes the Step 4.01/4.02/4.03/4.04 scoped cycles and Step 4.05 REVIEW; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
++Current supporting report edition: DF-RVW-002 V1.0 R16 includes the Step 4.01/4.02/4.03/4.04 scoped cycles and Step 4.05 REVIEW/UPDATE; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+ 
+ ### Objectives and acceptance
+ 

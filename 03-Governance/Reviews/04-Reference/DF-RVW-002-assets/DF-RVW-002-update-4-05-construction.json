@@ -1,0 +1,75 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/16",
+  "scope": "Construction/integrity only; not VALIDATE DOCUMENT",
+  "checks": {
+    "118_written_section_hashes": true,
+    "42_rectangular_tables": true,
+    "written_header": true,
+    "original_sections_retained": true,
+    "twelve_chapters_retained": true,
+    "35_named_views_preserved": true,
+    "three_original_unnamed_views": true,
+    "inline_flow_preserved_typed": true,
+    "no_ASCII_diagram_fences": true,
+    "nine_links_expected_ids": true,
+    "input_hash_in_history": true,
+    "74_other_original_normalized_sources_unchanged": true,
+    "four_validated_sources_unchanged": true,
+    "six_READMEs_unchanged": true,
+    "89_stable_matrix_positions": true,
+    "current_matrix_hashes": true,
+    "changelog_sequence_253_to_1": true,
+    "prior_events_preserved": true,
+    "historical_M0_M7_preserved": true
+  },
+  "references": [
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "identity_matches": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-003-EvolutionTimeline.md",
+      "sha256": "69b6c3cc258d5e1f4a1682787193698b9ae111b0ccdfc179f86f1821d44bc211",
+      "identity_matches": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "identity_matches": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
+      "sha256": "8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04",
+      "identity_matches": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "sha256": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6",
+      "identity_matches": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab",
+      "identity_matches": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216",
+      "identity_matches": true
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "identity_matches": true
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "sha256": "6098eff17b2c0656e639cf765225b8b0887290b7ee46eec5a284729301aa2c97",
+      "identity_matches": true
+    }
+  ],
+  "source_validation_performed": false,
+  "finding_closure": false
+}

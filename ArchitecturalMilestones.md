@@ -293,6 +293,8 @@ Step 4.04 VALIDATE (2026-10-04): exact unchanged Framework Evolution V1.0 R1 loc
 
 Step 4.05 REVIEW (2026-10-04): Research Journal source unchanged V1.0, Revision absent, Approved/Baseline 1.0; eight findings/two warnings Open. Record S, no completion date. M10 In Progress (four C, one S, one O). Report V1.0 R15 section 21; CHANGELOG #247-250.
 
+Step 4.05 UPDATE (2026-10-04): Research Journal V1.0 R1 Draft/unassigned, ten corrections pending VALIDATE DOCUMENT. Record S; no completion date. M10 In Progress: four C, one S, one O. Report R16 section 22; CHANGELOG #251-253.
+
 ### Objectives and acceptance
 
 Execute complete REVIEW/UPDATE/VALIDATE cycles for the six sources; reconcile responsible definitions, record actual editions and verification evidence. Partial Step 2 readings do not complete these cycles.
@@ -302,7 +304,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
 | C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-FND-001 — V2.0 R1 Draft; scoped validation PASS | /00-Foundation/DF-FND-001-FrameworkManifest.md |
-| S | 2026-09-30 | 2026-10-04 |  | DF-FND-002 — V1.0, Revision absent; REVIEW complete; UPDATE/VALIDATE pending | /00-Foundation/DF-FND-002-ResearchJournal.md |
+| S | 2026-09-30 | 2026-10-04 |  | DF-FND-002 — V1.0 R1 Draft; UPDATE complete; validation pending | /00-Foundation/DF-FND-002-ResearchJournal.md |
 | O | 2026-09-30 |  |  | DF-FND-003 | /00-Foundation/DF-FND-003-EvolutionTimeline.md |
 | C | 2026-09-30 | 2026-09-30 | 2026-09-30 | DF-FND-004 — V2.0 R1 Draft, scoped validation PASS | /00-Foundation/DF-FND-004-ArchitecturalBlueprint.md |
 | C | 2026-09-30 | 2026-10-04 | 2026-10-04 | DF-FND-005 — V1.0 R1 Draft; scoped validation PASS | /00-Foundation/DF-FND-005-FrameworkEvolution.md |
@@ -316,7 +318,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
 
-Current supporting report edition: DF-RVW-002 V1.0 R15 includes the Step 4.01/4.02/4.03/4.04 scoped cycles and Step 4.05 REVIEW; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+Current supporting report edition: DF-RVW-002 V1.0 R16 includes the Step 4.01/4.02/4.03/4.04 scoped cycles and Step 4.05 REVIEW/UPDATE; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 
