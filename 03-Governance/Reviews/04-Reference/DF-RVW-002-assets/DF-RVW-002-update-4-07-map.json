@@ -1,0 +1,650 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/22",
+  "date": "2026-10-04",
+  "step": "4.07 UPDATE",
+  "source": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+  "input_edition": {
+    "version": "1.0",
+    "revision": 0,
+    "status": "Draft",
+    "baseline": "1.0",
+    "author": null,
+    "language": "English",
+    "family": "Architecture",
+    "type": "Concepts"
+  },
+  "input_sha256": "cc0f76249a5b21025ae502169b9026f36b87370053119a36e921554ffe16fa4d",
+  "output_edition": {
+    "version": "2.0",
+    "revision": 1,
+    "family": "Architecture",
+    "type": "Architecture",
+    "status": "Draft",
+    "baseline": "Not assigned",
+    "language": "English",
+    "author": "Codex — AI assistant (working-edition contribution)"
+  },
+  "output_sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
+  "compatibility": "Incompatible normative reconciliation: replace unscoped dependency hierarchy/current universal obligations and incomplete snapshot gates with scoped required contracts, normalization applicability and exact immutable selection. Version 1.0 to 2.0; declared Revision 0 to 1 monotonically.",
+  "identity_path_migration": "None",
+  "section_changes": {
+    "1": {
+      "before": "The Documentation Framework is built upon a well-defined set of architectural concepts.\n\nThese concepts constitute the conceptual vocabulary of the framework and provide the foundation upon which every architectural component, specification and implementation is constructed.\n\nThey establish a common understanding of the entities manipulated by the framework and the relationships that exist between them.",
+      "after": "The Documentation Framework uses explicit architectural concepts to define documentary entities, capability responsibilities and the relationships between them. A shared conceptual vocabulary supports coherent specifications and implementations; it does not itself prove implemented services or integrated compliance.\n\nThis document defines the conceptual model and its interpretation contracts. Detailed domain definitions remain with their responsible sources. A conceptual synopsis or source reference does not create a competing semantic authority.",
+      "before_sha256": "7f61b84e22caa2141e6d50b67af4a57567b86562384badb7f7c0f5686c288312",
+      "after_sha256": "6b28a65068f69ec36d62630cb567fdc84e0aa65f362e5768ce5450fe3c698936"
+    },
+    "2": {
+      "before": "The purpose of this document is to define the fundamental architectural concepts of the Documentation Framework.\n\nThese concepts provide.\n\n- a common conceptual model;\n- consistent terminology;\n- architectural coherence;\n- conceptual stability;\n- a shared understanding between all architectural components.",
+      "after": "The purpose is to define the fundamental architectural concepts of the Documentation Framework and distinguish their responsibilities.\n\nThe model supports:\n\n- a common conceptual model and consistent terminology;\n- explicit entity, capability and structural distinctions;\n- traceable owner contracts and relationships;\n- assessed conceptual stability and evolution;\n- a shared understanding across architectural components.\n\nThese are intended architectural properties. Their realization requires applicable contracts, supplied evidence and scoped verification.",
+      "before_sha256": "d2b6c09eb47e936e0227e2366723f66a11fd0cc8f474232a630d577f2676ecf3",
+      "after_sha256": "0b272d37f0b91b7b326dac082e66c3fd3e02e2332eaaeee56e1534f93285dbd5"
+    },
+    "3": {
+      "before": "This document defines the core concepts of the Documentation Framework.\n\nThese concepts are technology independent and remain valid regardless of implementation, storage mechanism or documentation format.",
+      "after": "The model concerns documentary concepts and contracts, independently of a prescribed repository, format or implementation platform. Technology independence does not guarantee that every representation or integration satisfies every requirement without adaptation or validation.\n\nDF defines documentary and applicable governance/representation contracts. DMS, tooling or an applicable manual process executes document management operations; CMS governs changes in its own scope. This document neither supplies complete external specifications nor certifies operational implementations.\n\nNormalization applies to normalized documents. Every file named **README.md**, **CHANGELOG.md** or **ArchitecturalMilestones.md**, at any location, is a non-normalized functional file. It retains its name and does not require a normalized Document ID, Family, Type, Component, Version, Revision, Status or Baseline. Functional content, references, inventory and hash evidence remain reviewable; legitimate existing information is not automatically removed.\n\nThis working edition does not approve documents, publish artifacts, assign Baseline membership, populate a Metadata catalog or certify a complete mandatory dependency graph. Outstanding owner-source discrepancies remain explicit in §§8–10 and §12.3.",
+      "before_sha256": "b364260085dc4a3832bb785dbf9bddc491af872b4ff01bdc96f5b7bfb8c1ffea",
+      "after_sha256": "42867ad22a2e76b6ceb5fb3301a95c1f6566f610f7f1aa9a17f0bd427f6d1f32"
+    },
+    "4": {
+      "before": "The Documentation Framework is composed of a set of interrelated concepts.\n\nConceptually.\n\n```text\n\n                Knowledge\n                    │\n                    ▼\n\n              Documentation\n                    │\n                    ▼\n\n                 Document\n                    │\n                    ▼\n\n                 Metadata\n                    │\n                    ▼\n\n                 Identity\n                    │\n                    ▼\n\n              Classification\n                    │\n                    ▼\n\n              Relationships\n                    │\n                    ▼\n\n                Registry\n\n```\n\nEach concept represents a distinct architectural responsibility.",
+      "after": "Concepts include subject matter, logical entities, descriptive abstractions, governed states and capabilities. Not every concept is a registered component or structural Layer.\n\n<!-- original-section-view: 4 -->\n**Previously unnamed view in §4 — Concept categories and owner responsibilities.**\n\n| Concept/category | Interpretation | Responsible contract |\n|---|---|---|\n| Knowledge | Subject matter represented by documentary entities | Knowledge-producing domain; not a newly registered DF component |\n| Documentation | Organized representation of knowledge | Documentary architecture and applicable domain contracts |\n| Document / edition | Logical entity / exact recorded state | Document Identity plus edition/governance contracts |\n| Metadata | Descriptor definitions and represented values | Metadata, referencing semantic domain owners |\n| Identity / Classification | Stable logical key / mutable semantic categories | Document Identity / Classification |\n| Relationships | Typed connection records | Relationships |\n| Registry / Knowledge Graph | Catalog and network projections | Discovery capabilities with source provenance |\n<!-- end-original-section-view -->\n\nThis is a responsibility/category view, not a serial abstraction hierarchy, execution pipeline or required dependency chain. Section6 types selected associations; §8 declares selected required contracts separately.",
+      "before_sha256": "51cdb0180bc3a5f4311a53f471e956bf31059e192da8d098e53bb0fd338e0c9f",
+      "after_sha256": "8fc67530fbf77c2f02a3f1b738992ad8fabdcaff176b588b8292372321b69fb1"
+    },
+    "5.1": {
+      "before": "Knowledge is the primary asset managed by the Documentation Framework.\n\nDocumentation exists to capture, organize, preserve and communicate knowledge.\n\nKnowledge is independent of documents.\n\nDocuments are merely one representation of knowledge.",
+      "after": "Knowledge is the subject matter that documentation captures, organizes, preserves and communicates. Documents are one representation of knowledge; knowledge need not originate in or be exhausted by documents.\n\nWithin this model, Knowledge is a conceptual concern, not a registered capability component or new structural Layer. DF defines its documentary representation contracts rather than automatically becoming an operational manager of every knowledge artifact.",
+      "before_sha256": "15f5903c89d50f523f143afca5232e4e517234fb0b5c9d315707a5df5083ec17",
+      "after_sha256": "2784fe01fbd71cc64e9bb04cb99f28a6311c9cba9bb9308398c91ec70ea8c855"
+    },
+    "5.2": {
+      "before": "Documentation is the structured representation of knowledge.\n\nIt consists of an organized collection of documents governed by common architectural principles.\n\nDocumentation is considered an architectural system rather than a collection of independent files.",
+      "after": "Documentation is an organized representation of knowledge through documentary entities governed by applicable architectural principles and domain contracts. It is an architectural system, with functional files and normalized documents in their respective scopes, rather than a physical directory alone.",
+      "before_sha256": "fe35c7fa72b7277b19b35c0c7703e67e4316d35f96a0ff6eb694cdbb0b86d330",
+      "after_sha256": "ccf282b6c3c086988977d93afa81eefebb76d18347b63e367f52a3238ca49f9d"
+    },
+    "5.3": {
+      "before": "A document is the fundamental architectural unit of documentation.\n\nEach document has.\n\n- a defined purpose;\n- a permanent identity;\n- standardized metadata;\n- a semantic classification;\n- explicit relationships;\n- a lifecycle.\n\nA document represents a coherent unit of knowledge.",
+      "after": "A document is a logical documentary entity with a defined purpose and a coherent unit of represented knowledge. A file is a physical representation; changing a filename or location does not by itself change logical identity.\n\nFor normalized documents, the applicable contracts define permanent identity, contextual Metadata, semantic classification and edition-specific governance. Explicit relationships are recorded where they exist or are required; the model does not impose a nonempty relationship list on every document. The functional-file exclusion in §3 applies before normalized obligations.\n\n| Distinction | Meaning |\n|---|---|\n| Logical document | Entity identified by its stable domain identity |\n| Document edition | Exact recorded state of the logical document; content and represented descriptors belong to that state |\n| Version / Revision | Edition coordinates under the applicable numbering policy; not an alternative logical key |\n| Status | Governance state of the exact edition; not general product maturity or approval of every successor |\n| Baseline membership | Explicit selection of an exact edition in a separately identified snapshot |\n| Physical representation | File, format or location associated with an entity/edition; not sufficient to pin a snapshot member |\n\nAn older Approved edition may coexist with a current Draft successor. An exact-hash validation result applies to the examined bytes and declared scope; a later edit requires its own assessment.",
+      "before_sha256": "ad8aa420656035ae8ee88ff4404a0dced33779150519445ed9207c384980c984",
+      "after_sha256": "5d97b4853b83a2ea7b7ddc7ac8a67beb35b187ff6e37e8c03c309f49899b6c78"
+    },
+    "5.4": {
+      "before": "Metadata describes a document.\n\nMetadata provides structured information required to identify, classify, govern and discover documents.\n\nMetadata is independent from document content.",
+      "after": "Metadata defines and represents structured descriptors used to describe, identify by reference, classify, govern and discover documentary entities/editions. Document Identity, Classification and Governance retain the meanings of their domain concepts; representing their values does not transfer semantic ownership to Metadata.\n\n| Abstraction | Responsibility |\n|---|---|\n| Dictionary | Defines descriptors and semantic meaning with references to domain owners |\n| Schema | Organizes and references descriptor definitions and structural constraints |\n| Profile | Restricts allowed usage, values and cardinality for a declared context without redefining semantics |\n| Instance | Holds values for one document edition under exactly one effective Profile |\n\nConceptual separation of descriptors and content does not guarantee independent evolution, content-free verification or automatic consistency. Both may require coordinated edition changes. Applicability and mandatory usage follow the declared contract/Profile, not an invented universal header. This synopsis neither completes the received Dictionary/Profile gaps nor allocates Metadata Element IDs or publication records.",
+      "before_sha256": "5a4635e899db55b9759112b78c31cb5230db55f1fd262884d722af51f5ee60a4",
+      "after_sha256": "44ca7cc7b711fc6ddcd8c0a8782424183a0c4ee78300c4a42cfea344dff24377"
+    },
+    "5.5": {
+      "before": "Document Identity provides the permanent logical identity of a document.\n\nIdentity remains constant throughout the document lifecycle and is independent of.\n\n- filename;\n- directory structure;\n- repository;\n- storage technology.",
+      "after": "Document Identity defines permanent logical identity through **Domain+Identifier** and the applicable allocation/preservation contracts. Classification, title, filename, directory, repository, storage technology, Version and Revision can change without recalculating a valid logical allocation. References and lifecycle associations are not a second identity key.\n\nThe adopted corpus representation is DF-SSS-NNN: DF is the domain prefix, SSS a registered stable three-letter allocation series and NNN a positive three-digit number, 001–999. A series is not the current Family or Type. Existing valid IDs are retained; this source remains DF-ARC-003. The convention's details reside in DF-RVW-001 §4 pending scheduled Document Identity reconciliation.\n\nAllocation/reservation/retirement rules are definitions, distinct from executing an allocation. No algorithm, new allocation, 000 functional-file identity or general migration is introduced here. The received CLS-003 collision remains a separate unresolved correction; references must resolve to the intended entity.",
+      "before_sha256": "2cc12589eaa4d3b6d47b587013f0881ef13d2eceffcbb7df54e6027d0ed04f0f",
+      "after_sha256": "6dd1e3a9cd3fa9f4bf6c8876f0338e0637bd7a5fe4e37612861cec4c27ad9734"
+    },
+    "5.6": {
+      "before": "Classification organizes documents into meaningful categories.\n\nClassification supports.\n\n- organization;\n- navigation;\n- governance;\n- discovery.\n\nClassification is independent from document location.",
+      "after": "Classification defines semantic categories supporting organization, navigation, governance and discovery. Metadata represents classification values; directories and identity-series codes do not determine them.\n\nFor every normalized document, Type identifies the primary responsibility using exactly **Architecture, Structure, Behavior or Reference**. There are no Concepts, Base/Core or Foundation exceptions. Historical consultation is Reference; a process or planned evolution is Behavior. Family is the canonical component name or an explicitly admitted non-component documentary area. This document uses Architecture as its documentary area and Type Architecture for conceptual definitions.\n\nComponent, when used, identifies actual component membership. Class is optional and requires an explicit non-conflicting definition. Family/Type/Class, primary structural allocation, permanent identity, edition coordinates and Governance Status remain distinct. A category or Type=Reference alone confers neither normative authority nor approval.",
+      "before_sha256": "ec35ca9a039a7fc95519bb6eb419e2c7f2a6a36ba84d59d11a1e0b00f9e2cc10",
+      "after_sha256": "658e71cd93cef72db6194894b76550d2061c270f59f69845e6b19297fa807360"
+    },
+    "5.7": {
+      "before": "A relationship defines an explicit connection between two architectural entities.\n\nRelationships may exist between.\n\n- documents;\n- concepts;\n- components;\n- specifications;\n- baselines.\n\nRelationships enable architectural traceability.",
+      "after": "A relationship is an explicitly typed connection between identified architectural entities. Entities may include documents, concepts, components, specifications and Baselines, with endpoint domains and references appropriate to the entity kinds. Not every endpoint is assigned a normalized document ID.\n\nRelationships owns typed connection records and their provenance. References, associations, replacement, navigation and required dependency are distinct meanings. A required contract uses consumer→provider direction with an explicit contract and scope; §8 defines that notation.\n\nTraceability depends on actual records, resolvable endpoints and preserved provenance, rather than being guaranteed by the existence of a relationship concept. Domain models determine applicable cardinality and evidence; this synopsis does not fabricate a complete relation catalog or hide a genuine required cycle by renaming it.",
+      "before_sha256": "8a7b5def93f71f10346e73b41ecfb9972ae24dbdb0c6c52663394bc7283eb3c8",
+      "after_sha256": "fb650858e2b88b202449cb6a7b009343c0af1212bd7015767a19288d4c6c1f17"
+    },
+    "5.8": {
+      "before": "The Registry is the authoritative catalog of the Documentation Framework.\n\nIt maintains the existence and discoverability of architectural entities.\n\nThe Registry is independent from the physical storage of documents.",
+      "after": "Registry is the authoritative catalog/lookup capability for its declared catalog scope. It references logical entity identities, exact edition records, locations and derived descriptive/relationship views. Catalog authority does not replace identity, classification, governance or relationship-record authority.\n\nRegistry is logically separate from document storage, without guaranteeing independent edition evolution or prescribing physical single-copy storage. Derived copies are permitted with traceable source editions/records. A refreshed view identifies its updated source; a stale projection must be explicitly identified and must not masquerade as current authoritative data.\n\nCataloguing an entity does not make Registry an indispensable provider to every component. A Registry-to-Graph data route requires a declared integration contract when applicable; the concept alone establishes no universal route or execution sequence.",
+      "before_sha256": "2656c062d47f045e84b99c17cbcf70d5d01b75ff5d89f72257dc2cc17fd93774",
+      "after_sha256": "38156ab998fc634aef925d8d31d46a851b8652f5226a3cc5bcfe3c13fb4209dd"
+    },
+    "5.9": {
+      "before": "A component is an architectural building block responsible for a specific capability within the Documentation Framework.\n\nExamples include.\n\n- Metadata;\n- Registry;\n- Workflow;\n- Knowledge Graph.\n\nEach component has a clearly defined responsibility.",
+      "after": "A component is a capability building block with a defined responsibility within DF. Examples include Metadata, Registry, Workflow and Knowledge Graph; this list is not a complete component register.\n\nLogical entities, descriptor values, lifecycle states, documentary files and conceptual concerns do not automatically become capability components. Detailed registration and primary allocation belong to Architectural Components and Architectural Layers. A component may contribute to cross-cutting concerns without acquiring another competing primary ownership.",
+      "before_sha256": "60bb07faf2545857618d4cd27227785f6f3029982c711601663176e75b71ba13",
+      "after_sha256": "1e6bfb69c71795c82bcb7fea9a2857f1ef12b3ae94e544720267f935e463fada"
+    },
+    "5.10": {
+      "before": "A layer groups components with related responsibilities.\n\nLayers organize the architecture into coherent levels of abstraction.\n\nEach layer provides services to higher layers while remaining independent of them.",
+      "after": "A structural Layer groups capabilities with related responsibilities. The corpus identifies seven structural areas: Foundation, Architecture, Documentation, Governance, Discovery, Automation and Integration. Foundation and Architecture supply support definitions; the other areas organize capabilities. This is distinct from Blueprint's five conceptual concerns: Knowledge, Documentation, Governance, Discovery and Preservation.\n\nKnowledge is subject matter and Preservation is cross-cutting. Metadata remains primarily in Documentation; Workflow and Baselines remain in Governance. Their participation in discovery/preservation does not relocate them to a new Layer. A filesystem location is documentary organization, not proof of a structural dependency.\n\nThe received ARC-004/001 six/seven wording and ARC-004/005 direction/dependency claims remain scheduled owner-source reconciliation. This synopsis does not mark them corrected. Required consumption must specify provider contracts and scope; layer position alone does not establish every edge, unconditional independence or a required service sequence. Owner-definition references and peer-domain contracts must be distinguished from operational dependencies, with genuine required cycles visible.",
+      "before_sha256": "1b537724229487943eafa0e3dacfab3b075808bcaa10048d080e5aecd0bc8510",
+      "after_sha256": "08e98437ecb9004837592eefb39e06ebffc533b9759ad0c19364293c79415851"
+    },
+    "5.11": {
+      "before": "Workflow defines the lifecycle through which documents evolve.\n\nTypical lifecycle stages include.\n\n- Draft;\n- Review;\n- Approved;\n- Published;\n- Deprecated;\n- Archived.\n\nWorkflow governs document evolution.",
+      "after": "Workflow defines the governance contracts for documentary evolution: exact-edition states, permitted transitions, responsibilities and required evidence. Operational execution belongs to the applicable DMS, tooling or manual process using those contracts.\n\nDraft, Review, Approved, Published, Deprecated and Archived are received illustrative state terms, not a complete current transition graph or unconditional permission model. Applicable policies determine their meanings and allowed transitions; no direct approval, archival return ban or universal deprecation gate is inferred from the list.\n\nVersion/Revision, edition Status, operational maturity, validation, explicit approval and Baseline eligibility/inclusion are distinct. Older Approved editions do not automatically approve Draft successors. Actual contributions, authorization, review, validation and approval are separately evidenced for the relevant edition.",
+      "before_sha256": "7565adfb324f99ab73eb38471dcfda5116202ff5d4a5b97d5a4197d44b4f9b5b",
+      "after_sha256": "56b94793bc62cf4c9e91b65b9d5ce4e1056f2ef28874818cceed8ace8299323b"
+    },
+    "5.12": {
+      "before": "A policy defines a rule governing architectural behavior.\n\nPolicies establish.\n\n- governance rules;\n- review requirements;\n- publication rules;\n- validation requirements.\n\nPolicies ensure consistent governance.",
+      "after": "A policy defines an applicable rule within a declared governance scope, including review, publication, validation or controlled evolution requirements. Its responsible source, applicability and evidence determine its authority; merely naming a policy does not ensure that all governed artifacts comply.\n\nDF defines relevant policy contracts. The applicable process/system executes authorized operations and records their outcomes. External access control, users or implementation mechanisms are not introduced by this conceptual definition.",
+      "before_sha256": "78e9c335c610936d27eb458ebbdc92942d939d33360f30f15faba0ba20eefc35",
+      "after_sha256": "9c02ea5eec65024ba57c8e8cb371612b6a9db45a8fbc0e4401b2d0c51e7b69f3"
+    },
+    "5.13": {
+      "before": "A Baseline is an immutable snapshot of the documentation at a specific point in time.\n\nBaselines preserve architectural history and enable traceability across framework evolution.",
+      "after": "A DF Baseline is a separately identified immutable, explicitly selected set of exact approved document editions with relevant pinned relationship context or traceable verification evidence. Its selection evidence includes scope and actual timing; a time label or current path alone is insufficient.\n\nSnapshot identity, member logical identity, edition coordinates, edition approval, consistency assessment and membership are separate facts. Approval provides eligibility, not automatic consistency or inclusion. A snapshot need not contain every current file or complete live graph; relevant context is pinned or evidenced for its declared scope.\n\nOld members remain fixed when current editions/paths evolve. A Draft successor does not inherit membership or retarget an existing snapshot. CMS approved-change records may supply provenance but do not replace the document-edition selection or certify implementation. This UPDATE creates no Baseline, approval decision or missing historical selection record.",
+      "before_sha256": "dd63e27bdd0b1c4cab5c3cc537b422bd209307bf6dbb0dc23fa03d201f41eafe",
+      "after_sha256": "f39de28ae12954c2cd98c0c992b7e02cdc93e0f4e731495ee583b63255feee4d"
+    },
+    "5.14": {
+      "before": "The Knowledge Graph represents the semantic network formed by architectural entities and their relationships.\n\nIt enables.\n\n- navigation;\n- dependency analysis;\n- impact analysis;\n- semantic discovery.",
+      "after": "Knowledge Graph exposes a semantic network of architectural entities and typed relationships for navigation, dependency analysis, impact analysis and discovery. It references Relationships records and entity-owner contracts with traceable source/edition provenance.\n\nA network projection can repeat derived values without becoming a competing semantic owner. Current, stale, historical and snapshot-specific views must be distinguishable in their declared scope. An intended graph capability neither proves a complete supplied network nor certifies a globally acyclic mandatory dependency graph.",
+      "before_sha256": "a979db56e90bedcac741b3f7a6863f63512d8ea747662b1b666cea99d7622ae4",
+      "after_sha256": "d717b66e56c12e5bf7aa3f558e263bf696ec0d309bb67411823f3529634f880c"
+    },
+    "5.15": {
+      "before": "Validation verifies compliance with the Documentation Framework.\n\nValidation ensures.\n\n- metadata correctness;\n- identity integrity;\n- relationship consistency;\n- architectural compliance.",
+      "after": "Validation evaluates identified requirements against exact artifacts/editions and relevant context. The result identifies rules, scope, coverage, examined bytes/records, observations and limits. Intended check domains include Metadata correctness, identity integrity, relationship consistency and architectural conformance.\n\nValidation does not guarantee unrestricted correctness or compliance of unexamined sources. A local PASS is limited to its evidence; it does not approve, publish, create Baseline membership or transfer to later modified bytes. Failed or incomplete checks remain traceable and trigger applicable corrective work. Rules belong to responsible domain contracts; an implementation executes/evidences the checks.",
+      "before_sha256": "7d4bcf8880002cfbbf21c6b9542df213a25f29f7ed5485cea6ffd53ff7ed6538",
+      "after_sha256": "61c8590b6594c3735fa8bb1aa141fd5b3c29db8bf49cf52f2abbe3655bfde40e"
+    },
+    "5.16": {
+      "before": "Automation performs repetitive documentation activities using the architectural model defined by the framework.\n\nAutomation operates on architectural concepts rather than individual files.",
+      "after": "Automation defines intended capabilities for repeatable documentary activities using DF concepts/contracts. Actual tools and processes execute them on identified representations and artifacts. Concept-based operation does not eliminate files, formats or storage adapters from implementation.\n\nThis definition establishes neither an implemented tool nor verified completeness, deployment, performance or outcomes. Generated/projected values require provenance and assessment under applicable owner contracts; automation does not introduce new semantic authorities or approve artifacts by implication.",
+      "before_sha256": "2aa2bd62ca88d53969e77ddef02ea5171bf48a72360370d0a383bb4f70c4fdb3",
+      "after_sha256": "458ac3608596dd7cf1353a11d5b9da88e1bb0df68f9df67bf6fb41ef67395873"
+    },
+    "6": {
+      "before": "The core concepts interact according to explicit architectural relationships.\n\nConceptually.\n\n```text\n\n                        Knowledge\n                            │\n                            ▼\n\n                      Documentation\n                            │\n                            ▼\n\n                         Document\n                            │\n          ┌─────────────────┼─────────────────┐\n          │                 │                 │\n          ▼                 ▼                 ▼\n      Metadata          Identity        Classification\n                            │\n                            ▼\n\n                      Relationships\n                            │\n                            ▼\n\n                         Registry\n                            │\n                            ▼\n\n                     Knowledge Graph\n\n```\n\nThe architecture favors explicit relationships over implicit conventions.",
+      "after": "The following view types selected associations. Its direction names the stated relation, not automatically a required dependency.\n\n<!-- original-section-view: 6 -->\n**Previously unnamed view in §6 — Typed entity and capability associations.**\n\n| Source | Relation | Target | Interpretation |\n|---|---|---|---|\n| Documentation | represents | Knowledge | Representation, not capability registration |\n| Logical document | has recorded state | Document edition | Entity/edition association |\n| Metadata Instance | describes | Document edition | Edition-specific descriptor values |\n| Document Identity | identifies | Logical document | Stable logical identity contract |\n| Classification | defines category semantics for | Document classification | Mutable categories; not permanent identity |\n| Relationships record | connects identified endpoints | Architectural entities | Typed records and provenance |\n| Registry | projects catalog information from | Entity/edition and Relationships records | Traceable catalog view; no domain-authority transfer |\n| Knowledge Graph | projects semantic network from | Entity and Relationships records | Network view; no mandatory Registry intermediary inferred |\n| Baseline | explicitly selects | Exact approved document editions | Immutable scope-specific membership |\n<!-- end-original-section-view -->\n\nThe architecture favors explicit relationships over implicit conventions. Section8 separately records selected required contracts; this association table does not relabel or conceal those requirements.",
+      "before_sha256": "3df93c1734768f05d6808330ebe69c051003334ceaa418c49e846d74234ab274",
+      "after_sha256": "159b10e27be37ac42be1f2757ad988385bd09f165c338e4429ea6bf8c6a2ef36"
+    },
+    "7": {
+      "before": "Every architectural concept shall possess the following characteristics.",
+      "after": "Architectural concepts should have precise meaning, explicit responsibility and traceable evolution. These are contract/design objectives, evaluated within their applicable scope rather than universal operational guarantees.",
+      "before_sha256": "2509e14bae3e5ab20f115c1f49ed07e128976d7fa304019e9322494f39c9dddd",
+      "after_sha256": "770f82656f6951b37bd3518fe185386eed059853a6560bab0030add67a664ead"
+    },
+    "7.1": {
+      "before": "Each concept has a precise meaning.",
+      "after": "A concept has an explicit definition and responsible source. Summaries reference owner meaning without creating competing authorities. Unresolved conflicting definitions are recorded for reconciliation.",
+      "before_sha256": "aa90875e062535660d546dbf5e3566e02c4120516d7a7d482380370414495c8b",
+      "after_sha256": "18504ba438b72ae1be14ef9638bf90ec150e64380df1b8cb1048d9c0fdab090e"
+    },
+    "7.2": {
+      "before": "Concepts are independent from implementation technologies.",
+      "after": "Concepts avoid prescribing a particular implementation technology unless that technology is an explicitly declared integration constraint. Conceptual separation does not imply unconditional independence of editions, consumers or required provider contracts.",
+      "before_sha256": "8a0ebe2b21dde371b658a5b2866df082050c69483c30e3b4e7f401ba61a53f3b",
+      "after_sha256": "87fe0f1a77fdb35184fb967a5a60d42d12cae282b304b44a0f8bd2ce3c1bba0a"
+    },
+    "7.3": {
+      "before": "Concept definitions evolve slowly and preserve backward compatibility.",
+      "after": "Definitions preserve compatible meaning where feasible. A necessary incompatible change requires justification, consumer/impact assessment, explicit edition/version transition and verification. Stability does not prohibit justified revision or guarantee backward compatibility without assessment.",
+      "before_sha256": "a1032147e219f8075d8f11c9f23f281c0c7fe8d2761e4342a95f1ab179f3b90d",
+      "after_sha256": "e20cfe47723fbff80780c86fc203fc5b2454612c0ab31d275d57a92b15d6cda5"
+    },
+    "7.4": {
+      "before": "Concepts may be reused across multiple architectural components.",
+      "after": "Concepts can be reused across components under their applicable contracts. Reuse preserves semantic ownership and does not prove universal suitability, a complete implementation or unrestricted scale.",
+      "before_sha256": "9733ecd27a8b3e899016b161bbf125c2df5d36fdd45d8be511412a881624fdaa",
+      "after_sha256": "aeee3418675d31f0467be141442131fcdeeda26aa4ceb8f5a3bd986978cc6e58"
+    },
+    "7.5": {
+      "before": "Concepts shall never rely on implicit interpretation.",
+      "after": "Definitions, relation meanings, scopes and deviations are recorded explicitly. An arrow, directory order or label is not a substitute for a declared contract or its evidence.",
+      "before_sha256": "c93e1eb793121e749621ab6e0799cf5dfa3de949215e06eb683e4bf202f915f4",
+      "after_sha256": "1b3583f419d8a0bba52dc99cef29aa5d677a3d348dcfec08b0414c557adaa7f4"
+    },
+    "8": {
+      "before": "The concepts form a dependency hierarchy.\n\n```text\n\n                Knowledge\n                    │\n                    ▼\n\n               Documentation\n                    │\n                    ▼\n\n                 Document\n                    │\n                    ▼\n\n                 Metadata\n                    │\n                    ▼\n\n                 Identity\n                    │\n                    ▼\n\n              Classification\n                    │\n                    ▼\n\n              Relationships\n                    │\n                    ▼\n\n                Registry\n                    │\n                    ▼\n\n             Knowledge Graph\n\n```\n\nHigher-level concepts depend upon lower-level concepts.\n\nLower-level concepts remain independent.",
+      "after": "A required dependency identifies a consumer that needs a provider contract in a declared scope. Its direction is **consumer→provider**. Representation, semantic-authority reference, projection, navigation and execution order remain separately typed. Domain-definition references do not by themselves impose an operational runtime service dependency.\n\nThe following selected intended contracts reconcile this overview with Blueprint §8.11. They are architectural declarations for the stated scope, not a verified complete graph or implementation inventory.\n\n<!-- original-section-view: 8 -->\n**Previously unnamed view in §8 — Selected required contracts; consumer→provider.**\n\n| Consumer | Provider | Required contract | Scope/justification |\n|---|---|---|---|\n| Registry | Metadata | Descriptive values with source-edition provenance | When indexing edition descriptors; refresh or identify stale values |\n| Knowledge Graph | Document Identity | Entity identity for logical document nodes | When keying document nodes; other entity kinds use their own endpoint identity contracts |\n| Knowledge Graph | Relationships | Typed connection records and provenance | When projecting the semantic network and interpreting dependency kinds |\n| Workflow | Metadata | Represented state/edition descriptors | When interpreting documentary state values for a governance transition |\n| Workflow | Policies | Applicable transition and evidence rules | When deciding permitted governance operations; execution remains with the applicable process |\n| Baselines | Document Identity | Logical member identity | When selecting/preserving document-edition members |\n| Baselines | Metadata | Exact edition-reference/descriptive contract | When selecting/preserving exact editions; relevant relationship context must also be pinned or evidenced |\n<!-- end-original-section-view -->\n\nThese contracts replace the received Knowledge→Documentation→Document→Metadata→Identity→Classification→Relationships→Registry→Graph hierarchy. The old chain is retained in the input/diff/provenance map, not accepted as a current required service sequence. Its subject/representation relations are made explicit in §§4/6; genuine required consumption is retained here.\n\nA full graph also needs owner-source reconciliation, consumer/provider evidence, peer-domain contracts and any required context-specific dependencies beyond these rows. Metadata descriptors may reference Identity, Classification and Governance meanings without requiring their runtime services for every representation. Exact editions and verification evidence can be supplied without an indispensable Registry→Graph→Baseline execution chain.\n\nWhere sources disagree on structural direction, contract ownership or actual required cycles, record the conflict and reconcile the responsible sources. Do not rename a genuinely required edge as an association/reference to hide a cycle. This UPDATE verifies neither a globally acyclic graph nor complete dependency compatibility. ARC-004/005 and the detailed component sources retain their scheduled reconciliation.",
+      "before_sha256": "bfe4dea91550f5a20671bf51aaedc702e29b439ad605bf8d35fec46b93a74846",
+      "after_sha256": "4f3d7985a953bfa14992a9aa159b1927c12ad482c739fe6ef67b5d1f34a9159d"
+    },
+    "9": {
+      "before": "This document defines the conceptual vocabulary of the Documentation Framework.\n\nIt complements the remaining Architecture documents.\n\n| Document | Purpose |\n|----------|---------|\n| DF-ARC-001 — Architecture Overview | Presents the overall architecture. |\n| DF-ARC-002 — Architectural Principles | Defines the governing principles. |\n| DF-ARC-004 — Architectural Layers | Organizes concepts into architectural layers. |\n| DF-ARC-005 — Architectural Components | Describes the implementation of concepts through architectural components. |\n| DF-ARC-006 — Terminology | Provides the formal definitions of architectural terms. |",
+      "after": "This document defines the conceptual model. Other architectural sources provide complementary responsibilities; source-role references are documentary navigation/authority references, not automatic execution dependencies.\n\n| Source | Responsibility and current evidence limit |\n|---|---|\n| [DF-ARC-001 — Architecture Overview](DF-ARC-001-ArchitectureOverview.md) | Overall architecture; received count/direction/independence wording remains scheduled reconciliation |\n| [DF-ARC-002 — Architectural Principles](DF-ARC-002-ArchitecturalPrinciples.md) | Governing principles; permits justified breaking changes under §8.2; full cycle pending |\n| [DF-ARC-004 — Architectural Layers](DF-ARC-004-ArchitecturalLayers.md) | Structural allocation; received six/seven and dependency-direction discrepancies remain Open |\n| [DF-ARC-005 — Architectural Components](DF-ARC-005-ArchitecturalComponents.md) | Capability responsibilities/registration; source presence does not prove implementation or complete reconciliation |\n| [DF-ARC-006 — Terminology](DF-ARC-006-Terminology.md) | Vocabulary consultation referencing responsible conceptual/domain definitions; received duplicated/abbreviated definitions remain scheduled reconciliation |\n| [DF-FND-001 — Framework Manifest](../00-Foundation/DF-FND-001-FrameworkManifest.md) | Orientation/classification; V2.0 R1 Draft with earlier local validation |\n| [DF-FND-004 — Architectural Blueprint](../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md) | Foundation architectural definitions and selected intended contracts; V2.0 R1 Draft with earlier local validation |\n| [DF-FND-006 — Design Rationale](../00-Foundation/DF-FND-006-DesignRationale.md) | Reasons and contract boundaries; V2.0 R1 Draft with earlier local validation |\n| [DF-RVW-001 — Review Policy](../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md) | Adopted corpus classification, identity, edition and evidence rules; Draft |\n| [DF-RVW-002 — Review Report](../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md) | REVIEW/UPDATE scope and resulting-byte evidence; VALIDATE DOCUMENT remains pending |",
+      "before_sha256": "6be246ad284862879b77da9ae78e901955f3f3bc4f434b846a488dd377775bee",
+      "after_sha256": "677f23e254098f5228948ed1530918ee8bd2f4b2c9eef615bd5b2b04f2830ea4"
+    },
+    "10": {
+      "before": "Every architectural component specification shall be derived from one or more concepts defined in this document.\n\nExamples.\n\n| Concept | Component Specification |\n|----------|-------------------------|\n| Metadata | Metadata Specification |\n| Document Identity | Document Identity Specification |\n| Classification | Classification Specification |\n| Registry | Registry Specification |\n| Workflow | Workflow Specification |\n| Knowledge Graph | Knowledge Graph Specification |\n\nThis document therefore establishes the conceptual foundation for all component specifications.",
+      "after": "Component specifications use the applicable conceptual model and their responsible domain contracts. This overview does not replace detailed semantics or establish every specification/implementation as supplied. A source being present also does not establish its approval, publication or completed reconciliation.\n\n| Concept/capability | Supplied source or role | Limit |\n|---|---|---|\n| Metadata | [DF-MTD-014 — Metadata Specification](../02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md) | Detailed owner specification; catalog/Profile/conformance reconciliation pending |\n| Document Identity | [DF-DID-014 — Document Identity Specification](../02-Documentation/DocumentIdentity/04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md) | Detailed owner specification; identity/schema/allocation reconciliation pending; encoded spaces resolve to the received path |\n| Classification | [DF-CLS-014 — Classification Specification](../02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md) | Detailed owner specification; classification propagation/collision reconciliation pending |\n| Templates | [DF-TPL-014 — Templates Specification](../02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md) | Representation responsibility; full component cycle pending |\n| Registry / Workflow / Knowledge Graph | Conceptual specification responsibilities summarized in ARC-005 and §§5.8/5.11/5.14 here | No dedicated supplied specification ID or implementation is invented for these roles |\n\nThese links identify actual supplied files, not newly completed peer reviews. Their complete source cycles remain pending; only the affected owner comparisons recorded in the Review Report have been performed.",
+      "before_sha256": "857993b1b12cd3d650273a029ae1c7557dcf1906aa4cee4f78ec223bd48f7c30",
+      "after_sha256": "bb6548e375bc9f293ddfbf09528563f48c179f6beab0a16b80c4d92adfdd56b1"
+    },
+    "11": {
+      "before": "Architectural concepts are intended to remain stable over time.\n\nNew concepts may be introduced only when.\n\n- they represent a genuinely new architectural abstraction;\n- they cannot be expressed using existing concepts;\n- they preserve conceptual consistency;\n- their relationships with existing concepts are explicitly documented.\n\nExisting concepts shall not be redefined without formal architectural justification.",
+      "after": "Concepts are intended to retain stable meaning where feasible. A new abstraction requires a demonstrated need, an assessment of whether existing concepts suffice, explicit relationships and an impact analysis of consumers, domain ownership and structural scope. Extension may require contract or boundary changes; it is not guaranteed to leave the existing architecture untouched.\n\nChanging an existing definition requires recorded architectural justification and compatibility assessment. Under the adopted review policy:\n\n| Change | Version | Revision |\n|---|---|---|\n| Compatible correction/clarification preserving contractual meaning | Retain major.minor | Increment monotonically |\n| Compatible additive capability | Increment minor | Increment monotonically |\n| Incompatible contract/convention | Increment major and reset minor to 0 | Increment monotonically across Version changes |\n| Validation with no source change | Retain | Retain; record the event centrally |\n\nAn absent Revision first becomes 1; this received source already declared R0, so this successor increments to R1. Incompatible change also requires consumer/transition evidence and later verification; a number alone does not reconcile every consumer. No earlier edition or historical approval is retroactively fabricated.",
+      "before_sha256": "9d53469fb9edff98c226e3405308ccf69c74e1465c9b108eae415f96c82fcf54",
+      "after_sha256": "e7deaa0b40a75efb85b3cfeb8951723b88af4310808ee18f436188b3a32fd9bd"
+    },
+    "12": {
+      "before": "The Architectural Concepts document establishes the conceptual foundation of the Documentation Framework.\n\nIt defines the architectural entities that constitute the framework, the relationships between them and the common vocabulary upon which all subsequent specifications are built.\n\nBy maintaining a stable conceptual model, the Documentation Framework ensures architectural consistency, long-term maintainability and a shared understanding across all architectural components.",
+      "after": "The conceptual model distinguishes documentary entities, descriptive abstractions, capability responsibilities and typed contracts. It provides an explicit basis for architectural consistency, traceability and assessed evolution, with actual outcomes dependent on applicable sources and evidence.\n\nThis working edition applies ten local corrections. They remain **Corrected—pending validation**; global structure/dependencies, identity/classification/catalog/Profile and consuming-source reconciliation remain Open where recorded. No integrated conformity, operational completeness, approval, publication or Baseline membership is granted.",
+      "before_sha256": "08f7d8ef053a840a55b685f3e90c565e8a7f6a4edd2a612cc14dd7994a54dfba",
+      "after_sha256": "01a8f172ae459b012854cc6953244f0cd7ecef6ff3b04eb8137c35ac280aeacf"
+    }
+  },
+  "views": [
+    {
+      "original_section": "4",
+      "original_named_id": null,
+      "original_view_sha256": "4110f5dda0fd47d14d027cc2f2110a4f10afbf90a6954130f3ea6bd7afe62855",
+      "original_view_text": "```text\n\n                Knowledge\n                    │\n                    ▼\n\n              Documentation\n                    │\n                    ▼\n\n                 Document\n                    │\n                    ▼\n\n                 Metadata\n                    │\n                    ▼\n\n                 Identity\n                    │\n                    ▼\n\n              Classification\n                    │\n                    ▼\n\n              Relationships\n                    │\n                    ▼\n\n                Registry\n\n```",
+      "working_anchor": "original-section-view: 4",
+      "relation_interpretation": "Concept categories and owner responsibilities."
+    },
+    {
+      "original_section": "6",
+      "original_named_id": null,
+      "original_view_sha256": "0c3ebadb62dc1d90a6f2b1ce613d68e6aa15e6188eebea875a6620c206a54bf4",
+      "original_view_text": "```text\n\n                        Knowledge\n                            │\n                            ▼\n\n                      Documentation\n                            │\n                            ▼\n\n                         Document\n                            │\n          ┌─────────────────┼─────────────────┐\n          │                 │                 │\n          ▼                 ▼                 ▼\n      Metadata          Identity        Classification\n                            │\n                            ▼\n\n                      Relationships\n                            │\n                            ▼\n\n                         Registry\n                            │\n                            ▼\n\n                     Knowledge Graph\n\n```",
+      "working_anchor": "original-section-view: 6",
+      "relation_interpretation": "Typed entity and capability associations."
+    },
+    {
+      "original_section": "8",
+      "original_named_id": null,
+      "original_view_sha256": "d3d2f8dbe7fd574ce09de6b95fe80ece2878c6a56086b98c5697c668e383aad0",
+      "original_view_text": "```text\n\n                Knowledge\n                    │\n                    ▼\n\n               Documentation\n                    │\n                    ▼\n\n                 Document\n                    │\n                    ▼\n\n                 Metadata\n                    │\n                    ▼\n\n                 Identity\n                    │\n                    ▼\n\n              Classification\n                    │\n                    ▼\n\n              Relationships\n                    │\n                    ▼\n\n                Registry\n                    │\n                    ▼\n\n             Knowledge Graph\n\n```",
+      "working_anchor": "original-section-view: 8",
+      "relation_interpretation": "Selected required contracts; consumer→provider."
+    }
+  ],
+  "view_ids": [],
+  "unnamed_view_sections": [
+    "4",
+    "6",
+    "8"
+  ],
+  "added_sections": [
+    "12.1",
+    "12.2",
+    "12.3"
+  ],
+  "applied_map": [
+    {
+      "id": "ARC003-01",
+      "severity": "Medium",
+      "sections": "Header, 2, 3",
+      "before": "Header declares Type=Concepts, Draft V1.0 R0 and Baseline 1.0; no local edition/contribution history. Concepts is outside the adopted uniform Type vocabulary. The received Baseline declaration alone supplies no selection evidence.",
+      "proposal": "Use Family=Architecture and Type=Architecture for the primary conceptual-definition responsibility. Preserve received V1.0 R0 Draft/Baseline declaration in history without inventing an author or approval event; actual assistant contribution is separately attributed. Working successor remains Draft/Baseline Not assigned. Do not invent Component or Class and retain DF-ARC-003/path.",
+      "closure_criterion": "Working classification uses the uniform four-Type contract; received edition and actual contribution remain traceable; no inherited approval/Baseline, invented authorship or ID migration.",
+      "related_records": "REV2-03; REV2-12",
+      "state": "Corrected—pending validation",
+      "applied_sections": "Header; 3; 12.1/12.2",
+      "after": "Architecture/Architecture V2.0 R1 Draft/unassigned; received R0/Baseline declaration and absent author preserved; actual Codex contribution explicit, no invented Component/Class or identity migration.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC003-02",
+      "severity": "High",
+      "sections": "4, 6, 8",
+      "before": "Three untyped diagrams use Knowledge→Documentation→Document→Metadata→Identity→Classification→Relationships→Registry, with Graph appended in §§6/8. Section8 calls this a dependency hierarchy while prose says higher-level concepts depend on lower-level concepts; neither consumer/provider direction, scope nor contract is defined. The diagrams mix representation, description, identity, classification, projection and mandatory dependency.",
+      "proposal": "Replace each diagram with an explicitly typed view preserving original section provenance. Separate concept/representation associations in §§4/6 from declared required consumer→provider contracts in §8, with contract and scope. Do not infer required edges or execution order from visual position. Reconcile selected intended contracts against Blueprint §8.11 and retain outstanding ARC-004/005/component conflicts; no verified global DAG and no concealed genuine cycle.",
+      "closure_criterion": "Every view has explicit semantics; every required edge has consumer/provider, contract and scope. Conceptual associations neither masquerade as dependencies nor erase actual required dependencies; full-graph limitations remain explicit.",
+      "related_records": "REV2-02; REV2-01",
+      "state": "Corrected—pending validation",
+      "applied_sections": "4; 6; 8",
+      "after": "Three original-section views separate categories, associations and selected required consumer→provider contracts, each scoped. Seven required contract rows retain genuine consumption; no universal serial chain or verified global DAG.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC003-03",
+      "severity": "High",
+      "sections": "5.3, 5.4",
+      "before": "Each document universally has permanent identity, standardized Metadata, classification, explicit relationships and a lifecycle. Metadata is independent from content without qualifying domain ownership, context applicability or coordinated edition evolution; mandatory descriptor interpretation is unspecified.",
+      "proposal": "Scope normalized-document obligations and explicitly exclude all-location README.md, CHANGELOG.md and ArchitecturalMilestones.md while retaining their content/reference checks. Do not turn explicit relationship support into a mandatory nonempty relationship list for every document. Metadata represents descriptors; Identity/Classification/Governance own domain meanings. Summarize Dictionary definitions, Schema references, Profile constraints and Instance values under one effective Profile. Conceptual separation permits coordinated content/descriptor changes; no catalog or Profile completion is invented.",
+      "closure_criterion": "No universal normalized header or nonempty relationship requirement for functional files; description/domain authority and applicability are distinct, without fabricated catalog records or guaranteed independent edition evolution.",
+      "related_records": "INV-02 remains Not applicable; REV2-06; REV2-07; REV2-08; REV2-11",
+      "state": "Corrected—pending validation",
+      "applied_sections": "3; 5.3; 5.4",
+      "after": "Functional exclusions explicit at every location, no mandatory nonempty relation list. Descriptor/domain ownership and Dictionary/Schema/Profile/Instance under one effective Profile separated; coordinated content/descriptor evolution allowed, catalog gaps retained.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC003-04",
+      "severity": "High",
+      "sections": "5.3, 5.5, 5.6, 5.11, 5.13",
+      "before": "Permanent identity and location independence are stated, but the core model never distinguishes logical document, edition, Version, Revision, edition Status and Baseline membership. Classification is generic with no current Family/Type contract or mutable-classification versus stable allocation distinction.",
+      "proposal": "Add a scoped document/edition distinction without changing existing identity. Domain+Identifier is the logical key; references, Version/Revision, lifecycle Status and membership are associated facts, not alternative keys. Reference adopted stable DF-SSS-NNN corpus allocations independent of mutable Family/Type/location. Summarize uniform four Types, canonical component or admitted documentary-area Family and optional explicitly defined Class; allocation/execution and detailed owner schema reconciliation remain scheduled. Retain applicable numbering-policy references rather than inventing historical editions.",
+      "closure_criterion": "Document identity, mutable classification, exact edition coordinates, Status and membership are unambiguous across the model. No additional identity key, retroactive edition or allocation/migration is introduced.",
+      "related_records": "REV2-03; REV2-04; REV2-09; REV2-10",
+      "state": "Corrected—pending validation",
+      "applied_sections": "5.3; 5.5; 5.6; 5.11; 5.13; 11",
+      "after": "Logical Domain+Identifier identity separated from exact edition, Version/Revision, Governance Status and membership. Stable corpus allocations independent of classification; uniform four Types and optional defined Class. Actual numbering policy referenced, no new allocations.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC003-05",
+      "severity": "High",
+      "sections": "5.7, 5.8, 5.14, 6, 8",
+      "before": "Registry is called authoritative catalog, Relationships an explicit connection between heterogeneous entities and Graph their semantic network, but the division between authoritative domain records and derived catalog/network projections is absent. The diagrams imply a serial Relationships→Registry→Graph route without declaring whether it is required.",
+      "proposal": "Relationships owns typed connection records with identified endpoint domains and provenance; relationship kinds distinguish reference, association, replacement, navigation and required dependency. Registry catalog/lookup and Graph semantic-network projections reference exact authoritative records/editions. Derived copies are allowed with current/refresh/stale evidence and do not redefine identity, classification or governance. A Registry-to-Graph data route needs its own scoped evidence rather than a universal dependency assertion.",
+      "closure_criterion": "Catalog authority is limited to catalog responsibility; typed records and traceable projections remain distinct. No physical single-copy rule, automatic consistency, competing domain authority or universal serial service route is implied.",
+      "related_records": "REV2-02; earlier Foundation projection closures retain local scope",
+      "state": "Corrected—pending validation",
+      "applied_sections": "5.7; 5.8; 5.14; 6; 8",
+      "after": "Relationships owns typed records and endpoint/provenance contracts. Registry/Graph catalog/network projections allow derived copies with refresh/current-stale evidence; no competing domain authority, physical single-copy constraint or universal Registry intermediary.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC003-06",
+      "severity": "High",
+      "sections": "5.11, 5.12, 5.15, 5.16, 12",
+      "before": "Workflow lists typical states including Published without an applicable transition policy or exact-edition distinction; policies 'ensure' consistency, validation 'ensures' correctness/compliance, and Automation 'performs' activities. Definitions blur framework contracts, actual execution and guaranteed outcomes.",
+      "proposal": "Keep Workflow/Policies as Governance concepts defining exact-edition state/transition/evidence contracts; label the list illustrative, not a complete current state machine or automatic approval/publication permission. Distinguish DF definitions from applicable DMS/tool/manual execution, with CMS governing changes in its own scope. Validation evaluates identified rules against exact artifacts with result, coverage and limits; it does not guarantee global correctness or approve. Automation capability contracts do not establish an implemented tool, ignore file representations or certify outcomes. Attribution, authorization, review, validation and approval stay separate.",
+      "closure_criterion": "Definitions describe domain contracts and intended capabilities without claiming unverified execution, universal transition permissions, guaranteed correctness or approval/publication from a validation result.",
+      "related_records": "REV2-08; REV2-12; earlier exact-edition governance closures retain scope",
+      "state": "Corrected—pending validation",
+      "applied_sections": "3; 5.11; 5.12; 5.15; 5.16; 12",
+      "after": "Governance states illustrative, exact-edition transitions policy-governed; DF contracts distinct from DMS/tool/manual execution and CMS change governance. Validation exact-artifact/scope/evidence limited, not approval or guarantee; Automation not proof of implementation.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC003-07",
+      "severity": "High",
+      "sections": "5.13, 5.11, 6",
+      "before": "Baseline is an immutable snapshot at a point in time, but no exact member edition selection, approval eligibility, explicit inclusion, independent snapshot identity or pinned relationship context is specified. This allows a path/current version or complete live corpus to be mistaken for the preserved snapshot.",
+      "proposal": "Define a separately identified immutable, explicitly selected set of exact approved document editions with relevant pinned relationship context or traceable verification evidence. Approval permits eligibility and does not itself prove consistency or membership. A Draft successor does not retarget old members or inherit membership. Selection has a declared scope and need not include every current file/live relation. Preserve the received declaration as evidence; no actual snapshot or approval record is fabricated.",
+      "closure_criterion": "Baseline member references remain exact and immutable; identity, eligibility, consistency and inclusion are separate, with no automatic current-path retargeting or manufactured snapshot evidence.",
+      "related_records": "REV2-02; prior Foundation snapshot closures retain local scopes",
+      "state": "Corrected—pending validation",
+      "applied_sections": "5.3; 5.11; 5.13; 6; 8",
+      "after": "Immutable explicit exact approved-edition selection, independent snapshot identity and pinned relevant context/evidence. Eligibility, consistency and inclusion separate; Draft successor cannot retarget members or inherit membership. No actual Baseline created.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC003-08",
+      "severity": "High",
+      "sections": "4, 5.1, 5.9, 5.10, 9, 10",
+      "before": "Every concept is said to represent an architectural responsibility; Layers provide services upward while remaining independent, and every specification must derive from this concept list. Concept entities, capability components, structural areas and documentary authority are not distinguished. Section9 describes ARC-005 as implementation of concepts, which may be read as evidence that services/specifications exist.",
+      "proposal": "Distinguish concepts/entities, capability components, conceptual concerns and structural allocation. Knowledge is subject matter, Preservation cross-cutting; five conceptual concerns and seven structural areas are separate views. Keep Metadata in Documentation and Baselines/Workflow in Governance; component examples are not exhaustive. Reference ARC-004/005 for allocation with their unreconciled six/seven/direction limits. Layer dependency claims need explicit required contracts; shared owner references or peer contracts are not execution order. Section10 maps concepts to applicable specification responsibilities, not complete supplied implementations or a self-sufficient authority replacing domain owners.",
+      "closure_criterion": "No concept automatically becomes a component/Layer; structural and conceptual views are distinct, primary allocations retained and specification/implementation status qualified. Owner-source references do not create a blanket circular execution dependency or claim global structural reconciliation.",
+      "related_records": "REV2-01; REV2-02; INV-04 remains Open",
+      "state": "Corrected—pending validation",
+      "applied_sections": "4; 5.1; 5.9; 5.10; 9; 10",
+      "after": "Concept/entity, capability, conceptual concern and structural area differentiated; five concerns versus seven structural areas, Metadata Documentation and Workflow/Baselines Governance. Six/seven/owner graph conflicts retained, no invented components or completed implementations.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC003-W01",
+      "severity": "Medium",
+      "sections": "3, 7, 7.3, 11, 12",
+      "before": "Concepts are said to remain valid regardless of implementation/format, evolve slowly and preserve backward compatibility; the conclusion says the model ensures consistency/maintainability. These are unconditional guarantees. Principles §8.2 instead allows explicitly justified breaking changes when necessary.",
+      "proposal": "Express technology independence, stability, reuse and quality as intended contract properties with applicability and evidence limits. Preserve compatible evolution where feasible; incompatible conceptual changes require justification, impact/consumer mapping, explicit versioning and transition evidence under the adopted policy. New concepts/extensions can affect structural scope; no architecture-free extension, timeless validity or operational quality guarantee.",
+      "closure_criterion": "Stability/technology independence are bounded goals; compatible and incompatible changes have explicit assessment paths, with no automatic quality, applicability or compatibility guarantee.",
+      "related_records": "REV2-02; Review Policy §5.2; ARC-002 §8.2 partial comparison",
+      "state": "Corrected—pending validation",
+      "applied_sections": "2; 3; 7; 11; 12",
+      "after": "Technology independence, stability/reuse and quality are bounded design properties. Compatible preservation and justified incompatible changes explicitly assessed; extension may affect structural scope. Actual V2.0 R1 incompatibility and propagation limits recorded.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC003-W02",
+      "severity": "Low",
+      "sections": "9, 10",
+      "before": "Five Architecture IDs appear as plain-text source roles with no operational links or source-evidence limits. Section10 labels conceptual Registry/Workflow/Graph targets 'Component Specification' without establishing supplied dedicated documents; no local history/input hash is recorded.",
+      "proposal": "Add resolving references to actual Architecture/Foundation/review owners and distinguish model definitions, terminology consultation, structural allocation and detailed specifications. Use real paths/IDs only; mark specification-role examples as conceptual where dedicated sources are absent. Record received/input and actual update history, preserving all section numbers and provenance of three originally unnamed diagrams. Do not claim peer cycles, unseen external specifications or implementations reviewed.",
+      "closure_criterion": "Actual links resolve to intended declarations; source responsibilities, supplied versus illustrative targets and input/local-history provenance are traceable; peer bytes and numbering preserved.",
+      "related_records": "REV2-12; source-specific evidence/traceability warning",
+      "state": "Corrected—pending validation",
+      "applied_sections": "9; 10; 12.1–12.3",
+      "after": "Fourteen links resolve to actual IDs/paths. Supplied detailed specifications distinguished from conceptual Registry/Workflow/Graph roles; received source/hash/history and unnamed-view provenance retained, peers unchanged.",
+      "validation_performed": false
+    }
+  ],
+  "impact_sources_before_apply": [
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "6",
+        "8"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "1.7",
+        "3.4",
+        "4.6",
+        "5.6",
+        "6.7",
+        "6.8",
+        "8.2",
+        "8.3",
+        "8.4",
+        "8.5",
+        "8.6",
+        "8.7",
+        "8.11"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "sha256": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "6.6",
+        "8.11"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "sha256": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "5",
+        "6",
+        "9",
+        "11",
+        "12"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "sha256": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "6.2",
+        "7.4",
+        "8.2",
+        "8.3"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "4",
+        "12",
+        "13"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "sha256": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "5.2",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8",
+        "5.10",
+        "5.11",
+        "5.12",
+        "5.13",
+        "5.14",
+        "5.15",
+        "5.20",
+        "5.23",
+        "5.26",
+        "5.29",
+        "5.30",
+        "5.37",
+        "5.38",
+        "5.39",
+        "9"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    }
+  ],
+  "references_before_central_update": [
+    {
+      "label": "DF-ARC-001 — Architecture Overview",
+      "target": "DF-ARC-001-ArchitectureOverview.md",
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "expected_id": "DF-ARC-001",
+      "declared_id": "DF-ARC-001",
+      "sha256_before_central_update": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d"
+    },
+    {
+      "label": "DF-ARC-002 — Architectural Principles",
+      "target": "DF-ARC-002-ArchitecturalPrinciples.md",
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "expected_id": "DF-ARC-002",
+      "declared_id": "DF-ARC-002",
+      "sha256_before_central_update": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53"
+    },
+    {
+      "label": "DF-ARC-004 — Architectural Layers",
+      "target": "DF-ARC-004-ArchitecturalLayers.md",
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "expected_id": "DF-ARC-004",
+      "declared_id": "DF-ARC-004",
+      "sha256_before_central_update": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab"
+    },
+    {
+      "label": "DF-ARC-005 — Architectural Components",
+      "target": "DF-ARC-005-ArchitecturalComponents.md",
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "expected_id": "DF-ARC-005",
+      "declared_id": "DF-ARC-005",
+      "sha256_before_central_update": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216"
+    },
+    {
+      "label": "DF-ARC-006 — Terminology",
+      "target": "DF-ARC-006-Terminology.md",
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "expected_id": "DF-ARC-006",
+      "declared_id": "DF-ARC-006",
+      "sha256_before_central_update": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb"
+    },
+    {
+      "label": "DF-FND-001 — Framework Manifest",
+      "target": "../00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "expected_id": "DF-FND-001",
+      "declared_id": "DF-FND-001",
+      "sha256_before_central_update": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96"
+    },
+    {
+      "label": "DF-FND-004 — Architectural Blueprint",
+      "target": "../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "expected_id": "DF-FND-004",
+      "declared_id": "DF-FND-004",
+      "sha256_before_central_update": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6"
+    },
+    {
+      "label": "DF-FND-006 — Design Rationale",
+      "target": "../00-Foundation/DF-FND-006-DesignRationale.md",
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "expected_id": "DF-FND-006",
+      "declared_id": "DF-FND-006",
+      "sha256_before_central_update": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6"
+    },
+    {
+      "label": "DF-RVW-001 — Review Policy",
+      "target": "../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "expected_id": "DF-RVW-001",
+      "declared_id": "DF-RVW-001",
+      "sha256_before_central_update": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb"
+    },
+    {
+      "label": "DF-RVW-002 — Review Report",
+      "target": "../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "expected_id": "DF-RVW-002",
+      "declared_id": "DF-RVW-002",
+      "sha256_before_central_update": "03ef6a0070017c6b3fd8af668518b9cdf4b185355096d5397c615686278391ee"
+    },
+    {
+      "label": "DF-MTD-014 — Metadata Specification",
+      "target": "../02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "expected_id": "DF-MTD-014",
+      "declared_id": "DF-MTD-014",
+      "sha256_before_central_update": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e"
+    },
+    {
+      "label": "DF-DID-014 — Document Identity Specification",
+      "target": "../02-Documentation/DocumentIdentity/04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "expected_id": "DF-DID-014",
+      "declared_id": "DF-DID-014",
+      "sha256_before_central_update": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668"
+    },
+    {
+      "label": "DF-CLS-014 — Classification Specification",
+      "target": "../02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "expected_id": "DF-CLS-014",
+      "declared_id": "DF-CLS-014",
+      "sha256_before_central_update": "e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663"
+    },
+    {
+      "label": "DF-TPL-014 — Templates Specification",
+      "target": "../02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "expected_id": "DF-TPL-014",
+      "declared_id": "DF-TPL-014",
+      "sha256_before_central_update": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464"
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Corrected—pending validation": 10,
+    "Closed—verified": 57,
+    "Not applicable—scope decision": 1
+  },
+  "source_validation_performed": false
+}

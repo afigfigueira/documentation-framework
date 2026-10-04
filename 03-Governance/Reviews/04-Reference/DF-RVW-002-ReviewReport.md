@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 21 |
+| **Revision** | 22 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -59,6 +59,8 @@ Revision 19 records Step 4.06 UPDATE in §25. Current totals: 19 Open, eleven Co
 Revision 20 records Step 4.06 VALIDATE DOCUMENT in §26. Current totals: 19 Open, 57 Closed—verified, one Not applicable—scope decision. All six Foundation documentary cycles complete; source unchanged V1.0 R1 Draft/unassigned. Next: 4.07 REVIEW DF-ARC-003.
 
 Revision 21 adds Step 4.07 Architectural Concepts REVIEW in §27. Current totals: 29 Open, 57 Closed—verified, one Not applicable—scope decision. Source V1.0 R0 unchanged; next 4.07 UPDATE DF-ARC-003. M10 documentary cycles remain complete; M11 Started.
+
+Revision 22 records Step 4.07 UPDATE in §28. Current totals: 19 Open, ten Corrected—pending validation, 57 Closed—verified, one Not applicable—scope decision. Concepts is now V2.0 R1 Draft/unassigned; §27 retains REVIEW-time states. Next: 4.07 VALIDATE DOCUMENT.
 
 ## 2. Concrete changes — before/after
 
@@ -165,6 +167,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-04 | 1.0 | 19 | Step 4.06 UPDATE: Evolution Timeline V1.0 R1, eleven corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #262 |
 | 2026-10-04 | 1.0 | 20 | Step 4.06 local Timeline validation; eleven verified closures; six Foundation documentary cycles complete | Draft; Baseline Not assigned; source unchanged; #264–266 |
 | 2026-10-04 | 1.0 | 21 | Step 4.07 Concepts REVIEW; eight findings/two warnings Open; source unchanged | Draft; Baseline Not assigned; compatible informational report update; #268; evidence checks #270 |
+| 2026-10-04 | 1.0 | 22 | Step 4.07 Concepts UPDATE V2.0 R1; ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #272 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -1890,3 +1893,72 @@ R20 validation evidence retains its dated scope; R21 exports/checkpoint record c
 ### 27.5. Next command
 
 **CONTINUAR** starts **4.07 — UPDATE DF-ARC-003 — Architectural Concepts**, applying localized corrections with actual compatibility assessment, full source/diff/history and tracking, then pauses before VALIDATE DOCUMENT.
+
+
+## 28. Step 4.07 — UPDATE DF-ARC-003 — Architectural Concepts
+
+### 28.1. Actual successor and compatibility
+
+**UPDATE complete; VALIDATE DOCUMENT pending.** Received V1.0 R0 Draft/Baseline 1.0, Family Architecture/Type Concepts becomes **V2.0 R1 Draft, Baseline Not assigned**, Family Architecture/Type Architecture, English. DF-ARC-003/path remains unchanged; no Component/Class or identity allocation is invented. Received Author is absent, not assigned retroactively; actual working-edition contribution is Codex — AI assistant, separately evidenced from user authorization, review, validation and approval.
+
+Input SHA-256: `cc0f76249a5b21025ae502169b9026f36b87370053119a36e921554ffe16fa4d`. Output SHA-256: `e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c` (34,011 bytes; 409 lines; CRLF retained).
+
+**Actual compatibility: incompatible normative reconciliation.** Received §8 presents a serial concept hierarchy as dependency; §5.3 applies unscoped document obligations and §5.13 permits snapshots without exact selected-edition gates. The working contract rejects those interpretations and states required consumption, normalization scope and immutable exact-member selection explicitly. This is not historical labelling or a cosmetic Type edit. Version increments major from 1.0 to 2.0, minor 0; declared Revision 0 increments to 1 without reset. Draft/unassigned grants no inherited approval or snapshot membership.
+
+The report's own R21→R22 change is compatible informational tracking and does not change its Version 1.0. Full original input and material before/after remain preserved.
+
+### 28.2. Applied corrections and actual before/after
+
+| Record | Actual source scope | Before | Written result | State |
+|---|---|---|---|---|
+| ARC003-01 | Header; 3; 12.1/12.2 | Header declares Type=Concepts, Draft V1.0 R0 and Baseline 1.0; no local edition/contribution history. Concepts is outside the adopted uniform Type vocabulary. The received Baseline declaration alone supplies no selection evidence. | Architecture/Architecture V2.0 R1 Draft/unassigned; received R0/Baseline declaration and absent author preserved; actual Codex contribution explicit, no invented Component/Class or identity migration. | Corrected—pending validation |
+| ARC003-02 | 4; 6; 8 | Three untyped diagrams use Knowledge→Documentation→Document→Metadata→Identity→Classification→Relationships→Registry, with Graph appended in §§6/8. Section8 calls this a dependency hierarchy while prose says higher-level concepts depend on lower-level concepts; neither consumer/provider direction, scope nor contract is defined. The diagrams mix representation, description, identity, classification, projection and mandatory dependency. | Three original-section views separate categories, associations and selected required consumer→provider contracts, each scoped. Seven required contract rows retain genuine consumption; no universal serial chain or verified global DAG. | Corrected—pending validation |
+| ARC003-03 | 3; 5.3; 5.4 | Each document universally has permanent identity, standardized Metadata, classification, explicit relationships and a lifecycle. Metadata is independent from content without qualifying domain ownership, context applicability or coordinated edition evolution; mandatory descriptor interpretation is unspecified. | Functional exclusions explicit at every location, no mandatory nonempty relation list. Descriptor/domain ownership and Dictionary/Schema/Profile/Instance under one effective Profile separated; coordinated content/descriptor evolution allowed, catalog gaps retained. | Corrected—pending validation |
+| ARC003-04 | 5.3; 5.5; 5.6; 5.11; 5.13; 11 | Permanent identity and location independence are stated, but the core model never distinguishes logical document, edition, Version, Revision, edition Status and Baseline membership. Classification is generic with no current Family/Type contract or mutable-classification versus stable allocation distinction. | Logical Domain+Identifier identity separated from exact edition, Version/Revision, Governance Status and membership. Stable corpus allocations independent of classification; uniform four Types and optional defined Class. Actual numbering policy referenced, no new allocations. | Corrected—pending validation |
+| ARC003-05 | 5.7; 5.8; 5.14; 6; 8 | Registry is called authoritative catalog, Relationships an explicit connection between heterogeneous entities and Graph their semantic network, but the division between authoritative domain records and derived catalog/network projections is absent. The diagrams imply a serial Relationships→Registry→Graph route without declaring whether it is required. | Relationships owns typed records and endpoint/provenance contracts. Registry/Graph catalog/network projections allow derived copies with refresh/current-stale evidence; no competing domain authority, physical single-copy constraint or universal Registry intermediary. | Corrected—pending validation |
+| ARC003-06 | 3; 5.11; 5.12; 5.15; 5.16; 12 | Workflow lists typical states including Published without an applicable transition policy or exact-edition distinction; policies 'ensure' consistency, validation 'ensures' correctness/compliance, and Automation 'performs' activities. Definitions blur framework contracts, actual execution and guaranteed outcomes. | Governance states illustrative, exact-edition transitions policy-governed; DF contracts distinct from DMS/tool/manual execution and CMS change governance. Validation exact-artifact/scope/evidence limited, not approval or guarantee; Automation not proof of implementation. | Corrected—pending validation |
+| ARC003-07 | 5.3; 5.11; 5.13; 6; 8 | Baseline is an immutable snapshot at a point in time, but no exact member edition selection, approval eligibility, explicit inclusion, independent snapshot identity or pinned relationship context is specified. This allows a path/current version or complete live corpus to be mistaken for the preserved snapshot. | Immutable explicit exact approved-edition selection, independent snapshot identity and pinned relevant context/evidence. Eligibility, consistency and inclusion separate; Draft successor cannot retarget members or inherit membership. No actual Baseline created. | Corrected—pending validation |
+| ARC003-08 | 4; 5.1; 5.9; 5.10; 9; 10 | Every concept is said to represent an architectural responsibility; Layers provide services upward while remaining independent, and every specification must derive from this concept list. Concept entities, capability components, structural areas and documentary authority are not distinguished. Section9 describes ARC-005 as implementation of concepts, which may be read as evidence that services/specifications exist. | Concept/entity, capability, conceptual concern and structural area differentiated; five concerns versus seven structural areas, Metadata Documentation and Workflow/Baselines Governance. Six/seven/owner graph conflicts retained, no invented components or completed implementations. | Corrected—pending validation |
+| ARC003-W01 | 2; 3; 7; 11; 12 | Concepts are said to remain valid regardless of implementation/format, evolve slowly and preserve backward compatibility; the conclusion says the model ensures consistency/maintainability. These are unconditional guarantees. Principles §8.2 instead allows explicitly justified breaking changes when necessary. | Technology independence, stability/reuse and quality are bounded design properties. Compatible preservation and justified incompatible changes explicitly assessed; extension may affect structural scope. Actual V2.0 R1 incompatibility and propagation limits recorded. | Corrected—pending validation |
+| ARC003-W02 | 9; 10; 12.1–12.3 | Five Architecture IDs appear as plain-text source roles with no operational links or source-evidence limits. Section10 labels conceptual Registry/Workflow/Graph targets 'Component Specification' without establishing supplied dedicated documents; no local history/input hash is recorded. | Fourteen links resolve to actual IDs/paths. Supplied detailed specifications distinguished from conceptual Registry/Workflow/Graph roles; received source/hash/history and unnamed-view provenance retained, peers unchanged. | Corrected—pending validation |
+
+Actual literal excerpts below are abbreviated selections; complete before/after bodies and hashes appear in `DF-RVW-002-update-4-07-map.json` and the full diff. The source replaces current normative ambiguity rather than retaining a false hierarchy as accepted architecture.
+
+| Section | Actual before excerpt | Actual written excerpt | Reason/impact |
+|---|---|---|---|
+| 5.3 | “Each document has.” | “For normalized documents, the applicable contracts define permanent identity, contextual Metadata, semantic classification and edition-specific governance.” | ARC003-03/04; usage scope and exact-edition distinction |
+| 5.4 | “Metadata is independent from document content.” | “Conceptual separation of descriptors and content does not guarantee independent evolution, content-free verification or automatic consistency.” | ARC003-03; representation versus coordinated evolution |
+| 5.8 | “The Registry is the authoritative catalog of the Documentation Framework.” | “Catalog authority does not replace identity, classification, governance or relationship-record authority.” | ARC003-05; catalog/projection authority |
+| 5.10 | “Each layer provides services to higher layers while remaining independent of them.” | “Required consumption must specify provider contracts and scope; layer position alone does not establish every edge, unconditional independence or a required service sequence.” | ARC003-08; structural/required contract boundary |
+| 5.13 | “A Baseline is an immutable snapshot of the documentation at a specific point in time.” | “A DF Baseline is a separately identified immutable, explicitly selected set of exact approved document editions with relevant pinned relationship context or traceable verification evidence.” | ARC003-07; exact immutable member-selection contract |
+| 5.15 | “Validation ensures.” | “Validation does not guarantee unrestricted correctness or compliance of unexamined sources.” | ARC003-06; scoped result rather than global guarantee |
+| 5.16 | “Automation performs repetitive documentation activities using the architectural model defined by the framework.” | “This definition establishes neither an implemented tool nor verified completeness, deployment, performance or outcomes.” | ARC003-06; intended capability versus executed implementation |
+| 7.3 | “Concept definitions evolve slowly and preserve backward compatibility.” | “A necessary incompatible change requires justification, consumer/impact assessment, explicit edition/version transition and verification.” | ARC003-W01; compatible/incompatible evolution |
+| 8 | “The concepts form a dependency hierarchy.” | “A required dependency identifies a consumer that needs a provider contract in a declared scope.” | ARC003-02; contract and consumer→provider direction |
+| 10 | “Every architectural component specification shall be derived from one or more concepts defined in this document.” | “Component specifications use the applicable conceptual model and their responsible domain contracts.” | ARC003-08/W02; overview does not replace domain authority |
+
+All twelve chapters, sixteen original core-concept sections and five §7 characteristics retain their numbers. 32 original numbered bodies changed. Added §§12.1–12.3 record compatibility, received/current history and propagation limits. All three originally unnamed views (§§4/6/8) are replaced with typed Markdown tables using original-section anchors; no prior view ID is invented. The original view text/hash remains in the map and input; §8's seven selected required contract rows preserve genuine consumer/provider consumption. No actual required edge is concealed by conversion to a reference, and no complete global DAG is claimed.
+
+Fourteen operational links identify five Architecture sources, three Foundation sources, the review policy/report and four real component specifications. Encoded spaces in the DID-014 target resolve to the existing received filename without renaming. Registry/Workflow/Graph specification-role examples are explicitly conceptual where dedicated files are not supplied. Every referenced source retains its earlier edition/scope; presence is not approval or implementation evidence.
+
+### 28.3. Localized impact and outstanding reconciliation
+
+The pre-change map from §27 and REVIEW evidence identifies affected owner/consumer sections and hashes before source application. The delivered changes reconcile Concepts with adopted Foundation contracts while retaining conflicts in unmodified peers: ARC-001 count/direction/independence, ARC-002 principle applicability/extension, ARC-004 six/seven/structural direction, ARC-005 typed record/projection/component dependencies, ARC-006 abbreviated or duplicated definitions. Peer cycles and compatibility propagation remain scheduled, not silently completed.
+
+Dictionary/Schema/Profile/Instance and domain contracts remain with Metadata, Document Identity and Classification; no catalog, Profile, Metadata Element identity, allocation lifecycle, new component/Layer, external system specification or Baseline is manufactured. Metadata stays in Documentation; Workflow/Baselines in Governance; Knowledge/Preservation concerns do not create new structural areas. Conceptual concerns, structural allocation and documentary storage are distinct. A required consumer/provider graph must include actual scoped contracts and visible genuine cycles; the seven selected rows are not the complete graph.
+
+Detailed component specification links are navigation/owner references, not automatic runtime dependencies of Architecture on upper-layer operational services. Unreconciled reciprocal semantic references must still be assessed during owner cycles. All 19 prior global records remain Open and the 57 earlier local closures retain exact-source scopes. Source local history §12.2 records this UPDATE as pending validation; later edits require resulting-byte assessment and do not inherit a prior result or allocate responsibility for consequences automatically.
+
+### 28.4. Tracking and construction integrity
+
+Current totals: **19 Open, ten Corrected—pending validation, 57 Closed—verified, one Not applicable—scope decision**. No local record closes here. Report V1.0 R22 remains technical English, Draft/unassigned. CHANGELOG #271 records actual source V1.0 R0→V2.0 R1; #272 report; #273 milestone tracking.
+
+M11 remains In Progress: Concepts S, six peers O; UPDATE complete, VALIDATE pending, no completion date. M10 retains completion for six Foundation documentary cycles; M9 identifies R22 without extending its original acceptance. Earlier events and M0–M7 remain preserved.
+
+Construction checks cover exact input/checkpoint/output, header, complete before/after section hashes, original numbering/twelve chapters/sixteen core concepts, three anchored typed views and received-view provenance, seven required contract rows, rectangular tables, fourteen expected-ID references, source/local-history hash, all other source preservation, six Foundation hashes, 89 stable matrix positions, eight functional exclusions and central sequence/history. They are **construction/integrity checks only**, not VALIDATE DOCUMENT, finding closure, approval or integrated conformity.
+
+Current map/classification/construction/progress/manifest/full diff belong to R22; R21 REVIEW evidence retains event-time Open states. `Context-Working-Step-4-07-Update.zip` is the checkpoint; final Context-Reviewed.zip remains pending.
+
+### 28.5. Next command
+
+**CONTINUAR** starts **4.07 — VALIDATE DOCUMENT DF-ARC-003**, checking complete exact V2.0 R1 against input, ten closure criteria, all views/required contracts and affected owner-source comparisons, then pauses. No approval or subsequent source cycle is automatic.
