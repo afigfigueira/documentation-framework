@@ -1,9 +1,9 @@
 {
   "parent_document_id": "DF-RVW-002",
-  "edition": "1.0/12",
+  "edition": "1.0/13",
   "date": "2026-10-04",
   "self_hash": "Excluded; external receipt",
-  "source_state": "Framework Evolution REVIEW complete with nine Open records, source unchanged; prior local validation retained",
+  "source_state": "Framework Evolution V1.0 R1 Draft/unassigned corrected pending validation; prior local validation retained",
   "known_collision": "Nominal CLS-003 still declares CLS-001; unresolved",
   "files": [
     {
@@ -36,8 +36,8 @@
     },
     {
       "path": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
-      "sha256": "0159036f4593633260414dcf0a98870895f9db177cada8cf4555c82f03fd8874",
-      "bytes": 31892,
+      "sha256": "8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04",
+      "bytes": 41835,
       "normalization_scope": true,
       "input_sha256": "0159036f4593633260414dcf0a98870895f9db177cada8cf4555c82f03fd8874"
     },
@@ -554,8 +554,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
-      "sha256": "1da9c0c770ce1c0fad616a9155919c49b3ab0977b1582f241263b53931ce23c6",
-      "bytes": 132409,
+      "sha256": "c3e7fe7eef2a6d63787b4abdf9f6c7c21fa726eea122d691c34f5ce95f75a0b9",
+      "bytes": 141054,
       "normalization_scope": true,
       "input_sha256": null
     },
@@ -582,8 +582,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-export-provenance.json",
-      "sha256": "5ed542783838cbd8b960927b43376b855d6166418d4a25255d21589952223a15",
-      "bytes": 2257,
+      "sha256": "2d236cc800765a9e8ac709dd0d0b5f86498b0cf4a942a0cb44c7543062ae8d77",
+      "bytes": 2462,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -596,8 +596,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv",
-      "sha256": "36c5928b6c9d54fb5fb5863468648c26628e2546118a47423a425cfb78787b92",
-      "bytes": 57026,
+      "sha256": "4ecac33bdfe17225c52228d48652c98bc0862fd32d008c75a8432e60ffe1aaf5",
+      "bytes": 57149,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -791,6 +791,34 @@
       "input_sha256": null
     },
     {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-update-4-04-classification.csv",
+      "sha256": "f94a8a8cd550865fbf8c6d7de238d8c3c66e122d31e1e5800329d2cd729ef626",
+      "bytes": 238,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-update-4-04-construction.json",
+      "sha256": "adf9f68699c5a424a869da35a6f56c6da66b0715b35b54ab2782b40f62314c6f",
+      "bytes": 2597,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-update-4-04-map.json",
+      "sha256": "b651e862d063ec9386b5f46d48e4d86572453c44bfdbdb8adc507b033ea26a3f",
+      "bytes": 55348,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-update-4-04.diff",
+      "sha256": "430f655786fb3f8f59d38fa1289983ac6f565da95d57677f374bb8003851d8f0",
+      "bytes": 56625,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation-4-01.diff",
       "sha256": "14c8ef5b882ffb40a7eebf21cf124c0b48002b6b762d0a76cc4c4efc95f72141",
       "bytes": 17979,
@@ -841,15 +869,15 @@
     },
     {
       "path": "ArchitecturalMilestones.md",
-      "sha256": "d1c574a7b9e854fa42e994217b6992049af4cd14fa2b6c8036483fb6dcc983a6",
-      "bytes": 42144,
+      "sha256": "253018b85fe6bd7c444c3fbad6af1db93076caa1b53939961003b8bd12de03d8",
+      "bytes": 42375,
       "normalization_scope": false,
       "input_sha256": "9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "4fe9b7d4eeb1e60c54649d5a19d33708d49e1e10e181652df2a4359d3159cc11",
-      "bytes": 58088,
+      "sha256": "6c7cdf96bd37d7b6c029d816c02e812be929daa3355b079f758958be57d6a713",
+      "bytes": 59278,
       "normalization_scope": false,
       "input_sha256": "ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b"
     },

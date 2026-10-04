@@ -1,0 +1,421 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/13",
+  "date": "2026-10-04",
+  "step": "4.04 UPDATE",
+  "source": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
+  "input_edition": {
+    "version": "1.0",
+    "revision": null,
+    "status": "Approved",
+    "baseline": "1.0",
+    "author": "Arnaldo Figueira",
+    "language": "English",
+    "family": null,
+    "type": null
+  },
+  "input_sha256": "0159036f4593633260414dcf0a98870895f9db177cada8cf4555c82f03fd8874",
+  "output_edition": {
+    "version": "1.0",
+    "revision": 1,
+    "status": "Draft",
+    "baseline": "Not assigned",
+    "family": "Foundation",
+    "type": "Reference",
+    "language": "English"
+  },
+  "output_sha256": "8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04",
+  "compatibility": "Compatible clarification/reclassification of historical reference; current interpretation synopses refer to existing owners rather than establish a new normative contract",
+  "identity_path_migration": "None",
+  "section_changes": {
+    "1.9": {
+      "before_sha256": "9c980114e7e62fefd8a43da4ac858da4c4e532879d9bfbc402ab78f64eac1b58",
+      "after_sha256": "dee747892d7e49c7aa284202b16bc10c118c8c433572fbc7ed71e7c531f9c241",
+      "before": "As the project grew.\n\nThe number of documents increased significantly.\n\nDifferent document families began to emerge.\n\nFor example.\n\n* architecture;\n* research;\n* specifications;\n* META documentation;\n* supporting documentation.\n\nThe simple use of Templates was no longer sufficient.\n\n---",
+      "after": "As the project grew, the account describes increasing documentation and historical groupings such as architecture, research, specifications, META documentation and supporting documentation. These are received subject/role labels, not the current Family or Type enumeration. Templates alone were judged insufficient for this larger organizational need."
+    },
+    "2.3": {
+      "before_sha256": "0d185e6a084c94fca1fc42b4e0939c675cf2e86ffd911a9edd19a81ed78af05c",
+      "after_sha256": "702e65d665baa535427b8ae9dd794db4814298b75637a47a6dffc3cce7bd9a12",
+      "before": "The first major abstraction emerged naturally.\n\nEach document contained information that was not part of its content.\n\nFor example.\n\n* identification;\n* version;\n* status;\n* author;\n* project.\n\nInitially, this information was placed in the headers merely for convenience.\n\nLater, it became clear that it represented a distinct entity.\n\nThus, the concept of **Metadata** was born.\n\n---",
+      "after": "The account describes identification, version, status, author and project information first appearing in headers and later being recognized as Metadata: the descriptive representation of a document.\n\nThis historical discovery does not transfer domain authority to Metadata. Identity defines logical keys; Classification defines categories; Governance defines applicable states and decisions. Metadata represents descriptors under the applicable Dictionary/Schema/Profile contracts. Conceptual separation from content does not require separate files or independently changing editions."
+    },
+    "2.5": {
+      "before_sha256": "98bf439325511d7cc60a786fccb12832309347d3eca2bd2c2e3a3dd9468bae52",
+      "after_sha256": "c183a512554e4aa44828610e9fb2f5275a91643e5036a014aa9dd3f401bb0cf3",
+      "before": "With Metadata came the need for classification.\n\nDocuments began to be grouped according to their nature.\n\nFor example.\n\n* Architecture;\n* Research;\n* Specification;\n* META;\n* Template.\n\nThis classification was not intended to organize directories.\n\nIt was intended to organize knowledge.\n\n---",
+      "after": "The received early classifications were Architecture, Research, Specification, META and Template. They described historical subject/role groupings intended to organize knowledge, not a current directory rule.\n\nUnder the adopted interpretation, normalized documents use exactly one responsibility-based Type: Architecture, Structure, Behavior or Reference. Family identifies the canonical component or an explicitly scoped non-component documentary area, such as Foundation here. Neither the title nor allocation series determines Family/Type."
+    },
+    "2.7": {
+      "before_sha256": "6d6d75af928148a9da7256c49388d8621eeff33790525e1f62f1b9aa645fce7e",
+      "after_sha256": "e24ba9bc5d3335284fe897c000bfae123edb208868d1abb05b7d4e54a62f2493",
+      "before": "The concept of **Document Identity** was then introduced.\n\nEach document acquired an independent logical identity.\n\nThat identity.\n\n* did not depend on the name;\n* did not depend on the location;\n* did not depend on the version.\n\nThis decision profoundly influenced the future architecture.\n\n---",
+      "after": "The account identifies permanent logical document identity as a decisive abstraction, independent of name, location and edition. Current reclassification does not change that key; DF-FND-005 remains the identity of this document.\n\nThis rule applies within normalization scope. Every README.md, CHANGELOG.md and ArchitecturalMilestones.md at any location is a non-normalized functional file: no normalized Document ID, Family, Type, Component, Version, Revision, Status or Baseline is required, and no ID-based renaming is imposed. Content, references, inventory and hashes remain reviewable."
+    },
+    "2.8": {
+      "before_sha256": "5fc82e3e584e344e514110ad971a32c8926ed79a522d736106d891c73c835c4a",
+      "after_sha256": "691006cb8ea8ad232c20203711d629ae5f292c1cb6f2ce455973230e3dad2483",
+      "before": "Classification gradually evolved.\n\nDocuments began to belong to families.\n\nEach family represented a conceptual domain.\n\nFor example.\n\n```text id=\"fe2-1\"\n\n                    META\n\n                    Architecture\n\n                    Research\n\n                    Specification\n\n                    Template\n\n                    Analysis\n\n```\n\nThis organization significantly facilitated document evolution.\n\n---",
+      "after": "The account describes families emerging as conceptual domains. The following received vocabulary is retained as a historical example rather than a canonical current family register.\n\n<!-- view: fe2-1 -->\n**View fe2-1 — historical grouping example; no dependency or hierarchy.**\n\n| Received label | Historical interpretation |\n| --- | --- |\n| META | Subject/role vocabulary; current classification requires owner interpretation. |\n| Architecture | Subject/role vocabulary; current classification requires owner interpretation. |\n| Research | Subject/role vocabulary; current classification requires owner interpretation. |\n| Specification | Subject/role vocabulary; current classification requires owner interpretation. |\n| Template | Subject/role vocabulary; current classification requires owner interpretation. |\n| Analysis | Subject/role vocabulary; current classification requires owner interpretation. |\n<!-- end-view -->\n\nThis grouping was judged helpful for organizing documentary evolution. The current Family/Type distinction is stated in §2.5; historical labels do not add Type values."
+    },
+    "2.9": {
+      "before_sha256": "2f8eb052916a63b37fccce0339688f8b64256ea3bd85de04fd9d6e9b7abef20d",
+      "after_sha256": "23bc98eabe01c8b06cbb1721644c569ddacd69495bd00f87989a60cf3b62a34a",
+      "before": "Another important moment occurred when it became apparent that documents were not independent.\n\nA document could.\n\n* define another;\n* depend on another;\n* reference another.\n\nRelationships came to be regarded as architectural entities.\n\nNot merely as hyperlinks.\n\n---",
+      "after": "The discovery that documents define, reference or depend on other documents led the account to treat relationships as architectural entities rather than hyperlinks alone.\n\nThese relation kinds remain distinct. A reference is not automatically a mandatory dependency. Where a required contract is asserted, the dependency must identify consumer→provider direction, contract and scope. This narrative does not supply a complete required-component dependency graph."
+    },
+    "2.10": {
+      "before_sha256": "21268e4cf3bcb3defbb48a79966e64d7c9aedcd92df42eaa3f46be0036fba0c1",
+      "after_sha256": "e09a0ed2790666b97c4a4b84baf574ffbdc80a6e29dacd23680d8dfca3159288",
+      "before": "This observation naturally led to a new idea.\n\nIf documents have relationships.\n\nThen they can be represented as a graph.\n\nThis conclusion emerged long before the implementation of the Knowledge Graph.\n\nBut it constituted its conceptual origin.\n\n---",
+      "after": "Representing document relationships as a graph is described as the conceptual origin of the Knowledge Graph. The received account places this insight before implementation, but supplies no dated implementation or verification evidence. This preserves the narrated progression without certifying that implementation occurred."
+    },
+    "2.12": {
+      "before_sha256": "36cb3377ea6a98ef929fcbea330a6c816a4a4716dab228c69aeb6040731f7ddf",
+      "after_sha256": "47f9d200c35d5a7117f3ecabe0900283bd5c14a414f9f37eceb413a912d2fd4a",
+      "before": "Although there was still no formal design.\n\nSeveral components could already be recognized.\n\n```text id=\"fe2-2\"\n\n                Documents\n                    ↓\n\n                Metadata\n                    ↓\n\n                Identity\n                    ↓\n\n             Classification\n                    ↓\n\n              Relationships\n\n```\n\nThere was not yet a framework.\n\nBut there was already an implicit architecture.\n\n---",
+      "after": "Before a formal design, the account recognized documents and the descriptive, identity, classification and relationship concerns below.\n\n<!-- view: fe2-2 -->\n**View fe2-2 — conceptual emergence list; presentation order only.**\n\n| Concern | Narrated role |\n| --- | --- |\n| Documents | Represent technical knowledge. |\n| Metadata | Describe document properties. |\n| Identity | Provide a logical key. |\n| Classification | Distinguish categories. |\n| Relationships | Express typed connections. |\n<!-- end-view -->\n\nThe received arrows are represented as a list of associated concerns. Their order is neither a dependency chain nor an executable pipeline; current owners remain distinct."
+    },
+    "2.13": {
+      "before_sha256": "6885061e1adc71e747af920067bbb1d0950321e4fa8100f5f66d2c8c318ba474",
+      "after_sha256": "dee628038d5ac68752e6c32a7f8751c1fc7a585566964c9ce188ddac13f64acf",
+      "before": "At a certain point, it became evident that the documentation system had exceeded its originally anticipated scale.\n\nThe mechanisms created to organize a few dozen documents began to be used for hundreds of documents.\n\nThe need for a formal architecture became unavoidable.\n\n---",
+      "after": "The account reports a shift from organizing a few dozen documents to addressing hundreds. No inventory for that historical stage was supplied, so those quantities remain received scale descriptions rather than verified measurements. The narrative identifies this perceived growth as motivation for formal architecture."
+    },
+    "2.14": {
+      "before_sha256": "7b2e30e5342aeb93c2b9f8a8eb06b31392355b22e9b9f882cf3c73f7fccbd106",
+      "after_sha256": "de5dae2db1a7393a14cebee85026b87f58761015c8be90114b686af20fb76ad2",
+      "before": "It was precisely during this period that META documentation emerged.\n\nInitially intended only to define conventions.\n\nIt quickly evolved into normative documentation.\n\nDocumentation came to describe.\n\nNot only the project.\n\nBut also the documentation system itself.\n\nThis self-reference constituted a decisive step.\n\n---",
+      "after": "META documentation is described as emerging from conventions and evolving toward normative documentation of the documentation system itself. META is retained as a historical designation. Current authority requires an explicit applicable declaration and edition evidence; the historical label, this Reference Type or corpus presence alone does not grant authority or approval."
+    },
+    "2.15": {
+      "before_sha256": "237a6638788dde0a201801dfe94c06469b3b2812a2e848493b6abd6fd1039ddd",
+      "after_sha256": "c69cceb6817f3df91d27fed5707c422c2fef26dd5537e88d72b3aad485128b66",
+      "before": "By the end of this phase.\n\nSeveral concepts had already been clearly identified that would remain unchanged throughout the subsequent evolution.\n\n* Metadata;\n* Document Identity;\n* Classification;\n* Relationships;\n* Templates;\n* Families.\n\nAlthough there was not yet a complete architecture.\n\nThe foundations of the Documentation Framework had been established.\n\n---",
+      "after": "By the end of this narrated phase, Metadata, Document Identity, Classification, Relationships, Templates and Families were identified as foundational concepts. The received account intended their roles to remain stable. That intention does not prohibit an explicitly assessed future contract change or establish that all subsequent editions left those roles unchanged."
+    },
+    "3.5": {
+      "before_sha256": "c2e4486e4203e87d104f92bb047717e34943ce1e67b1e5ef9ff0d10f535073db",
+      "after_sha256": "ead670071137397804e0fe03d576e9bbd878bb059952dc915b63cd6719e4f607",
+      "before": "A new conceptual layer then began to take shape.\n\n```text id=\"fe3-1\"\n\n                Knowledge\n                    ↓\n\n              Documentation\n                    ↓\n\n                 Storage\n\n```\n\nFor the first time.\n\nDocumentation no longer occupied the highest position in the architecture.\n\nA higher layer now existed.\n\n---",
+      "after": "The account describes a higher level of abstraction in which knowledge is the asset, documents represent it and storage preserves representations.\n\n<!-- view: fe3-1 -->\n**View fe3-1 — historical abstraction view; no structural allocation or dependency.**\n\n| Abstraction | Meaning |\n| --- | --- |\n| Knowledge | Subject matter and primary asset. |\n| Documentation | Representations of that subject matter. |\n| Storage | Possible preservation mechanism for representations. |\n<!-- end-view -->\n\nKnowledge, Documentation and Storage here describe conceptual abstraction, not three new structural Layers. Knowledge is subject matter; Storage is not introduced as a new Framework component. The current distinction between concerns and structural areas is stated in §4.3."
+    },
+    "3.6": {
+      "before_sha256": "30c2bb831eab0cd97b636bb9aec84ee538067d3a7a96c0eb688f83a14e3db3f6",
+      "after_sha256": "005e1c6f8aa287da28e49de50c06b6dc1d4480d30be1bd63b674b6c5d1a70536",
+      "before": "This evolution also required responsibilities to be redefined.\n\nDocumentation became responsible for.\n\n* representing;\n* structuring;\n* preserving.\n\nKnowledge became responsible for.\n\n* explaining;\n* justifying;\n* providing the rationale.\n\nThe architecture became much clearer.\n\n---",
+      "after": "The historical distinction assigns representation, structuring and preservation to documentation, while knowledge supplies explanations, justifications and rationale. These are conceptual descriptions of content and representation, not executable component responsibilities assigned to Knowledge as a new Layer. Current component contracts are maintained by their responsible sources."
+    },
+    "3.10": {
+      "before_sha256": "f86445e46e8a30d8951069f4cb2d317a4f376e290dd52823b1c178f01c354bd0",
+      "after_sha256": "dfb75f6eedb80962d2e761860027db189b560ffd87d395000cef03233a101f5b",
+      "before": "As the documentation system grew.\n\nQuestions related to evolution also began to emerge.\n\nFor example.\n\n* when to approve a document;\n* when to update a version;\n* how to preserve previous states.\n\nThese concerns naturally led to the emergence of the first governance mechanisms.\n\n---",
+      "after": "Questions about approval, edition evolution and preserving previous states motivated governance in the account. In current interpretation, review, validation, explicit approval and Baseline inclusion are separate decisions. A changed working edition is not automatically approved or included in a snapshot. The exact selection interpretation is summarized in §4.11."
+    },
+    "3.13": {
+      "before_sha256": "e745f74e753fb9ed09538ace9490f563ce60a773a87e747cb71cd5323d98cb28",
+      "after_sha256": "1016ae0c93ac315a2cbe15d6a8c2a1ac09070d3127fff9189e6de19f8556992b",
+      "before": "META documents also acquired a new level of importance.\n\nThey no longer defined only conventions.\n\nThey began to document the documentation architecture itself.\n\nThe framework started to possess documentation about itself.\n\nThis level of self-reference represented an important sign of maturity.\n\n---",
+      "after": "The account describes META documents progressing from conventions to describing the documentation architecture itself. This self-reference was considered a sign of maturity. It remains a historical assessment, while current classification and authority follow §2.5 and §2.14."
+    },
+    "3.14": {
+      "before_sha256": "b2231e5d9f64329ea63d641dc895f6b7a5eabae58f74db787b2269df7d39c59f",
+      "after_sha256": "3510ad24e0e133bd6042fe4029bd2608779f40cbd05d56998466ff898c5ad29c",
+      "before": "By the end of this phase, it was already possible to identify a very clear vision.\n\nThe Documentation Framework would be.\n\n* independent;\n* modular;\n* reusable;\n* extensible;\n* knowledge-oriented.\n\nMost future decisions would consist of developing this vision.\n\nNot changing it.\n\n---",
+      "after": "The account consolidated an intended independent, modular, reusable, extensible and knowledge-oriented vision. Future decisions were expected primarily to develop that vision. This expresses design intent, not a guarantee against future architectural changes; actual proposals require impact and compatibility assessment under applicable governance."
+    },
+    "4.3": {
+      "before_sha256": "d5a15fa49cd4aaa02ad3a605b921272f1ba29666b9ecd148b1daa2daa7b34de2",
+      "after_sha256": "e255083143027acc71fabb1e152250d7074752e4257828e4f74f1c9098a538e9",
+      "before": "One of the first decisions of this phase was to organize the architecture into logical layers.\n\nThis division was not motivated by implementation concerns.\n\nIt was motivated by the need to separate responsibilities.\n\nDifferent levels of abstraction gradually emerged.\n\n* knowledge;\n* representation;\n* governance;\n* discovery;\n* preservation.\n\nThis organization made the architecture significantly easier to understand.\n\n---",
+      "after": "The account grouped responsibilities into five conceptual concerns: knowledge, representation, governance, discovery and preservation. This historical concern view is distinct from the current seven structural areas: Foundation, Architecture, Documentation, Governance, Discovery, Automation and Integration.\n\nKnowledge is subject matter and Preservation is cross-cutting. They are not additional structural Layers. Metadata has primary structural allocation to Documentation; Baselines to Governance. Architecture owns structural organization. The received Architecture six/seven count discrepancy remains an open cross-source reconciliation issue; this local Reference update does not close it."
+    },
+    "4.4": {
+      "before_sha256": "e0d087c456c2c79734fbec3691c75ac98592ec687a8532883baf9643438042b3",
+      "after_sha256": "a4e273cc49f460f1213336034fbb85ffe3869479bd55a7071b0b9f9feaf32de3",
+      "before": "As the components matured, it also became necessary to eliminate overlaps.\n\nFor example.\n\nMetadata should not govern documents.\n\nWorkflow should not store relationships.\n\nThe Registry should not contain knowledge.\n\nEach component came to have a clearly defined mission.\n\nThis clarification reduced the overall complexity of the system.\n\n---",
+      "after": "The account sought to reduce overlapping responsibilities. Current interpretation distinguishes semantic authority from physical storage and derived views: Metadata represents descriptors rather than governs documents; Workflow describes applicable process behavior rather than owns relationship records; Registry indexes entities and may contain traceable derived knowledge-related values.\n\nRelationships owns typed records. Copies or projections are permitted when their source edition and current/stale status are traceable; they do not create competing semantic authorities. A physical single-copy rule is not imposed."
+    },
+    "4.5": {
+      "before_sha256": "d5fc9c875dd8d850843d6c4fac237ab13126f2d9b277dabddbee42179e840e6d",
+      "after_sha256": "4d8fbc85b142abd8395d2b812b2af32f54e9c9537d6bca065b46794de3d116eb",
+      "before": "Metadata ceased to be merely a set of fields in document headers.\n\nIt became an architectural infrastructure.\n\nAll components began to use it as the official source of structural information.\n\nThis decision eliminated multiple forms of redundancy that existed in the initial versions.\n\n---",
+      "after": "Metadata is described as evolving beyond document headers into a shared descriptive infrastructure. Consumers may use represented descriptors without making Metadata the semantic authority for every component's structural information. Identity, Classification and Governance retain their respective domain definitions; Dictionary defines descriptors, Schema organizes their references, Profile constrains them and Instance supplies values under one effective Profile.\n\nReduced redundancy was an intended benefit in the received account. This UPDATE does not verify implementation or allocate Metadata Element IDs, catalogs or Profile lifecycle records."
+    },
+    "4.8": {
+      "before_sha256": "4c7855439d32aa524489b808560cc26b6a6989c70ad8a11db9e8c8c83e946470",
+      "after_sha256": "5fc1c6879eb8aae397d488c0b417669eb100e9a14c1fc746a2a1e856852a6f9d",
+      "before": "The Registry initially emerged as a simple list of documents.\n\nIt gradually evolved into a true architectural catalog.\n\nEach entry came to represent a logical entity.\n\nThe Registry ceased to be merely an index.\n\nIt became one of the central components of the system.\n\n---",
+      "after": "The Registry is described as evolving from a document list to an architectural catalog keyed by logical identity. Current interpretation distinguishes that key from exact edition, location and projected descriptors. Indexed or derived values identify their authoritative source edition; refreshed and stale views must be distinguishable. The Registry does not replace the owner of the indexed information."
+    },
+    "4.9": {
+      "before_sha256": "2cfe6afda9d175ef0e4ef0fbf694105b98aee00dc79a7bebde9ddf68103d5ccd",
+      "after_sha256": "e76f459f9349989a1f80febf08fc209709027ee66163ead6c6a4ec92faae87b3",
+      "before": "Relationships between documents also evolved significantly.\n\nInitially, they were occasional references.\n\nLater, they came to represent architectural dependencies.\n\nIt was during this phase that the idea became firmly established that relationships possess as much value as the documents themselves.\n\n---",
+      "after": "The account describes relationships becoming richer than occasional references, including architectural dependencies. This does not convert every reference into a dependency. Relationships owns typed records; reference, association and required-contract dependence preserve their own meanings. Required dependencies use consumer→provider with explicit scope, and genuine mandatory cycles remain visible for reconciliation."
+    },
+    "4.10": {
+      "before_sha256": "cfef60184251be53420ff7506166e682661c449bdf782a090f628d6c5b6a41ae",
+      "after_sha256": "2be47062e3851a8be624f1c05b2dfd614d017c37500fcf1d651bf20ab227ddc1",
+      "before": "Although the concept already existed.\n\nIt was during this phase that the Knowledge Graph found its definitive place.\n\nThe architecture recognized that.\n\nThe Registry organizes documents.\n\nThe Knowledge Graph organizes knowledge.\n\nThis distinction became permanent.\n\n---",
+      "after": "The account places Registry and Knowledge Graph within a complementary discovery vision: Registry provides catalog/index views, while Knowledge Graph projects typed connections for knowledge exploration. Relationships remains the authority for relationship records. These projections preserve origin and edition provenance and do not redefine domain semantics.\n\nThis historical pair is not an exhaustive current Discovery catalog; Navigation and Search are also registered responsibilities. Implementation and integrated conformity are not established here."
+    },
+    "4.11": {
+      "before_sha256": "bd34f5d14dd98e7e7b9910d8aff63558ddf4f7cff101e8a0e498f1fa200b2bbc",
+      "after_sha256": "f428722bd7f7fb722ce468a9d7695fc8ea480850092bf37dfa59c1a576955660",
+      "before": "Another concept that matured during this stage was the Baseline.\n\nInitially used only as a versioning mechanism.\n\nIt later came to represent consistent states of knowledge.\n\nThis change significantly expanded its role within the architecture.\n\n---",
+      "after": "The account describes Baseline evolving from a versioning idea to preserving consistent knowledge states. The current synopsis is a collective snapshot of explicitly selected immutable document editions, identified by logical ID plus exact Version/Revision or immutable equivalent, with relevant pinned relationship context and verification evidence.\n\nValidation, explicit approval, eligibility and inclusion remain distinct. A Baseline identity is separate from a member identity and edition. A current Draft successor or changed path does not retarget historical members. This working edition is not assigned to Baseline 1.0; the received declaration is preserved in §5.20."
+    },
+    "4.12": {
+      "before_sha256": "605305b1a3bce37fd36fafe1b04e28a9636c0935a8107c64e13b4fa973db46ff",
+      "after_sha256": "14fc1a850605768265167e32f7703f0352fdaeaf6223a7bb7e30e0e87f5deae7",
+      "before": "With all these components stabilized.\n\nThe Documentation Framework definitively ceased to be a collection of best practices.\n\nIt became an architectural system.\n\nEach component came to exist in relation to the others.\n\nThe architecture achieved unity.\n\n---",
+      "after": "The received account assessed the concepts as an integrated architectural system rather than independent best practices. This preserves its consolidation assessment without asserting current verified component stability, operational unity or integrated corpus conformity. Those results require separate evidence for their actual editions and implementation."
+    },
+    "4.14": {
+      "before_sha256": "9e75f722e0a405e37e0c148f53f6538591b98a59372b3e90ccf153cc7dc837ac",
+      "after_sha256": "e965591dab7b3f79c22ccb056ea45b83037b1d044c3d0a322b1c69ff36de92e1",
+      "before": "The philosophy of the project also reached a high level of maturity during this phase.\n\nIdeas that would remain unchanged were established.\n\nAmong them.\n\n* documentation is engineering;\n* knowledge is the primary asset;\n* documents represent knowledge;\n* architecture precedes implementation.\n\nThese ideas came to guide all subsequent decisions.\n\n---",
+      "after": "The account consolidated four guiding ideas: documentation is engineering; knowledge is the primary asset; documents represent knowledge; architecture precedes implementation. These are retained as historical guiding principles. Their intended stability does not exempt actual changes from explicit governance and impact assessment."
+    },
+    "4.15": {
+      "before_sha256": "38cf776334296949a08a960e5a22a47901ca428d6c94969a35b16640c7e933ed",
+      "after_sha256": "cdc23d9a74a250bc766446f8cf620f3123273eeeada1316d4748e2507fa45cef",
+      "before": "By the end of this phase, it was already possible to represent the system as an integrated architecture.\n\n```text id=\"fe4-1\"\n\n                Knowledge\n                    ↓\n\n              Documentation\n                    ↓\n\n                 Metadata\n                    ↓\n\n                 Workflow\n                    ↓\n\n                Registry\n                    ↓\n\n             Knowledge Graph\n                    ↓\n\n                Baselines\n\n```\n\nAlthough still subject to refinements.\n\nThe fundamental model had been established.\n\n---",
+      "after": "The received integrated view associated knowledge, documentation and selected components. Its linear arrows did not identify required contracts.\n\n<!-- view: fe4-1 -->\n**View fe4-1 — historical component association; no execution or dependency chain.**\n\n| Subject/component | Interpretation |\n| --- | --- |\n| Knowledge | Subject matter. |\n| Documentation | Knowledge representations. |\n| Metadata | Descriptive infrastructure. |\n| Workflow | Governance process description. |\n| Registry | Catalog/index views. |\n| Knowledge Graph | Network projections. |\n| Baselines | Exact-edition collective selection in Governance. |\n<!-- end-view -->\n\nThis selected historical view is not an exhaustive current component catalog or structural hierarchy. No mandatory DAG is verified. Any indispensable dependency must retain explicit consumer/provider contract evidence rather than be relabeled to conceal a cycle."
+    },
+    "4.16": {
+      "before_sha256": "03a09cf9dfa92040f90046801c936edfe8dbdc5ff6138acf333a1b49f72c3375",
+      "after_sha256": "15a5355a4216f178b59721d5980f0ec20176e46a13c787258549526db314efe6",
+      "before": "Architectural consolidation also made it possible to address a new scale.\n\nThe framework was no longer prepared only for dozens of documents.\n\nIt became capable of supporting hundreds or thousands of document entities without changing its fundamental principles.\n\nThis scalability resulted directly from the adopted architecture.\n\n---",
+      "after": "The received account assessed the architecture as capable of addressing hundreds or thousands of document entities. No performance benchmark, capacity test or historical inventory supporting that claim was supplied. Scalability remains design intent; actual growth may require coordinated structural or implementation changes."
+    },
+    "4.17": {
+      "before_sha256": "043e74ffb415feb8a3a711c1dcd973141d33c9fc88746f414a632c1e305d8130",
+      "after_sha256": "da2902074f1cbb84644f53ca60da2b3384f1b1505cedecb316d6620ba1aef79b",
+      "before": "Perhaps the most important consequence of this phase was the emancipation of the Documentation Framework.\n\nInitially created to address the needs of the VisualEngine.\n\nIt acquired its own identity.\n\nFrom that moment onward, it became evident that it could be used by any project requiring a solid infrastructure for technical knowledge management.\n\n---",
+      "after": "Originating in VisualEngine needs, the Framework was conceived as reusable beyond that project. Origin does not impose a reverse dependency on VisualEngine. A project adopting DF may consume required DF contracts within its chosen scope. General applicability remains an intended property, not verified deployment in every project or domain."
+    },
+    "5.1": {
+      "before_sha256": "a1f5289fe263d888b65f1a2ab200f5a69f8642d106f0aee243f609baf80c8156",
+      "after_sha256": "2ec7c043896922a1c8a95ae7e6365ea6e48021efeca76451ae8043f440b73191",
+      "before": "Following its architectural consolidation, the Documentation Framework entered a new stage in its evolution.\n\nThis phase is characterized by a shift in priorities.\n\nThe objective was no longer to create new fundamental concepts.\n\nInstead, it became focused on refining the existing ones, increasing the consistency of the architecture, and preparing the framework for sustained long-term evolution.\n\nIt is during this phase that a project ceases to be experimental and reaches architectural maturity.\n\n---",
+      "after": "Following consolidation, the account describes a shift from discovering fundamental concepts to refinement, consistency and long-term evolution. Its assessment of architectural maturity is preserved historically. This UPDATE establishes neither current operational maturity nor an end to experimentation."
+    },
+    "5.2": {
+      "before_sha256": "1c236ee550e61f120f87bf79084d05cb89f46c2452583c0a9785340224f43be4",
+      "after_sha256": "ff1f22a0cc111d41af457df224bbf2cdcc3c88b40113c3040d3ccc3e9c56c7bc",
+      "before": "Within the context of the Documentation Framework, maturity does not mean that development has ended.\n\nIt means that the fundamental architectural principles have become stabilized.\n\nNew developments no longer alter the foundations of the system.\n\nInstead, they expand its capabilities.\n\n---",
+      "after": "Maturity in the account meant perceived stabilization of fundamental principles rather than completion of development. Future expansion was expected to preserve those principles. Actual evolution may change foundations or contracts when justified and assessed; stability is an objective rather than an unconditional guarantee."
+    },
+    "5.3": {
+      "before_sha256": "8b64eac621de32dad0a0adfe9b2608f18705f1552bc6118165a8f690a173fc36",
+      "after_sha256": "f64c1b7e8a9232c7732f89722a96da3188c2f282ac33d2a59c7b9736387e7230",
+      "before": "During this phase, the main architectural concepts became stabilized.\n\nAmong them.\n\n* Metadata;\n* Document Identity;\n* Workflow;\n* Registry;\n* Knowledge Graph;\n* Baselines.\n\nAlthough their implementations may evolve, their conceptual roles remain unchanged.\n\n---",
+      "after": "Metadata, Document Identity, Workflow, Registry, Knowledge Graph and Baselines were identified as stabilized concepts in the received account. That selection is historical, not an exhaustive current catalog. Implementations and contracts may evolve under explicit impact and compatibility decisions; unchanged roles across all future editions are not guaranteed."
+    },
+    "5.7": {
+      "before_sha256": "033d72d1685ea2ca76471f3c7f73c218289f553cdb4158f1f77ada8d504fddd5",
+      "after_sha256": "aa615088224d0fd15ec9d4cbc16d8ae44d1249a049442aa920e0029262c2a4b6",
+      "before": "Another characteristic of this phase is evolution through extension.\n\nNew capabilities are added.\n\nWithout modifying the fundamental components.\n\nFor example.\n\n* new Templates;\n* new document families;\n* new Policies;\n* new search mechanisms.\n\nThe architecture remains stable.\n\n---",
+      "after": "Extension was envisaged through new Templates, component/documentary-area families, Policies and search mechanisms. These are illustrative possibilities, not registered additions or commitments. Extensions require responsibility, contract and compatibility assessment and may require coordinated changes to existing components. The four-value Type enumeration is not expanded by these examples."
+    },
+    "5.8": {
+      "before_sha256": "4fb4934252e12c58d534052697b3668c167bf6b8a67ee4c461d404b69ec18b4a",
+      "after_sha256": "15d589b2e450017a5455342f52208e51d604127b858f17095ed97e9b85d15cd8",
+      "before": "The technological independence of the Documentation Framework makes it possible to consider new opportunities.\n\nAmong them.\n\n* semantic search engines;\n* artificial intelligence;\n* ontologies;\n* automatic relationship analysis;\n* assisted documentation generation.\n\nThese technologies can strengthen the framework without modifying its principles.\n\n---",
+      "after": "Semantic search, artificial intelligence, ontologies, automatic relationship analysis and assisted generation remain possible integrations. Their benefit and compatibility with existing principles require assessment. No provider, implementation, new component or acceptance result is established by this narrative."
+    },
+    "5.10": {
+      "before_sha256": "10834acd53cd12150d906ff913c21f4e8e4f5fc9b618b5125d674d1c9e661342",
+      "after_sha256": "5cf603e9d80e91506945786bfe39630cfd3b9f6be0a47e2d6bdeb70115a55740",
+      "before": "Another area of evolution concerns visualization.\n\nThe Knowledge Graph may cease to be merely a logical structure.\n\nIt may also be represented graphically.\n\nAllowing users to explore.\n\n* dependencies;\n* families;\n* cycles;\n* knowledge domains.\n\nThis capability will significantly improve the understanding of the documentation.\n\n---",
+      "after": "Graph visualization was envisaged to help explore dependencies, families, cycles and knowledge domains. This is an intended capability and possible benefit, not verified functionality. A visualization must distinguish relation types; the presence of a graph cycle alone does not identify a prohibited mandatory-contract cycle."
+    },
+    "5.11": {
+      "before_sha256": "fb87212154ab86326d1e02301e7d36e441d4c27421debd0512b06aba15907ecc",
+      "after_sha256": "b03c51a85bfc0ebe40a68277eb7caab35337ccabbdb107b5f9de2908717764b6",
+      "before": "As the framework evolves, supporting collaborative environments also becomes increasingly important.\n\nThe architecture already includes concepts such as.\n\n* authorship;\n* review;\n* approval.\n\nAdditional mechanisms may emerge in the future to facilitate distributed work.\n\n---",
+      "after": "Authorship, review and approval were recognized as distinct collaborative concerns. Attribution records actual contributions rather than authorization alone. Review and validation evidence do not constitute approval; later edits on disk require assessment of their resulting bytes. Additional distributed-work mechanisms remain possibilities, not an implemented operational workflow."
+    },
+    "5.12": {
+      "before_sha256": "649d1d7d0adecb3fd1a59df2f6f7ed8277968414434a4becb68b88dc988981ad",
+      "after_sha256": "7d1edeaac2a54714f8b27f124a9a509334d99af830421a333ccb960b95b672d5",
+      "before": "The adopted principles allow the framework to grow continuously.\n\nAn increase in the number of documents, relationships, or Baselines does not require structural changes.\n\nThis capability confirms the robustness of the designed architecture.\n\n---",
+      "after": "Growth in documents, relationships or Baselines is an intended property. It does not prove that structural changes will never be required or that scalability has been benchmarked. Actual growth requires evidence and impact assessment for the selected architecture, contracts and implementation."
+    },
+    "5.13": {
+      "before_sha256": "43e360699aac6dc579875b6f39cf8fed12ba176c6cf2805a115d30a5b62d9a97",
+      "after_sha256": "075636eff53f4a314d51de5ad3f179c5a5f5678d6d2d06e8f46149cdda3421d0",
+      "before": "Perhaps one of the greatest demonstrations of maturity is reusability.\n\nThe Documentation Framework is no longer dependent on the context in which it originated.\n\nIt can now be applied.\n\n* to software projects;\n* to scientific research;\n* to engineering;\n* to organizational documentation;\n* to knowledge management.\n\nThe architecture has become truly generic.\n\n---",
+      "after": "The account envisaged application to software, scientific research, engineering, organizational documentation and knowledge management. These remain intended reuse contexts. The Framework's independence from its origin does not verify deployment, suitability or maturity in each domain; adopting consumers must assess relevant DF contracts."
+    },
+    "5.14": {
+      "before_sha256": "f5178451ba4b8a2f565d47a5c551d9a4ec552cba66d1bdc832cbd91044238691",
+      "after_sha256": "2434b545ac4857cbc01bfa730db70aa58823fa8a3d52411e3005b697df2f8f7f",
+      "before": "Despite its maturity.\n\nThe architecture is not intended to solve every documentation-related problem.\n\nIts scope remains clearly defined.\n\nTo represent, govern, organize, and preserve knowledge.\n\nOther concerns should remain outside the framework.\n\nThis clear boundary prevents uncontrolled growth.\n\n---",
+      "after": "The narrated scope is to represent, govern, organize and preserve knowledge. This is a historical scope synopsis, not a complete operational product specification. DF describes documentary concepts/contracts; applicable DMS/CMS or processes execute operational management and changes. Those external specifications are not supplied or reviewed here."
+    },
+    "5.15": {
+      "before_sha256": "85bb6f7d1ed3529901cf5fcf5f13cabf1b2501e047479353d8ef57326d188aad",
+      "after_sha256": "1da26e740c2425303087855ccaa9ffb9a6d13b6ee6f00cca59b6f2c66959b1b5",
+      "before": "The Documentation Framework should continue to evolve.\n\nHowever, that evolution should preserve.\n\n* the fundamental principles;\n* modularity;\n* independence;\n* conceptual simplicity.\n\nArchitectural stability is an asset that should be preserved.\n\n---",
+      "after": "Long-term evolution was intended to preserve principles, modularity, independence and conceptual simplicity. Architectural stability is an objective assessed alongside new needs. The applicable owner documents and governance determine actual changes; this Reference narrative neither freezes contracts nor defines a binding evolution plan."
+    },
+    "5.16": {
+      "before_sha256": "e531092a50e246de608e196d5d9f3cf75100cd849fc2ba7d6eabf5868ac3802a",
+      "after_sha256": "48fef2b33b939f8ae9676b42c0ea468658b9493f55335b2da72c25f3e8eaaac2",
+      "before": "The complete evolution of the framework can be summarized as follows.\n\n```text id=\"fe5-1\"\n\n              Documentation\n                    ↓\n\n         Structured Documentation\n                    ↓\n\n             Document System\n                    ↓\n\n         Documentation Framework\n                    ↓\n\n          Knowledge Architecture\n                    ↓\n\n        Knowledge Infrastructure\n\n```\n\nEach stage represents an increase in the level of abstraction.\n\n---",
+      "after": "The received stages summarize increasing abstraction qualitatively.\n\n<!-- view: fe5-1 -->\n**View fe5-1 — narrated historical stages; order without verified dates.**\n\n| Order | Stage |\n| --- | --- |\n| 1 | Documentation |\n| 2 | Structured Documentation |\n| 3 | Document System |\n| 4 | Documentation Framework |\n| 5 | Knowledge Architecture |\n| 6 | Knowledge Infrastructure |\n<!-- end-view -->\n\nThe order preserves the account's narrative, not an executable pipeline, dependency chain or independently verified dated chronology. The Research Journal and Evolution Timeline provide related records under their own evidence limits (§5.19)."
+    },
+    "5.17": {
+      "before_sha256": "6a2bdb27852643545db3bcc82b0deecf5f69fdb8fb877114cf4b023bebf2ba0a",
+      "after_sha256": "c00fdcacc14e1f00b9f88a41d4e540b08a92a5b8d7733f4153fb3ce95123e762",
+      "before": "At the present time.\n\nThe Documentation Framework can be considered a mature knowledge engineering infrastructure.\n\nIts core components have become stabilized.\n\nFuture evolution is expected to occur primarily in the areas of automation, integration, and functional expansion.\n\nThe conceptual architecture remains solid.\n\n---",
+      "after": "The received Version 1.0 described the Framework as a mature knowledge engineering infrastructure with stabilized core concepts and future focus on automation, integration and functional expansion. No date or assessment evidence accompanied that present-time claim.\n\nThat statement is preserved as the received assessment, not adopted as a current operational result. The present working edition is V1.0 R1 Draft, Baseline Not assigned, with nine local corrections pending VALIDATE DOCUMENT. Earlier scoped validations of other sources do not establish integrated conformity, implementation or release readiness for this Framework."
+    },
+    "5.18": {
+      "before_sha256": "c50ca13862407b83434e9e653d8893f2ef4d391faa9a16e4a7c91c84da06fabc",
+      "after_sha256": "bac9927825534afac9d27c83bbf3323ad218a674e933bd26cbeafe4f7befe1fe",
+      "before": "The evolution of the Documentation Framework demonstrates how a set of practical needs can lead, through successive refinements, to the emergence of a complete and reusable architecture.\n\nThe journey that began with the simple organization of documents culminated in an infrastructure dedicated to the representation, governance, discovery, and preservation of technical knowledge.\n\nMore than a documentation system, the Documentation Framework has become a knowledge engineering model, prepared to continue evolving without losing the architectural coherence that characterizes its entire design.\n\nThis concludes the **Framework Evolution** document of the **Documentation Framework**.\n\n---\n\n**End of Document**\n\n---",
+      "after": "This historical account describes how practical document organization needs motivated increasingly abstract approaches to representation, governance, discovery and preservation. Its consolidation and reuse assessments explain the narrated progression; they do not certify a complete implementation or future architectural coherence.\n\nThe historical narrative concludes here. The following source map and local history distinguish related current definitions from received chronology and record the actual working update."
+    }
+  },
+  "view_ids": [
+    "fe2-1",
+    "fe2-2",
+    "fe3-1",
+    "fe4-1",
+    "fe5-1"
+  ],
+  "added_sections": [
+    "5.19",
+    "5.20"
+  ],
+  "applied_map": [
+    {
+      "id": "FND005-01",
+      "severity": "Medium",
+      "sections": "Header",
+      "before": "Family/Type and Revision absent; Approved/Baseline 1.0 received.",
+      "proposal": "Add Family Foundation, Type Reference: primary responsibility is historical evolution, with non-binding future directions rather than an executable evolution process. Preserve Arnaldo attribution and received history; attribute actual update separately, Draft/unassigned first Revision 1.",
+      "closure_criterion": "Header follows historical responsibility with no invented Component/Class, approval or Revision 0.",
+      "related_records": "REV2-03; REV2-12",
+      "state": "Corrected—pending validation",
+      "applied_sections": "Header; scope; 5.20",
+      "after": "Family Foundation, Type Reference; V1.0 R1 Draft/unassigned; actual contributions and received history distinguished.",
+      "validation_performed": false
+    },
+    {
+      "id": "FND005-02",
+      "severity": "Medium",
+      "sections": "1.9, 2.5, 2.8, 2.14, 3.13",
+      "before": "Historical Architecture/Research/Specification/META/Template/Analysis labels are not explicitly separated from current Family/Type rules.",
+      "proposal": "Retain historical vocabulary as historical subject/role groupings; distinguish current component/documentary-area Family and four responsibility-based Types. Apply functional-file exclusions, retain stable ID independent of classification/location/edition.",
+      "closure_criterion": "Historical terms are preserved without authorizing extra current Types, family-by-title inference or functional-file normalization.",
+      "related_records": "REV2-03; REV2-04; INV-02 remains Not applicable",
+      "state": "Corrected—pending validation",
+      "applied_sections": "1.9; 2.5; 2.7; 2.8; 2.14; 3.13",
+      "after": "Historical grouping labels retained; four current Types and functional-file exclusion explicit; stable identity.",
+      "validation_performed": false
+    },
+    {
+      "id": "FND005-03",
+      "severity": "High",
+      "sections": "3.5, 3.6, 4.3, 4.15",
+      "before": "Knowledge/Documentation/Storage hierarchy and five concern layers can be read as current structural allocation.",
+      "proposal": "Label these as historical conceptual views. Distinguish five concerns from seven structural areas; Knowledge subject matter, Preservation cross-cutting, Metadata primary Documentation and Baselines Governance. Reference Architecture ownership and pending six/seven discrepancy.",
+      "closure_criterion": "No additional Knowledge/Storage/Preservation structural layer inferred; historical and current views explicitly separated.",
+      "related_records": "REV2-01; INV-04",
+      "state": "Corrected—pending validation",
+      "applied_sections": "3.5; 3.6; 4.3; 4.15",
+      "after": "Historical abstraction/concern views distinct from seven structural areas; Knowledge subject matter, Preservation cross-cutting; primary allocations explicit.",
+      "validation_performed": false
+    },
+    {
+      "id": "FND005-04",
+      "severity": "High",
+      "sections": "2.3, 4.4, 4.5, 4.8, 4.9, 4.10",
+      "before": "Metadata is official structural information for all components; Registry cannot contain knowledge; reference evolution into dependencies does not preserve relation kinds/owner.",
+      "proposal": "Separate descriptor representation from Identity/Classification/Governance domain authority. Relationships owns typed records; Registry/Graph provide traceable indexes/projections, including permitted derived values with edition provenance. References remain references unless a required contract justifies dependency.",
+      "closure_criterion": "No universal Metadata semantic authority or physical no-copy rule; relationship ownership and derived projections explicit.",
+      "related_records": "REV2-06; REV2-08; REV2-12",
+      "state": "Corrected—pending validation",
+      "applied_sections": "2.3; 2.9; 4.4; 4.5; 4.8; 4.9; 4.10",
+      "after": "Descriptor/domain authority separated; Relationships owns typed records; traceable Registry/Graph projections permitted.",
+      "validation_performed": false
+    },
+    {
+      "id": "FND005-05",
+      "severity": "High",
+      "sections": "3.10, 4.11, 5.11",
+      "before": "Baseline described as consistent knowledge state without exact selected editions or validation/approval/inclusion distinctions.",
+      "proposal": "Preserve historical transition from versioning to snapshot concept; link current exact immutable edition selection with pinned relevant context/evidence, explicit approval and inclusion. Distinguish contributions, review, validation and approval; changed working editions do not alter historical Baseline members.",
+      "closure_criterion": "Baseline synopsis identifies exact selection and separate gates; historical declarations are not renewed; future disk changes require evidence on resulting bytes.",
+      "related_records": "REV2-02; FND004-07/08 local closures retained",
+      "state": "Corrected—pending validation",
+      "applied_sections": "3.10; 4.11; 5.11; 5.20",
+      "after": "Exact immutable edition selection with pinned context; review/validation/approval/inclusion and contribution distinct.",
+      "validation_performed": false
+    },
+    {
+      "id": "FND005-06",
+      "severity": "High",
+      "sections": "2.8, 2.12, 3.5, 4.15, 5.16",
+      "before": "Five ASCII views lack explicit relation meaning; architectural sequences resemble dependencies.",
+      "proposal": "Retain fe2-1/fe2-2/fe3-1/fe4-1/fe5-1, replace with typed tables: taxonomy example, conceptual emergence, abstraction view, component association and historical stages. Required dependencies if asserted must use consumer-to-provider with contract/scope; do not conceal genuine cycles.",
+      "closure_criterion": "Five view meanings/direction explicit; historical sequence not a proven execution chain, current layer hierarchy or global mandatory DAG.",
+      "related_records": "REV2-02",
+      "state": "Corrected—pending validation",
+      "applied_sections": "2.8; 2.12; 3.5; 4.15; 5.16",
+      "after": "Five original view IDs retained in typed tables; narrative/association/abstraction not execution or mandatory dependency chains.",
+      "validation_performed": false
+    },
+    {
+      "id": "FND005-07",
+      "severity": "Medium",
+      "sections": "2.15, 3.14, 4.14, 5.2, 5.3, 5.7, 5.8, 5.12, 5.15",
+      "before": "Foundations/roles unchanged and extension/scaling requires no structural changes, expressed as unconditional guarantees.",
+      "proposal": "Preserve stability as historical design intent; extensions require impact/compatibility assessment and may require coordinated contract evolution. Future possibilities remain non-binding, no executable process or new component/catalog invented.",
+      "closure_criterion": "No guarantee that extension, technology integration or scaling never changes contracts/structure; current governance authority distinct from historical intentions.",
+      "related_records": "REV2-12; FND006-W01 local closure retained",
+      "state": "Corrected—pending validation",
+      "applied_sections": "2.15; 3.14; 4.14; 5.2; 5.3; 5.7; 5.8; 5.12; 5.15",
+      "after": "Stability is design intent; actual extensions/scaling may require coordinated changes and impact assessment.",
+      "validation_performed": false
+    },
+    {
+      "id": "FND005-W01",
+      "severity": "Medium",
+      "sections": "2.10, 2.13, 4.12, 4.16, 4.17, 5.1, 5.10, 5.12, 5.13, 5.17",
+      "before": "Implementation, hundreds/thousands scale, reuse and present maturity claimed without supplied assessment evidence/date.",
+      "proposal": "Retain received historical assessments, qualify implementation/scale/reuse/benefit as unverified here or intended capability. No invented event dates, benchmarks, release readiness or approval.",
+      "closure_criterion": "Current-state language has explicit evidence limits; no operational maturity/scalability guarantee inferred from architecture or local review.",
+      "related_records": "FND004-W01; FND006-W01 local closures retained",
+      "state": "Corrected—pending validation",
+      "applied_sections": "Scope; 2.10; 2.13; 4.12; 4.16; 4.17; 5.1; 5.10; 5.12; 5.13; 5.17",
+      "after": "Maturity/scale/reuse/implementation statements qualified; no invented chronology, benchmarks or approval.",
+      "validation_performed": false
+    },
+    {
+      "id": "FND005-W02",
+      "severity": "Low",
+      "sections": "1.1, 5.16, 5.17, 5.18",
+      "before": "No operational links or dated evidence anchors distinguish retrospective stages from current specifications and chronology records.",
+      "proposal": "Add concise actual-path reference map for Blueprint/Manifest/Rationale/Research Journal/Evolution Timeline and policy/report; distinguish chronology, rationale and current owner contracts. Do not invent dates or promote narrative order into verified dated events.",
+      "closure_criterion": "Links resolve to expected identities; chronology is qualitative unless evidence supports dates; related sources not silently updated.",
+      "related_records": "FND004-W02; FND006-W02 local closures retained",
+      "state": "Corrected—pending validation",
+      "applied_sections": "5.16; 5.17; 5.19; 5.20",
+      "after": "Nine actual-path references with role/limits; qualitative chronology distinct from dated evidence; exact received history retained.",
+      "validation_performed": false
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Corrected—pending validation": 9,
+    "Closed—verified": 27,
+    "Not applicable—scope decision": 1
+  },
+  "source_validation_performed": false
+}

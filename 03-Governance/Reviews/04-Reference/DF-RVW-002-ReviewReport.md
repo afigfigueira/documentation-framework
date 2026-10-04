@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 12 |
+| **Revision** | 13 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -41,6 +41,8 @@ Revision 10 records the actual Step 4.03 UPDATE in §16. §15 preserves the REVI
 Revision 11 records Step 4.03 VALIDATE DOCUMENT in §17. Earlier event sections retain their historical scope; §17 establishes current local closure and the next command.
 
 Revision 12 adds Step 4.04 Framework Evolution REVIEW in §18. Current totals: 28 Open, 27 Closed—verified, one Not applicable—scope decision. Source unchanged; next operation UPDATE DF-FND-005. Earlier sections preserve event-time scope.
+
+Revision 13 records Step 4.04 UPDATE in §19. Current totals: 19 Open, nine Corrected—pending validation, 27 Closed—verified and one Not applicable—scope decision. §18 preserves REVIEW-time states. Next operation: VALIDATE DOCUMENT DF-FND-005.
 
 ## 2. Concrete changes — before/after
 
@@ -138,6 +140,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-09-30 | 1.0 | 10 | Step 4.03 UPDATE: actual Design Rationale V2.0 R1, nine corrections and full source/diff | Draft; Baseline Not assigned; compatible informational update; #232; source validation pending |
 | 2026-09-30 | 1.0 | 11 | Step 4.03 local Design Rationale validation; nine verified closures; source unchanged | Draft; Baseline Not assigned; source V2.0 R1 hash retained; #234–236 |
 | 2026-10-04 | 1.0 | 12 | Step 4.04 Framework Evolution REVIEW; seven findings and two warnings Open; source unchanged | Draft; Baseline Not assigned; compatible informational update; #238; review-evidence checks #240 |
+| 2026-10-04 | 1.0 | 13 | Step 4.04 UPDATE: Framework Evolution V1.0 R1, nine corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #242 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -1040,3 +1043,57 @@ Checks cover unchanged source/input, five chapters/views, finding section refere
 ### 18.5. Next command
 
 **CONTINUAR** starts **4.04 — UPDATE DF-FND-005**, applying the localized correction with actual compatibility assessment, full source, diff, history and tracking, then pauses before VALIDATE DOCUMENT.
+
+
+## 19. Step 4.04 — UPDATE DF-FND-005 — Framework Evolution
+
+### 19.1. Exact successor and compatibility
+
+**UPDATE complete; VALIDATE DOCUMENT pending.** Received V1.0, Revision absent, Approved/Baseline 1.0 becomes **V1.0 R1 Draft, Baseline Not assigned**, Family Foundation, Type Reference, English. ID/path retained; no Component/Class or Revision 0 invented. Original Arnaldo Figueira contribution and Codex — AI assistant's actual working update are attributed separately from user authorization and approval.
+
+Input SHA-256: `0159036f4593633260414dcf0a98870895f9db177cada8cf4555c82f03fd8874`. Output SHA-256: `8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04`.
+
+The actual edits preserve the primary historical narrative and qualify its interpretation. Owner-contract synopses refer to existing responsibilities, while scope explicitly disclaims establishment of a new normative architecture contract or executable evolution process. This is compatible clarification/reclassification: Version remains 1.0 and absent Revision becomes 1. Historical stages and assessments are retained without inventing dates or evidence. Received approval/Baseline declarations remain in §5.20 rather than being inherited.
+
+### 19.2. Actual before/after and pending records
+
+| Record | Written sections | Before | Actual result | State |
+|---|---|---|---|---|
+| FND005-01 | Header; scope; 5.20 | Family/Type and Revision absent; Approved/Baseline 1.0 received. | Family Foundation, Type Reference; V1.0 R1 Draft/unassigned; actual contributions and received history distinguished. | Corrected—pending validation |
+| FND005-02 | 1.9; 2.5; 2.7; 2.8; 2.14; 3.13 | Historical Architecture/Research/Specification/META/Template/Analysis labels are not explicitly separated from current Family/Type rules. | Historical grouping labels retained; four current Types and functional-file exclusion explicit; stable identity. | Corrected—pending validation |
+| FND005-03 | 3.5; 3.6; 4.3; 4.15 | Knowledge/Documentation/Storage hierarchy and five concern layers can be read as current structural allocation. | Historical abstraction/concern views distinct from seven structural areas; Knowledge subject matter, Preservation cross-cutting; primary allocations explicit. | Corrected—pending validation |
+| FND005-04 | 2.3; 2.9; 4.4; 4.5; 4.8; 4.9; 4.10 | Metadata is official structural information for all components; Registry cannot contain knowledge; reference evolution into dependencies does not preserve relation kinds/owner. | Descriptor/domain authority separated; Relationships owns typed records; traceable Registry/Graph projections permitted. | Corrected—pending validation |
+| FND005-05 | 3.10; 4.11; 5.11; 5.20 | Baseline described as consistent knowledge state without exact selected editions or validation/approval/inclusion distinctions. | Exact immutable edition selection with pinned context; review/validation/approval/inclusion and contribution distinct. | Corrected—pending validation |
+| FND005-06 | 2.8; 2.12; 3.5; 4.15; 5.16 | Five ASCII views lack explicit relation meaning; architectural sequences resemble dependencies. | Five original view IDs retained in typed tables; narrative/association/abstraction not execution or mandatory dependency chains. | Corrected—pending validation |
+| FND005-07 | 2.15; 3.14; 4.14; 5.2; 5.3; 5.7; 5.8; 5.12; 5.15 | Foundations/roles unchanged and extension/scaling requires no structural changes, expressed as unconditional guarantees. | Stability is design intent; actual extensions/scaling may require coordinated changes and impact assessment. | Corrected—pending validation |
+| FND005-W01 | Scope; 2.10; 2.13; 4.12; 4.16; 4.17; 5.1; 5.10; 5.12; 5.13; 5.17 | Implementation, hundreds/thousands scale, reuse and present maturity claimed without supplied assessment evidence/date. | Maturity/scale/reuse/implementation statements qualified; no invented chronology, benchmarks or approval. | Corrected—pending validation |
+| FND005-W02 | 5.16; 5.17; 5.19; 5.20 | No operational links or dated evidence anchors distinguish retrospective stages from current specifications and chronology records. | Nine actual-path references with role/limits; qualitative chronology distinct from dated evidence; exact received history retained. | Corrected—pending validation |
+
+Material source excerpts (abbreviated here; complete removals/additions in the full diff):
+
+| Section | Removed wording | Written wording | Impact |
+|---|---|---|---|
+| 4.3 | logical layers; knowledge/representation/governance/discovery/preservation | five conceptual concerns ... distinct from the current seven structural areas | Historical concern view separated from current structural allocation; pending Architecture discrepancy retained. |
+| 4.4 | The Registry should not contain knowledge. | Registry indexes entities and may contain traceable derived knowledge-related values. | Removes physical no-copy interpretation; owner provenance required. |
+| 4.5 | All components began to use it as the official source of structural information. | Identity, Classification and Governance retain their respective domain definitions | Historical discovery does not transfer all semantic authority to Metadata. |
+| 4.11 | consistent states of knowledge | explicitly selected immutable document editions ... with relevant pinned relationship context | Current snapshot synopsis distinguishes validation, approval and inclusion. |
+| 5.12 | does not require structural changes | actual growth requires evidence and impact assessment | Removes unconditional scale/robustness guarantee. |
+| 5.17 | At the present time ... mature knowledge engineering infrastructure | preserved as the received assessment, not adopted as a current operational result | Historical assessment retained; current evidence limits explicit. |
+
+All five chapters and existing numbered sections remain; 42 section bodies amended. Five original view IDs are retained as typed Markdown tables: historical taxonomy example, conceptual emergence, abstraction view, historical component association and narrated stages. Narrative order is not a required dependency chain or verified dated chronology. Mandatory dependencies, if asserted, retain consumer→provider contract/scope; genuine cycles cannot be hidden by relabeling.
+
+Added §5.19 contains nine actual-path references; §5.20 records received edition/date limits and the actual 2026-10-04 working contribution, Draft/unassigned, pending validation, CHANGELOG #241 and report §19. The full diff includes the complete source/report/register changes.
+
+### 19.3. Tracking and construction checks
+
+Current totals: **19 Open, nine Corrected—pending validation, 27 Closed—verified, one Not applicable—scope decision**. No local record is closed here. Prior exact-source closures retain their scope; global model, identity/catalog/Profile and integrated dependency reconciliation remain pending.
+
+CHANGELOG #241 records source V1.0 R1 correction, #242 report R12→R13 and #243 milestone tracking. M10: three C, Framework Evolution S, two O, In Progress; no completion date. M9 identifies report R13 without expanding historical acceptance. Prior rows and M0–M7 remain preserved.
+
+Construction checks verify written metadata, retained original sections/five view IDs, resolving references with declared identities, 75 unchanged other original normalized sources, the three prior validated source hashes, six unchanged READMEs, 89 stable matrix positions, register history and current manifest hashes. These checks establish batch integrity, **not VALIDATE DOCUMENT, semantic closure, approval, implementation or integrated conformity**. Detailed map/construction/progress/manifest exports belong to R13; R12 review exports retain their original state.
+
+Checkpoint: `Context-Working-Step-4-04-Update.zip`. Final Context-Reviewed.zip remains pending.
+
+### 19.4. Next command
+
+**CONTINUAR** starts **4.04 — VALIDATE DOCUMENT DF-FND-005**, reading the complete exact V1.0 R1, comparing input and affected owner contracts, and evaluating all nine closure criteria. It does not approve the source or advance automatically to the next document.
