@@ -1,0 +1,269 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/15",
+  "date": "2026-10-04",
+  "step": "4.05 REVIEW",
+  "source": "00-Foundation/DF-FND-002-ResearchJournal.md",
+  "sha256": "53fad4f5847ead6e54fc2a4e46947cf8b1b48a123d548fa96d8347cdbc891831",
+  "source_edition": {
+    "version": "1.0",
+    "revision": null,
+    "status": "Approved",
+    "baseline": "1.0",
+    "author": "Arnaldo Figueira",
+    "language": "English",
+    "family": null,
+    "type": null
+  },
+  "coverage": {
+    "bytes": 88083,
+    "lines": 4010,
+    "chapters": [
+      [
+        "1",
+        "The Origin of the Need\r"
+      ],
+      [
+        "2",
+        "The First Templates\r"
+      ],
+      [
+        "3",
+        "The Discovery of Metadata\r"
+      ],
+      [
+        "4",
+        "Document Identity\r"
+      ],
+      [
+        "5",
+        "The Birth of META Documents\r"
+      ],
+      [
+        "6",
+        "Baselines and Document Versioning\r"
+      ],
+      [
+        "7",
+        "The Document Registry and Knowledge Discovery\r"
+      ],
+      [
+        "8",
+        "Document Relationships and the Knowledge Graph\r"
+      ],
+      [
+        "9",
+        "The Documentation Workflow and the Document Lifecycle\r"
+      ],
+      [
+        "10",
+        "Integration with the VisualEngine\r"
+      ],
+      [
+        "11",
+        "The Discovery of Integration with the Change Management System\r"
+      ],
+      [
+        "12",
+        "Research Summary, Lessons Learned, and Future Perspectives\r"
+      ]
+    ],
+    "views": [
+      "tpl1",
+      "tpl2",
+      "md1",
+      "md2",
+      "id1",
+      "id2",
+      "id3",
+      "id4",
+      "id5",
+      "id6",
+      "meta1",
+      "meta2",
+      "meta3",
+      "meta4",
+      "bl1",
+      "bl2",
+      "bl3",
+      "bl4",
+      "reg1",
+      "reg2",
+      "reg3",
+      "reg4",
+      "rel1",
+      "rel2",
+      "rel3",
+      "wf1",
+      "wf2",
+      "wf3",
+      "ve1",
+      "ve2",
+      "cms1",
+      "cms2",
+      "cms3",
+      "cms4",
+      "cms5"
+    ],
+    "fenced_views": 38,
+    "unnamed_view_sections": [
+      "1.7",
+      "1.11",
+      "12.2"
+    ],
+    "inline_flow_sections": [
+      "11.5"
+    ],
+    "method": "Complete source read in four consecutive untruncated windows covering lines1–4010; all paragraphs, lists, header and38 fenced views plus inline flow",
+    "operational_links": 0
+  },
+  "comparison_sources": [
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "8"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
+      "sha256": "8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "2.5",
+        "4.11",
+        "5.14"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "sha256": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "8.11"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "coverage": "Partial; listed sections and subordinate clauses",
+      "sections": [
+        "4",
+        "5.2"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "FND002-01",
+      "severity": "Medium",
+      "sections": "Header, 1.1, 12.19",
+      "before": "Family/Type and Revision absent; received Approved/Baseline 1.0.",
+      "proposal": "Add Foundation/Reference because the primary responsibility is the historical research/discovery record; future directions are not an executable evolution process. Preserve received author/history; record actual update contribution, Draft/unassigned and first declared Revision 1, no Component/Class invented.",
+      "closure_criterion": "Header follows research-history responsibility, approval is not inherited and no historical R0 is fabricated.",
+      "related_records": "REV2-03; REV2-12",
+      "state": "Open"
+    },
+    {
+      "id": "FND002-02",
+      "severity": "High",
+      "sections": "2.10, 2.11, 2.15, 2.17, 3.5, 3.7, 3.8, 3.10, 3.11, 3.14, 3.16, 12.5",
+      "before": "Administrative descriptors said to belong to identity; Metadata mandatory for every document, common core/family compatibility unqualified, tools need no content and Metadata must never interfere with content.",
+      "proposal": "Preserve discovery narrative but separate descriptor representation from Identity/Classification/Governance authority. Dictionary defines descriptors, Schema references, Profile constraints and Instance values under one effective Profile. Conceptual separation is not physical separation or independent edition evolution; content-sensitive consumers remain possible. Scope mandatory normalization away from functional files; do not prescribe a catalog/common-core set without evidence.",
+      "closure_criterion": "No descriptor-as-logical-identity conflation, universal header obligation, unconditional content-free tooling or incompatible semantic owner remains.",
+      "related_records": "REV2-06; REV2-07; REV2-08; REV2-11",
+      "state": "Open"
+    },
+    {
+      "id": "FND002-03",
+      "severity": "High",
+      "sections": "1.10, 1.15, 2.6, 3.12, 3.15, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 4.10, 4.11, 4.13, 4.15, 5.5, 5.7, 5.8, 12.6, 12.14",
+      "before": "Family+Type identity examples META-DCL-001 and category/Type/Class model said virtually unchanged until current architecture; every document has permanent ID/version including README examples.",
+      "proposal": "Retain DOC/META historical examples with explicit historical labels rather than migrate them. Explain current stable DF-SSS-NNN allocation independent of mutable classification/edition/location; Family canonical component or documentary area, Type exactly four responsibility values, no Class invented. Every README.md/CHANGELOG.md/ArchitecturalMilestones.md non-normalized; no000/ID assignment. Distinguish ordinary content evolution from semantic split/merge identity decisions.",
+      "closure_criterion": "Historical syntax is not current operational convention; four Types uniform, exclusions explicit and valid source ID/path retained without general migration or fabricated allocations.",
+      "related_records": "REV2-03; REV2-04; REV2-09; INV-02 remains Not applicable",
+      "state": "Open"
+    },
+    {
+      "id": "FND002-04",
+      "severity": "High",
+      "sections": "6.4, 6.5, 6.6, 6.7, 6.8, 6.9, 6.10, 6.11, 6.12, 6.14, 9.12, 9.15, 11.11, 12.8",
+      "before": "Baseline set of documents/redefined as approved changes; every significant change creates Baseline or change postponed; Revision only small compatible changes; exact selection/gates absent.",
+      "proposal": "Preserve research hypotheses but distinguish DF snapshot identity from document editions and CMS change records. Select exact immutable approved editions and relevant pinned context/evidence through explicit eligibility/approval/inclusion; changes do not automatically create/retarget snapshots. Apply adopted major.minor compatibility and monotonic Revision across Version changes; preserve absent received Revision without R0.",
+      "closure_criterion": "No substitution of CMS change set for document Baseline, mutable current paths or automatic change-to-Baseline rule; actual edition policy and separate gates explicit.",
+      "related_records": "REV2-02; FND004-07/08 and FND005-05 local scopes retained",
+      "state": "Open"
+    },
+    {
+      "id": "FND002-05",
+      "severity": "High",
+      "sections": "7.5, 7.6, 7.8, 7.12, 7.14, 8.5, 8.6, 8.8, 8.12, 8.13, 8.15, 12.9, 12.10",
+      "before": "Registry entry independence and knowledge repository/metadata layer blur authoritative owner versus derived values; relationship examples treated as dependencies; graph auto-consistency unscoped.",
+      "proposal": "Relationships owns typed records; Registry/Graph expose traceable edition-aware projections and indexes with current/stale evidence. Logical separation permits derived copies; no physical single-copy rule or new semantic authority. Distinguish relationship identity from Document/MetadataElement IDs; dependencies one relation kind, no unverified automatic consistency guarantee.",
+      "closure_criterion": "Ownership and projection provenance coherent; reference/association not silently promoted into required dependencies; no extra Metadata Layer or fabricated relationship catalog.",
+      "related_records": "REV2-02; REV2-12",
+      "state": "Open"
+    },
+    {
+      "id": "FND002-06",
+      "severity": "High",
+      "sections": "6.7, 9.4, 9.5, 9.6, 9.7, 9.8, 9.9, 9.10, 9.12, 9.13, 9.15, 11.2, 11.7, 12.11",
+      "before": "Historical state chains look universal; cannot archive Draft or return to earlier states; Workflow executed automatically without owner/executor/edition distinctions.",
+      "proposal": "Label received lifecycle experiments and sample transition restrictions as historical, not complete current policy. Governance defines applicable edition-state/process contracts; operational execution belongs to applicable DMS/CMS/tool/manual process. Separate contribution/review/validation/approval and exact editions; old approved edition may coexist with Draft successor. No user permission model or automatic execution implementation invented.",
+      "closure_criterion": "Journal does not impose unsupported current state graph/transition permissions; descriptive DF contracts and operational execution distinct; validation does not approve.",
+      "related_records": "REV2-08; REV2-12",
+      "state": "Open"
+    },
+    {
+      "id": "FND002-07",
+      "severity": "High",
+      "sections": "10.4, 10.5, 10.6, 10.12, 10.13, 10.14, 10.15, 10.16, 10.17, 11.3, 11.5, 11.6, 11.7, 11.9, 11.11, 11.12, 11.14, 11.16, 12.12, 12.13",
+      "before": "Neither DF/VisualEngine depends structurally on the other; circularity never a problem; CMS an Upper Layer merely explains why, all documentation consequence never cause; complete traceability asserted.",
+      "proposal": "Preserve historical co-evolution/hypotheses separately from mandatory contracts. DF independent of origin; optional VisualEngine adoption can consume required DF provider contracts. Genuine mandatory cycles remain visible. CMS change initiation/governance distinct from DF definitions and DMS operations, not a new internal DF Layer. Documents can record proposed/implemented changes; not every document is automatically formal verified change evidence. External Laboratory/Domain Packages/VisualEngine/CMS integrations remain intended unless actual evidence supplied.",
+      "closure_criterion": "No blanket independence, harmless required-cycle claim, new CMS Layer or universal causality/evidence guarantee; integration scope/direction/owner limits explicit.",
+      "related_records": "REV2-01; REV2-02; REV2-12",
+      "state": "Open"
+    },
+    {
+      "id": "FND002-08",
+      "severity": "High",
+      "sections": "1.7, 1.11, 2.3, 2.6, 3.4, 3.7, 4.2, 4.5, 4.7, 4.8, 4.9, 4.13, 5.4, 5.5, 5.7, 5.10, 6.2, 6.4, 6.7, 6.12, 7.2, 7.5, 7.8, 7.10, 8.5, 8.7, 8.9, 9.4, 9.5, 9.6, 10.4, 10.6, 11.4, 11.5, 11.6, 11.9, 11.13, 12.2",
+      "before": "38 fenced views and inline decision/documentation/implementation/tests sequence mix examples, decomposition, chronology, states, causal flows and dependencies.",
+      "proposal": "Inventory/transform all 38 fenced views plus inline flow into typed tables or suitable rendered views. Preserve35 existing IDs and identify the three previously unnamed views by original section, without pretending prior IDs existed. Explicitly type associations, narrative sequence, historical state experiments and illustrative relations. Required edges consumer→provider with contract/scope; do not hide cycles through labels.",
+      "closure_criterion": "All views have declared relation meaning/direction; no untyped architectural/execution chain or unsupported global DAG; original view identities/history preserved.",
+      "related_records": "REV2-02",
+      "state": "Open"
+    },
+    {
+      "id": "FND002-W01",
+      "severity": "Medium",
+      "sections": "1.1, 1.6, 2.4, 3.8, 6.9, 6.15, 7.4, 7.7, 7.13, 8.7, 8.11, 9.13, 11.9, 11.15, 12.16, 12.19",
+      "before": "Chronological journal has no dated entries/experiment evidence; first Baseline, complete graph/traceability, unlimited scale and current maturity asserted without supplied records.",
+      "proposal": "Preserve observations/hypotheses/results as received narrative with explicit undated qualitative chronology and evidence limits. Do not invent dates, test logs, benchmarks, Baseline identities or operational results; qualify completeness, automation, search limits and scale claims. Future directions non-binding.",
+      "closure_criterion": "No chronology/date or operational completeness guarantee inferred from narrative or architecture; missing evidence acknowledged without erasing historical record.",
+      "related_records": "FND004-W01; FND005-W01 local scopes retained",
+      "state": "Open"
+    },
+    {
+      "id": "FND002-W02",
+      "severity": "Low",
+      "sections": "1.1, 8.1, 12.2, 12.16, 12.19",
+      "before": "No operational source links;12.2 summary says emplates;8.1/12.16 heading punctuation irregular; current-versus-history map absent.",
+      "proposal": "Add concise resolving source-role map and local edition history/input hash; actual references distinguish Journal/Timeline/Evolution/Rationale and owner contracts. Correct emplates to Templates and heading punctuation while retaining section numbers. No unseen external CMS/VisualEngine specification linked as verified.",
+      "closure_criterion": "Source links resolve to expected identities, typo/heading defects corrected and received history preserved; peer sources not silently updated.",
+      "related_records": "FND005-W02 local scope retained",
+      "state": "Open"
+    }
+  ],
+  "result": "REVIEW complete with eight findings and two warnings; source unchanged; UPDATE/VALIDATE not performed",
+  "totals": {
+    "Open": 29,
+    "Closed—verified": 36,
+    "Not applicable—scope decision": 1
+  }
+}
