@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 13 |
+| **Revision** | 14 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -43,6 +43,8 @@ Revision 11 records Step 4.03 VALIDATE DOCUMENT in §17. Earlier event sections 
 Revision 12 adds Step 4.04 Framework Evolution REVIEW in §18. Current totals: 28 Open, 27 Closed—verified, one Not applicable—scope decision. Source unchanged; next operation UPDATE DF-FND-005. Earlier sections preserve event-time scope.
 
 Revision 13 records Step 4.04 UPDATE in §19. Current totals: 19 Open, nine Corrected—pending validation, 27 Closed—verified and one Not applicable—scope decision. §18 preserves REVIEW-time states. Next operation: VALIDATE DOCUMENT DF-FND-005.
+
+Revision 14 records Step 4.04 VALIDATE DOCUMENT in §20. Current totals: 19 Open, 36 Closed—verified, one Not applicable—scope decision; source V1.0 R1 unchanged, Draft/unassigned. Earlier event scopes remain preserved. Next: Step 4.05 REVIEW DF-FND-002.
 
 ## 2. Concrete changes — before/after
 
@@ -141,6 +143,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-09-30 | 1.0 | 11 | Step 4.03 local Design Rationale validation; nine verified closures; source unchanged | Draft; Baseline Not assigned; source V2.0 R1 hash retained; #234–236 |
 | 2026-10-04 | 1.0 | 12 | Step 4.04 Framework Evolution REVIEW; seven findings and two warnings Open; source unchanged | Draft; Baseline Not assigned; compatible informational update; #238; review-evidence checks #240 |
 | 2026-10-04 | 1.0 | 13 | Step 4.04 UPDATE: Framework Evolution V1.0 R1, nine corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #242 |
+| 2026-10-04 | 1.0 | 14 | Step 4.04 local Framework Evolution validation; nine verified closures; source unchanged | Draft; Baseline Not assigned; source V1.0 R1 hash retained; #244–246 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -1097,3 +1100,54 @@ Checkpoint: `Context-Working-Step-4-04-Update.zip`. Final Context-Reviewed.zip r
 ### 19.4. Next command
 
 **CONTINUAR** starts **4.04 — VALIDATE DOCUMENT DF-FND-005**, reading the complete exact V1.0 R1, comparing input and affected owner contracts, and evaluating all nine closure criteria. It does not approve the source or advance automatically to the next document.
+
+
+## 20. Step 4.04 — VALIDATE DOCUMENT DF-FND-005
+
+### 20.1. Result and exact edition
+
+**PASS for the localized Framework Evolution correction scope.** Complete read of five chapters, all original numbered sections, five typed views, source map/history and related local occurrences; input/UPDATE comparison and nine closure criteria. Exact 41,835-byte source SHA-256: `8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04`.
+
+V1.0 R1 remains Draft, Baseline Not assigned, Family Foundation, Type Reference, English. The historical-reference responsibility and compatible clarification assessment are supported by the actual scope and content. Source bytes match UPDATE and its checkpoint; validation alone changes neither its Version/Revision nor local history. UPDATE-time pending statements in scope/current state/history remain event evidence; this later exact-hash result supersedes pending tracking externally.
+
+Validation grants no approval, publication, release or Baseline inclusion. A later edit on disk requires assessment of the actual resulting bytes; this result is not transferable to a changed product or another contributor's edit.
+
+### 20.2. Verified local closure
+
+| Record | Verified source evidence | Before | Result |
+|---|---|---|---|
+| FND005-01 | Header; scope; 5.20: Reference accords with primary historical responsibility; Foundation documentary area, Draft/unassigned, first Revision 1, compatible clarification; original and actual update contribution distinguished; no Component/Class, approval or R0 invented. | Corrected—pending validation | Closed—verified |
+| FND005-02 | 1.9; 2.5; 2.7; 2.8; 2.14; 3.13: Received groupings explicitly historical; current four-value Type and component/documentary-area Family separate from identity, title and directory. Functional-file exclusion explicit. | Corrected—pending validation | Closed—verified |
+| FND005-03 | 3.5; 3.6; 4.3; 4.15: Abstraction and five concerns distinct from seven areas: Foundation, Architecture, Documentation, Governance, Discovery, Automation, Integration. Knowledge subject matter, Preservation cross-cutting; Metadata Documentation, Baselines Governance; six/seven source issue remains Open. | Corrected—pending validation | Closed—verified |
+| FND005-04 | 2.3; 2.9; 4.4; 4.5; 4.8; 4.9; 4.10: Metadata represents descriptors without taking domain authority; Dictionary/Schema/Profile/Instance roles and one effective Profile explicit. Relationships owns typed records; Registry/Graph project with provenance and current/stale distinctions; reference does not automatically become dependency. | Corrected—pending validation | Closed—verified |
+| FND005-05 | 3.10; 4.11; 5.11; 5.20: Selected immutable exact editions with pinned relevant relationship context/evidence; review, validation, explicit approval and inclusion separate. Current successor does not retarget past members; later edits require resulting-byte assessment. | Corrected—pending validation | Closed—verified |
+| FND005-06 | Five views; 2.9; 4.9; 4.15: Five IDs retained as taxonomy, emergence list, abstraction, association and stages. No unlabeled arrow chain remains. Required edges preserve consumer→provider contract/scope; genuine mandatory cycles stay visible; no global DAG claim. | Corrected—pending validation | Closed—verified |
+| FND005-07 | 2.15; 3.14; 4.14; 5.2; 5.3; 5.7; 5.8; 5.12; 5.15: Stability expressly design intent; growth/extension/integration may change contracts or structure and requires impact assessment. Possibilities remain non-binding; no executable evolution plan or component/catalog allocation invented. | Corrected—pending validation | Closed—verified |
+| FND005-W01 | Scope; 2.10; 2.13; 4.12; 4.16; 4.17; 5.1; 5.10; 5.12; 5.13; 5.17: Historical assessments and intended capabilities distinguished from implementation, verified scale/reuse and present maturity; absent assessment dates/benchmarks not invented. Retained benefit/maturity prose read under explicit document-wide historical scope. | Corrected—pending validation | Closed—verified |
+| FND005-W02 | 5.16; 5.17; 5.19; 5.20: Nine references resolve to expected IDs with chronology/rationale/definition roles and limits. Narrative order is qualitative; no unsupplied dates inferred; exact input and actual working history retained. | Corrected—pending validation | Closed—verified |
+
+Detailed criteria, observations, hashes and checks: `DF-RVW-002-validation-4-04.json`. Historical statements are interpreted under the explicit document-wide scope, not treated as new operational guarantees. All five view meanings are explicit; association/presentation order does not prove required contracts. Mandatory dependencies remain distinguishable and genuine cycles are not concealed by relabeling.
+
+### 20.3. Integrity and limits
+
+Current totals: **19 Open, 36 Closed—verified, one Not applicable—scope decision (INV-02)**. Nine closures cover FND005-01–07/W01/W02 in this exact source only; the 27 earlier local closures retain their source scopes. Global thematic/inventory findings remain Open, including Architecture count/direction, identity/classification/catalog/Profile and complete dependency reconciliation. No integrated corpus conformity or operational maturity is claimed.
+
+Nine links resolve to expected declared identities; all original section numbers and five view IDs remain. All 42 amended section-body hashes match; eight Markdown tables are rectangular. Header/input/history/checkpoint and R13 manifest integrity pass. The other 75 original normalized sources, three previously validated source hashes and six README files remain unchanged. Eight functional files remain outside normalization scope. Comparison-source coverage is partial and explicit; no peer-source cycle is completed by this validation.
+
+### 20.4. Tracking and before/after
+
+| Item | Before | After |
+|---|---|---|
+| Framework Evolution | V1.0 R1 corrected pending validation | Same edition/hash; local PASS; Draft/unassigned |
+| Local records | Nine corrected pending validation | Nine Closed—verified |
+| Report | V1.0 R13 | V1.0 R14, technical English, Draft/unassigned |
+| M10 | Three C, Framework Evolution S, two O | Four C, two O; In Progress |
+| CHANGELOG | Through #243 | #244 source validation; #245 report update; #246 tracking |
+
+Framework Evolution cycle completion date: 2026-10-04. M10 remains In Progress under record composition; Research Journal and Evolution Timeline remain Open. M9 identifies report R14 without expanding its historical acceptance. Prior events and M0–M7 remain preserved. Source §5.20 pending UPDATE row remains intact; central #244 supplies the subsequent exact-edition validation.
+
+Current progress/manifest, validation JSON and full report/register diff belong to R14; R13 update evidence retains event-time state. `Context-Working-Step-4-04-Validated.zip` is this cycle checkpoint, not final Context-Reviewed.zip.
+
+### 20.5. Next command
+
+**CONTINUAR** starts **Step 4.05 — REVIEW DOCUMENT DF-FND-002 — Research Journal**. It does not execute its UPDATE or VALIDATE phases automatically.
