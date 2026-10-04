@@ -1,0 +1,145 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/19",
+  "scope": "Construction/integrity only; not VALIDATE DOCUMENT",
+  "checks": {
+    "written_header": true,
+    "157_written_and_input_section_hashes": true,
+    "unamended_original_sections_unchanged": true,
+    "all_original_section_numbers_retained": true,
+    "fifteen_chapters_retained": true,
+    "30_unique_balanced_named_views": true,
+    "three_unnamed_section_anchors": true,
+    "33_original_view_hashes": true,
+    "33_declared_view_interpretations": true,
+    "nine_archived_bodies_verbatim": true,
+    "no_untyped_ASCII_fences": true,
+    "all_tables_rectangular": true,
+    "nine_links_expected_identities": true,
+    "input_hash_in_history": true,
+    "73_other_original_normalized_sources_unchanged": true,
+    "five_validated_sources_unchanged": true,
+    "six_READMEs_unchanged": true,
+    "89_stable_matrix_positions": true,
+    "current_matrix_hashes": true,
+    "eight_functional_rows_excluded": true,
+    "changelog_sequence_263_to_1": true,
+    "prior_changelog_events_preserved": true,
+    "historical_M0_M7_preserved": true
+  },
+  "Markdown_tables": 52,
+  "references": [
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "expected_id": "DF-FND-001",
+      "declared_id": "DF-FND-001"
+    },
+    {
+      "path": "00-Foundation/DF-FND-002-ResearchJournal.md",
+      "sha256": "018b81c60884dfb13eda73083c134f4c1bfab4248184795f479ca1fd8ac851f6",
+      "expected_id": "DF-FND-002",
+      "declared_id": "DF-FND-002"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "expected_id": "DF-FND-004",
+      "declared_id": "DF-FND-004"
+    },
+    {
+      "path": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
+      "sha256": "8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04",
+      "expected_id": "DF-FND-005",
+      "declared_id": "DF-FND-005"
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "sha256": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6",
+      "expected_id": "DF-FND-006",
+      "declared_id": "DF-FND-006"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab",
+      "expected_id": "DF-ARC-004",
+      "declared_id": "DF-ARC-004"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216",
+      "expected_id": "DF-ARC-005",
+      "declared_id": "DF-ARC-005"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "expected_id": "DF-RVW-001",
+      "declared_id": "DF-RVW-001"
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "sha256": "d55c2dacc4b81162ae32cdb55bea88187ac5517507e9f2f1089794d60dc6618e",
+      "expected_id": "DF-RVW-002",
+      "declared_id": "DF-RVW-002"
+    }
+  ],
+  "archived_sections": [
+    {
+      "source_section": "4.10",
+      "received_body_sha256": "f752836ffb88602e14b435da646da5889804ac1dcffb9f62b2779ce9b62ba486",
+      "archive_section": "15.19",
+      "verbatim_marker": "received-passage: 4.10"
+    },
+    {
+      "source_section": "4.11",
+      "received_body_sha256": "3373b90cbea2c534d2862105d6e475b249bb2a8c22f9d0af4bad0496e2f0aa21",
+      "archive_section": "15.19",
+      "verbatim_marker": "received-passage: 4.11"
+    },
+    {
+      "source_section": "4.12",
+      "received_body_sha256": "f42dbc14d7918afda4803bad45e3b61082be4a73b70e5fd530e0b63f2c8ddc66",
+      "archive_section": "15.19",
+      "verbatim_marker": "received-passage: 4.12"
+    },
+    {
+      "source_section": "7.16",
+      "received_body_sha256": "e3a1d1c443140580c332ecfd2b68c48d5d1017efeab860387a61e9a88ffd6e7c",
+      "archive_section": "15.19",
+      "verbatim_marker": "received-passage: 7.16"
+    },
+    {
+      "source_section": "8.16",
+      "received_body_sha256": "d399d534f28dba6d82db04572d5d02a2f8da0b17de28f09014c9991a302cbcc2",
+      "archive_section": "15.19",
+      "verbatim_marker": "received-passage: 8.16"
+    },
+    {
+      "source_section": "8.17",
+      "received_body_sha256": "5bbe2cd55346991216d1655d5929b3d4d1d9c73c9a276b6d492498f711c0a80d",
+      "archive_section": "15.19",
+      "verbatim_marker": "received-passage: 8.17"
+    },
+    {
+      "source_section": "8.18",
+      "received_body_sha256": "6ade65731bf08030814d3d3b3a4e085ca0d84c0465ec93e70b703bac1dc8c216",
+      "archive_section": "15.19",
+      "verbatim_marker": "received-passage: 8.18"
+    },
+    {
+      "source_section": "8.19",
+      "received_body_sha256": "7018ce32423523e9d1e1b8886ac47e300d6bef912ec3fe329741aa021feb79f2",
+      "archive_section": "15.19",
+      "verbatim_marker": "received-passage: 8.19"
+    },
+    {
+      "source_section": "8.20",
+      "received_body_sha256": "14e7dbade348aab93f68c1a7f3567707a11273ec32d690aacb7360188d208743",
+      "archive_section": "15.19",
+      "verbatim_marker": "received-passage: 8.20"
+    }
+  ],
+  "source_validation_performed": false,
+  "finding_closure": false
+}

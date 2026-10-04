@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 18 |
+| **Revision** | 19 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -53,6 +53,8 @@ Revision 16 records Step 4.05 UPDATE in §22. Current totals: 19 Open, ten Corre
 Revision 17 records Step 4.05 VALIDATE DOCUMENT in §23. Current totals: 19 Open, 46 Closed—verified, one Not applicable—scope decision; exact source V1.0 R1 unchanged, Draft/unassigned. Next: 4.06 REVIEW DF-FND-003.
 
 Revision 18 adds Step 4.06 Evolution Timeline REVIEW in §24. Current totals: 30 Open, 46 Closed—verified, one Not applicable—scope decision. Source unchanged; next UPDATE DF-FND-003. Earlier event-time states remain preserved.
+
+Revision 19 records Step 4.06 UPDATE in §25. Current totals: 19 Open, eleven Corrected—pending validation, 46 Closed—verified, one Not applicable—scope decision. §24 retains REVIEW-time Open states. Next: VALIDATE DOCUMENT DF-FND-003.
 
 ## 2. Concrete changes — before/after
 
@@ -156,6 +158,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-04 | 1.0 | 16 | Step 4.05 UPDATE: Research Journal V1.0 R1, ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #252 |
 | 2026-10-04 | 1.0 | 17 | Step 4.05 local Research Journal validation; ten verified closures; source unchanged | Draft; Baseline Not assigned; exact source V1.0 R1 retained; #254–256 |
 | 2026-10-04 | 1.0 | 18 | Step 4.06 Evolution Timeline REVIEW; nine findings and two warnings Open; source unchanged | Draft; Baseline Not assigned; compatible informational report update; #258; REVIEW evidence checks #260 |
+| 2026-10-04 | 1.0 | 19 | Step 4.06 UPDATE: Evolution Timeline V1.0 R1, eleven corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #262 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -1589,3 +1592,66 @@ Checks confirm unchanged source/input hash, fifteen chapters, 33 fenced views / 
 ### 24.5. Next command
 
 **CONTINUAR** starts **4.06 — UPDATE DF-FND-003 — Evolution Timeline**, applying localized corrections with actual compatibility assessment, full source/diff/history and tracking, then pauses before VALIDATE DOCUMENT.
+
+
+## 25. Step 4.06 — UPDATE DF-FND-003 — Evolution Timeline
+
+### 25.1. Actual successor and compatibility
+
+**UPDATE complete; VALIDATE DOCUMENT pending.** Received V1.0, Revision absent, Approved/Baseline 1.0 becomes **V1.0 R1 Draft, Baseline Not assigned**, Foundation/Reference, English. Logical ID/path retained; no Component/Class, historical Revision 0, approval date or identity allocation invented. Received Arnaldo Figueira contribution and actual Codex — AI assistant working contribution are distinguished from authorization/review/validation/approval.
+
+Input SHA-256: `69b6c3cc258d5e1f4a1682787193698b9ae111b0ccdfc179f86f1821d44bc211`. Output SHA-256: `2488360bc2fc498e9dcb46536a0af8b9056beb662f25a6013ad01ef1ac77ffb3` (195,395 bytes; CRLF retained).
+
+This edition keeps the primary historical phase/consultation responsibility, all fifteen chapters and original section numbers. Current interpretation notes summarize existing owner contracts rather than establish a new normative architecture or executable evolution process. Editorial chapter 4/8 continuity changes retain all displaced/duplicated source bodies with provenance; they do not reconstruct dates or impose Journal order. Compatible clarification retains Version 1.0; first declared Revision is 1. Edited successor is Draft/unassigned without inherited approval or snapshot membership.
+
+### 25.2. Applied corrections and actual before/after
+
+| Record | Actual source scope | Before | Written result | State |
+|---|---|---|---|---|
+| FND003-01 | Header; scope; 15.21 | Family/Type/Revision absent; received Approved/Baseline 1.0. | Foundation/Reference, V1.0 R1 Draft/unassigned; actual update contribution separate from received authorship/approval declarations, no historical R0 or Component/Class invented. | Corrected—pending validation |
+| FND003-02 | 4.10–4.12; 7.16; 8.16–8.20; 15.19 | Registry chapter 8 changes to Baseline milestone/conclusion in 8.16–8.20 and anticipates CMS. 8.19 calls Baselines Introduced and Graph Formalized before 9.17 calls Baselines In Preparation; 7.16 announces Baselines but chapter8 is Registry. Metadata chapter4 closing repeats Template emergence and Metadata Under Discovery. | Nine working bodies recover chapter subject/reading continuity. Original bodies retained verbatim in labelled §15.19 provenance; no event date or cross-source historical order invented. Registry ending now points to Graph Chapter9, Baselines10, VisualEngine11 and CMS12; summaries distinguish subject pointers from capability dates. | Corrected—pending validation |
+| FND003-03 | 3.10/3.18; 4.1–4.12; 5.11; 8.11; 14.4 | Common Metadata core becomes mandatory without scope/catalog; universal common fields, header examples and administrative separation are unqualified; 8.11 consistency almost automatic and classification includes Status/Version/Revision. | Historical common/header experiments qualified; owner semantics and Dictionary/Schema/Profile/Instance with one effective Profile distinct; functional exclusions and coordinated descriptor/content evolution explicit, no automatic consistency or catalog completion. | Corrected—pending validation |
+| FND003-04 | 3.5/3.7; 5.2–5.14; 6.4–6.14; 13.7; 14.3–14.5 | DOC/META-Family-Type identity and Class examples blur current classification/permanent identity; every document ID, META as Family/component and normative reference inferred from label. | DOC/META historical proposals retained, stable DF-SSS-NNN independent of mutable classification; uniform four Types, canonical Family and functional exclusions; no IDs/Class/components/migration invented, META label establishes no authority. | Corrected—pending validation |
+| FND003-05 | 7.3–7.18; 12.7; 14.6/14.17 | Sample state chains said virtually unchanged; archived documents cannot return to Draft and deprecation exclusion universal; Workflow executable/operational without exact-edition and owner/executor distinctions. | State chains and transition restrictions historical; exact edition Status versus maturity/coordinates/approval distinct; Governance contracts versus operational execution and actual contribution/authorization/review/approval separate. | Corrected—pending validation |
+| FND003-06 | 8.4–8.12; 9.4–9.10; 14.8/14.9; 15.7 | Registry entry evolves independently, Registry a dedicated architectural layer depended on by entire ecosystem, relation kinds presented as dependencies and Registry relationship storage blurs authority. | Registry and Graph traceable edition projections, Relationships owns typed records; derived copies permitted with refresh/stale provenance; Registry Discovery component, no extra Layer/universal provider or guaranteed independent evolution. | Corrected—pending validation |
+| FND003-07 | 10.3–10.12; 12.9; 13.6; 14.7; 15.8 | Baseline groups documents at illustrative v3/v7/v2, approval ensures consistency, official versions/full knowledge states, later redefined as approved changes; exact selection and numbering gaps. | Exact immutable approved edition selection and pinned relevant context/evidence; eligibility/consistency/explicit inclusion distinct. CMS approved changes provenance does not replace snapshot; major.minor compatibility and monotonic Revision explicit without retrofitting example Versions. | Corrected—pending validation |
+| FND003-08 | 11.1–11.19; 12.1–12.18; 13.3; 14.2/14.10; 15.2–15.14 | Blanket structural independence and completed/synchronized integrations; documents always change consequences/evidence; Workflow changes Layer and CMS/DF operate at different layers; future changes allegedly need no structural concepts or architecture changes, Knowledge Engineering expansion unscoped. | Historical feedback and causal hypotheses distinct from scoped required contracts; CMS initiation/governance, DF definitions, DMS execution separate; no new internal Layers or verified external integration. Future service/AI/Knowledge Engineering directions non-binding and may affect structural scope. | Corrected—pending validation |
+| FND003-09 | All 33 fenced views | 33 fenced views mix directories, historical codes, lifecycle experiments, version/snapshot grouping, influence, provenance and untyped long component/chronology chains. | Every view typed; 30 original named IDs and three unnamed source anchors retained. Historical Uses/Complements/Relates To and navigation relations preserved; long consolidation/phase sequences not mandatory execution, current hierarchy or verified dated chronology. Genuine mandatory cycles remain visible. | Corrected—pending validation |
+| FND003-W01 | Scope; all phase summaries; 13.9/14.12; 14.1–14.18; 15.2/15.15/15.16/15.18 | Purpose asks when but no dated entries or event evidence; Today/current and Operational/Complete/Mature summaries, fully documented interactions, unlimited reconstruction, scale and completed reviews/integrations asserted without supporting records. | Undated narrative and as-of/maturity/operational/complete assessments qualified; tooling limits retained; historical landmarks not central milestone completion. No supplied dates, benchmarks, releases or reconstruction evidence invented; integrated conformity pending. | Corrected—pending validation |
+| FND003-W02 | 10.1; 15.19–15.21 | No operational source links or local edition history; 10.1 heading misses punctuation; historical/current role mapping absent. | Heading punctuation fixed, nine source-role links resolve; input hash, preserved passages and local history record received versus working events; no unseen external specification reviewed or peer-source update. | Corrected—pending validation |
+
+Excerpts below are abbreviated; full source/map/diff preserve every affected section. Received account labels qualify retained historical statements. Nine continuity passages are moved verbatim to §15.19 under original-source markers; working chapter bodies replace them.
+
+| Section/field | Before | Actual written change | Reason / impact |
+|---|---|---|---|
+| Header | Family/Type/Revision absent; Approved/Baseline 1.0 | Foundation/Reference; Revision 1; Draft/Not assigned | FND003-01; first working successor, no approval inherited. |
+| 4.12 | The introduction of Templates marked the first major evolutionary step... | “Its subject is Metadata standardization, following the Template discussion in Chapter 3.” | FND003-02; chapter closing now concerns its subject, original retained in §15.19. |
+| 7.16 | The next phase would focus on... Baselines | “Registry in Chapter 8, typed relationships and graph views in Chapter 9, and Baselines/versioning in Chapter 10.” | FND003-02; reading continuity, no verified event order. |
+| 8.16 | Formal introduction of Baselines... | “The catalog/discovery landmark for this chapter is the Registry introduction described in §8.14.” | FND003-02; displaced Baseline landmark preserved in §15.19. |
+| 8.18 | Next phase... Change Management System | “The next chapter in this document is Knowledge Graph.” | FND003-02; later subjects identified by chapter, not date. |
+| 8.19 | Baselines: Introduced; Knowledge Graph: Formalized | “Baselines / Versioning: Discussed in Chapter 10; no dated availability inferred here” | FND003-02; summary subject pointers replace contradictory capability claims. |
+| 8.20 | The introduction of Baselines represented the final major structural component... | “The Registry chapter describes the move from directory-oriented lookup to a logical catalog and traceable document representation.” | FND003-02; received conclusion retained verbatim. |
+| 8.12 | Registry... dedicated architectural layer | Historical label plus “Registry is a Discovery component, not an additional internal structural Layer” | FND003-06; existing structural boundary preserved. |
+| 10.7 | Only approved documents... This rule ensured a high level of consistency. | “Approval supplies eligibility, not automatic consistency or inclusion.” | FND003-07; exact-edition evidence/gates explicit. |
+| 10.8 | Version, revision, Baseline version as evolution perspectives | “Every changed finalized edition increments Revision monotonically across Version changes” | FND003-07; current edition policy separate from examples. |
+| 12.9 | Baselines... consistent collection of approved changes | “CMS approved-change records may provide provenance but do not replace the DF document-edition snapshot.” | FND003-07; change records not snapshot members. |
+| 14.17 | Workflow/Registry/Graph/Baselines Operational; integrations Complete | Historical summary label and “Operational/Complete/Stable/Consolidated labels do not certify current implementation.” | FND003-W01; received assessment preserved with limits. |
+| 10.1 | 10.1 Introduction | 10.1. Introduction | FND003-W02; numbering retained. |
+
+157 original section bodies changed, including 141 explicit historical/current notes and nine editorial continuity bodies. All 33 fenced views become typed Markdown tables. All 30 original named view IDs remain; the three originally unnamed views use their original §§1.4/2.4/15.16 anchors without invented historical IDs. Views preserve historical Uses/Complements/Relates To and Defines/Implemented By/Referenced By semantics. Required dependencies, when asserted, retain consumer→provider contract/scope; actual cycles remain visible. Consolidation and phase-order tables are not global required graphs or verified dated chronology.
+
+Added §15.19 preserves the nine exact received bodies of §§4.10–4.12, §7.16 and §§8.16–8.20; §15.20 contains nine resolving source-role links; §15.21 preserves received declarations/date limits and actual dated working contribution/input hash. Original input and complete before/after section map remain evidence. No peer source, identity/path, Metadata Element/catalog/Profile lifecycle or Baseline allocation is changed.
+
+### 25.3. Tracking and construction integrity
+
+Current totals: **19 Open, eleven Corrected—pending validation, 46 Closed—verified, one Not applicable—scope decision (INV-02)**. No local finding closes here; prior five source-validation scopes remain unchanged. Global architecture/count/direction, identity/classification/catalog/Profile and complete mandatory dependency reconciliation remain pending. Historical assessments and external integration specifications are not certified by this UPDATE.
+
+CHANGELOG #261 records the actual source correction; #262 report R18→R19; #263 milestone tracking. Source local history §15.21 records UPDATE with pending validation. M10 remains In Progress: five C, Evolution Timeline S, no completion date. M9 identifies report R19 without extending historical acceptance. Earlier events and M0–M7 are preserved.
+
+Construction checks verify exact input/output/map hashes, metadata, all original section numbers/fifteen chapters, 30 unique balanced view IDs, three unnamed anchors, 33 original-view hashes, declared relation interpretations, rectangular tables, nine verbatim archived bodies and reference identities/history. All 73 other original normalized sources, five previously locally validated source hashes, six README files, 89 stable matrix positions and register history remain intact. These are **construction/integrity checks only, not VALIDATE DOCUMENT, finding closure, approval or integrated conformity**. Complete exact-source/affected-contract validation is next.
+
+Current map/classification/construction/progress/manifest/full diff belong to R19. R18 REVIEW evidence retains event-time Open states. `Context-Working-Step-4-06-Update.zip` is the checkpoint; final Context-Reviewed.zip remains pending.
+
+### 25.4. Next command
+
+**CONTINUAR** starts **4.06 — VALIDATE DOCUMENT DF-FND-003**, checking complete exact V1.0 R1 against received input, eleven closure criteria, archival provenance, phase continuity, all views and affected owner contracts, then pauses. Validation does not grant approval or start Architecture cycles automatically.
