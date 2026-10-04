@@ -1,0 +1,811 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/17",
+  "date": "2026-10-04",
+  "step": "4.05 VALIDATE DOCUMENT",
+  "source": "00-Foundation/DF-FND-002-ResearchJournal.md",
+  "source_edition": "1.0/1",
+  "source_sha256": "018b81c60884dfb13eda73083c134f4c1bfab4248184795f479ca1fd8ac851f6",
+  "source_changed": false,
+  "result": "PASS—local Research Journal correction scope",
+  "coverage": {
+    "method": "Complete read of lines 1–4415 with truncated middle window reread in full; input/update section and view comparison, related occurrences, all ten closure criteria and explicitly listed owner sections",
+    "chapters": 12,
+    "views": 38,
+    "named_views": 35,
+    "unnamed_views": 3,
+    "inline_flows": 1,
+    "bytes": 142965,
+    "lines": 4415,
+    "Markdown_tables": 42
+  },
+  "integrity_checks": {
+    "source_hash_exact": true,
+    "input_hash_exact": true,
+    "R16_manifest_integrity": true,
+    "header_contract": true,
+    "original_numbered_sections_retained": true,
+    "twelve_chapters_preserved": true,
+    "118_updated_section_hashes_match": true,
+    "35_named_views_preserved_balanced_unique": true,
+    "no_ASCII_diagram_fences": true,
+    "nine_links_resolve_with_expected_ids": true,
+    "42_rectangular_Markdown_tables": true,
+    "input_hash_and_absent_Revision_history": true,
+    "74_other_original_normalized_sources_unchanged": true,
+    "four_validated_sources_unchanged": true,
+    "six_READMEs_unchanged": true,
+    "source_matches_UPDATE_checkpoint": true,
+    "118_input_section_hashes_match": true,
+    "unamended_input_sections_unchanged": true,
+    "three_unnamed_views_preserved": true,
+    "inline_flow_typed": true,
+    "38_original_view_hashes_match": true,
+    "all_original_section_numbers_retained": true,
+    "eight_functional_records_excluded": true
+  },
+  "input_section_comparison": {
+    "changed": 118,
+    "unchanged": 84,
+    "added": [
+      "12.20",
+      "12.21"
+    ]
+  },
+  "view_provenance": [
+    {
+      "key": "section-1.7",
+      "original_id": null,
+      "source_section": "1.7",
+      "relation_interpretation": "Physical names; not normalized allocations or dependencies.",
+      "original_view_sha256": "3b237336b4178ac4aa18c50819d1eb6cef7fcbccfa4fbe2bf60981dd57b89db7",
+      "received_terms": [
+        "docs/",
+        "README.md",
+        "Architecture.md",
+        "Design.md",
+        "Notes.md",
+        "Todo.md"
+      ]
+    },
+    {
+      "key": "section-1.11",
+      "original_id": null,
+      "source_section": "1.11",
+      "relation_interpretation": "Presentation order; no verified dates, execution order or dependency chain.",
+      "original_view_sha256": "1c234f19fe1c483d9bbfb28426f69756816fc3f4e2fcf5f41b846231ef045775",
+      "received_terms": [
+        "Notes",
+        "Documents",
+        "Document Collection",
+        "Need for Organization"
+      ]
+    },
+    {
+      "key": "tpl1",
+      "original_id": "tpl1",
+      "source_section": "2.3",
+      "relation_interpretation": "Illustrative creation from a Template; no runtime dependency asserted.",
+      "original_view_sha256": "207cb1cc6788e988b7886e464603ee9b6e96dd0f36e89f69fd0fcf73928c7c9e",
+      "received_terms": [
+        "Template",
+        "New Document"
+      ]
+    },
+    {
+      "key": "tpl2",
+      "original_id": "tpl2",
+      "source_section": "2.6",
+      "relation_interpretation": "Purpose examples; README remains functional/non-normalized.",
+      "original_view_sha256": "f31ff9472d78fff7d648b90ab2b069dcf1bf34ddad3b8d61c0147fcdbd7942d4",
+      "received_terms": [
+        "Architecture Template",
+        "Research Template",
+        "Specification Template",
+        "Reference Template",
+        "README Template"
+      ]
+    },
+    {
+      "key": "md1",
+      "original_id": "md1",
+      "source_section": "3.4",
+      "relation_interpretation": "Content and Metadata responsibilities; not physical storage or independent edition changes.",
+      "original_view_sha256": "6b212fe8f8b5d0c1d33060a0de2a6f27f9db9a544bed2820b05bbfcf6235d430",
+      "received_terms": [
+        "Document",
+        "Content",
+        "Metadata"
+      ]
+    },
+    {
+      "key": "md2",
+      "original_id": "md2",
+      "source_section": "3.7",
+      "relation_interpretation": "Illustrative fields, not a current mandatory catalog.",
+      "original_view_sha256": "03849885eaeb156b4aca80677ff5e3a1185de748acfc5f56cb5ed3de00d06dc4",
+      "received_terms": [
+        "Document ID",
+        "Title",
+        "Version",
+        "Status",
+        "Project",
+        "Language"
+      ]
+    },
+    {
+      "key": "id1",
+      "original_id": "id1",
+      "source_section": "4.2",
+      "relation_interpretation": "Names, not permanent ID allocations; functional exclusions apply.",
+      "original_view_sha256": "289e996ac620cf16b303c09ca3babe09e6fd9a494cd655d88072d8b2708dcf26",
+      "received_terms": [
+        "Architecture.md",
+        "Design.md",
+        "README.md",
+        "Notes.md"
+      ]
+    },
+    {
+      "key": "id2",
+      "original_id": "id2",
+      "source_section": "4.5",
+      "relation_interpretation": "Received DOC syntax preserved; not current DF operational syntax.",
+      "original_view_sha256": "cd21ef599fbf97528259260e2927c5d00ec611058591dedec1bc588b904abfd9",
+      "received_terms": [
+        "DOC-001",
+        "DOC-002",
+        "DOC-003"
+      ]
+    },
+    {
+      "key": "id3",
+      "original_id": "id3",
+      "source_section": "4.7",
+      "relation_interpretation": "Old Family vocabulary, not current Family/Type enumeration.",
+      "original_view_sha256": "e1c3915e8663428eb878b21309f95e70003b86796b2b324d48e5b197bcfd6c12",
+      "received_terms": [
+        "META",
+        "ARC",
+        "ANL",
+        "REF",
+        "STD",
+        "RFC"
+      ]
+    },
+    {
+      "key": "id4",
+      "original_id": "id4",
+      "source_section": "4.8",
+      "relation_interpretation": "Old syntax retained as evidence, not mutable classification embedded in current identity.",
+      "original_view_sha256": "368522f4ae7f299a87cd8e1a254e551cc9a6e442519e7ebd47e05dd602c5a27a",
+      "received_terms": [
+        "META-DCL",
+        "META-WFL",
+        "META-CON",
+        "META-REF"
+      ]
+    },
+    {
+      "key": "id5",
+      "original_id": "id5",
+      "source_section": "4.9",
+      "relation_interpretation": "Received META examples; no current identity allocation or migration.",
+      "original_view_sha256": "682c75cad900a306971515bf531b3c4d5d866e70ac201ae070614becfcb1ec2b",
+      "received_terms": [
+        "META-DCL-001",
+        "META-DCL-002",
+        "META-DCL-003"
+      ]
+    },
+    {
+      "key": "id6",
+      "original_id": "id6",
+      "source_section": "4.13",
+      "relation_interpretation": "Fields are descriptors, not identity segments; no Class/catalog is prescribed.",
+      "original_view_sha256": "fa0b7886623a1a160614b40be57f6a5271f22ea4519360c3d4ec7030357d0043",
+      "received_terms": [
+        "Document ID",
+        "Family",
+        "Type",
+        "Class",
+        "Version",
+        "Revision",
+        "Status",
+        "Baseline"
+      ]
+    },
+    {
+      "key": "meta1",
+      "original_id": "meta1",
+      "source_section": "5.4",
+      "relation_interpretation": "Conceptual role, not a required component dependency.",
+      "original_view_sha256": "2632684c4fb8ca19dabdb6a3ce94a943776a9b9f3916fa1ef2b3009118722c99",
+      "received_terms": [
+        "META",
+        "Documentation Rules"
+      ]
+    },
+    {
+      "key": "meta2",
+      "original_id": "meta2",
+      "source_section": "5.5",
+      "relation_interpretation": "Historical label, not current extra Type.",
+      "original_view_sha256": "90a93cd21d3408f47b13ccbfecad60dd4d095e261bcf21de6728613a69ae0eca",
+      "received_terms": [
+        "META"
+      ]
+    },
+    {
+      "key": "meta3",
+      "original_id": "meta3",
+      "source_section": "5.7",
+      "relation_interpretation": "Old proposal codes, not new/current ID allocations.",
+      "original_view_sha256": "f0243171c3ec0f28f1ca915edb6cfe5e822e14abd592a75c235108971510d983",
+      "received_terms": [
+        "META-DCL",
+        "META-REF",
+        "META-CON",
+        "META-WFL"
+      ]
+    },
+    {
+      "key": "meta4",
+      "original_id": "meta4",
+      "source_section": "5.10",
+      "relation_interpretation": "Received Defines/Uses/Related to associations; Uses lacks a required-contract assertion.",
+      "original_view_sha256": "ce4c00a2313fbe1039adb979b3d55f745e224563aee257e4d2913057fdfa8796",
+      "received_terms": [
+        "META-DCL",
+        "Defines",
+        "META-REF",
+        "Uses",
+        "META-CON",
+        "Related to",
+        "META-WFL"
+      ]
+    },
+    {
+      "key": "bl1",
+      "original_id": "bl1",
+      "source_section": "6.2",
+      "relation_interpretation": "Received example editions; no actual identified member selection.",
+      "original_view_sha256": "71f772ebcc61a3f18c33793e83697c138dd4f961ca9a5c318d5ac40102146cdb",
+      "received_terms": [
+        "Architecture",
+        "Version 2.1",
+        "Documentation",
+        "Version 1.4",
+        "Reference",
+        "Version 3.0",
+        "Workflow",
+        "Version 1.2"
+      ]
+    },
+    {
+      "key": "bl2",
+      "original_id": "bl2",
+      "source_section": "6.4",
+      "relation_interpretation": "Illustrative subject members; current inclusion requires exact immutable editions.",
+      "original_view_sha256": "0e7bec1f8dcddd628813e4846738be0e353cdb79e0763fbecb9537182aa036a1",
+      "received_terms": [
+        "Baseline",
+        "Architecture",
+        "Reference",
+        "Workflow",
+        "Templates",
+        "Standards"
+      ]
+    },
+    {
+      "key": "bl3",
+      "original_id": "bl3",
+      "source_section": "6.7",
+      "relation_interpretation": "Sample order, not current complete transition permissions or automatic approval.",
+      "original_view_sha256": "d52f61863bc226dc20a259dae6292645de7f75a5b051c946dfba73d26b42fcf4",
+      "received_terms": [
+        "Draft",
+        "Review",
+        "Approved",
+        "Deprecated",
+        "Archived"
+      ]
+    },
+    {
+      "key": "bl4",
+      "original_id": "bl4",
+      "source_section": "6.12",
+      "relation_interpretation": "Illustrative fields; snapshot identity, member edition and membership differ.",
+      "original_view_sha256": "a9b068303a460eb522e963dbf95e72e16344a003daad88a53cb9b8277daf96ac",
+      "received_terms": [
+        "Baseline",
+        "Version",
+        "Revision",
+        "Status",
+        "Last Updated"
+      ]
+    },
+    {
+      "key": "reg1",
+      "original_id": "reg1",
+      "source_section": "7.2",
+      "relation_interpretation": "Physical organization, not structural Layers or classification authority.",
+      "original_view_sha256": "e5c59acf896bef7863fdf45d3de1d8d172e16feab91403f8bcc92975eb6b940b",
+      "received_terms": [
+        "docs/",
+        "architecture/",
+        "meta/",
+        "analysis/",
+        "templates/",
+        "research/"
+      ]
+    },
+    {
+      "key": "reg2",
+      "original_id": "reg2",
+      "source_section": "7.5",
+      "relation_interpretation": "Knows means intended lookup coverage; not verified all-document registration.",
+      "original_view_sha256": "0ce6d9c22d2f02f05f526ce5f13df9f77d224758825167e3a7648e5004f117f6",
+      "received_terms": [
+        "Document Registry",
+        "Knows",
+        "All Documents"
+      ]
+    },
+    {
+      "key": "reg3",
+      "original_id": "reg3",
+      "source_section": "7.8",
+      "relation_interpretation": "Logical representation relation, not physical or edition independence.",
+      "original_view_sha256": "43b161a44c357698f0c3393d3802ccef3a142e77f92c3d05dbb618ea9fcb24a6",
+      "received_terms": [
+        "Document",
+        "Represented by",
+        "Registry Entry"
+      ]
+    },
+    {
+      "key": "reg4",
+      "original_id": "reg4",
+      "source_section": "7.10",
+      "relation_interpretation": "Unspecified connections; neither hierarchy nor mandatory dependency chain.",
+      "original_view_sha256": "94fcb27ffa2e3a75ee43c72723834ec79ce47ff8b707aeacd8305b028e8fb332",
+      "received_terms": [
+        "Architecture",
+        "Reference",
+        "Workflow",
+        "META"
+      ]
+    },
+    {
+      "key": "rel1",
+      "original_id": "rel1",
+      "source_section": "8.5",
+      "relation_interpretation": "Illustrative kinds; dependency is one kind with contract/scope, not all relationships.",
+      "original_view_sha256": "40cce34ae66deb9019a532efa02012512a4f7c2427e0ff6ade55138fe7c993b8",
+      "received_terms": [
+        "Defines",
+        "References",
+        "Depends On",
+        "Replaces",
+        "Extends",
+        "Implements"
+      ]
+    },
+    {
+      "key": "rel2",
+      "original_id": "rel2",
+      "source_section": "8.7",
+      "relation_interpretation": "Generic Document nodes are distinct positions; Related To is not a required dependency.",
+      "original_view_sha256": "6fa349d10e9cc6b61a2b08d5e9476fc949f01f717944e288fb9053b4a2846bf3",
+      "received_terms": [
+        "Document",
+        "Related To",
+        "Document",
+        "Related To",
+        "Document"
+      ]
+    },
+    {
+      "key": "rel3",
+      "original_id": "rel3",
+      "source_section": "8.9",
+      "relation_interpretation": "Historical Defines/Implemented By/Referenced By meanings; not verified artifacts or mandatory execution.",
+      "original_view_sha256": "67b0b2c6f7cf7b5ce4ecaa49e6c160dc8895e234f0f009384fb633cf248179c1",
+      "received_terms": [
+        "Architecture",
+        "Defines",
+        "Component",
+        "Implemented By",
+        "Specification",
+        "Referenced By",
+        "Research"
+      ]
+    },
+    {
+      "key": "wf1",
+      "original_id": "wf1",
+      "source_section": "9.4",
+      "relation_interpretation": "Draft-to-Approved proposal, not current direct-approval permission.",
+      "original_view_sha256": "f4e9ca5347dce06cfa3c534f289047459f52fa67092b63633d460397c8e0081f",
+      "received_terms": [
+        "Draft",
+        "Approved"
+      ]
+    },
+    {
+      "key": "wf2",
+      "original_id": "wf2",
+      "source_section": "9.5",
+      "relation_interpretation": "Sample progression; explicit validation/approval evidence is still required by applicable policy.",
+      "original_view_sha256": "c52fa3fe17e5963b0fb8b9f8b02e39a1022c1ed4384c9d831f9827e572302259",
+      "received_terms": [
+        "Draft",
+        "Review",
+        "Approved"
+      ]
+    },
+    {
+      "key": "wf3",
+      "original_id": "wf3",
+      "source_section": "9.6",
+      "relation_interpretation": "List, not a complete current lifecycle or permission model.",
+      "original_view_sha256": "669b1baf4d16002eb73aa39d12b541a7e2d5063cf2adf768e1b507e45ef1cb05",
+      "received_terms": [
+        "Draft",
+        "Review",
+        "Approved",
+        "Deprecated",
+        "Archived"
+      ]
+    },
+    {
+      "key": "ve1",
+      "original_id": "ve1",
+      "source_section": "10.4",
+      "relation_interpretation": "Bidirectional influence, not proof of required runtime cycle.",
+      "original_view_sha256": "d99dbd9f687bbbefc4b8a0b6896c4cab163e5b6b4596012defee1b1ecd47fbfa",
+      "received_terms": [
+        "VisualEngine",
+        "Documentation",
+        "VisualEngine"
+      ]
+    },
+    {
+      "key": "ve2",
+      "original_id": "ve2",
+      "source_section": "10.6",
+      "relation_interpretation": "Distinct projects; actual optional consumption must name required provider contracts.",
+      "original_view_sha256": "0161a7c3f8e4aad885f1319b35f31d6505512699cdcc869382bd839bb938bc16",
+      "received_terms": [
+        "VisualEngine",
+        "Documentation Framework"
+      ]
+    },
+    {
+      "key": "cms1",
+      "original_id": "cms1",
+      "source_section": "11.4",
+      "relation_interpretation": "Narrative activity order; not a mandatory pipeline or current hierarchy.",
+      "original_view_sha256": "46d63a4d7a09396791e93b0a2e0ea02ab116b6ee2cc4247be0f6b7855bb11b98",
+      "received_terms": [
+        "Document",
+        "Workflow",
+        "New Version"
+      ]
+    },
+    {
+      "key": "cms2",
+      "original_id": "cms2",
+      "source_section": "11.4",
+      "relation_interpretation": "Narrative activity order; no universal causal or execution rule.",
+      "original_view_sha256": "21ca7b5df811d2818b7c6d8145c7a1cb047b8cbd3f2e1758153c79b8df771bb1",
+      "received_terms": [
+        "Change",
+        "Document",
+        "Workflow",
+        "New Version"
+      ]
+    },
+    {
+      "key": "cms3",
+      "original_id": "cms3",
+      "source_section": "11.6",
+      "relation_interpretation": "Not internal DF Layer allocation or mandatory system hierarchy.",
+      "original_view_sha256": "da09ef8d320a38fb7ebe92d581caff8b9b050ab7ee03c85dd1d4d0f8dc6beefd",
+      "received_terms": [
+        "Change Management System",
+        "Documentation Framework",
+        "Workflow",
+        "Documents"
+      ]
+    },
+    {
+      "key": "cms4",
+      "original_id": "cms4",
+      "source_section": "11.9",
+      "relation_interpretation": "Provenance order illustration, not verified complete traceability or execution dependency.",
+      "original_view_sha256": "d832c7f02f6199a37863ad2d6e619e9ea78b63eb36645894f864b0f728add583",
+      "received_terms": [
+        "Change",
+        "Document",
+        "Architecture",
+        "Code",
+        "Behavior"
+      ]
+    },
+    {
+      "key": "cms5",
+      "original_id": "cms5",
+      "source_section": "11.13",
+      "relation_interpretation": "Explanatory sequence, not universal production order or mandatory graph.",
+      "original_view_sha256": "9f85c75838695410ca2d8a08f02bd4206d3e4a0113cef81487981cfa94709287",
+      "received_terms": [
+        "Change",
+        "Knowledge",
+        "Documentation",
+        "Implementation"
+      ]
+    },
+    {
+      "key": "section-12.2",
+      "original_id": null,
+      "source_section": "12.2",
+      "relation_interpretation": "Presentation order only; received typo emplates corrected to Templates.",
+      "original_view_sha256": "e789de1acd0ec46b53c39d36a8e4beffe02b3f5b852ba433ec61e99409d3dc8e",
+      "received_terms": [
+        "Documents",
+        "Templates",
+        "Metadata",
+        "Document Identity",
+        "META Documents",
+        "Baselines",
+        "Registry",
+        "Relationships",
+        "Workflow",
+        "CMS Integration"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "expected_id": "DF-FND-001",
+      "declared_id": "DF-FND-001"
+    },
+    {
+      "path": "00-Foundation/DF-FND-003-EvolutionTimeline.md",
+      "sha256": "69b6c3cc258d5e1f4a1682787193698b9ae111b0ccdfc179f86f1821d44bc211",
+      "expected_id": "DF-FND-003",
+      "declared_id": "DF-FND-003"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "expected_id": "DF-FND-004",
+      "declared_id": "DF-FND-004"
+    },
+    {
+      "path": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
+      "sha256": "8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04",
+      "expected_id": "DF-FND-005",
+      "declared_id": "DF-FND-005"
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "sha256": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6",
+      "expected_id": "DF-FND-006",
+      "declared_id": "DF-FND-006"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab",
+      "expected_id": "DF-ARC-004",
+      "declared_id": "DF-ARC-004"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216",
+      "expected_id": "DF-ARC-005",
+      "declared_id": "DF-ARC-005"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "expected_id": "DF-RVW-001",
+      "declared_id": "DF-RVW-001"
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "sha256": "6098eff17b2c0656e639cf765225b8b0887290b7ee46eec5a284729301aa2c97",
+      "expected_id": "DF-RVW-002",
+      "declared_id": "DF-RVW-002"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "6",
+        "8"
+      ]
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "3.4",
+        "4.6",
+        "5.6",
+        "6.7",
+        "6.8",
+        "7.6",
+        "8.11"
+      ]
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "sha256": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "2.6",
+        "4.6",
+        "5.7",
+        "6.6",
+        "8.11"
+      ]
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "4",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "5.1",
+        "6.1",
+        "6.4",
+        "7.1",
+        "7.2",
+        "7.3"
+      ]
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "FND002-01",
+      "criterion": "Header follows research-history responsibility, approval is not inherited and no historical R0 is fabricated.",
+      "sections": "Header; scope; 1.1; 12.16/12.19/12.21",
+      "observed_evidence": "Primary responsibility remains research-history Reference; Foundation documentary area, first R1, Draft/unassigned. Received authorship and actual Codex contribution distinguished; no Component/Class, approval evidence or historical R0 invented.",
+      "result": "PASS—local Research Journal correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-03; REV2-12"
+    },
+    {
+      "id": "FND002-02",
+      "criterion": "No descriptor-as-logical-identity conflation, universal header obligation, unconditional content-free tooling or incompatible semantic owner remains.",
+      "sections": "2.10/2.11/2.15/2.17; 3.5–3.16; 12.5",
+      "observed_evidence": "Descriptors distinguished from permanent identity and domain authority. Dictionary/Schema/Profile/Instance responsibilities and one effective Profile explicit. Functional exclusions, content-sensitive checks and coordinated edition evolution qualify historical universal/common-core/content-free claims.",
+      "result": "PASS—local Research Journal correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-06; REV2-07; REV2-08; REV2-11"
+    },
+    {
+      "id": "FND002-03",
+      "criterion": "Historical syntax is not current operational convention; four Types uniform, exclusions explicit and valid source ID/path retained without general migration or fabricated allocations.",
+      "sections": "1.10/1.15; 2.6; 3.12/3.15; 4.4–4.15; 5.5/5.7/5.8; 12.6/12.14",
+      "observed_evidence": "DOC/META code examples retained as historical proposals; current stable DF-SSS-NNN independent of mutable classification. Uniform four Types, canonical Family and all-location functional exclusion explicit; semantic split/merge decisions separated; no allocations or migrations.",
+      "result": "PASS—local Research Journal correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-03; REV2-04; REV2-09; INV-02 remains Not applicable"
+    },
+    {
+      "id": "FND002-04",
+      "criterion": "No substitution of CMS change set for document Baseline, mutable current paths or automatic change-to-Baseline rule; actual edition policy and separate gates explicit.",
+      "sections": "6.4–6.14; 9.12/9.15; 11.11; 12.8",
+      "observed_evidence": "Exact immutable approved document-edition selection with pinned relevant context/evidence distinct from CMS change records; eligibility, approval and explicit membership separate. Draft successors do not mutate old snapshots or automatically create new ones. Major.minor compatibility and monotonic Revision across Version changes explicit.",
+      "result": "PASS—local Research Journal correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02; FND004-07/08 and FND005-05 local scopes retained"
+    },
+    {
+      "id": "FND002-05",
+      "criterion": "Ownership and projection provenance coherent; reference/association not silently promoted into required dependencies; no extra Metadata Layer or fabricated relationship catalog.",
+      "sections": "7.5–7.14; 8.5–8.15; 12.9/12.10",
+      "observed_evidence": "Relationships owns typed records; Registry/Graph traceable edition-aware projections may repeat derived values, with refreshed/current or stale provenance. Logical separation imposes neither independent evolution nor physical single-copy storage. Historical metadata-layer/service analogies create no Layer or competing owner; dependency is one relation kind.",
+      "result": "PASS—local Research Journal correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02; REV2-12"
+    },
+    {
+      "id": "FND002-06",
+      "criterion": "Journal does not impose unsupported current state graph/transition permissions; descriptive DF contracts and operational execution distinct; validation does not approve.",
+      "sections": "6.7; 9.4–9.15; 11.2/11.7; 12.11",
+      "observed_evidence": "Lifecycle chains and transition restrictions labelled historical hypotheses, not universal permissions. Exact edition Status and applicable Governance contracts distinct from operational execution; earlier Approved edition may coexist with Draft successor. Authorship/authorization/review/validation/approval remain separate.",
+      "result": "PASS—local Research Journal correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-08; REV2-12"
+    },
+    {
+      "id": "FND002-07",
+      "criterion": "No blanket independence, harmless required-cycle claim, new CMS Layer or universal causality/evidence guarantee; integration scope/direction/owner limits explicit.",
+      "sections": "10.4–10.17; 11.1–11.16; 12.12/12.13",
+      "observed_evidence": "Historical influence/co-evolution not blanket structural independence or proof that mandatory cycles are harmless. Optional adoption consumption uses scoped consumer→provider contracts; genuine mandatory cycles remain visible. CMS initiation/governance, DF definitions and DMS execution separate; no internal CMS Layer, universal causal law or verified complete/external integration evidence.",
+      "result": "PASS—local Research Journal correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-01; REV2-02; REV2-12"
+    },
+    {
+      "id": "FND002-08",
+      "criterion": "All views have declared relation meaning/direction; no untyped architectural/execution chain or unsupported global DAG; original view identities/history preserved.",
+      "sections": "38 views; inline11.5",
+      "observed_evidence": "Every view declares historical/example/decomposition/association/navigation meaning. All 35 named IDs retained, three unnamed views traced to original sections and inline outputs typed. Actual Uses/Defines/navigation examples retained as received semantics rather than reclassified required contracts; no untyped chain or global DAG claim.",
+      "result": "PASS—local Research Journal correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02"
+    },
+    {
+      "id": "FND002-W01",
+      "criterion": "No chronology/date or operational completeness guarantee inferred from narrative or architecture; missing evidence acknowledged without erasing historical record.",
+      "sections": "Scope; 1.1; 6.9; 6.15/7.1; 7.4/7.7/7.13; 8.7/8.11; 9.13; 11.9/11.15/11.16; 12.16/12.19",
+      "observed_evidence": "Undated narrative chronology, experiments and benefit/maturity claims preserved with explicit evidence limits. No dates, benchmarks, first-Baseline selection or verified operational completeness inferred. Scale/search assertions qualified; future research non-binding.",
+      "result": "PASS—local Research Journal correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "FND004-W01; FND005-W01 local scopes retained"
+    },
+    {
+      "id": "FND002-W02",
+      "criterion": "Source links resolve to expected identities, typo/heading defects corrected and received history preserved; peer sources not silently updated.",
+      "sections": "8.1; 12.2; 12.16; 12.20/12.21",
+      "observed_evidence": "Nine source-role links resolve to expected IDs; Templates typo and heading punctuation corrected without numbering changes. Received declarations/input hash and actual dated contribution retained; no unseen external source declared reviewed or peer source silently updated.",
+      "result": "PASS—local Research Journal correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "FND005-W02 local scope retained"
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Closed—verified": 46,
+    "Not applicable—scope decision": 1
+  },
+  "limits": [
+    "Architecture count/direction and full mandatory graph remain unreconciled; no global DAG verification",
+    "Catalog/Profile, identity and component source reconciliation remains outside local closure",
+    "Historical narrative is not verified dated chronology, implementation or release evidence",
+    "No approval, publication or Baseline inclusion granted"
+  ],
+  "history_interpretation": "UPDATE-time pending phrases remain in unchanged source/local history; this later exact-hash validation supersedes current pending tracking externally. Subsequent edits require resulting-byte validation.",
+  "tracking_checks": {
+    "source_bytes_unchanged": true,
+    "89_stable_matrix_positions": true,
+    "matrix_current_hashes": true,
+    "prior_events_preserved": true,
+    "changelog_sequence_256_to_1": true,
+    "historical_M0_M7_preserved": true
+  }
+}

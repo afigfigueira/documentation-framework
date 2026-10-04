@@ -1,6 +1,6 @@
 {
   "parent_document_id": "DF-RVW-002",
-  "current_report_edition": "1.0/16",
+  "current_report_edition": "1.0/17",
   "historical_R1_exports": [
     "DF-RVW-002-input-manifest.json",
     "DF-RVW-002-evidence-step-2.json",
@@ -79,12 +79,16 @@
     "DF-RVW-002-review-4-05-checks.json",
     "DF-RVW-002-review-4-05.diff"
   ],
-  "current_R16_exports": [
-    "DF-RVW-002-progress.csv",
-    "DF-RVW-002-current-manifest.json",
+  "historical_R16_exports": [
     "DF-RVW-002-update-4-05-map.json",
     "DF-RVW-002-update-4-05-construction.json",
     "DF-RVW-002-update-4-05-classification.csv",
     "DF-RVW-002-update-4-05.diff"
+  ],
+  "current_R17_exports": [
+    "DF-RVW-002-progress.csv",
+    "DF-RVW-002-current-manifest.json",
+    "DF-RVW-002-validation-4-05.json",
+    "DF-RVW-002-validation-4-05.diff"
   ]
 }
