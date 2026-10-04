@@ -1,0 +1,515 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/24",
+  "date": "2026-10-05",
+  "step": "4.08 REVIEW",
+  "source": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+  "sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab",
+  "source_changed": false,
+  "source_edition": {
+    "version": "1.0",
+    "revision": 0,
+    "status": "Draft",
+    "baseline": "1.0",
+    "author": null,
+    "language": "English",
+    "family": "Architecture",
+    "type": "Layers"
+  },
+  "coverage": {
+    "method": "Complete source read: all 427 lines, eighteen chapters, seven structural descriptions, all paragraphs/lists/tables and both unnamed views. Related comparisons limited to listed sections; ARC-005 fully read but only relevant listed sections used as comparison evidence.",
+    "bytes": 10140,
+    "lines": 427,
+    "chapters": [
+      [
+        "1",
+        "Introduction"
+      ],
+      [
+        "2",
+        "Purpose"
+      ],
+      [
+        "3",
+        "Scope"
+      ],
+      [
+        "4",
+        "Layered Architecture"
+      ],
+      [
+        "5",
+        "Foundation Layer"
+      ],
+      [
+        "6",
+        "Architecture Layer"
+      ],
+      [
+        "7",
+        "Documentation Layer"
+      ],
+      [
+        "8",
+        "Governance Layer"
+      ],
+      [
+        "9",
+        "Discovery Layer"
+      ],
+      [
+        "10",
+        "Automation Layer"
+      ],
+      [
+        "11",
+        "Integration Layer"
+      ],
+      [
+        "12",
+        "Layer Dependencies"
+      ],
+      [
+        "13",
+        "Dependency Rules"
+      ],
+      [
+        "14",
+        "Layer Characteristics"
+      ],
+      [
+        "15",
+        "Relationship with Architectural Components"
+      ],
+      [
+        "16",
+        "Relationship with Other Architecture Documents"
+      ],
+      [
+        "17",
+        "Evolution Guidelines"
+      ],
+      [
+        "18",
+        "Conclusion"
+      ]
+    ],
+    "fenced_views": [
+      {
+        "original_section": "4",
+        "named_id": null,
+        "original_view_sha256": "5b3f35a4a8d71fca5f5dddb00251572c2bc720a042c5780a2c72cfbe124b3f2c",
+        "hash_encoding": "UTF-8 received view with CRLF normalized to LF",
+        "received_edge_semantics": "Unspecified; allocation/order must be distinguished from required dependencies"
+      },
+      {
+        "original_section": "12",
+        "named_id": null,
+        "original_view_sha256": "769de480d43ee4058cda6748dccda43c74659ec3714a966ae82a2359ae4e206a",
+        "hash_encoding": "UTF-8 received view with CRLF normalized to LF",
+        "received_edge_semantics": "Unspecified; allocation/order must be distinguished from required dependencies"
+      }
+    ],
+    "operational_links": 0,
+    "component_inventories": {
+      "7": [
+        "Metadata",
+        "Document Identity",
+        "Classification",
+        "Templates"
+      ],
+      "8": [
+        "Workflow",
+        "Policies",
+        "Reviews",
+        "Baselines"
+      ],
+      "9": [
+        "Registry",
+        "Relationships",
+        "Knowledge Graph",
+        "Navigation",
+        "Search"
+      ],
+      "10": [
+        "Validation",
+        "Metadata Generation",
+        "Registry Generation",
+        "Consistency Verification",
+        "Documentation Generators"
+      ],
+      "11": [
+        "Source Control",
+        "CI/CD",
+        "IDE Extensions",
+        "Documentation Platforms",
+        "AI Integration"
+      ]
+    },
+    "component_entry_count": 23,
+    "received_label_counterparts": [
+      {
+        "received": "Metadata Generation",
+        "ARC005_counterpart": "Metadata Generator",
+        "qualification": "Comparison mapping; owner peer cycle remains pending"
+      },
+      {
+        "received": "Registry Generation",
+        "ARC005_counterpart": "Registry Generator",
+        "qualification": "Comparison mapping; owner peer cycle remains pending"
+      },
+      {
+        "received": "Documentation Generators",
+        "ARC005_counterpart": "Documentation Generator",
+        "qualification": "Comparison mapping; owner peer cycle remains pending"
+      },
+      {
+        "received": "Source Control",
+        "ARC005_counterpart": "Source Control Integration",
+        "qualification": "Comparison mapping; owner peer cycle remains pending"
+      },
+      {
+        "received": "CI/CD",
+        "ARC005_counterpart": "CI/CD Integration",
+        "qualification": "Comparison mapping; owner peer cycle remains pending"
+      },
+      {
+        "received": "IDE Extensions",
+        "ARC005_counterpart": "IDE Integration",
+        "qualification": "Comparison mapping; owner peer cycle remains pending"
+      },
+      {
+        "received": "Documentation Platforms",
+        "ARC005_counterpart": "Documentation Platform Integration",
+        "qualification": "Comparison mapping; owner peer cycle remains pending"
+      }
+    ]
+  },
+  "comparison_sources": [
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
+      "coverage": "Listed sections including subordinate clauses; comparison only, not a completed peer cycle",
+      "sections": [
+        "3",
+        "4",
+        "5.3",
+        "5.4",
+        "5.7",
+        "5.8",
+        "5.9",
+        "5.10",
+        "5.11",
+        "5.13",
+        "5.14",
+        "5.15",
+        "5.16",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12.1",
+        "12.3"
+      ]
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "coverage": "Listed sections including subordinate clauses; comparison only, not a completed peer cycle",
+      "sections": [
+        "1.7",
+        "3.4",
+        "6.7",
+        "8.2",
+        "8.11"
+      ]
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "coverage": "Listed sections including subordinate clauses; comparison only, not a completed peer cycle",
+      "sections": [
+        "6",
+        "8"
+      ]
+    },
+    {
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "sha256": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d",
+      "coverage": "Listed sections including subordinate clauses; comparison only, not a completed peer cycle",
+      "sections": [
+        "5",
+        "6",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "sha256": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53",
+      "coverage": "Listed sections including subordinate clauses; comparison only, not a completed peer cycle",
+      "sections": [
+        "6.2",
+        "6.3",
+        "7.4",
+        "8.2",
+        "8.3"
+      ]
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "sha256": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb",
+      "coverage": "Listed sections including subordinate clauses; comparison only, not a completed peer cycle",
+      "sections": [
+        "5.16",
+        "5.21",
+        "5.24",
+        "5.26",
+        "5.37"
+      ]
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "coverage": "Listed sections including subordinate clauses; comparison only, not a completed peer cycle",
+      "sections": [
+        "2",
+        "3",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216",
+      "coverage": "Listed sections including subordinate clauses; comparison only, not a completed peer cycle",
+      "sections": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    }
+  ],
+  "reference_role_checks": [
+    {
+      "id": "DF-FND-001",
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "expected_declaration": true
+    },
+    {
+      "id": "DF-FND-002",
+      "path": "00-Foundation/DF-FND-002-ResearchJournal.md",
+      "sha256": "018b81c60884dfb13eda73083c134f4c1bfab4248184795f479ca1fd8ac851f6",
+      "expected_declaration": true
+    },
+    {
+      "id": "DF-FND-003",
+      "path": "00-Foundation/DF-FND-003-EvolutionTimeline.md",
+      "sha256": "2488360bc2fc498e9dcb46536a0af8b9056beb662f25a6013ad01ef1ac77ffb3",
+      "expected_declaration": true
+    },
+    {
+      "id": "DF-FND-004",
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "expected_declaration": true
+    },
+    {
+      "id": "DF-FND-005",
+      "path": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
+      "sha256": "8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04",
+      "expected_declaration": true
+    },
+    {
+      "id": "DF-FND-006",
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "sha256": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6",
+      "expected_declaration": true
+    },
+    {
+      "id": "DF-ARC-001",
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "sha256": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d",
+      "expected_declaration": true
+    },
+    {
+      "id": "DF-ARC-002",
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "sha256": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53",
+      "expected_declaration": true
+    },
+    {
+      "id": "DF-ARC-003",
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
+      "expected_declaration": true
+    },
+    {
+      "id": "DF-ARC-005",
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216",
+      "expected_declaration": true
+    },
+    {
+      "id": "DF-ARC-006",
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "sha256": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb",
+      "expected_declaration": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "ARC004-01",
+      "severity": "Medium",
+      "sections": "Header",
+      "before": "Type=Layers is outside the four adopted Type values. Family=Architecture is the documentary area; the primary purpose in §§2–3/15 is structural organization and allocation. The received header declares Draft, V1.0 R0, Baseline1.0 and no Author; these declarations are not approval evidence.",
+      "proposal": "Use Family=Architecture / Type=Structure, selected by primary purpose. Preserve DF-ARC-004 and its path; do not invent Component/Class. Record the received declarations separately, actual Codex contribution on UPDATE, and a Draft/unassigned successor with monotonic Revision. Authorization, subsequent user edits and validation are separate events attached to actual bytes.",
+      "closure_criterion": "Header and local history establish the Structure classification and actual successor without identity migration, invented attribution, approval or selected Baseline. Compatibility is assessed against delivered normative changes, not the label alone.",
+      "related_records": "REV2-03; REV2-12; adopted DF-RVW-001 §§3/5/7",
+      "state": "Open"
+    },
+    {
+      "id": "ARC004-02",
+      "severity": "Medium",
+      "sections": "4,5,6,7,8,9,10,11,15",
+      "before": "§4 declares six Layers, while its view and §§5–11 enumerate seven. The text does not distinguish those structural areas from the five conceptual concerns reconciled in Blueprint/Concepts, or support-definition areas from registered capability components.",
+      "proposal": "Declare seven structural areas: Foundation, Architecture, Documentation, Governance, Discovery, Automation and Integration. Distinguish the five concerns Knowledge/Documentation/Governance/Discovery/Preservation from this allocation view. Foundation/Architecture organize definitions; they do not imply newly registered components. Knowledge and Preservation remain subject/cross-cutting concerns; no extra Layer is inferred from a concern or directory.",
+      "closure_criterion": "Count, seven area descriptions and allocation view agree; the five-concern mapping is explicit and does not fabricate new Layers/components. Repeated Overview/Components occurrences remain scheduled peer work.",
+      "related_records": "INV-04; REV2-01; ARC003-08",
+      "state": "Open"
+    },
+    {
+      "id": "ARC004-03",
+      "severity": "High",
+      "sections": "4,12,13.1,13.2,13.4",
+      "before": "The allocation stack and dependency chain have no edge semantics. Each Layer builds on lower Layers, only-lower rules and a no-higher prohibition conflate presentation order with required contracts. The corrected Concepts matrix includes legitimate same-Layer pairs such as Workflow→Policies and Knowledge Graph→Relationships; the serial view does not identify their actual provider contracts.",
+      "proposal": "Separate area allocation, semantic associations and required consumer→provider dependencies. Define edge direction, contract, scope and source edition for each required pair; retain the seven Concepts pairs as the current explicit comparison basis, including same-Layer contracts. Explain what lower/higher means for any scoped inter-Layer constraint; documentary authority references, data projections, navigation and execution are not automatically required runtime edges. Check actual required cycles explicitly; do not conceal one by relabelling or permit arbitrary upward dependencies. Replace the two untyped views with typed tables/views, preserving received section/hash provenance.",
+      "closure_criterion": "Every new dependency assertion has a declared meaning, direction, contract and scope; same-Layer contracts are represented; allocation order is not a dependency graph. Genuine required cycles remain visible. No global acyclicity or peer conformity is claimed without complete owner/consumer reconciliation.",
+      "related_records": "REV2-02; ARC003-02; ARC-001 §9 and ARC-005 §§10/12 remain unreconciled",
+      "state": "Open"
+    },
+    {
+      "id": "ARC004-04",
+      "severity": "High",
+      "sections": "5.2,6.2,7.1,7.3,13.3,13.5,14.2,15",
+      "before": "Responsibilities must remain confined to their Layer, yet primary allocation is exactly one and conceptual/structural definitions span Foundation and Architecture. Metadata represents document descriptors whose Identity, Classification and Governance meanings have other owners. Preservation and knowledge participation cross structural areas.",
+      "proposal": "Retain exactly one primary allocation per registered component while allowing explicit participation across concerns and consumer contracts. Describe Foundation/Architecture as supporting definitions; preserve authoritative domain ownership. Metadata represents descriptors without taking over Identity, Classification or Governance semantics; Dictionary defines descriptors, Schema organizes references, Profile constrains use and Instance supplies values under one effective Profile. Keep Metadata in Documentation and Workflow/Baselines in Governance; cross-cutting participation does not relocate components or guarantee independent edition evolution.",
+      "closure_criterion": "Primary allocation, cross-cutting participation and semantic owner roles are distinct throughout §§5–7/13–15; no duplicate authority, competing owner contract, invented Profile or component reallocation is introduced.",
+      "related_records": "REV2-02; REV2-06; ARC003-03/04/08; M12/M13 owner reconciliation pending",
+      "state": "Open"
+    },
+    {
+      "id": "ARC004-05",
+      "severity": "High",
+      "sections": "8.1,8.3,11.3",
+      "before": "Governance controls evolution and lists approvals/publication/preservation; Integration also lists publishing. The source does not separate governing contracts from operational execution or exact status/edition/Baseline selection.",
+      "proposal": "State that Governance defines lifecycle, review and authorization contracts; a DMS, tool or manual process executes them. Distinguish review/validation from approval/publication, and logical identity from exact edition and Status. Baseline membership is an explicit immutable selection of eligible approved editions with pinned relevant context; eligibility, consistency and inclusion are separate checks. Integration publishing executes authorized contracts and grants no independent approval authority. Preserve cross-cutting preservation responsibilities.",
+      "closure_criterion": "Governance/Integration boundaries and exact-edition snapshot rules are explicit; no successful check, source presence or publication adapter automatically approves a document or selects a Baseline.",
+      "related_records": "REV2-08; ARC003-06/07",
+      "state": "Open"
+    },
+    {
+      "id": "ARC004-06",
+      "severity": "High",
+      "sections": "9.1,9.2,9.3",
+      "before": "Registry, Relationships, Knowledge Graph, Navigation and Search are listed together without authoritative-record versus derived-projection roles. Semantic navigation and dependency analysis are not typed; discovery contrasted with directories can be read as excluding physical location or unapproved editions.",
+      "proposal": "Distinguish Relationships-owned typed records from Registry/Graph projections of identified source editions. Record projection provenance, refresh and current/stale status; derived copies are permitted with traceability and do not create competing domain authority. Navigation/Search consume declared sources; do not invent a mandatory Registry pipeline. Discovery may expose Draft editions with explicit state, while directories remain physical locations rather than semantic authority. Semantic relations do not automatically create required provider edges.",
+      "closure_criterion": "Discovery roles, provenance and freshness are bounded; semantic relation/dependency meanings are distinct, Draft discovery is not silently prohibited and no unverified pipeline is imposed.",
+      "related_records": "REV2-02; REV2-02; ARC003-05",
+      "state": "Open"
+    },
+    {
+      "id": "ARC004-07",
+      "severity": "Medium",
+      "sections": "10.2,11.2,15",
+      "before": "Seven component labels differ from ARC-005: Metadata Generation, Registry Generation, Documentation Generators, Source Control, CI/CD, IDE Extensions and Documentation Platforms. Activities/platform classes and named components are conflated; the five area inventories contain 23 entries.",
+      "proposal": "Provide a received-label/counterpart map to Metadata Generator, Registry Generator, Documentation Generator, Source Control Integration, CI/CD Integration, IDE Integration and Documentation Platform Integration. Use the referenced component register names as comparison counterparts, qualifying IDE extensions as a possible implementation rather than an exhaustive component definition. Preserve the 4/4/5/5/5 allocation, all 23 entries and actual component identity; do not fabricate extra components or claim that ARC-005 has completed reconciliation.",
+      "closure_criterion": "All 23 entries are accounted for exactly once in the allocation view; the seven label corrections have traceable ARC-005 counterparts, with no hidden rename, new component or completed peer cycle.",
+      "related_records": "ARC-005 §§4–8/13; REV2-01/02",
+      "state": "Open"
+    },
+    {
+      "id": "ARC004-08",
+      "severity": "High",
+      "sections": "3,10.1,10.3,11.1,11.3,14.5,18",
+      "before": "Automation and Integration are described as operating activities and capabilities, but this source explicitly excludes detailed implementations and supplies no implementation evidence. Validation/consistency checks and intelligent assistance can be mistaken for guaranteed framework conformity or new semantic authority.",
+      "proposal": "Define architectural capability contracts separately from evidence of implemented execution. Validation/generation/consistency consume authoritative owner rules and declare exact inputs, checks, result, limits and executor; they do not invent metadata semantics or approval authority. External integration is scoped to supported interfaces and authorization, with adapters optional according to use; no mandatory product ecosystem or new Layer is inferred. AI assistance remains accountable through actual contribution/evidence and the governing lifecycle. Technology independence is a model property, not an assertion that a tool exists.",
+      "closure_criterion": "Automation/Integration descriptions distinguish contract, executor and implementation evidence; scoped check success never implies approval, product maturity, whole-framework consistency or responsibility for later modified bytes.",
+      "related_records": "REV2-12; ARC003-08; DF-RVW-001 §§6/7",
+      "state": "Open"
+    },
+    {
+      "id": "ARC004-W01",
+      "severity": "Medium",
+      "sections": "1,13.3,14.2,14.3,14.4,17,18",
+      "before": "Independence, slower lower-Layer evolution, safe new-Layer extension, backward compatibility and achieved maintainability are presented as general properties or obligations without impact evidence. Principles §8.2 allows assessed incompatibility when required.",
+      "proposal": "Express quality and stability as intended properties assessed in context. New Layers or primary-allocation changes require explicit owner/consumer impact, dependency assessment and a transition plan. Preserve backward compatibility where feasible; classify necessary incompatible changes and increment the major version under policy. Do not prescribe edition-change frequency or guarantee that extension cannot affect existing Layers.",
+      "closure_criterion": "Evolution/quality statements are bounded; compatibility decisions identify affected contracts/consumers, transition requirements and evidence. No unverified guarantee or blanket always-compatible extension remains.",
+      "related_records": "ARC003-W01; ARC-002 §§8.2/8.3",
+      "state": "Open"
+    },
+    {
+      "id": "ARC004-W02",
+      "severity": "Low",
+      "sections": "5.3,15,16",
+      "before": "Six Foundation titles and five Architecture-role entries have no operational Markdown links. There is no source history, input digest or provenance for the two unnamed views; source presence does not prove unseen owner specifications or completed peer cycles.",
+      "proposal": "Add real source links with role and edition/coverage limits, correct the role of Concepts versus structural allocation, and record actual input/history and before/after evidence. Identify replaced views by original section and exact received-view digest, without inventing prior view IDs. Keep historical central pending statements as event-time records and state current results separately.",
+      "closure_criterion": "All eleven unique references resolve to actual supplied IDs; local history and exact view provenance are verifiable. No unseen specification, historic author, implemented capability or peer validation is inferred.",
+      "related_records": "ARC003-W02; DF-RVW-001 §§4/6/7",
+      "state": "Open"
+    }
+  ],
+  "result": "REVIEW complete with eight findings and two warnings Open; source unchanged; UPDATE/VALIDATE not performed",
+  "totals": {
+    "Open": 29,
+    "Closed—verified": 67,
+    "Not applicable—scope decision": 1
+  },
+  "proposed_successor": {
+    "version": "2.0",
+    "revision": 1,
+    "family": "Architecture",
+    "type": "Structure",
+    "status": "Draft",
+    "baseline": "Not assigned",
+    "compatibility": "Proposed incompatible reconciliation of unscoped only-lower dependency, confined-responsibility and mandatory backward-compatibility contracts; final UPDATE must assess actual changes."
+  },
+  "integrity_checks": {
+    "source_hash_matches_input": true,
+    "source_unchanged": true,
+    "eighteen_chapters": true,
+    "six_asserted_seven_described": true,
+    "two_unnamed_views_in_4_12": true,
+    "23_component_entries": true,
+    "seven_counterparts_exist": true,
+    "all_finding_sections_resolve": true,
+    "eleven_supplied_reference_identities": true,
+    "comparison_hashes_current": true,
+    "72_original_normalized_sources_unchanged": true,
+    "seven_previous_validated_sources_preserved": true,
+    "all_other_MD_sources_preserved": true,
+    "six_READMEs_unchanged": true,
+    "eight_functional_records_excluded": true,
+    "89_stable_positions": true,
+    "matrix_current_hashes": true,
+    "central_sequence_280_to_1": true,
+    "prior_events_preserved": true,
+    "M10_and_prior_milestones_preserved": true,
+    "M11_one_C_one_S_five_O": true,
+    "historical_report_sections_preserved": true,
+    "source_matches_R23_checkpoint": true,
+    "new_report_tables_rectangular": true
+  },
+  "integrity_check_scope": "REVIEW evidence/traceability only; not VALIDATE DOCUMENT"
+}
