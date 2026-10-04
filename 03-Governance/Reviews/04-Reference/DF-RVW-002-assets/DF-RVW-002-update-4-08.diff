@@ -1,0 +1,787 @@
+--- before-4.08-UPDATE/Context/01-Architecture/DF-ARC-004-ArchitecturalLayers.md
++++ after-4.08-UPDATE/Context/01-Architecture/DF-ARC-004-ArchitecturalLayers.md
+@@ -7,78 +7,63 @@
+ | **Document ID** | DF-ARC-004 |
+ | **Title** | Architectural Layers |
+ | **Family** | Architecture |
+-| **Type** | Layers |
++| **Type** | Structure |
++| **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+-| **Version** | 1.0 |
+-| **Revision** | 0 |
+-| **Baseline** | 1.0 |
++| **Version** | 2.0 |
++| **Revision** | 1 |
++| **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+ ---
+ 
+ # 1. Introduction
+ 
+-The Documentation Framework organizes its architecture into a set of independent architectural layers.
+-
+-Each layer groups architectural components that share similar responsibilities while maintaining a clear separation from components belonging to other layers.
+-
+-This layered architecture promotes modularity, maintainability, scalability and long-term evolution.
++The Documentation Framework organizes structural responsibilities into seven architectural areas, called Layers in this document. A Layer groups related primary responsibilities; it is not automatically a runtime tier, directory, service or registered component.
++
++Primary allocation, cross-cutting participation, documentary authority and required consumer/provider contracts are distinct. Modularity, maintainability, scalability and controlled evolution are intended properties assessed against actual contracts and evidence, rather than guaranteed outcomes of a seven-area diagram.
+ 
+ ---
+ 
+ # 2. Purpose
+ 
+-The purpose of the layered architecture is to.
+-
+-- organize architectural responsibilities;
+-- establish clear dependency rules;
+-- separate conceptual concerns;
+-- facilitate incremental evolution;
+-- improve maintainability;
+-- support independent component development.
++This structural specification organizes responsibilities and component allocation, defines scoped dependency constraints and explicit interfaces, separates conceptual concerns from structural areas, and supports assessed incremental evolution.
++
++Its primary responsibility is organization, composition and structural restrictions; therefore its Type is Structure. Family Architecture identifies the documentary area, not a component or a special Type. Independent development is an objective subject to provider/consumer compatibility, not unconditional edition independence.
+ 
+ ---
+ 
+ # 3. Scope
+ 
+-This document defines.
+-
+-- the architectural layers of the Documentation Framework;
+-- the responsibilities of each layer;
+-- the dependencies between layers;
+-- the architectural rules governing layer interaction.
+-
+-It does not define the detailed implementation of individual architectural components.
++This document defines structural Layers, their responsibilities, primary component allocation and the rules for interpreting required dependencies. It summarizes owner contracts without replacing their detailed definitions.
++
++It does not establish an implemented DMS, operational permissions, users, storage architecture or a complete executable workflow. DF defines documentary contracts; a DMS, tool or applicable manual process executes them. A CMS governs changes in its own scope. Source presence and architectural capability descriptions do not establish implemented services.
++
++Every README.md, CHANGELOG.md and ArchitecturalMilestones.md is a non-normalized functional file at every corpus location. These files remain subject to applicable content, reference and integrity checks, without normalized header, Family/Type or identity requirements. The exclusion creates no exceptions to the four Types for normalized documents.
+ 
+ ---
+ 
+ # 4. Layered Architecture
+ 
+-The Documentation Framework is organized into six architectural layers.
+-
+-```text
+-
+-                         Documentation Framework
+-
+-                    ┌──────────────────────────────┐
+-                    │ Foundation                   │
+-                    ├──────────────────────────────┤
+-                    │ Architecture                 │
+-                    ├──────────────────────────────┤
+-                    │ Documentation                │
+-                    ├──────────────────────────────┤
+-                    │ Governance                   │
+-                    ├──────────────────────────────┤
+-                    │ Discovery                    │
+-                    ├──────────────────────────────┤
+-                    │ Automation                   │
+-                    ├──────────────────────────────┤
+-                    │ Integration                  │
+-                    └──────────────────────────────┘
+-
+-```
+-
+-Each layer builds upon the capabilities provided by lower layers.
++The Documentation Framework is organized into **seven structural Layers**. The following view records allocation and responsibility; its row order does not declare a dependency edge or execution sequence.
++
++<!-- original-section-view: 4 -->
++**Previously unnamed view in §4 — Structural areas and primary allocation.**
++
++| Structural area | Primary structural responsibility | Registered component allocation in this working view |
++|---|---|---|
++| Foundation | Framework identity, vision, rationale and historical basis | Supporting definition documents; no component invented |
++| Architecture | Common concepts, principles, structural rules and vocabulary | Supporting definition documents; no component invented |
++| Documentation | Documentary representation, identity, classification and templates | Metadata; Document Identity; Classification; Templates |
++| Governance | Documentary lifecycle, policy, review and snapshot contracts | Workflow; Policies; Reviews; Baselines |
++| Discovery | Typed connections and traceable catalog/network/discovery views | Registry; Relationships; Knowledge Graph; Navigation; Search |
++| Automation | Repeatable checks and generation under owner contracts | Validation; Metadata Generator; Registry Generator; Consistency Verification; Documentation Generator |
++| Integration | Scoped adapters to external environments | Source Control Integration; CI/CD Integration; IDE Integration; Documentation Platform Integration; AI Integration |
++<!-- end-original-section-view -->
++
++The five conceptual concerns are Knowledge, Documentation, Governance, Discovery and Preservation. They are a different view from these seven structural areas. Knowledge is the subject matter represented by documents; Preservation participates across documentary history, exact editions, governance and immutable snapshots. Neither creates an additional structural Layer or component by implication.
++
++Foundation and Architecture organize supporting definitions. A folder or definition document is not registered as a capability component merely by appearing in this view. The 23 capability entries are allocated 4/4/5/5/5 across Documentation/Governance/Discovery/Automation/Integration. Section 12 separately types selected required contracts; §13 constrains their interpretation.
+ 
+ ---
+ 
+@@ -86,31 +71,30 @@
+ 
+ ## 5.1. Purpose
+ 
+-The Foundation layer establishes the conceptual basis of the Documentation Framework.
+-
+-It defines.
+-
+-- framework identity;
+-- architectural vision;
+-- design rationale;
+-- historical evolution;
+-- conceptual foundation.
++Foundation provides the framework's conceptual basis: identity, architectural vision, rationale, historical evolution and foundational interpretation. Its documents explain why the framework exists and establish common foundations; they do not duplicate detailed component ownership.
++
++---
+ 
+ ## 5.2. Responsibilities
+ 
+-- establish the framework philosophy;
+-- define the conceptual model;
+-- document architectural motivations;
+-- preserve the evolution history.
++Foundation records framework philosophy, foundational assumptions, architectural motivations and the provenance of historical evolution. Architectural Blueprint provides the foundation architectural comparison basis; Manifest states orientation, Rationale explains decisions, and historical documents record when/how evolution occurred.
++
++Responsibility for maintaining these definitions differs from operational execution and domain ownership. Knowledge and Preservation participation does not allocate every concerned component to Foundation or make these six documents registered components.
++
++---
+ 
+ ## 5.3. Primary Documents
+ 
+-- Framework Manifest
+-- Research Journal
+-- Evolution Timeline
+-- Architectural Blueprint
+-- Framework Evolution
+-- Design Rationale
++| Source | Role and current comparison limit |
++|---|---|
++| [DF-FND-001 — Framework Manifest](../00-Foundation/DF-FND-001-FrameworkManifest.md) | Framework orientation and classification; earlier scoped validation only |
++| [DF-FND-002 — Research Journal](../00-Foundation/DF-FND-002-ResearchJournal.md) | Research history and original rationale provenance; earlier scoped validation only |
++| [DF-FND-003 — Evolution Timeline](../00-Foundation/DF-FND-003-EvolutionTimeline.md) | Evolution events and dated chronology; earlier scoped validation only |
++| [DF-FND-004 — Architectural Blueprint](../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md) | Foundational architectural definitions/comparison basis; earlier scoped validation only |
++| [DF-FND-005 — Framework Evolution](../00-Foundation/DF-FND-005-FrameworkEvolution.md) | Framework evolution account and historical scope; earlier scoped validation only |
++| [DF-FND-006 — Design Rationale](../00-Foundation/DF-FND-006-DesignRationale.md) | Reasons for architectural decisions; earlier scoped validation only |
++
++These are supplied sources with earlier scoped documentary validation, Draft/unassigned working editions and their own historical evidence. Their presence grants no release approval, implemented service or whole-framework conformity.
+ 
+ ---
+ 
+@@ -118,22 +102,15 @@
+ 
+ ## 6.1. Purpose
+ 
+-The Architecture layer defines the structural organization of the Documentation Framework.
+-
+-It specifies.
+-
+-- architectural principles;
+-- architectural concepts;
+-- architectural layers;
+-- architectural components;
+-- terminology.
++Architecture defines common principles, concepts, structural allocation, component boundaries and terminology. Concepts establishes the conceptual model; Layers establishes structural organization; Components records capability responsibilities; Terminology provides consultation against responsible definitions.
++
++---
+ 
+ ## 6.2. Responsibilities
+ 
+-- define the architectural model;
+-- establish architectural rules;
+-- organize architectural responsibilities;
+-- provide the framework vocabulary.
++Architecture maintains the common model, structural rules, responsibility boundaries and shared vocabulary. It references detailed owner contracts instead of redefining their semantics.
++
++Foundation/Architecture documentary authority references are not automatically runtime dependencies on an upper-area implementation. Common definitions and domain specifications may cross-reference each other without proving a service cycle; actual required contracts must still be assessed explicitly under §§12–13.
+ 
+ ---
+ 
+@@ -141,9 +118,9 @@
+ 
+ ## 7.1. Purpose
+ 
+-The Documentation layer defines how knowledge is represented.
+-
+-It introduces the architectural components responsible for describing and organizing documents.
++Documentation defines documentary representation, logical identity, mutable classification and reusable structures. It represents Knowledge while contributing to Discovery, Governance and Preservation under applicable contracts; this participation does not change primary allocation.
++
++---
+ 
+ ## 7.2. Components
+ 
+@@ -152,12 +129,15 @@
+ - Classification
+ - Templates
+ 
++---
++
+ ## 7.3. Responsibilities
+ 
+-- represent documents;
+-- identify documents;
+-- classify documents;
+-- standardize document structure.
++Metadata describes identified editions through applicable descriptors. Document Identity owns logical identity semantics; Classification owns category semantics; Templates defines reusable structural representations. Governance owns lifecycle and approval meaning even when Metadata represents those values.
++
++Within Metadata, Dictionary defines descriptors and meaning, Schema organizes references to definitions, Profile constrains applicable usage, and Instance supplies values under one effective Profile. This summary creates neither catalog records nor a canonical Profile and does not replace the scheduled owner specifications.
++
++Document identity, exact edition, Version/Revision, edition Status and Baseline membership remain distinct. Stable corpus allocations do not change merely because Family, Type or location changes. Conceptual separation of content and descriptors allows coordinated evolution; it does not guarantee automatic consistency or independent revisions.
+ 
+ ---
+ 
+@@ -165,9 +145,9 @@
+ 
+ ## 8.1. Purpose
+ 
+-The Governance layer controls document evolution.
+-
+-It defines how documentation is managed throughout its lifecycle.
++Governance defines contracts for documentary evolution: lifecycle states, transition conditions, review evidence, approval decisions, publication eligibility and snapshot selection. DF defines those rules; a DMS, tool or applicable manual process executes them. A CMS may initiate/govern change within its own scope.
++
++---
+ 
+ ## 8.2. Components
+ 
+@@ -176,13 +156,17 @@
+ - Reviews
+ - Baselines
+ 
++---
++
+ ## 8.3. Responsibilities
+ 
+-- lifecycle management;
+-- governance;
+-- approvals;
+-- publication;
+-- historical preservation.
++Workflow applies documentary state/transition contracts to identified editions; Policies defines applicable rules; Reviews records examined scope and findings; Baselines defines exact snapshot membership. These are capability responsibilities, not proof of an implemented lifecycle engine.
++
++Review, validation, approval, publication and membership are separate events. A check result identifies exact bytes/edition, rules, coverage and limits; it does not grant approval or publication. Status belongs to the identified edition, not every past/future representation of its logical document.
++
++A Baseline is a separately identified immutable, explicitly selected set of exact approved editions, with relevant pinned relationship context or traceable verification evidence. Approval eligibility, consistency and actual inclusion are separate checks. A Draft successor does not retarget earlier members or inherit membership. The working header's Not assigned marker evidences no selection.
++
++Preservation includes history, exact editions and snapshot provenance across areas. Integration may execute an authorized publication operation; it does not acquire independent approval authority or replace Governance contracts.
+ 
+ ---
+ 
+@@ -190,9 +174,9 @@
+ 
+ ## 9.1. Purpose
+ 
+-The Discovery layer enables knowledge navigation.
+-
+-Rather than organizing documents through directories, the framework provides semantic discovery mechanisms.
++Discovery defines semantic access to identified entities, editions and relationships. Directories remain physical locations; they do not provide semantic identity or authority by themselves. Discovery can expose Draft, historical or snapshot-specific editions when their state and scope are explicit; discoverability does not establish approval.
++
++---
+ 
+ ## 9.2. Components
+ 
+@@ -202,12 +186,15 @@
+ - Navigation
+ - Search
+ 
++---
++
+ ## 9.3. Responsibilities
+ 
+-- document discovery;
+-- semantic navigation;
+-- dependency analysis;
+-- knowledge organization.
++Relationships owns typed connection records with identified endpoints and provenance. Relation kinds distinguish semantic reference, association, replacement, navigation and required dependency. A semantic connection does not automatically impose a provider service requirement.
++
++Registry supplies catalog/lookup projections and Knowledge Graph supplies network projections from identified authoritative records/editions. Catalog or projection authority does not replace Identity, Classification, Governance or relationship-record ownership. Derived copies are allowed with source-edition provenance, refresh rules and current/stale/historical/snapshot status.
++
++Navigation and Search consume declared information sources to support access and knowledge organization. A particular Registry-to-Graph or search pipeline requires its own scoped contract/evidence; no universal intermediate service is inferred from the list. Dependency analysis must retain genuine required edges and distinguish them from other relation kinds; this source certifies neither a complete network nor a globally acyclic graph.
+ 
+ ---
+ 
+@@ -215,24 +202,27 @@
+ 
+ ## 10.1. Purpose
+ 
+-The Automation layer automates repetitive documentation activities.
+-
+-Automation is driven by the architectural model established by the lower layers.
++Automation defines repeatable documentary capabilities under applicable owner contracts. Actual implementations operate on identified representations and inputs. The architectural model provides definitions and constraints; it does not prove deployed tools or eliminate files, formats and storage adapters.
++
++---
+ 
+ ## 10.2. Components
+ 
+ - Validation
+-- Metadata Generation
+-- Registry Generation
++- Metadata Generator
++- Registry Generator
+ - Consistency Verification
+-- Documentation Generators
++- Documentation Generator
++
++The received activity labels Metadata Generation, Registry Generation and Documentation Generators correspond here to the named component entries Metadata Generator, Registry Generator and Documentation Generator in ARC-005. This is label reconciliation, not new component registration or completed reconciliation of that peer source.
++
++---
+ 
+ ## 10.3. Responsibilities
+ 
+-- automate validation;
+-- generate documentation artifacts;
+-- verify architectural consistency;
+-- reduce manual maintenance.
++Validation and Consistency Verification consume identified requirements from responsible owners. A result records exact input editions/bytes, applicable rules, checks, observations, coverage, executor and limits. Successful checks do not approve artifacts, select a Baseline, guarantee product consequences or establish integrated conformity.
++
++Generators produce documentary artifacts or projections under explicit input/output contracts and provenance. They do not redefine descriptor, identity, classification, lifecycle or relationship meaning. Generated values require assessment and refresh/freshness evidence where applicable. Reducing manual maintenance is an intended benefit, not a measured or guaranteed outcome asserted by this specification.
+ 
+ ---
+ 
+@@ -240,188 +230,205 @@
+ 
+ ## 11.1. Purpose
+ 
+-The Integration layer connects the Documentation Framework with external environments.
++Integration defines adapters connecting documentary contracts to supported external environments. It consumes the relevant domain interfaces and authorization contracts; adapters are selected according to the use case, not a mandatory product ecosystem or a newly inferred Layer. Intended integration does not establish an installed or implemented tool.
++
++---
+ 
+ ## 11.2. Components
+ 
+-- Source Control
+-- CI/CD
+-- IDE Extensions
+-- Documentation Platforms
++- Source Control Integration
++- CI/CD Integration
++- IDE Integration
++- Documentation Platform Integration
+ - AI Integration
+ 
++Received Source Control, CI/CD, IDE Extensions and Documentation Platforms are reconciled with the ARC-005 integration component names above. An IDE extension is a possible implementation of IDE Integration, not its exhaustive definition. All five entries retain Integration as their primary area.
++
++---
++
+ ## 11.3. Responsibilities
+ 
+-- external integrations;
+-- publishing;
+-- development support;
+-- intelligent assistance.
++Integrations can support source-control provenance, checks in delivery pipelines, authoring environments, authorized documentary publication and AI assistance. The applicable executor implements the operation using identified inputs and owner contracts; an external platform does not become a new documentary semantic authority.
++
++Publishing follows Governance authorization for the exact edition. AI-assisted contributions record actual authorship/contribution and examined evidence separately from user authorization, review, validation and approval. Subsequent human or tool edits require assessment of the resulting bytes; a previous check result does not transfer automatically or assign responsibility for product consequences.
++
++Integration existence, completeness, performance and outcomes need implementation evidence beyond this structural specification.
+ 
+ ---
+ 
+ # 12. Layer Dependencies
+ 
+-Layers depend only on lower architectural layers.
+-
+-Conceptually.
+-
+-```text
+-
+-                Foundation
+-                    │
+-                    ▼
+-
+-               Architecture
+-                    │
+-                    ▼
+-
+-              Documentation
+-                    │
+-                    ▼
+-
+-                Governance
+-                    │
+-                    ▼
+-
+-                Discovery
+-                    │
+-                    ▼
+-
+-                Automation
+-                    │
+-                    ▼
+-
+-               Integration
+-
+-```
+-
+-No architectural layer shall introduce dependencies on higher layers.
++A required dependency is directed **consumer→provider**: the consumer needs the stated provider contract in the declared scope. Allocation, documentary authority reference, semantic association, data projection, navigation and execution order are separately typed and must not be inferred solely from row order or arrows.
++
++For cross-Layer required contracts governed here, the support order is Foundation, Architecture, Documentation, Governance, Discovery, Automation, Integration. Lower means an earlier support area in this declared order, not a lower visual row. A consumer's cross-Layer required provider belongs to an earlier support area. This does not require every consumer to depend on every earlier Layer or form an adjacent serial chain. Same-Layer required contracts are permitted under explicit ownership/interfaces and the cycle rule. Changing this structural constraint requires assessed architectural revision under §17, not an unrecorded upward-dependency exception.
++
++<!-- original-section-view: 12 -->
++**Previously unnamed view in §12 — Selected required contracts; consumer→provider.**
++
++| Consumer | Consumer area | Provider | Provider area | Required contract | Scope/justification |
++|---|---|---|---|---|---|
++| Registry | Discovery | Metadata | Documentation | Descriptive values with source-edition provenance | When indexing edition descriptors; refresh or identify stale values |
++| Knowledge Graph | Discovery | Document Identity | Documentation | Entity identity for logical document nodes | When keying document nodes; other entity kinds use their own endpoint identity contracts |
++| Knowledge Graph | Discovery | Relationships | Discovery | Typed connection records and provenance | When projecting the semantic network and interpreting dependency kinds |
++| Workflow | Governance | Metadata | Documentation | Represented state/edition descriptors | When interpreting documentary state values for a governance transition |
++| Workflow | Governance | Policies | Governance | Applicable transition and evidence rules | When deciding permitted governance operations; execution remains with the applicable process |
++| Baselines | Governance | Document Identity | Documentation | Logical member identity | When selecting/preserving document-edition members |
++| Baselines | Governance | Metadata | Documentation | Exact edition-reference/descriptive contract | When selecting/preserving exact editions; relevant relationship context must also be pinned or evidenced |
++<!-- end-original-section-view -->
++
++These seven intended contracts reproduce the selected comparison basis in Concepts V2.0 R1 §8/Blueprint V2.0 R1 §8.11 with primary areas added. Knowledge Graph→Relationships and Workflow→Policies are legitimate same-Layer pairs. The rows are architectural declarations for their stated scopes, not a verified complete graph or implementation inventory.
++
++The received seven-box dependency chain is preserved in input/diff/view provenance, not accepted as a mandatory service or execution sequence. Its allocation meaning belongs to §4. Foundation documents referencing component sources, or Metadata representing Governance/Identity/Classification meanings, do not automatically create runtime dependencies. Conversely, an indispensable provider contract remains required even if its data arrives through a projection or an interface is labelled a reference.
++
++The complete graph requires owner/consumer reconciliation, explicit context-specific edges and cycle/compatibility assessment beyond these rows. Unresolved peer claims remain recorded; no global acyclicity or integrated conformity is asserted.
+ 
+ ---
+ 
+ # 13. Dependency Rules
+ 
+-The layered architecture follows the rules below.
++The following rules govern declared structural allocation and required consumption. Their applicability is explicit; documentary navigation and semantic associations are not a substitute for evidence of actual required dependencies.
++
++---
+ 
+ ## 13.1. Rule 1 — Downward Dependencies
+ 
+-A layer may depend only on lower layers.
++Apply the support order defined in §12 to required cross-Layer provider contracts. Record the consumer, provider, primary areas, contract, scope and responsible source edition. Same-Layer consumption is assessed through the component interface and ownership contracts.
++
++No required edge is inferred from vertical position or an illustrative execution arrow. No arbitrary required higher-area dependency is accepted by relabelling it as reference/navigation; a changed allocation or support constraint requires a traceable compatibility/impact decision under §17.
+ 
+ ---
+ 
+ ## 13.2. Rule 2 — No Circular Dependencies
+ 
+-Circular dependencies between layers are prohibited.
++Circular required dependencies are prohibited in the governed contract scope, including cycles among components within an area and across areas. Assess actual required edges and source evidence, not just the area ordering. A missing edge or a different relationship label cannot establish acyclicity.
++
++Where an actual required cycle or conflicting provider declaration is found, retain it visibly in the evidence and reconcile the responsible contracts/allocations. This working source does not certify a complete cycle-free framework graph.
+ 
+ ---
+ 
+ ## 13.3. Rule 3 — Independent Evolution
+ 
+-Each layer shall evolve independently whenever possible.
++Preserve separation and compatible provider contracts where feasible. Independent component/Layer development remains subject to consumer constraints, coordinated descriptive/content changes and exact-edition compatibility assessment. Shared concerns do not require independent releases, and separate areas do not guarantee them.
+ 
+ ---
+ 
+ ## 13.4. Rule 4 — Explicit Interfaces
+ 
+-Interactions between layers shall occur through explicitly defined architectural components.
++Required interactions name the actual provider contract, consumer use, scope and authoritative source edition. Registered components provide capability boundaries; Foundation/Architecture sources provide applicable definitions. Distinguish a definition reference from an operational interface requirement.
++
++Implementations must identify actual input/output representations and executor evidence within their scope. This structural summary does not fabricate a missing detailed interface specification or implementation.
+ 
+ ---
+ 
+ ## 13.5. Rule 5 — Responsibility Isolation
+ 
+-Responsibilities shall remain confined to the layer to which they belong.
++Each registered component has exactly one primary structural allocation in this working model. Primary ownership does not confine all participation to one concern or forbid explicit consumer/provider collaboration. Preserve authoritative domain semantics while recording cross-cutting participation and traceable projections.
++
++Metadata remains in Documentation; Workflow and Baselines remain in Governance. Knowledge/Preservation participation creates neither a competing owner nor an additional structural allocation. Primary reallocation requires the assessed architectural change process in §17.
+ 
+ ---
+ 
+ # 14. Layer Characteristics
+ 
+-Every architectural layer shall possess the following characteristics.
++The following are intended architectural characteristics with contract and evidence limits. They guide design and assessment; allocation alone does not guarantee operating quality.
++
++---
+ 
+ ## 14.1. Cohesion
+ 
+-Components within a layer shall have related responsibilities.
++Components grouped in an area have related primary responsibilities. Assess cohesion against the component definitions and explicit boundaries; do not invent an extra component merely to make a directory layout uniform.
+ 
+ ---
+ 
+ ## 14.2. Independence
+ 
+-Layers shall remain conceptually independent.
++Conceptual separation avoids unnecessary coupling and preserves domain ownership. It permits explicit required contracts, cross-cutting participation and coordinated edition evolution. It is not unconditional independence of provider/consumer meaning or releases.
+ 
+ ---
+ 
+ ## 14.3. Stability
+ 
+-Lower layers shall evolve more slowly than higher layers.
++Foundation and common architectural contracts aim for stable meaning, with justified evolution and assessed consumer effects. No relative change frequency is mandated: an earlier support area may require urgent or incompatible correction when evidence warrants it.
+ 
+ ---
+ 
+ ## 14.4. Extensibility
+ 
+-New layers may be introduced without compromising existing layers.
++Additional capabilities, Layers or allocation changes require a demonstrated need, owner/consumer impact assessment, explicit contract/dependency mapping and transition evidence. Extension is preferred where it preserves meaning; it is not guaranteed to leave existing areas unaffected.
+ 
+ ---
+ 
+ ## 14.5. Technology Independence
+ 
+-Layer definitions shall remain independent from implementation technologies.
++Layer definitions avoid prescribing a particular implementation technology unless it is an explicit integration constraint. Actual tools still need formats, adapters and execution evidence. Technology independence does not certify implementation availability or universal suitability.
+ 
+ ---
+ 
+ # 15. Relationship with Architectural Components
+ 
+-Architectural layers provide the organizational structure for architectural components.
+-
+-Each component belongs to exactly one primary layer.
+-
+-The detailed definition of these components is provided in **DF-ARC-005 — Architectural Components**.
++Layers organize primary component responsibilities; components identify capability boundaries. Each registered component has exactly one primary area while contributing across concerns through declared contracts. The 23 entries in §§7–11 retain their 4/4/5/5/5 allocation.
++
++Detailed component registration/responsibilities are supplied by ARC-005, linked in §16. This source uses its named counterparts for seven received activity/environment labels and makes that mapping explicit in §§10.2/11.2. It creates no new components and does not certify unreconciled peer dependencies or implemented services.
++
++Foundation/Architecture supporting documents, the five conceptual concerns, documentary Family/Type and physical directories are separate classifications. Reallocating a capability requires impact/transition assessment, not a document rename or Family/Type edit alone.
+ 
+ ---
+ 
+ # 16. Relationship with Other Architecture Documents
+ 
+-This document defines the layered organization of the Documentation Framework.
+-
+-It complements the remaining Architecture documents.
+-
+-| Document | Relationship |
+-|----------|--------------|
+-| DF-ARC-001 — Architecture Overview | Introduces the overall architecture. |
+-| DF-ARC-002 — Architectural Principles | Defines the principles governing the layers. |
+-| DF-ARC-003 — Architectural Concepts | Defines the concepts organized into layers. |
+-| DF-ARC-005 — Architectural Components | Defines the components contained within each layer. |
+-| DF-ARC-006 — Terminology | Defines the vocabulary used by the layered architecture. |
++The following documentary references identify supplied roles and current comparison limits. They are not automatic required runtime edges or completed peer cycles.
++
++| Source | Relationship and comparison limit |
++|---|---|
++| [DF-ARC-001 — Architecture Overview](DF-ARC-001-ArchitectureOverview.md) | Overall architecture; received count/direction/independence remains scheduled reconciliation |
++| [DF-ARC-002 — Architectural Principles](DF-ARC-002-ArchitecturalPrinciples.md) | Governing principles; §8.2 permits justified breaking changes; full cycle pending |
++| [DF-ARC-003 — Architectural Concepts](DF-ARC-003-ArchitecturalConcepts.md) | Conceptual model and selected scoped required contracts; V2.0 R1 with earlier exact-source local validation |
++| [DF-ARC-005 — Architectural Components](DF-ARC-005-ArchitecturalComponents.md) | Component registration/responsibilities; matching names do not complete its owner/dependency reconciliation |
++| [DF-ARC-006 — Terminology](DF-ARC-006-Terminology.md) | Terminology consultation; abbreviated/duplicated received definitions remain scheduled reconciliation |
+ 
+ ---
+ 
+ # 17. Evolution Guidelines
+ 
+-The layered architecture is intended to remain stable throughout the evolution of the Documentation Framework.
+-
+-Future versions may.
+-
+-- introduce new architectural layers;
+-- reorganize component allocation;
+-- refine responsibilities.
+-
+-Such changes shall preserve.
+-
+-- conceptual integrity;
+-- dependency rules;
+-- backward compatibility;
+-- separation of responsibilities.
++Preserve conceptual integrity, explicit domain ownership, dependency constraints and compatible meaning where feasible. A new Layer, component reallocation, changed responsibility or revised required contract must identify the previous/new mapping, rationale, affected owners/consumers and source editions before propagation.
++
++Assess whether extension preserves existing contracts; a new capability can affect structure and cannot be assumed harmless. Necessary incompatible changes require explicit justification, transition plan and verification. Under the adopted review policy, compatible correction retains Version; compatible additive capability increments minor; incompatible contract change increments major and resets minor to 0. Each changed persisted edition increments Revision monotonically, including across Version changes. Validation without source change retains both coordinates and is recorded centrally.
++
++A complete propagation and integrated dependency/compatibility check is a separate result. Earlier scoped local validation does not establish every consumer's conformity; source identities and historical evidence remain preserved unless a necessary mapped migration is explicitly justified.
+ 
+ ---
+ 
+ # 18. Conclusion
+ 
+-The layered architecture provides the structural organization of the Documentation Framework.
+-
+-By separating the framework into independent architectural layers, the Documentation Framework achieves clear responsibility boundaries, controlled dependencies, incremental evolution and long-term maintainability.
+-
+-This organization serves as the structural foundation upon which all architectural components and specifications are built.
++The structural model distinguishes seven areas, one primary allocation per capability, cross-cutting concerns, semantic ownership and scoped required consumption. It supports assessed maintainability and evolution without guaranteeing those outcomes or implemented operational capability.
++
++This working edition applies eight findings and two warnings as **Corrected—pending validation**. Exact-source VALIDATE DOCUMENT, peer propagation and integrated checks remain pending. Draft/unassigned confers no approval, publication or Baseline membership.
++
++## 18.1. Compatibility assessment
++
++V1.0 asserted unscoped only-lower/no-higher dependencies in §§12/13.1, confined responsibilities in §13.5 and mandatory backward compatibility in §17. V2.0 replaces ambiguous serial/visual dependency interpretation with explicit support order, scoped consumer→provider contracts and same-Layer requirements; distinguishes primary ownership from cross-cutting participation; and permits justified incompatible evolution under an assessed transition.
++
++This is an **incompatible normative contract reconciliation**. Type/count/name corrections alone would be compatible; the changed constraints justify Version 1.0→2.0. Declared Revision 0 increments to 1 without reset. DF-ARC-004 and its path remain stable; no Component/Class or identity allocation is invented. The operating review conventions are defined by [DF-RVW-001 — Review Policy](../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md).
++
++## 18.2. Local edition history
++
++| Date | Version | Revision | Contribution/event | State/evidence |
++|---|---|---|---|---|
++| Not supplied | 1.0 | 0 | Received Layers source; Author absent | Family Architecture/Type Layers; Draft/Baseline1.0 declarations preserved; approval/selection evidence not supplied |
++| 2026-10-05 | 2.0 | 1 | Codex — AI assistant: seven areas, scoped required contracts, primary/cross-cutting ownership, component label reconciliation, execution/evidence boundaries and references | Family Architecture/Type Structure; Draft; Baseline Not assigned; ten corrections pending VALIDATE DOCUMENT; CHANGELOG #281; Review Report §31 |
++
++Input SHA-256: `086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab`. Actual content contribution differs from user authorization, review, validation, ownership and approval. Mixed human/assistant contributions retain their attribution. Later disk edits need assessment of the resulting edition/bytes; previous evidence does not transfer automatically or assign responsibility for consequences of the final product. No original author is invented and no historic approval is inherited.
++
++## 18.3. Propagation and verification limits
++
++This UPDATE changes Layers and central report/tracking/evidence only. Concepts and the six Foundation sources retain their prior exact-source validation scopes. Concepts' earlier note about received Layers discrepancies remains event-time evidence and does not certify this successor. Overview, Principles, Components, Terminology and detailed owner sources retain their scheduled cycles and remaining discrepancies.
++
++The [DF-RVW-002 — Review Report](../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md) §31 records the actual before/after map, source/view hashes, affected comparison sections and construction checks. The complete received source and two originally unnamed views remain in the input/diff/map; replacement views use original-section provenance rather than invented historic IDs.
++
++M11 remains In Progress: Concepts C, Layers S, five peers O; no Layers completion date. All 19 prior global records remain Open; INV-04/REV2-01/02 still require remaining source reconciliation. Earlier 67 local closures retain their exact-source scopes. Owner catalog/Profile, identity/classification and full required-graph/compatibility reconciliation remain pending. No final integrated conformity, release, selected snapshot or final Context-Reviewed.zip is asserted.
+ 
+ ---
+ 
+ **End of Document**
+ 
+----+---
+--- before-4.08-UPDATE/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ after-4.08-UPDATE/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 24 |
++| **Revision** | 25 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -65,6 +65,8 @@
+ Revision 23 records Step4.07 VALIDATE DOCUMENT in §29 on 2026-10-05. Current totals:19 Open,67 Closed—verified,one Not applicable—scope decision. Concepts exact V2.0 R1 unchanged Draft/unassigned; M11 one C/six O In Progress. Next:4.08 REVIEW DF-ARC-004.
+ 
+ Revision 24 adds Step 4.08 Architectural Layers REVIEW in §30 on 2026-10-05. Current totals: 29 Open, 67 Closed—verified, one Not applicable—scope decision. Source V1.0 R0 unchanged; proposed Type Structure, V2.0 R1. Next: 4.08 UPDATE DF-ARC-004. M11 one C/one S/five O In Progress.
++
++Revision 25 records Step4.08 UPDATE in §31 on2026-10-05. Layers now V2.0 R1 Architecture/Structure Draft/unassigned; ten corrections pending VALIDATE DOCUMENT. Totals:19 Open,ten Corrected—pending validation,67 Closed—verified,one Not applicable—scope decision. §30 preserves REVIEW-time states. Next:4.08 VALIDATE DOCUMENT.
+ 
+ ## 2. Concrete changes — before/after
+ 
+@@ -174,6 +176,7 @@
+ | 2026-10-04 | 1.0 | 22 | Step 4.07 Concepts UPDATE V2.0 R1; ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #272 |
+ | 2026-10-05 | 1.0 | 23 | Step4.07 local Concepts validation; ten verified closures; source unchanged | Draft; Baseline Not assigned; exact V2.0 R1 retained; #274–276 |
+ | 2026-10-05 | 1.0 | 24 | Step 4.08 Layers REVIEW; eight findings/two warnings Open; source unchanged | Draft; Baseline Not assigned; compatible informational report update; #278; evidence checks #280 |
++| 2026-10-05 | 1.0 | 25 | Step4.08 Layers UPDATE V2.0 R1 Type Structure; ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #282 |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -2218,3 +2221,85 @@
+ ### 30.5. Next command
+ 
+ **CONTINUAR** starts **4.08 — UPDATE DF-ARC-004 — Architectural Layers**, applying localized corrections with actual compatibility assessment, exact source/history/diff and tracking, then pauses before VALIDATE DOCUMENT.
++
++
++## 31. Step 4.08 — UPDATE DF-ARC-004 — Architectural Layers
++
++### 31.1. Actual successor and compatibility
++
++**UPDATE complete; VALIDATE DOCUMENT pending.** Received V1.0 R0 Draft/Baseline1.0, Family Architecture/Type Layers becomes **V2.0 R1 Draft, Baseline Not assigned**, Family Architecture/Type Structure, English. Structure follows the primary organizational/allocation/restriction responsibility in §§2–3/15. Preserve DF-ARC-004 and its path; no Component/Class, component registration or identity allocation is invented. Received Author remains absent in history; actual working-edition contribution is Codex — AI assistant, separate from authorization, review, validation and approval.
++
++Input SHA-256: `086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab`. Output SHA-256: `56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec` (32,430 bytes; 434 lines; CRLF retained).
++
++**Actual compatibility: incompatible normative reconciliation.** Received §§12/13.1 impose unscoped only-lower/no-higher rules through an untyped visual chain; §13.5 confines responsibility, and §17 mandates backward compatibility. The successor states an explicit support order for required cross-Layer contracts, permits genuine same-Layer interfaces, distinguishes primary ownership from cross-cutting participation and allows explicitly justified incompatible transitions. It rejects false serial/absolute-isolation interpretations rather than simply marking current rules historical. Type/count/name edits alone would be compatible; the revised constraints justify major Version 1.0→2.0, minor0. Declared Revision 0 increments to 1 without reset. Draft/unassigned creates no inherited approval or snapshot membership.
++
++The report's own R24→R25 change is compatible informational tracking; Version 1.0 remains. Original input, view text/hash and exact material before/after are preserved.
++
++### 31.2. Applied corrections and actual before/after
++
++| Record | Actual source scope | Before | Written result | State |
++|---|---|---|---|---|
++| ARC004-01 | Header;2;3;18.1/18.2 | Type=Layers is outside the four adopted Type values. Family=Architecture is the documentary area; the primary purpose in §§2–3/15 is structural organization and allocation. The received header declares Draft, V1.0 R0, Baseline1.0 and no Author; these declarations are not approval evidence. | Architecture/Structure V2.0 R1 Draft/unassigned; received Type Layers/R0/Baseline1.0 and absent Author retained in history; actual Codex contribution distinct, identity/path stable. | Corrected—pending validation |
++| ARC004-02 | 4;5–11;15 | §4 declares six Layers, while its view and §§5–11 enumerate seven. The text does not distinguish those structural areas from the five conceptual concerns reconciled in Blueprint/Concepts, or support-definition areas from registered capability components. | Seven structural areas, five separate conceptual concerns and 23 registered capability entries distinguished; Foundation/Architecture support definitions, no extra Knowledge/Preservation Layer/component. | Corrected—pending validation |
++| ARC004-03 | 4;12;13.1/13.2/13.4 | The allocation stack and dependency chain have no edge semantics. Each Layer builds on lower Layers, only-lower rules and a no-higher prohibition conflate presentation order with required contracts. The corrected Concepts matrix includes legitimate same-Layer pairs such as Workflow→Policies and Knowledge Graph→Relationships; the serial view does not identify their actual provider contracts. | Allocation view separate from seven scoped consumer→provider rows, including same-Layer pairs. Lower/higher defined by explicit support order for required cross-Layer contracts, not visual position. Actual required-cycle prohibition retained; complete graph remains pending. | Corrected—pending validation |
++| ARC004-04 | 5.2;6.2;7.1/7.3;13.3/13.5;14.2;15 | Responsibilities must remain confined to their Layer, yet primary allocation is exactly one and conceptual/structural definitions span Foundation and Architecture. Metadata represents document descriptors whose Identity, Classification and Governance meanings have other owners. Preservation and knowledge participation cross structural areas. | Exactly one primary allocation plus explicit cross-cutting participation and owner semantics. Metadata represents descriptors; domain owners retain meaning; Dictionary/Schema/Profile/Instance roles and one effective Profile summarized without fabricating records. | Corrected—pending validation |
++| ARC004-05 | 8.1/8.3;11.3 | Governance controls evolution and lists approvals/publication/preservation; Integration also lists publishing. The source does not separate governing contracts from operational execution or exact status/edition/Baseline selection. | Governance defines lifecycle/authorization contracts, applicable executors operate them; review/validation/approval/publication separate. Baseline exact immutable explicit approved-edition selection with pinned context; eligibility/consistency/inclusion distinct. | Corrected—pending validation |
++| ARC004-06 | 9.1–9.3 | Registry, Relationships, Knowledge Graph, Navigation and Search are listed together without authoritative-record versus derived-projection roles. Semantic navigation and dependency analysis are not typed; discovery contrasted with directories can be read as excluding physical location or unapproved editions. | Relationships owns typed records; Registry/Graph traceable projections with freshness, Navigation/Search consumers. Draft discovery allowed with explicit state; directories physical, no universal pipeline or hidden required edge. | Corrected—pending validation |
++| ARC004-07 | 10.2;11.2;15 | Seven component labels differ from ARC-005: Metadata Generation, Registry Generation, Documentation Generators, Source Control, CI/CD, IDE Extensions and Documentation Platforms. Activities/platform classes and named components are conflated; the five area inventories contain 23 entries. | Seven received activity/environment labels mapped to exact ARC-005 counterparts; IDE extensions qualified as possible implementation. All 23 entries and five area allocations preserved; peer cycle still pending. | Corrected—pending validation |
++| ARC004-08 | 3;10;11;14.5;18 | Automation and Integration are described as operating activities and capabilities, but this source explicitly excludes detailed implementations and supplies no implementation evidence. Validation/consistency checks and intelligent assistance can be mistaken for guaranteed framework conformity or new semantic authority. | Capability contract, actual executor and implementation evidence separated; checks scoped to exact inputs/rules/limits. Automation/integration/AI do not create semantic or approval authority, product guarantees or responsibility for later changed bytes. | Corrected—pending validation |
++| ARC004-W01 | 1;13.3;14;17;18.1 | Independence, slower lower-Layer evolution, safe new-Layer extension, backward compatibility and achieved maintainability are presented as general properties or obligations without impact evidence. Principles §8.2 allows assessed incompatibility when required. | Independence/stability/quality are assessed objectives, no mandatory relative release frequency or harmless-extension guarantee. Allocation/new-Layer/contract change requires impact mapping and transition; justified incompatibility assessed explicitly. | Corrected—pending validation |
++| ARC004-W02 | 5.3;16;18.1–18.3 | Six Foundation titles and five Architecture-role entries have no operational Markdown links. There is no source history, input digest or provenance for the two unnamed views; source presence does not prove unseen owner specifications or completed peer cycles. | Thirteen links resolve: six Foundation, five Architecture, policy/report. Actual input/history and both received-view texts/hashes preserved; source roles/peer coverage bounded. Earlier report sections remain event-time evidence. | Corrected—pending validation |
++
++The literal excerpts below are selected material examples, not the complete change record. Full numbered body before/after and hashes, header changes, added sections, received view text/digests and label mappings are recorded in `DF-RVW-002-update-4-08-map.json`; the full diff also includes central registers.
++
++| Section | Actual before excerpt | Actual written excerpt | Reason/impact |
++|---|---|---|---|
++| 4 | “The Documentation Framework is organized into six architectural layers.” | “The Documentation Framework is organized into **seven structural Layers**.” | Seven area descriptions agree; separate five-concern view. |
++| 12 | “Layers depend only on lower architectural layers.” | “A required dependency is directed **consumer→provider**: the consumer needs the stated provider contract in the declared scope.” | Typed actual contract instead of visual serial dependence. |
++| 13.1 | “A layer may depend only on lower layers.” | “Apply the support order defined in §12 to required cross-Layer provider contracts.” | Lower/higher defined by support order, not on-page vertical position. |
++| 13.2 | “Circular dependencies between layers are prohibited.” | “Circular required dependencies are prohibited in the governed contract scope, including cycles among components within an area and across areas.” | Actual required-cycle constraint retained and scope explicit. |
++| 13.5 | “Responsibilities shall remain confined to the layer to which they belong.” | “Primary ownership does not confine all participation to one concern or forbid explicit consumer/provider collaboration.” | Primary allocation distinct from cross-cutting participation. |
++| 14.3 | “Lower layers shall evolve more slowly than higher layers.” | “No relative change frequency is mandated: an earlier support area may require urgent or incompatible correction when evidence warrants it.” | Stability objective without an unsupported edition-frequency rule. |
++| 14.4 | “New layers may be introduced without compromising existing layers.” | “Extension is preferred where it preserves meaning; it is not guaranteed to leave existing areas unaffected.” | Extension requires impact assessment. |
++| 17 | “- backward compatibility;” | “Necessary incompatible changes require explicit justification, transition plan and verification.” | Compatibility where feasible; justified incompatible transitions. |
++| 11.3 | “- publishing;” | “Publishing follows Governance authorization for the exact edition.” | Execution adapter does not become an approver. |
++
++All eighteen original chapters and all 48 original numbered sections retain their numbers. 38 original section bodies changed; empty chapter introductions remain empty. Added §§18.1–18.3 record compatibility, local history and propagation limits. The two originally unnamed views (§§4/12) become typed Markdown tables with original-section anchors; no historical view ID is fabricated. File bytes remain protected by exact SHA-256; received view text hashes explicitly use UTF-8 with CRLF normalized to LF.
++
++The allocation table preserves all seven areas and 23 capability entries in the 4/4/5/5/5 distribution. Knowledge and Preservation remain conceptual/cross-cutting concerns; Foundation/Architecture supporting definitions do not become invented components. Seven activity/environment label changes map to ARC-005's named counterparts; IDE extensions are qualified as one implementation possibility. All thirteen operational references resolve to supplied declarations: six Foundation, five Architecture and review policy/report.
++
++### 31.3. Actual dependency contract and localized impact
++
++Section 12 now declares support order Foundation, Architecture, Documentation, Governance, Discovery, Automation, Integration. Lower/higher refers to earlier/later support areas in that order, not a lower/higher visual row. For required cross-Layer consumption the provider must precede the consumer. This constraint does not require every area to consume every earlier one or a serial adjacent service chain. Same-Layer requirements use explicit ownership/interfaces and the actual-cycle prohibition. Altering the structural constraint requires a traceable architectural revision/impact decision; it is not an arbitrary upward-dependency exception.
++
++| Consumer | Consumer area | Provider | Provider area | Preserved required scope |
++|---|---|---|---|---|
++| Registry | Discovery | Metadata | Documentation | When indexing edition descriptors; refresh or identify stale values |
++| Knowledge Graph | Discovery | Document Identity | Documentation | When keying document nodes; other entity kinds use their own endpoint identity contracts |
++| Knowledge Graph | Discovery | Relationships | Discovery | When projecting the semantic network and interpreting dependency kinds |
++| Workflow | Governance | Metadata | Documentation | When interpreting documentary state values for a governance transition |
++| Workflow | Governance | Policies | Governance | When deciding permitted governance operations; execution remains with the applicable process |
++| Baselines | Governance | Document Identity | Documentation | When selecting/preserving document-edition members |
++| Baselines | Governance | Metadata | Documentation | When selecting/preserving exact editions; relevant relationship context must also be pinned or evidenced |
++
++The seven consumer/provider/contract/scope rows exactly preserve Concepts §8's selected intended contracts with allocation columns added. Same-Layer Knowledge Graph→Relationships and Workflow→Policies remain actual requirements. The sequence of areas is a structural constraint; it is not evidence of every edge, runtime service or full acyclicity. Documentary authority, semantic association, projection, navigation and execution remain separately typed. An indispensable provider stays required even if carried by a projection or labelled reference. A real cycle remains visible and requires owner reconciliation; no complete globally acyclic graph is claimed.
++
++The pre-change impact map in §30 and REVIEW evidence identified owner/consumer comparison sections/hashes before source application. Layers reconciles with corrected Blueprint/Manifest/Concepts contracts in the stated local scope. Overview count/direction/independence, Principles' applicability/extensions, Components' ownership/projections/dependencies and Terminology's abbreviated definitions retain scheduled peer cycles. The seven selected rows are not a complete consumer matrix. Earlier Concepts wording about received Layers discrepancies remains dated evidence, not current successor validation; later consumer propagation must assess it explicitly.
++
++Metadata's representation, Dictionary definitions, Schema references, Profile constraints and Instance values under one effective Profile remain owner responsibilities. Identity/Classification/Governance meanings are not reassigned by Metadata fields or by this Layer summary. Detailed owner catalog/Profile, stable identity/schema/classification and full dependency/compatibility reconciliation remain M12/M13/integrated work. No new metadata records, component, Layer, external system specification or Baseline is manufactured. Components are not silently relocated and all other source bytes remain unchanged.
++
++All 19 prior global records remain Open, including INV-04/REV2-01/02 while consuming occurrences remain unreconciled. The 67 earlier closures retain exact-source scope. Actual authorship/contribution, user authorization, review, validation, ownership and approval remain distinct. Source §18.2 is an UPDATE-time pending record; later disk changes require resulting-byte evidence and do not inherit a previous result or product-consequence responsibility.
++
++### 31.4. Tracking and construction integrity
++
++Current totals: **19 Open, ten Corrected—pending validation, 67 Closed—verified, one Not applicable—scope decision**. No local finding closes in UPDATE. Report V1.0 R25 remains technical English, Draft/unassigned. CHANGELOG #281 records exact source V1.0 R0→V2.0 R1; #282 report; #283 milestone tracking.
++
++M11 remains In Progress: Concepts C, Layers S, five peers O; UPDATE complete, VALIDATE pending, no Layers completion date. M10's six Foundation documentary cycles, earlier exact-source closures and M0–M7 history are preserved. M9 cites R25 without extending original acceptance.
++
++Construction checks cover input/REVIEW checkpoint/output, working header, complete original numbering/body map and eighteen chapters, both typed views/received provenance, 23 entries and seven label counterparts, seven exact Concepts contract rows and support-order compliance, rectangular source/new report tables, thirteen resolving reference IDs, local input/history evidence, all other sources, seven earlier validated source hashes, six README files, 89 stable matrix positions, eight functional exclusions and central sequence/history. They are **construction/integrity checks only**, not VALIDATE DOCUMENT, finding closure, approval, publication or integrated conformity.
++
++R25 map/classification/construction/progress/manifest/full diff describe current UPDATE. R24 REVIEW retains event-time Open states. `Context-Working-Step-4-08-Update.zip` is interim; final Context-Reviewed.zip remains pending.
++
++### 31.5. Next command
++
++**CONTINUAR** starts **4.08 — VALIDATE DOCUMENT DF-ARC-004**, checking complete exact V2.0 R1 against input, ten closure criteria, all allocations, views, required contracts and affected-source comparisons, then pauses. No approval or next source cycle is automatic.
+--- before-4.08-UPDATE/Context/CHANGELOG.md
++++ after-4.08-UPDATE/Context/CHANGELOG.md
+@@ -58,6 +58,9 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 283 | 2026-10-05 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 remains In Progress: Concepts C,Layers S V2.0 R1 Draft/unassigned UPDATE complete VALIDATE pending,five peers O,no Layers completion date; M10 retained; M9 reportR25; historical events preserved; no integrated conformity/approval. |
++| 282 | 2026-10-05 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R24 to R25 Draft/unassigned: actual Layers before/after and incompatible contract/consumer impact;19 Open,ten Corrected-pending-validation,67 Closed-verified,INV-02 Not applicable; construction checks only; section31. |
++| 281 | 2026-10-05 | Codex — AI assistant | Updated | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md | Architecture | Step4.08 actual UPDATE V1.0 R0 Draft/Baseline1.0 Architecture/Layers to V2.0 R1 Draft/unassigned Architecture/Structure; incompatible normative support-order/scoped-dependency, primary/cross-cutting and compatibility reconciliation; seven areas,23 components,seven label counterparts,two typed views,13 references/history; ten corrections pending VALIDATE DOCUMENT; input 086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab, output 56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec; report section31; update-4-08.diff; M11. |
+ | 280 | 2026-10-05 | Codex — AI assistant | Validated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Step4.08 REVIEW evidence checks PASS: unchanged input/source/checkpoint, chapter/view/component/reference inventory, comparison hashes, earlier sources, stable matrix and central history. Not VALIDATE DOCUMENT of Layers; ten local records remain Open; section30; M11. |
+ | 279 | 2026-10-05 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 Layers O to S start2026-10-05, no completion date; one C,one S,five O In Progress; M10 six Foundation cycles retained; M9 reportR24; no approval or integrated conformity. |
+ | 278 | 2026-10-05 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R23 to R24 Draft/unassigned: Layers REVIEW and localized before/after proposals;29 Open,67 Closed-verified,INV-02 Not applicable; source UPDATE/VALIDATE not performed. |
+--- before-4.08-UPDATE/Context/ArchitecturalMilestones.md
++++ after-4.08-UPDATE/Context/ArchitecturalMilestones.md
+@@ -253,6 +253,8 @@
+ 
+ Step4.08 REVIEW (2026-10-05): exact unchanged Layers V1.0 R0 Draft/Baseline1.0; eight findings/two warnings Open. Proposed Family Architecture/Type Structure, V2.0 R1 normative reconciliation, actual compatibility pending UPDATE. Layers S, no completion date; Concepts C,five peers O,M11 In Progress. ReportR24 section30; CHANGELOG #277-280; earlier local closures retained, global reconciliation pending.
+ 
++Step4.08 UPDATE (2026-10-05): Layers V2.0 R1 Architecture/Structure Draft/unassigned; incompatible normative dependency/support-order, primary/cross-cutting and assessed-compatibility reconciliation; ten corrections pending VALIDATE DOCUMENT. Concepts C,Layers S,five peers O,M11 In Progress,no Layers completion date. ReportR25 section31; CHANGELOG #281-283; global owner/consumer/dependency propagation remains pending.
++
+ ### Objectives and acceptance
+ 
+ Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
+@@ -264,7 +266,7 @@
+ | O | 2026-09-30 |  |  | DF-ARC-001 | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
+ | O | 2026-09-30 |  |  | DF-ARC-002 | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
+ | C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+-| S | 2026-09-30 | 2026-10-05 |  | DF-ARC-004 — V1.0 R0 Draft; REVIEW complete; UPDATE/VALIDATE pending | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
++| S | 2026-09-30 | 2026-10-05 |  | DF-ARC-004 — V2.0 R1 Draft; UPDATE complete; validation pending | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
+ | O | 2026-09-30 |  |  | DF-ARC-005 | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
+ | O | 2026-09-30 |  |  | DF-ARC-006 | /01-Architecture/DF-ARC-006-Terminology.md |
+ | O | 2026-09-30 |  |  | DF-ARC-007 | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
+@@ -334,7 +336,7 @@
+ 
+ Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+ 
+-Current supporting report edition: DF-RVW-002 V1.0 R24 includes all six Step 4.01-4.06 scoped cycles, the Step4.07 scoped cycle and Step4.08 REVIEW; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
++Current supporting report edition: DF-RVW-002 V1.0 R25 includes all six Step 4.01-4.06 scoped cycles, the Step4.07 scoped cycle and Step4.08 REVIEW/UPDATE; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+ 
+ ### Objectives and acceptance
+ 
