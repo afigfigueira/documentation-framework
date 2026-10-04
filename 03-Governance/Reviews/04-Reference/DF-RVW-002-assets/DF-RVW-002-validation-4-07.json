@@ -1,0 +1,553 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/23",
+  "date": "2026-10-05",
+  "step": "4.07 VALIDATE DOCUMENT",
+  "source": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+  "source_edition": "2.0/1",
+  "source_sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
+  "source_changed": false,
+  "result": "PASS—local Architectural Concepts correction scope",
+  "coverage": {
+    "method": "Complete source read of all409 lines; truncated §§6/7 output reread in full, including all association and required-contract rows. Input/UPDATE body/view comparison, ten closure criteria, all local related occurrences and listed affected owner-source comparisons.",
+    "bytes": 34011,
+    "lines": 409,
+    "chapters": 12,
+    "core_concepts": 16,
+    "characteristics": 5,
+    "views": 3,
+    "named_views": 0,
+    "Markdown_tables": 10,
+    "required_contract_rows": 7,
+    "references": 14
+  },
+  "integrity_checks": {
+    "exact_source_hash": true,
+    "exact_input_hash": true,
+    "R22_manifest_integrity": true,
+    "header_contract": true,
+    "32_input_and_UPDATE_section_hashes": true,
+    "unamended_input_sections_unchanged": true,
+    "original_numbers_retained": true,
+    "twelve_chapters": true,
+    "sixteen_core_concepts": true,
+    "five_characteristics": true,
+    "three_anchored_typed_views": true,
+    "three_received_view_texts_hashes": true,
+    "no_ASCII_diagram_fences": true,
+    "seven_scoped_required_contracts_match_Blueprint": true,
+    "ten_rectangular_tables": true,
+    "fourteen_expected_reference_ids": true,
+    "input_history_and_received_author_absence": true,
+    "CRLF_preserved": true,
+    "72_other_original_normalized_sources_unchanged": true,
+    "six_Foundation_sources_unchanged": true,
+    "six_READMEs_unchanged": true,
+    "eight_functional_records_excluded": true,
+    "source_matches_UPDATE_checkpoint": true
+  },
+  "section_comparison": {
+    "changed": 32,
+    "unchanged": 1,
+    "added": [
+      "12.1",
+      "12.2",
+      "12.3"
+    ]
+  },
+  "view_provenance": [
+    {
+      "original_section": "4",
+      "original_named_id": null,
+      "original_view_sha256": "4110f5dda0fd47d14d027cc2f2110a4f10afbf90a6954130f3ea6bd7afe62855",
+      "original_view_text": "```text\n\n                Knowledge\n                    │\n                    ▼\n\n              Documentation\n                    │\n                    ▼\n\n                 Document\n                    │\n                    ▼\n\n                 Metadata\n                    │\n                    ▼\n\n                 Identity\n                    │\n                    ▼\n\n              Classification\n                    │\n                    ▼\n\n              Relationships\n                    │\n                    ▼\n\n                Registry\n\n```",
+      "working_anchor": "original-section-view: 4",
+      "relation_interpretation": "Concept categories and owner responsibilities."
+    },
+    {
+      "original_section": "6",
+      "original_named_id": null,
+      "original_view_sha256": "0c3ebadb62dc1d90a6f2b1ce613d68e6aa15e6188eebea875a6620c206a54bf4",
+      "original_view_text": "```text\n\n                        Knowledge\n                            │\n                            ▼\n\n                      Documentation\n                            │\n                            ▼\n\n                         Document\n                            │\n          ┌─────────────────┼─────────────────┐\n          │                 │                 │\n          ▼                 ▼                 ▼\n      Metadata          Identity        Classification\n                            │\n                            ▼\n\n                      Relationships\n                            │\n                            ▼\n\n                         Registry\n                            │\n                            ▼\n\n                     Knowledge Graph\n\n```",
+      "working_anchor": "original-section-view: 6",
+      "relation_interpretation": "Typed entity and capability associations."
+    },
+    {
+      "original_section": "8",
+      "original_named_id": null,
+      "original_view_sha256": "d3d2f8dbe7fd574ce09de6b95fe80ece2878c6a56086b98c5697c668e383aad0",
+      "original_view_text": "```text\n\n                Knowledge\n                    │\n                    ▼\n\n               Documentation\n                    │\n                    ▼\n\n                 Document\n                    │\n                    ▼\n\n                 Metadata\n                    │\n                    ▼\n\n                 Identity\n                    │\n                    ▼\n\n              Classification\n                    │\n                    ▼\n\n              Relationships\n                    │\n                    ▼\n\n                Registry\n                    │\n                    ▼\n\n             Knowledge Graph\n\n```",
+      "working_anchor": "original-section-view: 8",
+      "relation_interpretation": "Selected required contracts; consumer→provider."
+    }
+  ],
+  "required_contracts": [
+    {
+      "consumer": "Registry",
+      "provider": "Metadata",
+      "required_contract": "Descriptive values with source-edition provenance",
+      "scope": "When indexing edition descriptors; refresh or identify stale values"
+    },
+    {
+      "consumer": "Knowledge Graph",
+      "provider": "Document Identity",
+      "required_contract": "Entity identity for logical document nodes",
+      "scope": "When keying document nodes; other entity kinds use their own endpoint identity contracts"
+    },
+    {
+      "consumer": "Knowledge Graph",
+      "provider": "Relationships",
+      "required_contract": "Typed connection records and provenance",
+      "scope": "When projecting the semantic network and interpreting dependency kinds"
+    },
+    {
+      "consumer": "Workflow",
+      "provider": "Metadata",
+      "required_contract": "Represented state/edition descriptors",
+      "scope": "When interpreting documentary state values for a governance transition"
+    },
+    {
+      "consumer": "Workflow",
+      "provider": "Policies",
+      "required_contract": "Applicable transition and evidence rules",
+      "scope": "When deciding permitted governance operations; execution remains with the applicable process"
+    },
+    {
+      "consumer": "Baselines",
+      "provider": "Document Identity",
+      "required_contract": "Logical member identity",
+      "scope": "When selecting/preserving document-edition members"
+    },
+    {
+      "consumer": "Baselines",
+      "provider": "Metadata",
+      "required_contract": "Exact edition-reference/descriptive contract",
+      "scope": "When selecting/preserving exact editions; relevant relationship context must also be pinned or evidenced"
+    }
+  ],
+  "Blueprint_contract_pairs": [
+    [
+      "Baselines",
+      "Document Identity"
+    ],
+    [
+      "Baselines",
+      "Metadata"
+    ],
+    [
+      "Knowledge Graph",
+      "Document Identity"
+    ],
+    [
+      "Knowledge Graph",
+      "Relationships"
+    ],
+    [
+      "Registry",
+      "Metadata"
+    ],
+    [
+      "Workflow",
+      "Metadata"
+    ],
+    [
+      "Workflow",
+      "Policies"
+    ]
+  ],
+  "references_at_validation_input": [
+    {
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "target": "DF-ARC-001-ArchitectureOverview.md",
+      "expected_id": "DF-ARC-001",
+      "declared_id": "DF-ARC-001",
+      "sha256_at_validation_input": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "target": "DF-ARC-002-ArchitecturalPrinciples.md",
+      "expected_id": "DF-ARC-002",
+      "declared_id": "DF-ARC-002",
+      "sha256_at_validation_input": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "target": "DF-ARC-004-ArchitecturalLayers.md",
+      "expected_id": "DF-ARC-004",
+      "declared_id": "DF-ARC-004",
+      "sha256_at_validation_input": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "target": "DF-ARC-005-ArchitecturalComponents.md",
+      "expected_id": "DF-ARC-005",
+      "declared_id": "DF-ARC-005",
+      "sha256_at_validation_input": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "target": "DF-ARC-006-Terminology.md",
+      "expected_id": "DF-ARC-006",
+      "declared_id": "DF-ARC-006",
+      "sha256_at_validation_input": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb"
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "target": "../00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "expected_id": "DF-FND-001",
+      "declared_id": "DF-FND-001",
+      "sha256_at_validation_input": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "target": "../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "expected_id": "DF-FND-004",
+      "declared_id": "DF-FND-004",
+      "sha256_at_validation_input": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6"
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "target": "../00-Foundation/DF-FND-006-DesignRationale.md",
+      "expected_id": "DF-FND-006",
+      "declared_id": "DF-FND-006",
+      "sha256_at_validation_input": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "target": "../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "expected_id": "DF-RVW-001",
+      "declared_id": "DF-RVW-001",
+      "sha256_at_validation_input": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb"
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "target": "../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "expected_id": "DF-RVW-002",
+      "declared_id": "DF-RVW-002",
+      "sha256_at_validation_input": "6b5a5fbd3af9bde7de26dba0bdf49fd45daee6acb092c8604f7332779574f670"
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "target": "../02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "expected_id": "DF-MTD-014",
+      "declared_id": "DF-MTD-014",
+      "sha256_at_validation_input": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "target": "../02-Documentation/DocumentIdentity/04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md",
+      "expected_id": "DF-DID-014",
+      "declared_id": "DF-DID-014",
+      "sha256_at_validation_input": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "target": "../02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "expected_id": "DF-CLS-014",
+      "declared_id": "DF-CLS-014",
+      "sha256_at_validation_input": "e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "target": "../02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "expected_id": "DF-TPL-014",
+      "declared_id": "DF-TPL-014",
+      "sha256_at_validation_input": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "6",
+        "8"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "1.7",
+        "3.4",
+        "4.6",
+        "5.6",
+        "6.7",
+        "6.8",
+        "8.2",
+        "8.3",
+        "8.4",
+        "8.5",
+        "8.6",
+        "8.7",
+        "8.11"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "sha256": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "6.6",
+        "8.11"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "sha256": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "5",
+        "6",
+        "9",
+        "11",
+        "12"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "sha256": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "6.2",
+        "7.4",
+        "8.2",
+        "8.3"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "4",
+        "12",
+        "13"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "sha256": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "5.2",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8",
+        "5.10",
+        "5.11",
+        "5.12",
+        "5.13",
+        "5.14",
+        "5.15",
+        "5.20",
+        "5.23",
+        "5.26",
+        "5.29",
+        "5.30",
+        "5.37",
+        "5.38",
+        "5.39",
+        "9"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "sha256": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "1",
+        "3",
+        "6.3",
+        "6.4",
+        "6.5",
+        "6.6",
+        "6.7",
+        "6.8"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "sha256": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "1",
+        "3"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "sha256": "e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "1",
+        "3"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "sha256": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464",
+      "coverage": "Partial; listed sections including subordinate clauses",
+      "sections": [
+        "1",
+        "3"
+      ],
+      "comparison_does_not_complete_source_cycle": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "ARC003-01",
+      "criterion": "Working classification uses the uniform four-Type contract; received edition and actual contribution remain traceable; no inherited approval/Baseline, invented authorship or ID migration.",
+      "sections": "Header; 3; 12.1/12.2",
+      "observed_evidence": "Conceptual-definition responsibility matches Architecture documentary Family and Type Architecture. V2.0 R1 Draft/unassigned; received R0/Baseline declaration and absent Author preserved, actual Codex working contribution separate. ID/path stable, no Component/Class or approval invented.",
+      "result": "PASS—local Architectural Concepts correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-03; REV2-12"
+    },
+    {
+      "id": "ARC003-02",
+      "criterion": "Every view has explicit semantics; every required edge has consumer/provider, contract and scope. Conceptual associations neither masquerade as dependencies nor erase actual required dependencies; full-graph limitations remain explicit.",
+      "sections": "4; 6; 8",
+      "observed_evidence": "All three views inspected: category/responsibility in4, typed association in6 and scoped consumer→provider contracts in8. Seven required pairs exactly expand Blueprint ab8-5; every row names contract and scope. Received normative chain is replaced, not retained as accepted dependency or disguised mandatory cycle. Full-graph/source-conflict limits explicit.",
+      "result": "PASS—local Architectural Concepts correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02; REV2-01"
+    },
+    {
+      "id": "ARC003-03",
+      "criterion": "No universal normalized header or nonempty relationship requirement for functional files; description/domain authority and applicability are distinct, without fabricated catalog records or guaranteed independent edition evolution.",
+      "sections": "3; 5.3; 5.4",
+      "observed_evidence": "All-location functional exclusion precedes normalized obligations; relationships recorded when existing/required without nonempty universal list. Metadata represents descriptors while Identity/Classification/Governance own semantics. Dictionary/Schema/Profile/Instance responsibilities and exactly one effective Profile explicit; coordinated content/descriptors and catalog limitations retained.",
+      "result": "PASS—local Architectural Concepts correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "INV-02 remains Not applicable; REV2-06; REV2-07; REV2-08; REV2-11"
+    },
+    {
+      "id": "ARC003-04",
+      "criterion": "Document identity, mutable classification, exact edition coordinates, Status and membership are unambiguous across the model. No additional identity key, retroactive edition or allocation/migration is introduced.",
+      "sections": "5.3; 5.5; 5.6; 5.11; 5.13; 11",
+      "observed_evidence": "Domain+Identifier logical key distinct from edition, Version/Revision, exact Status, physical representation and membership. Stable DF-SSS-NNN corpus allocations independent of mutable classification; uniform Types, admitted Family and optional defined Class. Actual major/minor policy and monotonic Revision, received R0 preserved; no allocation/migration.",
+      "result": "PASS—local Architectural Concepts correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-03; REV2-04; REV2-09; REV2-10"
+    },
+    {
+      "id": "ARC003-05",
+      "criterion": "Catalog authority is limited to catalog responsibility; typed records and traceable projections remain distinct. No physical single-copy rule, automatic consistency, competing domain authority or universal serial service route is implied.",
+      "sections": "5.7; 5.8; 5.14; 6; 8",
+      "observed_evidence": "Typed Relationships records retain endpoint domains and provenance. Registry catalog authority and Graph network views do not replace domain owners; derived copies permitted with current/refresh/stale context. No physical single-copy constraint, automatic consistency, competing semantic authority or universal Registry intermediary.",
+      "result": "PASS—local Architectural Concepts correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02; earlier Foundation projection closures retain local scope"
+    },
+    {
+      "id": "ARC003-06",
+      "criterion": "Definitions describe domain contracts and intended capabilities without claiming unverified execution, universal transition permissions, guaranteed correctness or approval/publication from a validation result.",
+      "sections": "3; 5.11; 5.12; 5.15; 5.16; 12",
+      "observed_evidence": "Workflow state list explicitly illustrative and applicable-policy controlled. DF contracts versus DMS/tool/manual execution and CMS change governance explicit. Validation requires exact artifacts/rules/scope/evidence/limits and does not approve or guarantee global correctness. Automation describes intended capabilities without asserting implementation/outcomes; attribution/authorization/review/validation/approval remain separate.",
+      "result": "PASS—local Architectural Concepts correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-08; REV2-12; earlier exact-edition governance closures retain scope"
+    },
+    {
+      "id": "ARC003-07",
+      "criterion": "Baseline member references remain exact and immutable; identity, eligibility, consistency and inclusion are separate, with no automatic current-path retargeting or manufactured snapshot evidence.",
+      "sections": "5.3; 5.11; 5.13; 6; 8",
+      "observed_evidence": "Baseline has independent snapshot identity, explicit immutable exact approved-edition selection, pinned relevant context/evidence and scope. Eligibility, consistency and inclusion distinct; old members do not retarget or confer membership on successors. CMS records may provide provenance without replacing snapshots; no selection/approval fabricated.",
+      "result": "PASS—local Architectural Concepts correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02; prior Foundation snapshot closures retain local scopes"
+    },
+    {
+      "id": "ARC003-08",
+      "criterion": "No concept automatically becomes a component/Layer; structural and conceptual views are distinct, primary allocations retained and specification/implementation status qualified. Owner-source references do not create a blanket circular execution dependency or claim global structural reconciliation.",
+      "sections": "4; 5.1; 5.9; 5.10; 9; 10",
+      "observed_evidence": "Concepts/entities, capability components, five conceptual concerns, seven structural areas and documentary organization distinct. Metadata remains Documentation, Workflow/Baselines Governance; Knowledge/Preservation create no additional component/Layer. Owner/specification references and supplied versus intended implementation status qualified; six/seven/direction conflicts remain scheduled.",
+      "result": "PASS—local Architectural Concepts correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-01; REV2-02; INV-04 remains Open"
+    },
+    {
+      "id": "ARC003-W01",
+      "criterion": "Stability/technology independence are bounded goals; compatible and incompatible changes have explicit assessment paths, with no automatic quality, applicability or compatibility guarantee.",
+      "sections": "2; 3; 7; 11; 12",
+      "observed_evidence": "Technology independence, stability/reuse and quality are bounded contract/design objectives. Justified incompatible evolution explicitly assessed with consumer impact and transition evidence; extension may affect boundaries/structure. Actual V1.0→V2.0 normative dependency/applicability/snapshot change justified; no automatic compatibility or product guarantee.",
+      "result": "PASS—local Architectural Concepts correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02; Review Policy §5.2; ARC-002 §8.2 partial comparison"
+    },
+    {
+      "id": "ARC003-W02",
+      "criterion": "Actual links resolve to intended declarations; source responsibilities, supplied versus illustrative targets and input/local-history provenance are traceable; peer bytes and numbering preserved.",
+      "sections": "9; 10; 12.1–12.3",
+      "observed_evidence": "Fourteen links resolve to expected declarations; encoded DID-014 filename resolves without renaming. Real component specifications distinguished from conceptual Registry/Workflow/Graph roles. All original numbering and three view-source anchors/text hashes preserved; received/input/local history traceable; peers unchanged.",
+      "result": "PASS—local Architectural Concepts correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-12; source-specific evidence/traceability warning"
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Closed—verified": 67,
+    "Not applicable—scope decision": 1
+  },
+  "limits": [
+    "No verified complete mandatory DAG or integrated structural conformity; count/direction and owner conflicts retain scheduled reconciliation",
+    "Incompatible contract assessed for this exact source; consuming-source propagation/compatibility is not globally validated",
+    "Metadata catalog/Profile, identity/schema/classification and other specification source cycles remain incomplete",
+    "No external implementation, operational maturity, approval, publication or Baseline granted"
+  ],
+  "history_interpretation": "Unchanged source retains October4 UPDATE-time pending phrases/local history. October5 central exact-hash validation supersedes current pending tracking; later edits require actual resulting-byte assessment.",
+  "tracking_checks": {
+    "source_bytes_unchanged": true,
+    "89_stable_matrix_positions": true,
+    "matrix_current_hashes": true,
+    "prior_events_preserved": true,
+    "changelog_sequence_276_to_1": true,
+    "M10_and_M0_M7_preserved": true,
+    "M11_one_C_six_O_InProgress": true,
+    "next_matrix_source": true
+  }
+}

@@ -249,6 +249,8 @@ Step 4.07 REVIEW (2026-10-04): Concepts source unchanged V1.0 R0 Draft/Baseline1
 
 Step4.07 UPDATE (2026-10-04): Concepts V2.0 R1 Draft/unassigned; incompatible normative reconciliation of dependency/applicability/snapshot contracts; ten corrections pending VALIDATE DOCUMENT. Concepts S, six peers O; M11 In Progress, no completion date. ReportR22 section28; CHANGELOG #271-273. Global owner/dependency propagation remains pending.
 
+Step4.07 VALIDATE (2026-10-05): exact unchanged Concepts V2.0 R1 local correction scope PASS; ten records Closed-verified. Concepts C, completion2026-10-05; six peers O, M11 In Progress. Source Draft/unassigned; global graph/owner/compatibility reconciliation pending. ReportR23 section29; CHANGELOG #274-276. No approval,publication,Baseline or integrated conformity.
+
 ### Objectives and acceptance
 
 Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
@@ -259,7 +261,7 @@ Dependencies: M10; reconcile owner definitions before consumers. Evidence: DF-RV
 | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
 | O | 2026-09-30 |  |  | DF-ARC-001 | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
 | O | 2026-09-30 |  |  | DF-ARC-002 | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
-| S | 2026-09-30 | 2026-10-04 |  | DF-ARC-003 — V2.0 R1 Draft; UPDATE complete; validation pending | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+| C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
 | O | 2026-09-30 |  |  | DF-ARC-004 | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
 | O | 2026-09-30 |  |  | DF-ARC-005 | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
 | O | 2026-09-30 |  |  | DF-ARC-006 | /01-Architecture/DF-ARC-006-Terminology.md |
@@ -330,7 +332,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
 
-Current supporting report edition: DF-RVW-002 V1.0 R22 includes all six Step 4.01-4.06 scoped cycles and Step 4.07 REVIEW/UPDATE; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+Current supporting report edition: DF-RVW-002 V1.0 R23 includes all six Step 4.01-4.06 scoped cycles and the Step4.07 scoped cycle; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 
