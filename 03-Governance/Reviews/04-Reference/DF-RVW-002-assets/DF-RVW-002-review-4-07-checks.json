@@ -1,0 +1,29 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/21",
+  "result": "PASS",
+  "scope": "REVIEW evidence/traceability only; not VALIDATE DOCUMENT",
+  "checks": {
+    "source_hash_matches_input": true,
+    "source_unchanged": true,
+    "twelve_chapters": true,
+    "sixteen_core_concepts": true,
+    "three_unnamed_views_in_4_6_8": true,
+    "all_finding_sections_resolve": true,
+    "five_received_Architecture_roles_resolve": true,
+    "comparison_hashes_current": true,
+    "73_original_normalized_sources_unchanged": true,
+    "all_other_MD_sources_preserved": true,
+    "six_READMEs_unchanged": true,
+    "eight_functional_records_excluded": true,
+    "89_stable_positions": true,
+    "matrix_current_hashes": true,
+    "central_sequence_270_to_1": true,
+    "prior_events_preserved": true,
+    "M10_and_prior_milestones_preserved": true,
+    "M11_one_S_six_O": true,
+    "source_matches_R20_checkpoint": true
+  },
+  "new_records_open": 10,
+  "source_validation_performed": false
+}
