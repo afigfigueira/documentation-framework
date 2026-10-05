@@ -1,0 +1,139 @@
+--- before-4.08-VALIDATE/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ after-4.08-VALIDATE/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 25 |
++| **Revision** | 26 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -67,6 +67,8 @@
+ Revision 24 adds Step 4.08 Architectural Layers REVIEW in §30 on 2026-10-05. Current totals: 29 Open, 67 Closed—verified, one Not applicable—scope decision. Source V1.0 R0 unchanged; proposed Type Structure, V2.0 R1. Next: 4.08 UPDATE DF-ARC-004. M11 one C/one S/five O In Progress.
+ 
+ Revision 25 records Step4.08 UPDATE in §31 on2026-10-05. Layers now V2.0 R1 Architecture/Structure Draft/unassigned; ten corrections pending VALIDATE DOCUMENT. Totals:19 Open,ten Corrected—pending validation,67 Closed—verified,one Not applicable—scope decision. §30 preserves REVIEW-time states. Next:4.08 VALIDATE DOCUMENT.
++
++Revision 26 records Step4.08 VALIDATE DOCUMENT in §32 on2026-10-05. Exact Layers V2.0 R1 remains unchanged Architecture/Structure Draft/unassigned; ten local closures. Current totals:19 Open,77 Closed—verified,one Not applicable—scope decision. M11 two C/five O In Progress. Next:4.09 REVIEW DF-ARC-005.
+ 
+ ## 2. Concrete changes — before/after
+ 
+@@ -177,6 +179,7 @@
+ | 2026-10-05 | 1.0 | 23 | Step4.07 local Concepts validation; ten verified closures; source unchanged | Draft; Baseline Not assigned; exact V2.0 R1 retained; #274–276 |
+ | 2026-10-05 | 1.0 | 24 | Step 4.08 Layers REVIEW; eight findings/two warnings Open; source unchanged | Draft; Baseline Not assigned; compatible informational report update; #278; evidence checks #280 |
+ | 2026-10-05 | 1.0 | 25 | Step4.08 Layers UPDATE V2.0 R1 Type Structure; ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #282 |
++| 2026-10-05 | 1.0 | 26 | Step4.08 exact Layers validation; ten local verified closures; source unchanged | Draft; Baseline Not assigned; exact V2.0 R1 retained; #284–286 |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -2303,3 +2306,69 @@
+ ### 31.5. Next command
+ 
+ **CONTINUAR** starts **4.08 — VALIDATE DOCUMENT DF-ARC-004**, checking complete exact V2.0 R1 against input, ten closure criteria, all allocations, views, required contracts and affected-source comparisons, then pauses. No approval or next source cycle is automatic.
++
++
++## 32. Step 4.08 — VALIDATE DOCUMENT DF-ARC-004 — Architectural Layers
++
++### 32.1. Result and exact source
++
++**PASS for the localized Architectural Layers correction scope, 2026-10-05.** Complete read of the 32,430-byte /434-line exact source, eighteen chapters, all 48 original numbered sections and three added sections, all six Markdown tables, both typed views,23 component entries and ten closure criteria. Input/UPDATE comparison and explicitly partial affected-source coverage; a truncated comparison introduction was reread separately.
++
++Exact SHA-256: `56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec`. V2.0 R1 remains Architecture/Structure, Draft, Baseline Not assigned, English. Source matches its UPDATE checkpoint and remains unchanged; validation changes neither source Version/Revision nor local history.
++
++The major increment is justified by normative reconciliation of unscoped dependency, confined-responsibility and mandatory-compatibility contracts, rather than count/Type/name correction alone. Revision 0→1 is monotonic across Version 1.0→2.0. This result verifies the ten localized corrections and stated comparison limits; it does not certify propagation or compatibility of every consuming source.
++
++UPDATE-time pending statements in the unchanged source, especially §§18/18.2/18.3 and its October5 history, remain event-time evidence. This later exact-hash central validation supersedes current pending tracking without rewriting an earlier UPDATE into a success or incrementing the source. Attribution, authorization, review, validation, ownership and approval remain distinct. Later disk edits need assessment of resulting bytes; this result neither transfers to a changed product nor establishes responsibility for its consequences. No approval, publication or Baseline membership is granted.
++
++### 32.2. Results by closure criterion
++
++| Record | Verified source evidence | Before | Result |
++|---|---|---|---|
++| ARC004-01 | Header;2;3;18.1/18.2: Organization, composition, allocation and restrictions in §§2–3/15 justify Type Structure under the four-Type policy; Architecture is documentary Family. Exact V2.0 R1 Draft/unassigned, stable ID/path, no Component/Class invented. Received R0/Baseline1.0/absent Author preserved; actual Codex contribution separate. | Corrected—pending validation | Closed—verified |
++| ARC004-02 | 4;5–11;15: §4 declares and tabulates seven areas matching §§5–11. Five conceptual concerns are separately stated; Knowledge is subject matter and Preservation cross-cutting. Foundation/Architecture are supporting definition areas, not new registered components. No count inferred from directory/concern membership. | Corrected—pending validation | Closed—verified |
++| ARC004-03 | 4;12;13.1/13.2/13.4: §4 allocation and §12 required-contract tables have distinct meanings and received-view provenance. Consumer→provider, exact contract/scope, support order and lower/higher meaning explicit; all seven rows preserve Concepts §8 and expand Blueprint pairs. Same-Layer requirements retained; actual required cycles prohibited and not hidden by labels. No arbitrary upward exception or complete graph claimed. | Corrected—pending validation | Closed—verified |
++| ARC004-04 | 5.2;6.2;7.1/7.3;13.3/13.5;14.2;15: One primary allocation is preserved while cross-cutting participation and required collaboration remain explicit. Metadata stays Documentation; Workflow/Baselines Governance. Identity/Classification/Governance own meanings; Dictionary/Schema/Profile/Instance roles and one effective Profile distinct. Definition responsibility and independent evolution are bounded; no fabricated catalog or reallocation. | Corrected—pending validation | Closed—verified |
++| ARC004-05 | 8.1/8.3;11.3: Governance defines exact-edition lifecycle/authorization contracts; DMS/tool/manual execution and CMS change governance separate. Review/validation/approval/publication/membership distinct. Baseline immutable explicit exact approved-edition selection and pinned context; eligibility/consistency/inclusion separate. Integration publishing follows Governance authorization without approval authority. | Corrected—pending validation | Closed—verified |
++| ARC004-06 | 9.1–9.3: Relationships owns typed endpoint/provenance records. Registry/Graph provide traceable projections, derived copies with freshness/context, without replacing domain owners. Navigation/Search consumers and Draft discovery qualified; physical directories remain locations. No universal Registry pipeline or conflation of semantic and required dependency edges. | Corrected—pending validation | Closed—verified |
++| ARC004-07 | 10.2;11.2;15: All 23 entries preserve primary allocation against the supplied ARC-005 component lists (4/4/5/5/5). Seven received activity/environment labels map to actual named counterparts; IDE extension is a possible implementation. Original component inventory accounted for, no new component or completed peer cycle inferred. | Corrected—pending validation | Closed—verified |
++| ARC004-08 | 3;10;11;14.5;18: DF capability definitions separated from actual executors and implementation evidence. Validation/generation/consistency identify exact inputs, rules, coverage, limits and provenance. Integration adapters optional by use case and publication authorized; AI contributions have actual attribution. No semantic/approval authority, implemented completeness, product guarantee or inherited result on later bytes. | Corrected—pending validation | Closed—verified |
++| ARC004-W01 | 1;13.3;14;17;18.1: Independence/stability/quality treated as assessed objectives, no relative edition-frequency obligation or harmless-extension guarantee. New Layers/allocation/contracts require owner/consumer mapping and transition evidence. Compatibility preserved where feasible with justified incompatible changes under policy; actual V1.0→V2.0 normative reconciliation explained. | Corrected—pending validation | Closed—verified |
++| ARC004-W02 | 5.3;16;18.1–18.3: Thirteen links resolve to supplied IDs: six Foundation, five Architecture and policy/report. All48 original numbers, two received-view texts/digests and three added evidence sections traceable. Input/history preserves absent Author and original declarations; reference roles and peer coverage qualified, no unseen specification or implementation inferred. | Corrected—pending validation | Closed—verified |
++
++Full criteria, exact input/current digests, received-view provenance, allocation/label maps, selected required contracts, comparison sections/hashes and checks: `DF-RVW-002-validation-4-08.json`. Ten closures apply only to ARC004-01–08/W01/W02 in this exact edition. The 67 earlier closures retain their own source/scope; all 19 global records, including INV-04/REV2-01/02, remain Open while consuming occurrences require reconciliation.
++
++### 32.3. Integrity, structural contracts and affected-source limits
++
++All 38 changed numbered-body before/after hashes pass; ten unamended original bodies and all 48 original numbers are preserved. Added §§18.1–18.3 provide compatibility, history and propagation limits. Both original-section anchors are balanced, and received view texts/digests match the original input. The digest encoding is explicitly UTF-8 with CRLF normalized to LF for view text; exact input/output file bytes have separate SHA-256 protection. No prior named view ID is fabricated. Six source tables are rectangular; thirteen links resolve to actual declarations. Source CRLF and input/history evidence are retained.
++
++Seven area rows match §§5–11; five conceptual concerns are distinct. All 23 capability entries match ARC-005's supplied component-name sets and primary allocations in the 4/4/5/5/5 distribution. Component ordering within an area is presentation, not a new dependency. The seven label counterparts are accounted for, including IDE-extension qualification; Foundation/Architecture support definitions and Knowledge/Preservation concerns create no new registered components or Layers.
++
++The seven §12 rows exactly preserve Concepts §8's consumer/provider/contract/scope values and expand Blueprint ab8-5's grouped pairs. Their primary areas match the component allocations. Every selected cross-Layer provider precedes its consumer in the explicit support order; Knowledge Graph→Relationships and Workflow→Policies are same-Layer requirements. Lower/higher denotes support precedence rather than page position. The model does not impose an adjacent serial pipeline or every possible earlier-area dependency.
++
++Required cycles remain prohibited in the governed scope and must be assessed against actual edges, including same-Layer requirements. The source explicitly rejects hiding an indispensable provider by a projection/reference label. Documentary authority, semantic relation, navigation and execution are separately typed. Checking these selected contracts does not establish a complete or globally acyclic graph, arbitrary upward-dependency permission, deployed services or integrated conformity.
++
++The pre-validation R25 manifest and UPDATE checkpoint match. All 71 other original normalized sources not changed in the eight source cycles, seven earlier validated source hashes and six README files are preserved. Eight functional records retain INV-02 Not applicable—scope decision; no normalization requirements are imposed on README.md, CHANGELOG.md or ArchitecturalMilestones.md at any location.
++
++Affected comparisons are explicitly partial, including subordinate clauses: Concepts §§3/4/5.3/5.4/5.7–5.11/5.13–5.16/8–11/12.1/12.3; Blueprint §§1.7/3.4/6.7/8.2/8.11; Manifest §§6/8; Overview §§5/6/7/9; Principles §§6.2/6.3/7.4/8.2/8.3; Components §§4–10/12–16; Terminology §§5.16/5.21/5.24/5.26/5.37; Review Policy §§2/3/5/6/7. Exact lists/hashes are recorded in the evidence; no full peer cycle is inferred.
++
++The corrected Blueprint/Manifest/Concepts and adopted policy support the localized changes. Overview still asserts six areas and an untyped service hierarchy; Components retains untyped relationships/dependencies and broad operational/independence claims; Principles' extension/independence interpretation and Terminology's abbreviated owner definitions remain scheduled work. Earlier Concepts/Blueprint remarks about received Layers discrepancies retain their earlier exact-edition scope, not current Layers validation or completed propagation. Canonical catalog/Profile, detailed identity/classification owner contracts and a complete consumer/dependency matrix remain future work. None of those sources is silently modified or declared validated by this local result.
++
++Current totals: **19 Open,77 Closed—verified,one Not applicable—scope decision**. No corrected-pending local record remains centrally for Layers. Integrated architecture, full required graph, consuming-source compatibility, catalog/Profile and identity/classification reconciliation remain pending.
++
++### 32.4. Tracking and before/after
++
++| Item | Before | After |
++|---|---|---|
++| Layers source | V2.0 R1 corrected pending validation | Same bytes/edition; scoped PASS; Draft/unassigned |
++| Local records | Ten Corrected—pending validation | Ten Closed—verified |
++| Review Report | V1.0 R25 | V1.0 R26, technical English, Draft/unassigned |
++| M11 | Concepts C,Layers S,five O; In Progress | Concepts/Layers C,five O; In Progress; Layers completion2026-10-05 |
++| CHANGELOG | Through #283 | #284 exact source validation; #285 report; #286 milestone tracking |
++
++M10 retains completion of its six Foundation documentary cycles. M9 cites R26 without extending original acceptance. M0–M7 and earlier central events are preserved. Source §18.2 retains the actual UPDATE pending history; #284 records the later exact-edition validation without a source revision.
++
++Current progress/manifest, validation JSON and full central diff belong to R26. R25 UPDATE evidence retains event-time states. `Context-Working-Step-4-08-Validated.zip` is interim; final Context-Reviewed.zip remains pending.
++
++### 32.5. Next command
++
++**CONTINUAR** starts **4.09 — REVIEW DOCUMENT DF-ARC-005 — Architectural Components**, then pauses after REVIEW. It does not execute that source's UPDATE/VALIDATE automatically or grant approval.
+--- before-4.08-VALIDATE/Context/CHANGELOG.md
++++ after-4.08-VALIDATE/Context/CHANGELOG.md
+@@ -58,6 +58,9 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 286 | 2026-10-05 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 Layers S to C completion2026-10-05; Concepts/Layers C,five O,In Progress; M10 retained; M9 reportR26; historical events preserved; global dependency/owner/consumer compatibility pending; no approval or integrated conformity. |
++| 285 | 2026-10-05 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R25 to R26 Draft/unassigned: exact Layers validation and ten local closures;77 Closed-verified,19 Open,INV-02 Not applicable; source unchanged; next4.09 REVIEW DF-ARC-005. |
++| 284 | 2026-10-05 | Codex — AI assistant | Validated | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md | Correction | Step4.08 exact unchanged V2.0 R1 Architecture/Structure SHA-256 56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec: local Layers correction scope PASS; ten records Closed-verified; seven areas,23 allocations match ARC-005,two typed views,seven required contracts match Concepts/Blueprint,13 references; Draft/unassigned;19 global records Open; report section32; validation-4-08.json; M11; no approval/Baseline. |
+ | 283 | 2026-10-05 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 remains In Progress: Concepts C,Layers S V2.0 R1 Draft/unassigned UPDATE complete VALIDATE pending,five peers O,no Layers completion date; M10 retained; M9 reportR25; historical events preserved; no integrated conformity/approval. |
+ | 282 | 2026-10-05 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R24 to R25 Draft/unassigned: actual Layers before/after and incompatible contract/consumer impact;19 Open,ten Corrected-pending-validation,67 Closed-verified,INV-02 Not applicable; construction checks only; section31. |
+ | 281 | 2026-10-05 | Codex — AI assistant | Updated | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md | Architecture | Step4.08 actual UPDATE V1.0 R0 Draft/Baseline1.0 Architecture/Layers to V2.0 R1 Draft/unassigned Architecture/Structure; incompatible normative support-order/scoped-dependency, primary/cross-cutting and compatibility reconciliation; seven areas,23 components,seven label counterparts,two typed views,13 references/history; ten corrections pending VALIDATE DOCUMENT; input 086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab, output 56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec; report section31; update-4-08.diff; M11. |
+--- before-4.08-VALIDATE/Context/ArchitecturalMilestones.md
++++ after-4.08-VALIDATE/Context/ArchitecturalMilestones.md
+@@ -255,6 +255,8 @@
+ 
+ Step4.08 UPDATE (2026-10-05): Layers V2.0 R1 Architecture/Structure Draft/unassigned; incompatible normative dependency/support-order, primary/cross-cutting and assessed-compatibility reconciliation; ten corrections pending VALIDATE DOCUMENT. Concepts C,Layers S,five peers O,M11 In Progress,no Layers completion date. ReportR25 section31; CHANGELOG #281-283; global owner/consumer/dependency propagation remains pending.
+ 
++Step4.08 VALIDATE (2026-10-05): exact unchanged Layers V2.0 R1 Architecture/Structure local correction scope PASS; ten records Closed-verified. Layers C,completion2026-10-05; Concepts C,five peers O,M11 In Progress. Source Draft/unassigned; global graph/owner/consumer compatibility pending. ReportR26 section32; CHANGELOG #284-286. No approval,publication,Baseline or integrated conformity.
++
+ ### Objectives and acceptance
+ 
+ Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
+@@ -266,7 +268,7 @@
+ | O | 2026-09-30 |  |  | DF-ARC-001 | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
+ | O | 2026-09-30 |  |  | DF-ARC-002 | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
+ | C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+-| S | 2026-09-30 | 2026-10-05 |  | DF-ARC-004 — V2.0 R1 Draft; UPDATE complete; validation pending | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
++| C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-004 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
+ | O | 2026-09-30 |  |  | DF-ARC-005 | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
+ | O | 2026-09-30 |  |  | DF-ARC-006 | /01-Architecture/DF-ARC-006-Terminology.md |
+ | O | 2026-09-30 |  |  | DF-ARC-007 | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
+@@ -336,7 +338,7 @@
+ 
+ Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+ 
+-Current supporting report edition: DF-RVW-002 V1.0 R25 includes all six Step 4.01-4.06 scoped cycles, the Step4.07 scoped cycle and Step4.08 REVIEW/UPDATE; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
++Current supporting report edition: DF-RVW-002 V1.0 R26 includes all six Step 4.01-4.06 scoped cycles and the Step4.07/4.08 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+ 
+ ### Objectives and acceptance
+ 
