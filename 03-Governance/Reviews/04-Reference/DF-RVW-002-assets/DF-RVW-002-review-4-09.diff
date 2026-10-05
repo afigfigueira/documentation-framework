@@ -1,0 +1,264 @@
+--- before-4.09-REVIEW/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ after-4.09-REVIEW/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 26 |
++| **Revision** | 27 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -69,6 +69,8 @@
+ Revision 25 records Step4.08 UPDATE in §31 on2026-10-05. Layers now V2.0 R1 Architecture/Structure Draft/unassigned; ten corrections pending VALIDATE DOCUMENT. Totals:19 Open,ten Corrected—pending validation,67 Closed—verified,one Not applicable—scope decision. §30 preserves REVIEW-time states. Next:4.08 VALIDATE DOCUMENT.
+ 
+ Revision 26 records Step4.08 VALIDATE DOCUMENT in §32 on2026-10-05. Exact Layers V2.0 R1 remains unchanged Architecture/Structure Draft/unassigned; ten local closures. Current totals:19 Open,77 Closed—verified,one Not applicable—scope decision. M11 two C/five O In Progress. Next:4.09 REVIEW DF-ARC-005.
++
++Revision 27 adds Step4.09 Architectural Components REVIEW in §33 on2026-10-05. Source V1.0 R0 unchanged; eight findings/two warnings Open; proposed Architecture/Structure V2.0 R1. Totals:29 Open,77 Closed—verified,one Not applicable—scope decision. M11 two C,one S,four O In Progress. Next:4.09 UPDATE DF-ARC-005.
+ 
+ ## 2. Concrete changes — before/after
+ 
+@@ -180,6 +182,7 @@
+ | 2026-10-05 | 1.0 | 24 | Step 4.08 Layers REVIEW; eight findings/two warnings Open; source unchanged | Draft; Baseline Not assigned; compatible informational report update; #278; evidence checks #280 |
+ | 2026-10-05 | 1.0 | 25 | Step4.08 Layers UPDATE V2.0 R1 Type Structure; ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #282 |
+ | 2026-10-05 | 1.0 | 26 | Step4.08 exact Layers validation; ten local verified closures; source unchanged | Draft; Baseline Not assigned; exact V2.0 R1 retained; #284–286 |
++| 2026-10-05 | 1.0 | 27 | Step4.09 Components REVIEW; eight findings/two warnings Open; source unchanged | Draft; Baseline Not assigned; compatible informational report update; #288; evidence checks #290 |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -2372,3 +2375,193 @@
+ ### 32.5. Next command
+ 
+ **CONTINUAR** starts **4.09 — REVIEW DOCUMENT DF-ARC-005 — Architectural Components**, then pauses after REVIEW. It does not execute that source's UPDATE/VALIDATE automatically or grant approval.
++
++
++## 33. Step 4.09 — REVIEW DF-ARC-005 — Architectural Components
++
++### 33.1. Source, coverage and outcome
++
++**REVIEW complete: eight findings and two warnings; all ten Open.** UPDATE and VALIDATE DOCUMENT have not been performed. Received source: Family Architecture/Type Components, V1.0 R0, Draft, Baseline1.0, English; no Author declaration. No historical attribution, approval or Baseline selection is inferred.
++
++Unchanged source: `01-Architecture/DF-ARC-005-ArchitecturalComponents.md`; SHA-256 `a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216`. Complete read of 11,833 bytes /601 lines, sixteen chapters, 86 numbered sections and 23 capabilities in §§5–9, including all purposes/responsibilities and six §11 characteristics. Three unnamed fenced views occur in §§4/10/12; three tables are the header, §13 specification roles and §14 Architecture references. Zero operational Markdown links. View hashes explicitly use UTF-8 with CRLF normalized to LF; exact received bytes have the separate source digest.
++
++The 23 entries agree with Layers' primary allocation in 4/4/5/5/5 areas. Ordering within Automation is presentation, not a dependency discrepancy. The review therefore preserves component names and allocations while reconciling their interpretation, contracts and evidence. Section 10's final Automation node is an area label, not a supplied 24th component.
++
++Related-source coverage and hashes are recorded in `DF-RVW-002-review-4-09-evidence.json`: Layers/Concepts and four real detailed Documentation specifications were re-inspected at listed sections. Earlier Blueprint/Manifest/Overview/Principles/Terminology/Policy comparison sections retain prior inspection provenance and unchanged current hashes. These comparisons do not execute peer cycles. Eight earlier source-cycle validations retain their exact-edition limits.
++
++Current totals: **29 Open,77 Closed—verified,one Not applicable—scope decision**. The ten new local records neither close the 19 global records nor reopen earlier localized closures. M11 remains In Progress with Concepts/Layers C, Components S and four other records O.
++
++### 33.2. Findings and concrete proposals
++
++#### ARC005-01 — Medium
++
++**Source sections:** Header,2,3.
++
++**Observed:** Type=Components is outside the four adopted Types. The primary purpose identifies a component catalog, organization and responsibility boundaries; Family Architecture denotes the documentary area. Header V1.0 R0 Draft/Baseline1.0 and absent Author are declarations, not approval/selection evidence.
++
++**Proposed correction:** Use Architecture/Structure according to the primary catalog/organization responsibility. Retain DF-ARC-005/path, omit invented Component/Class and preserve received declarations/absent Author in history. Record actual working contribution separately from authorization, review, validation and approval. Assess a Draft/unassigned successor with monotonically incremented Revision against actual normative changes.
++
++**Closure criterion:** Header/classification rationale/history conform to the four-Type policy, stable identity and actual contribution. No inherited approval, Baseline or responsibility for later changed bytes is implied.
++
++**Related records:** REV2-03; REV2-12; DF-RVW-001 §§3/5/7. **State:** Open.
++
++#### ARC005-02 — Medium
++
++**Source sections:** 1,2,3,4,5,6,7,8,9,10.
++
++**Observed:** §§5–9 define 23 named capabilities in 4/4/5/5/5 areas, agreeing with Layers. §4 mixes Foundation/Architecture support areas and capability groupings; §10 ends with Automation as though it were another component, although it is the grouping of five capabilities. The source does not distinguish register, structural area, conceptual concern and cross-cutting participation.
++
++**Proposed correction:** Provide an explicit 23-entry primary-allocation register preserving every canonical name and original component section. Distinguish seven structural areas and five concerns, with Foundation/Architecture as support definitions and Automation as an area rather than a 24th component. Exactly one primary allocation allows explicit participation across concerns. Preserve Metadata in Documentation and Workflow/Baselines in Governance; no Knowledge/Preservation component or Layer is invented.
++
++**Closure criterion:** All 23 entries occur once in the register with 4/4/5/5/5 allocation and stable names; all three views distinguish entity/capability/area meanings. No extra or relocated component is inferred from a concern, directory or diagram label.
++
++**Related records:** REV2-01; ARC003-08; ARC004-02/04/07. **State:** Open.
++
++#### ARC005-03 — High
++
++**Source sections:** 4,10,11.2,12.
++
++**Observed:** Three unnamed views are untyped chains. §10 claims every relationship is explicitly defined without providing kinds/contracts. §12 asserts a dependency hierarchy and refers to Layers, whose corrected support-order constraint and same-Layer contracts are not represented by this chain.
++
++**Proposed correction:** Replace §4 with allocation meaning, §10 with typed associations/ownership/projection relations and §12 with scoped required consumer→provider contracts. Preserve the seven intended Concepts/Layers pairs with contract, scope and primary allocation, including Workflow→Policies and Knowledge Graph→Relationships. Apply the declared support order only to required cross-Layer providers. Separate documentary authority, semantic connection, projection, navigation and execution; preserve actual required cycles visibly and retain the prohibition. Do not invent additional mandatory edges, arbitrary upward exceptions or a complete graph from a visual chain.
++
++**Closure criterion:** Each view and new assertion states its meaning; every required edge has consumer/provider, contract/scope and source edition. Genuine requirements and cycles are not concealed by labels. No global acyclicity or consumer conformity is claimed.
++
++**Related records:** REV2-02; ARC003-02; ARC004-03. **State:** Open.
++
++#### ARC005-04 — High
++
++**Source sections:** 3,5,5.1,5.2,5.3,5.4.
++
++**Observed:** Metadata supports identity/classification/governance/discovery without owner distinctions, Identity applies to every document and Templates ensures consistency. Classification is generic; identity, mutable classification and exact edition are not distinguished. Normalization applicability and functional exclusions are absent.
++
++**Proposed correction:** Scope normalized obligations and exclude README.md/CHANGELOG.md/ArchitecturalMilestones.md at every location while retaining content/reference checks. Metadata represents descriptors; Identity/Classification/Governance own meanings. Dictionary defines, Schema references/organizes, Profile constrains and Instance supplies values under one effective Profile. Distinguish stable logical identity from edition, Status, classification and membership; adopted Family/Type and allocation-series identity remain independent. Templates defines reusable representation under applicable constraints, without automatic consistency or owner-semantic takeover.
++
++**Closure criterion:** §5 responsibilities retain their intended support roles with explicit domain ownership and applicability, no invented catalog/Profile or mandatory normalized identity for functional files. Representation, logical identity, edition and classification remain distinct; no path/ID migration is inferred.
++
++**Related records:** INV-02 remains Not applicable; REV2-03/04/06/07/08; ARC003-03/04; ARC004-04. **State:** Open.
++
++#### ARC005-05 — High
++
++**Source sections:** 6,6.1,6.2,6.3,6.4,9.2,9.4.
++
++**Observed:** Governance controls evolution and Workflow manages lifecycle/publication without definition-versus-execution or exact-edition gates. Reviews and automation both verify consistency without result/authority separation. Baselines preserves versions/release snapshots but does not specify exact member selection or approval eligibility.
++
++**Proposed correction:** Define Workflow/Policies/Reviews/Baselines as documentary contract capabilities; DMS/tool/manual execution and CMS change governance remain separate. Review/validation/approval/publication/membership are distinct events for exact editions. Baseline independently identified immutable explicit exact approved-edition selection with relevant pinned context/evidence; eligibility, consistency and inclusion separate. Reviews records findings/evidence, Validation executes/evidences identified checks and Consistency Verification covers declared cross-record contracts; overlapping checks do not grant competing semantics or approval. Publication adapters consume Governance authorization.
++
++**Closure criterion:** Governance/verification/executor boundaries and exact-edition snapshot gates are explicit; no successful check or adapter automatically approves, publishes, selects membership or retargets earlier editions.
++
++**Related records:** REV2-08/12; ARC003-06/07; ARC004-05/08. **State:** Open.
++
++#### ARC005-06 — High
++
++**Source sections:** 7,7.1,7.2,7.3,7.4,7.5,10.
++
++**Observed:** Registry is authoritative catalog without domain/projection limits; Relationships purpose is restricted to architectural dependencies, while Navigation and Graph also require semantic associations/references. Projections, records, freshness and endpoint ownership are not distinguished.
++
++**Proposed correction:** Relationships owns typed records with endpoint identity and provenance, including semantic/reference/association/replacement/navigation/required kinds. Registry catalog authority and Graph network views reference exact authoritative sources/editions; derived copies retain refresh/current-stale context without competing domain authority. Navigation/Search consume declared sources and may expose Draft/historical editions with state. Do not impose universal Registry→Graph routing, physical single-copy storage or required runtime edges from every semantic relation.
++
++**Closure criterion:** Discovery capability boundaries distinguish authoritative records from traceable projections and consumers; relationships are not restricted to dependencies or used to hide actual required edges. No unverified pipeline, completeness or global consistency is asserted.
++
++**Related records:** REV2-02; ARC003-05; ARC004-06. **State:** Open.
++
++#### ARC005-07 — High
++
++**Source sections:** 8,8.1,8.2,8.3,8.4,8.5,11.2,16.
++
++**Observed:** Generators generate, complete and synchronize Metadata/Registry; Validation verifies compliance and Consistency Verification verifies integrity without rules, exact-input scope or execution evidence. §16 says detailed specifications collectively define complete operational behavior.
++
++**Proposed correction:** Define intended Automation contracts separately from implemented executors. Generators consume authoritative descriptor/identity/classification/governance/relationship rules and identify input/output editions, provenance and applicable constraints; completion is not permission to invent absent values or semantics. Registry generation produces scoped traceable projections with refresh/stale handling. Validation/Consistency Verification declare exact artifacts, applicable rules, coverage, observations, limits and executor. Capability definitions alone establish neither implemented tools nor whole-framework correctness, approval or product outcomes.
++
++**Closure criterion:** All five Automation responsibilities have explicit owner-contract/executor/evidence limits, retaining intended generation/check domains without manufactured values, semantic authority, automatic conformity or a deployed implementation claim.
++
++**Related records:** REV2-06/08/12; ARC003-06; ARC004-08. **State:** Open.
++
++#### ARC005-08 — High
++
++**Source sections:** 9,9.1,9.2,9.3,9.4,9.5,14,16.
++
++**Observed:** CI/CD automates validation/publication, platform integration publishes and AI provides semantic reasoning without authorization, authority or implementation boundaries. Components are described as implementing the framework and operational building blocks without supplied execution evidence.
++
++**Proposed correction:** Define optional use-case adapters to supported external environments/interfaces. Source control supports provenance; CI/CD executes scoped checks and authorized publication; IDE supports authoring; platform publishing follows exact-edition Governance authorization. AI assistance references responsible domain semantics and records actual contribution/evidence separately from user authorization/approval. No external integration becomes a new semantic owner or implies an implemented service, guaranteed outcome or responsibility for subsequently modified bytes.
++
++**Closure criterion:** Five Integration roles retain canonical names/allocation and state applicable contract/authorization/executor limits. No automatic publication, new approval authority, mandatory ecosystem or unsupported implementation evidence remains.
++
++**Related records:** REV2-08/12; ARC004-05/08. **State:** Open.
++
++#### ARC005-W01 — Medium
++
++**Source sections:** 1,11,11.1,11.3,11.4,11.5,11.6,15,16.
++
++**Observed:** Single responsibility, independence, reusable services, harmless extension and achieved modularity/maintainability are stated as general requirements or outcomes. Evolution assumes independence without assessing provider/consumer contracts; Principles allows justified breaking changes.
++
++**Proposed correction:** Express cohesion, reuse, separation and technology independence as assessed objectives with scope/implementation limits. A new capability requires demonstrated need, primary allocation, owner/consumer contract mapping and transition evidence; extension may affect existing functionality. Preserve compatibility where feasible and explicitly justify/version necessary incompatibility under policy. Do not guarantee independent editions/releases, harmless extensions or complete operational quality.
++
++**Closure criterion:** Characteristics/evolution/conclusion use bounded claims and a concrete compatibility/impact path; no architecture-free extension or automatic quality/independence guarantee remains.
++
++**Related records:** ARC003-W01; ARC004-W01; ARC-002 §§8.2/8.3. **State:** Open.
++
++#### ARC005-W02 — Low
++
++**Source sections:** 3,13,14,16.
++
++**Observed:** §13 lists eight generic specification roles without operational links, including five exact specification titles not declared in the supplied corpus. §14 uses five plain Architecture IDs and §16 implies complete operational behavior. Four actual detailed Documentation specifications are supplied; no local history/input/view provenance is recorded.
++
++**Proposed correction:** Map component to actual supplied source or explicitly conceptual/planned specification responsibility; add real paths/IDs for Metadata, Identity, Classification and Templates without treating an illustrative eight-row list as exhaustive. Qualify Workflow/Registry/Relationships/Graph/Validation roles: no dedicated source with those exact titles was found, which is not proof that external specifications cannot exist. Link five Architecture roles plus applicable Foundation/review owners, record input/local history and all three original view texts/hashes. Preserve historic pending events; source presence is not approval, implementation or completed peer review.
++
++**Closure criterion:** Every operational reference resolves to an intended supplied identity; illustrative/unsupplied roles and partial comparison limits are explicit. Numbering/input/history/view provenance traceable without invented specification IDs, historic authors or completed peer cycles.
++
++**Related records:** ARC003-W02; ARC004-W02; DF-RVW-001 §§4/6/7. **State:** Open.
++
++### 33.3. Proposed UPDATE, compatibility and localized impact
++
++**Proposed successor: V2.0 R1, Family Architecture, Type Structure, Draft, Baseline Not assigned, English.** The primary responsibility is component catalog, organization and structural boundaries in §§2–3/5–9. Neither Architecture directory/title nor the presence of conceptual summaries creates a special Type. Preserve DF-ARC-005/path and all original numbering; Component/Class are not invented. Declared Revision 0 increments to 1 without reset, and the received header/absent Author remains preserved in history.
++
++The proposed major increment concerns substantive contracts: §12's current untyped dependency hierarchy, §§5–9 owner/execution boundaries and §§11.5/16 harmless extension/complete operational behavior. The successor will restrict interpretations currently permitted by those declarations and align explicit contracts with Layers/Concepts. Type change and explanatory links alone would be compatible. The actual UPDATE must assess delivered contractual meaning and record compatibility/consumer impact under DF-RVW-001 §5.2; do not award V2.0 solely because a catalog Type changes.
++
++| Scope | Received interpretation | Proposed working contract | Impact/owner limit |
++|---|---|---|---|
++| Header/history | Components Type; Draft R0/Baseline1.0; absent Author | Structure Type; proposed V2.0 R1 Draft/unassigned; actual contribution and received evidence distinct | Stable identity/path; no fabricated approval or allocation |
++| §§1–4/5–9/10 | Components, support areas and Automation node blurred | Explicit 23-entry primary register; seven areas/five concerns; cross-cutting participation | Existing names/allocations preserved; no extra component/Layer |
++| §§4/10/11.2/12 | Untyped visual chains and asserted explicit relations | Allocation, typed associations and scoped consumer→provider contracts | Seven current comparison pairs and actual cycle constraint; full graph pending |
++| §5 | Generic support roles and every-document identity | Applicable normalized scope, domain owners, representation and edition distinctions | Functional exclusions; Dictionary/Schema/Profile/Instance and Identity/Classification sources remain owners |
++| §6 and publication adapters | Lifecycle/review/snapshots as broad operations | Documentary contracts versus executors; exact state/selection and separate decisions | No automatic approval/publication/membership or competitor authority |
++| §7 | Catalog authority, dependency-only relations and network without provenance | Typed relationship records, traceable projections and Navigation/Search consumers | Derived copies/freshness; no mandatory intermediary or hidden edge |
++| §8 | Automatic generation/completion and compliance/integrity | Owner-rule input/output/provenance and scoped checks with executor evidence | No invented descriptor values/semantics, implementations or guaranteed conformity |
++| §9/14/16 | Integrations imply implemented operational/semantic behavior | Optional scoped adapters and authorized publication; AI contribution/authority limits | External tools do not become domain owners or approvers |
++| §§11/15/16 | Independent evolution, harmless extension and achieved quality | Assessed objectives, compatibility, allocation/contract mapping and transitions | Changes can affect consumers; necessary incompatibility justified |
++| §§3/13/14/16 and added evidence | Generic specifications/IDs without supplied evidence | Actual resolving sources versus conceptual/planned roles; input/history/view provenance | No invented missing IDs, unseen specifications or completed peer cycles |
++
++The localized UPDATE changes Components and central report/tracking/evidence only. All sixteen chapters, 86 original numbered sections and 23 component entries retain traceable numbering/responsibility coverage. Replace the three unnamed views with appropriately typed tables or compact views identified by original sections4/10/12 and received-text hashes; do not invent historical view IDs. The register reconciles area/entity/capability distinctions; the association view does not disguise genuine requirements.
++
++#### 33.3.1. Allocation and required-contract basis
++
++| Primary area | Entries to preserve | Count |
++|---|---|---|
++| Documentation | Metadata; Document Identity; Classification; Templates | 4 |
++| Governance | Workflow; Policies; Reviews; Baselines | 4 |
++| Discovery | Registry; Relationships; Knowledge Graph; Navigation; Search | 5 |
++| Automation | Validation; Metadata Generator; Registry Generator; Documentation Generator; Consistency Verification | 5 |
++| Integration | Source Control Integration; CI/CD Integration; IDE Integration; Documentation Platform Integration; AI Integration | 5 |
++
++The selected required comparison pairs are Registry→Metadata, Knowledge Graph→Document Identity, Knowledge Graph→Relationships, Workflow→Metadata, Workflow→Policies, Baselines→Document Identity and Baselines→Metadata. Preserve their explicit contracts/scopes from Concepts §8 and Layers §12. Knowledge Graph→Relationships and Workflow→Policies are same-Layer requirements. For required cross-Layer consumption, apply Layers' declared support order rather than a diagram's vertical position; structural revision needs a traceable impact decision, not an arbitrary upward exception. These rows do not claim a complete global graph, implemented execution route or verified acyclicity. Preserve a genuine indispensable provider as required even if a projection/reference supplies its values.
++
++#### 33.3.2. Supplied specification roles and comparison limits
++
++Four actual detailed specifications are supplied: MTD-014, DID-014, CLS-014 and TPL-014. The §13 table lists Metadata/Identity/Classification alongside five generic roles: Workflow, Registry, Relationships, Knowledge Graph and Validation Specification. No exact matching declared titles for those five roles were found in the supplied Markdown corpus. That bounded title scan does not prove external absence; the UPDATE must label such roles conceptual/planned unless actual supplied sources are identified, and use real source paths/IDs rather than fabricate allocations. Templates is an actual source although absent from this illustrative table; an example list need not be exhaustive.
++
++Partial detailed comparisons: Metadata §§1/3/6.3–6.8, Identity §§1/3, Classification §§1/3 and Templates §§1/3. Metadata confirms Dictionary ownership and Schema/Profile/conformance contracts; Templates explicitly separates its representation responsibility from Metadata/Identity/Classification/workflow/storage semantics. Received Identity still states every-document identity, and detailed catalog/Profile/classification/identity conventions remain scheduled owner reconciliation. Presence and normative wording do not establish source approval, completed review or implemented operational capability.
++
++Affected current comparisons include Layers §§2–4/7.3/8.3/9.3/10–13/15/17/18.1/18.3 and Concepts selected responsibility/edition/relationship/required-contract/specification sections. Overview's count/direction/component examples, Principles' independent extension interpretation and Terminology's abbreviated domain definitions remain unchanged. Earlier Foundation/Concepts/Layers validation remains local; new consumer compatibility/propagation is not retroactively certified. Full owner/consumer matrix, catalog/Profile, identity/classification and integrated graph checks remain future work.
++
++### 33.4. Tracking and REVIEW evidence integrity
++
++CHANGELOG #287 records full source REVIEW; #288 report R26→R27; #289 M11 tracking; #290 REVIEW evidence checks. Components O→S, start2026-10-05, no completion date. M11 two C/one S/four O In Progress. M10's six Foundation cycles and M0–M7 remain unchanged. M9 cites R27 without extending original acceptance. Stable Step4.09 remains Components throughout its REVIEW→UPDATE→VALIDATE cycle; Step4.10 is not started here.
++
++Evidence checks cover exact unchanged source/input/R26 checkpoint, sixteen chapters, 86 numbered sections,23 component inventories and agreement with Layers, six characteristics, three unnamed views, eight specification-role rows, bounded exact-title scan, nine supplied Architecture/detailed-specification identities, all finding section references, comparison hashes, all 71 original normalized sources not changed in earlier cycles, eight earlier source hashes, six README files, eight functional exclusions, 89 stable matrix positions/current hashes and preserved central events/milestones. Pre-edit R26 manifest matches.
++
++These are **REVIEW evidence integrity checks**, not VALIDATE DOCUMENT or finding closure. Details: `DF-RVW-002-review-4-09-checks.json`; full central diff: `DF-RVW-002-review-4-09.diff`. Source diff is empty. R26 validation evidence retains its exact-source/event scope; R27 exports/checkpoint record this REVIEW. `Context-Working-Step-4-09-Review.zip` is interim; final Context-Reviewed.zip remains pending.
++
++### 33.5. Next command
++
++**CONTINUAR** starts **4.09 — UPDATE DF-ARC-005 — Architectural Components**, applying localized corrections with actual compatibility assessment, full source/history/diff and tracking, then pauses before VALIDATE DOCUMENT.
+--- before-4.09-REVIEW/Context/CHANGELOG.md
++++ after-4.09-REVIEW/Context/CHANGELOG.md
+@@ -58,6 +58,10 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 290 | 2026-10-05 | Codex — AI assistant | Validated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Step4.09 REVIEW evidence checks PASS: unchanged input/source/checkpoint,complete inventory/view/section/reference and bounded title scan,comparison hashes,earlier source preservation,stable matrix/history. Not VALIDATE DOCUMENT of Components; ten local records Open; section33; M11. |
++| 289 | 2026-10-05 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 Components O to S start2026-10-05,no completion date; Concepts/Layers C,Components S,four peers O,In Progress; M10 retained; M9 reportR27; global reconciliation pending. |
++| 288 | 2026-10-05 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R26 to R27 Draft/unassigned: Components REVIEW/proposals/owner-consumer impact;29 Open,77 Closed-verified,INV-02 Not applicable; source UPDATE/VALIDATE not performed; section33. |
++| 287 | 2026-10-05 | Codex — AI assistant | Reviewed | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md | Correction | Step4.09 full Components REVIEW:601 lines,sixteen chapters,86 numbered sections,23 capabilities,three unnamed views; eight findings/two warnings Open; exact V1.0 R0 Draft/Baseline1.0 unchanged SHA-256 a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216; proposed Architecture/Structure V2.0 R1 normative reconciliation; section33; M11. |
+ | 286 | 2026-10-05 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 Layers S to C completion2026-10-05; Concepts/Layers C,five O,In Progress; M10 retained; M9 reportR26; historical events preserved; global dependency/owner/consumer compatibility pending; no approval or integrated conformity. |
+ | 285 | 2026-10-05 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R25 to R26 Draft/unassigned: exact Layers validation and ten local closures;77 Closed-verified,19 Open,INV-02 Not applicable; source unchanged; next4.09 REVIEW DF-ARC-005. |
+ | 284 | 2026-10-05 | Codex — AI assistant | Validated | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md | Correction | Step4.08 exact unchanged V2.0 R1 Architecture/Structure SHA-256 56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec: local Layers correction scope PASS; ten records Closed-verified; seven areas,23 allocations match ARC-005,two typed views,seven required contracts match Concepts/Blueprint,13 references; Draft/unassigned;19 global records Open; report section32; validation-4-08.json; M11; no approval/Baseline. |
+--- before-4.09-REVIEW/Context/ArchitecturalMilestones.md
++++ after-4.09-REVIEW/Context/ArchitecturalMilestones.md
+@@ -257,6 +257,8 @@
+ 
+ Step4.08 VALIDATE (2026-10-05): exact unchanged Layers V2.0 R1 Architecture/Structure local correction scope PASS; ten records Closed-verified. Layers C,completion2026-10-05; Concepts C,five peers O,M11 In Progress. Source Draft/unassigned; global graph/owner/consumer compatibility pending. ReportR26 section32; CHANGELOG #284-286. No approval,publication,Baseline or integrated conformity.
+ 
++Step4.09 REVIEW (2026-10-05): exact unchanged Components V1.0 R0 Draft/Baseline1.0; eight findings/two warnings Open; proposed Architecture/Structure V2.0 R1 normative reconciliation, actual compatibility pending UPDATE. Components S,no completion date; Concepts/Layers C,four peers O,M11 In Progress. ReportR27 section33; CHANGELOG #287-290; earlier scoped closures retained,global owner/consumer/graph reconciliation pending.
++
+ ### Objectives and acceptance
+ 
+ Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
+@@ -269,7 +271,7 @@
+ | O | 2026-09-30 |  |  | DF-ARC-002 | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
+ | C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+ | C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-004 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
+-| O | 2026-09-30 |  |  | DF-ARC-005 | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
++| S | 2026-09-30 | 2026-10-05 |  | DF-ARC-005 — V1.0 R0 Draft; REVIEW complete; UPDATE/VALIDATE pending | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
+ | O | 2026-09-30 |  |  | DF-ARC-006 | /01-Architecture/DF-ARC-006-Terminology.md |
+ | O | 2026-09-30 |  |  | DF-ARC-007 | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
+ 
+@@ -338,7 +340,7 @@
+ 
+ Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+ 
+-Current supporting report edition: DF-RVW-002 V1.0 R26 includes all six Step 4.01-4.06 scoped cycles and the Step4.07/4.08 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
++Current supporting report edition: DF-RVW-002 V1.0 R27 includes all six Step 4.01-4.06 scoped cycles, the Step4.07/4.08 scoped cycles and Step4.09 REVIEW; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+ 
+ ### Objectives and acceptance
+ 
