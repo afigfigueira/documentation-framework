@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 33 |
+| **Revision** | 34 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -83,6 +83,8 @@ Revision 31 records Step 4.10 UPDATE in §37 on 2026-10-14. ARC-007 becomes V2.0
 Revision 32 records Step 4.10 VALIDATE DOCUMENT in §38 on 2026-10-14. ARC-007 V2.0 R1 remains unchanged Architecture/Structure, Draft/unassigned; ten local verified closures. Current totals: 19 Open, 97 Closed—verified, one Not applicable—scope decision. M11 four C/three O, In Progress. Next: 4.11 REVIEW DF-ARC-006.
 
 Revision 33 adds Step 4.11 Terminology REVIEW in §39 on 2026-10-14. Source V1.0 R0 remains unchanged; eight findings/two warnings Open. Current totals: 29 Open, 97 Closed—verified, one Not applicable—scope decision. M11 four C/one S/two O, In Progress. Next: 4.11 UPDATE DF-ARC-006.
+
+Revision 34 records Step 4.11 UPDATE in §40 on 2026-10-14. Terminology becomes V2.0 R1 Architecture/Reference Draft/unassigned; ten corrections pending VALIDATE DOCUMENT. Totals: 19 Open,ten Corrected—pending validation,97 Closed—verified,one Not applicable—scope decision. §39 retains REVIEW-time states. Next:4.11 VALIDATE DOCUMENT.
 
 ## 2. Concrete changes — before/after
 
@@ -201,6 +203,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-14 | 1.0 | 31 | Step 4.10 ARC-007 UPDATE V2.0 R1 Structure; ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #302 |
 | 2026-10-14 | 1.0 | 32 | Step 4.10 exact ARC-007 validation; ten local verified closures; source unchanged | Draft; Baseline Not assigned; exact V2.0 R1 retained; #304–306 |
 | 2026-10-14 | 1.0 | 33 | Step 4.11 Terminology REVIEW; ten local records Open; source unchanged | Draft; Baseline Not assigned; #307–310; REVIEW evidence checks only |
+| 2026-10-14 | 1.0 | 34 | Step 4.11 Terminology UPDATE V2.0 R1 Reference;ten corrections pending validation | Draft;Baseline Not assigned;compatible informational report update;#312 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -3071,3 +3074,111 @@ Evidence integrity checks cover exact unchanged source/input/R32 checkpoint,comp
 ### 39.5. Next command
 
 **CONTINUAR** starts **4.11 — UPDATE DF-ARC-006 — Terminology**, applying localized corrections with actual compatibility assessment,full source/history/diff and tracking,then pauses before VALIDATE DOCUMENT.
+
+
+## 40. Step 4.11 — UPDATE DF-ARC-006 — Terminology
+
+### 40.1. Actual successor and compatibility
+
+**UPDATE complete; VALIDATE DOCUMENT pending.** Received Architecture/Terminology V1.0 R0,Draft/Baseline1.0,English,Author absent becomes **Architecture/Reference V2.0 R1,Draft,Baseline Not assigned,English**. Consultation vocabulary is the primary responsibility; Reference is not an approval or automatic normative-authority label. DF-ARC-006/path remains unchanged;no Component/Class,ID migration or new semantic domain owner is invented. Actual contribution is Codex — AI assistant,separate from user authorization,review,validation and approval;original absent attribution is preserved.
+
+Input SHA-256: `c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb`. Output SHA-256: `d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41` (48,675 bytes; 666 lines; CRLF retained).
+
+**Actual compatibility: incompatible normative contract reconciliation.** Source-wide glossary authority,every-document normalization,operational/edition/relationship conflation and blanket alias/PascalCase prohibitions are replaced with owner-linked scope,exact-edition/required-contract boundaries and controlled contextual mappings. Earlier universal interpretations are no longer allowed. Type and links alone are compatible;the delivered governing changes justify Version 1.0→2.0 major increment/minor 0,with declared Revision 0→1 monotonically across Version changes. Report R33→R34 is compatible informational tracking and retains Version 1.0.
+
+All eleven original chapters,55 original numbered sections and39 original glossary labels/numbers remain traceable. Twenty supplemental terms and three evidence sections are added. No original diagram/view is removed or historic view ID invented:the received source had none.
+
+### 40.2. Applied corrections and actual before/after
+
+| Record | Actual written scope | Before | Written result | State |
+|---|---|---|---|---|
+| ARC006-01 | Header;1–3;11.1/11.2 | Type=Terminology is outside the adopted enumeration. Primary content is glossary consultation, not a special Type or component. Received Family Architecture,V1.0 R0,Draft/Baseline1.0,English and absent Author are declarations without historic approval/selection evidence. | Architecture/Reference by consultation responsibility; V2.0 R1 Draft/unassigned,actual Codex contribution and original absent Author/header declarations retained. Stable ID/path,no Component/Class invented,Reference confers no approval. | Corrected—pending validation |
+| ARC006-02 | 1–4;5.8/5.31/5.32/5.35;6–11 | The glossary claims canonical authoritative definitions for every concept and requires all documents to use them, while §9 says Concepts introduces concepts formally defined by Terminology. Domain owners already define Metadata, Identity, Classification and Templates meanings. Single Source of Truth lacks domain/scope/source-edition limits; exactly one concept per term does not account for qualified contexts. | Common owner-linked vocabulary,qualified subjects/domains and explicit source roles replace glossary-wide semantic takeover. Single authority is scoped; derived summaries/projections retain source/edition provenance. Conflicts and prior peer scopes remain visible. | Corrected—pending validation |
+| ARC006-03 | 3;5.1–5.4/5.7/5.8/5.13–5.16/5.18/5.19/5.21;5.58/5.59 | Component is described as an implemented reusable unit; Knowledge is managed by DF, Documentation is produced/governed by DF and Governance manages lifecycle/quality without definition-versus-execution limits. Layers group components and define boundaries without distinguishing seven structural areas, five concerns and supporting definitions. | Capability definitions and primary allocation distinct from entities,concerns,physical paths and implemented services. Seven structural areas/five concerns/23 capabilities preserved. DF contracts separate from DMS/tool/manual execution and CMS scope; optional adapters do not gain semantic/approval authority. | Corrected—pending validation |
+| ARC006-04 | 3;5.6/5.11/5.12/5.17/5.23;5.43–5.53/5.56/5.57 | Every document is said to possess permanent identity and standardized Metadata without the functional exclusion. Identity is equated to its identifier; logical entity, domain/key representation, mutable classification and edition are not distinguished. Metadata is independent of content without owner/abstraction distinctions; Classification is only an organizing process. | All-location functional exclusion; logical entity/edition/representation,Domain+Identifier and identifier distinguished. Canonical component/admitted-area Family,four-value document Type and optional defined Class independent of stable IDs/paths. Metadata owner abstractions/one effective Profile explicit; no invented catalog/Profile or allocation. | Corrected—pending validation |
+| ARC006-05 | 5.5/5.16/5.22/5.25/5.29/5.37–5.42;8;11.2 | Baseline is only a snapshot at a time; Lifecycle is only a document-state sequence; Version is a formally identified state and no Revision/edition distinction exists. Review/Validation/Workflow/Policy definitions omit exact-byte scope, executor evidence and separate approval/publication/membership gates. | Baseline immutable explicit exact approved-edition selection and pinned context; eligibility/consistency/inclusion separate. Lifecycle subject-specific; Version/Revision/Status/identity/maturity/membership distinct. Exact-scope Review/Validation and executor evidence do not approve/publish or transfer after later changed bytes; actual attribution differs from authorization. | Corrected—pending validation |
+| ARC006-06 | 5.9/5.10/5.20/5.24/5.26/5.27/5.32/5.36 | Dependency does not state consumer/provider direction or required contract/scope. Registry catalog and Graph network omit source/edition projection boundaries. Relationships promises traceability/context without explicit types,endpoints/provenance; semantic association,navigation,required consumption and execution can be conflated. | Required consumer→provider contracts with source/scope distinct from semantic/navigation/projection/execution. Typed records/endpoints/provenance and catalog/network projection/freshness boundaries explicit. Genuine requirements/cycles remain visible; no global DAG,universal Registry pipeline or competing domain authority. | Corrected—pending validation |
+| ARC006-07 | 5.18/5.28/5.30/5.33/5.34/5.54/5.55 | Template is described as a standardized document structure that ensures consistency, rather than reusable definition versus applied instance. Specification lacks authority/implementation limits; Roadmap is implementation-only; Repository independence is unqualified and Integration lacks optional implementation evidence. | Template definition/instance and Template Type separate from document Type/domain semantics. Specification authority explicit rather than title/Reference-based. Roadmap covers documentary/architectural and applicable implementation planning; repository/adapters remain actual representation/executor concerns,no guaranteed consistency,maturity or approval. | Corrected—pending validation |
+| ARC006-08 | 4.2;5.2/5.3/5.7/5.14/5.15/5.21;6–10 | Architectural Component/Component and Architectural Layer/Layer have separate entries without an explicit synonym relation, yet synonyms/multiple names are forbidden. Framework/Documentation Framework also overlap. Pascal Case is required for component names although canonical supplied names such as Document Identity and Knowledge Graph contain spaces. | Original paired anchors preserved as explicit contextual aliases to one meaning. Canonical prose component names differ from directory/code/identifier representations; controlled aliases,qualified contexts and historical terms documented. No forced PascalCase prose,competing meaning or ID/file migration. | Corrected—pending validation |
+| ARC006-W01 | 1;2;4;8;10;11/11.1 | The introduction/conclusion say the glossary ensures consistency,eliminates ambiguity and preserves semantic integrity throughout evolution. Stability/technology independence and conservative evolution lack concrete consumer propagation/compatibility evidence or operational limits. | Quality/stability/technology independence are assessed properties under actual scope/evidence. Semantic changes require previous/new meaning,owners/consumer editions,compatibility and transition evidence; justified necessary incompatibility versioned,no guaranteed global terminology rollout. | Corrected—pending validation |
+| ARC006-W02 | 5;9;11.2/11.3 | Thirty-nine glossary entries omit explicit terms for edition/Revision/Status,Family/Type/Class and Metadata Element/Value/Dictionary/Schema/Profile/Instance needed by the adopted model. Section9 has five plain Architecture IDs,zero resolving links and no owner-source/history/input record. | All39 original terms/numbers retained; twenty owner-linked supplemental distinctions added. Eighteen actual source links resolve,including encoded DID spaces and actual singular Template Specification title; input/local history/provenance preserved without invented catalog,missing historic facts or completed peer cycles. | Corrected—pending validation |
+
+These are selected literal material excerpts,not complete section replacements. `DF-RVW-002-update-4-11-map.json` contains full original/actual bodies and hashes for all changed original sections,header,39 individual term replacements,20 supplemental bodies,alias mappings,reference/affected hashes and added sections. `DF-RVW-002-update-4-11.diff` is the complete source/central diff.
+
+| Section | Actual before excerpt | Actual written excerpt | Reason/impact |
+|---|---|---|---|
+| 1 | This document defines the canonical terminology of the Documentation Framework. | Entries identify subjects, contexts, controlled aliases and responsible source meanings; they do not transfer every domain’s semantic authority to Terminology. | Glossary consultation does not replace domain authority. |
+| 5.5 | An immutable snapshot of the documentation captured at a specific point in time. | A separately identified immutable, explicitly selected set of exact approved document editions with relevant pinned relationship context or traceable verification evidence. | Exact selected editions,context and separate membership evidence. |
+| 5.7 | A reusable architectural unit implementing a single architectural responsibility. | A capability building block with a defined primary responsibility and explicit owner/consumer boundaries. | Definition/register distinct from implemented service evidence. |
+| 5.9 | A relationship in which one architectural entity requires another to perform its responsibilities. | Required consumption: a consumer needs a provider contract in a declared scope. Direction is consumer→provider; record consumer, provider, contract, scope and responsible source editions. | Typed actual consumption retains genuine requirements/cycles. |
+| 5.11 | Every document possesses a permanent identity, standardized metadata and defined responsibilities. | Applicable normalized identity, Metadata, classification and edition-governance contracts apply only within normalization scope (§§3/5.56/5.57). | Functional exclusions apply before normalized obligations. |
+| 5.22 | The sequence of states through which a document evolves during its existence. | The subject-specific states, transitions and evolution contracts of an identified entity or definition. | Definition/element lifecycle separate from documentary edition. |
+| 5.34 | A standardized document structure used to ensure consistency across documentation. | A reusable structural definition for organizing/representing documentation under applicable constraints. | Definition/instance and domain boundaries;no automatic consistency guarantee. |
+| 6 | - Use Pascal Case for architectural component names. | Use canonical natural-language component names in prose, including their spaces and spelling (Document Identity, Knowledge Graph, Metadata Generator). | Prose names differ from directory/identifier/code representation. |
+| 6 | - Avoid synonyms for canonical terms. | Aliases have explicit targets and contexts; historic or external spelling requires a map/qualification when relevant. | Controlled contextual aliases preserve original anchors and historical meanings. |
+
+All 55 original numbered-body replacements are mapped;all 39 original term headings/labels and chapter numbers are retained. Each of 59 glossary entries supplies a responsible role/source,qualified subject or context and limits. The shared vocabulary does not create a competing canonical domain catalog; source references in §9 resolve supplied contracts and current comparison limits.
+
+### 40.3. Supplemental vocabulary,aliases and owner impact
+
+| Added section | Actual term | Effect/limit |
+|---|---|---|
+| 5.40 | Document Edition | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.41 | Revision | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.42 | Status | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.43 | Family | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.44 | Document Type | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.45 | Class | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.46 | Metadata Element | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.47 | Metadata Value | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.48 | Metadata Dictionary | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.49 | Metadata Schema | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.50 | Metadata Profile | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.51 | Metadata Instance | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.52 | Identifier | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.53 | Identity Domain | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.54 | Template Type | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.55 | Template Instance | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.56 | Functional File | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.57 | Normalized Document | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.58 | Documentation Management System (DMS) | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+| 5.59 | Change Management System (CMS) | Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created |
+
+Added §§5.40–5.59 distinguish exact edition/coordinates/state,classification dimensions,Metadata definition/representation levels,identity representation/domain,Template category/instance,functional/normalized applicability and contextual DMS/CMS roles. Dictionary/Schema/Profile/Instance remain within Metadata ownership;no canonical Element ID,missing Profile or lifecycle record is created. Template Type and Metadata value type are not additional normalized-document Types. DMS/CMS are contextual external roles,not new registered DF components or supplied complete external specifications.
+
+The original paired entries remain as explicit aliases:Architectural Component→Component,Architectural Layer→structural Layer,Framework→Documentation Framework in the declared DF context. The prose-name policy uses actual canonical component names with spaces;DocumentIdentity is a directory alias. Baseline(entity) differs from Baselines(capability). Controlled mappings and historical vocabulary are permitted without competing meanings or forced identity/path renaming.
+
+Seven structural areas,five conceptual concerns and 23 registered capabilities retain owner allocations;Knowledge is subject matter and Preservation cross-cutting. DF contract definitions differ from DMS/tool/manual execution and CMS change evidence. Metadata represents Identity/Classification/Governance values without becoming their semantic owner;one effective Profile per Instance is explicit. Normalization excludes every README.md/CHANGELOG.md/ArchitecturalMilestones.md at every location while preserving content/reference/hash checks.
+
+Baseline requires exact approved-edition selection with relevant pinned context/evidence;eligibility,consistency and membership are distinct. Document identity,identifier,edition,Version/Revision,Status and maturity are separate. Review/Validation supplies exact scope and evidence without approval/publication,automatic membership or inherited result after later disk edits. Definition lifecycle is subject-specific,not a universal Workflow state graph.
+
+Required consumer→provider contracts identify scope and source editions;semantic/reference/projection/navigation/execution relations remain distinct. Relationships owns typed endpoint/provenance records;Registry/Graph expose traceable projections with freshness/state limits. Genuine requirements/cycles are not concealed by relabelling;no universal Registry pipeline,complete graph or globally acyclic model is certified.
+
+Eighteen actual references resolve (§9):six Architecture,two Foundation,two Metadata,one Document Identity,two Classification,two Templates,one global Roadmap and policy/report. Encoded DID spaces resolve to the supplied path,and Template Specification uses its actual singular declared title. All five original Architecture roles remain operationally referenced. Prior source validations retain exact-edition scope;presence or a link is not a full peer cycle.
+
+Unchanged owner discrepancies remain explicit:Metadata Model still says Schema defines Elements/complete vocabulary;Dictionary/Profile completeness and Classifications’ historical Family→Type interpretation need responsible-source reconciliation. Identity syntax/applicability and nominal CLS-003/CLS-001 collision remain pending. This source neither copies those conflicting clauses as new governing rules nor silently edits owners,consumer maps or roadmap headers.
+
+The affected-source map retains six re-inspected partial comparison extracts:Concepts §§2/3/4/5/7/8;Metadata Model §§6–11;Identity Concepts §§3/5/8;Classification Concepts §§12–15/21–23;Template Concepts §§2/3/8;Template Specification §§1.2/3/21. Other listed earlier comparison scopes have unchanged verified hashes;these are not full owner cycles. Complete required graphs,canonical catalog/Profile,identity/classification integration and global terminology propagation remain pending.
+
+### 40.4. History,central tracking and construction evidence
+
+Added source §§11.1–11.3 record actual compatibility,local history and propagation limits. The received V1.0 R0 row preserves Architecture/Terminology,Draft/Baseline1.0 and absent Author/date. The 2026-10-14 V2.0 R1 contribution row records actual changes,ten corrections pending VALIDATE DOCUMENT,CHANGELOG #311 and report §40. Input hash/full before-after preserve original facts;no approval or historic attribution is fabricated. Mixed contributors retain their attribution;authorization does not substitute for authorship or assume consequences of subsequently changed final-product bytes.
+
+| Item | Before | After |
+|---|---|---|
+| Source | V1.0 R0 Architecture/Terminology,Draft/Baseline1.0 | V2.0 R1 Architecture/Reference,Draft/unassigned |
+| Local records | Ten Open | Ten Corrected—pending validation |
+| Glossary coverage | 39 original entries | Same 39 anchors plus 20 supplemental entries,59 responsible-role statements |
+| Review Report | V1.0 R33 | V1.0 R34,technical English,Draft/unassigned |
+| CHANGELOG | Through #310 | #311 source UPDATE;#312 report;#313 milestone tracking |
+| M11 | Four C,Terminology S,two O;In Progress | Same counts;UPDATE complete/VALIDATE pending,no completion date |
+
+Current totals: **19 Open,ten Corrected—pending validation,97 Closed—verified,one Not applicable—scope decision**. No finding closes in UPDATE. M10 and M0–M7 remain unchanged;M9 cites R34 without extending original acceptance. Earlier events and source notes retain their historical/exact-byte scopes.
+
+Construction checks protect exact input/output,55 original-body replacements,39 retained term names/numbers,20 added terms/owner roles,closed four-Type/applicability declarations,three controlled alias pairs,18 link identities,header/history/CRLF,all source tables,unchanged comparisons/previous sources,stable matrix and central history. These are UPDATE construction checks,not VALIDATE DOCUMENT;the ten closure criteria and source validation remain pending. Detailed results:`DF-RVW-002-update-4-11-construction.json`.
+
+R33 exports retain historical REVIEW states. Current R34 progress/manifest,map,classification/term exports and full diff belong to this successor;`Context-Working-Step-4-11-Update.zip` is interim. No final Context-Reviewed.zip,integrated conformity,approval,publication or Baseline is claimed.
+
+### 40.5. Next command
+
+**CONTINUAR** starts **4.11 — VALIDATE DOCUMENT DF-ARC-006 — Terminology**,checking the exact successor,ten closure criteria,all original/supplemental terms and affected comparisons,then pauses before the next document cycle.

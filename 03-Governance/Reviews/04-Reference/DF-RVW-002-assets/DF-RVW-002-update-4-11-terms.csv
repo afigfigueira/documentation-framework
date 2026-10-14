@@ -1,0 +1,60 @@
+﻿Parent,Report edition,Section,Term,Origin,Responsible-role body SHA-256
+DF-RVW-002,1.0/34,5.1,Architecture,Received anchor preserved,92dd7c2dcbc9c1f82422210015e6b090c23ab5354033f9906cc7596aa8200d44
+DF-RVW-002,1.0/34,5.2,Architectural Component,Received anchor preserved,dbcf6ab4ea052b4da57ebef5f463ae841cbd4407a0a4fd3d5a04fd589141400b
+DF-RVW-002,1.0/34,5.3,Architectural Layer,Received anchor preserved,d06c72e4bf9c58a04f16dd908086877a968cd52d6878ff65713df04b76f9f7f6
+DF-RVW-002,1.0/34,5.4,Architectural Principle,Received anchor preserved,a0af6d5ff74d039835fc8a56b1054bdd0f7f196f1167d203bb24daaee5422380
+DF-RVW-002,1.0/34,5.5,Baseline,Received anchor preserved,3cffab448aa58a70fbdc4abc9a03d1f068e9fb58ee4427d1664b96104d9cbc11
+DF-RVW-002,1.0/34,5.6,Classification,Received anchor preserved,36c61b3b91e3e817e5716448ec6ed75dba764c78c53e2f2b5dcc2b5c467584e1
+DF-RVW-002,1.0/34,5.7,Component,Received anchor preserved,781b6b8e9d8b5a716a9cdcff5675aa18f93bcd94ffaf7e5ef68605d28d5d9539
+DF-RVW-002,1.0/34,5.8,Concept,Received anchor preserved,518d6a3843f9d94d3e582748e572af2e2a9250b14cdac60d2a038ed7be0be779
+DF-RVW-002,1.0/34,5.9,Dependency,Received anchor preserved,68d90c4aa027c98ce52ff616c6189570f309442e2a34b9ac757ea3b576a4d331
+DF-RVW-002,1.0/34,5.10,Discovery,Received anchor preserved,b7afafb5ab0fedb37cb4d1335bdd9ffec930af696ba83367e88fd372ca679b24
+DF-RVW-002,1.0/34,5.11,Document,Received anchor preserved,4236b1a106176359884f08d2e670dc5863aca88a1405614c01046c9b43ab3369
+DF-RVW-002,1.0/34,5.12,Document Identity,Received anchor preserved,33becb78ba6a9005eed0d9d3126e049c43ef2be27b3823d9408c8fcc5e4b2bcb
+DF-RVW-002,1.0/34,5.13,Documentation,Received anchor preserved,dcc5c7b7aebc2f7e23b50041450de1950eee0ccfc53d1cd2b5b455e1130aeb8f
+DF-RVW-002,1.0/34,5.14,Documentation Framework,Received anchor preserved,1be0bcb8084a690180d0b1e59e9d98dcb1e04b61e6731de4693ba427ecbdaccf
+DF-RVW-002,1.0/34,5.15,Framework,Received anchor preserved,43f66610fbc5c0739ca48cf3d47506c9a2347bc98de3c6089841e9414fcd42c2
+DF-RVW-002,1.0/34,5.16,Governance,Received anchor preserved,21113bbe8e54bc83b97a4bc02c5000c77811a8f625cf956f3bb7cc20cb3ffcdb
+DF-RVW-002,1.0/34,5.17,Identity,Received anchor preserved,812302bac2f1750d4b1b9f7e20cc3d3ce344f4913ea878a83dc491732946a5f9
+DF-RVW-002,1.0/34,5.18,Integration,Received anchor preserved,b727c56ef0c0883825bc2772e9ed4c2817e6a117d3709ef3676476fc069cf8fa
+DF-RVW-002,1.0/34,5.19,Knowledge,Received anchor preserved,39deea9adf64bb45e20647facf74e636e7acd8bac23f6f5f31ee15f83feccc52
+DF-RVW-002,1.0/34,5.20,Knowledge Graph,Received anchor preserved,e0e011534ddeb3951c23485d4bfeed8f6b7002e1a477f0411f45935dc5ea980a
+DF-RVW-002,1.0/34,5.21,Layer,Received anchor preserved,3f594c5f4f49ea7d9ce8e158c428a7bc5a34e5b206bddd6f2ac1de3fef8847f9
+DF-RVW-002,1.0/34,5.22,Lifecycle,Received anchor preserved,07577fb037dfd92f0875f6995fd02500bf100f901f14838666cee8103f13f0d2
+DF-RVW-002,1.0/34,5.23,Metadata,Received anchor preserved,9bb538cfec137351438eb5cd90aa1c537697971a4045d46e4af6b1f43a7e5061
+DF-RVW-002,1.0/34,5.24,Navigation,Received anchor preserved,c9009632b9533f6bf15230c56d1b4855196b19a9a39b72e425a32f2f1947bc99
+DF-RVW-002,1.0/34,5.25,Policy,Received anchor preserved,3b34ececb6342e4906f60e8204f512514e34bb66bcf0f549348807e56c256281
+DF-RVW-002,1.0/34,5.26,Registry,Received anchor preserved,c8c96396449c0e229e45a7b748a4f8dcdb9e95a475cc1ce04184d7737373a3a0
+DF-RVW-002,1.0/34,5.27,Relationship,Received anchor preserved,ce99823f1c8c68108710fec078042b804078e74f5308a53ec33ddd73adf652ec
+DF-RVW-002,1.0/34,5.28,Repository,Received anchor preserved,80477d7a1ec11793536a30d059d78ba8d5fa46e3a1659523686b31d25f34f21e
+DF-RVW-002,1.0/34,5.29,Review,Received anchor preserved,6ffb88994c080e2aee569169a10371166d04864c0e08051a644dfb1355861664
+DF-RVW-002,1.0/34,5.30,Roadmap,Received anchor preserved,bee783a87e91ef48379f9e5769c0adfa08d9f4d2cd58ecc636e105fda775bff9
+DF-RVW-002,1.0/34,5.31,Semantic,Received anchor preserved,a81d54d07af150051336a39f097a283aa840ab6e43e114490e779b1f38156a12
+DF-RVW-002,1.0/34,5.32,Single Source of Truth,Received anchor preserved,1aa9eb88ed53e84432352912a7afa5d012a3afe9aa9b4c1f19475787bacb4348
+DF-RVW-002,1.0/34,5.33,Specification,Received anchor preserved,349268ce9ea46a2f2b6d9a3cc359df01edcc19ab4810ba238913d1f23b45d3ad
+DF-RVW-002,1.0/34,5.34,Template,Received anchor preserved,2c5dc310f90bf9d548f80851b33cf3c587e67d0c8b9e51643224088a8a5d1c6d
+DF-RVW-002,1.0/34,5.35,Terminology,Received anchor preserved,b86434302c53e3fc1dde898a4f3b92c945b0aa9d6b011935858e0a936ffacc2e
+DF-RVW-002,1.0/34,5.36,Traceability,Received anchor preserved,2966087596a964c07f4d22c618bd88de7717b55a4bf420a5c77bcf988e8e6779
+DF-RVW-002,1.0/34,5.37,Validation,Received anchor preserved,035c9aa55ec160a51b295baff2d1881cd8322590728753345ebd3f7586236752
+DF-RVW-002,1.0/34,5.38,Version,Received anchor preserved,3262f6b51afb24a2662c1cc986332d0a6b0e519612609cdd5b80141aa1dcf18c
+DF-RVW-002,1.0/34,5.39,Workflow,Received anchor preserved,136f905081e4b1ecab6758b04c1d27eeefa2c3b72096b2b9a556148f0111a443
+DF-RVW-002,1.0/34,5.40,Document Edition,Added owner-linked distinction,0b8f8c5e630899a337de05a9027f068da9e20602785090bdf3e1a36a076ab060
+DF-RVW-002,1.0/34,5.41,Revision,Added owner-linked distinction,963b9d0b87f78abf98f1cb2d1da83824036d0d5a4b864994ac2c7fb3438835f6
+DF-RVW-002,1.0/34,5.42,Status,Added owner-linked distinction,0feb8832219d392409fe2de8fd279f10e7795ca5c452f0473d6be4eea2b63e22
+DF-RVW-002,1.0/34,5.43,Family,Added owner-linked distinction,83c5fd6217cd6ac3ed8e0377b7ad59dc4a7a31c8c0da50ff18cbfe899a1939e0
+DF-RVW-002,1.0/34,5.44,Document Type,Added owner-linked distinction,727caeef14833fa988747a1414772cb4a539bcf27d570893899991be662b911a
+DF-RVW-002,1.0/34,5.45,Class,Added owner-linked distinction,b16487a13a920e629bb796e160bcd877b138a98be9239f2cadaa6e5bd6f75ffd
+DF-RVW-002,1.0/34,5.46,Metadata Element,Added owner-linked distinction,8ea40940e8cdedd174c3e0da1923aca4e2eb9d66c081edf14992d91acf4e3154
+DF-RVW-002,1.0/34,5.47,Metadata Value,Added owner-linked distinction,3c1ae58251c4affc2be4728d1cb948284cb22c41acb00ed725e0db86ba423242
+DF-RVW-002,1.0/34,5.48,Metadata Dictionary,Added owner-linked distinction,c28f48e343fbc11a43ac934b9ae597cb5ea9178c3f08342a4f1028f940b04857
+DF-RVW-002,1.0/34,5.49,Metadata Schema,Added owner-linked distinction,ee6ff7e7475fa9d5da291a7427d449d640069e88cb5bb823b9a16207d6bba194
+DF-RVW-002,1.0/34,5.50,Metadata Profile,Added owner-linked distinction,7263ff87289bb55a18063087a399f5c1ff2b87b61adf489e1c89a08ad88d121e
+DF-RVW-002,1.0/34,5.51,Metadata Instance,Added owner-linked distinction,779000f752f23615eb0567c8d8aa2f08b38eff9d59d6dabe8ddda7f9e9a177ab
+DF-RVW-002,1.0/34,5.52,Identifier,Added owner-linked distinction,1366c5816ad06c5d0a4560770c7d23ce5ccc2291c34412ba41464dfd46cc211b
+DF-RVW-002,1.0/34,5.53,Identity Domain,Added owner-linked distinction,58c84891efa04243c925f3910d9aadd2be020d36e26d68b56c525a10021de5f0
+DF-RVW-002,1.0/34,5.54,Template Type,Added owner-linked distinction,15a724f4476790c80fc0d9ca3fc4dc1a5bc4904c8c0d436a9de68471a3444b9b
+DF-RVW-002,1.0/34,5.55,Template Instance,Added owner-linked distinction,0980664647c4fc3552c5f9253b61370803d18f0fc2ebe6aa15b895f211708545
+DF-RVW-002,1.0/34,5.56,Functional File,Added owner-linked distinction,c98a75ebd9aa7c31b13788e3a17b76fd7e4c228a3a0570d80318f159c4d241f5
+DF-RVW-002,1.0/34,5.57,Normalized Document,Added owner-linked distinction,78c51b9882d08b199a5c40090ad7539787ae12ae8cd7f8cdd3aa0932026ad565
+DF-RVW-002,1.0/34,5.58,Documentation Management System (DMS),Added owner-linked distinction,c9ac0c6712d9e2468252e14b43dcf9d780ae854a8c31b0f691cd2cd9fa04de95
+DF-RVW-002,1.0/34,5.59,Change Management System (CMS),Added owner-linked distinction,4db54470aa51efc46cf07c8464a9b91ca8e944c3bbb2b2c8512bb9c30ca5653d
