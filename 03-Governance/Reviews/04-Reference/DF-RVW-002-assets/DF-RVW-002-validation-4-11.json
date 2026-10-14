@@ -1,0 +1,1107 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/35",
+  "date": "2026-10-14",
+  "step": "4.11 VALIDATE DOCUMENT",
+  "source": "01-Architecture/DF-ARC-006-Terminology.md",
+  "source_edition": "2.0/1",
+  "source_sha256": "d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41",
+  "source_changed": false,
+  "result": "PASS—local Terminology correction scope",
+  "coverage": {
+    "method": "Complete source read of all666 lines,eleven chapters,all59 entries/four tables/aliases/references/history;input/UPDATE body and term comparisons;manual evaluation of ten closure criteria. First six owner extracts re-read,with truncated Concepts §8 re-read separately. Other listed unchanged previously inspected partial scopes retained;no full peer cycle or implementation execution inferred.",
+    "bytes": 48675,
+    "lines": 666,
+    "chapters": 11,
+    "original_numbered_sections": 55,
+    "added_sections": 23,
+    "original_terms": 39,
+    "supplemental_terms": 20,
+    "responsible_role_statements": 59,
+    "Markdown_tables": 4,
+    "references": 18,
+    "received_views": 0
+  },
+  "integrity_checks": {
+    "exact_output_hash": true,
+    "exact_input_hash": true,
+    "R34_manifest_integrity": true,
+    "header_contract": true,
+    "no_Component_Class_invented": true,
+    "55_original_body_hashes": true,
+    "original_numbers_retained": true,
+    "eleven_chapters": true,
+    "23_added_sections": true,
+    "39_original_term_labels_numbers_preserved": true,
+    "original_term_maps_match": true,
+    "twenty_supplemental_bodies_match": true,
+    "59_owner_roles_present": true,
+    "term_export_matches_bodies": true,
+    "local_term_references_resolve": true,
+    "four_rectangular_tables": true,
+    "18_reference_IDs_resolve": true,
+    "five_original_Architecture_roles_retained": true,
+    "three_controlled_alias_pairs_retained": true,
+    "functional_scope_uniform_document_Type": true,
+    "qualified_type_and_lifecycle_domains": true,
+    "no_hidden_required_edges_or_global_graph": true,
+    "owner_conflicts_still_explicit": true,
+    "no_catalog_Profile_allocations": true,
+    "received_input_history_actual_attribution": true,
+    "no_historic_views_invented": true,
+    "CRLF_preserved": true,
+    "comparison_hashes_unchanged": true,
+    "68_other_original_normalized_sources_unchanged": true,
+    "ten_prior_validated_sources_unchanged": true,
+    "six_READMEs_unchanged": true,
+    "eight_functional_records_excluded": true,
+    "source_matches_UPDATE_checkpoint": true
+  },
+  "section_comparison": {
+    "changed": 55,
+    "unchanged": 0,
+    "added": [
+      "11.1",
+      "11.2",
+      "11.3",
+      "5.40",
+      "5.41",
+      "5.42",
+      "5.43",
+      "5.44",
+      "5.45",
+      "5.46",
+      "5.47",
+      "5.48",
+      "5.49",
+      "5.50",
+      "5.51",
+      "5.52",
+      "5.53",
+      "5.54",
+      "5.55",
+      "5.56",
+      "5.57",
+      "5.58",
+      "5.59"
+    ]
+  },
+  "original_term_changes": [
+    {
+      "section": "5.1",
+      "term": "Architecture",
+      "before": "The structural organization of the Documentation Framework, including its principles, concepts, layers, components and relationships.",
+      "after": "The common arrangement of principles, concepts, capability boundaries, structural allocations and typed contracts in DF. Architecture includes definitions and constraints; it is not evidence that an operational system exists.\n\n**Responsible role/source:** Common Architecture; Architectural Concepts, Layers and Components (§9).",
+      "before_sha256": "7872527393684e9b6236215daf5de1fb3558f18d0259c401b37358895120da72",
+      "after_sha256": "92dd7c2dcbc9c1f82422210015e6b090c23ab5354033f9906cc7596aa8200d44",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.2",
+      "term": "Architectural Component",
+      "before": "A modular architectural building block responsible for a specific capability within the Documentation Framework.",
+      "after": "A contextual synonym for Component (§5.7): a capability boundary with a defined responsibility and owner contracts. This entry introduces no second component meaning or registration.\n\n**Responsible role/source:** Common Architecture; Architectural Components (§9); controlled alias in §6.",
+      "before_sha256": "1c3d3f328772b4ae60d2b80fbb116c93afb0b33429f770dedf03e5f2cc8ff9e5",
+      "after_sha256": "dbcf6ab4ea052b4da57ebef5f463ae841cbd4407a0a4fd3d5a04fd589141400b",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.3",
+      "term": "Architectural Layer",
+      "before": "A logical grouping of architectural components sharing related responsibilities.\n\nLayers define dependency boundaries within the framework.",
+      "after": "A contextual synonym for structural Layer (§5.21). Structural areas, conceptual concerns and physical directories remain distinct; the term does not make every grouping a capability component.\n\n**Responsible role/source:** Common Architecture; Architectural Layers (§9); controlled alias in §6.",
+      "before_sha256": "41c85117abc383b4c921ab2469e11579050b48280c6646a68b283a4f2616b6de",
+      "after_sha256": "d06c72e4bf9c58a04f16dd908086877a968cd52d6878ff65713df04b76f9f7f6",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.4",
+      "term": "Architectural Principle",
+      "before": "A fundamental rule governing the design, implementation and evolution of the Documentation Framework.",
+      "after": "An explicit design/evolution rule within its stated architectural scope. Its applicability and responsible source determine the requirement; a principle alone proves neither implementation nor conformity.\n\n**Responsible role/source:** Common Architecture; Architectural Principles, with scheduled reconciliation, and applicable owner contracts (§9).",
+      "before_sha256": "c893f14148eddf9ee4ac52fb60ee8c03d8a0ff0259f84c7a1749bd3b126b2427",
+      "after_sha256": "a0af6d5ff74d039835fc8a56b1054bdd0f7f196f1167d203bb24daaee5422380",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.5",
+      "term": "Baseline",
+      "before": "An immutable snapshot of the documentation captured at a specific point in time.\n\nBaselines preserve the historical state of the Documentation Framework.",
+      "after": "A separately identified immutable, explicitly selected set of exact approved document editions with relevant pinned relationship context or traceable verification evidence. Snapshot identity, member logical identity, edition coordinates, approval eligibility, consistency and actual inclusion are separate facts. A time label or current path is insufficient to select members; a snapshot need not contain every current source or a complete live graph.\n\n**Responsible role/source:** Governance/Baselines contracts summarized by Concepts §5.13 and Components §6.4 (§9).",
+      "before_sha256": "e3c400bcd1e23103d790d304139a08fc50824f5c2d7fd1a03c7ddb20c4b7cf54",
+      "after_sha256": "3cffab448aa58a70fbdc4abc9a03d1f068e9fb58ee4427d1664b96104d9cbc11",
+      "primary_review_record": "ARC006-05"
+    },
+    {
+      "section": "5.6",
+      "term": "Classification",
+      "before": "The process of organizing documents into semantic categories according to a defined classification model.",
+      "after": "The domain contract for meaningful documentary categories and assignments. Metadata represents values; Classification owns their semantic meaning. Family, document Type and optional Class are complementary distinctions under the adopted rules (§§5.43–5.45), independent of permanent document identity, current path, edition Status and primary component allocation.\n\n**Responsible role/source:** Classification; Classification Concepts and the adopted Review Policy §3 (§9), pending full domain-source reconciliation.",
+      "before_sha256": "27e6db201d87361351a58b27091b9ff7941abdb53925cdc8a5e43c30ae2d441b",
+      "after_sha256": "36c61b3b91e3e817e5716448ec6ed75dba764c78c53e2f2b5dcc2b5c467584e1",
+      "primary_review_record": "ARC006-04"
+    },
+    {
+      "section": "5.7",
+      "term": "Component",
+      "before": "A reusable architectural unit implementing a single architectural responsibility.",
+      "after": "A capability building block with a defined primary responsibility and explicit owner/consumer boundaries. The supplied register contains 23 capabilities, allocated 4/4/5/5/5 across Documentation/Governance/Discovery/Automation/Integration. Registration is distinct from logical entities, files, concerns, implemented services and complete documentation. One primary allocation allows explicit cross-cutting participation without competing semantic ownership.\n\n**Responsible role/source:** Common Architecture; Architectural Components and Layers (§9). Architectural Component (§5.2) is the controlled contextual synonym.",
+      "before_sha256": "fc4908109c13538c28192c3e2f664824122711e1c736ee771f18253f91424346",
+      "after_sha256": "781b6b8e9d8b5a716a9cdcff5675aa18f93bcd94ffaf7e5ef68605d28d5d9539",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.8",
+      "term": "Concept",
+      "before": "An abstract architectural idea representing part of the Documentation Framework's conceptual model.",
+      "after": "A defined abstraction with an identified subject/domain and responsible contract. Concepts may concern knowledge, entities, descriptors, states or capabilities; not every concept is a registered component or structural Layer. Shared words require explicit contextual qualification rather than an invented universal meaning.\n\n**Responsible role/source:** Common Architecture; Architectural Concepts (§9), with domain-specific meanings retained by their owners.",
+      "before_sha256": "90f9ced0c1b1545f6d60500fdde3c495f96b131028533d6e25ba9b3c824d2be2",
+      "after_sha256": "518d6a3843f9d94d3e582748e572af2e2a9250b14cdac60d2a038ed7be0be779",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.9",
+      "term": "Dependency",
+      "before": "A relationship in which one architectural entity requires another to perform its responsibilities.",
+      "after": "Required consumption: a consumer needs a provider contract in a declared scope. Direction is consumer→provider; record consumer, provider, contract, scope and responsible source editions. Documentary authority reference, semantic association, projection, navigation and execution are separately typed. Applicable structural/cycle rules remain with Layers/owners; genuine indispensable edges or cycles must remain visible and cannot be hidden by relabelling.\n\n**Responsible role/source:** Common Architecture and applicable owner/consumer contracts; Concepts §8, Layers §§12–13 and Components §12 (§9).",
+      "before_sha256": "b5e56de590fefacb66fbcff32f6c21e7ee15adf043f46a01d5c918f869d0fd58",
+      "after_sha256": "68d90c4aa027c98ce52ff616c6189570f309442e2a34b9ac757ea3b576a4d331",
+      "primary_review_record": "ARC006-06"
+    },
+    {
+      "section": "5.10",
+      "term": "Discovery",
+      "before": "The capability of locating, navigating and understanding architectural knowledge.",
+      "after": "Capabilities for locating, navigating and consulting identified entities/editions through declared information sources/views. State, provenance and freshness limits remain explicit; discoverability grants no approval or complete coverage. Discovery as a structural area differs from a single operational service.\n\n**Responsible role/source:** Discovery capability boundaries in Components §7 (§9); actual implementations require their own evidence.",
+      "before_sha256": "36b17204347b55d49cd6f64d80c3f981e0d2ddc906769e970bd41b9bef7527b3",
+      "after_sha256": "b7afafb5ab0fedb37cb4d1335bdd9ffec930af696ba83367e88fd372ca679b24",
+      "primary_review_record": "ARC006-06"
+    },
+    {
+      "section": "5.11",
+      "term": "Document",
+      "before": "The fundamental architectural unit representing a coherent body of knowledge.\n\nEvery document possesses a permanent identity, standardized metadata and defined responsibilities.",
+      "after": "A logical documentary entity with a purpose and a coherent unit of represented knowledge. File and physical location are representations, not its logical key. Applicable normalized identity, Metadata, classification and edition-governance contracts apply only within normalization scope (§§3/5.56/5.57). An exact edition (§5.40) differs from the enduring logical document.\n\n**Responsible role/source:** Document Identity for logical identity; Metadata/Classification/Governance for their respective meanings, as summarized by Concepts §5.3 (§9).",
+      "before_sha256": "0fd7c155615b2c57d123fc9f5465602d6f7a09678073f8c0a4701baf28207d72",
+      "after_sha256": "4236b1a106176359884f08d2e670dc5863aca88a1405614c01046c9b43ab3369",
+      "primary_review_record": "ARC006-04"
+    },
+    {
+      "section": "5.12",
+      "term": "Document Identity",
+      "before": "The permanent logical identity assigned to a document.\n\nDocument Identity is independent of filenames, directory structures and storage technologies.",
+      "after": "Permanent logical identity under the applicable Domain+Identifier allocation/preservation contract. Its identifier representation (§5.52) is not the entity itself. Filename, repository, title, classification, Version/Revision and Status do not automatically recalculate a valid identity. The adopted corpus representation DF-SSS-NNN uses a stable allocation series independent of current Family/Type; full DID source integration remains pending.\n\n**Responsible role/source:** Document Identity; Document Identity Concepts, with working corpus syntax in Review Policy §4 (§9). No new allocation or migration is performed here.",
+      "before_sha256": "03e79d6c683ee46e8e3454247d14ca199eb8811221294e9775886f4b057b3b2b",
+      "after_sha256": "33becb78ba6a9005eed0d9d3126e049c43ef2be27b3823d9408c8fcc5e4b2bcb",
+      "primary_review_record": "ARC006-04"
+    },
+    {
+      "section": "5.13",
+      "term": "Documentation",
+      "before": "The structured representation of knowledge produced and governed by the Documentation Framework.",
+      "after": "Organized representation of knowledge through documentary entities and applicable architectural/domain contracts. It includes normalized sources and functional files in their respective scopes, not only a directory tree. DF defines those contracts; actual producing/managing processes are separately identified.\n\n**Responsible role/source:** Common Architecture; Architectural Concepts and Framework Manifest (§9).",
+      "before_sha256": "c3081d438c81438dd658e3e0beec35a00c91c1ec9868a2244bf773f2c045882b",
+      "after_sha256": "dcc5c7b7aebc2f7e23b50041450de1950eee0ccfc53d1cd2b5b455e1130aeb8f",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.14",
+      "term": "Documentation Framework",
+      "before": "The architectural framework that defines how technical documentation is structured, governed, discovered and evolved.",
+      "after": "The architectural framework of documentary definitions, representation/organization rules and applicable governance/discovery/evolution contracts. DF defines what those contracts require; DMS, tools or manual processes execute document-management operations, while CMS governs changes in its own scope. This term proves no users, permissions, storage engine or deployed workflow.\n\n**Responsible role/source:** Common Architecture and Foundation; Framework Manifest, Blueprint and Concepts (§9).",
+      "before_sha256": "ddbededc1e6bca403b720928358aa45dacde30441e190263814cee45fd9cf8cb",
+      "after_sha256": "1be0bcb8084a690180d0b1e59e9d98dcb1e04b61e6731de4693ba427ecbdaccf",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.15",
+      "term": "Framework",
+      "before": "The complete architectural system composed of principles, concepts, components and specifications that together constitute the Documentation Framework.",
+      "after": "In this glossary’s declared DF context, a controlled short form of Documentation Framework (§5.14). It does not mean that every framework in another domain has the same contracts or that DF is an implemented management system.\n\n**Responsible role/source:** Common Architecture; context mapping in §6, not a second definition owner.",
+      "before_sha256": "ce2ce738d6063ea8b0e2e0641876ec254035308c5920f1682e145c300f191fe5",
+      "after_sha256": "43f66610fbc5c0739ca48cf3d47506c9a2347bc98de3c6089841e9414fcd42c2",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.16",
+      "term": "Governance",
+      "before": "The set of architectural mechanisms responsible for managing the lifecycle and quality of documentation.",
+      "after": "Applicable contracts for responsibilities, controlled evolution, decisions and required evidence. Workflow, Policies, Reviews and Baselines define distinct capability roles; an applicable DMS/tool/manual process executes operations, and CMS supplies change evidence within its own scope. Domain governance, document-edition Status, validation, approval, publication and Baseline membership remain separate.\n\n**Responsible role/source:** Responsible domain Governance contracts and common Architecture summaries in Components §6 (§9).",
+      "before_sha256": "73f6c07c2b22e85ad6225c6e51832a22c97012e4f74982051def069dedf8eb46",
+      "after_sha256": "21113bbe8e54bc83b97a4bc02c5000c77811a8f625cf956f3bb7cc20cb3ffcdb",
+      "primary_review_record": "ARC006-05"
+    },
+    {
+      "section": "5.17",
+      "term": "Identity",
+      "before": "The permanent logical identifier associated with an architectural entity.",
+      "after": "The persistent characteristic/key by which an entity is recognized within its declared identity domain, independent of mutable properties. Identity is represented through an identifier but is not synonymous with the string representation. Document Identity (§5.12) is a qualified identity domain role; other endpoints use their own appropriate contracts and do not automatically receive normalized document IDs.\n\n**Responsible role/source:** Relevant entity-domain owner; Document Identity Concepts §§3.3–3.5 for documentary identity (§9).",
+      "before_sha256": "9160557f8ba0dcfe7a1beaea9eea226d4e55dd2d3da725e6d3b86d1e5810e63a",
+      "after_sha256": "812302bac2f1750d4b1b9f7e20cc3d3ce344f4913ea878a83dc491732946a5f9",
+      "primary_review_record": "ARC006-04"
+    },
+    {
+      "section": "5.18",
+      "term": "Integration",
+      "before": "The capability of connecting the Documentation Framework with external systems and tools.",
+      "after": "Optional, use-case-specific adapters to supported external environments/interfaces. They consume applicable owner and authorization contracts; descriptions establish neither installed tools nor successful execution. Publication requires Governance authorization for the exact edition, and an adapter gains no new semantic or approval authority.\n\n**Responsible role/source:** Integration capability definitions in Components §9 (§9); actual executor/implementation evidence remains separate.",
+      "before_sha256": "dd89ce445cdf21321147a405c8314e0f4deb8f908c086c22c2437658015fb223",
+      "after_sha256": "b727c56ef0c0883825bc2772e9ed4c2817e6a117d3709ef3676476fc069cf8fa",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.19",
+      "term": "Knowledge",
+      "before": "The primary asset managed by the Documentation Framework.\n\nKnowledge exists independently of its physical representation.",
+      "after": "Subject matter represented, organized, preserved and communicated by documentation; it can exist independently of documentary representations. Knowledge is a conceptual concern, not a new registered DF component or structural area. DF defines representation contracts rather than becoming the operational manager of every knowledge asset.\n\n**Responsible role/source:** Knowledge-producing domain for subject meaning; common Architecture representation role in Concepts §5.1 (§9).",
+      "before_sha256": "010f98f6bf542aa4cd0a4de520c13174e72fd9490e13289fcb200595cf04719f",
+      "after_sha256": "39deea9adf64bb45e20647facf74e636e7acd8bac23f6f5f31ee15f83feccc52",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.20",
+      "term": "Knowledge Graph",
+      "before": "A semantic network representing architectural entities and the relationships between them.",
+      "after": "A semantic-network projection of identified entities and typed Relationships records, with authoritative source/edition provenance. Views distinguish current, stale, historical and snapshot context and refresh rules. Derived values gain no competing semantic authority; a graph capability proves neither a complete network nor global required-dependency acyclicity.\n\n**Responsible role/source:** Discovery/Knowledge Graph projection role; Relationships and endpoint domains retain record/identity meanings, as summarized by Components §7.3 (§9).",
+      "before_sha256": "859d93a0fec332c42f91d31abb1c33c7d465bde5ee282d959bf35166ba0bf373",
+      "after_sha256": "e0e011534ddeb3951c23485d4bfeed8f6b7002e1a477f0411f45935dc5ea980a",
+      "primary_review_record": "ARC006-06"
+    },
+    {
+      "section": "5.21",
+      "term": "Layer",
+      "before": "A logical architectural boundary grouping components with similar responsibilities.",
+      "after": "In the structural context, a grouping/allocation boundary governed by Architectural Layers. Seven structural areas are Foundation, Architecture, Documentation, Governance, Discovery, Automation and Integration; Foundation/Architecture supply support definitions. Five conceptual concerns—Knowledge, Documentation, Governance, Discovery and Preservation—are a different view. Knowledge is subject matter and Preservation is cross-cutting; neither implies another registered component or structural Layer. Required boundaries follow explicit contracts, not visual order or directory nesting.\n\n**Responsible role/source:** Common Architecture; Architectural Layers (§9). Architectural Layer (§5.3) is a controlled contextual synonym; other uses require qualification.",
+      "before_sha256": "ce303b5703f4e6e4679d23be73e1e11e17105b8ba7f3f17cb0bf83140936ef2e",
+      "after_sha256": "3f594c5f4f49ea7d9ce8e158c428a7bc5a34e5b206bddd6f2ac1de3fef8847f9",
+      "primary_review_record": "ARC006-03"
+    },
+    {
+      "section": "5.22",
+      "term": "Lifecycle",
+      "before": "The sequence of states through which a document evolves during its existence.",
+      "after": "The subject-specific states, transitions and evolution contracts of an identified entity or definition. Document editions, Metadata Elements, Classification definitions and Template entities can have distinct lifecycles with their own owners. A state list does not establish a universal Workflow graph, operational permission model or implementation maturity.\n\n**Responsible role/source:** Relevant entity/domain lifecycle owner; Classification Lifecycle and common Workflow summaries provide explicit distinctions (§9).",
+      "before_sha256": "4d699f086227806d79babb8f8d4131c449332d0145748238829dede80a14910a",
+      "after_sha256": "07577fb037dfd92f0875f6995fd02500bf100f901f14838666cee8103f13f0d2",
+      "primary_review_record": "ARC006-05"
+    },
+    {
+      "section": "5.23",
+      "term": "Metadata",
+      "before": "Structured descriptive information that characterizes a document independently of its content.",
+      "after": "Definitions and represented descriptor values for documentary entities/editions. Dictionary defines descriptors, Schema organizes references/structural constraints, Profile restricts usage and Instance supplies values under one effective Profile (§§5.46–5.51). Identity, Classification and Governance retain their meanings even when Metadata represents their values. Conceptual separation from content guarantees neither independent editions nor content-free verification; coordinated changes can be necessary.\n\n**Responsible role/source:** Metadata, referencing responsible domain semantic owners; Metadata Model/Dictionary and Concepts §5.4 (§9). Received owner discrepancies remain pending.",
+      "before_sha256": "485dc4889ea148e91a3e912845c9bb95297f94dc02e2afc23bc2c8920e77aa0c",
+      "after_sha256": "9bb538cfec137351438eb5cd90aa1c537697971a4045d46e4af6b1f43a7e5061",
+      "primary_review_record": "ARC006-04"
+    },
+    {
+      "section": "5.24",
+      "term": "Navigation",
+      "before": "The mechanisms used to move through the knowledge represented by the Documentation Framework.",
+      "after": "Logical access through declared entity/edition and relationship views, with identified targets, relevant provenance, state and freshness. Navigation associations neither approve targets nor automatically declare required provider services or storage contracts.\n\n**Responsible role/source:** Discovery/Navigation capability role in Components §7.4 (§9), consuming identified sources rather than replacing their owners.",
+      "before_sha256": "ac49afa8f1c9d968f2e06c7ce61b91546b0e63eb528db6e4048022693a3ed811",
+      "after_sha256": "c9009632b9533f6bf15230c56d1b4855196b19a9a39b72e425a32f2f1947bc99",
+      "primary_review_record": "ARC006-06"
+    },
+    {
+      "section": "5.25",
+      "term": "Policy",
+      "before": "A formal governance rule regulating architectural behavior.",
+      "after": "An explicit applicable rule within a declared governance scope, with a responsible source and required evidence. Naming a policy establishes no automatic compliance or permission; execution and decisions are separately evidenced.\n\n**Responsible role/source:** Applicable Governance/domain policy owner; working review conventions in Review Policy (§9).",
+      "before_sha256": "e75b4a5fa04dac15b04a77903709dff35192d51f4cf4e330ef96b15cbd146d1f",
+      "after_sha256": "3b34ececb6342e4906f60e8204f512514e34bb66bcf0f549348807e56c256281",
+      "primary_review_record": "ARC006-05"
+    },
+    {
+      "section": "5.26",
+      "term": "Registry",
+      "before": "The authoritative catalog of architectural entities managed by the Documentation Framework.",
+      "after": "Authoritative catalog/lookup capability within its declared catalog scope, referencing logical entities, exact editions and traceable records/projections. Catalog authority does not replace Identity, Classification, Governance or Relationships semantics. Derived copies retain provenance and current/stale/historical/snapshot context; no indispensable Registry intermediary or physical single-copy storage is inferred for every consumer.\n\n**Responsible role/source:** Discovery/Registry catalog role in Components §7.1 (§9); source-domain owners retain meaning.",
+      "before_sha256": "87f8427512ae12548890085b2a0f99db732fc31a7cc987e06753a4fd37b7b390",
+      "after_sha256": "c8c96396449c0e229e45a7b748a4f8dcdb9e95a475cc1ce04184d7737373a3a0",
+      "primary_review_record": "ARC006-06"
+    },
+    {
+      "section": "5.27",
+      "term": "Relationship",
+      "before": "An explicit architectural association between two or more architectural entities.\n\nRelationships provide traceability and semantic context.",
+      "after": "An explicitly typed connection record between identified endpoints with appropriate entity-domain identity and provenance. Kinds can include semantic reference, association, replacement, navigation and required dependency. Endpoint/cardinality rules belong to applicable owners; not every endpoint is a normalized document. Record presence, not a word or arrow alone, supports traceability; no complete relation catalog or cycle-free graph is implied.\n\n**Responsible role/source:** Relationships owns typed records; endpoint domains own their identities/meaning, as summarized by Concepts §5.7 and Components §7.2 (§9).",
+      "before_sha256": "08e8f375646fc6b5b12ae87bed2772ec0e66ca670e79dea20d46d78707fc1466",
+      "after_sha256": "ce99823f1c8c68108710fec078042b804078e74f5308a53ec33ddd73adf652ec",
+      "primary_review_record": "ARC006-06"
+    },
+    {
+      "section": "5.28",
+      "term": "Repository",
+      "before": "The physical storage location containing documentation artifacts.\n\nRepositories are implementation details and are independent of the architectural model.",
+      "after": "A physical storage organization for documentary representations/artifacts. It is an implementation concern distinct from logical identity, classification and primary semantic authority. Actual formats, locations, adapters and access contracts still need implementation evidence; conceptual independence does not eliminate physical constraints or prove automatic interoperability.\n\n**Responsible role/source:** Applicable DMS/storage implementation contract; DF supplies documentary representation rules rather than a complete repository specification (§§3/5.58).",
+      "before_sha256": "885d7ad46e7d0b93840c62a64f87605cb899deea7a9d5d06a5f28fa37de18388",
+      "after_sha256": "80477d7a1ec11793536a30d059d78ba8d5fa46e3a1659523686b31d25f34f21e",
+      "primary_review_record": "ARC006-07"
+    },
+    {
+      "section": "5.29",
+      "term": "Review",
+      "before": "A controlled evaluation process intended to verify quality, consistency or compliance.",
+      "after": "An evaluation that records identified requirements, exact examined sources/editions, findings, coverage, evidence and limits. It may use Validation/Consistency Verification results without taking over domain rule ownership. Review, successful checking, approval, publication and snapshot inclusion are distinct events.\n\n**Responsible role/source:** Reviews capability and applicable process contracts; Review Policy §§6–7 and Components §6.3 (§9).",
+      "before_sha256": "ead130408788bde7d7815fc1d8917398c76a4ea2fbd5553e81624f679c0a5bf9",
+      "after_sha256": "6ffb88994c080e2aee569169a10371166d04864c0e08051a644dfb1355861664",
+      "primary_review_record": "ARC006-05"
+    },
+    {
+      "section": "5.30",
+      "term": "Roadmap",
+      "before": "A strategic implementation plan describing the progressive evolution of the Documentation Framework or one of its architectural components.",
+      "after": "A plan for progressive documentary/architectural and, where applicable, implementation evolution of DF or a component. Central Roadmaps/ storage is a planning organization, not a structural Layer or an automatic component/Family assignment. Component plans use canonical component Family and Type Behavior under the adopted rules; global admitted plans use Family Roadmap. A plan proves no implemented maturity or completed work.\n\n**Responsible role/source:** Applicable planning source and domain owners; Framework Roadmap and Review Policy §3.2 (§9).",
+      "before_sha256": "f6ec49292086f86c7f60a85b606c9f47818beb1059f4b07b89c784db474d8c80",
+      "after_sha256": "bee783a87e91ef48379f9e5769c0adfa08d9f4d2cd58ecc636e105fda775bff9",
+      "primary_review_record": "ARC006-07"
+    },
+    {
+      "section": "5.31",
+      "term": "Semantic",
+      "before": "Related to the meaning and interpretation of architectural concepts rather than their physical representation.",
+      "after": "Pertaining to meaning/interpretation within a defined subject/domain, as distinct from physical representation. The same word in different domains requires qualification; represented values and projections preserve owner meaning rather than introducing competing definitions.\n\n**Responsible role/source:** Responsible subject/domain owner; common vocabulary role summarized here without replacing that owner.",
+      "before_sha256": "3366e31bd6cf5463e2bf4d3aad0993edaeb8c451076cc60994f8138bfa88f307",
+      "after_sha256": "a81d54d07af150051336a39f097a283aa840ab6e43e114490e779b1f38156a12",
+      "primary_review_record": "ARC006-02"
+    },
+    {
+      "section": "5.32",
+      "term": "Single Source of Truth",
+      "before": "The architectural principle stating that each concept shall have one authoritative definition.",
+      "after": "One identified authoritative definition or record owner for a stated semantic domain/scope. Summaries, catalogs and projections may repeat derived values with source/edition provenance and refresh limits; logical authority does not mandate one physical copy or universal routing. Unresolved conflicting definitions remain recorded and reconciled with responsible owners rather than hidden by a glossary claim.\n\n**Responsible role/source:** Applicable semantic/record domain owner; common Architecture ownership principles in Concepts/Components (§9).",
+      "before_sha256": "8697b261088f40c540ca398740a50278ac7ef6ea73871e3378248e64f72b6e28",
+      "after_sha256": "1aa9eb88ed53e84432352912a7afa5d012a3afe9aa9b4c1f19475787bacb4348",
+      "primary_review_record": "ARC006-02"
+    },
+    {
+      "section": "5.33",
+      "term": "Specification",
+      "before": "A formal document describing the architecture, behavior, responsibilities and constraints of an architectural component.",
+      "after": "A consolidated source of identified applicable requirements, domain responsibilities, constraints, references and conformance obligations. It states normative/informative scope explicitly; supporting sources can also carry normative requirements. A title, Type Reference or directory grants no approval, publication or implemented conformance. A specification does not substitute for another domain’s semantics merely by referencing them.\n\n**Responsible role/source:** Relevant domain specification owner; Component Documentation Structure §10 and actual supplied specifications (§9).",
+      "before_sha256": "fac7dccb6b2f251dcd6b1d2dd5c670563a153ba03259d5af734f2786df1f53a0",
+      "after_sha256": "349268ce9ea46a2f2b6d9a3cc359df01edcc19ab4810ba238913d1f23b45d3ad",
+      "primary_review_record": "ARC006-07"
+    },
+    {
+      "section": "5.34",
+      "term": "Template",
+      "before": "A standardized document structure used to ensure consistency across documentation.",
+      "after": "A reusable structural definition for organizing/representing documentation under applicable constraints. It is distinct from its applied Template Instance (§5.55) and does not guarantee consistency merely by existing. Templates may define structural locations/compatibility requirements, but do not redefine Metadata, Identity, Classification, Workflow, Registry or storage semantics. Template Type (§5.54) is distinct from document Type (§5.44).\n\n**Responsible role/source:** Templates; Template Concepts and Template Specification (§9).",
+      "before_sha256": "cb7de929b44557af3da3963cb44c159be48472e7bafd87c4d59581c80738137f",
+      "after_sha256": "2c5dc310f90bf9d548f80851b33cf3c587e67d0c8b9e51643224088a8a5d1c6d",
+      "primary_review_record": "ARC006-07"
+    },
+    {
+      "section": "5.35",
+      "term": "Terminology",
+      "before": "The authoritative vocabulary defining the meaning of architectural terms used throughout the Documentation Framework.",
+      "after": "The common consultation/convergence vocabulary for architectural terms, with identified subjects, contexts, controlled aliases and responsible source meanings. This glossary owns its organization and common vocabulary usage within the declared scope; it does not become a competing owner of every component definition or certify semantic consistency throughout all sources.\n\n**Responsible role/source:** Common Architecture vocabulary role; domain semantic owners remain those identified in individual entries and §9.",
+      "before_sha256": "c50485dd3343b7d6239419de442d62d76d443e86f4d228cf9de318a150c3322d",
+      "after_sha256": "b86434302c53e3fc1dde898a4f3b92c945b0aa9d6b011935858e0a936ffacc2e",
+      "primary_review_record": "ARC006-02"
+    },
+    {
+      "section": "5.36",
+      "term": "Traceability",
+      "before": "The ability to follow the relationships, dependencies and evolution of architectural entities over time.",
+      "after": "The evidenced ability to follow identified entities, source editions, typed relationships, decisions and changes over time. It requires actual records, resolvable targets and preserved provenance; a glossary, relationship concept or directory alone does not establish complete traceability.\n\n**Responsible role/source:** Applicable record/domain/process owners; Relationships/Reviews and owner-source evidence supply the examined scope (§9).",
+      "before_sha256": "ffbd7af095d19a9192b7df4a406c20eebebf9f9382b0c36e20d31295b236900a",
+      "after_sha256": "2966087596a964c07f4d22c618bd88de7717b55a4bf420a5c77bcf988e8e6779",
+      "primary_review_record": "ARC006-06"
+    },
+    {
+      "section": "5.37",
+      "term": "Validation",
+      "before": "The process of verifying compliance with the Documentation Framework's architectural rules.",
+      "after": "Scoped assessment of identified requirements against exact artifacts/editions and relevant context, with rules, checks, observations, coverage, executor and limits. Rules belong to responsible owners; an implementation/process executes/evidences checks. A local PASS neither proves unexamined conformity nor approves, publishes, selects a Baseline or transfers to later changed bytes.\n\n**Responsible role/source:** Relevant domain validation contract and Automation/Validation capability; Concepts §5.15, Components §8.1 and Review Policy §6 (§9).",
+      "before_sha256": "e268adcc24ca752c79e0c04ab6ccb618b270a438f576a1620c23af371ea89154",
+      "after_sha256": "035c9aa55ec160a51b295baff2d1881cd8322590728753345ebd3f7586236752",
+      "primary_review_record": "ARC006-05"
+    },
+    {
+      "section": "5.38",
+      "term": "Version",
+      "before": "A formally identified state of a document representing a controlled stage in its evolution.",
+      "after": "A document-edition coordinate describing compatible/incompatible contract evolution under an identified numbering policy, not the entire edition, logical identity, Status or Baseline. In this working review, major.minor is used: compatible correction retains Version, compatible additive capability increments minor, and incompatible contract change increments major/reset minor 0. Document Revision (§5.41) increments monotonically for changed persisted editions, including across Version changes. Other entity version policies require their own qualified owners.\n\n**Responsible role/source:** Documentary numbering/governance contract in Review Policy §5 (§9), pending applicable domain-source integration.",
+      "before_sha256": "d8dd4fed8f44c4a5bf70594736f6b927a8e149aaf75745e422e51570157cbc59",
+      "after_sha256": "3262f6b51afb24a2662c1cc986332d0a6b0e519612609cdd5b80141aa1dcf18c",
+      "primary_review_record": "ARC006-05"
+    },
+    {
+      "section": "5.39",
+      "term": "Workflow",
+      "before": "The controlled process governing the lifecycle of documents.",
+      "after": "Documentary governance contracts for exact-edition states, permitted transitions, responsibilities and required evidence. DMS/tool/manual processes execute operations; Workflow definition is not an installed lifecycle engine or unconditional permission graph. Version/Revision, Status, maturity, review, validation, approval, publication and membership remain distinct, and Draft successors inherit neither approval nor earlier snapshot membership.\n\n**Responsible role/source:** Governance/Workflow and Policies roles in Components §6 and Concepts §5.11 (§9).",
+      "before_sha256": "69374d115e86a4034a226b91802882ac744baa0c665222fcafc4fcee24c8fc0b",
+      "after_sha256": "136f905081e4b1ecab6758b04c1d27eeefa2c3b72096b2b9a556148f0111a443",
+      "primary_review_record": "ARC006-05"
+    }
+  ],
+  "supplemental_terms": [
+    {
+      "section": "5.40",
+      "term": "Document Edition",
+      "written_body": "An exact recorded state of a logical document, including represented content/descriptors and relevant context. Logical identity persists across editions; coordinates, Status and actual snapshot membership remain separate facts.\n\n**Responsible role/source:** Document Identity for logical entity; documentary governance/Metadata for edition facts; Concepts §5.3 and Review Policy §5 (§9).",
+      "sha256": "0b8f8c5e630899a337de05a9027f068da9e20602785090bdf3e1a36a076ab060",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.41",
+      "term": "Revision",
+      "written_body": "Within the document-edition policy, a monotonic coordinate for each changed persisted edition. Declared Revision 0 increments to 1 for the current successor; no absent historical Revision 0 is invented elsewhere. Validation of unchanged bytes increments neither Revision nor Version; further edits need their own assessed successor.\n\n**Responsible role/source:** Documentary numbering contract in Review Policy §5 (§9); other entity revisions require qualification.",
+      "sha256": "963b9d0b87f78abf98f1cb2d1da83824036d0d5a4b864994ac2c7fb3438835f6",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.42",
+      "term": "Status",
+      "written_body": "Governance state of the exact identified document edition, not general product maturity, approval of every successor or automatic Baseline inclusion. An older Approved edition can coexist with a current Draft successor.\n\n**Responsible role/source:** Applicable documentary governance/Workflow contracts; Review Policy §5 and Concepts §5.3 (§9).",
+      "sha256": "0feb8832219d392409fe2de8fd279f10e7795ca5c452f0473d6be4eea2b63e22",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.43",
+      "term": "Family",
+      "written_body": "For a normalized component document, the canonical component name; for admitted non-component areas, the explicitly scoped documentary area such as Foundation, Architecture or global Roadmap. Central path, topic, title or stable ID series alone does not determine Family.\n\n**Responsible role/source:** Classification; adopted working rule in Review Policy §3.2 (§9), pending complete domain integration.",
+      "sha256": "83c5fd6217cd6ac3ed8e0377b7ad59dc4a7a31c8c0da50ff18cbfe899a1939e0",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.44",
+      "term": "Document Type",
+      "written_body": "Primary responsibility of a normalized document: exactly Architecture, Structure, Behavior or Reference in this working review. Historical consultation is Reference; a process or planned evolution is Behavior. No Base/Core/Foundation exception or Schema/Dictionary/Lifecycle fifth Type is introduced. This is distinct from Template Type and Metadata value type.\n\n**Responsible role/source:** Classification; adopted four-value contract in Review Policy §3.1 (§9).",
+      "sha256": "727caeef14833fa988747a1414772cb4a539bcf27d570893899991be662b911a",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.45",
+      "term": "Class",
+      "written_body": "An optional additional semantic dimension of a document, requiring an explicit non-conflicting definition. It is separate from Family/document Type, component allocation, Status and implementation maturity. Optional does not mean mandatory, unrestricted or inferred from a filename.\n\n**Responsible role/source:** Classification; Classification Concepts §14 and adopted Review Policy §3.3 (§9).",
+      "sha256": "b16487a13a920e629bb796e160bcd877b138a98be9239f2cadaa6e5bd6f75ffd",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.46",
+      "term": "Metadata Element",
+      "written_body": "A defined descriptor/property with identified semantics, characteristics and applicable constraints. Canonical definitions belong to the Metadata Dictionary, referencing other semantic domain owners where appropriate; element identity/lifecycle is distinct from document identity/edition. This glossary allocates no Element ID or catalog record.\n\n**Responsible role/source:** Metadata; Metadata Model §7.2 and Dictionary (§9), with received Schema/Dictionary disagreements still pending reconciliation.",
+      "sha256": "8ea40940e8cdedd174c3e0da1923aca4e2eb9d66c081edf14992d91acf4e3154",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.47",
+      "term": "Metadata Value",
+      "written_body": "A represented value assigned to an applicable Metadata Element for an identified documentary context/edition. Abstract value type is not document Type. Applicable owner/Profile constraints govern values; absence is not permission to invent identity, classification, lifecycle or approval facts.\n\n**Responsible role/source:** Metadata representation contracts and corresponding domain meaning owners (§§5.23/5.50).",
+      "sha256": "3c1ae58251c4affc2be4728d1cb948284cb22c41acb00ed725e0db86ba423242",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.48",
+      "term": "Metadata Dictionary",
+      "written_body": "The authoritative domain-definition/entry catalog for Metadata Elements, including semantics and references to responsible subject owners. A terminology consultation role differs from element-catalog composition; title alone forces neither document Type nor path. This synopsis does not certify that every required entry exists.\n\n**Responsible role/source:** Metadata; Metadata Dictionary §§1–3/6–7 (§9).",
+      "sha256": "c28f48e343fbc11a43ac934b9ae597cb5ea9178c3f08342a4f1028f940b04857",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.49",
+      "term": "Metadata Schema",
+      "written_body": "Organization/references and structural constraints over applicable Metadata definitions. Schema does not independently redefine Dictionary/domain semantics. The received Model’s Schema-defines-Elements/complete-vocabulary wording remains pending owner reconciliation rather than a second governing meaning for this synopsis.\n\n**Responsible role/source:** Metadata structural contract; Model/Dictionary comparison and adopted owner distinctions in Concepts §5.4 (§9).",
+      "sha256": "ee6ff7e7475fa9d5da291a7427d449d640069e88cb5bb823b9a16207d6bba194",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.50",
+      "term": "Metadata Profile",
+      "written_body": "Contextual restriction/specialization of applicable Schema usage, values and cardinality without semantic redefinition. Effective requirements depend on the declared owner contract; this glossary creates no missing canonical Profile or lifecycle event.\n\n**Responsible role/source:** Metadata; Metadata Model §7.5 and adopted Concepts §5.4 (§9), pending full Profile reconciliation.",
+      "sha256": "7263ff87289bb55a18063087a399f5c1ff2b87b61adf489e1c89a08ad88d121e",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.51",
+      "term": "Metadata Instance",
+      "written_body": "Represented Metadata values for one identified documentary edition under exactly one effective Profile. Representation/content may require coordinated evolution; this definition guarantees no automatic completeness, synchronization or independent revisions.\n\n**Responsible role/source:** Metadata; Metadata Model §7.6 and adopted Concepts §5.4 (§9).",
+      "sha256": "779000f752f23615eb0567c8d8aa2f08b38eff9d59d6dabe8ddda7f9e9a177ab",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.52",
+      "term": "Identifier",
+      "written_body": "Canonical representation used to reference an identity within its declared domain. A document’s DF-SSS-NNN representation uses stable allocation namespaces and a positive allocated number; its string is not the logical entity or current classification. Detailed syntax/allocation remains with the qualified identity contract.\n\n**Responsible role/source:** Relevant identity-domain owner; Document Identity Concepts §3.4 and working Review Policy §4 (§9).",
+      "sha256": "1366c5816ad06c5d0a4560770c7d23ce5ccc2291c34412ba41464dfd46cc211b",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.53",
+      "term": "Identity Domain",
+      "written_body": "Scope in which the applicable identity contract establishes uniqueness and allocation/preservation rules. Documentation Framework is the adopted documentary domain; other architectural entity kinds can use different qualified domain contracts. Domain+Identifier and exact-edition references are distinct.\n\n**Responsible role/source:** Relevant entity-domain owner; Document Identity Concepts §3.5 and Review Policy §4 (§9).",
+      "sha256": "58c84891efa04243c925f3910d9aadd2be020d36e26d68b56c525a10021de5f0",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.54",
+      "term": "Template Type",
+      "written_body": "Conceptual category of a Template by the kind of reusable structure/purpose it defines. This does not add a value to the four normalized-document Types or transfer document Classification authority to Templates.\n\n**Responsible role/source:** Templates; Template Concepts §3 (§9).",
+      "sha256": "15a724f4476790c80fc0d9ca3fc4dc1a5bc4904c8c0d436a9de68471a3444b9b",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.55",
+      "term": "Template Instance",
+      "written_body": "Traceable application of an identified Template definition/version to a specific documentary context. It remains distinct from the reusable definition; changing a Template does not silently replace the definition used by an existing instance.\n\n**Responsible role/source:** Templates; Template Concepts §8 (§9).",
+      "sha256": "0980664647c4fc3552c5f9253b61370803d18f0fc2ebe6aa15b895f211708545",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.56",
+      "term": "Functional File",
+      "written_body": "Within this corpus, every README.md, CHANGELOG.md or ArchitecturalMilestones.md at any location. Such files are not normalized and require no normalized identity/header/classification by that exclusion; legitimate existing information is not automatically deleted. Content, organization, references, inventory and hashes remain reviewable.\n\n**Responsible role/source:** User-adopted scope and Review Policy §2 (§9); central logs retain their own record conventions.",
+      "sha256": "c98a75ebd9aa7c31b13788e3a17b76fd7e4c228a3a0570d80318f159c4d241f5",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.57",
+      "term": "Normalized Document",
+      "written_body": "A documentary source within the applicable normalization scope, with the adopted identity, classification and edition/Metadata contracts. Functional names in §5.56 are excluded before applying those obligations; missing canonical Element/Profile records are not manufactured by declaring a source normalized.\n\n**Responsible role/source:** Applicable document/Metadata/Identity/Classification contracts and Review Policy §§2–5 (§9).",
+      "sha256": "78c51b9882d08b199a5c40090ad7539787ae12ae8cd7f8cdd3aa0932026ad565",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.58",
+      "term": "Documentation Management System (DMS)",
+      "written_body": "An executing management-system role that consumes DF definitions for repositories, storage, operations, permissions, publication and related management concerns. The definition is contextual and does not supply a complete external DMS specification or register DMS as another DF capability component. Tools/manual processes can execute applicable operations where supported.\n\n**Responsible role/source:** Relevant external management-system/process contract; common boundary in Concepts §3, Components §3 and Review Policy §1 (§9).",
+      "sha256": "c9ac0c6712d9e2468252e14b43dcf9d780ae854a8c31b0f691cd2cd9fa04de95",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    },
+    {
+      "section": "5.59",
+      "term": "Change Management System (CMS)",
+      "written_body": "A system/process role governing changes in its own scope and providing relevant decision/provenance evidence. CMS records do not substitute for exact documentary approval, publication or Baseline selection and do not redefine DF document semantics. This is a contextual boundary, not a supplied complete external specification or new DF component.\n\n**Responsible role/source:** Relevant external change-management contract; common boundary in Concepts/Components and Review Policy (§9).",
+      "sha256": "4db54470aa51efc46cf07c8464a9b91ca8e944c3bbb2b2c8512bb9c30ca5653d",
+      "effect": "Owner-linked consultation distinction only; no Metadata Element ID,canonical record,Profile or implementation created"
+    }
+  ],
+  "controlled_aliases": [
+    {
+      "received": "Architectural Component",
+      "target": "Component",
+      "original_sections": [
+        "5.2",
+        "5.7"
+      ]
+    },
+    {
+      "received": "Architectural Layer",
+      "target": "structural Layer",
+      "original_sections": [
+        "5.3",
+        "5.21"
+      ]
+    },
+    {
+      "received": "Framework",
+      "target": "Documentation Framework in DF context",
+      "original_sections": [
+        "5.15",
+        "5.14"
+      ]
+    }
+  ],
+  "local_term_reference_checks": [
+    "5.7",
+    "5.21",
+    "5.2",
+    "5.3",
+    "5.14",
+    "5.15",
+    "5.43",
+    "5.44",
+    "5.45",
+    "5.40",
+    "5.52",
+    "5.12",
+    "5.46",
+    "5.47",
+    "5.48",
+    "5.49",
+    "5.50",
+    "5.51",
+    "5.55",
+    "5.54",
+    "5.58",
+    "5.59",
+    "5.41",
+    "5.56",
+    "5.57"
+  ],
+  "references_at_validation_input": [
+    {
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "target": "DF-ARC-001-ArchitectureOverview.md",
+      "expected_id": "DF-ARC-001",
+      "declared_id": "DF-ARC-001",
+      "sha256_at_validation_input": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "target": "DF-ARC-002-ArchitecturalPrinciples.md",
+      "expected_id": "DF-ARC-002",
+      "declared_id": "DF-ARC-002",
+      "sha256_at_validation_input": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "target": "DF-ARC-003-ArchitecturalConcepts.md",
+      "expected_id": "DF-ARC-003",
+      "declared_id": "DF-ARC-003",
+      "sha256_at_validation_input": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "target": "DF-ARC-004-ArchitecturalLayers.md",
+      "expected_id": "DF-ARC-004",
+      "declared_id": "DF-ARC-004",
+      "sha256_at_validation_input": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "target": "DF-ARC-005-ArchitecturalComponents.md",
+      "expected_id": "DF-ARC-005",
+      "declared_id": "DF-ARC-005",
+      "sha256_at_validation_input": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "target": "DF-ARC-007-ComponentDocumentationStructure.md",
+      "expected_id": "DF-ARC-007",
+      "declared_id": "DF-ARC-007",
+      "sha256_at_validation_input": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e"
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "target": "../00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "expected_id": "DF-FND-001",
+      "declared_id": "DF-FND-001",
+      "sha256_at_validation_input": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "target": "../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "expected_id": "DF-FND-004",
+      "declared_id": "DF-FND-004",
+      "sha256_at_validation_input": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6"
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "target": "../02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "expected_id": "DF-MTD-003",
+      "declared_id": "DF-MTD-003",
+      "sha256_at_validation_input": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "target": "../02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "expected_id": "DF-MTD-013",
+      "declared_id": "DF-MTD-013",
+      "sha256_at_validation_input": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "target": "../02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002%20-%20Document%20Identity%20Concepts.md",
+      "expected_id": "DF-DID-002",
+      "declared_id": "DF-DID-002",
+      "sha256_at_validation_input": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed"
+    },
+    {
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md",
+      "target": "../02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md",
+      "expected_id": "DF-CLS-002",
+      "declared_id": "DF-CLS-002",
+      "sha256_at_validation_input": "33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md",
+      "target": "../02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md",
+      "expected_id": "DF-CLS-006",
+      "declared_id": "DF-CLS-006",
+      "sha256_at_validation_input": "fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e"
+    },
+    {
+      "path": "02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md",
+      "target": "../02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md",
+      "expected_id": "DF-TPL-002",
+      "declared_id": "DF-TPL-002",
+      "sha256_at_validation_input": "00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "target": "../02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "expected_id": "DF-TPL-014",
+      "declared_id": "DF-TPL-014",
+      "sha256_at_validation_input": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464"
+    },
+    {
+      "path": "Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "target": "../Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "expected_id": "DF-RDM-001",
+      "declared_id": "DF-RDM-001",
+      "sha256_at_validation_input": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "target": "../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "expected_id": "DF-RVW-001",
+      "declared_id": "DF-RVW-001",
+      "sha256_at_validation_input": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb"
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "target": "../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "expected_id": "DF-RVW-002",
+      "declared_id": "DF-RVW-002",
+      "sha256_at_validation_input": "65847328f54a638ca61533736c56015ae83aa02d6108a15304fc0b8f8e729c64"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "7",
+        "8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "sha256": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746",
+      "sections": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "sha256": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed",
+      "sections": [
+        "3",
+        "5",
+        "8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md",
+      "sha256": "33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3",
+      "sections": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "21",
+        "22",
+        "23"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md",
+      "sha256": "00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04",
+      "sections": [
+        "2",
+        "3",
+        "8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "sha256": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464",
+      "sections": [
+        "1.2",
+        "3",
+        "21"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec",
+      "sections": [
+        "3",
+        "4",
+        "12",
+        "13",
+        "15"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9",
+      "sections": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "sha256": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e",
+      "sections": [
+        "3",
+        "5",
+        "8",
+        "9",
+        "10",
+        "15",
+        "16",
+        "19",
+        "20.1"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "sections": [
+        "6",
+        "8",
+        "10"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "sections": [
+        "1.7",
+        "8.11"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "6",
+        "7"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "sha256": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e",
+      "sections": [
+        "4"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md",
+      "sha256": "fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e",
+      "sections": [
+        "1",
+        "2",
+        "3"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "sha256": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW",
+      "validation_read_provenance": "First six owner extracts re-read during VALIDATE; Concepts §8 truncated output re-read separately. Other listed previously inspected scopes retain unchanged current hashes. Partial comparison,not full peer cycle."
+    }
+  ],
+  "findings": [
+    {
+      "id": "ARC006-01",
+      "criterion": "Header and classification rationale conform to four Types and stable identity, with actual contribution and received evidence preserved; Reference grants no automatic normative authority/approval.",
+      "sections": "Header;1–3;11.1/11.2",
+      "observed_evidence": "Header/§§1–3/11.2 use Architecture/Reference for consultation,stable DF-ARC-006/path and actual attribution;received Terminology/R0/Baseline1.0/absent Author retained. No Component/Class created and Reference confers no approval/normative authority.",
+      "result": "PASS—local Terminology correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-03/12; Review Policy §§3/5/7"
+    },
+    {
+      "id": "ARC006-02",
+      "criterion": "Every definition identifies its subject/scope and responsible owner or common architectural role; summaries do not overwrite domain authority or imply global consistency. Conflicts and prior scopes remain explicit.",
+      "sections": "1–4;5.8/5.31/5.32/5.35;6–11",
+      "observed_evidence": "All59 entries identify a responsible role/source and context. §§1–4/5.32/5.35/6–11 delimit glossary consultation,scope-specific authority,qualified words and provenance rather than domain takeover. Existing conflicts and earlier scopes are explicit;copies/projections do not become competing semantic owners.",
+      "result": "PASS—local Terminology correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-06/12; ARC003 §§2–5/7; Metadata/Identity/Classification/Templates owners"
+    },
+    {
+      "id": "ARC006-03",
+      "criterion": "Architecture/component/layer/knowledge/governance/integration terms are coherent with supplied structural and capability owners; no operational implementation, new allocation or unconditional independence is inferred from a definition.",
+      "sections": "3;5.1–5.4/5.7/5.8/5.13–5.16/5.18/5.19/5.21;5.58/5.59",
+      "observed_evidence": "§§5.1–5.4/5.7/5.8/5.13–5.16/5.18/5.19/5.21 and DMS/CMS additions distinguish capabilities,entities,concerns,allocations and execution. Seven areas/five concerns/23 capabilities preserved against current owners;no new Layer,operational implementation or unconditional independence inferred.",
+      "result": "PASS—local Terminology correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-01/08/12; ARC003 §§3–5; ARC004 §§4/15; ARC005 §§3–4/6/9"
+    },
+    {
+      "id": "ARC006-04",
+      "criterion": "Document/Identity/Classification/Metadata terms respect applicability, owner semantics and entity/representation distinctions; no universal functional-file normalized obligation, title-derived Type or fabricated canonical catalog/Profile remains.",
+      "sections": "3;5.6/5.11/5.12/5.17/5.23;5.43–5.53/5.56/5.57",
+      "observed_evidence": "§§3/5.6/5.11/5.12/5.17/5.23/5.43–5.53/5.56/5.57 scope functional exclusions and logical identity/identifier/edition/classification. Metadata represents owner meanings;Dictionary/Schema/Profile/Instance and exactly one effective Profile explicit. No title/path-derived Type,catalog/Profile/Element allocation or forced migration.",
+      "result": "PASS—local Terminology correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "INV-02 remains Not applicable; REV2-03/04/06/07; MTD-003 §§6–11; DID-002 §§3/5/8; CLS-002 §§12–15/21–23; Review Policy §§2–4"
+    },
+    {
+      "id": "ARC006-05",
+      "criterion": "Governance/edition/validation terminology matches the adopted exact-edition model and subject-specific owners, with no automatic approval,snapshot retargeting,implementation or result transfer after changed bytes.",
+      "sections": "5.5/5.16/5.22/5.25/5.29/5.37–5.42;8;11.2",
+      "observed_evidence": "Baseline exact approved-edition selection/pinned context distinct from eligibility/consistency/inclusion;Lifecycle subject-specific. Version/Revision/Status/identity/maturity/membership separate. Review/Validation require exact scope/evidence;Workflow contracts separate from execution,approval/publication and later changed-byte assessment. No inherited result or final-product consequence responsibility.",
+      "result": "PASS—local Terminology correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-08/12; ARC003 §§5.3/5.11–5.15; CLS-006 §§1–3; ARC007 §§9/16; Review Policy §§5–7"
+    },
+    {
+      "id": "ARC006-06",
+      "criterion": "Relationship/dependency/discovery terms distinguish authoritative records,projections and consumers; applicable required edges remain visible, with no complete graph,pipeline,global consistency or implementation guarantee.",
+      "sections": "5.9/5.10/5.20/5.24/5.26/5.27/5.32/5.36",
+      "observed_evidence": "Required consumer→provider contracts preserve real scope/owner editions and actual edges/cycles;semantic/reference/navigation/projection/execution meanings separate. Relationships typed records/endpoints/provenance,Registry/Graph freshness/source projections and Discovery consumers retain owner boundaries. No complete graph,global acyclicity or universal pipeline claimed.",
+      "result": "PASS—local Terminology correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02/12; ARC003 §§5.7/5.8/5.14/8; ARC004 §§12–13; ARC005 §§7/12"
+    },
+    {
+      "id": "ARC006-07",
+      "criterion": "Supporting reference/representation/planning/storage terms preserve owner boundaries and actual scope, without automatic consistency,approval,implemented capability or physical-location semantic takeover.",
+      "sections": "5.18/5.28/5.30/5.33/5.34/5.54/5.55",
+      "observed_evidence": "Template reusable definition/instance and Template Type separate from document Classification;TPL owner comparisons confirm explicit domain exclusions. Specification authority stated by scope rather than title/directory;Roadmaps plan documentary and applicable implementation work;repository/adapters remain representation/executor concerns. No automatic consistency,approval or maturity.",
+      "result": "PASS—local Terminology correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "ARC007 §§8–10/15–18; TPL-002 §§2/3/8; TPL-014 §§1.2/3/21; RDM-001 §§1–5"
+    },
+    {
+      "id": "ARC006-08",
+      "criterion": "Alias and naming policy agrees with existing paired terms and canonical component names,with explicit mappings/history and no competing definitions,forced PascalCase prose or silent identity/path migration.",
+      "sections": "4.2;5.2/5.3/5.7/5.14/5.15/5.21;6–10",
+      "observed_evidence": "Original Architectural Component/Component,Architectural Layer/Layer and Framework/Documentation Framework anchors retained as explicit contextual mappings. §6 uses actual prose names with spaces,qualified directory/code/ID representations and preserved historic aliases;§7 rejects competing meanings rather than every synonym. No forced PascalCase prose or ID/path migration.",
+      "result": "PASS—local Terminology correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-04/12; ARC005 register; ARC007 §§6/12; DID-002 identity/identifier distinction"
+    },
+    {
+      "id": "ARC006-W01",
+      "criterion": "Stability/evolution/quality claims are bounded by evidence and an explicit impact/version transition path; no global semantic guarantee,harmless extension or unexamined consumer conformity remains.",
+      "sections": "1;2;4;8;10;11/11.1",
+      "observed_evidence": "Quality/stability/technology independence are assessed objectives. §§8/10/11.1 require old/new meaning,owners/consumer editions,compatibility and transition evidence. Incompatible normative authority/applicability/edition/alias changes justify major2.0 with monotonic Revision1;no global semantic rollout or harmless extension guarantee.",
+      "result": "PASS—local Terminology correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "ARC003 §7; ARC005 §§11/15; ARC007 §§18–20; Review Policy §§5–6"
+    },
+    {
+      "id": "ARC006-W02",
+      "criterion": "All original terms remain traceable and essential model distinctions have owner-linked coverage; actual references resolve intended identities,history/input evidence is complete and missing owner work remains explicit.",
+      "sections": "5;9;11.2/11.3",
+      "observed_evidence": "39 original term names/numbers and all55 original body hashes match the map;20 supplemental distinctions/59 owner-role statements and terms export match. All18 references resolve intended identities;history/input retains absent historic facts. Domain gaps and peer limits remain visible,no complete canonical catalog or peer validation fabricated.",
+      "result": "PASS—local Terminology correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-06/07/12; ARC003 §5; Metadata/Identity/Classification/Templates sources; Review Policy §§4–7"
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Closed—verified": 107,
+    "Not applicable—scope decision": 1
+  },
+  "limits": [
+    "No complete terminology propagation,global required graph,acyclicity or integrated consumer conformity",
+    "Metadata Model/Dictionary/Profile,Classification Family/Type,identity syntax/applicability/collision and consumer maps remain scheduled owner work",
+    "No complete glossary/catalog,external DMS/CMS specification or implemented capability inferred",
+    "Draft/unassigned;no approval,publication,Baseline or final Context-Reviewed.zip"
+  ],
+  "history_interpretation": "Source unchanged;§§11/11.2/11.3 pending history/statements remain UPDATE-time evidence. Later central exact-hash validation supersedes current pending tracking;future changed bytes require own assessment without inherited outcome or product-consequence responsibility.",
+  "tracking_checks": {
+    "source_bytes_unchanged": true,
+    "all_other_MD_sources_preserved": true,
+    "89_stable_matrix_positions": true,
+    "matrix_current_hashes": true,
+    "prior_events_preserved": true,
+    "changelog_sequence_316_to_1": true,
+    "M10_and_M0_M7_preserved": true,
+    "M11_five_C_two_O_InProgress": true,
+    "historical_report_sections_preserved": true,
+    "next_matrix_source": true,
+    "new_report_tables_rectangular": true
+  }
+}

@@ -1,0 +1,141 @@
+--- before-4.11-VALIDATE/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ after-4.11-VALIDATE/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 34 |
++| **Revision** | 35 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -85,6 +85,8 @@
+ Revision 33 adds Step 4.11 Terminology REVIEW in §39 on 2026-10-14. Source V1.0 R0 remains unchanged; eight findings/two warnings Open. Current totals: 29 Open, 97 Closed—verified, one Not applicable—scope decision. M11 four C/one S/two O, In Progress. Next: 4.11 UPDATE DF-ARC-006.
+ 
+ Revision 34 records Step 4.11 UPDATE in §40 on 2026-10-14. Terminology becomes V2.0 R1 Architecture/Reference Draft/unassigned; ten corrections pending VALIDATE DOCUMENT. Totals: 19 Open,ten Corrected—pending validation,97 Closed—verified,one Not applicable—scope decision. §39 retains REVIEW-time states. Next:4.11 VALIDATE DOCUMENT.
++
++Revision35 records Step4.11 VALIDATE DOCUMENT in §41 on2026-10-14. Terminology V2.0 R1 remains unchanged Architecture/Reference,Draft/unassigned;ten local verified closures. Current totals:19 Open,107 Closed—verified,one Not applicable—scope decision. M11 five C/two O,In Progress. Next:4.12 REVIEW DF-ARC-002.
+ 
+ ## 2. Concrete changes — before/after
+ 
+@@ -204,6 +206,7 @@
+ | 2026-10-14 | 1.0 | 32 | Step 4.10 exact ARC-007 validation; ten local verified closures; source unchanged | Draft; Baseline Not assigned; exact V2.0 R1 retained; #304–306 |
+ | 2026-10-14 | 1.0 | 33 | Step 4.11 Terminology REVIEW; ten local records Open; source unchanged | Draft; Baseline Not assigned; #307–310; REVIEW evidence checks only |
+ | 2026-10-14 | 1.0 | 34 | Step 4.11 Terminology UPDATE V2.0 R1 Reference;ten corrections pending validation | Draft;Baseline Not assigned;compatible informational report update;#312 |
++| 2026-10-14 | 1.0 | 35 | Step4.11 exact Terminology validation;ten local verified closures;source unchanged | Draft;Baseline Not assigned;V2.0 R1 retained;#314–316 |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -3182,3 +3185,71 @@
+ ### 40.5. Next command
+ 
+ **CONTINUAR** starts **4.11 — VALIDATE DOCUMENT DF-ARC-006 — Terminology**,checking the exact successor,ten closure criteria,all original/supplemental terms and affected comparisons,then pauses before the next document cycle.
++
++
++## 41. Step 4.11 — VALIDATE DOCUMENT DF-ARC-006 — Terminology
++
++### 41.1. Result and exact edition
++
++**PASS for the localized Terminology correction scope,2026-10-14.** Complete read of 48,675 bytes/666 lines,eleven chapters,55 original numbered sections plus 23 additions,39 original terms plus 20 supplemental entries,59 responsible-role statements,four tables and eighteen resolving references. Original/input/UPDATE body/term comparison and all ten closure criteria pass within the declared scope.
++
++Exact SHA-256: `d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41`. Architecture/Reference V2.0 R1 remains Draft,Baseline Not assigned,English. The source matches its UPDATE checkpoint and remains unchanged;validation increments neither source Version nor Revision and preserves local history.
++
++The changed governing interpretation of glossary-wide semantic authority,every-document normalization,operational/edition/relationship boundaries and blanket aliases/PascalCase justifies major V1.0→V2.0,with monotonic R0→R1. Classification/consultation links alone would be compatible. This result validates the local correction and recorded comparisons,not every domain owner or consuming source.
++
++Source pending statements/history in §§11/11.2/11.3 remain UPDATE-time evidence. This later exact-hash central result supersedes current pending tracking without rewriting an earlier update into success. Actual contribution,authorization,review,validation,ownership and approval remain distinct. Later disk edits require assessment of resulting bytes;no automatic transfer of results or responsibility for consequences of a changed final product is established. No approval,publication or Baseline is granted.
++
++### 41.2. Results by closure criterion
++
++| Record | Verified source evidence | Before | Result |
++|---|---|---|---|
++| ARC006-01 | Header;1–3;11.1/11.2: Header/§§1–3/11.2 use Architecture/Reference for consultation,stable DF-ARC-006/path and actual attribution;received Terminology/R0/Baseline1.0/absent Author retained. No Component/Class created and Reference confers no approval/normative authority. | Corrected—pending validation | Closed—verified |
++| ARC006-02 | 1–4;5.8/5.31/5.32/5.35;6–11: All59 entries identify a responsible role/source and context. §§1–4/5.32/5.35/6–11 delimit glossary consultation,scope-specific authority,qualified words and provenance rather than domain takeover. Existing conflicts and earlier scopes are explicit;copies/projections do not become competing semantic owners. | Corrected—pending validation | Closed—verified |
++| ARC006-03 | 3;5.1–5.4/5.7/5.8/5.13–5.16/5.18/5.19/5.21;5.58/5.59: §§5.1–5.4/5.7/5.8/5.13–5.16/5.18/5.19/5.21 and DMS/CMS additions distinguish capabilities,entities,concerns,allocations and execution. Seven areas/five concerns/23 capabilities preserved against current owners;no new Layer,operational implementation or unconditional independence inferred. | Corrected—pending validation | Closed—verified |
++| ARC006-04 | 3;5.6/5.11/5.12/5.17/5.23;5.43–5.53/5.56/5.57: §§3/5.6/5.11/5.12/5.17/5.23/5.43–5.53/5.56/5.57 scope functional exclusions and logical identity/identifier/edition/classification. Metadata represents owner meanings;Dictionary/Schema/Profile/Instance and exactly one effective Profile explicit. No title/path-derived Type,catalog/Profile/Element allocation or forced migration. | Corrected—pending validation | Closed—verified |
++| ARC006-05 | 5.5/5.16/5.22/5.25/5.29/5.37–5.42;8;11.2: Baseline exact approved-edition selection/pinned context distinct from eligibility/consistency/inclusion;Lifecycle subject-specific. Version/Revision/Status/identity/maturity/membership separate. Review/Validation require exact scope/evidence;Workflow contracts separate from execution,approval/publication and later changed-byte assessment. No inherited result or final-product consequence responsibility. | Corrected—pending validation | Closed—verified |
++| ARC006-06 | 5.9/5.10/5.20/5.24/5.26/5.27/5.32/5.36: Required consumer→provider contracts preserve real scope/owner editions and actual edges/cycles;semantic/reference/navigation/projection/execution meanings separate. Relationships typed records/endpoints/provenance,Registry/Graph freshness/source projections and Discovery consumers retain owner boundaries. No complete graph,global acyclicity or universal pipeline claimed. | Corrected—pending validation | Closed—verified |
++| ARC006-07 | 5.18/5.28/5.30/5.33/5.34/5.54/5.55: Template reusable definition/instance and Template Type separate from document Classification;TPL owner comparisons confirm explicit domain exclusions. Specification authority stated by scope rather than title/directory;Roadmaps plan documentary and applicable implementation work;repository/adapters remain representation/executor concerns. No automatic consistency,approval or maturity. | Corrected—pending validation | Closed—verified |
++| ARC006-08 | 4.2;5.2/5.3/5.7/5.14/5.15/5.21;6–10: Original Architectural Component/Component,Architectural Layer/Layer and Framework/Documentation Framework anchors retained as explicit contextual mappings. §6 uses actual prose names with spaces,qualified directory/code/ID representations and preserved historic aliases;§7 rejects competing meanings rather than every synonym. No forced PascalCase prose or ID/path migration. | Corrected—pending validation | Closed—verified |
++| ARC006-W01 | 1;2;4;8;10;11/11.1: Quality/stability/technology independence are assessed objectives. §§8/10/11.1 require old/new meaning,owners/consumer editions,compatibility and transition evidence. Incompatible normative authority/applicability/edition/alias changes justify major2.0 with monotonic Revision1;no global semantic rollout or harmless extension guarantee. | Corrected—pending validation | Closed—verified |
++| ARC006-W02 | 5;9;11.2/11.3: 39 original term names/numbers and all55 original body hashes match the map;20 supplemental distinctions/59 owner-role statements and terms export match. All18 references resolve intended identities;history/input retains absent historic facts. Domain gaps and peer limits remain visible,no complete canonical catalog or peer validation fabricated. | Corrected—pending validation | Closed—verified |
++
++Full criteria,observations,input/output/comparison digests,original/supplemental term bodies and checks are in `DF-RVW-002-validation-4-11.json`. Ten closures apply only to ARC006-01–08/W01/W02 in this exact source. The 97 earlier closures retain their individual scopes;all nineteen global records remain Open. INV-02 remains Not applicable—scope decision.
++
++### 41.3. Integrity,vocabulary and affected-source limits
++
++All 55 original numbered-body before/after hashes and 39 original term labels/numbers match the UPDATE map. Twenty supplemental bodies and their digests match,and all 59 entries supply a responsible role/source. The attached R34 term export matches all 59 names/sections/body hashes. Original eleven chapters remain numbered consistently;new §§5.40–5.59 and 11.1–11.3 add qualified model distinctions,compatibility,history and limits. No received diagram/view existed,and no historical view identifier is fabricated. Four tables are rectangular;CRLF is preserved.
++
++Eighteen links resolve intended supplied identities,including encoded DID spaces and the actual singular Template Specification title. All five original Architecture reference roles remain present. Listed qualified local term/alias references resolve original and supplemental anchors;owner-section references are interpreted in their declared source domains rather than mistaken for local numbering.
++
++The three original alias pairs retain anchors and one contextual meaning:Architectural Component→Component,Architectural Layer→structural Layer,Framework→Documentation Framework in DF context. §6 explicitly separates canonical prose names/directory aliases from code/identifier casing and permits documented qualified/historical aliases;§7 forbids ambiguity/competing authority rather than all synonyms. No ID or file migration occurs.
++
++Identity/domain/identifier,document edition/Version/Revision/Status,classification dimensions and snapshot membership remain distinct. Template Type,Metadata value type and normalized-document Type are qualified namespaces;document Type remains Architecture/Structure/Behavior/Reference,without exceptions. Lifecycle identifies the governed entity. DMS/CMS additions are contextual external roles,not newly registered components or complete supplied specifications.
++
++Metadata Dictionary defines descriptors,Schema organizes references,Profile restricts usage and Instance supplies values under one effective Profile. Glossary summaries preserve domain owners and do not fabricate Element IDs,missing catalog/Profile entries or lifecycle records. Current Metadata Model still says Schema defines Elements/complete vocabulary,and received Classification Concepts still contains historical Family→Type interpretation;the source explicitly records these as pending owner reconciliation rather than adopting a second governing meaning.
++
++Baselines preserve explicit exact approved-edition selection and relevant pinned context/evidence;eligibility,consistency and inclusion remain separate. Review/Validation scope and exact-byte evidence do not confer approval/publication/membership or transfer to later modified products. Required consumer→provider contracts remain typed,with genuine required edges/cycles visible and applicable owner rules retained. Records,projections and consumers have provenance/freshness limits;no universal Registry pipeline,complete graph or global acyclicity is asserted.
++
++The pre-validation R34 manifest and UPDATE checkpoint pass. Ten earlier exact-source validation hashes,68 other original normalized sources and all six README files remain unchanged. Eight functional matrix records retain INV-02 Not applicable. Historical source/report/log/Milestone events retain their previous scope and timing;source UPDATE-time pending history is preserved.
++
++Partial affected coverage includes subordinate clauses:Concepts §§2/3/4/5/7/8;Metadata Model §§6–11;Identity Concepts §§3/5/8;Classification Concepts §§12–15/21–23;Template Concepts §§2/3/8;Template Specification §§1.2/3/21. These six extracts were re-read during validation;truncated Concepts §8 output was re-read separately. Other previously inspected scopes retain unchanged hashes:Layers §§3/4/12/13/15;Components §§3/4/5/6/7/8/9/11/12/13/15;Component Documentation Structure §§3/5/8/9/10/15/16/19/20.1;Manifest §§6/8/10;Blueprint §§1.7/8.11;Metadata Dictionary §§1/2/3/6/7;Metadata Specification §4;Classification Lifecycle §§1–3;Framework Roadmap §§1–5;Review Policy §§1–7. Exact source lists/provenance/digests are recorded in the evidence;no full peer cycle is inferred.
++
++Dictionary/Profile completeness,identity syntax/applicability and nominal CLS collision,consumer maps,roadmap headers and integrated terminology propagation remain pending. Earlier owner remarks about received Terminology retain their earlier exact-edition scope,not validation or rollout of this successor. All nineteen global records remain Open;no full domain glossary/catalog,required graph,operational implementation or integrated consumer conformity is certified.
++
++### 41.4. Tracking and before/after
++
++| Item | Before | After |
++|---|---|---|
++| Terminology source | V2.0 R1 corrected pending validation | Same bytes/edition;local PASS;Draft/unassigned |
++| Local records | Ten Corrected—pending validation | Ten Closed—verified |
++| Review Report | V1.0 R34 | V1.0 R35,technical English,Draft/unassigned |
++| M11 | Four C,Terminology S,two O;In Progress | Five C,two O;In Progress;Terminology completion2026-10-14 |
++| CHANGELOG | Through #313 | #314 exact source validation;#315 report;#316 milestone tracking |
++
++Current totals:**19 Open,107 Closed—verified,one Not applicable—scope decision**. No Terminology corrected-pending local record remains centrally. M10 and M0–M7 are preserved;M9 cites R35 without extending original acceptance. No milestone-wide Architecture completion is claimed while Principles/Overview cycles remain pending.
++
++Current progress/manifest,validation JSON and full central diff belong to R35. R34 exports preserve historical UPDATE states. `Context-Working-Step-4-11-Validated.zip` is an interim checkpoint;final Context-Reviewed.zip remains pending.
++
++### 41.5. Next command
++
++**CONTINUAR** starts **4.12 — REVIEW DOCUMENT DF-ARC-002 — Architectural Principles**,then pauses after REVIEW. No automatic UPDATE/VALIDATE or approval is granted.
+--- before-4.11-VALIDATE/Context/CHANGELOG.md
++++ after-4.11-VALIDATE/Context/CHANGELOG.md
+@@ -58,6 +58,9 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 316 | 2026-10-14 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 Terminology S to C completion2026-10-14;Concepts/Layers/Components/ARC-007/Terminology C,two O,In Progress;M10 retained;M9 reportR35;historical events preserved;full owner/consumer/terminology propagation pending;no approval or integrated conformity. |
++| 315 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R34 to R35 Draft/unassigned:exact Terminology validation and ten local closures;107 Closed-verified,19 Open,INV-02 Not applicable;source unchanged;next4.12 REVIEW DF-ARC-002. |
++| 314 | 2026-10-14 | Codex — AI assistant | Validated | /01-Architecture/DF-ARC-006-Terminology.md | Correction | Step 4.11 exact unchanged V2.0 R1 Architecture/Reference SHA-256 d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41:local Terminology correction scope PASS;ten records Closed-verified;39 preserved/20 supplemental terms,59 owner roles,controlled aliases,18 references;Draft/unassigned;19 global records Open;section41;validation-4-11.json;no integrated propagation,approval or Baseline. |
+ | 313 | 2026-10-14 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 Terminology S,UPDATE complete/VALIDATE pending,no completion date;Concepts/Layers/Components/ARC-007 C,two peers O,In Progress;M10 retained;M9 supporting reportR34;global owner/consumer/terminology reconciliation pending;no approval/Baseline. |
+ | 312 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R33 to R34 Draft/unassigned:actual Terminology UPDATE,complete before/after/term map,excerpts/compatibility/impact;19 Open,ten Corrected-pending validation,97 Closed-verified,INV-02 Not applicable;VALIDATE pending;section40. |
+ | 311 | 2026-10-14 | Codex — AI assistant | Updated | /01-Architecture/DF-ARC-006-Terminology.md | Major | Step 4.11 Terminology V1.0 R0 Architecture/Terminology to V2.0 R1 Architecture/Reference Draft/unassigned:incompatible owner-authority/normalized applicability/edition/required-relation/naming reconciliation;39 original terms plus20 supplemental,controlled aliases,18 source links and history;ten corrections pending VALIDATE DOCUMENT;SHA-256 d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41;report40;update-4-11-map.json/diff;M11;stable ID/path. |
+--- before-4.11-VALIDATE/Context/ArchitecturalMilestones.md
++++ after-4.11-VALIDATE/Context/ArchitecturalMilestones.md
+@@ -273,6 +273,8 @@
+ 
+ Step 4.11 UPDATE (2026-10-14):Terminology V2.0 R1 Architecture/Reference Draft/unassigned;incompatible owner-authority/applicability/edition/relationship/alias reconciliation;39 preserved terms,20 supplemental distinctions,18 links and history. Ten corrections pending VALIDATE DOCUMENT. Four C,Terminology S,two O,M11 In Progress;no completion date. ReportR34 section40;CHANGELOG #311-313;global owner/consumer/terminology reconciliation pending.
+ 
++Step 4.11 VALIDATE (2026-10-14):exact unchanged Terminology V2.0 R1 Architecture/Reference local correction scope PASS;ten records Closed-verified. Five C,two O,M11 In Progress;Terminology completion2026-10-14. Source Draft/unassigned;full owner/consumer/terminology propagation pending. ReportR35 section41;CHANGELOG #314-316. No approval,publication,Baseline or integrated conformity.
++
+ ### Objectives and acceptance
+ 
+ Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
+@@ -286,7 +288,7 @@
+ | C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+ | C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-004 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
+ | C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-005 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
+-| S | 2026-09-30 | 2026-10-14 |  | DF-ARC-006 — V2.0 R1 Draft; UPDATE complete; validation pending | /01-Architecture/DF-ARC-006-Terminology.md |
++| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-006 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-006-Terminology.md |
+ | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-007 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
+ 
+ ---
+@@ -354,7 +356,7 @@
+ 
+ Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+ 
+-Current supporting report edition: DF-RVW-002 V1.0 R34 includes all six Step 4.01-4.06 scoped cycles,the Step 4.07/4.08/4.09/4.10 scoped cycles and Step 4.11 REVIEW/UPDATE; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
++Current supporting report edition: DF-RVW-002 V1.0 R35 includes all six Step 4.01-4.06 scoped cycles and the Step 4.07/4.08/4.09/4.10/4.11 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+ 
+ ### Objectives and acceptance
+ 
