@@ -243,7 +243,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 
 ## Milestone M11 — Architecture review cycles
 
-**Milestone Status:** In Progress
+**Milestone Status:** Completed
 
 Step 4.07 REVIEW (2026-10-04): Concepts source unchanged V1.0 R0 Draft/Baseline1.0; eight findings/two warnings Open. Record S, no completion date; six other records O. M11 In Progress. Proposed V2.0 R1 normative reconciliation, actual compatibility pending UPDATE. Report R21 section27; CHANGELOG #267-270. M10 six Foundation documentary cycles remain complete; global findings remain Open.
 
@@ -285,6 +285,8 @@ Step4.13 REVIEW (2026-10-14):exact unchanged Overview V1.0 R0 Draft/Baseline1.0;
 
 Step4.13 UPDATE (2026-10-14):Overview V2.0 R1 Architecture/Architecture Draft/unassigned;incompatible scoped-contract/support/cycle,owner/executor/evidence and assessed foundational evolution reconciliation;seven areas/five concerns,23 capability synopsis,three typed views,eight AP rows,18 links/history. Ten corrections pending VALIDATE DOCUMENT. Six C/Overview S,M11 In Progress;no completion date. ReportR40 section46;CHANGELOG #331-333;global owner/consumer reconciliation pending.
 
+Step4.13 VALIDATE (2026-10-14):exact unchanged Overview V2.0 R1 Architecture/Architecture local correction scope PASS;ten records Closed-verified. Overview completion2026-10-14;seven C,M11 Completed on2026-10-14 for all seven scoped Architecture document cycles and listed comparisons. Source Draft/unassigned;M12-14 and global owner/consumer/implementation/graph propagation remain pending. ReportR41 section47;CHANGELOG #334-336. Completion is documentary scope,not integrated conformity,approval,publication or Baseline.
+
 ### Objectives and acceptance
 
 Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
@@ -293,7 +295,7 @@ Dependencies: M10; reconcile owner definitions before consumers. Evidence: DF-RV
 
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
-| S | 2026-09-30 | 2026-10-14 |  | DF-ARC-001 — V2.0 R1 Draft; UPDATE complete; validation pending | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
+| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-001 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-002 — V2.0 R1 Draft;scoped validation PASS | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
 | C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
 | C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-004 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
@@ -366,7 +368,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
 
-Current supporting report edition: DF-RVW-002 V1.0 R40 includes all six Step 4.01-4.06 scoped cycles,the Step4.07/4.08/4.09/4.10/4.11/4.12 scoped cycles and Step4.13 REVIEW/UPDATE; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+Current supporting report edition: DF-RVW-002 V1.0 R41 includes all six Step 4.01-4.06 and all seven Step4.07-4.13 scoped document cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 

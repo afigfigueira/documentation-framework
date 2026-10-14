@@ -1,0 +1,876 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/41",
+  "date": "2026-10-14",
+  "step": "4.13 VALIDATE DOCUMENT",
+  "source": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+  "source_edition": "2.0/1",
+  "source_sha256": "00d8a81f8adaf223d3b0478c7d2a3ea422f7c8984f84428c7e338ce0e8e98291",
+  "source_changed": false,
+  "result": "PASS—local Architecture Overview correction scope",
+  "coverage": {
+    "method": "Complete370-line source read:fifteen chapters,28 original numbered sections/three additions,all23 component entries/eight AP rows/eight tables/three typed views/seven required rows/eighteen references/history. Input/UPDATE body/view/component/AP/classification export comparison and manual ten-criterion evaluation. Layers/Components/Principles/Structure listed extracts re-read;other prior listed partial scopes retain unchanged hashes. No full peer/implementation cycle inferred.",
+    "bytes": 31005,
+    "lines": 370,
+    "chapters": 15,
+    "original_sections": 28,
+    "changed_original_sections": 26,
+    "unchanged_original_sections": [
+      "7.1",
+      "7.2"
+    ],
+    "added_sections": 3,
+    "components": 23,
+    "allocation_counts": [
+      4,
+      4,
+      5,
+      5,
+      5
+    ],
+    "selected_principles": 8,
+    "tables": 8,
+    "views": 3,
+    "required_rows": 7,
+    "references": 18
+  },
+  "integrity_checks": {
+    "exact_output_hash": true,
+    "exact_input_hash": true,
+    "R40_manifest_integrity": true,
+    "header_contract": true,
+    "28_original_numbers_retained": true,
+    "26_changed_body_hashes": true,
+    "two_original_component_bodies_unchanged": true,
+    "fifteen_chapters": true,
+    "three_added_bodies_match": true,
+    "23_names_allocations_match_register": true,
+    "allocation_counts_4_4_5_5_5": true,
+    "all18_received_maps": true,
+    "component_export_matches": true,
+    "eight_AP_rows_titles_exports_match": true,
+    "classification_export_matches": true,
+    "three_original_view_provenance": true,
+    "three_written_views_anchors_match": true,
+    "seven_required_rows_match_owner_and_UPDATE": true,
+    "eight_rectangular_tables": true,
+    "18_link_IDs_resolve": true,
+    "eleven_original_target_roles_retained": true,
+    "four_actual_specs": true,
+    "functional_scope_four_Type": true,
+    "same_Layer_visible_required_cycles": true,
+    "snapshot_immutable_not_publication_triggered": true,
+    "assessed_foundations_monotonic_revisions": true,
+    "original_history_actual_attribution": true,
+    "literal_before_after_excerpts_match": true,
+    "CRLF_retained": true,
+    "comparison_hashes_unchanged": true,
+    "66_other_original_normalized_sources_preserved": true,
+    "twelve_prior_validated_sources_preserved": true,
+    "six_READMEs_preserved": true,
+    "eight_functional_records_excluded": true,
+    "source_matches_UPDATE_checkpoint": true
+  },
+  "received_component_map": [
+    {
+      "section": "7.1",
+      "received_label": "Metadata",
+      "canonical_targets": [
+        "Metadata"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.1",
+      "received_label": "Document Identity",
+      "canonical_targets": [
+        "Document Identity"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.1",
+      "received_label": "Classification",
+      "canonical_targets": [
+        "Classification"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.1",
+      "received_label": "Templates",
+      "canonical_targets": [
+        "Templates"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.2",
+      "received_label": "Workflow",
+      "canonical_targets": [
+        "Workflow"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.2",
+      "received_label": "Policies",
+      "canonical_targets": [
+        "Policies"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.2",
+      "received_label": "Reviews",
+      "canonical_targets": [
+        "Reviews"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.2",
+      "received_label": "Baselines",
+      "canonical_targets": [
+        "Baselines"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.3",
+      "received_label": "Registry",
+      "canonical_targets": [
+        "Registry"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.3",
+      "received_label": "Relationships",
+      "canonical_targets": [
+        "Relationships"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.3",
+      "received_label": "Knowledge Graph",
+      "canonical_targets": [
+        "Knowledge Graph"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.3",
+      "received_label": "Navigation",
+      "canonical_targets": [
+        "Navigation"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.4",
+      "received_label": "Validation",
+      "canonical_targets": [
+        "Validation"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.4",
+      "received_label": "Generators",
+      "canonical_targets": [
+        "Metadata Generator",
+        "Registry Generator",
+        "Documentation Generator"
+      ],
+      "meaning": "Illustrative grouping/label mapping, not a new registered capability"
+    },
+    {
+      "section": "7.4",
+      "received_label": "Consistency Verification",
+      "canonical_targets": [
+        "Consistency Verification"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.5",
+      "received_label": "Development Tools",
+      "canonical_targets": [
+        "Source Control Integration",
+        "CI/CD Integration",
+        "IDE Integration"
+      ],
+      "meaning": "Illustrative grouping/label mapping, not a new registered capability"
+    },
+    {
+      "section": "7.5",
+      "received_label": "Documentation Platforms",
+      "canonical_targets": [
+        "Documentation Platform Integration"
+      ],
+      "meaning": "Illustrative grouping/label mapping, not a new registered capability"
+    },
+    {
+      "section": "7.5",
+      "received_label": "AI Integration",
+      "canonical_targets": [
+        "AI Integration"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    }
+  ],
+  "written_components": [
+    {
+      "section": "7.1",
+      "canonical_name": "Metadata",
+      "primary_area": "Documentation"
+    },
+    {
+      "section": "7.1",
+      "canonical_name": "Document Identity",
+      "primary_area": "Documentation"
+    },
+    {
+      "section": "7.1",
+      "canonical_name": "Classification",
+      "primary_area": "Documentation"
+    },
+    {
+      "section": "7.1",
+      "canonical_name": "Templates",
+      "primary_area": "Documentation"
+    },
+    {
+      "section": "7.2",
+      "canonical_name": "Workflow",
+      "primary_area": "Governance"
+    },
+    {
+      "section": "7.2",
+      "canonical_name": "Policies",
+      "primary_area": "Governance"
+    },
+    {
+      "section": "7.2",
+      "canonical_name": "Reviews",
+      "primary_area": "Governance"
+    },
+    {
+      "section": "7.2",
+      "canonical_name": "Baselines",
+      "primary_area": "Governance"
+    },
+    {
+      "section": "7.3",
+      "canonical_name": "Registry",
+      "primary_area": "Discovery"
+    },
+    {
+      "section": "7.3",
+      "canonical_name": "Relationships",
+      "primary_area": "Discovery"
+    },
+    {
+      "section": "7.3",
+      "canonical_name": "Knowledge Graph",
+      "primary_area": "Discovery"
+    },
+    {
+      "section": "7.3",
+      "canonical_name": "Navigation",
+      "primary_area": "Discovery"
+    },
+    {
+      "section": "7.3",
+      "canonical_name": "Search",
+      "primary_area": "Discovery"
+    },
+    {
+      "section": "7.4",
+      "canonical_name": "Validation",
+      "primary_area": "Automation"
+    },
+    {
+      "section": "7.4",
+      "canonical_name": "Metadata Generator",
+      "primary_area": "Automation"
+    },
+    {
+      "section": "7.4",
+      "canonical_name": "Registry Generator",
+      "primary_area": "Automation"
+    },
+    {
+      "section": "7.4",
+      "canonical_name": "Documentation Generator",
+      "primary_area": "Automation"
+    },
+    {
+      "section": "7.4",
+      "canonical_name": "Consistency Verification",
+      "primary_area": "Automation"
+    },
+    {
+      "section": "7.5",
+      "canonical_name": "Source Control Integration",
+      "primary_area": "Integration"
+    },
+    {
+      "section": "7.5",
+      "canonical_name": "CI/CD Integration",
+      "primary_area": "Integration"
+    },
+    {
+      "section": "7.5",
+      "canonical_name": "IDE Integration",
+      "primary_area": "Integration"
+    },
+    {
+      "section": "7.5",
+      "canonical_name": "Documentation Platform Integration",
+      "primary_area": "Integration"
+    },
+    {
+      "section": "7.5",
+      "canonical_name": "AI Integration",
+      "primary_area": "Integration"
+    }
+  ],
+  "selected_principle_map": [
+    {
+      "received_label": "Separation of Responsibilities",
+      "principle_id": "AP-006",
+      "owner_title": "Separation of Responsibilities",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix",
+      "written_row": "| Separation of Responsibilities | AP-006 — Separation of Responsibilities | Primary ownership permits explicit collaboration |",
+      "written_row_sha256": "07f37b5c3b0867684f686d645a31b4f41c6501c40a0e921ddf78ff3556eb00e9"
+    },
+    {
+      "received_label": "Explicit Architecture",
+      "principle_id": "AP-002",
+      "owner_title": "Explicit Architecture",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix",
+      "written_row": "| Explicit Architecture | AP-002 — Explicit Architecture | Identified contracts and decision evidence |",
+      "written_row_sha256": "3ab711bf3d04d5e6b7f792396f20b53f6e6a73e4ecf8402e45887b83e06158bf"
+    },
+    {
+      "received_label": "Single Source of Truth",
+      "principle_id": "AP-004",
+      "owner_title": "Single Source of Truth",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix",
+      "written_row": "| Single Source of Truth | AP-004 — Single Source of Truth | One scoped semantic owner with traceable derived representations |",
+      "written_row_sha256": "4f4bfa7d046edd746bcb836453e28e0d775b4005b1eb1dafc6f5e3d5902ce648"
+    },
+    {
+      "received_label": "Stable Document Identity",
+      "principle_id": "AP-010",
+      "owner_title": "Stable Identity",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix",
+      "written_row": "| Stable Document Identity | AP-010 — Stable Identity | Applicable normalized identity distinct from mutable classification/edition |",
+      "written_row_sha256": "3f254b276def773292159a75a9e6342dd64c227342ca9eca09e12427c6797288"
+    },
+    {
+      "received_label": "Knowledge Traceability",
+      "principle_id": "AP-012",
+      "owner_title": "Traceability",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix",
+      "written_row": "| Knowledge Traceability | AP-012 — Traceability | Actual subject/edition/decision records and coverage |",
+      "written_row_sha256": "650cc1e1ada438c54b3bec13acea7a779652a352fffe18341174f65dcc328fc1"
+    },
+    {
+      "received_label": "Incremental Evolution",
+      "principle_id": "AP-015",
+      "owner_title": "Incremental Evolution",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix",
+      "written_row": "| Incremental Evolution | AP-015 — Incremental Evolution | Incremental improvement where feasible; assessed necessary change |",
+      "written_row_sha256": "8eb751bebd9725d15bcc58b233e1c976e91850e96739b17667e90a43a3a71506"
+    },
+    {
+      "received_label": "Backward Compatibility",
+      "principle_id": "AP-016",
+      "owner_title": "Backward Compatibility",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix",
+      "written_row": "| Backward Compatibility | AP-016 — Backward Compatibility | Compatible contracts where feasible; justified versioned incompatibility |",
+      "written_row_sha256": "2329d6763792b538f6da0ff997d7be347edbe3da83cab3335215b7b25f600950"
+    },
+    {
+      "received_label": "Technology Independence",
+      "principle_id": "AP-003",
+      "owner_title": "Technology Independence",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix",
+      "written_row": "| Technology Independence | AP-003 — Technology Independence | Conceptual independence with actual representation/integration constraints |",
+      "written_row_sha256": "fa574ecfb41821f15e38a6e8643070ac4560cea8883c445866988335f87ba1ab"
+    }
+  ],
+  "view_provenance": [
+    {
+      "original_section": "5",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n                    Documentation Framework\n                    │\n                    ├── Foundation\n                    │\n                    ├── Architecture\n                    │\n                    ├── Documentation Layer\n                    │\n                    ├── Governance Layer\n                    │\n                    ├── Discovery Layer\n                    │\n                    ├── Automation Layer\n                    │\n                    └── Integration Layer\n\n```",
+      "original_view_sha256": "1c53d0bb3477037d27750eecafd78367791c064495e1a295fae88b9bb611a6ff",
+      "hash_encoding": "UTF-8 received view, CRLF normalized to LF; file hash separately protects exact bytes",
+      "proposed_meaning": "Structural allocation/support definition context; not required service edges",
+      "working_anchor": "original-section-view: 5",
+      "written_view_text": "**Previously unnamed view in §5 — Structural allocation and supporting definitions.**\n\n| Structural area | Organizational role |\n|---|---|\n| Foundation | Supporting identity, vision, rationale and history definitions |\n| Architecture | Supporting common concepts, principles, allocation rules and vocabulary |\n| Documentation | Primary allocation of documentary representation capabilities |\n| Governance | Primary allocation of documentary governance capabilities |\n| Discovery | Primary allocation of catalog, connection and discovery capabilities |\n| Automation | Primary allocation of repeatable checking and generation capabilities |\n| Integration | Primary allocation of external adapter capabilities |",
+      "written_view_sha256": "251ebb0006b2ce6c98cbbd452106f133722433ebdc3296ec80c15b6722105865",
+      "written_relation_kind": "Structural allocation/support context"
+    },
+    {
+      "original_section": "9",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n                Foundation\n                    │\n                    ▼\n\n               Architecture\n                    │\n                    ▼\n\n              Documentation\n                    │\n                    ▼\n\n                Governance\n                    │\n                    ▼\n\n                Discovery\n                    │\n                    ▼\n\n                Automation\n                    │\n                    ▼\n\n               Integration\n\n```",
+      "original_view_sha256": "769de480d43ee4058cda6748dccda43c74659ec3714a966ae82a2359ae4e206a",
+      "hash_encoding": "UTF-8 received view, CRLF normalized to LF; file hash separately protects exact bytes",
+      "proposed_meaning": "Selected required consumer→provider contracts with explicit scope and support/cycle rules; not a serial runtime chain",
+      "working_anchor": "original-section-view: 9",
+      "written_view_text": "**Previously unnamed view in §9 — Selected required contracts; consumer→provider.**\n\n| Consumer | Provider | Required contract | Scope/justification |\n|---|---|---|---|\n| Registry | Metadata | Descriptive values with source-edition provenance | When indexing edition descriptors; refresh or identify stale values |\n| Knowledge Graph | Document Identity | Entity identity for logical document nodes | When keying document nodes; other entity kinds use their own endpoint identity contracts |\n| Knowledge Graph | Relationships | Typed connection records and provenance | When projecting the semantic network and interpreting dependency kinds |\n| Workflow | Metadata | Represented state/edition descriptors | When interpreting documentary state values for a governance transition |\n| Workflow | Policies | Applicable transition and evidence rules | When deciding permitted governance operations; execution remains with the applicable process |\n| Baselines | Document Identity | Logical member identity | When selecting/preserving document-edition members |\n| Baselines | Metadata | Exact edition-reference/descriptive contract | When selecting/preserving exact editions; relevant relationship context must also be pinned or evidenced |",
+      "written_view_sha256": "2ed20f8fdc1f9977b2a719328751252322bc02bcb678c05f171d10a9d980185b",
+      "written_relation_kind": "Selected required consumer→provider contracts"
+    },
+    {
+      "original_section": "11",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n           Foundation Documents\n                    │\n                    ▼\n\n           Architectural Model\n                    │\n                    ▼\n\n         Architectural Components\n                    │\n                    ▼\n\n         Component Specifications\n                    │\n                    ▼\n\n             Implementation\n\n```",
+      "original_view_sha256": "30381805f1bdb1cad52c24b11b40c675a559f8b1ac61bcffde13f06e40fb104f",
+      "hash_encoding": "UTF-8 received view, CRLF normalized to LF; file hash separately protects exact bytes",
+      "proposed_meaning": "Documentary refinement and assessed implementation traceability; not automatic conformance or execution",
+      "working_anchor": "original-section-view: 11",
+      "written_view_text": "**Previously unnamed view in §11 — Documentary refinement and implementation assessment.**\n\n| Subject/source role | Contribution | Required assessment/limit |\n|---|---|---|\n| Foundation documents | Vision, basis, applicable contracts, rationale and history | Identify responsible clauses/editions; history does not silently become a current rule |\n| Architectural model | Concepts, principles, allocation and common constraints | Reconcile actual owner meanings and required contracts |\n| Architectural components | Registered capability responsibilities and cooperation | Primary allocation is not implemented service evidence |\n| Component specifications | Detailed applicable owner requirements | Actual supplied sources and missing roles remain explicit |\n| Implementation | Concrete representation, adapters and executors | Demonstrate traceable conformance against exact applicable contracts and examined artifacts |",
+      "written_view_sha256": "23c1c6548a620620573618069430662d4f37a124fc4164a093eff3b606859911",
+      "written_relation_kind": "Documentary refinement/implementation assessment"
+    }
+  ],
+  "selected_required_contracts": [
+    [
+      "Registry",
+      "Metadata",
+      "Descriptive values with source-edition provenance",
+      "When indexing edition descriptors; refresh or identify stale values"
+    ],
+    [
+      "Knowledge Graph",
+      "Document Identity",
+      "Entity identity for logical document nodes",
+      "When keying document nodes; other entity kinds use their own endpoint identity contracts"
+    ],
+    [
+      "Knowledge Graph",
+      "Relationships",
+      "Typed connection records and provenance",
+      "When projecting the semantic network and interpreting dependency kinds"
+    ],
+    [
+      "Workflow",
+      "Metadata",
+      "Represented state/edition descriptors",
+      "When interpreting documentary state values for a governance transition"
+    ],
+    [
+      "Workflow",
+      "Policies",
+      "Applicable transition and evidence rules",
+      "When deciding permitted governance operations; execution remains with the applicable process"
+    ],
+    [
+      "Baselines",
+      "Document Identity",
+      "Logical member identity",
+      "When selecting/preserving document-edition members"
+    ],
+    [
+      "Baselines",
+      "Metadata",
+      "Exact edition-reference/descriptive contract",
+      "When selecting/preserving exact editions; relevant relationship context must also be pinned or evidenced"
+    ]
+  ],
+  "references_at_validation_input": [
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "target": "../02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "expected_id": "DF-MTD-014",
+      "declared_id": "DF-MTD-014",
+      "sha256_at_validation_input": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "target": "../02-Documentation/DocumentIdentity/04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md",
+      "expected_id": "DF-DID-014",
+      "declared_id": "DF-DID-014",
+      "sha256_at_validation_input": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "target": "../02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "expected_id": "DF-CLS-014",
+      "declared_id": "DF-CLS-014",
+      "sha256_at_validation_input": "e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "target": "../02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "expected_id": "DF-TPL-014",
+      "declared_id": "DF-TPL-014",
+      "sha256_at_validation_input": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464"
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "target": "../00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "expected_id": "DF-FND-001",
+      "declared_id": "DF-FND-001",
+      "sha256_at_validation_input": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96"
+    },
+    {
+      "path": "00-Foundation/DF-FND-002-ResearchJournal.md",
+      "target": "../00-Foundation/DF-FND-002-ResearchJournal.md",
+      "expected_id": "DF-FND-002",
+      "declared_id": "DF-FND-002",
+      "sha256_at_validation_input": "018b81c60884dfb13eda73083c134f4c1bfab4248184795f479ca1fd8ac851f6"
+    },
+    {
+      "path": "00-Foundation/DF-FND-003-EvolutionTimeline.md",
+      "target": "../00-Foundation/DF-FND-003-EvolutionTimeline.md",
+      "expected_id": "DF-FND-003",
+      "declared_id": "DF-FND-003",
+      "sha256_at_validation_input": "2488360bc2fc498e9dcb46536a0af8b9056beb662f25a6013ad01ef1ac77ffb3"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "target": "../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "expected_id": "DF-FND-004",
+      "declared_id": "DF-FND-004",
+      "sha256_at_validation_input": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6"
+    },
+    {
+      "path": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
+      "target": "../00-Foundation/DF-FND-005-FrameworkEvolution.md",
+      "expected_id": "DF-FND-005",
+      "declared_id": "DF-FND-005",
+      "sha256_at_validation_input": "8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04"
+    },
+    {
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "target": "../00-Foundation/DF-FND-006-DesignRationale.md",
+      "expected_id": "DF-FND-006",
+      "declared_id": "DF-FND-006",
+      "sha256_at_validation_input": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "target": "DF-ARC-002-ArchitecturalPrinciples.md",
+      "expected_id": "DF-ARC-002",
+      "declared_id": "DF-ARC-002",
+      "sha256_at_validation_input": "f109eaf7d2a828a90b819b0fc795fa4adc67a317f217c23f335d57fc58acc895"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "target": "DF-ARC-003-ArchitecturalConcepts.md",
+      "expected_id": "DF-ARC-003",
+      "declared_id": "DF-ARC-003",
+      "sha256_at_validation_input": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "target": "DF-ARC-004-ArchitecturalLayers.md",
+      "expected_id": "DF-ARC-004",
+      "declared_id": "DF-ARC-004",
+      "sha256_at_validation_input": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "target": "DF-ARC-005-ArchitecturalComponents.md",
+      "expected_id": "DF-ARC-005",
+      "declared_id": "DF-ARC-005",
+      "sha256_at_validation_input": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "target": "DF-ARC-006-Terminology.md",
+      "expected_id": "DF-ARC-006",
+      "declared_id": "DF-ARC-006",
+      "sha256_at_validation_input": "d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "target": "DF-ARC-007-ComponentDocumentationStructure.md",
+      "expected_id": "DF-ARC-007",
+      "declared_id": "DF-ARC-007",
+      "sha256_at_validation_input": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "target": "../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "expected_id": "DF-RVW-001",
+      "declared_id": "DF-RVW-001",
+      "sha256_at_validation_input": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb"
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "target": "../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "expected_id": "DF-RVW-002",
+      "declared_id": "DF-RVW-002",
+      "sha256_at_validation_input": "74772e35d87c3cbff574dfcab017dc951f60bd09f1bfd84692e1ed1d572af900"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "sha256": "f109eaf7d2a828a90b819b0fc795fa4adc67a317f217c23f335d57fc58acc895",
+      "sections": [
+        "2",
+        "3",
+        "6.1",
+        "6.2",
+        "6.3",
+        "8",
+        "10",
+        "11",
+        "13",
+        "15.1"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW",
+      "validation_read_provenance": "Layers,Components,Principles and Structure listed extracts re-read during VALIDATE;other listed prior partial scopes retain verified unchanged hashes. No full peer/implementation cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "sha256": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e",
+      "sections": [
+        "3",
+        "9",
+        "10",
+        "16",
+        "19"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW",
+      "validation_read_provenance": "Layers,Components,Principles and Structure listed extracts re-read during VALIDATE;other listed prior partial scopes retain verified unchanged hashes. No full peer/implementation cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "sha256": "d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41",
+      "sections": [
+        "4",
+        "5.5",
+        "5.9",
+        "5.22",
+        "5.32",
+        "6",
+        "8",
+        "10"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW",
+      "validation_read_provenance": "Layers,Components,Principles and Structure listed extracts re-read during VALIDATE;other listed prior partial scopes retain verified unchanged hashes. No full peer/implementation cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec",
+      "sections": [
+        "4",
+        "12",
+        "13"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW",
+      "extract": "principles-comparison-0.txt",
+      "validation_read_provenance": "Layers,Components,Principles and Structure listed extracts re-read during VALIDATE;other listed prior partial scopes retain verified unchanged hashes. No full peer/implementation cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9",
+      "sections": [
+        "3",
+        "4",
+        "6",
+        "8",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW",
+      "extract": "principles-comparison-1.txt",
+      "validation_read_provenance": "Layers,Components,Principles and Structure listed extracts re-read during VALIDATE;other listed prior partial scopes retain verified unchanged hashes. No full peer/implementation cycle."
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "sections": [
+        "6",
+        "8",
+        "10"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW",
+      "validation_read_provenance": "Layers,Components,Principles and Structure listed extracts re-read during VALIDATE;other listed prior partial scopes retain verified unchanged hashes. No full peer/implementation cycle."
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "sections": [
+        "1.7",
+        "8.11"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW",
+      "validation_read_provenance": "Layers,Components,Principles and Structure listed extracts re-read during VALIDATE;other listed prior partial scopes retain verified unchanged hashes. No full peer/implementation cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
+      "sections": [
+        "3",
+        "4",
+        "8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW",
+      "validation_read_provenance": "Layers,Components,Principles and Structure listed extracts re-read during VALIDATE;other listed prior partial scopes retain verified unchanged hashes. No full peer/implementation cycle."
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Review Policy re-inspected during Step4.13 REVIEW",
+      "validation_read_provenance": "Layers,Components,Principles and Structure listed extracts re-read during VALIDATE;other listed prior partial scopes retain verified unchanged hashes. No full peer/implementation cycle."
+    }
+  ],
+  "findings": [
+    {
+      "id": "ARC001-01",
+      "criterion": "Header, responsibility rationale, stable identity and actual successor history conform; classification alone is not treated as incompatible or as approval.",
+      "sections": "Header;1–3;15.1/15.2",
+      "observed_evidence": "Header/§§2/15.1/15.2 use Architecture/Architecture by common-model responsibility,V2.0 R1 Draft/unassigned with stable ID/path. Original Overview/R0/Baseline1.0/absent Author/date preserved;actual contribution distinct from authorization/approval. No Component/Class,fifth Type or historic approval invented.",
+      "result": "PASS—local Architecture Overview correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-03/12; Review Policy §§3–7"
+    },
+    {
+      "id": "ARC001-02",
+      "criterion": "Every layer count, table, view, allocation and related characteristic agrees with the seven-area/five-concern distinction; supporting definitions are not fabricated components.",
+      "sections": "5/6/7/8.2",
+      "observed_evidence": "§§5/6/7/8.2 consistently distinguish seven structural areas from five concerns;supporting Foundation/Architecture documents are not capability components. All seven names/order retained without runtime allocation inference;23 entries allocated4/4/5/5/5.",
+      "result": "PASS—local Architecture Overview correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-01; Blueprint §1.7; Layers §4; Components §4"
+    },
+    {
+      "id": "ARC001-03",
+      "criterion": "All eighteen received entries have explicit canonical/group mappings and a declared summary scope; any claimed complete register has exactly the 23 canonical entries with no invented capability, allocation or implementation.",
+      "sections": "7/7.1–7.5",
+      "observed_evidence": "§7 explicitly declares the full23-name register synopsis with exact canonical allocations. All18 received labels map to registered names;three generic groups create no components,Search comes from the existing register. Received examples were not an exhaustive obligation;primary ownership permits support cooperation.",
+      "result": "PASS—local Architecture Overview correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-01/06; Components §4; Terminology §6"
+    },
+    {
+      "id": "ARC001-04",
+      "criterion": "All dependency-related prose/views distinguish their meanings and match Layers §§12–13; selected required contracts preserve genuine consumption and same-Layer rules without claiming a complete globally acyclic graph or verified execution order.",
+      "sections": "5/6/9/11",
+      "observed_evidence": "§§5/9/11 separately type allocation,required consumer→provider contracts and documentary refinement. Seven rows match owner scopes;provider support precedence and same-Layer Knowledge Graph→Relationships/Workflow→Policies explicit. Actual required cycles prohibited/visible,no hidden edge,upward exception,adjacent chain or complete graph/execution claim.",
+      "result": "PASS—local Architecture Overview correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02; Blueprint §8.11; Concepts §8; Layers §§12–13; Components §12; Principles AP-007/009"
+    },
+    {
+      "id": "ARC001-05",
+      "criterion": "Scope and affected responsibility/traceability clauses preserve owner/executor, entity/applicability and exact-edition distinctions, with no automatic operational service, approval, snapshot selection or normalized obligations for functional files.",
+      "sections": "1/3/4/6/7/8.3/11/12/15",
+      "observed_evidence": "§§1/3/6/7/8.3/11/12/15 distinguish entities/editions/components/files and DF contracts from DMS/tool/manual execution/CMS scope. All-location functional exclusion retains content/history checks. Subject lifecycle,exact Status/coordinates,maturity,approval/publication and immutable approved-edition snapshot membership remain separate.",
+      "result": "PASS—local Architecture Overview correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "INV-02 remains Not applicable; REV2-08/12; Concepts §3; Components §§3/6/8; Terminology §§5.5/5.22; Structure §§3/9"
+    },
+    {
+      "id": "ARC001-06",
+      "criterion": "Characteristics and conclusion consistently allow assessed necessary incompatibility while preserving coherent boundaries; no foundation immutability, universal tool interoperability, harmless extension or unconditional independent evolution remains.",
+      "sections": "6/8.1/8.4/8.5/15.1",
+      "observed_evidence": "§§6/8.1/8.4/8.5/15.1 qualify independent evolution/technology objectives and permit necessary assessed foundational/interface changes. Owner/consumer/dependency/compatibility/transition mapping explicit;major Version increment justified by actual contracts,Revision monotonic,unchanged-source validation no increment. No harmless-extension guarantee.",
+      "result": "PASS—local Architecture Overview correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-12; Principles AP-008/015–018; Components §§11/15; Structure §19; Review Policy §5"
+    },
+    {
+      "id": "ARC001-07",
+      "criterion": "The overview maps actual supplied specifications and intended roles, identifies responsible principles/domain sources and explicit applicability, and does not certify complete specifications, peer cycles or implemented conformance from file presence.",
+      "sections": "10/11/12/14/15",
+      "observed_evidence": "§§10–12/14 identify actual principles/domain authority and four supplied specification links,including Templates. Generic roles remain intended with bounded availability;ARC-007 source-role/conformance ownership referenced. No invented source IDs,competing blanket inheritance,peer validation,approval or deployed service inferred.",
+      "result": "PASS—local Architecture Overview correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-06/12; Components §13; Principles §13; Structure §§10/16"
+    },
+    {
+      "id": "ARC001-08",
+      "criterion": "All quality/traceability/alignment/conclusion claims are appropriately bounded by actual evidence; no local correction is presented as integrated conformity, approval, implementation or future-result guarantee.",
+      "sections": "1/3/4/8/11/13/15",
+      "observed_evidence": "§§1/4/8/11/13/15 distinguish intended qualities/requirements from actual rules/artifacts/checks/observations/executor/coverage. Refinement illustration does not ensure alignment. Scope/rollout/implementation limits explicit;later bytes need independent assessment with no inherited outcomes or consequences responsibility for a changed product.",
+      "result": "PASS—local Architecture Overview correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-08/12; Principles §11; Terminology §§4/8/10; Structure §16; Review Policy §6"
+    },
+    {
+      "id": "ARC001-W01",
+      "criterion": "Every selected principle resolves its actual AP ID/title/source scope; original aliases remain traceable and no invented AP or complete implementation compliance is claimed.",
+      "sections": "10/14.2",
+      "observed_evidence": "§10 maps all eight received labels to actual AP IDs/exact owner titles,including AP-010 Stable Identity and AP-012 Traceability,with preserved synopsis-label provenance. Explicit selected-example scope is not all24 principles or implemented compliance;ARC-002 owner link resolves.",
+      "result": "PASS—local Architecture Overview correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "Principles §§5–9/11; Terminology §6"
+    },
+    {
+      "id": "ARC001-W02",
+      "criterion": "All original sections/views/references and exact input provenance remain traceable; operational links resolve intended identities; actual history and impact limits are complete without invented historical approval or completed consumer propagation.",
+      "sections": "Header;2/3/5/7/9/10/11/12/13/14/15",
+      "observed_evidence": "Fifteen chapters/28 original numbers retained;26 changed bodies/two unchanged sections match map,three original/written view digests and anchors preserved,eighteen owner/spec/process links resolve. Added compatibility/history/propagation sections preserve absent historic author/date and actual input provenance;full diff/export checks match.",
+      "result": "PASS—local Architecture Overview correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "Review Policy §§4–7; report R38 §44; Structure §§3/10/16"
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Closed—verified": 127,
+    "Not applicable—scope decision": 1
+  },
+  "limits": [
+    "Local correction and listed owner comparisons only;not a full24-AP implementation conformance matrix,complete required graph or integrated consumer rollout",
+    "Dictionary/Schema/Profile,identity/classification/collision,maps,planning and detailed implementation retain scheduled work",
+    "M11 Completed means seven scoped document cycles complete;no global architecture/implementation conformity,approval,publication or Baseline",
+    "Draft/unassigned;no final Context-Reviewed.zip"
+  ],
+  "history_interpretation": "Source unchanged;header/§§14.2/15/15.2/15.3 retain UPDATE-time pending history. Later central exact-hash result supersedes current tracking without rewriting event history. Changed later bytes require independent assessment;no inherited outcome or changed-product-consequence responsibility.",
+  "tracking_checks": {
+    "source_bytes_unchanged": true,
+    "all_other_MD_sources_preserved": true,
+    "89_stable_matrix_positions": true,
+    "matrix_current_hashes": true,
+    "prior_events_preserved": true,
+    "changelog_sequence_336_to_1": true,
+    "M10_and_M0_M7_preserved": true,
+    "M11_seven_C_Completed": true,
+    "historical_report_sections_preserved": true,
+    "next_matrix_source_4_14_unchanged": true,
+    "new_report_tables_rectangular": true
+  }
+}
