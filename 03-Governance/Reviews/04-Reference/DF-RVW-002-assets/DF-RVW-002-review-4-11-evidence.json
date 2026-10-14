@@ -1,0 +1,715 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/33",
+  "date": "2026-10-14",
+  "step": "4.11 REVIEW",
+  "source": "01-Architecture/DF-ARC-006-Terminology.md",
+  "sha256": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb",
+  "source_changed": false,
+  "source_edition": {
+    "version": "1.0",
+    "revision": 0,
+    "status": "Draft",
+    "baseline": "1.0",
+    "author": null,
+    "family": "Architecture",
+    "type": "Terminology",
+    "language": "English"
+  },
+  "coverage": {
+    "method": "Complete source read: all419 lines,eleven chapters,55 numbered sections,39 glossary entries,five principles,naming/forbidden/governance/evolution rules,conclusion and two tables. No source diagrams/fences or Markdown links. Six owner comparison extracts re-inspected; other explicitly recorded prior partial coverage retained with unchanged hashes.",
+    "bytes": 10155,
+    "lines": 419,
+    "chapters": 11,
+    "numbered_sections": 55,
+    "glossary_entries": 39,
+    "principles": 5,
+    "Markdown_tables": 2,
+    "views": 0,
+    "operational_links": 0
+  },
+  "term_map": [
+    {
+      "section": "5.1",
+      "received_term": "Architecture",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.2",
+      "received_term": "Architectural Component",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.3",
+      "received_term": "Architectural Layer",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.4",
+      "received_term": "Architectural Principle",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.5",
+      "received_term": "Baseline",
+      "primary_record": "ARC006-05",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.6",
+      "received_term": "Classification",
+      "primary_record": "ARC006-04",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.7",
+      "received_term": "Component",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.8",
+      "received_term": "Concept",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.9",
+      "received_term": "Dependency",
+      "primary_record": "ARC006-06",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.10",
+      "received_term": "Discovery",
+      "primary_record": "ARC006-06",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.11",
+      "received_term": "Document",
+      "primary_record": "ARC006-04",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.12",
+      "received_term": "Document Identity",
+      "primary_record": "ARC006-04",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.13",
+      "received_term": "Documentation",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.14",
+      "received_term": "Documentation Framework",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.15",
+      "received_term": "Framework",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.16",
+      "received_term": "Governance",
+      "primary_record": "ARC006-05",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.17",
+      "received_term": "Identity",
+      "primary_record": "ARC006-04",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.18",
+      "received_term": "Integration",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.19",
+      "received_term": "Knowledge",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.20",
+      "received_term": "Knowledge Graph",
+      "primary_record": "ARC006-06",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.21",
+      "received_term": "Layer",
+      "primary_record": "ARC006-03",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.22",
+      "received_term": "Lifecycle",
+      "primary_record": "ARC006-05",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.23",
+      "received_term": "Metadata",
+      "primary_record": "ARC006-04",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.24",
+      "received_term": "Navigation",
+      "primary_record": "ARC006-06",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.25",
+      "received_term": "Policy",
+      "primary_record": "ARC006-05",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.26",
+      "received_term": "Registry",
+      "primary_record": "ARC006-06",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.27",
+      "received_term": "Relationship",
+      "primary_record": "ARC006-06",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.28",
+      "received_term": "Repository",
+      "primary_record": "ARC006-07",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.29",
+      "received_term": "Review",
+      "primary_record": "ARC006-05",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.30",
+      "received_term": "Roadmap",
+      "primary_record": "ARC006-07",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.31",
+      "received_term": "Semantic",
+      "primary_record": "ARC006-02",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.32",
+      "received_term": "Single Source of Truth",
+      "primary_record": "ARC006-02",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.33",
+      "received_term": "Specification",
+      "primary_record": "ARC006-07",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.34",
+      "received_term": "Template",
+      "primary_record": "ARC006-07",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.35",
+      "received_term": "Terminology",
+      "primary_record": "ARC006-02",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.36",
+      "received_term": "Traceability",
+      "primary_record": "ARC006-06",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.37",
+      "received_term": "Validation",
+      "primary_record": "ARC006-05",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.38",
+      "received_term": "Version",
+      "primary_record": "ARC006-05",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    },
+    {
+      "section": "5.39",
+      "received_term": "Workflow",
+      "primary_record": "ARC006-05",
+      "preservation": "Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
+      "sections": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "7",
+        "8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW"
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "sha256": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746",
+      "sections": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "sha256": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed",
+      "sections": [
+        "3",
+        "5",
+        "8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW"
+    },
+    {
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md",
+      "sha256": "33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3",
+      "sections": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "21",
+        "22",
+        "23"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW"
+    },
+    {
+      "path": "02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md",
+      "sha256": "00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04",
+      "sections": [
+        "2",
+        "3",
+        "8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "sha256": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464",
+      "sections": [
+        "1.2",
+        "3",
+        "21"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no complete peer cycle",
+      "read_provenance": "Re-inspected during Step4.11 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec",
+      "sections": [
+        "3",
+        "4",
+        "12",
+        "13",
+        "15"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9",
+      "sections": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "sha256": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e",
+      "sections": [
+        "3",
+        "5",
+        "8",
+        "9",
+        "10",
+        "15",
+        "16",
+        "19",
+        "20.1"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW"
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "sections": [
+        "6",
+        "8",
+        "10"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "sections": [
+        "1.7",
+        "8.11"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "6",
+        "7"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW"
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "sha256": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e",
+      "sections": [
+        "4"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md",
+      "sha256": "fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e",
+      "sections": [
+        "1",
+        "2",
+        "3"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW"
+    },
+    {
+      "path": "Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "sha256": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps; current hashes verified unchanged during this REVIEW"
+    }
+  ],
+  "reference_roles": [
+    {
+      "id": "DF-ARC-001",
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "declared_id": "DF-ARC-001",
+      "sha256": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d"
+    },
+    {
+      "id": "DF-ARC-002",
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "declared_id": "DF-ARC-002",
+      "sha256": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53"
+    },
+    {
+      "id": "DF-ARC-003",
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "declared_id": "DF-ARC-003",
+      "sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c"
+    },
+    {
+      "id": "DF-ARC-004",
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "declared_id": "DF-ARC-004",
+      "sha256": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec"
+    },
+    {
+      "id": "DF-ARC-005",
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "declared_id": "DF-ARC-005",
+      "sha256": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9"
+    },
+    {
+      "id": "DF-ARC-007",
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "declared_id": "DF-ARC-007",
+      "sha256": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e"
+    },
+    {
+      "id": "DF-MTD-003",
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "declared_id": "DF-MTD-003",
+      "sha256": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746"
+    },
+    {
+      "id": "DF-MTD-013",
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "declared_id": "DF-MTD-013",
+      "sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206"
+    },
+    {
+      "id": "DF-DID-002",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "declared_id": "DF-DID-002",
+      "sha256": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed"
+    },
+    {
+      "id": "DF-CLS-002",
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md",
+      "declared_id": "DF-CLS-002",
+      "sha256": "33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3"
+    },
+    {
+      "id": "DF-CLS-006",
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md",
+      "declared_id": "DF-CLS-006",
+      "sha256": "fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e"
+    },
+    {
+      "id": "DF-TPL-002",
+      "path": "02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md",
+      "declared_id": "DF-TPL-002",
+      "sha256": "00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04"
+    },
+    {
+      "id": "DF-TPL-014",
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "declared_id": "DF-TPL-014",
+      "sha256": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464"
+    },
+    {
+      "id": "DF-RDM-001",
+      "path": "Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "declared_id": "DF-RDM-001",
+      "sha256": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224"
+    },
+    {
+      "id": "DF-RVW-001",
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "declared_id": "DF-RVW-001",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb"
+    }
+  ],
+  "findings": [
+    {
+      "id": "ARC006-01",
+      "severity": "Medium",
+      "sections": "Header,1,2,3",
+      "before": "Type=Terminology is outside the adopted enumeration. Primary content is glossary consultation, not a special Type or component. Received Family Architecture,V1.0 R0,Draft/Baseline1.0,English and absent Author are declarations without historic approval/selection evidence.",
+      "proposal": "Use Family Architecture/Type Reference for terminology consultation. Preserve DF-ARC-006/path and original header/history; no invented Component/Class. Record actual working contribution independently of user authorization, review and approval. Assess changed normative contracts for Version and increment Revision monotonically; successor Draft/unassigned.",
+      "closure_criterion": "Header and classification rationale conform to four Types and stable identity, with actual contribution and received evidence preserved; Reference grants no automatic normative authority/approval.",
+      "related_records": "REV2-03/12; Review Policy §§3/5/7",
+      "state": "Open"
+    },
+    {
+      "id": "ARC006-02",
+      "severity": "High",
+      "sections": "1,2,4.1,4.2,4.3,5.32,5.35,6,7,8,9,10,11",
+      "before": "The glossary claims canonical authoritative definitions for every concept and requires all documents to use them, while §9 says Concepts introduces concepts formally defined by Terminology. Domain owners already define Metadata, Identity, Classification and Templates meanings. Single Source of Truth lacks domain/scope/source-edition limits; exactly one concept per term does not account for qualified contexts.",
+      "proposal": "Define this glossary as the common consultation/convergence source referencing responsible domain contracts, not a competing replacement owner. Identify term subject/domain and owner/edition roles; record unresolved conflicts and operating adopted rules rather than blindly copying received owners. Unique authority is within a defined semantic scope; traceable projections and context-qualified terms are permitted without competing meaning. Qualify §9 roles and semantic evolution/governance.",
+      "closure_criterion": "Every definition identifies its subject/scope and responsible owner or common architectural role; summaries do not overwrite domain authority or imply global consistency. Conflicts and prior scopes remain explicit.",
+      "related_records": "REV2-06/12; ARC003 §§2–5/7; Metadata/Identity/Classification/Templates owners",
+      "state": "Open"
+    },
+    {
+      "id": "ARC006-03",
+      "severity": "High",
+      "sections": "5.1,5.2,5.3,5.4,5.7,5.8,5.13,5.14,5.15,5.16,5.18,5.19,5.21",
+      "before": "Component is described as an implemented reusable unit; Knowledge is managed by DF, Documentation is produced/governed by DF and Governance manages lifecycle/quality without definition-versus-execution limits. Layers group components and define boundaries without distinguishing seven structural areas, five concerns and supporting definitions.",
+      "proposal": "Distinguish subject matter, logical entities, capability definitions, structural allocations and concerns. Define DF contracts separately from DMS/tool/manual execution and CMS change scope; optional Integration adapters require implementation/authorization evidence. Preserve 23 registered capabilities and primary allocation under ARC-004/005, with Foundation/Architecture support areas versus five concerns. Knowledge/Preservation create no new component/Layer, and architecture summaries guarantee no deployed service or quality.",
+      "closure_criterion": "Architecture/component/layer/knowledge/governance/integration terms are coherent with supplied structural and capability owners; no operational implementation, new allocation or unconditional independence is inferred from a definition.",
+      "related_records": "REV2-01/08/12; ARC003 §§3–5; ARC004 §§4/15; ARC005 §§3–4/6/9",
+      "state": "Open"
+    },
+    {
+      "id": "ARC006-04",
+      "severity": "High",
+      "sections": "3,5.6,5.11,5.12,5.17,5.23,5.34",
+      "before": "Every document is said to possess permanent identity and standardized Metadata without the functional exclusion. Identity is equated to its identifier; logical entity, domain/key representation, mutable classification and edition are not distinguished. Metadata is independent of content without owner/abstraction distinctions; Classification is only an organizing process.",
+      "proposal": "Apply all-location README.md/CHANGELOG.md/ArchitecturalMilestones.md normalization exclusion while retaining content/reference checks. Distinguish logical document, exact edition, representation, Domain+Identifier identity and identifier syntax. Family/component membership, four-value Type and optional defined Class are independent of paths/identity. Metadata represents descriptors; Identity/Classification/Governance own meanings. Dictionary defines, Schema organizes references, Profile constrains and Instance supplies values under one effective Profile. Preserve stable DF-SSS-NNN allocations; no missing Elements/Profiles,000 functional IDs or migration invented.",
+      "closure_criterion": "Document/Identity/Classification/Metadata terms respect applicability, owner semantics and entity/representation distinctions; no universal functional-file normalized obligation, title-derived Type or fabricated canonical catalog/Profile remains.",
+      "related_records": "INV-02 remains Not applicable; REV2-03/04/06/07; MTD-003 §§6–11; DID-002 §§3/5/8; CLS-002 §§12–15/21–23; Review Policy §§2–4",
+      "state": "Open"
+    },
+    {
+      "id": "ARC006-05",
+      "severity": "High",
+      "sections": "5.5,5.16,5.22,5.25,5.29,5.37,5.38,5.39",
+      "before": "Baseline is only a snapshot at a time; Lifecycle is only a document-state sequence; Version is a formally identified state and no Revision/edition distinction exists. Review/Validation/Workflow/Policy definitions omit exact-byte scope, executor evidence and separate approval/publication/membership gates.",
+      "proposal": "Baseline is separately identified immutable explicit selection of exact approved editions with relevant pinned context/evidence; eligibility,consistency and inclusion separate. Define lifecycle subject: document editions,Metadata Elements,Classification definitions or Template entities need their own owners. Separate Version/Revision coordinates,Status,logical identity,maturity and membership. Review/Validation record exact inputs,rules,coverage,observations,executor and limits without automatic approval/publication. Workflow/Policies define contracts,processes execute them; no universal transition graph. Actual attribution differs from authorization; later disk edits need resulting-byte assessment without inherited outcomes/responsibility.",
+      "closure_criterion": "Governance/edition/validation terminology matches the adopted exact-edition model and subject-specific owners, with no automatic approval,snapshot retargeting,implementation or result transfer after changed bytes.",
+      "related_records": "REV2-08/12; ARC003 §§5.3/5.11–5.15; CLS-006 §§1–3; ARC007 §§9/16; Review Policy §§5–7",
+      "state": "Open"
+    },
+    {
+      "id": "ARC006-06",
+      "severity": "High",
+      "sections": "5.9,5.10,5.20,5.24,5.26,5.27,5.32,5.36",
+      "before": "Dependency does not state consumer/provider direction or required contract/scope. Registry catalog and Graph network omit source/edition projection boundaries. Relationships promises traceability/context without explicit types,endpoints/provenance; semantic association,navigation,required consumption and execution can be conflated.",
+      "proposal": "Define required consumer→provider contracts with scope and authoritative sources; distinguish documentary reference,semantic association,projection,navigation and execution. Genuine required edges/cycles remain visible under cycle rules; no relabelling hides them or certifies global acyclicity. Relationships owns typed records with endpoint domains/provenance; Registry/Graph expose scoped traceable projections and freshness/current-stale/historical/snapshot context. Discovery/Navigation consume views; no universal Registry pipeline or transfer of domain authority. Traceability needs actual evidence.",
+      "closure_criterion": "Relationship/dependency/discovery terms distinguish authoritative records,projections and consumers; applicable required edges remain visible, with no complete graph,pipeline,global consistency or implementation guarantee.",
+      "related_records": "REV2-02/12; ARC003 §§5.7/5.8/5.14/8; ARC004 §§12–13; ARC005 §§7/12",
+      "state": "Open"
+    },
+    {
+      "id": "ARC006-07",
+      "severity": "Medium",
+      "sections": "5.18,5.28,5.30,5.33,5.34",
+      "before": "Template is described as a standardized document structure that ensures consistency, rather than reusable definition versus applied instance. Specification lacks authority/implementation limits; Roadmap is implementation-only; Repository independence is unqualified and Integration lacks optional implementation evidence.",
+      "proposal": "Template is reusable structural definition with applicable constraints and traceable instances; Templates cannot redefine Metadata/Identity/Classification/Workflow semantics or guarantee consistency. Distinguish Template Type and Metadata value type from document Type. Specifications consolidate scoped domain requirements; normative/informative authority is explicit,not granted by title/Reference/directory. Roadmaps plan documentary/architectural and implementation evolution under central Roadmaps storage without becoming a Layer or proving maturity. Repository is a physical implementation concern requiring representation/storage contracts,not an independent semantic owner. Integration uses authorized scoped adapters.",
+      "closure_criterion": "Supporting reference/representation/planning/storage terms preserve owner boundaries and actual scope, without automatic consistency,approval,implemented capability or physical-location semantic takeover.",
+      "related_records": "ARC007 §§8–10/15–18; TPL-002 §§2/3/8; TPL-014 §§1.2/3/21; RDM-001 §§1–5",
+      "state": "Open"
+    },
+    {
+      "id": "ARC006-08",
+      "severity": "Medium",
+      "sections": "4.2,5.2,5.3,5.7,5.14,5.15,5.21,6,7,8,10",
+      "before": "Architectural Component/Component and Architectural Layer/Layer have separate entries without an explicit synonym relation, yet synonyms/multiple names are forbidden. Framework/Documentation Framework also overlap. Pascal Case is required for component names although canonical supplied names such as Document Identity and Knowledge Graph contain spaces.",
+      "proposal": "Preserve all original term anchors and designate formal contextual aliases/cross-references to one owner meaning for Component/Architectural Component,Layer/Architectural Layer and Framework/DF where applicable. Use canonical natural-language component names in prose; directory/identifier/code casing is a separate representation convention. Controlled aliases,abbreviations,qualified contexts and historic terms retain mappings; forbid ambiguous competing meanings rather than all aliases. Require assessed owner/consumer transitions for semantic changes,not automatic renaming or ID migration.",
+      "closure_criterion": "Alias and naming policy agrees with existing paired terms and canonical component names,with explicit mappings/history and no competing definitions,forced PascalCase prose or silent identity/path migration.",
+      "related_records": "REV2-04/12; ARC005 register; ARC007 §§6/12; DID-002 identity/identifier distinction",
+      "state": "Open"
+    },
+    {
+      "id": "ARC006-W01",
+      "severity": "Medium",
+      "sections": "1,2,4.3,4.4,4.5,5.8,5.13,5.19,5.28,5.36,8,10,11",
+      "before": "The introduction/conclusion say the glossary ensures consistency,eliminates ambiguity and preserves semantic integrity throughout evolution. Stability/technology independence and conservative evolution lack concrete consumer propagation/compatibility evidence or operational limits.",
+      "proposal": "Use intended/assessed properties tied to exact scope and responsible contracts. Technology independence does not eliminate formats,storage adapters or explicit integration constraints. Changes identify previous/new meaning,owner/consumer editions,compatibility assessment and transition evidence; compatible meaning preserved where feasible,necessary incompatibility explicitly justified/versioned. Local correction does not certify whole-framework terminology rollout or outcomes.",
+      "closure_criterion": "Stability/evolution/quality claims are bounded by evidence and an explicit impact/version transition path; no global semantic guarantee,harmless extension or unexamined consumer conformity remains.",
+      "related_records": "ARC003 §7; ARC005 §§11/15; ARC007 §§18–20; Review Policy §§5–6",
+      "state": "Open"
+    },
+    {
+      "id": "ARC006-W02",
+      "severity": "Low",
+      "sections": "2,3,5,9,11",
+      "before": "Thirty-nine glossary entries omit explicit terms for edition/Revision/Status,Family/Type/Class and Metadata Element/Value/Dictionary/Schema/Profile/Instance needed by the adopted model. Section9 has five plain Architecture IDs,zero resolving links and no owner-source/history/input record.",
+      "proposal": "Retain the 39 original terms/section numbers; add or explicitly cross-reference missing distinctions with responsible supplied source roles and qualified namespaces. Avoid inventing Metadata Element IDs,canonical catalog/Profile completeness or a new template/document Type. Add resolving Architecture/domain/policy references,actual edition history and input digest; preserve absent historic date/Author and earlier validation scopes. No complete glossary or peer review is inferred from source presence.",
+      "closure_criterion": "All original terms remain traceable and essential model distinctions have owner-linked coverage; actual references resolve intended identities,history/input evidence is complete and missing owner work remains explicit.",
+      "related_records": "REV2-06/07/12; ARC003 §5; Metadata/Identity/Classification/Templates sources; Review Policy §§4–7",
+      "state": "Open"
+    }
+  ],
+  "totals": {
+    "Open": 29,
+    "Closed—verified": 97,
+    "Not applicable—scope decision": 1
+  },
+  "result": "REVIEW complete; eight findings/two warnings Open; source unchanged; UPDATE/VALIDATE not performed",
+  "proposed_successor": {
+    "family": "Architecture",
+    "type": "Reference",
+    "version": "2.0",
+    "revision": 1,
+    "status": "Draft",
+    "baseline": "Not assigned",
+    "compatibility": "Proposed incompatible normative reconciliation of glossary-wide semantic authority,every-document normalized requirements,operational/edition/relationship interpretations and blanket alias/casing prohibitions. Classification/links alone compatible; actual UPDATE must assess final normative changes."
+  },
+  "integrity_checks": {
+    "source_matches_input": true,
+    "source_unchanged": true,
+    "eleven_chapters": true,
+    "55_numbered_sections": true,
+    "39_glossary_entries": true,
+    "39_original_terms_uniquely_mapped": true,
+    "five_principles": true,
+    "two_rectangular_source_tables": true,
+    "no_source_views_or_links": true,
+    "all_finding_sections_resolve": true,
+    "fifteen_reference_roles_resolve": true,
+    "comparison_hashes_current": true,
+    "six_current_owner_extracts_recorded": true,
+    "69_original_normalized_sources_preserved": true,
+    "ten_prior_validated_sources_preserved": true,
+    "all_other_MD_sources_preserved": true,
+    "six_READMEs_preserved": true,
+    "eight_functional_records_excluded": true,
+    "89_stable_positions": true,
+    "matrix_current_hashes": true,
+    "sequence_310_to_1": true,
+    "prior_events_preserved": true,
+    "M10_and_M0_M7_preserved": true,
+    "M11_four_C_one_S_two_O": true,
+    "historical_report_sections_preserved": true,
+    "new_report_tables_rectangular": true,
+    "source_matches_R32_checkpoint": true
+  },
+  "integrity_check_scope": "REVIEW evidence/traceability only; not VALIDATE DOCUMENT"
+}

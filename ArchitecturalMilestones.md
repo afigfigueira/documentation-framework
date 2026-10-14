@@ -269,6 +269,8 @@ Step 4.10 UPDATE (2026-10-14): ARC-007 V2.0 R1 Architecture/Structure Draft/unas
 
 Step 4.10 VALIDATE (2026-10-14): exact unchanged ARC-007 V2.0 R1 Architecture/Structure local correction scope PASS;ten records Closed-verified. Concepts/Layers/Components/ARC-007 C,three O,M11 In Progress;ARC-007 completion2026-10-14. Source Draft/unassigned;full component-set/owner/consumer compatibility pending. ReportR32 section38;CHANGELOG #304-306. No approval,publication,Baseline or integrated conformity.
 
+Step 4.11 REVIEW (2026-10-14):exact unchanged Terminology V1.0 R0 Draft/Baseline1.0;eight findings/two warnings Open. Proposed Architecture/Reference V2.0 R1 subject to actual UPDATE compatibility assessment;owner-linked glossary/edition/relationship/naming reconciliation. Terminology S,start2026-10-14,no completion date;four C,two O,M11 In Progress. ReportR33 section39;CHANGELOG #307-310;global owner/consumer/terminology reconciliation pending;no source UPDATE/VALIDATE or approval.
+
 ### Objectives and acceptance
 
 Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
@@ -282,7 +284,7 @@ Dependencies: M10; reconcile owner definitions before consumers. Evidence: DF-RV
 | C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
 | C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-004 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
 | C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-005 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
-| O | 2026-09-30 |  |  | DF-ARC-006 | /01-Architecture/DF-ARC-006-Terminology.md |
+| S | 2026-09-30 | 2026-10-14 |  | DF-ARC-006 — V1.0 R0 Draft; REVIEW complete; UPDATE/VALIDATE pending | /01-Architecture/DF-ARC-006-Terminology.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-007 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
 
 ---
@@ -350,7 +352,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
 
-Current supporting report edition: DF-RVW-002 V1.0 R32 includes all six Step 4.01-4.06 scoped cycles and the Step 4.07/4.08/4.09/4.10 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+Current supporting report edition: DF-RVW-002 V1.0 R33 includes all six Step 4.01-4.06 scoped cycles,the Step 4.07/4.08/4.09/4.10 scoped cycles and Step 4.11 REVIEW; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 

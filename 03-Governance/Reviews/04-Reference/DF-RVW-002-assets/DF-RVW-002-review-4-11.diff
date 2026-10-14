@@ -1,0 +1,195 @@
+--- before-4.11-REVIEW/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ after-4.11-REVIEW/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 32 |
++| **Revision** | 33 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -81,6 +81,8 @@
+ Revision 31 records Step 4.10 UPDATE in §37 on 2026-10-14. ARC-007 becomes V2.0 R1 Architecture/Structure Draft/unassigned; ten corrections pending VALIDATE DOCUMENT. Totals: 19 Open, ten Corrected—pending validation, 87 Closed—verified, one Not applicable—scope decision. §36 retains REVIEW-time states. Next: 4.10 VALIDATE DOCUMENT.
+ 
+ Revision 32 records Step 4.10 VALIDATE DOCUMENT in §38 on 2026-10-14. ARC-007 V2.0 R1 remains unchanged Architecture/Structure, Draft/unassigned; ten local verified closures. Current totals: 19 Open, 97 Closed—verified, one Not applicable—scope decision. M11 four C/three O, In Progress. Next: 4.11 REVIEW DF-ARC-006.
++
++Revision 33 adds Step 4.11 Terminology REVIEW in §39 on 2026-10-14. Source V1.0 R0 remains unchanged; eight findings/two warnings Open. Current totals: 29 Open, 97 Closed—verified, one Not applicable—scope decision. M11 four C/one S/two O, In Progress. Next: 4.11 UPDATE DF-ARC-006.
+ 
+ ## 2. Concrete changes — before/after
+ 
+@@ -198,6 +200,7 @@
+ | 2026-10-14 | 1.0 | 30 | Step 4.10 Component Documentation Structure REVIEW; ten local records Open; source unchanged | Draft; Baseline Not assigned; #297–300; REVIEW evidence checks only |
+ | 2026-10-14 | 1.0 | 31 | Step 4.10 ARC-007 UPDATE V2.0 R1 Structure; ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #302 |
+ | 2026-10-14 | 1.0 | 32 | Step 4.10 exact ARC-007 validation; ten local verified closures; source unchanged | Draft; Baseline Not assigned; exact V2.0 R1 retained; #304–306 |
++| 2026-10-14 | 1.0 | 33 | Step 4.11 Terminology REVIEW; ten local records Open; source unchanged | Draft; Baseline Not assigned; #307–310; REVIEW evidence checks only |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -2947,3 +2950,124 @@
+ ### 38.5. Next command
+ 
+ **CONTINUAR** starts **4.11 — REVIEW DOCUMENT DF-ARC-006 — Terminology**, then pauses after REVIEW. No automatic UPDATE/VALIDATE or approval is granted.
++
++
++## 39. Step 4.11 — REVIEW DF-ARC-006 — Terminology
++
++### 39.1. Source, coverage and outcome
++
++**REVIEW complete: eight findings and two warnings, all Open.** UPDATE and VALIDATE DOCUMENT have not been performed. Exact unchanged source: `01-Architecture/DF-ARC-006-Terminology.md`; SHA-256 `c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb`; 10,155 bytes, 419 lines, eleven chapters, 55 numbered sections, 39 glossary entries, five terminology principles and two tables. All definitions, naming/forbidden/governance/evolution rules, references and conclusion were read. No diagrams/fences or resolving Markdown links are present.
++
++Received edition: Architecture/Terminology V1.0 R0, Draft, Baseline1.0, English, no Author. These declarations evidence neither historical approval, actual snapshot selection nor original attribution. R32's checkpoint/current central editions were reconciled before this REVIEW; the ten preceding source cycles retain their own exact-byte scopes.
++
++### 39.2. Findings, evidence, proposals and closure criteria
++
++| Record | Severity | Sections | Received evidence | Proposed correction | Closure criterion | Related records/owners |
++|---|---|---|---|---|---|---|
++| ARC006-01 | Medium | Header,1,2,3 | Type=Terminology is outside the adopted enumeration. Primary content is glossary consultation, not a special Type or component. Received Family Architecture,V1.0 R0,Draft/Baseline1.0,English and absent Author are declarations without historic approval/selection evidence. | Use Family Architecture/Type Reference for terminology consultation. Preserve DF-ARC-006/path and original header/history; no invented Component/Class. Record actual working contribution independently of user authorization, review and approval. Assess changed normative contracts for Version and increment Revision monotonically; successor Draft/unassigned. | Header and classification rationale conform to four Types and stable identity, with actual contribution and received evidence preserved; Reference grants no automatic normative authority/approval. | REV2-03/12; Review Policy §§3/5/7 |
++| ARC006-02 | High | 1,2,4.1,4.2,4.3,5.32,5.35,6,7,8,9,10,11 | The glossary claims canonical authoritative definitions for every concept and requires all documents to use them, while §9 says Concepts introduces concepts formally defined by Terminology. Domain owners already define Metadata, Identity, Classification and Templates meanings. Single Source of Truth lacks domain/scope/source-edition limits; exactly one concept per term does not account for qualified contexts. | Define this glossary as the common consultation/convergence source referencing responsible domain contracts, not a competing replacement owner. Identify term subject/domain and owner/edition roles; record unresolved conflicts and operating adopted rules rather than blindly copying received owners. Unique authority is within a defined semantic scope; traceable projections and context-qualified terms are permitted without competing meaning. Qualify §9 roles and semantic evolution/governance. | Every definition identifies its subject/scope and responsible owner or common architectural role; summaries do not overwrite domain authority or imply global consistency. Conflicts and prior scopes remain explicit. | REV2-06/12; ARC003 §§2–5/7; Metadata/Identity/Classification/Templates owners |
++| ARC006-03 | High | 5.1,5.2,5.3,5.4,5.7,5.8,5.13,5.14,5.15,5.16,5.18,5.19,5.21 | Component is described as an implemented reusable unit; Knowledge is managed by DF, Documentation is produced/governed by DF and Governance manages lifecycle/quality without definition-versus-execution limits. Layers group components and define boundaries without distinguishing seven structural areas, five concerns and supporting definitions. | Distinguish subject matter, logical entities, capability definitions, structural allocations and concerns. Define DF contracts separately from DMS/tool/manual execution and CMS change scope; optional Integration adapters require implementation/authorization evidence. Preserve 23 registered capabilities and primary allocation under ARC-004/005, with Foundation/Architecture support areas versus five concerns. Knowledge/Preservation create no new component/Layer, and architecture summaries guarantee no deployed service or quality. | Architecture/component/layer/knowledge/governance/integration terms are coherent with supplied structural and capability owners; no operational implementation, new allocation or unconditional independence is inferred from a definition. | REV2-01/08/12; ARC003 §§3–5; ARC004 §§4/15; ARC005 §§3–4/6/9 |
++| ARC006-04 | High | 3,5.6,5.11,5.12,5.17,5.23,5.34 | Every document is said to possess permanent identity and standardized Metadata without the functional exclusion. Identity is equated to its identifier; logical entity, domain/key representation, mutable classification and edition are not distinguished. Metadata is independent of content without owner/abstraction distinctions; Classification is only an organizing process. | Apply all-location README.md/CHANGELOG.md/ArchitecturalMilestones.md normalization exclusion while retaining content/reference checks. Distinguish logical document, exact edition, representation, Domain+Identifier identity and identifier syntax. Family/component membership, four-value Type and optional defined Class are independent of paths/identity. Metadata represents descriptors; Identity/Classification/Governance own meanings. Dictionary defines, Schema organizes references, Profile constrains and Instance supplies values under one effective Profile. Preserve stable DF-SSS-NNN allocations; no missing Elements/Profiles,000 functional IDs or migration invented. | Document/Identity/Classification/Metadata terms respect applicability, owner semantics and entity/representation distinctions; no universal functional-file normalized obligation, title-derived Type or fabricated canonical catalog/Profile remains. | INV-02 remains Not applicable; REV2-03/04/06/07; MTD-003 §§6–11; DID-002 §§3/5/8; CLS-002 §§12–15/21–23; Review Policy §§2–4 |
++| ARC006-05 | High | 5.5,5.16,5.22,5.25,5.29,5.37,5.38,5.39 | Baseline is only a snapshot at a time; Lifecycle is only a document-state sequence; Version is a formally identified state and no Revision/edition distinction exists. Review/Validation/Workflow/Policy definitions omit exact-byte scope, executor evidence and separate approval/publication/membership gates. | Baseline is separately identified immutable explicit selection of exact approved editions with relevant pinned context/evidence; eligibility,consistency and inclusion separate. Define lifecycle subject: document editions,Metadata Elements,Classification definitions or Template entities need their own owners. Separate Version/Revision coordinates,Status,logical identity,maturity and membership. Review/Validation record exact inputs,rules,coverage,observations,executor and limits without automatic approval/publication. Workflow/Policies define contracts,processes execute them; no universal transition graph. Actual attribution differs from authorization; later disk edits need resulting-byte assessment without inherited outcomes/responsibility. | Governance/edition/validation terminology matches the adopted exact-edition model and subject-specific owners, with no automatic approval,snapshot retargeting,implementation or result transfer after changed bytes. | REV2-08/12; ARC003 §§5.3/5.11–5.15; CLS-006 §§1–3; ARC007 §§9/16; Review Policy §§5–7 |
++| ARC006-06 | High | 5.9,5.10,5.20,5.24,5.26,5.27,5.32,5.36 | Dependency does not state consumer/provider direction or required contract/scope. Registry catalog and Graph network omit source/edition projection boundaries. Relationships promises traceability/context without explicit types,endpoints/provenance; semantic association,navigation,required consumption and execution can be conflated. | Define required consumer→provider contracts with scope and authoritative sources; distinguish documentary reference,semantic association,projection,navigation and execution. Genuine required edges/cycles remain visible under cycle rules; no relabelling hides them or certifies global acyclicity. Relationships owns typed records with endpoint domains/provenance; Registry/Graph expose scoped traceable projections and freshness/current-stale/historical/snapshot context. Discovery/Navigation consume views; no universal Registry pipeline or transfer of domain authority. Traceability needs actual evidence. | Relationship/dependency/discovery terms distinguish authoritative records,projections and consumers; applicable required edges remain visible, with no complete graph,pipeline,global consistency or implementation guarantee. | REV2-02/12; ARC003 §§5.7/5.8/5.14/8; ARC004 §§12–13; ARC005 §§7/12 |
++| ARC006-07 | Medium | 5.18,5.28,5.30,5.33,5.34 | Template is described as a standardized document structure that ensures consistency, rather than reusable definition versus applied instance. Specification lacks authority/implementation limits; Roadmap is implementation-only; Repository independence is unqualified and Integration lacks optional implementation evidence. | Template is reusable structural definition with applicable constraints and traceable instances; Templates cannot redefine Metadata/Identity/Classification/Workflow semantics or guarantee consistency. Distinguish Template Type and Metadata value type from document Type. Specifications consolidate scoped domain requirements; normative/informative authority is explicit,not granted by title/Reference/directory. Roadmaps plan documentary/architectural and implementation evolution under central Roadmaps storage without becoming a Layer or proving maturity. Repository is a physical implementation concern requiring representation/storage contracts,not an independent semantic owner. Integration uses authorized scoped adapters. | Supporting reference/representation/planning/storage terms preserve owner boundaries and actual scope, without automatic consistency,approval,implemented capability or physical-location semantic takeover. | ARC007 §§8–10/15–18; TPL-002 §§2/3/8; TPL-014 §§1.2/3/21; RDM-001 §§1–5 |
++| ARC006-08 | Medium | 4.2,5.2,5.3,5.7,5.14,5.15,5.21,6,7,8,10 | Architectural Component/Component and Architectural Layer/Layer have separate entries without an explicit synonym relation, yet synonyms/multiple names are forbidden. Framework/Documentation Framework also overlap. Pascal Case is required for component names although canonical supplied names such as Document Identity and Knowledge Graph contain spaces. | Preserve all original term anchors and designate formal contextual aliases/cross-references to one owner meaning for Component/Architectural Component,Layer/Architectural Layer and Framework/DF where applicable. Use canonical natural-language component names in prose; directory/identifier/code casing is a separate representation convention. Controlled aliases,abbreviations,qualified contexts and historic terms retain mappings; forbid ambiguous competing meanings rather than all aliases. Require assessed owner/consumer transitions for semantic changes,not automatic renaming or ID migration. | Alias and naming policy agrees with existing paired terms and canonical component names,with explicit mappings/history and no competing definitions,forced PascalCase prose or silent identity/path migration. | REV2-04/12; ARC005 register; ARC007 §§6/12; DID-002 identity/identifier distinction |
++| ARC006-W01 | Medium | 1,2,4.3,4.4,4.5,5.8,5.13,5.19,5.28,5.36,8,10,11 | The introduction/conclusion say the glossary ensures consistency,eliminates ambiguity and preserves semantic integrity throughout evolution. Stability/technology independence and conservative evolution lack concrete consumer propagation/compatibility evidence or operational limits. | Use intended/assessed properties tied to exact scope and responsible contracts. Technology independence does not eliminate formats,storage adapters or explicit integration constraints. Changes identify previous/new meaning,owner/consumer editions,compatibility assessment and transition evidence; compatible meaning preserved where feasible,necessary incompatibility explicitly justified/versioned. Local correction does not certify whole-framework terminology rollout or outcomes. | Stability/evolution/quality claims are bounded by evidence and an explicit impact/version transition path; no global semantic guarantee,harmless extension or unexamined consumer conformity remains. | ARC003 §7; ARC005 §§11/15; ARC007 §§18–20; Review Policy §§5–6 |
++| ARC006-W02 | Low | 2,3,5,9,11 | Thirty-nine glossary entries omit explicit terms for edition/Revision/Status,Family/Type/Class and Metadata Element/Value/Dictionary/Schema/Profile/Instance needed by the adopted model. Section9 has five plain Architecture IDs,zero resolving links and no owner-source/history/input record. | Retain the 39 original terms/section numbers; add or explicitly cross-reference missing distinctions with responsible supplied source roles and qualified namespaces. Avoid inventing Metadata Element IDs,canonical catalog/Profile completeness or a new template/document Type. Add resolving Architecture/domain/policy references,actual edition history and input digest; preserve absent historic date/Author and earlier validation scopes. No complete glossary or peer review is inferred from source presence. | All original terms remain traceable and essential model distinctions have owner-linked coverage; actual references resolve intended identities,history/input evidence is complete and missing owner work remains explicit. | REV2-06/07/12; ARC003 §5; Metadata/Identity/Classification/Templates sources; Review Policy §§4–7 |
++
++All ten records are Open; no earlier global or exact-source finding is closed or reopened. INV-02 remains Not applicable—scope decision. Structured criteria and source/owner hashes are in `DF-RVW-002-review-4-11-evidence.json`.
++
++### 39.3. Proposed UPDATE and material impact
++
++| Scope | Before | Proposed result | Impact |
++|---|---|---|---|
++| Header/§§1–3 | Type Terminology; generic authoritative glossary; V1.0 R0 Draft/Baseline1.0 | Architecture/Reference by consultation purpose; actual attribution/history; successor Draft/unassigned | Stable DF-ARC-006/path; no invented Component/Class or approval |
++| §§1/2/4/5.32/5.35/6–11 | Terminology formally defines every concept; universal one-term/one-concept and no-synonym wording | Owner-linked common vocabulary with explicit domain/subject/qualified contexts and conflict records | No replacement semantic owner or global consistency claim |
++| Architecture/component/layer/knowledge terms | Grouping/implemented unit/managed knowledge without conceptual/executor limits | Capability definitions and primary allocation separate from entities,concerns,files and operational execution | Preserve 23 capabilities/seven areas/five concerns; no new component/Layer |
++| Document/Identity/Classification/Metadata | Every document normalized; identity equated to identifier; descriptors independently evolve | Functional exclusion,logical entity/edition/representation and owner-linked abstractions | Stable identity and four Types; no catalog/Profile/Element ID fabrication |
++| Baseline/Lifecycle/Version/Workflow/Review/Validation | Time snapshot,state sequence and unscoped verification | Exact approved-edition selection,subject-specific lifecycle and scoped evidence/separate decisions | No snapshot retargeting,automatic approval or result transfer to changed bytes |
++| Dependency/Relationships/Registry/Graph/Navigation | Untyped requirement and catalog/network without records/provenance limits | Required consumer→provider scope,typed owner records,traceable projections/freshness and consumers | Genuine requirements/cycles visible; no global graph or universal pipeline |
++| Repository/Roadmap/Specification/Template/Integration | Storage independence,implementation-only plan,consistency guarantee | Representation/planning/domain authority/definition-instance and optional adapter limits | No physical-location semantics,mandatory ecosystem,implementation or approval inferred |
++| Naming and paired entries | Pascal Case,forbidden synonyms and separate equivalent entries | Canonical prose names plus controlled contextual alias mappings and historic references | No forced filename/code-case or logical ID migration |
++| Quality/evolution | Glossary ensures consistency/eliminates ambiguity | Assessed objectives,owner/consumer meaning map,compatibility and transition evidence | No guaranteed full rollout or harmless semantic change |
++| Model-term coverage/references/history | Missing essential distinctions,five plain Architecture IDs,no local history | Owner-linked supplemental terms/cross-references and resolving supplied sources/input/history | Preserve all original numbers/terms and absent historic facts; no complete catalog claim |
++
++Proposed successor: **V2.0 R1, Architecture/Reference, Draft, Baseline Not assigned**, conditional on the final UPDATE's actual incompatible normative reconciliation. Received universal semantic authority, every-document normalization, operational/edition/relationship interpretations and blanket naming/alias prohibitions require changed governing meanings. Classification/links alone would be compatible. Revision 0 increments monotonically to 1 without reset. The localized UPDATE scope is this source plus central report/tracking/evidence; domain owners and consumers retain scheduled work and are not silently changed.
++
++#### 39.3.1. Complete received glossary coverage
++
++Every received entry has a primary review record below, with related findings/warnings supplying cross-cutting applicability,authority,alias and evidence limits. Original section numbers and term labels remain traceable in UPDATE; a formal alias is a reference to the same meaning,not deletion of historical evidence.
++
++| Section | Received term | Primary record | Required handling |
++|---|---|---|---|
++| 5.1 | Architecture | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.2 | Architectural Component | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.3 | Architectural Layer | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.4 | Architectural Principle | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.5 | Baseline | ARC006-05 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.6 | Classification | ARC006-04 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.7 | Component | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.8 | Concept | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.9 | Dependency | ARC006-06 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.10 | Discovery | ARC006-06 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.11 | Document | ARC006-04 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.12 | Document Identity | ARC006-04 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.13 | Documentation | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.14 | Documentation Framework | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.15 | Framework | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.16 | Governance | ARC006-05 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.17 | Identity | ARC006-04 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.18 | Integration | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.19 | Knowledge | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.20 | Knowledge Graph | ARC006-06 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.21 | Layer | ARC006-03 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.22 | Lifecycle | ARC006-05 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.23 | Metadata | ARC006-04 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.24 | Navigation | ARC006-06 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.25 | Policy | ARC006-05 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.26 | Registry | ARC006-06 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.27 | Relationship | ARC006-06 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.28 | Repository | ARC006-07 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.29 | Review | ARC006-05 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.30 | Roadmap | ARC006-07 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.31 | Semantic | ARC006-02 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.32 | Single Source of Truth | ARC006-02 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.33 | Specification | ARC006-07 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.34 | Template | ARC006-07 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.35 | Terminology | ARC006-02 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.36 | Traceability | ARC006-06 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.37 | Validation | ARC006-05 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.38 | Version | ARC006-05 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++| 5.39 | Workflow | ARC006-05 | Retain original term/number; reconcile meaning/scope/owner or designate contextual alias,not erase evidence |
++
++Essential added or cross-referenced distinctions include Document Edition,Revision,Status,Family,document Type,optional Class and Metadata Element/Value/Dictionary/Schema/Profile/Instance. Qualified Template Type and Metadata value type must not be conflated with the four normalized-document Types. Supplemental vocabulary references responsible supplied contracts and the adopted review rules without allocating Metadata Element IDs,claiming a complete canonical Dictionary/Profile or inventing unprovided lifecycle records.
++
++#### 39.3.2. Owner evidence and remaining conflicts
++
++Six re-inspected partial owner comparisons: Concepts §§2/3/4/5/7/8; Metadata Model §§6–11; Document Identity Concepts §§3/5/8; Classification Concepts §§12–15/21–23; Template Concepts §§2/3/8; Template Specification §§1.2/3/21. The source/digest/section evidence records subordinate clauses and explicitly excludes complete peer cycles.
++
++Concepts distinguishes logical document/edition/representation,domain owners,capabilities,structural areas/concerns,exact snapshot selection and typed required contracts. Metadata Model confirms Profile specialization and exactly one effective Profile per Instance,but still says Schema defines Elements and the complete vocabulary; Dictionary/Schema semantic ownership remains pending responsible-source reconciliation. Do not copy that received wording into a competing glossary authority or imply that a local glossary edit closes the Metadata gap.
++
++Document Identity Concepts distinguishes persistent identity,its identifier representation and identity domain; the adopted DF-SSS-NNN syntax belongs to the working corpus convention pending full DID source integration. Classification Concepts separates category identity/document identity and Metadata representation,but its historical Family→Type hierarchy still needs convergence to the four-Type rule and canonical component/admitted-area Family. Nominal CLS-003 still declares CLS-001; no collision or migration is resolved by this REVIEW.
++
++Template Concepts distinguishes reusable definition/instance and Template Type from document Classification. Template Specification excludes Metadata/Identity/Classification/Workflow/registry/storage semantics and requires Automation to consume Template semantics. The glossary must summarize those boundaries without promising consistency merely from template presence or treating a template type as an additional normalized-document Type.
++
++Additional previously inspected partial comparisons retain current unchanged hashes: Layers §§3/4/12/13/15; Components §§3/4/5/6/7/8/9/11/12/13/15; Component Documentation Structure §§3/5/8/9/10/15/16/19/20.1; Manifest §§6/8/10; Blueprint §§1.7/8.11; Metadata Dictionary §§1/2/3/6/7; Metadata Specification §4; Classification Lifecycle §§1/2/3; Framework Roadmap §§1–5; Review Policy §§1–7. Exact scope/provenance is in the evidence. Source-role checks resolve fifteen intended supplied identities,including all five plain IDs in §9; presence proves neither approval nor a completed source cycle.
++
++Aliases needing explicit handling include Architectural Component↔Component,Architectural Layer↔Layer and Framework↔Documentation Framework in the declared DF context. Canonical natural-language component names include spaces (Document Identity,Knowledge Graph); identifier,directory alias and programming casing are distinct conventions. The proposal permits documented controlled aliases/context qualification without competing definitions or automatic ID/path renaming.
++
++The ten prior exact-source validations retain their original scopes. Metadata Dictionary/Profile,identity/classification integration,required graph completeness,consumer maps,roadmap headers and global terminology propagation remain pending. Earlier owner notes about the received Terminology source are historical exact-edition observations,not validation of its future successor.
++
++### 39.4. Central tracking and REVIEW evidence checks
++
++CHANGELOG #307 records the full source REVIEW,#308 report R32→R33,#309 M11 tracking and #310 REVIEW evidence integrity checks. Terminology O→S,start 2026-10-14,no completion date. M11 remains In Progress: four C,one S,two O. M10 and M0–M7 remain unchanged; M9 cites R33 without extending original acceptance.
++
++Current totals: **29 Open,97 Closed—verified,one Not applicable—scope decision**. Nineteen global plus ten new local Open records; source remains V1.0 R0 Draft/Baseline1.0. UPDATE and VALIDATE are pending.
++
++Evidence integrity checks cover exact unchanged source/input/R32 checkpoint,complete chapter/section/term/principle/table inventory,all 39 term mappings and finding-section targets,comparison hashes,fifteen supplied role identities,all 69 original normalized sources not changed in earlier cycles,ten earlier exact-source hashes,six README files,eight functional exclusions,89 stable matrix positions/current hashes and preserved central history. These checks are REVIEW evidence only,not VALIDATE DOCUMENT and not finding closure.
++
++`DF-RVW-002-review-4-11-checks.json` records the checks; `DF-RVW-002-review-4-11.diff` is the full central diff. Source diff is empty. R32 exports retain historical validation evidence; current R33 exports and `Context-Working-Step-4-11-Review.zip` record this interim REVIEW. Final Context-Reviewed.zip and integrated conformity remain pending.
++
++### 39.5. Next command
++
++**CONTINUAR** starts **4.11 — UPDATE DF-ARC-006 — Terminology**, applying localized corrections with actual compatibility assessment,full source/history/diff and tracking,then pauses before VALIDATE DOCUMENT.
+--- before-4.11-REVIEW/Context/CHANGELOG.md
++++ after-4.11-REVIEW/Context/CHANGELOG.md
+@@ -58,6 +58,10 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 310 | 2026-10-14 | Codex — AI assistant | Validated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Step 4.11 REVIEW evidence integrity PASS:unchanged input/source/checkpoint,complete glossary/section/table/term mapping,owner hashes and supplied references,source preservation,stable matrix/history. Not VALIDATE DOCUMENT of Terminology;ten local records Open;section39;M11. |
++| 309 | 2026-10-14 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 Terminology O to S start2026-10-14,no completion date;Concepts/Layers/Components/ARC-007 C,Terminology S,two O,In Progress;M10 retained;M9 reportR33;global reconciliation pending. |
++| 308 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R32 to R33 Draft/unassigned:full Terminology REVIEW,complete39-term map,owner comparisons,proposals/closure criteria/impact;29 Open,97 Closed-verified,INV-02 Not applicable;source UPDATE/VALIDATE pending;section39. |
++| 307 | 2026-10-14 | Codex — AI assistant | Reviewed | /01-Architecture/DF-ARC-006-Terminology.md | Correction | Step 4.11 full Terminology REVIEW:419 lines,eleven chapters,55 numbered sections,39 glossary entries,five principles,two tables,no diagrams/links;eight findings/two warnings Open;exact unchanged V1.0 R0 Draft/Baseline1.0 SHA-256 c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb;proposed Architecture/Reference V2.0 R1 subject to actual compatibility assessment;section39;M11. |
+ | 306 | 2026-10-14 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 ARC-007 S to C completion2026-10-14; Concepts/Layers/Components/ARC-007 C,three O,In Progress;M10 retained;M9 reportR32;historical events preserved;full component-set/owner/consumer reconciliation pending;no approval or integrated conformity. |
+ | 305 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R31 to R32 Draft/unassigned: exact ARC-007 validation and ten local closures;97 Closed-verified,19 Open,INV-02 Not applicable;source unchanged;next4.11 REVIEW DF-ARC-006. |
+ | 304 | 2026-10-14 | Codex — AI assistant | Validated | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md | Correction | Step 4.10 exact unchanged V2.0 R1 Architecture/Structure SHA-256 2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e: local ARC-007 correction scope PASS; ten records Closed-verified; minimum organization/owner role/authority boundaries,four typed views,five actual roadmap references,14 links; Draft/unassigned;19 global records Open; section38; validation-4-10.json; no complete component-set conformity or approval/Baseline. |
+--- before-4.11-REVIEW/Context/ArchitecturalMilestones.md
++++ after-4.11-REVIEW/Context/ArchitecturalMilestones.md
+@@ -269,6 +269,8 @@
+ 
+ Step 4.10 VALIDATE (2026-10-14): exact unchanged ARC-007 V2.0 R1 Architecture/Structure local correction scope PASS;ten records Closed-verified. Concepts/Layers/Components/ARC-007 C,three O,M11 In Progress;ARC-007 completion2026-10-14. Source Draft/unassigned;full component-set/owner/consumer compatibility pending. ReportR32 section38;CHANGELOG #304-306. No approval,publication,Baseline or integrated conformity.
+ 
++Step 4.11 REVIEW (2026-10-14):exact unchanged Terminology V1.0 R0 Draft/Baseline1.0;eight findings/two warnings Open. Proposed Architecture/Reference V2.0 R1 subject to actual UPDATE compatibility assessment;owner-linked glossary/edition/relationship/naming reconciliation. Terminology S,start2026-10-14,no completion date;four C,two O,M11 In Progress. ReportR33 section39;CHANGELOG #307-310;global owner/consumer/terminology reconciliation pending;no source UPDATE/VALIDATE or approval.
++
+ ### Objectives and acceptance
+ 
+ Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
+@@ -282,7 +284,7 @@
+ | C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+ | C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-004 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
+ | C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-005 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
+-| O | 2026-09-30 |  |  | DF-ARC-006 | /01-Architecture/DF-ARC-006-Terminology.md |
++| S | 2026-09-30 | 2026-10-14 |  | DF-ARC-006 — V1.0 R0 Draft; REVIEW complete; UPDATE/VALIDATE pending | /01-Architecture/DF-ARC-006-Terminology.md |
+ | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-007 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
+ 
+ ---
+@@ -350,7 +352,7 @@
+ 
+ Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+ 
+-Current supporting report edition: DF-RVW-002 V1.0 R32 includes all six Step 4.01-4.06 scoped cycles and the Step 4.07/4.08/4.09/4.10 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
++Current supporting report edition: DF-RVW-002 V1.0 R33 includes all six Step 4.01-4.06 scoped cycles,the Step 4.07/4.08/4.09/4.10 scoped cycles and Step 4.11 REVIEW; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+ 
+ ### Objectives and acceptance
+ 
