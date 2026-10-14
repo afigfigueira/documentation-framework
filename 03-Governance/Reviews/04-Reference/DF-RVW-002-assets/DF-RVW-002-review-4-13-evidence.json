@@ -1,0 +1,916 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/39",
+  "date": "2026-10-14",
+  "step": "4.13 REVIEW",
+  "source": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+  "sha256": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d",
+  "source_changed": false,
+  "source_edition": {
+    "version": "1.0",
+    "revision": 0,
+    "status": "Draft",
+    "baseline": "1.0",
+    "author": null,
+    "original_date": null,
+    "family": "Architecture",
+    "type": "Overview",
+    "language": "English"
+  },
+  "coverage": {
+    "method": "Complete372-line source read: fifteen chapters,28 numbered sections,all prose/eighteen component examples/eight principle labels,two tables,three unnamed views,references and conclusion. Current listed owner extracts/policy re-inspected; no complete peer cycle inferred.",
+    "bytes": 9570,
+    "lines": 372,
+    "chapters": 15,
+    "numbered_sections": 28,
+    "Markdown_tables": 2,
+    "views": [
+      {
+        "original_section": "5",
+        "original_named_id": null,
+        "original_view_text": "```text\n\n                    Documentation Framework\n                    │\n                    ├── Foundation\n                    │\n                    ├── Architecture\n                    │\n                    ├── Documentation Layer\n                    │\n                    ├── Governance Layer\n                    │\n                    ├── Discovery Layer\n                    │\n                    ├── Automation Layer\n                    │\n                    └── Integration Layer\n\n```",
+        "original_view_sha256": "1c53d0bb3477037d27750eecafd78367791c064495e1a295fae88b9bb611a6ff",
+        "hash_encoding": "UTF-8 received view, CRLF normalized to LF; file hash separately protects exact bytes",
+        "proposed_meaning": "Structural allocation/support definition context; not required service edges"
+      },
+      {
+        "original_section": "9",
+        "original_named_id": null,
+        "original_view_text": "```text\n\n                Foundation\n                    │\n                    ▼\n\n               Architecture\n                    │\n                    ▼\n\n              Documentation\n                    │\n                    ▼\n\n                Governance\n                    │\n                    ▼\n\n                Discovery\n                    │\n                    ▼\n\n                Automation\n                    │\n                    ▼\n\n               Integration\n\n```",
+        "original_view_sha256": "769de480d43ee4058cda6748dccda43c74659ec3714a966ae82a2359ae4e206a",
+        "hash_encoding": "UTF-8 received view, CRLF normalized to LF; file hash separately protects exact bytes",
+        "proposed_meaning": "Selected required consumer→provider contracts with explicit scope and support/cycle rules; not a serial runtime chain"
+      },
+      {
+        "original_section": "11",
+        "original_named_id": null,
+        "original_view_text": "```text\n\n           Foundation Documents\n                    │\n                    ▼\n\n           Architectural Model\n                    │\n                    ▼\n\n         Architectural Components\n                    │\n                    ▼\n\n         Component Specifications\n                    │\n                    ▼\n\n             Implementation\n\n```",
+        "original_view_sha256": "30381805f1bdb1cad52c24b11b40c675a559f8b1ac61bcffde13f06e40fb104f",
+        "hash_encoding": "UTF-8 received view, CRLF normalized to LF; file hash separately protects exact bytes",
+        "proposed_meaning": "Documentary refinement and assessed implementation traceability; not automatic conformance or execution"
+      }
+    ],
+    "operational_links": 0,
+    "unique_plain_related_ids": 11
+  },
+  "section_map": [
+    {
+      "section": "1",
+      "received_heading": "# 1. Introduction",
+      "records": [
+        "ARC001-01",
+        "ARC001-05",
+        "ARC001-08"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "2",
+      "received_heading": "# 2. Purpose",
+      "records": [
+        "ARC001-01",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "3",
+      "received_heading": "# 3. Architectural Vision",
+      "records": [
+        "ARC001-05",
+        "ARC001-08",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "4",
+      "received_heading": "# 4. Architectural Goals",
+      "records": [
+        "ARC001-05",
+        "ARC001-08"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "5",
+      "received_heading": "# 5. Architectural Organization",
+      "records": [
+        "ARC001-02",
+        "ARC001-04",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "6",
+      "received_heading": "# 6. Architectural Layers",
+      "records": [
+        "ARC001-02",
+        "ARC001-04",
+        "ARC001-05",
+        "ARC001-06"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "7",
+      "received_heading": "# 7. Architectural Components",
+      "records": [
+        "ARC001-02",
+        "ARC001-03",
+        "ARC001-05",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "7.1",
+      "received_heading": "## 7.1. Documentation Layer",
+      "records": [
+        "ARC001-03"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "7.2",
+      "received_heading": "## 7.2. Governance Layer",
+      "records": [
+        "ARC001-03"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "7.3",
+      "received_heading": "## 7.3. Discovery Layer",
+      "records": [
+        "ARC001-03"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "7.4",
+      "received_heading": "## 7.4. Automation Layer",
+      "records": [
+        "ARC001-03"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "7.5",
+      "received_heading": "## 7.5. Integration Layer",
+      "records": [
+        "ARC001-03"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "8",
+      "received_heading": "# 8. Architectural Characteristics",
+      "records": [
+        "ARC001-08"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "8.1",
+      "received_heading": "## 8.1. Modular",
+      "records": [
+        "ARC001-06"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "8.2",
+      "received_heading": "## 8.2. Layered",
+      "records": [
+        "ARC001-02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "8.3",
+      "received_heading": "## 8.3. Traceable",
+      "records": [
+        "ARC001-05"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "8.4",
+      "received_heading": "## 8.4. Extensible",
+      "records": [
+        "ARC001-06"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "8.5",
+      "received_heading": "## 8.5. Technology Independent",
+      "records": [
+        "ARC001-06"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "8.6",
+      "received_heading": "## 8.6. Knowledge-Oriented",
+      "records": [],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "9",
+      "received_heading": "# 9. Architectural Dependencies",
+      "records": [
+        "ARC001-04",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "10",
+      "received_heading": "# 10. Architectural Principles",
+      "records": [
+        "ARC001-07",
+        "ARC001-W01",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "11",
+      "received_heading": "# 11. Relationship with the Foundation Documents",
+      "records": [
+        "ARC001-04",
+        "ARC001-05",
+        "ARC001-07",
+        "ARC001-08",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "12",
+      "received_heading": "# 12. Relationship with Component Specifications",
+      "records": [
+        "ARC001-05",
+        "ARC001-07",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "13",
+      "received_heading": "# 13. Intended Audience",
+      "records": [
+        "ARC001-08",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "14",
+      "received_heading": "# 14. Related Documents",
+      "records": [
+        "ARC001-07",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "14.1",
+      "received_heading": "## 14.1. Foundation",
+      "records": [],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "14.2",
+      "received_heading": "## 14.2. Architecture",
+      "records": [],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    },
+    {
+      "section": "15",
+      "received_heading": "# 15. Conclusion",
+      "records": [
+        "ARC001-01",
+        "ARC001-05",
+        "ARC001-06",
+        "ARC001-07",
+        "ARC001-08",
+        "ARC001-W02"
+      ],
+      "preservation": "Retain number and provenance; account for related subordinate occurrences at UPDATE"
+    }
+  ],
+  "received_component_map": [
+    {
+      "section": "7.1",
+      "received_label": "Metadata",
+      "canonical_targets": [
+        "Metadata"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.1",
+      "received_label": "Document Identity",
+      "canonical_targets": [
+        "Document Identity"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.1",
+      "received_label": "Classification",
+      "canonical_targets": [
+        "Classification"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.1",
+      "received_label": "Templates",
+      "canonical_targets": [
+        "Templates"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.2",
+      "received_label": "Workflow",
+      "canonical_targets": [
+        "Workflow"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.2",
+      "received_label": "Policies",
+      "canonical_targets": [
+        "Policies"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.2",
+      "received_label": "Reviews",
+      "canonical_targets": [
+        "Reviews"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.2",
+      "received_label": "Baselines",
+      "canonical_targets": [
+        "Baselines"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.3",
+      "received_label": "Registry",
+      "canonical_targets": [
+        "Registry"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.3",
+      "received_label": "Relationships",
+      "canonical_targets": [
+        "Relationships"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.3",
+      "received_label": "Knowledge Graph",
+      "canonical_targets": [
+        "Knowledge Graph"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.3",
+      "received_label": "Navigation",
+      "canonical_targets": [
+        "Navigation"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.4",
+      "received_label": "Validation",
+      "canonical_targets": [
+        "Validation"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.4",
+      "received_label": "Generators",
+      "canonical_targets": [
+        "Metadata Generator",
+        "Registry Generator",
+        "Documentation Generator"
+      ],
+      "meaning": "Illustrative grouping/label mapping, not a new registered capability"
+    },
+    {
+      "section": "7.4",
+      "received_label": "Consistency Verification",
+      "canonical_targets": [
+        "Consistency Verification"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    },
+    {
+      "section": "7.5",
+      "received_label": "Development Tools",
+      "canonical_targets": [
+        "Source Control Integration",
+        "CI/CD Integration",
+        "IDE Integration"
+      ],
+      "meaning": "Illustrative grouping/label mapping, not a new registered capability"
+    },
+    {
+      "section": "7.5",
+      "received_label": "Documentation Platforms",
+      "canonical_targets": [
+        "Documentation Platform Integration"
+      ],
+      "meaning": "Illustrative grouping/label mapping, not a new registered capability"
+    },
+    {
+      "section": "7.5",
+      "received_label": "AI Integration",
+      "canonical_targets": [
+        "AI Integration"
+      ],
+      "meaning": "Exact registered name; retain primary allocation"
+    }
+  ],
+  "selected_principle_map": [
+    {
+      "received_label": "Separation of Responsibilities",
+      "principle_id": "AP-006",
+      "owner_title": "Separation of Responsibilities",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix"
+    },
+    {
+      "received_label": "Explicit Architecture",
+      "principle_id": "AP-002",
+      "owner_title": "Explicit Architecture",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix"
+    },
+    {
+      "received_label": "Single Source of Truth",
+      "principle_id": "AP-004",
+      "owner_title": "Single Source of Truth",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix"
+    },
+    {
+      "received_label": "Stable Document Identity",
+      "principle_id": "AP-010",
+      "owner_title": "Stable Identity",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix"
+    },
+    {
+      "received_label": "Knowledge Traceability",
+      "principle_id": "AP-012",
+      "owner_title": "Traceability",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix"
+    },
+    {
+      "received_label": "Incremental Evolution",
+      "principle_id": "AP-015",
+      "owner_title": "Incremental Evolution",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix"
+    },
+    {
+      "received_label": "Backward Compatibility",
+      "principle_id": "AP-016",
+      "owner_title": "Backward Compatibility",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix"
+    },
+    {
+      "received_label": "Technology Independence",
+      "principle_id": "AP-003",
+      "owner_title": "Technology Independence",
+      "source": "DF-ARC-002 V2.0 R1",
+      "scope": "Selected example; not a complete24-AP conformance matrix"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "sha256": "f109eaf7d2a828a90b819b0fc795fa4adc67a317f217c23f335d57fc58acc895",
+      "sections": [
+        "2",
+        "3",
+        "6.1",
+        "6.2",
+        "6.3",
+        "8",
+        "10",
+        "11",
+        "13",
+        "15.1"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "sha256": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e",
+      "sections": [
+        "3",
+        "9",
+        "10",
+        "16",
+        "19"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "sha256": "d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41",
+      "sections": [
+        "4",
+        "5.5",
+        "5.9",
+        "5.22",
+        "5.32",
+        "6",
+        "8",
+        "10"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec",
+      "sections": [
+        "4",
+        "12",
+        "13"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW",
+      "extract": "principles-comparison-0.txt"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9",
+      "sections": [
+        "3",
+        "4",
+        "6",
+        "8",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW",
+      "extract": "principles-comparison-1.txt"
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "sections": [
+        "6",
+        "8",
+        "10"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "sections": [
+        "1.7",
+        "8.11"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
+      "sections": [
+        "3",
+        "4",
+        "8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.13 REVIEW"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not a full peer cycle",
+      "read_provenance": "Review Policy re-inspected during Step4.13 REVIEW"
+    }
+  ],
+  "reference_roles": [
+    {
+      "id": "DF-FND-001",
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "declared_id": "DF-FND-001",
+      "sha256_at_review_input": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-FND-002",
+      "path": "00-Foundation/DF-FND-002-ResearchJournal.md",
+      "declared_id": "DF-FND-002",
+      "sha256_at_review_input": "018b81c60884dfb13eda73083c134f4c1bfab4248184795f479ca1fd8ac851f6",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-FND-003",
+      "path": "00-Foundation/DF-FND-003-EvolutionTimeline.md",
+      "declared_id": "DF-FND-003",
+      "sha256_at_review_input": "2488360bc2fc498e9dcb46536a0af8b9056beb662f25a6013ad01ef1ac77ffb3",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-FND-004",
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "declared_id": "DF-FND-004",
+      "sha256_at_review_input": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-FND-005",
+      "path": "00-Foundation/DF-FND-005-FrameworkEvolution.md",
+      "declared_id": "DF-FND-005",
+      "sha256_at_review_input": "8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-FND-006",
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "declared_id": "DF-FND-006",
+      "sha256_at_review_input": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-ARC-002",
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "declared_id": "DF-ARC-002",
+      "sha256_at_review_input": "f109eaf7d2a828a90b819b0fc795fa4adc67a317f217c23f335d57fc58acc895",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-ARC-003",
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "declared_id": "DF-ARC-003",
+      "sha256_at_review_input": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-ARC-004",
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "declared_id": "DF-ARC-004",
+      "sha256_at_review_input": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-ARC-005",
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "declared_id": "DF-ARC-005",
+      "sha256_at_review_input": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-ARC-006",
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "declared_id": "DF-ARC-006",
+      "sha256_at_review_input": "d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41",
+      "role": "Received related ID"
+    },
+    {
+      "id": "DF-ARC-007",
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "declared_id": "DF-ARC-007",
+      "sha256_at_review_input": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e",
+      "role": "Proposed resolving owner/process/specification reference"
+    },
+    {
+      "id": "DF-MTD-014",
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "declared_id": "DF-MTD-014",
+      "sha256_at_review_input": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e",
+      "role": "Proposed resolving owner/process/specification reference"
+    },
+    {
+      "id": "DF-DID-014",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "declared_id": "DF-DID-014",
+      "sha256_at_review_input": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668",
+      "role": "Proposed resolving owner/process/specification reference"
+    },
+    {
+      "id": "DF-CLS-014",
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "declared_id": "DF-CLS-014",
+      "sha256_at_review_input": "e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663",
+      "role": "Proposed resolving owner/process/specification reference"
+    },
+    {
+      "id": "DF-TPL-014",
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "declared_id": "DF-TPL-014",
+      "sha256_at_review_input": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464",
+      "role": "Proposed resolving owner/process/specification reference"
+    },
+    {
+      "id": "DF-RVW-001",
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "declared_id": "DF-RVW-001",
+      "sha256_at_review_input": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "role": "Proposed resolving owner/process/specification reference"
+    },
+    {
+      "id": "DF-RVW-002",
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "declared_id": "DF-RVW-002",
+      "sha256_at_review_input": "52b38adfd1f291fd797e792b78b52866b3f95610678149abc7261ed0352b4d06",
+      "role": "Proposed resolving owner/process/specification reference"
+    }
+  ],
+  "findings": [
+    {
+      "id": "ARC001-01",
+      "severity": "Medium",
+      "sections": "Header,1,2,15",
+      "before": "Type=Overview is outside the four adopted normalized Types. The source declares Architecture/Overview V1.0 R0, Draft, Baseline1.0 and English, with no Author or original date. Its primary purpose is the common architectural model and decision context.",
+      "proposal": "Use Family=Architecture, Type=Architecture by primary responsibility; retain DF-ARC-001 and its path. Preserve received declarations and absent Author/date as history; record actual contribution independently of user authorization, review and approval. Assess final normative changes for Version and increment Revision monotonically; working successor remains Draft, Baseline Not assigned. Do not invent Component/Class or historical approval.",
+      "closure_criterion": "Header, responsibility rationale, stable identity and actual successor history conform; classification alone is not treated as incompatible or as approval.",
+      "related_records": "REV2-03/12; Review Policy §§3–7",
+      "state": "Open"
+    },
+    {
+      "id": "ARC001-02",
+      "severity": "High",
+      "sections": "5,6,7,8.2",
+      "before": "§5 lists seven areas, whereas §6 says six major layers and contains seven rows. The view is called conceptual but reproduces structural organization. Each architectural layer is said to contain components although Foundation/Architecture provide supporting definitions.",
+      "proposal": "State seven structural areas and distinguish the five conceptual concerns Knowledge, Documentation, Governance, Discovery and Preservation. Foundation/Architecture provide supporting definition documents; the other five areas allocate registered capabilities. Preserve the seven original names and their order as allocation/support context, not a dependency graph. No Knowledge/Preservation component or extra structural Layer is created.",
+      "closure_criterion": "Every layer count, table, view, allocation and related characteristic agrees with the seven-area/five-concern distinction; supporting definitions are not fabricated components.",
+      "related_records": "REV2-01; Blueprint §1.7; Layers §4; Components §4",
+      "state": "Open"
+    },
+    {
+      "id": "ARC001-03",
+      "severity": "Medium",
+      "sections": "7,7.1,7.2,7.3,7.4,7.5",
+      "before": "The illustrative lists contain eighteen entries: fifteen exact registered component names plus Generators, Development Tools and Documentation Platforms. Search and individual generator/integration names are absent. The list is explicitly examples, so omissions alone are not a failed universal completeness requirement; generic labels nevertheless blur actual registration.",
+      "proposal": "Identify the authoritative 23-component register and 4/4/5/5/5 primary allocation. Either supply the full canonical summary or qualify bounded examples; map Generators to Metadata Generator/Registry Generator/Documentation Generator, Development Tools to Source Control Integration/CI/CD Integration/IDE Integration, and Documentation Platforms to Documentation Platform Integration. Account for Search explicitly in a full summary. Preserve the received mapping; generic labels do not register new components. One primary owner/allocation allows declared cross-cutting cooperation.",
+      "closure_criterion": "All eighteen received entries have explicit canonical/group mappings and a declared summary scope; any claimed complete register has exactly the 23 canonical entries with no invented capability, allocation or implementation.",
+      "related_records": "REV2-01/06; Components §4; Terminology §6",
+      "state": "Open"
+    },
+    {
+      "id": "ARC001-04",
+      "severity": "High",
+      "sections": "5,6,9,11",
+      "before": "§5 says each layer depends only on lower-layer services. §9 supplies a downward Foundation→Architecture→Documentation→Governance→Discovery→Automation→Integration chain while saying higher consumes lower; relation kinds, consumer/provider direction and same-Layer requirements are absent. §11's Foundation→model→components→specifications→implementation chain is said to ensure alignment.",
+      "proposal": "Type the three original views separately: structural allocation (§5), required contract consumption (§9), and documentary refinement/implementation assessment (§11). Required direction is consumer→provider with contract, scope and exact source editions; cross-Layer provider precedes consumer in the declared support order. Include explicit same-Layer Knowledge Graph→Relationships and Workflow→Policies under interface/ownership and prohibited-cycle rules. Do not infer every earlier provider or an adjacent runtime/service sequence. Real indispensable edges/cycles remain visible and require reconciliation; no arbitrary upward exception or relabelled required cycle. Refinement needs actual traceability/conformance evidence rather than guaranteed alignment.",
+      "closure_criterion": "All dependency-related prose/views distinguish their meanings and match Layers §§12–13; selected required contracts preserve genuine consumption and same-Layer rules without claiming a complete globally acyclic graph or verified execution order.",
+      "related_records": "REV2-02; Blueprint §8.11; Concepts §8; Layers §§12–13; Components §12; Principles AP-007/009",
+      "state": "Open"
+    },
+    {
+      "id": "ARC001-05",
+      "severity": "High",
+      "sections": "1,3,4,6,7,8.3,11,12,15",
+      "before": "Governance controls lifecycle, Automation automates documentation management, and Architecture turns concepts into an operational model without stating the DF contract/executor boundary. Every document is addressed without normalized/functional applicability; traceability is asserted without subjects or edition evidence.",
+      "proposal": "Distinguish DF documentary/representation/governance contracts from DMS/tool/manual execution and CMS change governance in its own scope. Distinguish document entities, exact editions, capability components, concerns and files. Explicitly exclude every README.md/CHANGELOG.md/ArchitecturalMilestones.md from normalization at all locations while preserving content/reference/history/hash checks. Scope identity/lifecycle and subject-specific state contracts; separate review, validation, approval, publication, immutable exact-approved-edition Baseline selection, maturity and membership. Source presence or allocation is not implemented operation.",
+      "closure_criterion": "Scope and affected responsibility/traceability clauses preserve owner/executor, entity/applicability and exact-edition distinctions, with no automatic operational service, approval, snapshot selection or normalized obligations for functional files.",
+      "related_records": "INV-02 remains Not applicable; REV2-08/12; Concepts §3; Components §§3/6/8; Terminology §§5.5/5.22; Structure §§3/9",
+      "state": "Open"
+    },
+    {
+      "id": "ARC001-06",
+      "severity": "High",
+      "sections": "6,8.1,8.4,8.5,15",
+      "before": "Layers/components are said to evolve independently; §8.4 permits new components without modifying foundations. These absolute claims conflict with current required owner/consumer contracts and necessary assessed foundational change. Independence of formats/repositories is unqualified.",
+      "proposal": "Treat modularity, separation and technology independence as design objectives under actual provider/consumer, representation and integration constraints. Preserve compatibility where feasible; permit necessary justified foundation/responsibility/interface changes using previous/new mapping, affected exact editions, dependency/compatibility assessment and transition evidence. Independent releases and harmless extensions are not guaranteed. Apply major/minor Version rules and monotonic Revision to the actual written successor; unchanged-source validation changes neither coordinate.",
+      "closure_criterion": "Characteristics and conclusion consistently allow assessed necessary incompatibility while preserving coherent boundaries; no foundation immutability, universal tool interoperability, harmless extension or unconditional independent evolution remains.",
+      "related_records": "REV2-12; Principles AP-008/015–018; Components §§11/15; Structure §19; Review Policy §5",
+      "state": "Open"
+    },
+    {
+      "id": "ARC001-07",
+      "severity": "Medium",
+      "sections": "10,11,12,14,15",
+      "before": "§12 states detailed specifications are provided in dedicated component documents and lists seven example roles, omitting the supplied Templates specification. Registry/Workflow/Policies/Knowledge Graph names do not establish actual dedicated sources or implementation. Specifications are said to inherit principles established by this overview, risking competing authority with Principles/domain owners.",
+      "proposal": "Identify actual supplied MTD-014/DID-014/CLS-014/TPL-014 specifications and distinguish their source availability from conceptual/intended roles and implementation. Use explicit applicable common principles and responsible domain contracts rather than blanket inheritance from this synopsis. Link ARC-007 for organization/source-role/conformance rules; Type, title, directory and source presence grant no authority, approval or completed peer review by implication. Retain bounded absence and pending owner-cycle limits; invent no missing specification IDs.",
+      "closure_criterion": "The overview maps actual supplied specifications and intended roles, identifies responsible principles/domain sources and explicit applicability, and does not certify complete specifications, peer cycles or implemented conformance from file presence.",
+      "related_records": "REV2-06/12; Components §13; Principles §13; Structure §§10/16",
+      "state": "Open"
+    },
+    {
+      "id": "ARC001-08",
+      "severity": "Medium",
+      "sections": "1,3,4,8,11,13,15",
+      "before": "Characteristics are stated as possessed, traceability as explicitly represented, and the Foundation progression as ensuring implementation alignment. Goals, requirements and verified outcomes are not separated; no exact-edition conformance/evidence boundary is stated.",
+      "proposal": "Retain goals/audience while distinguishing intended qualities, applicable constraints and achieved evidence. Record examined exact bytes/editions, applicable rules, actual observations, executor, coverage and unmet/not-verified requirements. Preserve pending global owner/consumer propagation, full graph and detailed implementation coverage. A local PASS applies only to its recorded scope; later disk edits need independent assessment and inherit neither results nor responsibility for consequences of a changed final product.",
+      "closure_criterion": "All quality/traceability/alignment/conclusion claims are appropriately bounded by actual evidence; no local correction is presented as integrated conformity, approval, implementation or future-result guarantee.",
+      "related_records": "REV2-08/12; Principles §11; Terminology §§4/8/10; Structure §16; Review Policy §6",
+      "state": "Open"
+    },
+    {
+      "id": "ARC001-W01",
+      "severity": "Low",
+      "sections": "10",
+      "before": "The eight principle labels omit AP IDs and use synopsis labels Stable Document Identity and Knowledge Traceability rather than the exact AP-010 Stable Identity and AP-012 Traceability titles. The plain Principles ID is unresolved as a navigable link. The list is illustrative, not the full 24-principle catalog.",
+      "proposal": "Map the eight labels to AP-006,AP-002,AP-004,AP-010,AP-012,AP-015,AP-016,AP-003 and exact current titles. Preserve original-label provenance and clarify selected-example scope; reference actual owner clauses/evidence boundaries without inventing extra APs, completeness or reassigning authority.",
+      "closure_criterion": "Every selected principle resolves its actual AP ID/title/source scope; original aliases remain traceable and no invented AP or complete implementation compliance is claimed.",
+      "related_records": "Principles §§5–9/11; Terminology §6",
+      "state": "Open"
+    },
+    {
+      "id": "ARC001-W02",
+      "severity": "Low",
+      "sections": "Header,2,3,5,7,9,10,11,12,13,14,15",
+      "before": "The source has fifteen chapters,28 numbered sections,three unnamed text views,two tables and eleven unique plain related IDs but no resolving Markdown links or edition/history/input record. Prose repeatedly ends list introductions with a period. ARC-007 is omitted from related Architecture sources.",
+      "proposal": "Preserve all original chapter/section numbers,three original view texts/digests and received header/history. Add resolving owner/policy/specification/report references including ARC-007, source-role context, actual local history, compatibility and propagation limits. Preserve absent historical author/date; do not fabricate old view IDs. Correct editorial punctuation separately from semantic changes and provide full before/after/diff at UPDATE.",
+      "closure_criterion": "All original sections/views/references and exact input provenance remain traceable; operational links resolve intended identities; actual history and impact limits are complete without invented historical approval or completed consumer propagation.",
+      "related_records": "Review Policy §§4–7; report R38 §44; Structure §§3/10/16",
+      "state": "Open"
+    }
+  ],
+  "totals": {
+    "Open": 29,
+    "Closed—verified": 117,
+    "Not applicable—scope decision": 1
+  },
+  "result": "REVIEW complete; eight findings and two warnings Open; source unchanged; UPDATE/VALIDATE not performed",
+  "proposed_successor": {
+    "family": "Architecture",
+    "type": "Architecture",
+    "version": "2.0",
+    "revision": 1,
+    "status": "Draft",
+    "baseline": "Not assigned",
+    "compatibility": "Proposed incompatible reconciliation of unscoped hierarchical service/dependency claims,absolute independent evolution/extension-only foundations and operational/conformance interpretations. Count/name/Type/links/editorial corrections alone are compatible; final UPDATE assesses actual written contracts."
+  },
+  "integrity_checks": {
+    "source_matches_input": true,
+    "source_unchanged": true,
+    "fifteen_chapters": true,
+    "28_numbered_sections_mapped": true,
+    "eighteen_received_component_entries_mapped": true,
+    "all_component_targets_registered": true,
+    "eight_received_principles_mapped": true,
+    "three_original_unnamed_views": true,
+    "two_rectangular_source_tables": true,
+    "eleven_unique_plain_related_ids_no_links": true,
+    "all_finding_sections_resolve": true,
+    "eighteen_intended_reference_roles_resolve": true,
+    "comparison_hashes_current": true,
+    "eight_owner_extract_scopes_recorded": true,
+    "67_original_normalized_sources_preserved": true,
+    "twelve_prior_validated_sources_preserved": true,
+    "all_other_MD_sources_preserved": true,
+    "six_READMEs_preserved": true,
+    "eight_functional_records_excluded": true,
+    "89_stable_matrix_positions": true,
+    "matrix_current_hashes": true,
+    "sequence_330_to_1": true,
+    "prior_events_preserved": true,
+    "M10_and_M0_M7_preserved": true,
+    "M11_six_C_one_S_zero_O": true,
+    "historical_report_sections_preserved": true,
+    "new_report_tables_rectangular": true,
+    "next_document_position_unchanged": true,
+    "source_matches_R38_checkpoint": true
+  },
+  "integrity_check_scope": "REVIEW evidence/traceability only; not VALIDATE DOCUMENT"
+}

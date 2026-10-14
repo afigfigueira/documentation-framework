@@ -281,6 +281,8 @@ Step4.12 UPDATE (2026-10-14):Principles V2.0 R1 Architecture/Architecture Draft/
 
 Step4.12 VALIDATE (2026-10-14):exact unchanged Principles V2.0 R1 Architecture/Architecture local correction scope PASS;ten records Closed-verified. Six C,Overview O,M11 In Progress;Principles completion2026-10-14. Source Draft/unassigned;full owner/consumer/architecture propagation pending. ReportR38 section44;CHANGELOG #324-326. No approval,publication,Baseline or integrated conformity.
 
+Step4.13 REVIEW (2026-10-14):exact unchanged Overview V1.0 R0 Draft/Baseline1.0; eight findings/two warnings Open. Proposed Architecture/Architecture V2.0 R1 subject to actual UPDATE compatibility; seven-area/23-component and typed-view reconciliation planned. Overview S,start2026-10-14,no completion date;six C/one S,M11 In Progress. ReportR39 section45;CHANGELOG #327-330;global owner/consumer reconciliation pending;no source UPDATE/VALIDATE or approval.
+
 ### Objectives and acceptance
 
 Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
@@ -289,7 +291,7 @@ Dependencies: M10; reconcile owner definitions before consumers. Evidence: DF-RV
 
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
-| O | 2026-09-30 |  |  | DF-ARC-001 | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
+| S | 2026-09-30 | 2026-10-14 |  | DF-ARC-001 — V1.0 R0 Draft; REVIEW complete; UPDATE/VALIDATE pending | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-002 — V2.0 R1 Draft;scoped validation PASS | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
 | C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
 | C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-004 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
@@ -362,7 +364,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
 
-Current supporting report edition: DF-RVW-002 V1.0 R38 includes all six Step 4.01-4.06 scoped cycles and the Step4.07/4.08/4.09/4.10/4.11/4.12 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+Current supporting report edition: DF-RVW-002 V1.0 R39 includes all six Step 4.01-4.06 scoped cycles,the Step4.07/4.08/4.09/4.10/4.11/4.12 scoped cycles and Step4.13 REVIEW; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 
