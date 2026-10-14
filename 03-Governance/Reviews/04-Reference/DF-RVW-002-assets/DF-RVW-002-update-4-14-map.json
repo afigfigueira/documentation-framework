@@ -1,0 +1,1730 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/43",
+  "date": "2026-10-14",
+  "step": "4.14 UPDATE",
+  "source": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md",
+  "input_edition": {
+    "version": "1.0",
+    "revision": 0,
+    "status": "Canonical",
+    "baseline": "1.0",
+    "author": "Arnaldo Figueira",
+    "original_date": null,
+    "family": "Documentation",
+    "type": "Architecture",
+    "component": "Document Identity",
+    "language": "English"
+  },
+  "input_sha256": "fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624",
+  "output_edition": {
+    "version": "2.0",
+    "revision": 1,
+    "family": "Document Identity",
+    "component": "Document Identity",
+    "type": "Architecture",
+    "status": "Draft",
+    "baseline": "Not assigned",
+    "language": "English",
+    "author": "Codex — AI assistant"
+  },
+  "output_sha256": "8eebae3ef2744c837bf180db25cfb8d0566ce188faf7cbe2c10a908484a016c0",
+  "output_bytes": 34343,
+  "output_lines": 284,
+  "compatibility": "Incompatible normative reconciliation of unqualified identity applicability/immutability/governance independence and universal representation/outcome guarantees into normalized/domain/edition/key-record,contract/executor,reference/required-contract/evidence boundaries and assessed necessary migration. Family correction alone compatible;Type retained. Version1.0→2.0;Revision0→1 monotonically;no ID/path migration.",
+  "identity_path_migration": "None",
+  "header_change": {
+    "before": "# Documentation Framework\n\n# DF-DID-001 – Document Identity Architecture\n\n| Metadata | Value |\n|----------|-------|\n| **Document ID** | DF-DID-001 |\n| **Title** | Document Identity Architecture |\n| **Family** | Documentation |\n| **Type** | Architecture |\n| **Component** | Document Identity |\n| **Author** | Arnaldo Figueira |\n| **Status** | Canonical |\n| **Version** | 1.0 |\n| **Revision** | 0 |\n| **Baseline** | 1.0 |\n| **Language** | English |\n\n---\n\n",
+    "after": "# Documentation Framework\n\n# DF-DID-001 — Document Identity Architecture\n\n| Metadata | Value |\n|---|---|\n| **Document ID** | DF-DID-001 |\n| **Title** | Document Identity Architecture |\n| **Family** | Document Identity |\n| **Type** | Architecture |\n| **Component** | Document Identity |\n| **Author** | Codex — AI assistant |\n| **Status** | Draft |\n| **Version** | 2.0 |\n| **Revision** | 1 |\n| **Baseline** | Not assigned |\n| **Language** | English |\n\nReceived V1.0 R0 declares Family Documentation, Component Document Identity, Type Architecture, Author Arnaldo Figueira, Status Canonical and Baseline1.0. Those facts remain history in §12.2; no approval, publication or snapshot-selection event is inferred. This successor records actual assistant contribution and ten corrections pending VALIDATE DOCUMENT, independently of authorization or approval.\n\n---\n\n"
+  },
+  "section_changes": {
+    "1": {
+      "before": "This document defines the architectural specification of the **Document Identity** component.\n\nThe component is responsible for defining the architectural principles that govern the permanent identity of documents within the Documentation Framework.\n\nDocument Identity establishes how documents are uniquely identified throughout their entire existence, independently of their storage location, representation, implementation technology, lifecycle state, or governance process.\n\nThis document defines the architectural boundaries, responsibilities, dependencies, and interactions of the component within the Documentation Framework.",
+      "after": "This source defines the architectural responsibility, boundaries, allocation and applicable contract interpretation of the **Document Identity** component. It owns logical document identity semantics and their allocation, preservation, reference, validation and identity-governance requirements within a declared domain.\n\nLogical identity identifies a document under its Domain+Identifier contract; exact editions, mutable classification, physical representations and identity-record state are distinct. This source defines contracts rather than an implemented assigning or managing service. DMS, tools or an applicable manual process execute operations; CMS governs changes in its own scope. Architectural requirements and source presence do not establish deployed uniqueness, resolution, storage, approval or implementation conformance.\n\nEvery file named **README.md**, **CHANGELOG.md** or **ArchitecturalMilestones.md**, at every location, is a non-normalized functional file. Normalization requires no Document ID, Family, Type, Component, Version, Revision, Status or Baseline for these names. Applicable content, organization, references, history, inventory and hash checks remain. Legitimate existing information is not automatically removed; no document/Metadata Element IDs are assigned by this scope statement.",
+      "before_sha256": "7cae61c4e43dba92b87cd1a6191062cfdaffe718cc192aa4dfc2a36988231cbe",
+      "after_sha256": "708afb33cd80468aaa3e4e3e8971ae49c2f62cb9ac9707436f452fcc15c2a044"
+    },
+    "2": {
+      "before": "The Documentation Framework is organized into architectural layers.\n\nDocument Identity belongs to the **Documentation Layer**, where the fundamental concepts that describe documents are defined.\n\nWithin this layer, Document Identity collaborates with other documentation components while maintaining a single architectural responsibility.\n\n```\n\n                    Documentation Layer\n                    │\n                    ├── Metadata\n                    ├── Document Identity        ← this component\n                    ├── Classification\n                    └── Templates\n\n```",
+      "after": "Document Identity has one primary allocation in the **Documentation structural area**, alongside Metadata, Classification and Templates. Family identifies actual component membership, so this document uses Family=Document Identity and matching Component; Type=Architecture follows its primary architectural responsibility. Documentation is an area, not this source's component Family.\n\n<!-- original-section-view: 2 -->\n**Previously unnamed view in §2 — Documentation primary capability allocation.**\n\n| Capability | Primary structural area | Role |\n|---|---|---|\n| Metadata | Documentation | Descriptive definitions/represented values under their domain owners |\n| Document Identity | Documentation | Qualified logical document identity and preservation contracts |\n| Classification | Documentation | Mutable semantic categories and classification contracts |\n| Templates | Documentation | Reusable representation structures and constraints |\n<!-- end-original-section-view -->\n\nThis allocation view preserves the four received names and carries no required-dependency direction or execution sequence. Primary ownership permits explicit cooperation and cross-cutting support without competing identity semantics. Seven structural areas and five conceptual concerns remain distinct under ARC-004/005; this component introduces neither another Layer nor a new capability.",
+      "before_sha256": "10ffcc3fe00ef545c715abefecc54da5be63303331861feed9b16546fdad85f8",
+      "after_sha256": "4fdba8f14cc44ed93696fa014004e50458d74b2d4d4ebe1b1710b747e245daca"
+    },
+    "3": {
+      "before": "The Document Identity component is responsible for defining:\n\n- the concept of document identity;\n- the architectural principles governing document identification;\n- the rules that ensure uniqueness;\n- the permanence of identities;\n- the relationship between identity and documents;\n- the constraints associated with document identity;\n- the architectural contracts that other components shall follow when referring to documents.\n\nThe component does not assign identifiers.\n\nThe component defines **how identity is architecturally represented**, not **how identities are generated or managed by implementations**.",
+      "after": "The component defines:\n\n- logical document identity, its domain qualification and canonical representation contracts;\n- allocation scope, uniqueness, permanence, preservation and non-reuse requirements;\n- valid identity association with the same logical document across normal evolution;\n- reference/alias interpretation and exact-edition reference boundaries;\n- identity-specific validation, lifecycle/governance and evolution obligations;\n- applicable consumer/provider interfaces and evidence requirements.\n\n**The component does not assign identifiers.** It defines assignment/allocation contracts; DMS/tool/manual executors perform actual allocation, persistence, lookup and transition actions with identified rules, inputs, observations and responsibility evidence. README and DID-014's assigning wording remains a pending peer discrepancy in §12.3, not proof of an implemented DF service.\n\nUnder the adopted corpus convention, the identity domain is Documentation Framework, represented by DF. A normalized document ID uses **DF-SSS-NNN**, with a registered three-letter uppercase stable allocation series SSS and positive three-digit number NNN (001–999). Full identifiers are unique within the domain; equal numeric suffixes across different series are not collisions. Current Family, Type, Component, path, Version, Revision and Status do not reconstruct or recalculate an assigned valid ID. 000 is not allocated; gaps do not prove availability and allocated/retired numbers are not reused. New allocation or series continuation requires explicit records and collision/history checks under Review Policy §4; reaching 999 does not permit silent widening or recycling.\n\nThese are qualified corpus requirements, not syntax imposed on every external domain. Other entity/domain contracts need their own explicit registration and responsibility decisions. This UPDATE allocates no identity or series and performs no ID/path migration. Detailed integration into DID schema/constraints/specification owners remains scheduled.",
+      "before_sha256": "ab33170e57d7d43fcbcecc76c6fe7703995b35e2e8ff901b2c74eb6b6748eaa9",
+      "after_sha256": "af442b7b15d6b5430325b151945e5672985df9ed05ac423357514997f1a06f6d"
+    },
+    "4": {
+      "before": "The scope of the component includes:\n\n- identity concepts;\n- identity model;\n- identity structure;\n- identity constraints;\n- identity lifecycle;\n- identity validation rules;\n- identity governance principles;\n- identity relationships;\n- identity extensibility;\n- identity specification;\n- architectural examples.",
+      "after": "The component's scope includes identity concepts, models, elements/schema, constraints, identity lifecycle, validation, governance, typed relationships, assessed extensibility, specifications and examples. Detailed sources retain their responsibilities; this architecture does not invent a canonical merged field catalog or certify all peer requirements.\n\nFor applicable normalized documents, logical identity remains associated with the same document across ordinary content/descriptor, classification, representation, repository and document-edition changes. Exact edition coordinates, document Status, identity-record assignment/preservation/retirement evidence, maturity and Baseline membership are separate facts. A mutable state record is not a replacement for the stable identity key.\n\nUnassigned concerns a pre-allocation subject, not an already assigned Domain+Identifier key. Retirement preserves allocated-number reservation, document association/history and reference interpretation; it does not guarantee a running resolver or retrievable content. Document lifecycle and identity-record lifecycle can have distinct subjects/contracts. The source does not prescribe a universal transition or permission graph.\n\nDID-003/004/005/006/010/014 currently disagree on reference cardinality, mandatory State/Canonical Reference fields and identity state terminology. Those actual claims are preserved in §12.3 for full owner cycles. The architectural distinctions here neither merge incompatible schemas nor silently remove/add their mandatory fields. No Metadata Dictionary Element, Profile or canonical state record is fabricated.",
+      "before_sha256": "e4b45a41c803fe1ba28caf66a640da6caa8b37af7e06e890198d98f89c742de4",
+      "after_sha256": "f0b40b32586fc085a51a983ae59d32dd7d5f65fd2d021eec3a78034e11e41e97"
+    },
+    "5": {
+      "before": "The following responsibilities belong to other components.\n\n| Responsibility | Component |\n|----------------|-----------|\n| Document metadata | Metadata |\n| Document classification | Classification |\n| Registry management | Registry |\n| Discovery services | Discovery |\n| Workflow management | Workflow |\n| Version control | Governance |\n| Repository management | External systems |\n| Storage technologies | External systems |\n| Identifier generation algorithms | Implementations |\n| Persistence mechanisms | Implementations |",
+      "after": "The following roles are separate from document identity semantic ownership. Area labels, registered capability contracts and operational executors are identified separately; naming an owner proves no implemented service.\n\n| Received responsibility | Responsible contract/role | Operational or semantic boundary |\n|---|---|---|\n| Document metadata | Metadata plus applicable semantic domain owners | Dictionary defines, Schema organizes, Profile constrains and Instance supplies values under one effective Profile; descriptive representation does not replace identity |\n| Document classification | Classification | Family/Type and other category meanings remain mutable and separately owned |\n| Registry management | Registry | Catalog/lookup contracts and provenance; actual registration/lookup executed by an applicable system/process |\n| Discovery services | Discovery area: Registry, Relationships, Knowledge Graph, Navigation, Search | Area groups capabilities; it is not another component or mandatory routing intermediary |\n| Workflow management | Workflow and applicable Policies | Subject-specific transitions/rules; DMS/tool/manual operation, not an implemented DF workflow engine |\n| Version control | Documentary edition contracts versus source-control systems/adapters | Version/Revision/Status semantics follow applicable governance/edition contracts; repository commits and Source Control Integration adapters do not define them |\n| Repository management | DMS or other applicable external system | Organization, storage, permissions and physical-location execution |\n| Storage technologies | Applicable implementations/external systems | Persistence mechanisms preserve applicable representation/provenance requirements |\n| Identifier generation algorithms | Applicable allocation executor | Generate/allocate under identity-domain rules and collision/reservation evidence; no algorithm supplied here |\n| Persistence mechanisms | Applicable implementation/external system | Store identity/edition/context records without acquiring identity semantics |\n\nGovernance is an area grouping Workflow, Policies, Reviews and Baselines; it is not a single invented component owning all operational management. Reviews records examined scope/results; Baselines defines immutable selected exact approved editions and context. CMS change evidence does not substitute for documentary approval or snapshot inclusion.",
+      "before_sha256": "cfb44009ce0d3d60fb540aa3852dcad568c6b90976eb1dbd39d8db8cd39cfbeb",
+      "after_sha256": "561527c4f12b661b7cbee2aeb4bbbd051990d9637074b7d8d7c9db0fb4be0f1b"
+    },
+    "6": {
+      "before": "Document Identity follows the architectural principles defined by the Documentation Framework.\n\nIn particular:\n\n- Single Responsibility\n- Separation of Concerns\n- Technology Independence\n- Repository Independence\n- Format Independence\n- Implementation Independence\n- Stability of Identity\n- Canonical Representation",
+      "after": "Applicable common principles remain owned by ARC-002. The eight received labels below are retained with their actual owner/application role rather than fabricated AP IDs or an unqualified conformance declaration.\n\n| Received label | Actual owner/application | Scope/limit |\n|---|---|---|\n| Single Responsibility | AP-006 — Separation of Responsibilities | Primary identity semantic owner permits explicit cooperation |\n| Separation of Concerns | AP-006 — Separation of Responsibilities | Identity, description, classification and execution retain distinct responsibilities |\n| Technology Independence | AP-003 — Technology Independence | Conceptual definition independence with actual representation requirements |\n| Repository Independence | AP-003 — Technology Independence | Location/adapter changes preserve applicable identity; not guaranteed resolver availability |\n| Format Independence | AP-003 — Technology Independence | Representations preserve canonical semantics under explicit constraints |\n| Implementation Independence | AP-003 — Technology Independence | Contract owner differs from executor; no universal interoperability guarantee |\n| Stability of Identity | AP-010 — Stable Identity | Qualified normalized logical identity and assessed necessary migration boundaries |\n| Canonical Representation | DID-003 §9.5 / DID-005 §7.3 / DID-010 §5.1 | Domain representation requirements; not a newly registered framework AP |\n\nConsult actual AP clauses/evidence boundaries and domain contracts. This selected mapping is neither the full 24-principle catalog nor an implemented conformance matrix. Canonical Representation remains an identity-specific contract role with peer schema integration pending.",
+      "before_sha256": "f64c5171ba772e1cdede41fe66364b725361173c2f0c96e381d6bd26e9fd0836",
+      "after_sha256": "f6d64e92529d3d7f26133b0ebb3dab162d421b67b7d583b67fa8b7ee6db5562a"
+    },
+    "7": {
+      "before": "A document identity shall be:\n\n- unique;\n- permanent;\n- stable;\n- immutable;\n- technology independent;\n- repository independent;\n- globally understandable;\n- suitable for long-term reference.\n\nIdentity represents the document itself rather than any particular representation of that document.",
+      "after": "Within its declared allocation/preservation contract, an assigned logical identity shall be unique for the document in its domain, stable through normal evolution, and never reassigned to a different document. Domain qualification is required to interpret uniqueness; an identifier string alone is not universally unique across unregistered domains.\n\nImmutability concerns the assigned Domain+Identifier key under its applicable contract, not every mutable record about that identity. Identity-state evidence, references, location, descriptors and exact-edition coordinates can evolve under their own owner rules without automatically replacing the key. References and aliases interpret an existing logical document; they do not license another document to reuse its identity. Allocated and retired identities remain reserved.\n\nPreserve valid assigned identity during ordinary classification, repository, format, lifecycle and edition changes. If a necessary authorized schema/ID migration would change an otherwise immutable representation/allocation contract, first assess and explicitly reconcile the governing previous/new rules with responsible identity/domain sources. Record old→new mappings, same-document continuity, aliases/reservations, collisions, historical/reference/context effects, exact source editions, affected consumers and transition verification before coordinated application. Preserve original representations and historical immutable snapshot selections; never retarget old members or reassign retired allocations to another document. No blanket permission for arbitrary identity changes or two contradictory governing rules for one operation is introduced. This localized UPDATE performs no migration.\n\nLong-term understandable/referenceable identity is a requirement and design objective supported by qualified domain/canonicalization and actual preservation/resolution evidence. It guarantees neither universally understood bare strings nor future content availability. Exact-edition references additionally identify the intended Version/Revision and relevant bytes/context; logical identity alone selects neither an exact edition nor Baseline membership.",
+      "before_sha256": "b75aa1a9d0081b03c3df8c681178bc5fe300cc3d51f06008d1f60a02d5dc0075",
+      "after_sha256": "9cc665f37336513dbd35d5b64fc0adf88a77199d26979e318a1a5c38304f467c"
+    },
+    "8": {
+      "before": "Document Identity depends upon the architectural foundations established by:\n\n- DF-FND-001 — Framework Manifest\n- DF-FND-004 — Architectural Blueprint\n- DF-ARC-001 — Architecture Overview\n- DF-ARC-002 — Architectural Principles\n- DF-ARC-003 — Architectural Concepts\n- DF-ARC-004 — Architectural Layers\n- DF-ARC-005 — Architectural Components\n- DF-ARC-006 — Terminology",
+      "after": "The following supplied sources provide documentary architecture/process authority and orientation. These links are not themselves required runtime service edges; actual required contract consumption is typed in §9. Each source retains its own applicable clauses and exact examined-edition scope.\n\n- [DF-FND-001 — Framework Manifest](../../../00-Foundation/DF-FND-001-FrameworkManifest.md) — Framework interpretation and responsibility boundaries.\n- [DF-FND-004 — Architectural Blueprint](../../../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md) — Foundational contracts and selected required pairs.\n- [DF-ARC-001 — Architecture Overview](../../../01-Architecture/DF-ARC-001-ArchitectureOverview.md) — Common model, allocation and actual evidence limits.\n- [DF-ARC-002 — Architectural Principles](../../../01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md) — Applicable AP clauses, evolution and evidence boundaries.\n- [DF-ARC-003 — Architectural Concepts](../../../01-Architecture/DF-ARC-003-ArchitecturalConcepts.md) — Entity/edition/relationship interpretation.\n- [DF-ARC-004 — Architectural Layers](../../../01-Architecture/DF-ARC-004-ArchitecturalLayers.md) — Support order, same-Layer interfaces and prohibited-cycle assessment.\n- [DF-ARC-005 — Architectural Components](../../../01-Architecture/DF-ARC-005-ArchitecturalComponents.md) — Registered identity capability, allocation and owner roles.\n- [DF-ARC-006 — Terminology](../../../01-Architecture/DF-ARC-006-Terminology.md) — Qualified identity, domain, identifier, edition and state meanings.\n- [DF-FND-006 — Design Rationale](../../../00-Foundation/DF-FND-006-DesignRationale.md) — Rationale for identity/description/governance boundaries.\n- [DF-ARC-007 — Component Documentation Structure](../../../01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md) — Source-role organization and scoped conformance requirements.\n- [DF-RVW-001 — Review Policy](../../../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md) — Adopted corpus allocation/classification/edition/tracking rules.\n- [DF-RVW-002 — Review Report](../../../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md) — Actual examined hashes, corrections and pending peer/global reconciliation.\n\nRequired dependencies are consumer→provider contracts with scope, exact responsible editions and interfaces. Cross-Layer provider precedence and same-Layer ownership/cycle assessment follow ARC-004 §§12–13. Circular required dependencies are prohibited in the governed scope and actual conflicts remain visible. Documentary authority, allocation, semantic association, projection, navigation and execution are distinct; no label change hides an indispensable requirement. The UPDATE map pins compared editions/scopes; this source claims no complete globally acyclic graph or deployed interface inventory.",
+      "before_sha256": "12d9324b39fbe2a008bace7250845554ea476a5fae5e9d34e9bc159ee4c5469a",
+      "after_sha256": "a8249baa9bf61aafdc48d4cdb2840a7d4d4588889cb73456d06045ba698f5bfe"
+    },
+    "9": {
+      "before": "",
+      "after": "The following are scoped architectural contract declarations for documentary uses. They do not establish an operational service call, every-component routing requirement or complete dependency graph.\n\n| Consumer | Provider | Required contract/use | Source/scope boundary |\n|---|---|---|---|\n| Metadata | Document Identity | Identity of the normalized document described | DID-009 §5.1 declaration; descriptive values retain their own semantic owners |\n| Classification | Document Identity | Identity of the normalized document being classified | DID-009 §5.2; category/definition entity identity is a separate qualified contract |\n| Templates | Document Identity | Identity of normalized Template documentation/document instances | DID-009 §5.3; Template definition/instance keys are not automatically DF document IDs |\n| Registry | Document Identity | Logical document identity for a document catalog entry | DID-001 §9.4; source-edition provenance and exact lookup context required |\n| Relationships | Document Identity | Identity of document endpoints | DID-001 §9.5; other endpoint kinds use their own domain contracts |\n| Knowledge Graph | Document Identity | Logical document node identity | ARC-005 §12; typed edges remain Relationships records, not document identities |\n| Baselines | Document Identity | Logical member identity | ARC-005 §12; exact edition/descriptive/context evidence additionally required |\n| Workflow | Document Identity | Identified normalized document subject | DID-009 §6.1; applicable transition execution remains with the actual process |",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "daa321cf6d250dc911e8b0bb415b68924a92b4b407c5ef54a8ddf103e9019d7a"
+    },
+    "9.1": {
+      "before": "Document Identity provides the stable identity referenced by Metadata.\n\nMetadata describes a document.\n\nDocument Identity identifies a document.",
+      "after": "Identity identifies the logical document; Metadata defines/represents descriptors and owner meanings. Dictionary/Schema/Profile/Instance roles remain separate under one effective Profile. Identity data can be represented descriptively without transferring identity semantics or creating missing Metadata Element/catalog records.\n\n**Unresolved reciprocal declarations:** supplied README states Document Identity→Metadata for descriptive concepts, while DID-009 §§5/10 states Metadata→Document Identity and no dependency on consuming components. Both source claims remain visible as required-dependency evidence pending owner/context/interface reconciliation. Distinguish core identity meaning from identity-record descriptor use, but do not silently downgrade a genuinely required contract into navigation or declare the apparent cycle resolved. Different stated uses alone do not prove operational independence or global acyclicity. Full Metadata/DID source cycles must establish the actual required scopes and cycle treatment under ARC-004.",
+      "before_sha256": "4ace463147ef456a5fc8c37f1d6b202c49806cafc3a998bef32a568a64c75993",
+      "after_sha256": "1b4fd845e15335b1a342280c64b2a1f28efd912d13d8f0e75a1909339bb4bde5"
+    },
+    "9.2": {
+      "before": "Classification organizes documents into categories.\n\nClassification never determines document identity.",
+      "after": "Classification owns category meanings and uses identity when categorizing a normalized document. Current Family/Type/Component labels are independent from stable allocation series and do not automatically reconstruct an assigned valid ID. Classification definitions and their own lifecycle/keys are different subjects from document editions; their actual identity contracts need qualification. Nominal CLS-003/CLS-001 collision reconciliation remains scheduled, not corrected by this source.",
+      "before_sha256": "ab2365cf0b262389ba76c873b7dac960900746dc4af8fc12e67ae5d344a798e5",
+      "after_sha256": "be089fef5b15169751b72d64f38be663a0499cfb8a343f4005557454e11f2118"
+    },
+    "9.3": {
+      "before": "Templates define reusable document structures.\n\nTemplates possess their own identities but do not define identity semantics.",
+      "after": "Templates owns reusable documentary structures and definition/instance contracts. A normalized document describing or applying a Template can require document identity; Template entities and graph/relationship identifiers are not thereby allocated normalized document IDs. Templates consumes appropriate owner meanings without redefining document identity, Metadata or Classification. Source presence and using a Template prove neither consistency nor approved publication.",
+      "before_sha256": "55256eb40badfbaf72ec01291a986a7105b24e732ba1bf0c4817aa7d18e5bd1b",
+      "after_sha256": "b14c9e1122aa6f3163f6412ca23516ec9416c9aaee79be9db5cc2f2ff81dfaa9"
+    },
+    "9.4": {
+      "before": "Registry indexes documents using their identities.\n\nRegistry never defines identity.",
+      "after": "Registry catalogs/looks up identified documentary entities or editions under declared provenance and freshness/current-historical-snapshot context. It does not redefine identity. A document lookup needs its domain/canonical key; an exact-edition lookup additionally needs edition/context evidence. No universal Registry intermediary, implemented resolver or persistent content availability is implied.",
+      "before_sha256": "faab60bfbf40920118cc0efded6ee61fbeb1e7b9c464f570d285368a1549638d",
+      "after_sha256": "0968988d4b900fe30846c0f8f2440f9b1b8ad50f655e312eca9f6dc0ee2870db"
+    },
+    "9.5": {
+      "before": "Relationships connect identities.\n\nThe semantics of identity remain defined exclusively by the Document Identity component.",
+      "after": "Relationships owns typed connection records and provenance; Document Identity owns the contract for document endpoints. Other endpoint kinds use their own qualified identity domains. Canonical document reference validity requires the intended document/edition context and actual evidence; logical reference preservation does not imply live-content retrieval. Required edges remain required even when their data comes through a projection; a reference label cannot conceal a genuine cycle.",
+      "before_sha256": "bc2b3aa58138c6e7aa1bcc9856e2f914c2e2f8353da23497cf8b41534d5b3f36",
+      "after_sha256": "a1f083a4167aaaae04fe3fb2bfe34515a69ddfdb62d22bc43f619bb779675001"
+    },
+    "9.6": {
+      "before": "Knowledge Graph represents document identities as graph entities and relationships.\n\nThe identity model remains owned by this component.",
+      "after": "Knowledge Graph projects identified entities and Relationships records with source/edition provenance and refresh limits. Document nodes use document identity; graph edges or non-document entities need appropriate other contracts. Projections do not create competing identity/relationship authority or certify complete network correctness. No Registry→Graph→Baseline execution chain is prescribed.",
+      "before_sha256": "9e183e497f2d26cef6825e3094edbe933fd8c60073488b8161e1e59f187fc31a",
+      "after_sha256": "b094aad1006194b96078da0d3f5a6616a0e59decc2c89369a01c8eb1b645dbc0"
+    },
+    "9.7": {
+      "before": "Governance manages the lifecycle of documents.\n\nGovernance never changes the permanent identity of a document.",
+      "after": "Workflow, Policies, Reviews and Baselines define documentary transition, decision, review and snapshot requirements; actual operation remains with DMS/tool/manual processes and CMS change scope. Identity-record lifecycle, document Status/Version/Revision, maturity, review, validation, approval, publication and membership are distinct. A state list alone is neither a universal permission graph nor an implemented workflow.\n\nBaselines selects an explicitly identified immutable set of exact approved document editions with relevant pinned relationship context or traceable verification evidence. Identity alone cannot select an exact member; eligibility, consistency and actual inclusion remain separate checks. Draft successors neither inherit membership nor retarget older snapshots. Retired identities preserve reservations/history without implying current document publication or resolver availability.",
+      "before_sha256": "fc9eb46733454be6068276234ae059d8aba985880bc2a0e755a942b095b76c0f",
+      "after_sha256": "79a2ee038f0a951fa45388116e1415fcbfe871e44a9f74a1b6bccb2e3873b24c"
+    },
+    "10": {
+      "before": "The component shall remain:\n\n- technology independent;\n- storage independent;\n- repository independent;\n- implementation independent;\n- serialization independent;\n- programming language independent.\n\nNo implementation details shall be introduced into the architectural specification.",
+      "after": "Architectural definitions remain independent of unnecessary programming language, repository, storage or serialization prescriptions. Explicit logical domain, syntax, allocation, canonicalization, reference and integration requirements are architectural contracts, not implementations of generation/storage algorithms. Actual representations and adapters must preserve applicable meaning and supply examined-input/output and executor evidence; concept independence proves neither universal-format compatibility nor tool availability.\n\nKeep one responsible identity semantic owner while permitting explicit cooperation and supporting projections. Preserve compatible meaning where feasible; necessary contract or representation/allocation changes require justified previous/new mapping, exact affected editions, dependencies, consumers and transition checks. Valid identity continuity, non-reuse and historical snapshot evidence remain obligations; an extension is not automatically harmless.\n\nFor working document editions, compatible correction retains Version; compatible additive capability increments minor; incompatible contract change increments major and resets minor to 0. Every changed persisted edition increments Revision monotonically across Version changes. Validation of unchanged source changes neither coordinate and is tracked centrally. Other entity-domain lifecycle/numbering requires its own qualified owner, not an implied copy of document edition rules.",
+      "before_sha256": "8569dbfaa866b68d2eb3bb46021e4464abd0a5a42133c9fd47a6802fab8c428c",
+      "after_sha256": "86ee0fd05c4d8bcf34ccb6d30a6cbb33414346208377733e7dc27b53723c3f6e"
+    },
+    "11": {
+      "before": "The complete specification of the Document Identity component is distributed across the following documents.\n\n| ID | Document |\n|----|----------|\n| DF-DID-001 | Document Identity Architecture |\n| DF-DID-002 | Document Identity Concepts |\n| DF-DID-003 | Document Identity Model |\n| DF-DID-004 | Document Identity Elements |\n| DF-DID-005 | Document Identity Structure |\n| DF-DID-006 | Document Identity Lifecycle |\n| DF-DID-007 | Document Identity Validation |\n| DF-DID-008 | Document Identity Governance |\n| DF-DID-009 | Document Identity Relationships |\n| DF-DID-010 | Document Identity Constraints |\n| DF-DID-011 | Document Identity Extensibility |\n| DF-DID-012 | Document Identity Best Practices |\n| DF-DID-013 | Document Identity Reference |\n| DF-DID-014 | Document Identity Specification |\n| DF-DID-015 | Document Identity Examples |",
+      "after": "The received heading is retained for numbered-section provenance; the following **fifteen DID documents are actually supplied**, not automatically complete future implementation deliverables. Actual title/path/edition/role coverage is recorded in the UPDATE map. Required responsibility completeness and organization conformance follow applicable domain sources and ARC-007, not a universal filename count or source presence alone.\n\n| ID | Actual declared title / supplied source | Evidence/role boundary |\n|---|---|---|\n| DF-DID-001 | Document Identity Architecture | This working architecture; ten local corrections pending validation |\n| DF-DID-002 | [DF-DID-002 — Document Identity Concepts](DF-DID-002%20-%20Document%20Identity%20Concepts.md) | Concept definitions; full source cycle pending |\n| DF-DID-003 | [DF-DID-003 — Document Identity Model](DF-DID-003%20-%20Document%20Identity%20Model.md) | Model/cardinality and canonical representation; conflicts pending |\n| DF-DID-004 | [DF-DID-004 — Document Identity Elements](DF-DID-004%20-%20Document%20Identity%20Elements.md) | Element/identity-status meanings; full source cycle pending |\n| DF-DID-005 | [DF-DID-005 — Document Identity Schema](../02-Structure/DF-DID-005%20-%20Document%20Identity%20Schema.md) | Schema; references/state/mandatory-field reconciliation pending |\n| DF-DID-006 | [DF-DID-006 — Document Identity Lifecycle](../03-Behavior/DF-DID-006%20-%20Document%20Identity%20Lifecycle.md) | Identity-record lifecycle; state-subject reconciliation pending |\n| DF-DID-007 | [DF-DID-007 — Document Identity Validation](../03-Behavior/DF-DID-007%20-%20Document%20Identity%20Validation.md) | Validation requirements; full source cycle pending |\n| DF-DID-008 | [DF-DID-008 — Document Identity Governance](../03-Behavior/DF-DID-008%20-%20Document%20Identity%20Governance.md) | Identity-governance contracts; full source cycle pending |\n| DF-DID-009 | [DF-DID-009 — Document Identity Relationships](../02-Structure/DF-DID-009%20-%20Document%20Identity%20Relationships.md) | Typed consumer relationships/reciprocal dependency reconciliation pending |\n| DF-DID-010 | [DF-DID-010 — Document Identity Constraints](../02-Structure/DF-DID-010%20-%20Document%20Identity%20Constraints.md) | Identity/domain/identifier/reference constraints; full cycle pending |\n| DF-DID-011 | [DF-DID-011 — Document Identity Extensibility](../03-Behavior/DF-DID-011%20-%20Document%20Identity%20Extensibility.md) | Controlled identity extensibility; full source cycle pending |\n| DF-DID-012 | [DF-DID-012 — Document Identity Best Practices](../04-Reference/DF-DID-012%20-%20Document%20Identity%20Best%20Practices.md) | Best-practice recommendations; full source cycle pending |\n| DF-DID-013 | [DF-DID-013 — Document Identity Dictionary](../04-Reference/DF-DID-013%20-%20Document%20Identity%20Dictionary.md) | Domain Dictionary consultation; full source cycle pending |\n| DF-DID-014 | [DF-DID-014 — Document Identity Specification](../04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md) | Consolidated specification; assignment/schema/conformance reconciliation pending |\n| DF-DID-015 | [DF-DID-015 — Document Identity Examples](../04-Reference/DF-DID-015%20-%20Document%20Identity%20Examples.md) | Illustrative examples; not implemented conformance |\n\nReceived DID-005 title Document Identity Structure maps to actual **Document Identity Schema**; received DID-013 Document Identity Reference maps to actual **Document Identity Dictionary**. All fifteen IDs remain unchanged. Physical names containing spaces and the directory alias DocumentIdentity remain actual supplied paths; this UPDATE renames/moves no source. Classification, placement, content and mandatory role coverage for every peer remain scheduled rather than certified from this map.\n\nExplicit applicable declarations/incorporation establish normative requirements. Architecture, Structure, Behavior or Reference can contain such requirements; Type, title, directory or received Canonical status alone confers no approval, publication or Baseline membership. This source retains architectural identity ownership without asserting all supplied peer contracts are already mutually coherent.",
+      "before_sha256": "6019eb661e77b3b4b6c816d9f61bd57b13e55d1bd6c593459d0431b84c88ad59",
+      "after_sha256": "347c56b2be9aac6e716366d9924a69caccfb20ec81c0b4fafb86b1d6c8bf2da8"
+    },
+    "12": {
+      "before": "Document Identity defines the canonical architectural model for identifying documents within the Documentation Framework.\n\nIt establishes the principles that guarantee stable, unique, and permanent document identities while remaining independent of repositories, storage mechanisms, implementation technologies, governance processes, and document representations.\n\nAll other components shall treat Document Identity as the authoritative source for the architectural definition of document identity.",
+      "after": "Document Identity owns qualified logical document identity and its applicable allocation, preservation, reference and validation/governance contracts. Normalized document applicability, Domain+Identifier boundaries, stable series independent of classification and actual executor/evidence requirements prevent unqualified identity/service guarantees. Supporting state/reference records and exact editions remain separate subjects.\n\nThe ten local corrections are **Corrected—pending validation**. Full peer schema/lifecycle/assignment/reciprocal required-contract reconciliation and global identity/classification/collision, source maps, Metadata catalog/Profile, planning and implementation work remain pending. No approval, publication, Baseline selection, complete graph or deployed assignment/resolution is established.\n\nA result applies only to exact examined bytes/editions and declared checks. Actual contribution, authorization, review, validation, ownership and approval remain separate. Later human/tool disk edits require assessment of their resulting bytes and do not inherit earlier outcomes or assign the previous contributor responsibility for consequences of a changed final product.",
+      "before_sha256": "d874fcf450307f7f1dd501ddd9cde45ef6997f5ef7022bb1506b49c69d9c50bb",
+      "after_sha256": "791c4de4c13cb0503d3908456fd7147780058e86cef2e9e41934fc4fddef657c"
+    }
+  },
+  "unchanged_original_sections": [],
+  "added_sections": {
+    "12.1": "Received identity guarantees/applicability, immutable representation and governance-independent meanings are unqualified; §10 excludes all implementation detail without separating logical representation/allocation requirements, while §12 claims guaranteed permanent identities. V2.0 replaces universal interpretations with explicit normalized/domain/edition/key-record distinctions, actual contract/executor and reference evidence, visible pending reciprocal requirements, and assessed necessary representation/allocation contract migration rather than an unconditional prohibition or arbitrary reassignment permission.\n\nThis is **incompatible normative contract reconciliation**. Version 1.0 increments major to 2.0/minor 0; declared Revision 0 increments monotonically to 1. Family correction alone is compatible; Type remains Architecture. Links, title/catalog/editorial corrections alone would also be compatible. Original twelve chapters and 19 numbered sections remain traceable; added §§12.1–12.3 record compatibility, history and propagation. The sole original unnamed allocation view retains provenance externally; no historic view ID is invented. DF-DID-001/path and all fifteen catalog IDs remain unchanged.",
+    "12.2": "| Date/event | Version | Revision | Actual contribution and event | Status/Baseline/evidence |\n|---|---|---|---|---|\n| Original date not supplied; received 2026-09-30 | 1.0 | 0 | Arnaldo Figueira; received Family Documentation, Component Document Identity, Type Architecture, English | Canonical; Baseline1.0 declared; no supplied approval/publication/selection event inferred |\n| 2026-10-14 | 2.0 | 1 | Codex — AI assistant; localized scope/identity contract/executor/relationship/evidence reconciliation | Draft; Baseline Not assigned; ten corrections pending VALIDATE DOCUMENT; CHANGELOG #341; Review Report §49 |\n\nExact input SHA-256: `fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624`. Complete received/written header and numbered-body maps, one original/written view text/digest, fifteen catalog mappings, eight principle roles, ten boundary rows, required/peer claims and full source/central diff are external evidence. The current source hash is external to avoid recursive revision. Original authorship is preserved; user authorization alone does not attribute this assistant's contribution to the user. Original date and historical approval/selection remain unknown.",
+    "12.3": "Only DF-DID-001 and central report/tracking/evidence change in this UPDATE. Exact comparison editions/scopes and actual catalog metadata are pinned in the UPDATE map. No allocation, ID/path migration, peer source correction, Metadata Element/Profile creation or external system implementation is performed. Thirteen earlier exact-source Foundation/Architecture validations retain their recorded scopes; their historical pending statements do not certify this successor or completed peer rollout.\n\n| Examined peer discrepancy | Actual source claims | Scheduled reconciliation boundary |\n|---|---|---|\n| Assignment | DID-001 contract owner does not assign; README/DID-014 §3 says assigning | Contract/executor wording in README and DID-014 still pending |\n| Identity-record State/Status | DID-004 Active/Archived/Deprecated; DID-006/DID-014 Unassigned/Assigned/Preserved/Retired | Actual subjects, states and transitions need full owner decisions; no merged graph fabricated |\n| Reference cardinality/schema | DID-005 Domain1/Identifier1/Identity References0..N; DID-003 Document Identity→Identity Reference1:N | Full cardinality/schema reconciliation in DID-003/005/010/014 pending |\n| Mandatory representation fields | DID-014 adds mandatory Identity State/Canonical Reference and a different schema from DID-005 | No silent mandatory-field removal/addition or guessed unified schema here |\n| Reciprocal required consumption | README DID→Metadata descriptive concepts; DID-009 Metadata→DID/no consumer dependency | Both required claims visible; actual owner/context/interface/cycle reconciliation pending |\n\nAll nineteen global records remain Open, including REV2-09; INV-02 retains the functional-file exclusion. Ten local corrections await exact-source VALIDATE DOCUMENT. M12 remains In Progress; M10/M11 retain documentary-cycle completion, not integrated conformance. No final Context-Reviewed.zip or whole-component/framework PASS is delivered. Working Draft/Baseline Not assigned requires independent approval, publication and exact membership evidence."
+  },
+  "original_section_map": [
+    {
+      "section": "1",
+      "received_heading": "# 1. Purpose",
+      "records": [
+        "DID001-01",
+        "DID001-02",
+        "DID001-03",
+        "DID001-04",
+        "DID001-08"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "2",
+      "received_heading": "# 2. Architectural Context",
+      "records": [
+        "DID001-01",
+        "DID001-05",
+        "DID001-W02"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "3",
+      "received_heading": "# 3. Architectural Responsibility",
+      "records": [
+        "DID001-01",
+        "DID001-02",
+        "DID001-03",
+        "DID001-04",
+        "DID001-06",
+        "DID001-08"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "4",
+      "received_heading": "# 4. Scope",
+      "records": [
+        "DID001-02",
+        "DID001-03",
+        "DID001-04",
+        "DID001-06"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "5",
+      "received_heading": "# 5. Out of Scope",
+      "records": [
+        "DID001-04"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "6",
+      "received_heading": "# 6. Architectural Principles",
+      "records": [
+        "DID001-07",
+        "DID001-08",
+        "DID001-W01"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "7",
+      "received_heading": "# 7. Core Architectural Characteristics",
+      "records": [
+        "DID001-02",
+        "DID001-03",
+        "DID001-06",
+        "DID001-07",
+        "DID001-08",
+        "DID001-W01"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "8",
+      "received_heading": "# 8. Dependencies",
+      "records": [
+        "DID001-05",
+        "DID001-08",
+        "DID001-W01",
+        "DID001-W02"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "9",
+      "received_heading": "# 9. Component Relationships",
+      "records": [
+        "DID001-05"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "9.1",
+      "received_heading": "## 9.1. Metadata",
+      "records": [
+        "DID001-03",
+        "DID001-05",
+        "DID001-06"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "9.2",
+      "received_heading": "## 9.2. Classification",
+      "records": [
+        "DID001-03",
+        "DID001-05"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "9.3",
+      "received_heading": "## 9.3. Templates",
+      "records": [
+        "DID001-02",
+        "DID001-05"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "9.4",
+      "received_heading": "## 9.4. Registry",
+      "records": [
+        "DID001-05"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "9.5",
+      "received_heading": "## 9.5. Relationships",
+      "records": [
+        "DID001-02",
+        "DID001-05"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "9.6",
+      "received_heading": "## 9.6. Knowledge Graph",
+      "records": [
+        "DID001-02",
+        "DID001-05"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "9.7",
+      "received_heading": "## 9.7. Governance",
+      "records": [
+        "DID001-03",
+        "DID001-04",
+        "DID001-05",
+        "DID001-06"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "10",
+      "received_heading": "# 10. Architectural Constraints",
+      "records": [
+        "DID001-07"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "11",
+      "received_heading": "# 11. Future Architectural Documents",
+      "records": [
+        "DID001-08",
+        "DID001-W02"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    },
+    {
+      "section": "12",
+      "received_heading": "# 12. Summary",
+      "records": [
+        "DID001-01",
+        "DID001-02",
+        "DID001-03",
+        "DID001-04",
+        "DID001-06",
+        "DID001-07",
+        "DID001-08",
+        "DID001-W02"
+      ],
+      "preservation": "Retain numbered anchor and account for actual body/related occurrences at UPDATE"
+    }
+  ],
+  "received_written_catalog": [
+    {
+      "id": "DF-DID-001",
+      "received_catalog_title": "Document Identity Architecture",
+      "actual_declared_title": "Document Identity Architecture",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md",
+      "declared_id": "DF-DID-001",
+      "sha256": "fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Architecture",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "This source;REVIEW only",
+      "written_row": [
+        "DF-DID-001",
+        "Document Identity Architecture",
+        "This working architecture; ten local corrections pending validation"
+      ],
+      "written_row_sha256": "c55165587e8e3b756c3e9ae6b2e135f1eef2ae13462da002d949671e096be892",
+      "current_source_effect": "This source becomes V2.0 R1 Draft/unassigned;peer hashes remain exact received editions"
+    },
+    {
+      "id": "DF-DID-002",
+      "received_catalog_title": "Document Identity Concepts",
+      "actual_declared_title": "Document Identity Concepts",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "declared_id": "DF-DID-002",
+      "sha256": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Architecture",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-002",
+        "[DF-DID-002 — Document Identity Concepts](DF-DID-002%20-%20Document%20Identity%20Concepts.md)",
+        "Concept definitions; full source cycle pending"
+      ],
+      "written_row_sha256": "ea565a68417f84f14b950a7da1fac0e4bd096dfb9de530393812ecce938da45c",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-003",
+      "received_catalog_title": "Document Identity Model",
+      "actual_declared_title": "Document Identity Model",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md",
+      "declared_id": "DF-DID-003",
+      "sha256": "79cd7dcc42cfd9f4c009787353a891f98253f0d01d73d8c9872e50cc614e180e",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Architecture",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-003",
+        "[DF-DID-003 — Document Identity Model](DF-DID-003%20-%20Document%20Identity%20Model.md)",
+        "Model/cardinality and canonical representation; conflicts pending"
+      ],
+      "written_row_sha256": "605fb834f84344263fe99ef6189c0367ca701459672b647131a38741867af714",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-004",
+      "received_catalog_title": "Document Identity Elements",
+      "actual_declared_title": "Document Identity Elements",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md",
+      "declared_id": "DF-DID-004",
+      "sha256": "d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Architecture",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-004",
+        "[DF-DID-004 — Document Identity Elements](DF-DID-004%20-%20Document%20Identity%20Elements.md)",
+        "Element/identity-status meanings; full source cycle pending"
+      ],
+      "written_row_sha256": "b7684a90a620e1afb35ede07f1c5d2fc004219d95f9616c5bf30e4ba808c9061",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-005",
+      "received_catalog_title": "Document Identity Structure",
+      "actual_declared_title": "Document Identity Schema",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "declared_id": "DF-DID-005",
+      "sha256": "b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Structure",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-005",
+        "[DF-DID-005 — Document Identity Schema](../02-Structure/DF-DID-005%20-%20Document%20Identity%20Schema.md)",
+        "Schema; references/state/mandatory-field reconciliation pending"
+      ],
+      "written_row_sha256": "c7ad3e6d2bed5cd3d045185e05f360256c87fd3b1d5f632928bdc27734e6a4a2",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-006",
+      "received_catalog_title": "Document Identity Lifecycle",
+      "actual_declared_title": "Document Identity Lifecycle",
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md",
+      "declared_id": "DF-DID-006",
+      "sha256": "daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Behavior",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-006",
+        "[DF-DID-006 — Document Identity Lifecycle](../03-Behavior/DF-DID-006%20-%20Document%20Identity%20Lifecycle.md)",
+        "Identity-record lifecycle; state-subject reconciliation pending"
+      ],
+      "written_row_sha256": "176998a2948bded461bedf70c8ef3bccda4015ec18d6e99358e3d97cd25a2092",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-007",
+      "received_catalog_title": "Document Identity Validation",
+      "actual_declared_title": "Document Identity Validation",
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md",
+      "declared_id": "DF-DID-007",
+      "sha256": "4310e5f480844f017136329ba63befea90431ec8efd5cc53085f71ae164b7fe2",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Behavior",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-007",
+        "[DF-DID-007 — Document Identity Validation](../03-Behavior/DF-DID-007%20-%20Document%20Identity%20Validation.md)",
+        "Validation requirements; full source cycle pending"
+      ],
+      "written_row_sha256": "cfcdc1f7cb11560641faf23830e1545fe1a3637f7a5378bee4d3c93520b1b801",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-008",
+      "received_catalog_title": "Document Identity Governance",
+      "actual_declared_title": "Document Identity Governance",
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md",
+      "declared_id": "DF-DID-008",
+      "sha256": "02e2ae1cb164756db35f243e2e76f880a39523eae73f3b12661f4837030c7497",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Behavior",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-008",
+        "[DF-DID-008 — Document Identity Governance](../03-Behavior/DF-DID-008%20-%20Document%20Identity%20Governance.md)",
+        "Identity-governance contracts; full source cycle pending"
+      ],
+      "written_row_sha256": "68b8559e07d11fbe2d4228e54ecdd5daa35a5d704fb32d58d32393b6eeb0874d",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-009",
+      "received_catalog_title": "Document Identity Relationships",
+      "actual_declared_title": "Document Identity Relationships",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md",
+      "declared_id": "DF-DID-009",
+      "sha256": "82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Structure",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-009",
+        "[DF-DID-009 — Document Identity Relationships](../02-Structure/DF-DID-009%20-%20Document%20Identity%20Relationships.md)",
+        "Typed consumer relationships/reciprocal dependency reconciliation pending"
+      ],
+      "written_row_sha256": "cb21f9921ed7a539283be443c95de0437db979583590fff617cefe6349b84074",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-010",
+      "received_catalog_title": "Document Identity Constraints",
+      "actual_declared_title": "Document Identity Constraints",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md",
+      "declared_id": "DF-DID-010",
+      "sha256": "9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Structure",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-010",
+        "[DF-DID-010 — Document Identity Constraints](../02-Structure/DF-DID-010%20-%20Document%20Identity%20Constraints.md)",
+        "Identity/domain/identifier/reference constraints; full cycle pending"
+      ],
+      "written_row_sha256": "cd310b7ebf3bbabe827a6678ff097b46ea0f7abbf505e611cc6e35ddbe3da17c",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-011",
+      "received_catalog_title": "Document Identity Extensibility",
+      "actual_declared_title": "Document Identity Extensibility",
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md",
+      "declared_id": "DF-DID-011",
+      "sha256": "3c3112e3f5dbb37dd93b31f8c3af33037a48fd2db9d53ac0fd4a1fb6cfea69d3",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Behavior",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-011",
+        "[DF-DID-011 — Document Identity Extensibility](../03-Behavior/DF-DID-011%20-%20Document%20Identity%20Extensibility.md)",
+        "Controlled identity extensibility; full source cycle pending"
+      ],
+      "written_row_sha256": "b54dcaf5ff2348a79071dcf004fee80e37675aaed9c9da3d78805582627afc44",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-012",
+      "received_catalog_title": "Document Identity Best Practices",
+      "actual_declared_title": "Document Identity Best Practices",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md",
+      "declared_id": "DF-DID-012",
+      "sha256": "692230e6c874ddd97e8215334534b61c12b487e7e2a9ea85b9ac506513cd8c8e",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Reference",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-012",
+        "[DF-DID-012 — Document Identity Best Practices](../04-Reference/DF-DID-012%20-%20Document%20Identity%20Best%20Practices.md)",
+        "Best-practice recommendations; full source cycle pending"
+      ],
+      "written_row_sha256": "8e3900e06a8145e66e05e9aa34aea4f711c47d3939828b64c14bf4815d7ae1be",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-013",
+      "received_catalog_title": "Document Identity Reference",
+      "actual_declared_title": "Document Identity Dictionary",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-013 - Document Identity Dictionary.md",
+      "declared_id": "DF-DID-013",
+      "sha256": "030354bc9d3c57fbe84bd576ecbd6e4e3e2f1b0c5bbea2e9a0ef8b5ecee30c61",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Reference",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-013",
+        "[DF-DID-013 — Document Identity Dictionary](../04-Reference/DF-DID-013%20-%20Document%20Identity%20Dictionary.md)",
+        "Domain Dictionary consultation; full source cycle pending"
+      ],
+      "written_row_sha256": "0b60d0e65de1bee2bc89faa337d98f03522780074468591f618711d1edbf5af0",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-014",
+      "received_catalog_title": "Document Identity Specification",
+      "actual_declared_title": "Document Identity Specification",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "declared_id": "DF-DID-014",
+      "sha256": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Reference",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-014",
+        "[DF-DID-014 — Document Identity Specification](../04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md)",
+        "Consolidated specification; assignment/schema/conformance reconciliation pending"
+      ],
+      "written_row_sha256": "c9f5bf95376b52b5913c4d130195c89486acd2e82890bcd19b9abde99065ac53",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    },
+    {
+      "id": "DF-DID-015",
+      "received_catalog_title": "Document Identity Examples",
+      "actual_declared_title": "Document Identity Examples",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md",
+      "declared_id": "DF-DID-015",
+      "sha256": "30d79dc17cbda645f4c2ab5541b7fcab8aef068e995e85321239329b1e6511c0",
+      "received_edition": {
+        "Family": "Documentation",
+        "Type": "Reference",
+        "Component": "Document Identity",
+        "Author": "Arnaldo Figueira",
+        "Status": "Canonical",
+        "Version": "1.0",
+        "Revision": "0",
+        "Baseline": "1.0"
+      },
+      "state": "Supplied file;source-role content/conformance cycle pending",
+      "written_row": [
+        "DF-DID-015",
+        "[DF-DID-015 — Document Identity Examples](../04-Reference/DF-DID-015%20-%20Document%20Identity%20Examples.md)",
+        "Illustrative examples; not implemented conformance"
+      ],
+      "written_row_sha256": "11c62e7a5a77f6170cdfc3c1840fde6e4c14ed1776e43fbee05c77eec0e5a85d",
+      "current_source_effect": "Peer unchanged;cycle pending"
+    }
+  ],
+  "received_written_principles": [
+    {
+      "received_label": "Single Responsibility",
+      "proposed_owner_role": "AP-006 — Separation of Responsibilities",
+      "mapping_kind": "Primary ownership application",
+      "written_row": [
+        "Single Responsibility",
+        "AP-006 — Separation of Responsibilities",
+        "Primary identity semantic owner permits explicit cooperation"
+      ],
+      "written_row_sha256": "e51c5aee192d6c97618c2f94c6d861a2e4c66eb9c07ad95d85bfa70306deb994"
+    },
+    {
+      "received_label": "Separation of Concerns",
+      "proposed_owner_role": "AP-006 — Separation of Responsibilities",
+      "mapping_kind": "Primary ownership application",
+      "written_row": [
+        "Separation of Concerns",
+        "AP-006 — Separation of Responsibilities",
+        "Identity, description, classification and execution retain distinct responsibilities"
+      ],
+      "written_row_sha256": "6df668fdff31cb3f33d657f567f81c935f7bd600dde3079010758391e51c42bd"
+    },
+    {
+      "received_label": "Technology Independence",
+      "proposed_owner_role": "AP-003 — Technology Independence",
+      "mapping_kind": "Framework principle",
+      "written_row": [
+        "Technology Independence",
+        "AP-003 — Technology Independence",
+        "Conceptual definition independence with actual representation requirements"
+      ],
+      "written_row_sha256": "5a74f4e6ec5268842b849f2e2c44dde510804c7175d471155ac1fce27f9109ba"
+    },
+    {
+      "received_label": "Repository Independence",
+      "proposed_owner_role": "AP-003 — Technology Independence",
+      "mapping_kind": "Scoped representation/integration application",
+      "written_row": [
+        "Repository Independence",
+        "AP-003 — Technology Independence",
+        "Location/adapter changes preserve applicable identity; not guaranteed resolver availability"
+      ],
+      "written_row_sha256": "9cf20e2ab67e719e7888759ef8abe4639f14004a1ff0d2a6163de35fc4a8957f"
+    },
+    {
+      "received_label": "Format Independence",
+      "proposed_owner_role": "AP-003 — Technology Independence",
+      "mapping_kind": "Scoped representation/integration application",
+      "written_row": [
+        "Format Independence",
+        "AP-003 — Technology Independence",
+        "Representations preserve canonical semantics under explicit constraints"
+      ],
+      "written_row_sha256": "d138f0ba4b3677e617ba9e40b0d2ae384eeeff20a1a7ba8350cdc7d1570fd3d7"
+    },
+    {
+      "received_label": "Implementation Independence",
+      "proposed_owner_role": "AP-003 — Technology Independence",
+      "mapping_kind": "Scoped definition/executor boundary",
+      "written_row": [
+        "Implementation Independence",
+        "AP-003 — Technology Independence",
+        "Contract owner differs from executor; no universal interoperability guarantee"
+      ],
+      "written_row_sha256": "7e88fdad58cf95758fb9c87ad3184c6aead9a76715f6d7d45908c2d9ac15bb72"
+    },
+    {
+      "received_label": "Stability of Identity",
+      "proposed_owner_role": "AP-010 — Stable Identity",
+      "mapping_kind": "Qualified normalized-document identity scope",
+      "written_row": [
+        "Stability of Identity",
+        "AP-010 — Stable Identity",
+        "Qualified normalized logical identity and assessed necessary migration boundaries"
+      ],
+      "written_row_sha256": "2c93b960e7cbe2ab08e2f85f3914728628029b98e6eb9e4368da08e1d9626e81"
+    },
+    {
+      "received_label": "Canonical Representation",
+      "proposed_owner_role": "DID-003 §9.5 / DID-005 §7.3 / DID-010 §5.1",
+      "mapping_kind": "Component identity contract;not a newly registered AP",
+      "written_row": [
+        "Canonical Representation",
+        "DID-003 §9.5 / DID-005 §7.3 / DID-010 §5.1",
+        "Domain representation requirements; not a newly registered framework AP"
+      ],
+      "written_row_sha256": "fe4c359257ea26104f747514442e494b687cfdeeac69d205b4a2e366dd8e4829"
+    }
+  ],
+  "boundary_rows_before": [
+    [
+      "Document metadata",
+      "Metadata"
+    ],
+    [
+      "Document classification",
+      "Classification"
+    ],
+    [
+      "Registry management",
+      "Registry"
+    ],
+    [
+      "Discovery services",
+      "Discovery"
+    ],
+    [
+      "Workflow management",
+      "Workflow"
+    ],
+    [
+      "Version control",
+      "Governance"
+    ],
+    [
+      "Repository management",
+      "External systems"
+    ],
+    [
+      "Storage technologies",
+      "External systems"
+    ],
+    [
+      "Identifier generation algorithms",
+      "Implementations"
+    ],
+    [
+      "Persistence mechanisms",
+      "Implementations"
+    ]
+  ],
+  "boundary_rows_after": [
+    [
+      "Document metadata",
+      "Metadata plus applicable semantic domain owners",
+      "Dictionary defines, Schema organizes, Profile constrains and Instance supplies values under one effective Profile; descriptive representation does not replace identity"
+    ],
+    [
+      "Document classification",
+      "Classification",
+      "Family/Type and other category meanings remain mutable and separately owned"
+    ],
+    [
+      "Registry management",
+      "Registry",
+      "Catalog/lookup contracts and provenance; actual registration/lookup executed by an applicable system/process"
+    ],
+    [
+      "Discovery services",
+      "Discovery area: Registry, Relationships, Knowledge Graph, Navigation, Search",
+      "Area groups capabilities; it is not another component or mandatory routing intermediary"
+    ],
+    [
+      "Workflow management",
+      "Workflow and applicable Policies",
+      "Subject-specific transitions/rules; DMS/tool/manual operation, not an implemented DF workflow engine"
+    ],
+    [
+      "Version control",
+      "Documentary edition contracts versus source-control systems/adapters",
+      "Version/Revision/Status semantics follow applicable governance/edition contracts; repository commits and Source Control Integration adapters do not define them"
+    ],
+    [
+      "Repository management",
+      "DMS or other applicable external system",
+      "Organization, storage, permissions and physical-location execution"
+    ],
+    [
+      "Storage technologies",
+      "Applicable implementations/external systems",
+      "Persistence mechanisms preserve applicable representation/provenance requirements"
+    ],
+    [
+      "Identifier generation algorithms",
+      "Applicable allocation executor",
+      "Generate/allocate under identity-domain rules and collision/reservation evidence; no algorithm supplied here"
+    ],
+    [
+      "Persistence mechanisms",
+      "Applicable implementation/external system",
+      "Store identity/edition/context records without acquiring identity semantics"
+    ]
+  ],
+  "views": [
+    {
+      "original_section": "2",
+      "original_named_id": null,
+      "original_view_text": "```\n\n                    Documentation Layer\n                    │\n                    ├── Metadata\n                    ├── Document Identity        ← this component\n                    ├── Classification\n                    └── Templates\n\n```",
+      "original_view_sha256": "5b2e29bcfe3640ad6e530a9a993b10933cb7c71924aa159e668cdee671e0ac50",
+      "hash_encoding": "UTF-8 received view, CRLF normalized to LF; file-byte hash separately protects exact input",
+      "received_component_names": [
+        "Metadata",
+        "Document Identity",
+        "Classification",
+        "Templates"
+      ],
+      "proposed_meaning": "Structural allocation among four Documentation capabilities;not required direction or an execution graph",
+      "working_anchor": "original-section-view: 2",
+      "written_view_text": "**Previously unnamed view in §2 — Documentation primary capability allocation.**\n\n| Capability | Primary structural area | Role |\n|---|---|---|\n| Metadata | Documentation | Descriptive definitions/represented values under their domain owners |\n| Document Identity | Documentation | Qualified logical document identity and preservation contracts |\n| Classification | Documentation | Mutable semantic categories and classification contracts |\n| Templates | Documentation | Reusable representation structures and constraints |",
+      "written_view_sha256": "62d25fc71bb8d86b98e087857c8e6b94e3240e87a98f95a092cd345356b23ee7",
+      "relation_kind": "Four-capability primary structural allocation;not required consumption or execution"
+    }
+  ],
+  "view_ids": [],
+  "selected_required_contracts": [
+    [
+      "Metadata",
+      "Document Identity",
+      "Identity of the normalized document described",
+      "DID-009 §5.1 declaration; descriptive values retain their own semantic owners"
+    ],
+    [
+      "Classification",
+      "Document Identity",
+      "Identity of the normalized document being classified",
+      "DID-009 §5.2; category/definition entity identity is a separate qualified contract"
+    ],
+    [
+      "Templates",
+      "Document Identity",
+      "Identity of normalized Template documentation/document instances",
+      "DID-009 §5.3; Template definition/instance keys are not automatically DF document IDs"
+    ],
+    [
+      "Registry",
+      "Document Identity",
+      "Logical document identity for a document catalog entry",
+      "DID-001 §9.4; source-edition provenance and exact lookup context required"
+    ],
+    [
+      "Relationships",
+      "Document Identity",
+      "Identity of document endpoints",
+      "DID-001 §9.5; other endpoint kinds use their own domain contracts"
+    ],
+    [
+      "Knowledge Graph",
+      "Document Identity",
+      "Logical document node identity",
+      "ARC-005 §12; typed edges remain Relationships records, not document identities"
+    ],
+    [
+      "Baselines",
+      "Document Identity",
+      "Logical member identity",
+      "ARC-005 §12; exact edition/descriptive/context evidence additionally required"
+    ],
+    [
+      "Workflow",
+      "Document Identity",
+      "Identified normalized document subject",
+      "DID-009 §6.1; applicable transition execution remains with the actual process"
+    ]
+  ],
+  "peer_conflicts_before": [
+    {
+      "subject": "Assignment",
+      "source_before": "DID-001 §3 does not assign identifiers",
+      "compared_claim": "DID-014 §3 / README responsible for assigning",
+      "proposal": "Separate contract ownership from actual executor;peer statements remain pending",
+      "state": "Open—peer reconciliation pending"
+    },
+    {
+      "subject": "Reference cardinality/schema",
+      "source_before": "DID-005 Domain1/Identifier1/Identity References0..N",
+      "compared_claim": "DID-003 Document Identity→Identity Reference1:N;DID-014 mandatory State/Canonical Reference and different schema",
+      "proposal": "Separate key,associated records and canonical reference roles;full schema reconciliation remains scheduled",
+      "state": "Open—peer reconciliation pending"
+    },
+    {
+      "subject": "Identity record state",
+      "source_before": "DID-004 Active/Archived/Deprecated",
+      "compared_claim": "DID-006/DID-014 Unassigned/Assigned/Preserved/Retired",
+      "proposal": "Record exact subject/state distinctions;do not invent merged canonical state graph",
+      "state": "Open—peer reconciliation pending"
+    },
+    {
+      "subject": "Required consumption",
+      "source_before": "README Document Identity depends on Metadata descriptive concepts",
+      "compared_claim": "DID-009 Metadata depends on Document Identity/no dependency on consumers",
+      "proposal": "Preserve reciprocal declarations with source/scope;actual context/contract/cycle reconciliation pending",
+      "state": "Open—peer reconciliation pending"
+    }
+  ],
+  "pending_peer_discrepancy_rows": [
+    [
+      "Assignment",
+      "DID-001 contract owner does not assign; README/DID-014 §3 says assigning",
+      "Contract/executor wording in README and DID-014 still pending"
+    ],
+    [
+      "Identity-record State/Status",
+      "DID-004 Active/Archived/Deprecated; DID-006/DID-014 Unassigned/Assigned/Preserved/Retired",
+      "Actual subjects, states and transitions need full owner decisions; no merged graph fabricated"
+    ],
+    [
+      "Reference cardinality/schema",
+      "DID-005 Domain1/Identifier1/Identity References0..N; DID-003 Document Identity→Identity Reference1:N",
+      "Full cardinality/schema reconciliation in DID-003/005/010/014 pending"
+    ],
+    [
+      "Mandatory representation fields",
+      "DID-014 adds mandatory Identity State/Canonical Reference and a different schema from DID-005",
+      "No silent mandatory-field removal/addition or guessed unified schema here"
+    ],
+    [
+      "Reciprocal required consumption",
+      "README DID→Metadata descriptive concepts; DID-009 Metadata→DID/no consumer dependency",
+      "Both required claims visible; actual owner/context/interface/cycle reconciliation pending"
+    ]
+  ],
+  "applied_map": [
+    {
+      "id": "DID001-01",
+      "severity": "Medium",
+      "sections": "Header,1,2,3,12",
+      "before": "Family=Documentation names a structural area while Component=Document Identity identifies actual component membership. Type=Architecture is already valid. Received V1.0 R0,Canonical/Baseline1.0,English and Author=Arnaldo Figueira are declarations without supplied approval/selection events.",
+      "proposal": "Use Family=Document Identity and matching Component=Document Identity;retain Type=Architecture by component architectural responsibility and stable DF-DID-001/path. Preserve original author/header/history;attribute actual successor contribution separately from authorization/review/approval. Assess actual written contracts for Version,increment Revision monotonically and use Draft/Baseline Not assigned;no Class or historical approval invented.",
+      "closure_criterion": "Header and rationale follow canonical membership/four Types with stable identity and preserved attribution/history;future working successor inherits neither Canonical approval nor Baseline membership.",
+      "related_records": "REV2-03/09/12;Review Policy §§3–5;Components §5.2",
+      "state": "Corrected—pending validation",
+      "applied_sections": "Header;1/2/12.1/12.2",
+      "after": "Family and Component Document Identity,Type Architecture by primary architectural responsibility. Actual V2.0 R1 Draft/unassigned,original Arnaldo Figueira/Documentation/Canonical/Baseline1.0 and absent date preserved. Stable ID/path;no Class,new allocation or inherited approval.",
+      "validation_performed": false
+    },
+    {
+      "id": "DID001-02",
+      "severity": "High",
+      "sections": "1,3,4,7,9.3,9.5,9.6,12",
+      "before": "Identity is stated for documents throughout their entire existence without normalized/functional applicability. Templates possess their own identities;Relationships connect identities and Graph represents identities as entities/relationships without distinguishing document IDs from other endpoint or Template entity identities.",
+      "proposal": "Apply all-location README.md/CHANGELOG.md/ArchitecturalMilestones.md normalization exclusion while retaining content/reference/history/hash checks. Define normalized logical document identity separately from physical files,exact editions,descriptors,Template definitions/instances and other entity-domain keys. Use document identity for document endpoints/nodes;other entities use their own qualified contracts. Do not assign document or Metadata Element IDs to excluded files or every entity.",
+      "closure_criterion": "All identity/scope/consumer clauses respect normalized applicability and distinct entity kinds without extending document-ID obligations to functional files,Template entities or graph edges by implication.",
+      "related_records": "INV-02 remains Not applicable;REV2-09/12;Components §§3/5.2/5.4/7.2/7.3;Terminology §§5.12/5.17/5.34",
+      "state": "Corrected—pending validation",
+      "applied_sections": "1/3/4/7/9.3/9.5/9.6/12",
+      "after": "All-location functional exclusion applies before normalized identity requirements;logical documents/editions/files/descriptors/Template entities and graph/relationship endpoint keys distinguished. Document identity applies to document subjects,not every entity or edge;no Metadata Element allocation.",
+      "validation_performed": false
+    },
+    {
+      "id": "DID001-03",
+      "severity": "High",
+      "sections": "1,3,4,7,9.1,9.2,9.7,12",
+      "before": "Unique/permanent/immutable/globally understandable identity is unqualified in this architecture. No Domain+Identifier boundary or exact-edition reference distinction is given. Permanent validity can be misread as guaranteed resolution/retrieval despite changed paths,retirement or missing history;absolute identity independence does not address explicitly authorized necessary representation migration.",
+      "proposal": "Define logical identity under a declared Domain+Identifier allocation/preservation contract. Within the DF corpus use adopted DF-SSS-NNN as stable allocation series independent of current Family/Type/path/Version/Revision;domain uniqueness is not bare-string global uniqueness or implicit new-domain registration. Preserve valid identities through normal evolution,never reuse retired allocations,and distinguish canonical references/aliases from new identities. Necessary schema/ID migration already authorized requires explicit previous/new mapping,collision/reference/history/edition/consumer checks and coordinated reconciliation;do not rewrite immutable snapshots or broadly permit arbitrary identity changes. No migration/allocation occurs in this localized UPDATE. Historical reference preservation differs from proved resolver availability.",
+      "closure_criterion": "The architecture scopes uniqueness/permanence and exact references,retains valid IDs/non-reuse and corpus allocation boundaries,qualifies real resolution evidence and explicit necessary migration without claiming completed DID schema integration or silently changing identity/history.",
+      "related_records": "REV2-09;Review Policy §4;DID-002 §3;DID-003 §§6/9;DID-005 §§3–10;DID-010 §§4–7;Terminology §§5.12/5.40/5.52/5.53",
+      "state": "Corrected—pending validation",
+      "applied_sections": "3/4/7/9.1/9.2/9.7/12",
+      "after": "Domain+Identifier and qualified corpus DF-SSS-NNN stable series independent of current classification/path/edition. Domain uniqueness,non-reuse,reservations,exact-edition/reference evidence explicit. Necessary migration reconciles governing rules/map/aliases/collisions/history/consumers before coordinated application;no arbitrary reassignment,snapshot retargeting or actual migration.",
+      "validation_performed": false
+    },
+    {
+      "id": "DID001-04",
+      "severity": "High",
+      "sections": "1,3,4,5,9.7,12",
+      "before": "§3 correctly says the component does not assign identifiers,while DID-014 §3 and README say it defines,assigns,preserves and governs identities. §5 maps Discovery/Governance structural areas as components and conflates version control with documentary governance. Contract ownership and actual execution are not consistently separated across peers.",
+      "proposal": "Keep Document Identity as owner of identity/allocation/preservation/validation/governance contracts,not an operational assigning service. DMS/tool/manual executors perform allocation,registry,reference and transition operations;CMS governs changes in its own scope. Reconcile the out-of-scope table using actual capability owners or explicitly typed area/external roles:Registry versus Discovery,Workflow/Policies/Reviews/Baselines versus Governance,and source-control adapters/commits versus document edition semantics. Preserve peer assignment claims as pending discrepancy;do not silently edit/certify README or DID-014.",
+      "closure_criterion": "Source responsibilities and out-of-scope mappings consistently distinguish domain owner,contract,capability area and operational executor without invented services or a false claim of completed peer reconciliation.",
+      "related_records": "REV2-06/08/09/12;DID-014 §3;README Overview/Dependencies;Components §§3/5.2/6;Review Policy §1",
+      "state": "Corrected—pending validation",
+      "applied_sections": "1/3/5/9.7/12.3",
+      "after": "Document Identity owns allocation/preservation/governance contracts;DMS/tool/manual executors perform assignment/persistence/lookup/transitions,CMS change scope separate. Ten original boundary responsibilities retained with actual capability/area/external roles;document edition semantics differ from repository commits. README/DID-014 assigning claims remain pending.",
+      "validation_performed": false
+    },
+    {
+      "id": "DID001-05",
+      "severity": "High",
+      "sections": "2,8,9,9.1,9.2,9.3,9.4,9.5,9.6,9.7",
+      "before": "§2 tree records allocation and §8 lists documentary foundation references under Dependencies,while §9 gives untyped provider/consumer relationships. DID-009 §§5/10 states Metadata depends on Document Identity and no consumer dependency;README explicitly states Document Identity depends on Metadata for descriptive concepts,creating apparent reciprocal required declarations that remain unresolved.",
+      "proposal": "Type allocation,documentary authority,semantic references,projection and required consumer→provider contracts separately. State actual scope/source editions/interfaces and Layers support/same-Layer/prohibited-cycle rules. Preserve the apparent Metadata↔Document Identity declarations visibly with their stated uses pending owner/context reconciliation;do not relabel a genuine requirement as navigation or claim universal independence/global acyclicity. Distinguish key semantics from descriptive-record contracts and avoid forcing every component through Registry/Graph. Baselines needs logical identity plus exact edition/context evidence,not identity alone.",
+      "closure_criterion": "All actual relation meanings/scope/direction are explicit;the received allocation view is not a runtime chain,required contracts/cycles remain visible and reciprocal peer declarations retain unresolved evidence without fabricated cycle-free implementation or concealed mandatory edges.",
+      "related_records": "REV2-02/06/09;DID-009 §§3–6/10/11;README Component Dependencies;Layers §§12–13;Components §§6/12;Terminology §5.9",
+      "state": "Corrected—pending validation",
+      "applied_sections": "2/8/9/9.1–9.7/12.3",
+      "after": "Allocation/authority/projection/required consumer→provider use separately typed. Eight scoped consumer rows declare actual uses/source roles;support/same-Layer/prohibited-cycle rules retained. Reciprocal README DID→Metadata and DID-009 Metadata→DID/no consumer dependency remain visible as unresolved required evidence,no label downgrade or global cycle-free claim. Identity alone selects no exact snapshot.",
+      "validation_performed": false
+    },
+    {
+      "id": "DID001-06",
+      "severity": "High",
+      "sections": "3,4,7,9.1,9.7,12",
+      "before": "Architecture scope includes identity lifecycle but does not distinguish immutable identity key from mutable identity-record state,document Status or exact edition facts. DID-004 offers Active/Archived/Deprecated;DID-006 offers Unassigned/Assigned/Preserved/Retired. DID-005 lists Domain/Identifier/optional references0..N,DID-003 reference cardinality1:N,and DID-014 adds mandatory Identity State/Canonical Reference under a different schema.",
+      "proposal": "Separate stable Domain+Identifier meaning,mutable assignment/preservation/retirement evidence,external reference associations and exact document editions/lifecycle/maturity/snapshot membership. Record the actual State/Status/cardinality/mandatory-reference schema conflicts and responsible scheduled owners;do not invent a canonical merged schema,Metadata catalog fields or transition graph in this overview. Unassigned describes a pre-allocation subject,not an already assigned key;retirement preserves reservations/history but does not guarantee live content retrieval. Reconcile actual full schema/lifecycle requirements in DID-003/004/005/006/010/014 cycles before declaring integrated conformance.",
+      "closure_criterion": "Identity versus identity-record/document lifecycle/reference concepts are explicit and all compared schema/state/cardinality conflicts remain accurately recorded with pending owner reconciliation;no guessed mandatory field/state/Profile or universal transition graph is certified.",
+      "related_records": "REV2-08/09/12;DID-003 §§6/7;DID-004 §§4.4/6/7.4;DID-005 §§3–10;DID-006 §§4/5/8/10;DID-014 §§6–9;Terminology §§5.22/5.40/5.42",
+      "state": "Corrected—pending validation",
+      "applied_sections": "3/4/7/9.1/9.7/12.3",
+      "after": "Stable key,pre-allocation/assigned/preserved/retired records,external reference roles and document edition/Status/maturity/membership distinct. Actual DID-003/005 cardinality,DID-004/006 states and DID-014 mandatory fields/different schema preserved in five pending discrepancy rows;no merged canonical schema,guessed state/Profile or mandatory-field edit.",
+      "validation_performed": false
+    },
+    {
+      "id": "DID001-07",
+      "severity": "Medium",
+      "sections": "6,7,10,12",
+      "before": "§10 absolutely prohibits implementation details and requires serialization/implementation independence;§7 requires globally understandable identity and §12 says principles guarantee stable unique permanent identities. Conceptual independence,necessary logical representation/allocation rules and actual implementation/resolution evidence are not distinguished.",
+      "proposal": "Retain technology-neutral architectural definitions while allowing explicit logical syntax,domain/allocation,canonicalization,reference and integration contracts as requirements rather than generation/storage code. Actual adapters/representations/executors need scoped conformance evidence. Preserve compatible meaning where feasible;necessary contract changes require impact/transition/version checks with monotonic Revision. Technology independence guarantees neither every-format compatibility,resolver availability nor successful unique assignment.",
+      "closure_criterion": "Constraint/characteristic/conclusion wording distinguishes logical requirements from implementation choices and demonstrated outcomes,with controlled necessary evolution rather than blanket harmlessness or universal independence guarantees.",
+      "related_records": "REV2-09/12;Principles AP-003/015–018;Components §§11/15;Terminology §§4.5/10;Review Policy §5",
+      "state": "Corrected—pending validation",
+      "applied_sections": "6/7/10/12.1",
+      "after": "Technology-neutral definitions admit explicit logical syntax/allocation/canonicalization/reference/integration contracts without supplying code/algorithms. Actual representations/adapters/executors need conformance evidence. Necessary justified changes need owner/consumer/dependency/transition assessment;Version major/minor and monotonic Revision explicit,no universal format/resolver guarantee.",
+      "validation_performed": false
+    },
+    {
+      "id": "DID001-08",
+      "severity": "Medium",
+      "sections": "1,3,6,7,8,11,12",
+      "before": "The document calls itself architectural specification/canonical model and says it establishes principles that guarantee identity properties. §11 claims the complete specification is distributed across a future-document list,though source presence and received Canonical headers do not prove complete coherent implementation or source-role conformance.",
+      "proposal": "State explicit architecture responsibility/applicable contracts and actual examined-edition/evidence limits;source Type/title/status does not establish approval,publication,Baseline or deployed correctness. Identify supplied versus required/complete roles and actual pending peer conflicts;use ARC-007 organization/conformance and RVW evidence. Actual attribution,authorization,review,validation,ownership and approval differ;later bytes require independent assessment without inherited outcomes or responsibility for consequences of a changed product.",
+      "closure_criterion": "All completeness/authority/quality claims are evidence-bounded and actual intended requirements remain distinct from peer/global conformance or implemented outcomes;no review/UPDATE itself closes global identity/collision/graph records.",
+      "related_records": "REV2-09/12;Structure §§10/16;Principles §11;Review Policy §§5–7",
+      "state": "Corrected—pending validation",
+      "applied_sections": "1/3/6/7/8/11/12",
+      "after": "Explicit owner/applicability/evidence and source-role limits replace completeness/property guarantees. Fifteen supplied sources are not automatically coherent/approved/deployed;ARC-007 conformance and actual report scopes referenced. Actual authorship/authorization/review/validation/approval distinct,later bytes require assessment,no inherited result or changed-product consequences responsibility.",
+      "validation_performed": false
+    },
+    {
+      "id": "DID001-W01",
+      "severity": "Low",
+      "sections": "6,7,8",
+      "before": "Eight §6 principle labels mix common design ideas and component-specific identity constraints without actual AP IDs or role qualification. Single Responsibility/Separation of Concerns are not the exact owner AP-006 title;Repository/Format/Implementation Independence are scoped applications rather than newly registered framework APs.",
+      "proposal": "Preserve all eight received labels with explicit role/owner mapping:primary ownership to AP-006,technology/representation independence to AP-003,identity stability to AP-010,and canonical representation to actual DID domain contracts. Do not fabricate AP IDs or imply complete24-principle conformance;reference actual applicable clauses/evidence boundaries and preserve local identity-specific constraints as such.",
+      "closure_criterion": "Each received principle label has an accurate owner/role mapping and selected scope;framework AP titles/IDs are real,no new AP or automatic implementation compliance invented.",
+      "related_records": "Principles §§5–9/11;DID-003 §9.5;DID-005 §7;Terminology §6",
+      "state": "Corrected—pending validation",
+      "applied_sections": "6/8/11",
+      "after": "Eight original labels mapped to real AP-006/AP-003/AP-010 roles and Canonical Representation domain clauses,not fabricated AP IDs. Selected mapping not full24-AP conformance;local identity constraints and peer owner responsibility remain explicit.",
+      "validation_performed": false
+    },
+    {
+      "id": "DID001-W02",
+      "severity": "Low",
+      "sections": "Header,2,8,11,12",
+      "before": "Source has twelve chapters,19 numbered sections,one unnamed allocation view,three tables and zero resolving Markdown links. Fifteen listed DID sources are supplied;DID-005 is listed as Structure but declares Schema,DID-013 as Reference but declares Dictionary. No local edition/history or original view-text record exists.",
+      "proposal": "Preserve all chapter/section numbers,one received view text/digest and all15 catalog IDs with actual declared titles/paths/scope. Replace Future/complete-source implications with actual supplied-role mapping while retaining original labels;add resolving Foundation/Architecture/component/policy/report references,history,compatibility and propagation limits. Preserve original Arnaldo Figueira contribution/received declarations;do not invent historic dates,view IDs or finished peer cycles. No path/ID migration is needed for this source.",
+      "closure_criterion": "Original section/view/catalog provenance is complete;actual DID-005 Schema/DID-013 Dictionary titles and intended IDs resolve;history/contribution/impact/full diff are traceable without fabricated approval or peer rollout.",
+      "related_records": "Review Policy §§4–7;Structure §§3/10/16;report R41 §47;actual15-file component inventory",
+      "state": "Corrected—pending validation",
+      "applied_sections": "Header;2/8/11/12.1–12.3",
+      "after": "Twelve chapters/19 original numbers retained;one original/written allocation view/digest,all15 catalog IDs with actual DID-005 Schema/DID-013 Dictionary titles,26 resolving links,full history/compatibility/propagation and exact input records. Original contribution/date/header facts preserved;no ID/path move or peer/global rollout certified.",
+      "validation_performed": false
+    }
+  ],
+  "impact_sources_before_apply": [
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "sha256": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed",
+      "sections": [
+        "3",
+        "5",
+        "6",
+        "8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not full peer cycle",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md",
+      "sha256": "79cd7dcc42cfd9f4c009787353a891f98253f0d01d73d8c9872e50cc614e180e",
+      "sections": [
+        "3",
+        "4",
+        "6",
+        "7",
+        "9"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not full peer cycle",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md",
+      "sha256": "daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024",
+      "sections": [
+        "4",
+        "5",
+        "8",
+        "10"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not full peer cycle",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md",
+      "sha256": "82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1",
+      "sections": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "10",
+        "11"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not full peer cycle",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md",
+      "sha256": "9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d",
+      "sections": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "12"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not full peer cycle",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "sha256": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668",
+      "sections": [
+        "3",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "15",
+        "18"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; not full peer cycle",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "sha256": "b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc",
+      "sections": "Complete source read",
+      "scope": "Complete comparison read;not REVIEW/UPDATE/VALIDATE peer cycle",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9",
+      "sections": [
+        "3",
+        "5.2",
+        "5.4",
+        "6",
+        "7.1",
+        "7.2",
+        "7.3",
+        "12",
+        "15"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not full peer cycle",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "sha256": "d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41",
+      "sections": [
+        "5.12",
+        "5.17",
+        "5.22",
+        "5.34",
+        "5.40",
+        "5.41",
+        "5.42",
+        "5.52",
+        "5.53"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not full peer cycle",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md",
+      "sha256": "d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f",
+      "sections": [
+        "4.4",
+        "6",
+        "7.4"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not full peer cycle",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/README.md",
+      "sha256": "2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7",
+      "sections": "Complete source read",
+      "scope": "Complete non-normalized comparison read;scheduled content cycle not performed",
+      "read_provenance": "Re-inspected during Step4.14 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec",
+      "sections": [
+        "4",
+        "12",
+        "13"
+      ],
+      "scope": "Previously inspected partial listed scopes including subordinate clauses;not full peer cycle",
+      "read_provenance": "Previously inspected in Step4.13;unchanged hash verified during Step4.14 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "sha256": "f109eaf7d2a828a90b819b0fc795fa4adc67a317f217c23f335d57fc58acc895",
+      "sections": [
+        "2",
+        "3",
+        "6.1",
+        "6.2",
+        "6.3",
+        "8",
+        "10",
+        "11",
+        "13",
+        "15.1"
+      ],
+      "scope": "Previously inspected partial listed scopes including subordinate clauses;not full peer cycle",
+      "read_provenance": "Previously inspected in Step4.13;unchanged hash verified during Step4.14 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "sha256": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e",
+      "sections": [
+        "3",
+        "9",
+        "10",
+        "16",
+        "19"
+      ],
+      "scope": "Previously inspected partial listed scopes including subordinate clauses;not full peer cycle",
+      "read_provenance": "Previously inspected in Step4.13;unchanged hash verified during Step4.14 REVIEW"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "sha256": "00d8a81f8adaf223d3b0478c7d2a3ea422f7c8984f84428c7e338ce0e8e98291",
+      "sections": [
+        "1",
+        "3",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "15"
+      ],
+      "scope": "Previously inspected partial listed scopes including subordinate clauses;not full peer cycle",
+      "read_provenance": "Previously inspected in Step4.13;unchanged hash verified during Step4.14 REVIEW"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "scope": "Previously inspected partial listed scopes including subordinate clauses;not full peer cycle",
+      "read_provenance": "Previously inspected in Step4.13;unchanged hash verified during Step4.14 REVIEW"
+    }
+  ],
+  "references_before_central_update": [
+    {
+      "label": "DF-FND-001 — Framework Manifest",
+      "target": "../../../00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "expected_id": "DF-FND-001",
+      "declared_id": "DF-FND-001",
+      "sha256_before_central_update": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96"
+    },
+    {
+      "label": "DF-FND-004 — Architectural Blueprint",
+      "target": "../../../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "expected_id": "DF-FND-004",
+      "declared_id": "DF-FND-004",
+      "sha256_before_central_update": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6"
+    },
+    {
+      "label": "DF-ARC-001 — Architecture Overview",
+      "target": "../../../01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "expected_id": "DF-ARC-001",
+      "declared_id": "DF-ARC-001",
+      "sha256_before_central_update": "00d8a81f8adaf223d3b0478c7d2a3ea422f7c8984f84428c7e338ce0e8e98291"
+    },
+    {
+      "label": "DF-ARC-002 — Architectural Principles",
+      "target": "../../../01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "expected_id": "DF-ARC-002",
+      "declared_id": "DF-ARC-002",
+      "sha256_before_central_update": "f109eaf7d2a828a90b819b0fc795fa4adc67a317f217c23f335d57fc58acc895"
+    },
+    {
+      "label": "DF-ARC-003 — Architectural Concepts",
+      "target": "../../../01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "expected_id": "DF-ARC-003",
+      "declared_id": "DF-ARC-003",
+      "sha256_before_central_update": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c"
+    },
+    {
+      "label": "DF-ARC-004 — Architectural Layers",
+      "target": "../../../01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "expected_id": "DF-ARC-004",
+      "declared_id": "DF-ARC-004",
+      "sha256_before_central_update": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec"
+    },
+    {
+      "label": "DF-ARC-005 — Architectural Components",
+      "target": "../../../01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "expected_id": "DF-ARC-005",
+      "declared_id": "DF-ARC-005",
+      "sha256_before_central_update": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9"
+    },
+    {
+      "label": "DF-ARC-006 — Terminology",
+      "target": "../../../01-Architecture/DF-ARC-006-Terminology.md",
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "expected_id": "DF-ARC-006",
+      "declared_id": "DF-ARC-006",
+      "sha256_before_central_update": "d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41"
+    },
+    {
+      "label": "DF-FND-006 — Design Rationale",
+      "target": "../../../00-Foundation/DF-FND-006-DesignRationale.md",
+      "path": "00-Foundation/DF-FND-006-DesignRationale.md",
+      "expected_id": "DF-FND-006",
+      "declared_id": "DF-FND-006",
+      "sha256_before_central_update": "0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6"
+    },
+    {
+      "label": "DF-ARC-007 — Component Documentation Structure",
+      "target": "../../../01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "expected_id": "DF-ARC-007",
+      "declared_id": "DF-ARC-007",
+      "sha256_before_central_update": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e"
+    },
+    {
+      "label": "DF-RVW-001 — Review Policy",
+      "target": "../../../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "expected_id": "DF-RVW-001",
+      "declared_id": "DF-RVW-001",
+      "sha256_before_central_update": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb"
+    },
+    {
+      "label": "DF-RVW-002 — Review Report",
+      "target": "../../../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "expected_id": "DF-RVW-002",
+      "declared_id": "DF-RVW-002",
+      "sha256_before_central_update": "b97984e34008df7b255aaaff02aa6e405794b9c47daa946db77d32ddd4814ef8"
+    },
+    {
+      "label": "DF-DID-002 — Document Identity Concepts",
+      "target": "DF-DID-002%20-%20Document%20Identity%20Concepts.md",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "expected_id": "DF-DID-002",
+      "declared_id": "DF-DID-002",
+      "sha256_before_central_update": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed"
+    },
+    {
+      "label": "DF-DID-003 — Document Identity Model",
+      "target": "DF-DID-003%20-%20Document%20Identity%20Model.md",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md",
+      "expected_id": "DF-DID-003",
+      "declared_id": "DF-DID-003",
+      "sha256_before_central_update": "79cd7dcc42cfd9f4c009787353a891f98253f0d01d73d8c9872e50cc614e180e"
+    },
+    {
+      "label": "DF-DID-004 — Document Identity Elements",
+      "target": "DF-DID-004%20-%20Document%20Identity%20Elements.md",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md",
+      "expected_id": "DF-DID-004",
+      "declared_id": "DF-DID-004",
+      "sha256_before_central_update": "d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f"
+    },
+    {
+      "label": "DF-DID-005 — Document Identity Schema",
+      "target": "../02-Structure/DF-DID-005%20-%20Document%20Identity%20Schema.md",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "expected_id": "DF-DID-005",
+      "declared_id": "DF-DID-005",
+      "sha256_before_central_update": "b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc"
+    },
+    {
+      "label": "DF-DID-006 — Document Identity Lifecycle",
+      "target": "../03-Behavior/DF-DID-006%20-%20Document%20Identity%20Lifecycle.md",
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md",
+      "expected_id": "DF-DID-006",
+      "declared_id": "DF-DID-006",
+      "sha256_before_central_update": "daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024"
+    },
+    {
+      "label": "DF-DID-007 — Document Identity Validation",
+      "target": "../03-Behavior/DF-DID-007%20-%20Document%20Identity%20Validation.md",
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md",
+      "expected_id": "DF-DID-007",
+      "declared_id": "DF-DID-007",
+      "sha256_before_central_update": "4310e5f480844f017136329ba63befea90431ec8efd5cc53085f71ae164b7fe2"
+    },
+    {
+      "label": "DF-DID-008 — Document Identity Governance",
+      "target": "../03-Behavior/DF-DID-008%20-%20Document%20Identity%20Governance.md",
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md",
+      "expected_id": "DF-DID-008",
+      "declared_id": "DF-DID-008",
+      "sha256_before_central_update": "02e2ae1cb164756db35f243e2e76f880a39523eae73f3b12661f4837030c7497"
+    },
+    {
+      "label": "DF-DID-009 — Document Identity Relationships",
+      "target": "../02-Structure/DF-DID-009%20-%20Document%20Identity%20Relationships.md",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md",
+      "expected_id": "DF-DID-009",
+      "declared_id": "DF-DID-009",
+      "sha256_before_central_update": "82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1"
+    },
+    {
+      "label": "DF-DID-010 — Document Identity Constraints",
+      "target": "../02-Structure/DF-DID-010%20-%20Document%20Identity%20Constraints.md",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md",
+      "expected_id": "DF-DID-010",
+      "declared_id": "DF-DID-010",
+      "sha256_before_central_update": "9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d"
+    },
+    {
+      "label": "DF-DID-011 — Document Identity Extensibility",
+      "target": "../03-Behavior/DF-DID-011%20-%20Document%20Identity%20Extensibility.md",
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md",
+      "expected_id": "DF-DID-011",
+      "declared_id": "DF-DID-011",
+      "sha256_before_central_update": "3c3112e3f5dbb37dd93b31f8c3af33037a48fd2db9d53ac0fd4a1fb6cfea69d3"
+    },
+    {
+      "label": "DF-DID-012 — Document Identity Best Practices",
+      "target": "../04-Reference/DF-DID-012%20-%20Document%20Identity%20Best%20Practices.md",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md",
+      "expected_id": "DF-DID-012",
+      "declared_id": "DF-DID-012",
+      "sha256_before_central_update": "692230e6c874ddd97e8215334534b61c12b487e7e2a9ea85b9ac506513cd8c8e"
+    },
+    {
+      "label": "DF-DID-013 — Document Identity Dictionary",
+      "target": "../04-Reference/DF-DID-013%20-%20Document%20Identity%20Dictionary.md",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-013 - Document Identity Dictionary.md",
+      "expected_id": "DF-DID-013",
+      "declared_id": "DF-DID-013",
+      "sha256_before_central_update": "030354bc9d3c57fbe84bd576ecbd6e4e3e2f1b0c5bbea2e9a0ef8b5ecee30c61"
+    },
+    {
+      "label": "DF-DID-014 — Document Identity Specification",
+      "target": "../04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "expected_id": "DF-DID-014",
+      "declared_id": "DF-DID-014",
+      "sha256_before_central_update": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668"
+    },
+    {
+      "label": "DF-DID-015 — Document Identity Examples",
+      "target": "../04-Reference/DF-DID-015%20-%20Document%20Identity%20Examples.md",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md",
+      "expected_id": "DF-DID-015",
+      "declared_id": "DF-DID-015",
+      "sha256_before_central_update": "30d79dc17cbda645f4c2ab5541b7fcab8aef068e995e85321239329b1e6511c0"
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Corrected—pending validation": 10,
+    "Closed—verified": 127,
+    "Not applicable—scope decision": 1
+  },
+  "source_validation_performed": false,
+  "literal_material_excerpts": [
+    {
+      "section": "Header / Family",
+      "before": "| **Family** | Documentation |",
+      "after": "| **Family** | Document Identity |",
+      "reason": "DID001-01;component membership independent of structural area/ID"
+    },
+    {
+      "section": "3",
+      "before": "The component does not assign identifiers.",
+      "after": "**The component does not assign identifiers.** It defines assignment/allocation contracts; DMS/tool/manual executors perform actual allocation, persistence, lookup and transition actions with identified rules, inputs, observations and responsibility evidence.",
+      "reason": "DID001-04;retains contract ownership and explicit executor;peer assigning claims pending"
+    },
+    {
+      "section": "7",
+      "before": "globally understandable;",
+      "after": "an identifier string alone is not universally unique across unregistered domains.",
+      "reason": "DID001-03/07;domain scope and actual resolution evidence"
+    },
+    {
+      "section": "9.5",
+      "before": "Relationships connect identities.",
+      "after": "Relationships owns typed connection records and provenance; Document Identity owns the contract for document endpoints.",
+      "reason": "DID001-02/05;endpoint kind and record ownership"
+    },
+    {
+      "section": "10",
+      "before": "No implementation details shall be introduced into the architectural specification.",
+      "after": "Explicit logical domain, syntax, allocation, canonicalization, reference and integration requirements are architectural contracts, not implementations of generation/storage algorithms.",
+      "reason": "DID001-07;logical representation versus executable algorithm"
+    },
+    {
+      "section": "11 / DID-005",
+      "before": "| DF-DID-005 | Document Identity Structure |",
+      "after": "DF-DID-005 — Document Identity Schema",
+      "reason": "DID001-W02;actual title/path retained"
+    },
+    {
+      "section": "11 / DID-013",
+      "before": "| DF-DID-013 | Document Identity Reference |",
+      "after": "DF-DID-013 — Document Identity Dictionary",
+      "reason": "DID001-W02;actual title/path retained"
+    },
+    {
+      "section": "12",
+      "before": "It establishes the principles that guarantee stable, unique, and permanent document identities while remaining independent of repositories, storage mechanisms, implementation technologies, governance processes, and document representations.",
+      "after": "No approval, publication, Baseline selection, complete graph or deployed assignment/resolution is established.",
+      "reason": "DID001-08;exact-scope requirements/evidence,not universal outcome guarantee"
+    }
+  ],
+  "construction_checks": {
+    "exact_input_REVIEW_hash": true,
+    "written_successor_applied": true,
+    "header_contract": true,
+    "19_original_sections_retained": true,
+    "twelve_chapters": true,
+    "three_added_sections": true,
+    "19_changed_body_hashes": true,
+    "one_original_written_view": true,
+    "four_allocation_names_preserved": true,
+    "ten_boundary_responsibilities_retained": true,
+    "eight_original_principle_labels_mapped": true,
+    "real_framework_AP_titles": true,
+    "15_original_catalog_IDs": true,
+    "actual_catalog_titles_paths": true,
+    "fourteen_peer_catalog_hashes_unchanged": true,
+    "26_link_IDs_resolve": true,
+    "eight_original_framework_roles_retained": true,
+    "eight_scoped_required_uses": true,
+    "reciprocal_required_claims_visible": true,
+    "five_peer_discrepancy_rows_pending": true,
+    "domain_series_and_nonreuse": true,
+    "assessed_migration_preserves_history": true,
+    "functional_scope_no_fifth_Type": true,
+    "key_state_schema_boundaries": true,
+    "exact_snapshot_not_identity_only": true,
+    "contract_executor_not_assigner": true,
+    "original_contribution_history": true,
+    "monotonic_revision_unchanged_validation": true,
+    "literal_excerpts_match": true,
+    "LF_retained": true,
+    "eight_rectangular_tables": true,
+    "all_compared_sources_preserved": true,
+    "65_other_original_normalized_sources_preserved": true,
+    "thirteen_prior_validated_sources_preserved": true,
+    "all_other_MD_sources_preserved": true,
+    "six_READMEs_preserved": true,
+    "eight_functional_records_excluded": true,
+    "89_stable_matrix_positions": true,
+    "matrix_hashes_current": true,
+    "sequence_343_to_1": true,
+    "prior_events_preserved": true,
+    "M10_M11_and_M0_M7_preserved": true,
+    "M12_one_S_63_O": true,
+    "historical_report_sections_preserved": true,
+    "new_report_tables_rectangular": true,
+    "next_step_4_15_unchanged": true
+  },
+  "construction_check_scope": "UPDATE integrity/traceability only;not VALIDATE DOCUMENT or closure"
+}

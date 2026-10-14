@@ -1,0 +1,11 @@
+﻿Parent,Report edition,Received responsibility,Received owner,Written owner contract,Written boundary
+DF-RVW-002,1.0/43,Document metadata,Metadata,Metadata plus applicable semantic domain owners,"Dictionary defines, Schema organizes, Profile constrains and Instance supplies values under one effective Profile; descriptive representation does not replace identity"
+DF-RVW-002,1.0/43,Document classification,Classification,Classification,Family/Type and other category meanings remain mutable and separately owned
+DF-RVW-002,1.0/43,Registry management,Registry,Registry,Catalog/lookup contracts and provenance; actual registration/lookup executed by an applicable system/process
+DF-RVW-002,1.0/43,Discovery services,Discovery,"Discovery area: Registry, Relationships, Knowledge Graph, Navigation, Search",Area groups capabilities; it is not another component or mandatory routing intermediary
+DF-RVW-002,1.0/43,Workflow management,Workflow,Workflow and applicable Policies,"Subject-specific transitions/rules; DMS/tool/manual operation, not an implemented DF workflow engine"
+DF-RVW-002,1.0/43,Version control,Governance,Documentary edition contracts versus source-control systems/adapters,Version/Revision/Status semantics follow applicable governance/edition contracts; repository commits and Source Control Integration adapters do not define them
+DF-RVW-002,1.0/43,Repository management,External systems,DMS or other applicable external system,"Organization, storage, permissions and physical-location execution"
+DF-RVW-002,1.0/43,Storage technologies,External systems,Applicable implementations/external systems,Persistence mechanisms preserve applicable representation/provenance requirements
+DF-RVW-002,1.0/43,Identifier generation algorithms,Implementations,Applicable allocation executor,Generate/allocate under identity-domain rules and collision/reservation evidence; no algorithm supplied here
+DF-RVW-002,1.0/43,Persistence mechanisms,Implementations,Applicable implementation/external system,Store identity/edition/context records without acquiring identity semantics

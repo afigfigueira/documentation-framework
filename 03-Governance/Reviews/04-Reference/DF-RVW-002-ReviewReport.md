@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 42 |
+| **Revision** | 43 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -101,6 +101,8 @@ Revision 40 records Step 4.13 UPDATE in §46 on2026-10-14. Overview becomes V2.0
 Revision41 records Step4.13 VALIDATE DOCUMENT in §47 on2026-10-14. Overview V2.0 R1 remains unchanged Architecture/Architecture,Draft/unassigned;ten local verified closures. Totals:19 Open,127 Closed—verified,one Not applicable—scope decision. M11 seven C,Completed for seven scoped document cycles. Next:4.14 REVIEW DF-DID-001.
 
 Revision42 records Step4.14 Document Identity Architecture REVIEW in §48 on2026-10-14. Source V1.0 R0 Canonical/Baseline1.0 remains unchanged;eight findings/two warnings Open. Current totals:29 Open,127 Closed—verified,one Not applicable—scope decision. M12 one S/63 O,In Progress;M10/M11 scoped cycles retained. Next:4.14 UPDATE DF-DID-001.
+
+Revision43 records Step4.14 UPDATE in §49 on2026-10-14. DID-001 becomes V2.0 R1 Family/Component Document Identity,Type Architecture,Draft/unassigned;ten corrections pending VALIDATE DOCUMENT. Totals:19 Open,ten Corrected—pending validation,127 Closed—verified,one Not applicable—scope decision. §48 retains REVIEW-time states. Next:4.14 VALIDATE DOCUMENT.
 
 ## 2. Concrete changes — before/after
 
@@ -228,6 +230,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-14 | 1.0 | 40 | Step4.13 Overview UPDATE V2.0 R1 Architecture;ten corrections pending validation | Draft;Baseline Not assigned;compatible informational report update;#332 |
 | 2026-10-14 | 1.0 | 41 | Step4.13 exact Overview validation;ten local closures;source unchanged;M11 scoped cycles complete | Draft;Baseline Not assigned;V2.0 R1 retained;#334–336 |
 | 2026-10-14 | 1.0 | 42 | Step4.14 Identity Architecture REVIEW;ten local records Open;source unchanged | Draft;Baseline Not assigned;#337–340;REVIEW evidence checks only |
+| 2026-10-14 | 1.0 | 43 | Step4.14 DID-001 UPDATE V2.0 R1;ten corrections pending validation | Draft;Baseline Not assigned;compatible report tracking;#342 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -3941,3 +3944,151 @@ R41 exports preserve historical validation scope;current R42 exports and `Contex
 ### 48.5. Next command
 
 **CONTINUAR** starts **4.14 — UPDATE DF-DID-001 — Document Identity Architecture**,applying localized corrections with actual compatibility assessment,full source/history/before-after/diff and central tracking,then pauses before VALIDATE DOCUMENT. Step4.15 DF-DID-002 — Document Identity Concepts remains unchanged and not started by this review.
+
+
+## 49. Step 4.14 — UPDATE DF-DID-001 — Document Identity Architecture
+
+### 49.1. Actual successor, attribution and compatibility
+
+**UPDATE complete; VALIDATE DOCUMENT pending.** Received Family Documentation,Component Document Identity,Type Architecture,V1.0 R0,Canonical/Baseline1.0,English,Author Arnaldo Figueira becomes **Family/Component Document Identity,Type Architecture,V2.0 R1,Draft,Baseline Not assigned,English,actual working contribution Codex — AI assistant**. Family identifies component membership;Documentation remains primary structural area. Type is already valid and retained. DF-DID-001/path and all fifteen catalog IDs remain unchanged;no allocation,migration,new Class,component,Layer,Metadata Element or Profile is performed.
+
+Input SHA-256: `fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624`. Output SHA-256: `8eebae3ef2744c837bf180db25cfb8d0566ce188faf7cbe2c10a908484a016c0` (34,343 bytes;284 lines;original LF line endings retained).
+
+**Actual compatibility: incompatible normative contract reconciliation.** Universal/unqualified identity applicability,immutability/governance independence and representation/outcome interpretations are replaced with explicit normalized/domain/edition/key-record,contract/executor,reference/required-contract/evidence scope and assessed necessary representation/allocation migration. Any otherwise immutable contract change first reconciles governing previous/new rules rather than treating contradictory clauses as simultaneously valid or granting arbitrary reassignment. Actual governing changes justify major Version 1.0→2.0/minor 0 and monotonic declared Revision 0→1. Family/links/title/catalog/editorial changes alone are compatible;Type remains Architecture. Report R42→R43 is compatible informational tracking and retains Version 1.0.
+
+All twelve chapters and 19 original numbered sections retain numbers. Added §§12.1–12.3 supply compatibility,actual history and propagation limits. Original Arnaldo Figueira contribution/received declarations remain preserved;actual assistant editing differs from user authorization,review,validation,ownership and approval. A working successor inherits neither Canonical approval nor Baseline membership;absent original date/events remain unknown.
+
+### 49.2. Applied corrections and literal material before/after
+
+| Record | Actual written scope | Received evidence | Written result | State |
+|---|---|---|---|---|
+| DID001-01 | Header;1/2/12.1/12.2 | Family=Documentation names a structural area while Component=Document Identity identifies actual component membership. Type=Architecture is already valid. Received V1.0 R0,Canonical/Baseline1.0,English and Author=Arnaldo Figueira are declarations without supplied approval/selection events. | Family and Component Document Identity,Type Architecture by primary architectural responsibility. Actual V2.0 R1 Draft/unassigned,original Arnaldo Figueira/Documentation/Canonical/Baseline1.0 and absent date preserved. Stable ID/path;no Class,new allocation or inherited approval. | Corrected—pending validation |
+| DID001-02 | 1/3/4/7/9.3/9.5/9.6/12 | Identity is stated for documents throughout their entire existence without normalized/functional applicability. Templates possess their own identities;Relationships connect identities and Graph represents identities as entities/relationships without distinguishing document IDs from other endpoint or Template entity identities. | All-location functional exclusion applies before normalized identity requirements;logical documents/editions/files/descriptors/Template entities and graph/relationship endpoint keys distinguished. Document identity applies to document subjects,not every entity or edge;no Metadata Element allocation. | Corrected—pending validation |
+| DID001-03 | 3/4/7/9.1/9.2/9.7/12 | Unique/permanent/immutable/globally understandable identity is unqualified in this architecture. No Domain+Identifier boundary or exact-edition reference distinction is given. Permanent validity can be misread as guaranteed resolution/retrieval despite changed paths,retirement or missing history;absolute identity independence does not address explicitly authorized necessary representation migration. | Domain+Identifier and qualified corpus DF-SSS-NNN stable series independent of current classification/path/edition. Domain uniqueness,non-reuse,reservations,exact-edition/reference evidence explicit. Necessary migration reconciles governing rules/map/aliases/collisions/history/consumers before coordinated application;no arbitrary reassignment,snapshot retargeting or actual migration. | Corrected—pending validation |
+| DID001-04 | 1/3/5/9.7/12.3 | §3 correctly says the component does not assign identifiers,while DID-014 §3 and README say it defines,assigns,preserves and governs identities. §5 maps Discovery/Governance structural areas as components and conflates version control with documentary governance. Contract ownership and actual execution are not consistently separated across peers. | Document Identity owns allocation/preservation/governance contracts;DMS/tool/manual executors perform assignment/persistence/lookup/transitions,CMS change scope separate. Ten original boundary responsibilities retained with actual capability/area/external roles;document edition semantics differ from repository commits. README/DID-014 assigning claims remain pending. | Corrected—pending validation |
+| DID001-05 | 2/8/9/9.1–9.7/12.3 | §2 tree records allocation and §8 lists documentary foundation references under Dependencies,while §9 gives untyped provider/consumer relationships. DID-009 §§5/10 states Metadata depends on Document Identity and no consumer dependency;README explicitly states Document Identity depends on Metadata for descriptive concepts,creating apparent reciprocal required declarations that remain unresolved. | Allocation/authority/projection/required consumer→provider use separately typed. Eight scoped consumer rows declare actual uses/source roles;support/same-Layer/prohibited-cycle rules retained. Reciprocal README DID→Metadata and DID-009 Metadata→DID/no consumer dependency remain visible as unresolved required evidence,no label downgrade or global cycle-free claim. Identity alone selects no exact snapshot. | Corrected—pending validation |
+| DID001-06 | 3/4/7/9.1/9.7/12.3 | Architecture scope includes identity lifecycle but does not distinguish immutable identity key from mutable identity-record state,document Status or exact edition facts. DID-004 offers Active/Archived/Deprecated;DID-006 offers Unassigned/Assigned/Preserved/Retired. DID-005 lists Domain/Identifier/optional references0..N,DID-003 reference cardinality1:N,and DID-014 adds mandatory Identity State/Canonical Reference under a different schema. | Stable key,pre-allocation/assigned/preserved/retired records,external reference roles and document edition/Status/maturity/membership distinct. Actual DID-003/005 cardinality,DID-004/006 states and DID-014 mandatory fields/different schema preserved in five pending discrepancy rows;no merged canonical schema,guessed state/Profile or mandatory-field edit. | Corrected—pending validation |
+| DID001-07 | 6/7/10/12.1 | §10 absolutely prohibits implementation details and requires serialization/implementation independence;§7 requires globally understandable identity and §12 says principles guarantee stable unique permanent identities. Conceptual independence,necessary logical representation/allocation rules and actual implementation/resolution evidence are not distinguished. | Technology-neutral definitions admit explicit logical syntax/allocation/canonicalization/reference/integration contracts without supplying code/algorithms. Actual representations/adapters/executors need conformance evidence. Necessary justified changes need owner/consumer/dependency/transition assessment;Version major/minor and monotonic Revision explicit,no universal format/resolver guarantee. | Corrected—pending validation |
+| DID001-08 | 1/3/6/7/8/11/12 | The document calls itself architectural specification/canonical model and says it establishes principles that guarantee identity properties. §11 claims the complete specification is distributed across a future-document list,though source presence and received Canonical headers do not prove complete coherent implementation or source-role conformance. | Explicit owner/applicability/evidence and source-role limits replace completeness/property guarantees. Fifteen supplied sources are not automatically coherent/approved/deployed;ARC-007 conformance and actual report scopes referenced. Actual authorship/authorization/review/validation/approval distinct,later bytes require assessment,no inherited result or changed-product consequences responsibility. | Corrected—pending validation |
+| DID001-W01 | 6/8/11 | Eight §6 principle labels mix common design ideas and component-specific identity constraints without actual AP IDs or role qualification. Single Responsibility/Separation of Concerns are not the exact owner AP-006 title;Repository/Format/Implementation Independence are scoped applications rather than newly registered framework APs. | Eight original labels mapped to real AP-006/AP-003/AP-010 roles and Canonical Representation domain clauses,not fabricated AP IDs. Selected mapping not full24-AP conformance;local identity constraints and peer owner responsibility remain explicit. | Corrected—pending validation |
+| DID001-W02 | Header;2/8/11/12.1–12.3 | Source has twelve chapters,19 numbered sections,one unnamed allocation view,three tables and zero resolving Markdown links. Fifteen listed DID sources are supplied;DID-005 is listed as Structure but declares Schema,DID-013 as Reference but declares Dictionary. No local edition/history or original view-text record exists. | Twelve chapters/19 original numbers retained;one original/written allocation view/digest,all15 catalog IDs with actual DID-005 Schema/DID-013 Dictionary titles,26 resolving links,full history/compatibility/propagation and exact input records. Original contribution/date/header facts preserved;no ID/path move or peer/global rollout certified. | Corrected—pending validation |
+
+The following are selected literal excerpts,not full replacement sections;table rows are escaped only for presentation,and catalog link labels abbreviate their complete written rows. `DF-RVW-002-update-4-14-map.json` contains the complete received/written header,all 19 changed original numbered bodies/digests,three added bodies,received/written view,catalog/principle/boundary maps,eight required-contract rows,pending peer claims and exact impact/reference digests. `DF-RVW-002-update-4-14.diff` is the complete source/central diff. The full updated source is delivered separately and in the interim package.
+
+| Section/field | Actual before excerpt | Actual written excerpt | Reason/impact |
+|---|---|---|---|
+| Header / Family | \| **Family** \| Documentation \| | \| **Family** \| Document Identity \| | DID001-01;component membership independent of structural area/ID |
+| 3 | The component does not assign identifiers. | **The component does not assign identifiers.** It defines assignment/allocation contracts; DMS/tool/manual executors perform actual allocation, persistence, lookup and transition actions with identified rules, inputs, observations and responsibility evidence. | DID001-04;retains contract ownership and explicit executor;peer assigning claims pending |
+| 7 | globally understandable; | an identifier string alone is not universally unique across unregistered domains. | DID001-03/07;domain scope and actual resolution evidence |
+| 9.5 | Relationships connect identities. | Relationships owns typed connection records and provenance; Document Identity owns the contract for document endpoints. | DID001-02/05;endpoint kind and record ownership |
+| 10 | No implementation details shall be introduced into the architectural specification. | Explicit logical domain, syntax, allocation, canonicalization, reference and integration requirements are architectural contracts, not implementations of generation/storage algorithms. | DID001-07;logical representation versus executable algorithm |
+| 11 / DID-005 | \| DF-DID-005 \| Document Identity Structure \| | DF-DID-005 — Document Identity Schema | DID001-W02;actual title/path retained |
+| 11 / DID-013 | \| DF-DID-013 \| Document Identity Reference \| | DF-DID-013 — Document Identity Dictionary | DID001-W02;actual title/path retained |
+| 12 | It establishes the principles that guarantee stable, unique, and permanent document identities while remaining independent of repositories, storage mechanisms, implementation technologies, governance processes, and document representations. | No approval, publication, Baseline selection, complete graph or deployed assignment/resolution is established. | DID001-08;exact-scope requirements/evidence,not universal outcome guarantee |
+
+The allocation tree becomes a four-row structural table with original-section provenance;its complete received/written text and digests remain in the map. Required consumption is separate from allocation/authority/projection/navigation/execution. No historic view ID or operational implementation is invented. Source LF is retained and all eight tables are rectangular.
+
+### 49.3. Actual identity contracts, pending peer discrepancies and maps
+
+#### 49.3.1. Normalized identity, domain, edition and migration boundaries
+
+All-location functional exclusions precede normalized ID/metadata obligations while preserving content/reference/organization/history/hash checks. Logical documents,exact editions,physical files,descriptors,Template definitions/instances and graph/relationship endpoint keys remain distinct. Normalized Template documentation can need document identity without assigning DF document IDs to every Template entity or edge.
+
+Domain+Identifier qualifies logical identity and uniqueness. The adopted corpus representation DF-SSS-NNN uses stable registered three-letter allocation series and 001–999 positive numbers,independent of current Family/Type/Component/path/Version/Revision/Status. Equal suffixes across series are not collisions;000 is not allocated,gaps do not prove availability and allocated/retired numbers are not reused. New series/allocation/continuation needs records/collision/history evidence;no external domain syntax or allocation is imposed here. Detailed DID schema/constraint/specification integration remains pending.
+
+Valid assigned identity remains associated with the same document during normal evolution. Immutable key under its applicable contract differs from mutable state/reference/location/descriptor/edition records. Necessary authorized schema/ID migration first assesses and reconciles governing previous/new rules with identity/domain owners,then records old→new mapping,same-document continuity,aliases/reservations,collisions,history/reference/context/edition/consumer effects and transition checks before coordinated application. Historical representations/snapshot members remain pinned;arbitrary reassignment,retired-ID reuse and simultaneous contradictory rules are not permitted. No migration occurs in this UPDATE.
+
+Unassigned describes a pre-allocation subject;identity-record subjects/states and document Status/maturity/edition/snapshot membership are separate. Retirement preserves reservation/history/reference interpretation without guaranteeing a resolver or retrieved content. Exact edition references need coordinates/bytes/context beyond logical identity;identity alone selects no Baseline member. DMS/tool/manual operations supply allocation/lookup/persistence/transition evidence;CMS change scope does not grant documentary approval.
+
+#### 49.3.2. Eight selected required uses and unresolved claims
+
+| Consumer | Provider | Actual required use | Source/scope boundary |
+|---|---|---|---|
+| Metadata | Document Identity | Identity of the normalized document described | DID-009 §5.1 declaration; descriptive values retain their own semantic owners |
+| Classification | Document Identity | Identity of the normalized document being classified | DID-009 §5.2; category/definition entity identity is a separate qualified contract |
+| Templates | Document Identity | Identity of normalized Template documentation/document instances | DID-009 §5.3; Template definition/instance keys are not automatically DF document IDs |
+| Registry | Document Identity | Logical document identity for a document catalog entry | DID-001 §9.4; source-edition provenance and exact lookup context required |
+| Relationships | Document Identity | Identity of document endpoints | DID-001 §9.5; other endpoint kinds use their own domain contracts |
+| Knowledge Graph | Document Identity | Logical document node identity | ARC-005 §12; typed edges remain Relationships records, not document identities |
+| Baselines | Document Identity | Logical member identity | ARC-005 §12; exact edition/descriptive/context evidence additionally required |
+| Workflow | Document Identity | Identified normalized document subject | DID-009 §6.1; applicable transition execution remains with the actual process |
+
+These are scoped architectural declarations,not a deployed service call sequence or complete graph. Cross-Layer provider precedence and same-Layer interface/ownership/prohibited-cycle rules follow Layers §§12–13. Actual indispensable edges/cycles remain visible;no required edge is concealed by calling it navigation/reference or forcing a Registry/Graph intermediary.
+
+Both reciprocal source claims remain visible in §9.1:README Document Identity→Metadata descriptive concepts and DID-009 Metadata→Document Identity/no consumer dependency. Core identity meaning and descriptive-record use are different subjects,but that distinction alone does not resolve actual required scopes or certify acyclicity. Owner/context/interface/cycle reconciliation remains scheduled;no universal consumer independence is claimed. Baselines additionally needs exact edition/descriptive/context evidence;logical identity alone cannot select a snapshot.
+
+The five written pending discrepancy rows below split the four REVIEW conflict subjects so mandatory-field differences remain independently visible. No peer source changes or global closure occurs.
+
+| Examined peer discrepancy | Actual received source claims | Written remaining boundary |
+|---|---|---|
+| Assignment | DID-001 contract owner does not assign; README/DID-014 §3 says assigning | Contract/executor wording in README and DID-014 still pending |
+| Identity-record State/Status | DID-004 Active/Archived/Deprecated; DID-006/DID-014 Unassigned/Assigned/Preserved/Retired | Actual subjects, states and transitions need full owner decisions; no merged graph fabricated |
+| Reference cardinality/schema | DID-005 Domain1/Identifier1/Identity References0..N; DID-003 Document Identity→Identity Reference1:N | Full cardinality/schema reconciliation in DID-003/005/010/014 pending |
+| Mandatory representation fields | DID-014 adds mandatory Identity State/Canonical Reference and a different schema from DID-005 | No silent mandatory-field removal/addition or guessed unified schema here |
+| Reciprocal required consumption | README DID→Metadata descriptive concepts; DID-009 Metadata→DID/no consumer dependency | Both required claims visible; actual owner/context/interface/cycle reconciliation pending |
+
+DID-005 optional external references0..N and DID-003 reference1:N remain an actual cardinality divergence;DID-014's mandatory State/Canonical Reference schema is not silently merged into DID-005. DID-004 versus DID-006 state names remain qualified by pending subject decisions. No guessed canonical state graph,mandatory Metadata catalog field/Profile or missing record is created. Actual complete peer schema/lifecycle/assignment/relationship cycles are still needed.
+
+#### 49.3.3. Preserved principle and catalog roles
+
+| Received principle label | Actual written owner/application | Scope/limit |
+|---|---|---|
+| Single Responsibility | AP-006 — Separation of Responsibilities | Primary identity semantic owner permits explicit cooperation |
+| Separation of Concerns | AP-006 — Separation of Responsibilities | Identity, description, classification and execution retain distinct responsibilities |
+| Technology Independence | AP-003 — Technology Independence | Conceptual definition independence with actual representation requirements |
+| Repository Independence | AP-003 — Technology Independence | Location/adapter changes preserve applicable identity; not guaranteed resolver availability |
+| Format Independence | AP-003 — Technology Independence | Representations preserve canonical semantics under explicit constraints |
+| Implementation Independence | AP-003 — Technology Independence | Contract owner differs from executor; no universal interoperability guarantee |
+| Stability of Identity | AP-010 — Stable Identity | Qualified normalized logical identity and assessed necessary migration boundaries |
+| Canonical Representation | DID-003 §9.5 / DID-005 §7.3 / DID-010 §5.1 | Domain representation requirements; not a newly registered framework AP |
+
+All eight original labels retain provenance. AP-006/AP-003/AP-010 are real owner IDs/titles;Canonical Representation is an identity-domain role,not a fabricated AP. Selected mapping neither certifies all 24 principles nor implemented conformance. Technology independence admits explicit logical requirements;actual representations/adapters/executors need scoped evidence. Necessary changes require compatibility/owner/consumer/dependency/transition assessment and monotonic Revision;extension is not assumed harmless.
+
+| Catalog ID | Received title | Actual written supplied title | Source effect |
+|---|---|---|---|
+| DF-DID-001 | Document Identity Architecture | Document Identity Architecture | This source becomes V2.0 R1 Draft/unassigned;peer hashes remain exact received editions |
+| DF-DID-002 | Document Identity Concepts | Document Identity Concepts | Peer unchanged;cycle pending |
+| DF-DID-003 | Document Identity Model | Document Identity Model | Peer unchanged;cycle pending |
+| DF-DID-004 | Document Identity Elements | Document Identity Elements | Peer unchanged;cycle pending |
+| DF-DID-005 | Document Identity Structure | Document Identity Schema | Peer unchanged;cycle pending |
+| DF-DID-006 | Document Identity Lifecycle | Document Identity Lifecycle | Peer unchanged;cycle pending |
+| DF-DID-007 | Document Identity Validation | Document Identity Validation | Peer unchanged;cycle pending |
+| DF-DID-008 | Document Identity Governance | Document Identity Governance | Peer unchanged;cycle pending |
+| DF-DID-009 | Document Identity Relationships | Document Identity Relationships | Peer unchanged;cycle pending |
+| DF-DID-010 | Document Identity Constraints | Document Identity Constraints | Peer unchanged;cycle pending |
+| DF-DID-011 | Document Identity Extensibility | Document Identity Extensibility | Peer unchanged;cycle pending |
+| DF-DID-012 | Document Identity Best Practices | Document Identity Best Practices | Peer unchanged;cycle pending |
+| DF-DID-013 | Document Identity Reference | Document Identity Dictionary | Peer unchanged;cycle pending |
+| DF-DID-014 | Document Identity Specification | Document Identity Specification | Peer unchanged;cycle pending |
+| DF-DID-015 | Document Identity Examples | Document Identity Examples | Peer unchanged;cycle pending |
+
+All fifteen catalog IDs/paths remain unchanged. DID-005 actual Schema and DID-013 actual Dictionary titles replace stale role labels;the retained Future heading is explicitly historical section provenance. Actual supplied files are separate from completeness,coherence,mandatory source-role coverage or implementation. Peers retain their received header/bytes and scheduled cycles;this map performs no automatic reclassification or path migration. Fourteen other DID links plus the eight original framework references,FND-006/ARC-007 and policy/report resolve 26 intended identities.
+
+The ten original out-of-scope responsibility labels remain with refined capability/area/external-executor roles. Governance/Discovery are areas rather than invented components;Workflow/Policies/Reviews/Baselines retain contracts and actual operation evidence. Document Version/Revision/Status is distinct from repository commits/Source Control Integration adapters. Dictionary/Schema/Profile/Instance and semantic/record owners remain separate;derived Registry/Graph views retain provenance/freshness rather than competing authority.
+
+Normative applicability follows explicit responsible clauses/incorporation,not Type,title,directory,Canonical declaration or presence. Intended stability/uniqueness/permanence/resolution and peer completeness require actual checks/inputs/executor/observations/coverage. A partial PASS transfers neither to unseen sources nor later bytes;actual contribution,authorization,review,validation,ownership and approval remain distinct,with no inherited changed-product consequences responsibility.
+
+The impact map retains exact partial/current comparison scopes from REVIEW: DID-002 §§3/5/6/8;DID-003 §§3/4/6/7/9;DID-004 §§4.4/6/7.4;DID-006 §§4/5/8/10;DID-009 §§3/4/5/6/10/11;DID-010 §§4–9/12;DID-014 §§3/6–12/15/18;Components §§3/5.2/5.4/6/7.1–7.3/12/15;Terminology §§5.12/5.17/5.22/5.34/5.40–5.42/5.52/5.53. DID-005 and README were fully read for comparison,not full peer/content cycles. Other prior partial Layers/Principles/Structure/Overview/Policy scopes keep unchanged hashes. No retrospective consumer rollout or peer validation is inferred.
+
+### 49.4. Actual history, central tracking and construction evidence
+
+Source §12.2 retains original Arnaldo Figueira attribution,V1.0 R0 Documentation/Architecture/matching Component,Canonical/Baseline1.0,English and absent original date. New2026-10-14 V2.0 R1 actual Codex contribution marks ten corrections pending VALIDATE DOCUMENT,with CHANGELOG #341/report §49. Exact input hash and external complete header/body/view/maps/full diff preserve history;source's current hash remains external. Source §§12.1/12.3 explain compatibility and propagation limits without invented historical approval,selection or dates.
+
+| Item | Before | After |
+|---|---|---|
+| Source | V1.0 R0 Family Documentation,Component Document Identity,Type Architecture,Canonical/Baseline1.0 | V2.0 R1 Family/Component Document Identity,Type Architecture,Draft/unassigned |
+| Local records | Ten Open | Ten Corrected—pending validation |
+| Attribution | Arnaldo Figueira in received edition | Original retained in history;actual working contribution Codex — AI assistant |
+| Review Report | V1.0 R42 | V1.0 R43,technical English,Draft/unassigned |
+| CHANGELOG | Through #340 | #341 source UPDATE;#342 report;#343 milestone tracking |
+| M12 | One S/63 O;In Progress | Same counts;DID-001 UPDATE complete/VALIDATE pending;no completion date |
+
+Current totals: **19 Open,ten Corrected—pending validation,127 Closed—verified,one Not applicable—scope decision**. No finding closes during UPDATE. All nineteen global records remain Open,including REV2-09;four prior peer conflict subjects retain pending state. M10/M11 and M0–M7 remain unchanged;M9 cites R43 without extending original acceptance. Earlier REVIEW/UPDATE/VALIDATE events retain their exact timing/edition/scope.
+
+Construction checks verify input/written successor,19 original body maps/three additions,header/actual attribution/history/LF,one balanced view with original/written digest,ten retained boundary roles,eight real principle rows,eight scoped required uses,five explicit pending discrepancy rows,fifteen catalog mappings/eight source tables,all 26 resolving target identities,current peer/earlier source preservation,stable matrix and central history. These are UPDATE integrity/traceability checks,not VALIDATE DOCUMENT or closure. Details: `DF-RVW-002-update-4-14-construction.json`.
+
+R42 exports retain REVIEW-time states;current R43 progress/manifest,map,classification/catalog/principle/boundary exports and diff record the successor. `Context-Working-Step-4-14-Update.zip` is interim. No final Context-Reviewed.zip,whole-component/framework PASS,integrated conformity,approval,publication or Baseline is granted.
+
+### 49.5. Next command
+
+**CONTINUAR** starts **4.14 — VALIDATE DOCUMENT DF-DID-001 — Document Identity Architecture**,checking the exact successor,ten closure criteria,full source/view/maps and affected comparisons,then pauses before Step4.15 REVIEW DF-DID-002.
