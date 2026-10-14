@@ -164,7 +164,9 @@ Dependencies: M10-M12; impact map before migration. Evidence: DF-RVW-002 and its
 
 ## Milestone M12 — Documentation component review cycles
 
-**Milestone Status:** Not Started
+**Milestone Status:** In Progress
+
+Step4.14 REVIEW (2026-10-14):exact unchanged DID-001 V1.0 R0 Canonical/Baseline1.0;eight findings/two warnings Open;Family Document Identity/matching Component/Type Architecture and V2.0 R1 proposed subject to actual UPDATE compatibility. M12 In Progress,one S/63 O;DID-001 start2026-10-14,no completion date. ReportR42 section48;CHANGELOG #337-340;peer assignment/schema/state/reciprocal dependency and global reconciliation pending;no source UPDATE/VALIDATE or approval.
 
 ### Objectives and acceptance
 
@@ -190,7 +192,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | O | 2026-09-30 |  |  | DF-CLS-014 | /02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md |
 | O | 2026-09-30 |  |  | DF-CLS-015 | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md |
 | O | 2026-09-30 |  |  | README.md | /02-Documentation/Classification/README.md |
-| O | 2026-09-30 |  |  | DF-DID-001 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
+| S | 2026-09-30 | 2026-10-14 |  | DF-DID-001 — V1.0 R0 Canonical;REVIEW complete;UPDATE/VALIDATE pending | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
 | O | 2026-09-30 |  |  | DF-DID-002 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
 | O | 2026-09-30 |  |  | DF-DID-003 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
 | O | 2026-09-30 |  |  | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
@@ -368,7 +370,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
 
-Current supporting report edition: DF-RVW-002 V1.0 R41 includes all six Step 4.01-4.06 and all seven Step4.07-4.13 scoped document cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+Current supporting report edition: DF-RVW-002 V1.0 R42 includes all six Step4.01-4.06/all seven Step4.07-4.13 scoped cycles and Step4.14 REVIEW; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 
