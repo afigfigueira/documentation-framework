@@ -1,0 +1,689 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/31",
+  "date": "2026-10-14",
+  "step": "4.10 UPDATE",
+  "source": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+  "input_edition": {
+    "version": "1.0",
+    "revision": 0,
+    "status": "Draft",
+    "baseline": "1.0",
+    "author": null,
+    "family": "Architecture",
+    "type": "Standard",
+    "class": "Architecture",
+    "language": "English"
+  },
+  "input_sha256": "e0840a725ed0214e37d78be25d664615c4c43fea4e535334dfe47e55d20d5481",
+  "output_edition": {
+    "version": "2.0",
+    "revision": 1,
+    "family": "Architecture",
+    "type": "Structure",
+    "class": null,
+    "status": "Draft",
+    "baseline": "Not assigned",
+    "language": "English",
+    "author": "Codex — AI assistant (actual working-edition contribution)"
+  },
+  "output_sha256": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e",
+  "output_bytes": 31622,
+  "output_lines": 367,
+  "compatibility": "Incompatible normative reconciliation of blanket authority/informative remainder, undefined required-document conformance and normalized/functional responsibility contracts. Earlier blanket authority/assumed complete coverage no longer permitted; Type, path spelling, BEL and links alone compatible. Version1.0→2.0; Revision0→1 monotonically.",
+  "identity_path_migration": "None",
+  "leading_byte_change": {
+    "before": "U+0007, byte0",
+    "after": "# first heading; no BEL",
+    "received_exact_bytes_preserved": "structure-input.bin and original Context.zip"
+  },
+  "header_change": {
+    "before": "\u0007# Documentation Framework\n\n# DF-ARC-007 — Component Documentation Structure\n\n| Metadata | Value |\n|----------|-------|\n| **Document ID** | DF-ARC-007 |\n| **Title** | Component Documentation Structure |\n| **Family** | Architecture |\n| **Type** | Standard |\n| **Class** | Architecture |\n| **Status** | Draft |\n| **Version** | 1.0 |\n| **Revision** | 0 |\n| **Baseline** | 1.0 |\n| **Language** | English |\n\n---\n\n",
+    "after": "# Documentation Framework\n\n# DF-ARC-007 — Component Documentation Structure\n\n| Metadata | Value |\n|---|---|\n| **Document ID** | DF-ARC-007 |\n| **Title** | Component Documentation Structure |\n| **Family** | Architecture |\n| **Type** | Structure |\n| **Author** | Codex — AI assistant |\n| **Status** | Draft |\n| **Version** | 2.0 |\n| **Revision** | 1 |\n| **Baseline** | Not assigned |\n| **Language** | English |\n\n---\n\n"
+  },
+  "section_changes": {
+    "1": {
+      "before": "This document defines the canonical documentation structure for every architectural component of the Documentation Framework.\n\nIt establishes a common organizational model that all components shall follow to ensure consistency, maintainability, discoverability and architectural coherence.\n\nThis document standardizes **how a component is documented**.\n\nIt does **not** define the architecture of individual components.",
+      "after": "This document defines the common documentation organization contract for registered DF architectural components. It standardizes how a component is documented, rather than defining each component's domain architecture or proving its implementation.\n\nA complete documentation set follows the organization in §5 and declares its applicable source roles under §16. Consistency, maintainability, discoverability and architectural coherence are assessed objectives; a directory tree alone does not establish those outcomes.",
+      "before_sha256": "cd2ef28f6be106c6e41c01123ce1d5f712c8f360e4afa2d816b741ddcf43a742",
+      "after_sha256": "c17da0767d125d827398909b2c770dc10f72d308d883f1e29de2e6c7d8dd64bd"
+    },
+    "2": {
+      "before": "The purpose of this document is to:\n\n- define the canonical documentation structure for components;\n- standardize component organization;\n- improve consistency across the Documentation Framework;\n- simplify navigation;\n- facilitate future component development;\n- promote documentation reuse.",
+      "after": "The primary responsibility is structural: organize component documentation, distinguish functional entry points from normalized sources, define category composition and placement constraints, and provide testable organization criteria.\n\nFamily Architecture denotes the common documentary area, not a new component. Type Structure follows this organizational responsibility, independent of title, path and permanent document identity. This source defines neither a new Type named Standard nor an additional mandatory Class vocabulary. The received Class=Architecture is preserved in §20; the successor omits it because no distinct applicable meaning was established.\n\nThe organization supports navigation, reuse and future component development under explicit owner contracts and assessed transitions. It does not replace classification, identity, Metadata or Templates semantics.",
+      "before_sha256": "5188a01dc9560ef6c33d9f80ae033d5e39e43e100e3b9bfff716b81063f645c7",
+      "after_sha256": "e19006bb2fc2e7783828dd53e26d3e4fac2b39c9f7fd63f74fc7c54920a8d324"
+    },
+    "3": {
+      "before": "This document applies to every Documentation Framework component.\n\nExamples include:\n\n- Metadata\n- Document Identity\n- Classification\n- Registry\n- Relationships\n- Knowledge Graph\n- Baselines\n\nFuture components shall also conform to this structure.",
+      "after": "The contract applies to documentation sets for existing and future registered DF components. Examples include Metadata, Document Identity, Classification, Registry, Relationships, Knowledge Graph and Baselines; that example list is not the complete register. Registration and primary allocation belong to Architectural Components and Layers, referenced in §17. Foundation/Architecture support documents are not invented components merely because they appear in directories.\n\nEvery README.md, CHANGELOG.md and ArchitecturalMilestones.md, at every corpus location, is a non-normalized functional file. Normalization requires no Document ID, Family, Type, Component, Version, Revision, Status or Baseline for those names. Applicable content, organization, reference and integrity checks remain; the exclusion creates no exceptions to the four Types for normalized documents.\n\nFor normalized sources, Type is exactly one of Architecture, Structure, Behavior or Reference, selected by primary responsibility. Family is the canonical component name for component documents; common non-component areas use their admitted Family. Component, when present, agrees with actual membership. Class is optional and requires a distinct defined meaning; it is not unrestricted or inferred from a directory. Identity is stable under reclassification and relocation unless an assessed identity migration is necessary.\n\nDF defines documentary contracts. A DMS, tool or applicable manual process executes management/checking operations; CMS governs changes in its own scope. This organization contract establishes neither operational permissions nor a deployed repository, workflow or documentation service.",
+      "before_sha256": "b2845fc0d7f3a6e4ede9126d7961106c91d0be808d2ebbc2027828789a1921a8",
+      "after_sha256": "3d48c583221af83acd143cb50fb0d3aefee7f52774107a4ab3ddcc89fdabd2b6"
+    },
+    "4": {
+      "before": "Within the Documentation Framework, component documentation is organized as follows.\n\n```text\n\n         Documentation Framework\n                    │\n                    ▼\n\n\t\t   Architectural Layer\n                    │\n                    ▼\n\n                Component\n                    │\n                    ▼\n\n\n                    Component Documentation\n                    │\n                    ├── README\n                    │\n                    ├── Architecture\n                    │\n                    ├── Structure\n                    │\n                    ├── Behavior\n                    │\n                    └── Reference\n\n```\n\nEach component is documented independently while following the same organizational model.",
+      "after": "Allocation, component ownership, physical containment and documentary classification are separate relationships.\n\n<!-- original-section-view: 4 -->\n**Previously unnamed view in §4 — Allocation and documentary containment.**\n\n| Entity | Relation | Target | Interpretation |\n|---|---|---|---|\n| Registered component | has one primary structural allocation in | Applicable structural area | Canonical register/Layers contract; cross-cutting participation remains possible |\n| Component documentation set | describes contracts of | Identified component | Documentary membership does not create another component or owner |\n| Component directory | physically groups | Functional entry point and category directories | Physical location, not semantic authority or runtime dependence |\n| Normalized source | has primary documentary responsibility | One of the four Types | Classification by content, independent of permanent ID and path |\n<!-- end-original-section-view -->\n\nComponent documentation can be consulted separately while referencing required owner/consumer contracts. It does not guarantee independent evolution, independent releases or complete understanding without relevant provider definitions. Documentary references and containment are not required runtime-service edges.",
+      "before_sha256": "9635923e56de12d5a31d21ea065f8a78aa9b719a2e9726450c5487ff6d60c05c",
+      "after_sha256": "c7ec8fcef5ef1a06f3d910ec186dd4af8d419f5d1e72aabcf65a768a2b9a02ce"
+    },
+    "5": {
+      "before": "Every component shall adopt the following directory structure.\n\n```text\n\n                    <Component>/\n                    │\n                    ├── README.md\n                    │\n                    ├── 01-Architecture/\n                    │\n                    ├── 02-Structure/\n                    │\n                    ├── 03-Behavior/\n                    │\n                    └── 04-Reference/\n\n```\n\nThis structure is mandatory for all Documentation Framework components.",
+      "after": "A **complete component documentation set** shall provide README.md and the four category directories below. This is an organization requirement, not proof that all required content exists or is correct. The same contract applies to every component; partial supplied sets must be identified as incomplete rather than silently exempted or certified.\n\n<!-- original-section-view: 5 -->\n**Previously unnamed view in §5 — Physical component documentation organization.**\n\n| Entry relative to the component root | Kind | Responsibility |\n|---|---|---|\n| README.md | Non-normalized file | Entry point, source map, scope and coverage information |\n| 01-Architecture/ | Directory | Conceptual foundations, principles, models and decisions |\n| 02-Structure/ | Directory | Organization, schemas, composition, relationships and structural restrictions/catalogs |\n| 03-Behavior/ | Directory | Subject-specific lifecycle, validation, governance, processes and extensibility |\n| 04-Reference/ | Directory | Consolidated specifications, consultation, terminology, examples and recommendations |\n<!-- end-original-section-view -->\n\nApplicable documents are placed according to primary responsibility. Titles such as Schema, Dictionary, Lifecycle and Specification are role names, not additional Type values or automatic placement rules. A directory does not assign semantic authority, change Family or recalculate identity.\n\nAn empty directory satisfies only its presence check, not content coverage. Do not manufacture empty documents or an implemented capability to make a set appear complete. Required source roles and unfilled responsibilities are assessed under §16. The received corpus may contain partial sets; that evidence records an unmet requirement, not an exception to this contract.",
+      "before_sha256": "ab8ddc5a0e8a508590ee32c9b1d8149d16ce3c12bcbb376cde63ecb21edff805",
+      "after_sha256": "046c367ab5478e60340d09c333ca8694a588474914147a7f8f680ac2b37c1a68"
+    },
+    "6": {
+      "before": "Every component shall provide a `README.md`.\n\nThe README acts as the entry point for the component documentation.\n\nIt should contain:\n\n- overview;\n- purpose;\n- responsibilities;\n- scope;\n- architectural position;\n- document map;\n- recommended reading order;\n- dependencies;\n- related components;\n- related roadmap;\n- conformance information.",
+      "after": "Every complete component documentation set shall provide README.md as its functional entry point. It remains non-normalized under §3.\n\nIts content shall identify the component, purpose, responsibilities, scope and primary architectural position; map actual supplied documents and relevant editions; distinguish present, planned, absent and not-applicable roles with evidence; identify owner references, dependencies/related components, applicable roadmap and conformance coverage. A recommended reading order may be given where useful, with advisory meaning under §11.\n\nDocument maps and roadmap references shall resolve to actual intended targets. A canonical name may differ from its directory alias, such as Document Identity versus DocumentIdentity. Preserve the distinction and assess stale maps explicitly. A map is a representation of sources, not a competing semantic owner or proof of approval.\n\nRequired dependencies shall identify consumer, provider, contract and scope; reference/navigation associations remain separately typed. Do not conceal a genuinely indispensable provider or cycle by calling it a documentation link. No complete dependency graph is inferred from a README.",
+      "before_sha256": "7fd05fb0aa8a92c1db813182d3397b4815e03267167a0e37dbbb90cce0a1e6d8",
+      "after_sha256": "2c91f8ef63aa4d5c727a8dd074e2492909bdb1cfc3b10b6c7e0bfa0ddf33b28c"
+    },
+    "7": {
+      "before": "The **Architecture** directory defines the conceptual foundation of the component.\n\nTypical documents include:\n\n| Document | Purpose |\n|----------|---------|\n| Architecture | Defines the overall architecture. |\n| Concepts | Defines architectural concepts. |\n| Model | Defines the conceptual model. |\n| Elements | Defines the architectural elements. |\n\nAdditional architectural documents may be introduced when justified.",
+      "after": "The 01-Architecture category organizes conceptual foundations of the component. Typical roles include the following; they are examples, not universally mandatory filenames.\n\n| Role | Responsibility and applicability |\n|---|---|\n| Architecture | Defines purpose, boundaries, principles and owner/consumer architecture |\n| Concepts | Defines conceptual meaning and distinctions |\n| Model | Defines the domain's conceptual entities and relationships |\n| Elements | Defines conceptual elements where that is the source's primary responsibility |\n\nAdditional conceptual documents require demonstrated need and clear owner boundaries. A domain-specific Elements source may instead primarily organize a structural catalog; its content and applicable owner contract determine Type/placement. This overview does not automatically reclassify or move every similarly titled source.",
+      "before_sha256": "333c83b7d00807036d52d49d076d19f364c5e1f7144a30128677711d76ad07df",
+      "after_sha256": "97704c451f1c5abaf6ff8b42ea6a0caa1d29830703f9f453065034beebebf9ca"
+    },
+    "8": {
+      "before": "The **Structure** directory defines how the component is organized.\n\nTypical documents include:\n\n| Document | Purpose |\n|----------|---------|\n| Schema | Defines structural organization. |\n| Relationships | Defines structural relationships. |\n| Constraints | Defines structural constraints. |\n| Dictionary | Defines architectural terminology specific to the component. |\n\nThe exact documents depend on the nature of the component.",
+      "after": "The 02-Structure category defines composition and structural constraints without taking over domain semantic ownership.\n\n| Role | Responsibility and applicability |\n|---|---|\n| Schema | Organizes/references domain definitions and structural constraints; does not independently redefine their semantics |\n| Relationships | Defines structural connection organization when that is its primary responsibility; actual relation kinds and endpoint contracts remain explicit |\n| Constraints | Defines structural restrictions where that is the primary responsibility |\n| Dictionary or entry catalog | Organizes authoritative domain definitions/records when catalog composition is primary; not limited to terminology |\n\nA terminology consultation document can use Type Reference and its corresponding category even when titled Dictionary. A structural entry catalog uses Type Structure when that is the demonstrated primary responsibility. Domain definitions, source composition and consultation purpose must be assessed together; title or received path alone decides neither.\n\nMetadata Dictionary defines Metadata Elements and their semantics; Schema organizes references, Profile constrains applicable usage and Instance supplies values under one effective Profile. Identity, Classification and Governance retain their domain meanings even when Metadata represents their values. This summary creates no canonical Element record, missing Profile or automatic consistency guarantee.\n\nThe exact document set depends on the domain and declared requirements. Received README maps and actual paths can disagree; reconcile the responsible sources and consumers through their scheduled cycles rather than silently relocating files in this UPDATE.",
+      "before_sha256": "06a208dec86f72c38bf814dbad65ba5307d7f757d29c6c892c5c867203ac8484",
+      "after_sha256": "12bcbe583a0a64615be1bc5ed4ac44597ce623cc9a7333cc9264a5622606a79d"
+    },
+    "9": {
+      "before": "The **Behavior** directory defines how the component behaves and evolves.\n\nTypical documents include:\n\n| Document | Purpose |\n|----------|---------|\n| Lifecycle | Defines lifecycle states. |\n| Validation | Defines validation rules. |\n| Governance | Defines governance responsibilities. |\n| Extensibility | Defines extension mechanisms. |\n\nBehavioral documentation describes dynamic aspects of the component.",
+      "after": "The 03-Behavior category defines subject-specific processes, transitions and controlled evolution. It does not by itself establish an executing system.\n\n| Role | Responsibility and applicability |\n|---|---|\n| Lifecycle | Identifies the governed entity, states, permitted transitions and scope; may govern definitions, elements, instances or document editions |\n| Validation | Defines applicable rules, examined artifacts/context, coverage and result evidence |\n| Governance | Defines domain responsibilities, change/decision contracts and required evidence |\n| Extensibility | Defines controlled extension, owner/consumer impact and transition requirements |\n\nA Classification-definition lifecycle is distinct from a document edition's Version/Revision/Status and Workflow governance. Component maturity, implementation state and Baseline membership are also separate facts. State lists do not imply a complete universal transition graph or permission model.\n\nDF defines these contracts; the applicable DMS/tool/manual executor supplies actual inputs, actions and observations. CMS change evidence does not substitute for documentary approval or exact Baseline selection. Review, validation, approval, publication and membership remain separate events. A scoped check result transfers neither to unseen sources nor later changed bytes.",
+      "before_sha256": "7fb337db207c0e6681f512795356f6b62240635e625f58c727b1579efcccd37a",
+      "after_sha256": "e981252bc30c996115f98264d8c80f0094c4432b1252ec1341f5a5616222b54c"
+    },
+    "10": {
+      "before": "The **Reference** directory contains normative and informative reference material.\n\nTypical documents include:\n\n| Document | Purpose |\n|----------|---------|\n| Specification | Normative component specification. |\n| Best Practices | Informative recommendations. |\n| Examples | Informative examples. |\n\nThe Specification is the normative document.\n\nThe remaining documents are informative.",
+      "after": "The 04-Reference category contains consultation and consolidated reference roles, which may carry explicitly scoped normative or informative statements.\n\n| Role | Responsibility and authority limit |\n|---|---|\n| Specification | Consolidates identified applicable requirements, references and conformance obligations; states its normative scope explicitly |\n| Best Practices | Provides recommendations, declared informative unless an applicable contract explicitly adopts particular requirements |\n| Examples | Provides illustrative usage with declared scope and limits; not evidence of implementation or universal compliance |\n| Terminology reference | Provides domain-term consultation when that is its primary responsibility; canonical owners remain identified |\n\nNormative or informative authority follows explicit applicable declarations and incorporation of identified sources/editions. It does not follow directory, Type=Reference or the word Specification alone. Supporting Architecture, Structure or Behavior sources can define normative requirements, and other Reference roles can be explicitly normative in scope. The received blanket statement that all remaining documents are informative is not retained.\n\nA consolidated specification must identify the responsible sources it incorporates and how conflicts/applicability are assessed. This organization contract does not replace those domain requirements. Presence, normative wording or successful checking does not approve or publish a Draft edition, grant Baseline membership or establish implemented conformance.",
+      "before_sha256": "02c3a3cd269d6158c1e7721fb6000dfa264df19748f09d0b512ca9534857e8c6",
+      "after_sha256": "7f82f2458406dbe0cc285af65a9ecbf9803a6f73e5b3de0939c54af9388d6db2"
+    },
+    "11": {
+      "before": "Documentation should be read in the following sequence.\n\n```text\n\n                  README\n                    │\n                    ▼\n\n               Architecture\n                    │\n                    ▼\n\n                 Concepts\n                    │\n                    ▼\n\n                  Model\n                    │\n                    ▼\n\n                Elements\n                    │\n                    ▼\n\n                Structure\n                    │\n                    ▼\n\n                 Behavior\n                    │\n                    ▼\n\n                Reference\n\n```\n\nThis sequence progresses from conceptual understanding to detailed specification.",
+      "after": "A component may recommend the following consultation progression where the roles are supplied and relevant. Missing or not-applicable roles require an explicit coverage note rather than invented content.\n\n<!-- original-section-view: 11 -->\n**Previously unnamed view in §11 — Advisory consultation progression.**\n\n| Position | Consultation role | Meaning |\n|---|---|---|\n| 1 | README | Entry point and actual source/coverage map |\n| 2 | Architecture | Component purpose, boundaries and principles |\n| 3 | Concepts | Fundamental meanings and distinctions |\n| 4 | Model | Conceptual relationships |\n| 5 | Elements | Applicable conceptual/element definitions |\n| 6 | Structure | Relevant composition, schemas, constraints and catalogs |\n| 7 | Behavior | Relevant lifecycle/process/governance/validation contracts |\n| 8 | Reference | Consolidated requirements and consultation material |\n<!-- end-original-section-view -->\n\nThe order supports incremental understanding and can be adapted to the reader's task and supplied sources. It imposes no runtime dependency, required service pipeline, development schedule or execution sequence. Applicable provider contracts can require consultation earlier than a displayed position; their actual requirements must remain visible and separately evidenced.",
+      "before_sha256": "e411ac13881d76a7b358cb4567f8b8254147dbff89fa3e4dd42c0846cb0ceadb",
+      "after_sha256": "94677fe2765f2d4b98e411ef2298746b7cc40a3b76a3edf533d7fa12d6478490"
+    },
+    "12": {
+      "before": "Directories shall use the following names.\n\n| Directory | Purpose |\n|-----------|---------|\n| README | Component entry point |\n| 01-Architecture | Conceptual documentation |\n| 02-Structure | Structural documentation |\n| 03-Behavior | Behavioral documentation |\n| 04-Reference | Normative and informative reference |\n\nDirectory names shall remain consistent across all components.",
+      "after": "Use the exact entry kinds and category names in §5: README.md is a file, and 01-Architecture, 02-Structure, 03-Behavior and 04-Reference are directories. Preserve this common organization for complete component documentation sets.\n\nNormalized filenames and identifiers follow the applicable identity/representation contract. This source keeps DF-ARC-007 and its path unchanged and introduces no allocation namespace, component alias or ID migration. A category rename or document move requires an impact map for operational references before application; valid logical identities do not change automatically.",
+      "before_sha256": "5ab46233149ab53aa6652c0a7f711fa69531ede7a78af5c5e4b458f57f06d01a",
+      "after_sha256": "96af874f6dfaa0ba100f05a431b4258e4a671557ecdc603ec08a6a6adcf9d163"
+    },
+    "13": {
+      "before": "Component documentation shall be:",
+      "after": "The following principles guide assessed documentation organization; they are not evidence of achieved quality for every supplied component.",
+      "before_sha256": "351f1509726449d2123acb5706412d61659916f692f893c1ac974ffba5d3d1a3",
+      "after_sha256": "14b14968d1beee57a1faefbfa64d799052524fe09a51eb8a7ac6e922c45c59ea"
+    },
+    "13.1": {
+      "before": "Every component follows the same documentation structure.",
+      "after": "Use the common category structure and classify by primary responsibility. Record applicable source roles, partial coverage and conflicting maps rather than declaring uniformity from labels alone.",
+      "before_sha256": "9dcd4717765d1bdc45c86dc968e9fdc7e9016d3ba12bd524fe2ece29a454a5ec",
+      "after_sha256": "8123ce278b7fc6b678c98f91358531272b0dd2451baf5bfffbbf6b168866d76d"
+    },
+    "13.2": {
+      "before": "Each document has a single architectural responsibility.",
+      "after": "Each normalized source has one primary documentary responsibility with explicit boundaries and references to related owners. A consolidated specification can synthesize requirements while preserving their provenance and domain ownership.",
+      "before_sha256": "96319739a54d0e2570d869f52c5790b2607e76baf6fac48c6f0b91082eef7d4b",
+      "after_sha256": "b0ec4f5acf254913c0d3e7b92b60ea7672eb8ba89586f6081eec16c42271bc69"
+    },
+    "13.3": {
+      "before": "Information should be easy to locate.",
+      "after": "Provide resolvable source maps and identified targets with relevant edition/state context. Assess actual navigation and coverage; a README or directory tree alone does not guarantee discoverability or completeness.",
+      "before_sha256": "9f7aabd2142d674617c837a80ba78d839292b188a9469e2e451a226e09c425c0",
+      "after_sha256": "59829b09fcb6917c4d06a6c9a1e8eaca0753afa38e35cd88ea68596f6108de1c"
+    },
+    "13.4": {
+      "before": "Each component can be understood independently.",
+      "after": "Support focused consultation with explicit provider/owner references. Component documentation may depend on shared definitions and coordinated edition changes; independent understanding and releases are not unconditional guarantees.",
+      "before_sha256": "5b7fa586f8cedbf06cb1fdbbf0c3f2723cc5a7fc2aeba9b4e374308ce82b44dd",
+      "after_sha256": "e0e93ee2f1636a3c5c036574ebae87877896fae8273f0972cdaad47bb5ca42bb"
+    },
+    "13.5": {
+      "before": "Additional documents may be introduced without changing the overall organization.",
+      "after": "Add justified documents to the applicable existing category by primary responsibility. Assess owner/consumer effects, references, required contracts and transition evidence; additions are not assumed harmless and create no extra Type implicitly.",
+      "before_sha256": "f4a41d595d24c06984d0eb9cea87ca8234bfbf76551f3af3a1d7ae1dba209e5a",
+      "after_sha256": "c7342820cf2f060176cb7e6abedf5851fd8c7cb7b174b5ff2791d426585a46f2"
+    },
+    "13.6": {
+      "before": "Documentation should remain manageable as the framework evolves.",
+      "after": "Preserve identities, source/edition provenance, history and synchronized representations under applicable contracts. Actual maintenance, storage and checking require executors and evidence. Manageability is assessed for the examined scope, not guaranteed by this structure.",
+      "before_sha256": "4dee3161ab294ee2479af503edcff2b7da20d2f300a11200de9a02aac5968d3b",
+      "after_sha256": "14a28adf0efaccebab911c93d2b0d2a1d90958724b1947cf07a42bf60d860a50"
+    },
+    "14": {
+      "before": "Not every component requires the same number of documents.\n\nAdditional documents may be introduced whenever justified.\n\nExamples include:\n\n- Security\n- Performance\n- Compliance\n- Migration\n- Interoperability\n- Integration\n\nOptional documents shall be placed in the directory corresponding to their architectural responsibility.",
+      "after": "Not every component requires the same document count. Security, Performance, Compliance, Migration, Interoperability and Integration are example topic roles, not new Type values or obligatory files.\n\nIntroduce a role when justified by domain requirements. Assign its primary responsibility to the existing four-Type taxonomy and corresponding category. Record applicability, owner, affected consumers and references; avoid duplicating semantic authority or manufacturing missing specifications. A required responsibility may be covered by an identified consolidated source if the applicable owner contract permits that coverage and the mapping is explicit.\n\nOptional content does not waive the complete-set organization in §5 or a declared required source responsibility in §16. Missing required content is an unmet requirement; a not-applicable role needs its reason and owner evidence.",
+      "before_sha256": "618ce5f95c86f6d6a7ce44fbdb7f703c3e20ac40f401c42dfcba45ccdad8948c",
+      "after_sha256": "907a3d0159f0687cd00cea53c80e7f205d9b801af605ab1585fda166aa9a2b5b"
+    },
+    "15": {
+      "before": "Component Roadmaps are **not** stored inside component directories.\n\nRoadmaps are maintained centrally under:\n\n```text\n\n                    docs/\n                    └── 06-Roadmaps/\n\n```\n\nEach component references its corresponding Roadmap through its `README.md`.\n\nThis separation distinguishes:\n\n- architectural documentation;\n- implementation planning.",
+      "after": "In the supplied corpus, component Roadmaps are maintained centrally under **Roadmaps/**, outside the component documentation directories. The received docs/06-Roadmaps/ spelling is preserved in input/diff evidence, not used as an operational destination. No path migration is performed here.\n\n<!-- original-section-view: 15 -->\n**Previously unnamed view in §15 — Supplied central planning sources.**\n\n| Planning scope | Actual supplied source | Membership/classification rule |\n|---|---|---|\n| Global framework plan | [DF-RDM-001 — Documentation Framework Roadmap](../Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md) | Admitted global planning Family Roadmap; primary planned-evolution responsibility is Behavior |\n| Metadata | [DF-RDM-010 — Metadata Roadmap](../Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md) | Component planning Family Metadata; Type Behavior |\n| Document Identity | [DF-RDM-020 — Document Identity Roadmap](../Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md) | Component planning Family Document Identity; Type Behavior; directory alias DocumentIdentity |\n| Classification | [DF-RDM-030 — Classification Roadmap](../Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md) | Component planning Family Classification; Type Behavior |\n| Templates | [DF-RDM-040 — Templates Roadmap](../Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md) | Component planning Family Templates; Type Behavior |\n<!-- end-original-section-view -->\n\nThe table states the adopted working classification rule, not a claim that these received roadmap headers have already been updated or validated. Their scheduled cycles remain pending. Central storage creates no structural Layer, component membership or approval.\n\nA component README references its applicable supplied roadmap with resolvable identity/path. For other registered components, no dedicated roadmap ID is fabricated: record actual availability and planning-role coverage. Planning can concern architectural documentary evolution and implementation work; it does not establish implemented maturity, redefine component architecture or force the reading sequence in §11.",
+      "before_sha256": "34541c589f68f2219824407e3d7be5d7900effd7e08ab3d10779d3f2ecaf4f36",
+      "after_sha256": "2038d6ef976c9e34c9877c579f915e0a7880cf841ad9025c8a5f356a623e5bc9"
+    },
+    "16": {
+      "before": "A Documentation Framework component conforms to this standard when:\n\n- it follows the canonical directory structure;\n- its documentation is organized according to the defined architectural responsibilities;\n- required documents are present;\n- document organization remains consistent with this specification.\n\nConformance to this document does not imply conformance to the component architecture itself.",
+      "after": "Organization conformance is assessed for an identified component documentation set and exact source editions against explicit applicable requirements. It is separate from conformance to domain architecture, an implemented component, review approval, publication and Baseline selection.\n\n| Check | Required evidence | Outcome limit |\n|---|---|---|\n| Scope and ownership | Identified component, primary allocation, exact sources/editions and applicable owner contracts | Registration is not completeness or implementation |\n| Minimum organization | README.md and all four category directories in §5 | Presence only; empty directories do not prove required content |\n| Source-role coverage | Explicit required responsibilities/sources and applicability under the domain contract, mapped to actual supplied content | Typical titles in §§7–10 are examples; no universal fifteen-file list is imposed |\n| Classification and placement | Each normalized source's primary responsibility, canonical membership/Family, four-value Type and justified category | Functional files are excluded from normalization; title/path alone is insufficient |\n| Maps and references | Resolving actual source/roadmap targets, declared relation kinds, relevant provenance/state and assessed stale mappings | Advisory consultation/containment is not a required service edge |\n| Findings and evidence | Checks, executor, observations, exact examined bytes, coverage limits and missing/conflicting requirements | Partial sets and unresolved requirements remain visible; no automatic whole-framework PASS |\n\nThe required responsibility inventory belongs to the relevant component owner/specification; this generic standard defines organization and evidence requirements without inventing every domain's mandatory filenames. Undefined coverage cannot be assumed complete. Identify a missing owner inventory as an unresolved requirement, and record each required role as satisfied, unmet or not applicable with its actual evidence. An example role may be optional; a declared mandatory role cannot be silently waived.\n\nA complete set must satisfy the organization checks and its declared applicable source-role requirements. A partial set is reported as incomplete or not verified for complete-set conformance. In this corpus, Metadata, Document Identity, Classification and Templates provide README and all four directories, while map/content/classification checks remain pending. The added Reviews set supplies Behavior/Reference sources only; README, Architecture and Structure are absent. This source introduces no exception for Reviews, fabricates no missing files and certifies neither that set nor all 23 registered capabilities as complete.\n\nA result records the exact assessed editions and declared scope. A scoped successful check is not approval, implemented conformance or Baseline membership and does not automatically apply after later edits. Integration and global owner/consumer compatibility require their own evidence.",
+      "before_sha256": "51c3c72a8ba110b1be6f13b7f8e3f8c6be6482db9d520c634edaa4190de718dc",
+      "after_sha256": "9332443f55a7725a535dd53b5b9d5a04e6599011ade5dbc049e21e7970145d36"
+    },
+    "17": {
+      "before": "",
+      "after": "The following supplied sources identify applicable roles. A resolving reference proves neither approval nor completed peer reconciliation; unreconciled received wording remains subject to its scheduled cycle.",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "2d9c753e63304452ae2e8535a59587c3bbe589d65ed9ae9dbf0fa0cadb3ec617"
+    },
+    "17.1": {
+      "before": "- DF-FND-001 — Framework Manifest\n- DF-FND-004 — Architectural Blueprint",
+      "after": "- [DF-FND-001 — Framework Manifest](../00-Foundation/DF-FND-001-FrameworkManifest.md): normalized/functional distinction and documentary responsibilities.\n- [DF-FND-004 — Architectural Blueprint](../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md): architecture, owner boundaries and exact-edition concepts; earlier validation retains its scope.",
+      "before_sha256": "ee1612f1568b97738dc58ff525b37542de66cad8da8158ac0c3abf5384834c89",
+      "after_sha256": "1f9a3d10136513114dbc72667eec336c6ea10cc4bcafb0d9ba54f66003a58232"
+    },
+    "17.2": {
+      "before": "- DF-ARC-001 — Architecture Overview\n- DF-ARC-002 — Architectural Principles\n- DF-ARC-004 — Architectural Layers\n- DF-ARC-005 — Architectural Components\n- DF-ARC-006 — Terminology",
+      "after": "- [DF-ARC-001 — Architecture Overview](DF-ARC-001-ArchitectureOverview.md): received overview; remaining count/relationship reconciliation pending.\n- [DF-ARC-002 — Architectural Principles](DF-ARC-002-ArchitecturalPrinciples.md): design principles; received broad independence/extension interpretations remain scheduled work.\n- [DF-ARC-004 — Architectural Layers](DF-ARC-004-ArchitecturalLayers.md): primary structural allocation and scoped required-dependency constraints.\n- [DF-ARC-005 — Architectural Components](DF-ARC-005-ArchitecturalComponents.md): 23 capability boundaries/register, semantic owners and executor/evidence limits.\n- [DF-ARC-006 — Terminology](DF-ARC-006-Terminology.md): supplied vocabulary; remaining abbreviated owner definitions pending.\n\nThe working review conventions are defined by [DF-RVW-001 — Review Policy](../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md), and actual correction/evidence states by [DF-RVW-002 — Review Report](../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md). Domain semantic reconciliation remains with Metadata, Document Identity, Classification, Templates and other responsible sources; these references do not create new owners or operational dependencies.",
+      "before_sha256": "18d17f7a3eecc8c15628c5b6d6235e578c1a527544f0c59a180422f0946025b5",
+      "after_sha256": "f4ea4e1ca42eaeaec70e8c6e22ea89c1c291de013a069b9f1dc34ad949e0dc80"
+    },
+    "18": {
+      "before": "This standard is:\n\n- normative;\n- architecture-oriented;\n- technology independent;\n- implementation independent;\n- reusable;\n- extensible.\n\nIt provides a uniform documentation structure for every Documentation Framework component.",
+      "after": "This is a normative **organization contract within its declared scope**, not evidence of a published standard, approved edition or implemented component. It defines responsibilities and constraints rather than a platform or storage implementation.\n\nThe common structure is reusable and extensible under applicable contracts and assessed transitions. Technology independence does not eliminate actual file formats, directories, storage adapters or executor requirements. Organization conformance, semantic conformance and operational outcomes have separate evidence.\n\nUniformity applies to the complete-set contract; partial sources and unmet criteria remain reported. This source establishes no global conformity, required-graph completeness or quality guarantee for the corpus.",
+      "before_sha256": "65ae944d3c466b604b0661f138d33b67cf4d01a79148c2f05c6a08cd73b28a8d",
+      "after_sha256": "9a98803e8d80b278df96f71b61e6d7c8b192376f9107684358d6a5a9118e3098"
+    },
+    "19": {
+      "before": "Future versions of this document may define:\n\n- additional documentation categories;\n- recommended document templates;\n- component maturity levels;\n- documentation quality metrics;\n- documentation review guidelines.\n\nSuch additions shall preserve backward compatibility whenever possible.",
+      "after": "Future editions may add justified topic roles, recommended templates, maturity assessment or documentation-quality/review guidance. Such additions use the existing four categories and Types according to primary responsibility; a new topic is not a fifth Type. Revising the taxonomy or organization contract requires an explicit assessed rule change, not an implied category extension.\n\nIdentify previous/new organization or responsibility mapping, rationale, affected owners/consumers and exact source editions before propagation. Preserve compatible meaning where feasible. Necessary incompatible changes require explicit justification, transition evidence and verification; a new role or template is not assumed harmless.\n\nUnder the working review policy, compatible correction retains Version; compatible additive capability increments minor; incompatible contract change increments major and resets minor to 0. Every changed persisted edition increments Revision monotonically across Version changes. Validation with unchanged source retains both coordinates and is recorded centrally. No version number alone proves consumer compatibility or completed rollout.",
+      "before_sha256": "fec6a4bf71dac467e7258a90ac5f0d0e087828abbfd75f8bf3d2cfb6cb7df971",
+      "after_sha256": "7ec9c44b7d0d2b29116f241e50763a1204f3cd067aba9bd337a765efdd0a8e05"
+    },
+    "20": {
+      "before": "| Version | Description |\n|----------|-------------|\n| 1.0 | Initial definition of the canonical Component Documentation Structure. |",
+      "after": "| Date | Version | Revision | Contribution/event | State/evidence |\n|---|---|---|---|---|\n| Not supplied | 1.0 | 0 | Received initial definition of the canonical Component Documentation Structure; Author absent | Architecture/Standard; Class Architecture; Draft/Baseline1.0 declarations preserved; no historic approval/selection inferred |\n| 2026-10-14 | 2.0 | 1 | Codex — AI assistant: organization/applicability, domain role/authority distinctions, scoped conformance, four typed views, actual roadmap links and history | Architecture/Structure; Draft; Baseline Not assigned; ten corrections pending VALIDATE DOCUMENT; CHANGELOG #301; Review Report §37 |\n\nInput SHA-256: `e0840a725ed0214e37d78be25d664615c4c43fea4e535334dfe47e55d20d5481`. The received leading U+0007 and four unnamed views are preserved in exact input, diff and provenance evidence; this successor removes the control character and uses original-section anchors rather than invented historic view IDs.\n\nActual contribution is separate from user authorization, review, validation, ownership and approval. Mixed contributions preserve their attribution. Later human/tool disk edits require resulting-edition/byte assessment; previous results do not transfer automatically or assign responsibility for consequences of the final changed product. No original author or historic event date is invented.",
+      "before_sha256": "4bff038c6dbdd5b57fb37736d0a93e8f7a55bd80371193772fb4af78305a8070",
+      "after_sha256": "73ad731a83c919214461f1c67f05aecbc2871f5f6d5fd026ce2b5d403aad9dc1"
+    }
+  },
+  "views": [
+    {
+      "original_section": "4",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n         Documentation Framework\n                    │\n                    ▼\n\n\t\t   Architectural Layer\n                    │\n                    ▼\n\n                Component\n                    │\n                    ▼\n\n\n                    Component Documentation\n                    │\n                    ├── README\n                    │\n                    ├── Architecture\n                    │\n                    ├── Structure\n                    │\n                    ├── Behavior\n                    │\n                    └── Reference\n\n```",
+      "original_view_sha256": "a342e1515d2ffe084bd6c31d83a78ea6e63b0b49db9b3339da617ef1115897be",
+      "hash_encoding": "UTF-8 received text, CRLF normalized to LF",
+      "proposed_relation": "Primary allocation and documentary containment",
+      "working_anchor": "original-section-view: 4",
+      "relation_interpretation": "Primary allocation and documentary containment"
+    },
+    {
+      "original_section": "5",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n                    <Component>/\n                    │\n                    ├── README.md\n                    │\n                    ├── 01-Architecture/\n                    │\n                    ├── 02-Structure/\n                    │\n                    ├── 03-Behavior/\n                    │\n                    └── 04-Reference/\n\n```",
+      "original_view_sha256": "e4c9db0d45890881cb7c73f0b3c6eac35aa204d7ae0f2ef90e8b044b1c12beaf",
+      "hash_encoding": "UTF-8 received text, CRLF normalized to LF",
+      "proposed_relation": "Physical component documentation organization",
+      "working_anchor": "original-section-view: 5",
+      "relation_interpretation": "Physical component documentation organization"
+    },
+    {
+      "original_section": "11",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n                  README\n                    │\n                    ▼\n\n               Architecture\n                    │\n                    ▼\n\n                 Concepts\n                    │\n                    ▼\n\n                  Model\n                    │\n                    ▼\n\n                Elements\n                    │\n                    ▼\n\n                Structure\n                    │\n                    ▼\n\n                 Behavior\n                    │\n                    ▼\n\n                Reference\n\n```",
+      "original_view_sha256": "0b777431761f1136f3529a5270251114dce7e97e1ff7723054ef4e585723e2d0",
+      "hash_encoding": "UTF-8 received text, CRLF normalized to LF",
+      "proposed_relation": "Recommended consultation order; not dependency/execution",
+      "working_anchor": "original-section-view: 11",
+      "relation_interpretation": "Recommended consultation order; not dependency/execution"
+    },
+    {
+      "original_section": "15",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n                    docs/\n                    └── 06-Roadmaps/\n\n```",
+      "original_view_sha256": "4a258169a466add63db5717827e7f31617557aa90019fe2c2756c6e291f46d06",
+      "hash_encoding": "UTF-8 received text, CRLF normalized to LF",
+      "proposed_relation": "Actual central planning location; not a new Layer",
+      "working_anchor": "original-section-view: 15",
+      "relation_interpretation": "Actual central planning location; not a new Layer"
+    }
+  ],
+  "view_ids": [],
+  "unnamed_view_sections": [
+    "4",
+    "5",
+    "11",
+    "15"
+  ],
+  "added_sections": [
+    "20.1",
+    "20.2"
+  ],
+  "applied_map": [
+    {
+      "id": "ARC007-01",
+      "severity": "Medium",
+      "sections": "Header,1,2,20",
+      "before": "Type=Standard is outside the adopted enumeration. Class=Architecture is supplied without an additional semantic definition. Family=Architecture is appropriate for a common non-component organization contract; source V1.0 R0 Draft/Baseline1.0 has no Author declaration.",
+      "proposal": "Use Type=Structure for organizational composition/restrictions, retain Family Architecture and stable DF-ARC-007/path. Reconcile Class rather than invent a mandatory vocabulary; omit it from the successor unless a distinct defined meaning is evidenced. Preserve received declarations and absent Author, and record actual contribution independently of authorization/approval.",
+      "closure_criterion": "Header/rationale uses the four Types, stable identity, evidence-based optional Class and actual attribution; original declarations remain traceable.",
+      "related_records": "REV2-03; REV2-12; Review Policy §§3/5/7",
+      "state": "Corrected—pending validation",
+      "applied_sections": "Header;1;2;20",
+      "after": "Architecture/Structure by organization responsibility; optional undefined Class omitted; V2.0 R1 Draft/unassigned, stable ID/path and actual contribution. Received Standard/Class/absence of Author retained in history.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC007-02",
+      "severity": "Medium",
+      "sections": "3,5,6,7,8,9,10,12,14",
+      "before": "README is a required functional entry point but the source does not distinguish normalized obligations from functional content checks. Section 12 lists README under Directory although it is a file. Category names and typical titles are not explicitly distinguished from responsibility-based Type and Family.",
+      "proposal": "State the all-location README.md/CHANGELOG.md/ArchitecturalMilestones.md normalization exclusion. Retain README content/structure/reference requirements. Separate file versus directory entries; classify normalized documents by primary responsibility using the four Types and canonical component Family independently of location, title and ID. No Schema/Dictionary/Lifecycle/Standard Type or forced migration.",
+      "closure_criterion": "Functional and normalized applicability are explicit; file/directory kinds and Family/Type/identity remain distinct throughout examples and optional additions.",
+      "related_records": "INV-02 remains Not applicable; REV2-03/04/07; Manifest §6; Review Policy §§2/3/4",
+      "state": "Corrected—pending validation",
+      "applied_sections": "3;5;6;7–10;12;14",
+      "after": "All-location functional exclusions with content/reference checks; README file versus four directories; canonical component Family and four-value Type by responsibility independent of title/path/identity. No invented Component/Class/Type or migration.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC007-03",
+      "severity": "High",
+      "sections": "7,8,14",
+      "before": "The Structure examples describe Dictionary only as component terminology. Metadata Dictionary §§1–3/6–7 owns Metadata Element definitions and an entry catalog; Schema does not own element semantics. Metadata README places Dictionary in its Reference map while the actual file is under 02-Structure. Generic Elements examples also cannot force all domains into one meaning/location.",
+      "proposal": "Describe Dictionary roles by domain: canonical element definitions/entry catalogs versus terminology consultation. Preserve Dictionary/Schema/Profile/Instance owner distinctions and responsibility-based placement. Record received map/path differences as pending consumer reconciliation; do not silently move owner files, invent elements/Profiles or reclassify every Dictionary/Elements title automatically.",
+      "closure_criterion": "Examples support actual Metadata semantic/catalog ownership without replacing domain definitions or asserting an automatic title-based Type/path rule. Consumer discrepancies and partial coverage remain explicit.",
+      "related_records": "REV2-06/07; MTD-013 §§1–3/6–7; MTD-005 §§1–3; Metadata README Document Map",
+      "state": "Corrected—pending validation",
+      "applied_sections": "7;8;14;20.2",
+      "after": "Dictionary distinguishes element-definition/entry catalog from terminology consultation; Schema/Profile/Instance and domain ownership explicit. Titles do not force placement; received consumer map/path discrepancies remain scheduled work, no source moves or fabricated element/Profile.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC007-04",
+      "severity": "Medium",
+      "sections": "9,13,16",
+      "before": "Lifecycle is described simply as lifecycle states and Behavior as how a component behaves. Classification Lifecycle §§1–3 distinguishes definition lifecycle from documentary Version/Revision/Status and Workflow; the generic table does not identify the governed entity or execution boundary.",
+      "proposal": "Require Behavior documents to identify their subject/entity, states/transitions/rules, applicable owner and scope. Distinguish component/element/definition lifecycle from exact document-edition governance and operational execution. DF defines contracts; DMS/tool/manual executors apply them, and CMS retains its change scope.",
+      "closure_criterion": "Behavior examples preserve domain-specific subjects and exact-edition/executor distinctions; no universal Workflow state graph or implementation capability is inferred.",
+      "related_records": "REV2-08/12; CLS-006 §§1–3; ARC005 §3; Review Policy §6",
+      "state": "Corrected—pending validation",
+      "applied_sections": "3;9;13;16",
+      "after": "Behavior roles identify governed subjects, rules and scope; definition/element lifecycle, document-edition governance and maturity separate. DF contracts distinct from DMS/tool/manual execution and CMS scope; no invented transition graph.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC007-05",
+      "severity": "High",
+      "sections": "10,16,18",
+      "before": "Section 10 states Specification is normative and remaining documents informative. This blanket rule omits explicit incorporation/declaration: Metadata Specification §4 incorporates supporting documents, including Dictionary, normatively. Reference placement or a title cannot grant approval or make every other role informative.",
+      "proposal": "Separate documentation category/Type from normative or informative authority. Consolidated specifications identify applicable requirements and exact referenced sources; other documents may carry explicitly scoped normative contracts. Informative examples/recommendations are declared as such, without blanket title/directory inference. Draft presence grants no approval/publication/Baseline or implemented conformance.",
+      "closure_criterion": "Normativity follows explicit applicable declarations/references, not Type/title/directory alone; normative supporting sources and separate approval/implementation evidence remain possible.",
+      "related_records": "REV2-12; MTD-014 §4; Manifest §6; Review Policy §3.1",
+      "state": "Corrected—pending validation",
+      "applied_sections": "10;16;18",
+      "after": "Authority follows explicit applicable statements and incorporation; supporting sources can be normative. No blanket informative remainder, Type/directory approval, implemented conformance or Baseline inference.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC007-06",
+      "severity": "Medium",
+      "sections": "6,15,17",
+      "before": "Section 15 prescribes docs/06-Roadmaps/, which is not present in the supplied corpus. Actual global and four component roadmaps reside under Roadmaps/, consistent with RDM-001 §§4–5. Central storage does not make component roadmap Family a global planning area.",
+      "proposal": "Use the actual Roadmaps/ root and supplied component roadmap IDs/paths; distinguish canonical names from directory aliases. Component roadmap Family is its component, Type Behavior; global plans use Roadmap. Link real supplied sources, identify unavailable future roles without invented IDs and preserve central separation without creating a Layer or forcing moves.",
+      "closure_criterion": "All operational roadmap references resolve to actual supplied paths/identities; no absent docs/06-Roadmaps/ root or storage-based Family/Type rule remains.",
+      "related_records": "INV-07; REV2-04/12; RDM-001 §§4–5; Review Policy §3.2",
+      "state": "Corrected—pending validation",
+      "applied_sections": "6;15;17",
+      "after": "Actual Roadmaps/ root and five resolving supplied planning sources; component roadmap Family/Behavior independent of central storage. No path migration, new Layer, fabricated missing roadmap IDs or claim of corrected peer headers.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC007-07",
+      "severity": "High",
+      "sections": "3,5,6,7,8,9,10,14,16",
+      "before": "Section 16 requires required documents but never identifies a required set; §§7–10 give typical examples and §14 varies document counts. Four supplied Documentation components have the four directories and README, but the added Reviews corpus has only Behavior/Reference sources and no README/Architecture/Structure. Twenty-three registered capabilities do not imply twenty-three complete documentation sets.",
+      "proposal": "Define a testable minimum organization contract: README and the four category directories for a complete component documentation set; declare component-specific required source roles and applicability with owner evidence. Typical titles are examples, not universally mandatory files. Record partial sets and unmet requirements visibly; do not waive them silently, fabricate empty content or infer maturity/conformance from registration. Validation states exact scope/edition and checks, separate from architectural/implementation conformance and approval.",
+      "closure_criterion": "Required baseline structure, variable source roles and applicability are explicit; partial/missing coverage is reported without blanket certification, hidden exception or mandatory fifteen-file invention.",
+      "related_records": "INV-07; REV2-12; Review Policy §1/6; supplied component inventory",
+      "state": "Corrected—pending validation",
+      "applied_sections": "3;5;6;7–10;14;16;20.2",
+      "after": "Minimum README/four-category organization with owner-defined applicable required responsibilities and exact-scope evidence. Examples are not a universal fifteen-file set; empty entries do not prove content. Reviews partial and undefined/missing roles visibly unmet, no exception or global certificate.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC007-08",
+      "severity": "Medium",
+      "sections": "4,5,6,11,13,17",
+      "before": "The four unnamed views describe position, directory structure, reading sequence and roadmap location without explicit relation kinds. Independent documentation and README dependencies can be mistaken for independent owner evolution or required service/execution order.",
+      "proposal": "Type the views as primary allocation/documentary containment, physical organization, recommended consultation and central planning location. Separate logical component ownership, structural allocation, document Family/Type and paths. Reading order remains advisory; required consumer/provider contracts need their own scope/evidence and genuine cycles cannot be concealed by navigation labels.",
+      "closure_criterion": "Each view has explicit meaning and original-section provenance; no containment/reading arrow creates an undocumented required edge, automatic independence or global acyclicity.",
+      "related_records": "REV2-02; ARC004 §15; ARC005 §§3–4; Review Policy §6",
+      "state": "Corrected—pending validation",
+      "applied_sections": "4;5;6;11;13;17",
+      "after": "Four original-section views type allocation/containment, physical organization, advisory consultation and central planning. Required provider contracts separate; genuine requirements/cycles cannot be concealed by navigation labels. No required service sequence or independence guarantee.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC007-W01",
+      "severity": "Medium",
+      "sections": "1,13,18,19",
+      "before": "Consistency, maintainability, discoverability and independent understanding are stated broadly; §19 allows additional documentation categories without distinguishing new topic roles from the closed four-Type taxonomy. Physical organization is prescribed while technology independence is unqualified.",
+      "proposal": "Express quality/reuse/independent understanding as assessed objectives with owner references and coverage limits. Additional documents use the existing four categories by primary responsibility; no new Type is inferred. Organization-contract changes require owner/consumer mapping, compatibility assessment and transition evidence; necessary incompatible changes are justified/versioned, with actual formats/adapters acknowledged.",
+      "closure_criterion": "Quality/evolution claims are bounded and extensions preserve or explicitly revise the governed contract; no fifth Type, harmless extension or universally independent release guarantee remains.",
+      "related_records": "Review Policy §§3/5; ARC005 §§11/15",
+      "state": "Corrected—pending validation",
+      "applied_sections": "1;13;18;19;20.1",
+      "after": "Quality and independent understanding are assessed objectives. Additional topics reuse closed taxonomy; contract changes require owner/consumer mapping, compatibility and transition evidence. Actual incompatible normative reconciliation justifies major2.0 with monotonic Revision1.",
+      "validation_performed": false
+    },
+    {
+      "id": "ARC007-W02",
+      "severity": "Low",
+      "sections": "Header,17,20",
+      "before": "The file starts with U+0007 before its first heading. Section 17 uses seven plain supplied IDs rather than resolvable links. The V1.0 history lacks date/Revision/attribution evidence; four unnamed view texts need preservation before replacement.",
+      "proposal": "Remove the leading control character in UPDATE, preserve its received-byte evidence and all original numbers. Add resolving source-role links including policy and actual roadmaps; retain absent historic facts rather than invent authors/dates. Record actual changed edition/history, complete before/after and original view text/hashes.",
+      "closure_criterion": "Successor contains no leading BEL; links resolve intended IDs and view/input/history evidence is complete, with no fabricated historic attribution or completed peer cycles.",
+      "related_records": "Review Policy §§4/5/6/7; REV2-12",
+      "state": "Corrected—pending validation",
+      "applied_sections": "Leading byte;17;20;20.1/20.2",
+      "after": "Leading BEL removed with received-byte provenance; fourteen supplied references resolve; all original numbering, four received view texts/digests and original declarations/history preserved. No invented historic author/date or full peer cycle.",
+      "validation_performed": false
+    }
+  ],
+  "minimum_organization": {
+    "README.md": "non-normalized file",
+    "01-Architecture/": "directory",
+    "02-Structure/": "directory",
+    "03-Behavior/": "directory",
+    "04-Reference/": "directory"
+  },
+  "source_role_requirement": "Declared applicable owner inventory, not a universal set of typical filenames; missing/undefined coverage visibly unresolved",
+  "impact_sources_before_apply": [
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "6",
+        "7"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle"
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "sha256": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e",
+      "sections": [
+        "4"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle"
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md",
+      "sha256": "fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e",
+      "sections": [
+        "1",
+        "2",
+        "3"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle"
+    },
+    {
+      "path": "Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "sha256": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224",
+      "sections": [
+        "4",
+        "5"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9",
+      "sections": [
+        "3",
+        "4"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec",
+      "sections": [
+        "15"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle"
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "sections": [
+        "6"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle"
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md",
+      "sha256": "1ed13b4f94564703e5b5af1268941e21a329cfc62b9c67e3f69cc63b8c2fa302",
+      "sections": [
+        "1",
+        "2",
+        "3"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no peer cycle"
+    },
+    {
+      "path": "02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md",
+      "sha256": "bb711768b70f6724e6bc00e8e63eaf9310830f98115a91715a231ea6e770598a",
+      "sections": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no peer cycle"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no peer cycle"
+    },
+    {
+      "path": "02-Documentation/Metadata/README.md",
+      "sha256": "0a2091d1de0b64e1f470dd30479b6c50202748311a4ac2a6d472d40258b93d72",
+      "sections": "Complete README",
+      "scope": "Content/reference comparison only; non-normalized; no full component validation"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/README.md",
+      "sha256": "2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7",
+      "sections": "Document Organization; Structure map; Recommended Reading Order; Related Roadmap; Conformance",
+      "scope": "Content/reference comparison only; non-normalized; no full component validation"
+    },
+    {
+      "path": "02-Documentation/Classification/README.md",
+      "sha256": "452c9910cdb26654cf475c21f6c4b3bf13f624d1c4b3bfd88538d818a1474c18",
+      "sections": "§§7/8/16",
+      "scope": "Content/reference comparison only; non-normalized; no full component validation"
+    },
+    {
+      "path": "02-Documentation/Templates/README.md",
+      "sha256": "cf4866ed4e449d8542ecd5f11d19c21ffdd91b6a3d4f807dce55da59cd7b693a",
+      "sections": "Documentation Structure; Development Roadmap; Conformance; related components/roadmap",
+      "scope": "Content/reference comparison only; non-normalized; no full component validation"
+    }
+  ],
+  "references_before_central_update": [
+    {
+      "label": "DF-RDM-001 — Documentation Framework Roadmap",
+      "target": "../Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "path": "Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "expected_id": "DF-RDM-001",
+      "declared_id": "DF-RDM-001",
+      "sha256_before_central_update": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224"
+    },
+    {
+      "label": "DF-RDM-010 — Metadata Roadmap",
+      "target": "../Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md",
+      "path": "Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md",
+      "expected_id": "DF-RDM-010",
+      "declared_id": "DF-RDM-010",
+      "sha256_before_central_update": "43b692c6521c6d0d87d7ea37f7030c2f2c768f113165d069b5d72f47901402ed"
+    },
+    {
+      "label": "DF-RDM-020 — Document Identity Roadmap",
+      "target": "../Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md",
+      "path": "Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md",
+      "expected_id": "DF-RDM-020",
+      "declared_id": "DF-RDM-020",
+      "sha256_before_central_update": "6ef6e9e51cf1c097eccb0b1ebe87c2b0ed34386b2eaaaccd52f3c60830b1e301"
+    },
+    {
+      "label": "DF-RDM-030 — Classification Roadmap",
+      "target": "../Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md",
+      "path": "Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md",
+      "expected_id": "DF-RDM-030",
+      "declared_id": "DF-RDM-030",
+      "sha256_before_central_update": "aa99f796a1443196f851fcbe7e89eab21f039e6e052fc4c7f9ec48498845e3b2"
+    },
+    {
+      "label": "DF-RDM-040 — Templates Roadmap",
+      "target": "../Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md",
+      "path": "Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md",
+      "expected_id": "DF-RDM-040",
+      "declared_id": "DF-RDM-040",
+      "sha256_before_central_update": "c2f539f513ca4b0943fe56771cd98d982ffd8dffdc93fe94d6f7817dfcf833bf"
+    },
+    {
+      "label": "DF-FND-001 — Framework Manifest",
+      "target": "../00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "expected_id": "DF-FND-001",
+      "declared_id": "DF-FND-001",
+      "sha256_before_central_update": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96"
+    },
+    {
+      "label": "DF-FND-004 — Architectural Blueprint",
+      "target": "../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "expected_id": "DF-FND-004",
+      "declared_id": "DF-FND-004",
+      "sha256_before_central_update": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6"
+    },
+    {
+      "label": "DF-ARC-001 — Architecture Overview",
+      "target": "DF-ARC-001-ArchitectureOverview.md",
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "expected_id": "DF-ARC-001",
+      "declared_id": "DF-ARC-001",
+      "sha256_before_central_update": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d"
+    },
+    {
+      "label": "DF-ARC-002 — Architectural Principles",
+      "target": "DF-ARC-002-ArchitecturalPrinciples.md",
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "expected_id": "DF-ARC-002",
+      "declared_id": "DF-ARC-002",
+      "sha256_before_central_update": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53"
+    },
+    {
+      "label": "DF-ARC-004 — Architectural Layers",
+      "target": "DF-ARC-004-ArchitecturalLayers.md",
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "expected_id": "DF-ARC-004",
+      "declared_id": "DF-ARC-004",
+      "sha256_before_central_update": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec"
+    },
+    {
+      "label": "DF-ARC-005 — Architectural Components",
+      "target": "DF-ARC-005-ArchitecturalComponents.md",
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "expected_id": "DF-ARC-005",
+      "declared_id": "DF-ARC-005",
+      "sha256_before_central_update": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9"
+    },
+    {
+      "label": "DF-ARC-006 — Terminology",
+      "target": "DF-ARC-006-Terminology.md",
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "expected_id": "DF-ARC-006",
+      "declared_id": "DF-ARC-006",
+      "sha256_before_central_update": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb"
+    },
+    {
+      "label": "DF-RVW-001 — Review Policy",
+      "target": "../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "expected_id": "DF-RVW-001",
+      "declared_id": "DF-RVW-001",
+      "sha256_before_central_update": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb"
+    },
+    {
+      "label": "DF-RVW-002 — Review Report",
+      "target": "../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "expected_id": "DF-RVW-002",
+      "declared_id": "DF-RVW-002",
+      "sha256_before_central_update": "d5398fa4aae093fe5b22de0839df2ce57f721abe3d5a5014a22d8207ad5c11ed"
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Corrected—pending validation": 10,
+    "Closed—verified": 87,
+    "Not applicable—scope decision": 1
+  },
+  "source_validation_performed": false,
+  "construction_checks": {
+    "input_exact_review_hash": true,
+    "source_matches_written_successor": true,
+    "header_contract": true,
+    "Class_omitted_preserved_history": true,
+    "leading_BEL_removed_retained_input": true,
+    "28_original_sections_retained": true,
+    "twenty_chapters": true,
+    "two_added_sections": true,
+    "all_original_body_changes_mapped": true,
+    "four_original_view_texts_hashes": true,
+    "four_balanced_section_views": true,
+    "eleven_rectangular_source_tables": true,
+    "14_reference_IDs_resolve": true,
+    "five_actual_roadmap_references": true,
+    "minimum_entries_typed": true,
+    "partial_Reviews_no_exception": true,
+    "owner_roles_not_universal_filenames": true,
+    "original_history_and_pending_attribution": true,
+    "literal_material_excerpts_match": true,
+    "CRLF_preserved": true,
+    "all_compared_sources_preserved": true,
+    "69_other_original_normalized_sources_unchanged": true,
+    "nine_prior_validated_sources_preserved": true,
+    "all_other_MD_sources_preserved": true,
+    "six_READMEs_unchanged": true,
+    "eight_functional_records_excluded": true,
+    "89_stable_matrix_positions": true,
+    "matrix_current_hashes": true,
+    "sequence_303_to_1": true,
+    "prior_events_preserved": true,
+    "M10_and_M0_M7_preserved": true,
+    "M11_three_C_one_S_three_O": true,
+    "historical_report_sections_preserved": true,
+    "new_report_tables_rectangular": true
+  },
+  "construction_check_scope": "UPDATE integrity/traceability only; not VALIDATE DOCUMENT or finding closure"
+}

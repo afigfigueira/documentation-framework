@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 30 |
+| **Revision** | 31 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -77,6 +77,8 @@ Revision 28 records Step4.09 UPDATE in §34 on2026-10-05. Components now V2.0 R1
 Revision 29 records Step 4.09 VALIDATE DOCUMENT in §35 on 2026-10-05. Components V2.0 R1 remains unchanged Architecture/Structure, Draft/unassigned; ten local verified closures. Current totals: 19 Open, 87 Closed—verified, one Not applicable—scope decision. M11 three C/four O, In Progress. Next: 4.10 REVIEW DF-ARC-007.
 
 Revision 30 adds Step 4.10 Component Documentation Structure REVIEW in §36 on 2026-10-14. Source V1.0 R0 remains unchanged; eight findings/two warnings Open. Current totals: 29 Open, 87 Closed—verified, one Not applicable—scope decision. M11 three C/one S/three O, In Progress. Next: 4.10 UPDATE DF-ARC-007.
+
+Revision 31 records Step 4.10 UPDATE in §37 on 2026-10-14. ARC-007 becomes V2.0 R1 Architecture/Structure Draft/unassigned; ten corrections pending VALIDATE DOCUMENT. Totals: 19 Open, ten Corrected—pending validation, 87 Closed—verified, one Not applicable—scope decision. §36 retains REVIEW-time states. Next: 4.10 VALIDATE DOCUMENT.
 
 ## 2. Concrete changes — before/after
 
@@ -192,6 +194,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-05 | 1.0 | 28 | Step4.09 Components UPDATE V2.0 R1 Structure; ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #292 |
 | 2026-10-05 | 1.0 | 29 | Step 4.09 exact Components validation; ten local verified closures; source unchanged | Draft; Baseline Not assigned; V2.0 R1 retained; #294–296 |
 | 2026-10-14 | 1.0 | 30 | Step 4.10 Component Documentation Structure REVIEW; ten local records Open; source unchanged | Draft; Baseline Not assigned; #297–300; REVIEW evidence checks only |
+| 2026-10-14 | 1.0 | 31 | Step 4.10 ARC-007 UPDATE V2.0 R1 Structure; ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #302 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -2794,3 +2797,84 @@ Evidence checks protect exact source/input/R29 checkpoint, complete section/tabl
 ### 36.6. Next command
 
 **CONTINUAR** starts **4.10 — UPDATE DF-ARC-007 — Component Documentation Structure**, applying the localized corrections with actual compatibility assessment, full source/history/diff and tracking, then pauses before VALIDATE DOCUMENT.
+
+
+## 37. Step 4.10 — UPDATE DF-ARC-007 — Component Documentation Structure
+
+### 37.1. Actual successor and compatibility
+
+**UPDATE complete; VALIDATE DOCUMENT pending.** Received V1.0 R0, Architecture/Standard, Class Architecture, Draft/Baseline1.0 becomes **V2.0 R1, Architecture/Structure, Draft, Baseline Not assigned, English**. Organization/composition/restrictions justify primary Type Structure. Class is omitted from the successor because no distinct applicable meaning was supplied; original declaration remains in history. Stable DF-ARC-007/path; no new Component or ID migration. The actual working contribution is Codex — AI assistant, distinct from authorization/review/approval; original Author remains absent.
+
+Input SHA-256: `e0840a725ed0214e37d78be25d664615c4c43fea4e535334dfe47e55d20d5481`. Output SHA-256: `2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e` (31,622 bytes; 367 lines; CRLF retained).
+
+**Actual compatibility: incompatible normative contract reconciliation.** The delivered source replaces §10's blanket authority/informative remainder, §16's undefined required-document conformance and missing normalized/functional responsibility boundaries with explicit scoped authority, a testable minimum organization plus owner-defined required-role coverage and uniform classification. Earlier blanket authority and assumed complete coverage are no longer permitted interpretations. Type, roadmap spelling, links and control-character corrections alone are compatible; the changed governed interpretation justifies major Version1.0→2.0, minor0. Declared Revision0 increments to1 without reset. Report R30→R31 is compatible informational tracking and retains Version1.0.
+
+No prior approval, publication or Baseline is inherited. The leading U+0007 is removed from the successor and retained in input/diff provenance. All original source bytes, twenty chapters and 28 numbered sections remain traceable; two added sections provide compatibility and propagation limits.
+
+### 37.2. Applied corrections and exact material before/after
+
+| Record | Written source scope | Before | Actual written result | State |
+|---|---|---|---|---|
+| ARC007-01 | Header;1;2;20 | Type=Standard is outside the adopted enumeration. Class=Architecture is supplied without an additional semantic definition. Family=Architecture is appropriate for a common non-component organization contract; source V1.0 R0 Draft/Baseline1.0 has no Author declaration. | Architecture/Structure by organization responsibility; optional undefined Class omitted; V2.0 R1 Draft/unassigned, stable ID/path and actual contribution. Received Standard/Class/absence of Author retained in history. | Corrected—pending validation |
+| ARC007-02 | 3;5;6;7–10;12;14 | README is a required functional entry point but the source does not distinguish normalized obligations from functional content checks. Section 12 lists README under Directory although it is a file. Category names and typical titles are not explicitly distinguished from responsibility-based Type and Family. | All-location functional exclusions with content/reference checks; README file versus four directories; canonical component Family and four-value Type by responsibility independent of title/path/identity. No invented Component/Class/Type or migration. | Corrected—pending validation |
+| ARC007-03 | 7;8;14;20.2 | The Structure examples describe Dictionary only as component terminology. Metadata Dictionary §§1–3/6–7 owns Metadata Element definitions and an entry catalog; Schema does not own element semantics. Metadata README places Dictionary in its Reference map while the actual file is under 02-Structure. Generic Elements examples also cannot force all domains into one meaning/location. | Dictionary distinguishes element-definition/entry catalog from terminology consultation; Schema/Profile/Instance and domain ownership explicit. Titles do not force placement; received consumer map/path discrepancies remain scheduled work, no source moves or fabricated element/Profile. | Corrected—pending validation |
+| ARC007-04 | 3;9;13;16 | Lifecycle is described simply as lifecycle states and Behavior as how a component behaves. Classification Lifecycle §§1–3 distinguishes definition lifecycle from documentary Version/Revision/Status and Workflow; the generic table does not identify the governed entity or execution boundary. | Behavior roles identify governed subjects, rules and scope; definition/element lifecycle, document-edition governance and maturity separate. DF contracts distinct from DMS/tool/manual execution and CMS scope; no invented transition graph. | Corrected—pending validation |
+| ARC007-05 | 10;16;18 | Section 10 states Specification is normative and remaining documents informative. This blanket rule omits explicit incorporation/declaration: Metadata Specification §4 incorporates supporting documents, including Dictionary, normatively. Reference placement or a title cannot grant approval or make every other role informative. | Authority follows explicit applicable statements and incorporation; supporting sources can be normative. No blanket informative remainder, Type/directory approval, implemented conformance or Baseline inference. | Corrected—pending validation |
+| ARC007-06 | 6;15;17 | Section 15 prescribes docs/06-Roadmaps/, which is not present in the supplied corpus. Actual global and four component roadmaps reside under Roadmaps/, consistent with RDM-001 §§4–5. Central storage does not make component roadmap Family a global planning area. | Actual Roadmaps/ root and five resolving supplied planning sources; component roadmap Family/Behavior independent of central storage. No path migration, new Layer, fabricated missing roadmap IDs or claim of corrected peer headers. | Corrected—pending validation |
+| ARC007-07 | 3;5;6;7–10;14;16;20.2 | Section 16 requires required documents but never identifies a required set; §§7–10 give typical examples and §14 varies document counts. Four supplied Documentation components have the four directories and README, but the added Reviews corpus has only Behavior/Reference sources and no README/Architecture/Structure. Twenty-three registered capabilities do not imply twenty-three complete documentation sets. | Minimum README/four-category organization with owner-defined applicable required responsibilities and exact-scope evidence. Examples are not a universal fifteen-file set; empty entries do not prove content. Reviews partial and undefined/missing roles visibly unmet, no exception or global certificate. | Corrected—pending validation |
+| ARC007-08 | 4;5;6;11;13;17 | The four unnamed views describe position, directory structure, reading sequence and roadmap location without explicit relation kinds. Independent documentation and README dependencies can be mistaken for independent owner evolution or required service/execution order. | Four original-section views type allocation/containment, physical organization, advisory consultation and central planning. Required provider contracts separate; genuine requirements/cycles cannot be concealed by navigation labels. No required service sequence or independence guarantee. | Corrected—pending validation |
+| ARC007-W01 | 1;13;18;19;20.1 | Consistency, maintainability, discoverability and independent understanding are stated broadly; §19 allows additional documentation categories without distinguishing new topic roles from the closed four-Type taxonomy. Physical organization is prescribed while technology independence is unqualified. | Quality and independent understanding are assessed objectives. Additional topics reuse closed taxonomy; contract changes require owner/consumer mapping, compatibility and transition evidence. Actual incompatible normative reconciliation justifies major2.0 with monotonic Revision1. | Corrected—pending validation |
+| ARC007-W02 | Leading byte;17;20;20.1/20.2 | The file starts with U+0007 before its first heading. Section 17 uses seven plain supplied IDs rather than resolvable links. The V1.0 history lacks date/Revision/attribution evidence; four unnamed view texts need preservation before replacement. | Leading BEL removed with received-byte provenance; fourteen supplied references resolve; all original numbering, four received view texts/digests and original declarations/history preserved. No invented historic author/date or full peer cycle. | Corrected—pending validation |
+
+The following are selected literal material excerpts, not complete section replacements. Full original/actual section bodies and hashes, header, leading-byte change, added sections and received view text/digests are in `DF-RVW-002-update-4-10-map.json`. The complete source/central diff is `DF-RVW-002-update-4-10.diff`.
+
+| Section | Actual before excerpt | Actual written excerpt | Reason/impact |
+|---|---|---|---|
+| 2 | - define the canonical documentation structure for components; | The primary responsibility is structural: organize component documentation, distinguish functional entry points from normalized sources, define category composition and placement constraints, and provide testable organization criteria. | Organization responsibility; scope/evidence instead of title-based Standard Type. |
+| 8 | \| Dictionary \| Defines architectural terminology specific to the component. \| | \| Dictionary or entry catalog \| Organizes authoritative domain definitions/records when catalog composition is primary; not limited to terminology \| | Element-definition/catalog roles retained alongside terminology; no automatic title-based classification. |
+| 10 | The remaining documents are informative. | Normative or informative authority follows explicit applicable declarations and incorporation of identified sources/editions. | Explicit authority/incorporation replaces blanket informative remainder. |
+| 11 | Documentation should be read in the following sequence. | The order supports incremental understanding and can be adapted to the reader's task and supplied sources. | Advisory consultation, not required runtime/development sequence. |
+| 15 | docs/ | In the supplied corpus, component Roadmaps are maintained centrally under **Roadmaps/**, outside the component documentation directories. | Actual supplied root and resolving IDs; no migration or invented Layer. |
+| 16 | - required documents are present; | The required responsibility inventory belongs to the relevant component owner/specification; this generic standard defines organization and evidence requirements without inventing every domain's mandatory filenames. | Applicable owner evidence and explicit unmet coverage; no universal fifteen-file list. |
+| 13.4 | Each component can be understood independently. | Support focused consultation with explicit provider/owner references. | Independent understanding qualified by actual owner/provider contracts. |
+| 19 | - additional documentation categories; | Such additions use the existing four categories and Types according to primary responsibility; a new topic is not a fifth Type. | Topic extension preserves the closed taxonomy unless a rule change is explicitly assessed. |
+
+All twenty chapters and 28 original numbered sections retain their numbers, including the normalized heading punctuation in §13.5. 28 original section bodies changed. Added §§20.1–20.2 provide compatibility and propagation evidence. Four originally unnamed views become typed tables: allocation/documentary containment (§4), physical set organization (§5), recommended consultation (§11) and supplied central planning sources (§15). Original-section anchors preserve provenance without invented historical view IDs. Received view texts use explicit UTF-8/CRLF-normalized-to-LF digest encoding; exact file bytes have separate SHA-256 protection.
+
+### 37.3. Actual organization, authority and consumer impact
+
+The complete-set minimum is README.md plus 01-Architecture/02-Structure/03-Behavior/04-Reference directories. README is a functional file; category entries are directories. Empty directories satisfy only presence, not source-role coverage. Required domain responsibilities come from identified owner inventories/specifications and map to actual applicable content; undefined inventories and missing mandatory roles remain unresolved. Typical Architecture/Concepts/Model/Elements/Schema/Lifecycle/Specification titles are examples, not fifteen universally required files. Optional topic roles remain within the four-Type responsibility contract.
+
+The source explicitly reports Reviews' incomplete set without exempting it, creating empty content or certifying conformance. The four original Documentation sets have the minimum entries, but have not passed full content/map/semantic/classification conformance. All 23 registered capabilities are not assumed to have complete documentation or implementations merely from registration.
+
+Metadata Dictionary/Schema/Profile/Instance and domain-owner distinctions support definition/catalog versus terminology roles. A Lifecycle identifies its governed entity: definition/element lifecycle is distinct from document edition, Workflow and maturity. DF contract definitions are distinct from DMS/tool/manual execution and CMS change scope. This organization synopsis creates no missing canonical Element, Profile or domain transition graph.
+
+Normative authority follows explicit declaration/incorporation and scope. Supporting sources can be normative; neither Reference placement nor a Specification title grants approval or makes all other documents informative. Conformance evidence identifies exact set/editions, applicability, checks, observations/executor and limits; organization PASS would be separate from domain architecture, implemented behavior, approval, publication and Baseline membership.
+
+Five planning references use the supplied Roadmaps/ root: RDM-001 and RDM-010/020/030/040. Their table states the adopted classification rule, not a completed change to received roadmap headers. Central storage does not determine Family, create a Layer or force a reading/development sequence. The original seven Foundation/Architecture roles become resolving links, with the actual review policy/report added: fourteen operational references in total.
+
+All compared domain sources and README maps remain unchanged. Metadata README still maps Dictionary to Reference while its file is under Structure; Document Identity README maps Elements to Structure while the source is in Architecture; Templates README illustrates direct filenames rather than actual category paths. These are scheduled consumer reconciliation, not silent title-based migration. Roadmap headers and detailed owner inventories retain their own cycles. Complete graph, consumer compatibility, canonical catalog/Profile and identity/classification reconciliation remain pending.
+
+Affected source coverage/digests are retained in the map: MTD-013 §§1/2/3/6/7; MTD-014 §4; CLS-006 §§1/2/3; RDM-001 §§4/5; ARC-005 §§3/4; ARC-004 §15; FND-001 §6; MTD-005 §§1/2/3; TPL-005 §§1.1/1.2/1.3; RVW-001 §§1–7; complete Metadata README and the recorded selected Document Identity/Classification/Templates README organization/map/reading/roadmap/conformance sections. All comparison hashes were checked before application; these are partial comparisons and do not complete peer cycles. Nine prior exact-source validations retain their original scope.
+
+### 37.4. Local history, central tracking and construction evidence
+
+The actual source §20 preserves the received initial V1.0 definition, absent date/Author and R0/Class/Status/Baseline declarations. Its new 2026-10-14 V2.0 R1 row attributes the actual contribution and marks all ten corrections pending validation, with CHANGELOG #301 and report §37. The input digest, leading control character and four received views are preserved. Later changes on disk need resulting-byte assessment; user authorization does not replace actual authorship or assign responsibility for consequences of a subsequently changed product.
+
+| Item | Before | After |
+|---|---|---|
+| Source | V1.0 R0 Architecture/Standard, Class Architecture, Draft/Baseline1.0 | V2.0 R1 Architecture/Structure, Class omitted, Draft/unassigned |
+| Local records | Ten Open | Ten Corrected—pending validation |
+| Review Report | V1.0 R30 | V1.0 R31, technical English, Draft/unassigned |
+| CHANGELOG | Through #300 | #301 source UPDATE; #302 report; #303 milestone tracking |
+| M11 | Three C, ARC-007 S, three O; In Progress | Same counts; ARC-007 UPDATE complete/VALIDATE pending, no completion date |
+
+Current totals: **19 Open, ten Corrected—pending validation, 87 Closed—verified, one Not applicable—scope decision**. No finding is closed during UPDATE. M10 and M0–M7 remain unchanged; M9 cites R31 without extending original acceptance. Previous REVIEW/UPDATE/VALIDATE events retain their historical wording and scopes.
+
+Construction checks protect exact input/output, original section preservation, before/after and view digests, header/leading-byte/CRLF, all source tables, reference identity resolution, compared-source and earlier-source preservation, stable matrix positions, current hashes and central history. These are UPDATE construction checks, not VALIDATE DOCUMENT; `DF-RVW-002-update-4-10-construction.json` records their actual results. Complete exact-source validation and all ten closure criteria remain pending.
+
+R30 exports remain historical REVIEW evidence. R31 current progress/manifest/map/diff and `Context-Working-Step-4-10-Update.zip` record this interim successor. No final Context-Reviewed.zip, integrated conformity, approval, publication or Baseline is claimed.
+
+### 37.5. Next command
+
+**CONTINUAR** starts **4.10 — VALIDATE DOCUMENT DF-ARC-007 — Component Documentation Structure**, verifying the exact successor, ten closure criteria and affected comparisons, then pauses before the next document cycle.

@@ -1,0 +1,2 @@
+﻿Parent,Report edition,Source,Family before,Type before,Class before,Family after,Type after,Class after,Rationale,Impact
+DF-RVW-002,1.0/31,01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md,Architecture,Standard,Architecture,Architecture,Structure,Omitted; original retained,Primary organization/composition/restrictions; no distinct Class meaning supplied,Stable ID/path; no migration; actual incompatible contract reconciliation V2.0 R1
