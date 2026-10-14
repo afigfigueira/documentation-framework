@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 31 |
+| **Revision** | 32 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -79,6 +79,8 @@ Revision 29 records Step 4.09 VALIDATE DOCUMENT in §35 on 2026-10-05. Component
 Revision 30 adds Step 4.10 Component Documentation Structure REVIEW in §36 on 2026-10-14. Source V1.0 R0 remains unchanged; eight findings/two warnings Open. Current totals: 29 Open, 87 Closed—verified, one Not applicable—scope decision. M11 three C/one S/three O, In Progress. Next: 4.10 UPDATE DF-ARC-007.
 
 Revision 31 records Step 4.10 UPDATE in §37 on 2026-10-14. ARC-007 becomes V2.0 R1 Architecture/Structure Draft/unassigned; ten corrections pending VALIDATE DOCUMENT. Totals: 19 Open, ten Corrected—pending validation, 87 Closed—verified, one Not applicable—scope decision. §36 retains REVIEW-time states. Next: 4.10 VALIDATE DOCUMENT.
+
+Revision 32 records Step 4.10 VALIDATE DOCUMENT in §38 on 2026-10-14. ARC-007 V2.0 R1 remains unchanged Architecture/Structure, Draft/unassigned; ten local verified closures. Current totals: 19 Open, 97 Closed—verified, one Not applicable—scope decision. M11 four C/three O, In Progress. Next: 4.11 REVIEW DF-ARC-006.
 
 ## 2. Concrete changes — before/after
 
@@ -195,6 +197,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-05 | 1.0 | 29 | Step 4.09 exact Components validation; ten local verified closures; source unchanged | Draft; Baseline Not assigned; V2.0 R1 retained; #294–296 |
 | 2026-10-14 | 1.0 | 30 | Step 4.10 Component Documentation Structure REVIEW; ten local records Open; source unchanged | Draft; Baseline Not assigned; #297–300; REVIEW evidence checks only |
 | 2026-10-14 | 1.0 | 31 | Step 4.10 ARC-007 UPDATE V2.0 R1 Structure; ten corrections pending validation | Draft; Baseline Not assigned; compatible informational report update; #302 |
+| 2026-10-14 | 1.0 | 32 | Step 4.10 exact ARC-007 validation; ten local verified closures; source unchanged | Draft; Baseline Not assigned; exact V2.0 R1 retained; #304–306 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -2878,3 +2881,69 @@ R30 exports remain historical REVIEW evidence. R31 current progress/manifest/map
 ### 37.5. Next command
 
 **CONTINUAR** starts **4.10 — VALIDATE DOCUMENT DF-ARC-007 — Component Documentation Structure**, verifying the exact successor, ten closure criteria and affected comparisons, then pauses before the next document cycle.
+
+
+## 38. Step 4.10 — VALIDATE DOCUMENT DF-ARC-007 — Component Documentation Structure
+
+### 38.1. Result and exact edition
+
+**PASS for the localized Component Documentation Structure correction scope, 2026-10-14.** Complete read of the 31,622-byte, 367-line source: twenty chapters, 28 original numbered sections and two added sections, eleven Markdown tables, four typed views and fourteen resolving references. Original/UPDATE body/view comparison and all ten closure criteria pass in the declared scope.
+
+Exact SHA-256: `2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e`. Architecture/Structure V2.0 R1 remains Draft, Baseline Not assigned, English. The source matches the UPDATE checkpoint and remains unchanged; validation increments neither source Version nor Revision and does not rewrite its local history.
+
+The changed normative interpretation of blanket authority/informative remainder, undefined required-document conformance and normalized/functional organization justifies V1.0 to V2.0; R0 to R1 is monotonic. Type/BEL/roadmap spelling/links alone would not justify a major change. This local result validates the standard's correction and stated comparisons, not every consuming component's conformance.
+
+UPDATE-time pending statements/history in §§20/20.2 remain event evidence. This later exact-hash central result supersedes current pending tracking without changing source bytes. Attribution, authorization, review, validation, ownership and approval remain distinct. Later disk edits require assessment of resulting bytes; previous results do not transfer automatically or establish responsibility for consequences of a changed final product. No approval, publication or Baseline membership is granted.
+
+### 38.2. Closure criteria
+
+| Record | Verified source evidence | Before | Result |
+|---|---|---|---|
+| ARC007-01 | Header;1;2;20: Header and §§1/2/20 use Architecture/Structure for primary organization, preserve stable ID/path, original Standard/Class/R0/Baseline1.0 and absent Author. Undefined Class omitted; actual Codex contribution distinct from authorization/approval. No Component invented. | Corrected—pending validation | Closed—verified |
+| ARC007-02 | 3;5;6;7–10;12;14: §3 applies all-location functional exclusions before normalization; §§5/12 type README as file and four categories as directories. §§7–10/14 classify by primary responsibility under four Types and canonical membership, independent of title/path/identity; no forced migration. | Corrected—pending validation | Closed—verified |
+| ARC007-03 | 7;8;14;20.2: §8 distinguishes element-definition/catalog from terminology consultation, with Dictionary/Schema/Profile/Instance and domain-owner limits. §§7/14 avoid universal Elements/Dictionary title rules. Metadata Dictionary/Schema comparisons support these roles; received README/path discrepancies explicitly retained in §20.2. | Corrected—pending validation | Closed—verified |
+| ARC007-04 | 3;9;13;16: §9 identifies lifecycle subject, rules and scope; Classification-definition lifecycle distinct from document edition/Workflow/maturity. §§3/9/16 separate DF contracts, DMS/tool/manual execution, CMS evidence and review/approval/publication/membership. No universal state graph or implemented service claimed. | Corrected—pending validation | Closed—verified |
+| ARC007-05 | 10;16;18: §10 makes explicit declarations/incorporation and scope determine authority, allowing normative supporting sources rather than blanket informative remainder. Metadata Specification §4 supports that distinction. §§16/18 separate normative organization, approval and implementation evidence. | Corrected—pending validation | Closed—verified |
+| ARC007-06 | 6;15;17: §15 links five actual Roadmaps sources with expected IDs and physical paths; central storage is not a Layer, Family or approval source. Table states adopted rules without falsely correcting received headers. §§6/17 retain real targets; no active link to absent docs/06-Roadmaps/ or invented future roadmap ID. | Corrected—pending validation | Closed—verified |
+| ARC007-07 | 3;5;6;7–10;14;16;20.2: §§5/6/16 specify README/four-directory minimum plus owner-declared applicable required responsibilities, exact editions/checks/evidence and explicit missing/undefined coverage. Examples are not a mandatory fifteen-file set; empty directories do not prove content. Actual four input sets have minimum entries; Reviews remains partial without hidden exception or conformance certificate. | Corrected—pending validation | Closed—verified |
+| ARC007-08 | 4;5;6;11;13;17: Four anchored views separate allocation/containment, physical organization, advisory consultation and central planning. §§4/6/11 preserve actual required contracts and prohibit hiding genuine requirements/cycles with navigation labels; no execution chain, unconditional independence or global acyclicity inferred. | Corrected—pending validation | Closed—verified |
+| ARC007-W01 | 1;13;18;19;20.1: §§1/13/18 treat quality and independent understanding as assessed objectives; §19 reuses closed taxonomy for new topics and requires owner/consumer impact, compatibility and transition evidence. Necessary incompatible contract reconciliation is justified in §20.1; no harmless-extension or automatic independent-release guarantee. | Corrected—pending validation | Closed—verified |
+| ARC007-W02 | Leading byte;17;20;20.1/20.2: Leading U+0007 removed while received bytes and four view texts/digests preserved in input/map/diff. Fourteen links resolve intended IDs; all original numbers and received history retained. New history records actual date/attribution and pending UPDATE event; no historic author/date or peer completion invented. | Corrected—pending validation | Closed—verified |
+
+Full closure criteria, exact digests, comparisons and integrity checks are in `DF-RVW-002-validation-4-10.json`. These ten closures apply only to ARC007-01–08/W01/W02 and this exact edition. The 87 earlier closures retain their own source/scope; all nineteen global records remain Open. INV-02 remains Not applicable—scope decision.
+
+### 38.3. Integrity, organization and affected-source limits
+
+All 28 original numbered-body before/after hashes match the UPDATE map. All original numbers and twenty chapters are preserved; §§20.1/20.2 add compatibility and propagation limits. Four balanced original-section anchors distinguish allocation/documentary containment, physical category organization, advisory consultation and actual central planning sources. Received view texts/digests match original input using UTF-8 with CRLF normalized to LF; exact file bytes have separate SHA-256 protection. The received leading U+0007 is absent from the successor and preserved in input evidence. CRLF is retained. Eleven tables are rectangular, and fourteen links resolve to intended supplied declarations.
+
+The minimum organization is a functional README file and four category directories. The four supplied Documentation component sets retain those entries and original category counts: Metadata 4/4/4/3, Document Identity 4/3/4/4, Classification 3/3/5/4 and Templates 3/3/5/4. This proves presence only. Applicable required source responsibilities need owner inventories and mapped content; undefined coverage, missing roles and stale maps remain unresolved rather than presumed complete. Empty directories prove no content, and typical source titles are not a universal fifteen-file requirement.
+
+Reviews remains a partial set with Behavior/Reference sources only: README/Architecture/Structure are absent. Source §§5/16 explicitly expose this unmet minimum without an exception or manufactured content. Validating this standard's local corrections neither validates Reviews as a complete set nor marks all 23 registered capabilities as documented or implemented. The functional-file exclusion remains uniform at every location.
+
+Metadata Dictionary/Schema owner comparisons support catalog/definition versus terminology distinctions and preservation of semantics. Classification Lifecycle separates definition lifecycle from documentary editions; Template Schema preserves representation/domain boundaries. Metadata Specification §4 incorporates supporting requirements normatively. The corrected standard makes authority depend on explicit scope/declaration/incorporation while keeping approval/implementation separate. No complete canonical Dictionary/Profile, universal state graph or new semantic authority is invented.
+
+All five roadmap links target supplied Roadmaps/ paths and intended RDM identities. The absent docs/06-Roadmaps/ spelling remains historical explanatory text only, not an active link. The planning table states adopted classification rules without claiming received headers have already been changed. Central storage is independent of Family/Type and creates no Layer; reading order remains advisory, separately typed from genuine required contracts and cycles.
+
+The R31 manifest and UPDATE checkpoint match. Nine prior validated source hashes, 69 other original normalized sources and all six README files are unchanged. Eight functional matrix records retain INV-02 Not applicable. Source input/history, older report sections and pending UPDATE events retain their earlier exact-edition scopes.
+
+Partial affected comparisons, including subordinate clauses: MTD-013 §§1/2/3/6/7; MTD-014 §4; CLS-006 §§1/2/3; RDM-001 §§4/5; ARC-005 §§3/4; ARC-004 §15; FND-001 §6; MTD-005 §§1/2/3; TPL-005 §§1.1/1.2/1.3; RVW-001 §§1–7; complete Metadata README and previously inspected selected Document Identity/Classification/Templates README sections listed in the evidence. The first nine owner extracts were re-read during validation; policy and README prior coverage retains unchanged hashes. No complete peer cycle is inferred.
+
+Metadata README still maps Dictionary to Reference while its actual path is Structure; Document Identity maps Elements to Structure while the actual source is Architecture; Templates illustrates direct component filenames rather than actual category paths. Those maps and roadmap headers remain scheduled consumer work. Required owner inventories, canonical catalog/Profile, identity/classification, a complete required graph and integrated consumer compatibility remain pending. This validation closes none of those global records and establishes no full component-set conformity, global acyclicity or deployed implementation.
+
+### 38.4. Tracking and before/after
+
+| Item | Before | After |
+|---|---|---|
+| ARC-007 source | V2.0 R1 corrected pending validation | Same bytes/edition; local PASS; Draft/unassigned |
+| Local records | Ten Corrected—pending validation | Ten Closed—verified |
+| Review Report | V1.0 R31 | V1.0 R32, technical English; Draft/unassigned |
+| M11 | Three C, ARC-007 S, three O; In Progress | Four C, three O; In Progress; ARC-007 completion 2026-10-14 |
+| CHANGELOG | Through #303 | #304 exact source validation; #305 report; #306 milestone tracking |
+
+Current totals: **19 Open, 97 Closed—verified, one Not applicable—scope decision**. No corrected-pending local ARC-007 record remains centrally. M10 and M0–M7 are unchanged. M9 cites R32 without extending original acceptance; source UPDATE-time history remains unchanged.
+
+Current progress/manifest, validation JSON and full central diff belong to R32. R31 exports preserve historical UPDATE states. `Context-Working-Step-4-10-Validated.zip` is an interim checkpoint; final Context-Reviewed.zip remains pending.
+
+### 38.5. Next command
+
+**CONTINUAR** starts **4.11 — REVIEW DOCUMENT DF-ARC-006 — Terminology**, then pauses after REVIEW. No automatic UPDATE/VALIDATE or approval is granted.

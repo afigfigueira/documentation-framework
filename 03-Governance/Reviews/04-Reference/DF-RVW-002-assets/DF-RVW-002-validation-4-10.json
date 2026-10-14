@@ -1,0 +1,507 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/32",
+  "date": "2026-10-14",
+  "step": "4.10 VALIDATE DOCUMENT",
+  "source": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+  "source_edition": "2.0/1",
+  "source_sha256": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e",
+  "source_changed": false,
+  "result": "PASS—local Component Documentation Structure correction scope",
+  "coverage": {
+    "method": "Complete source read of all 367 lines,twenty chapters,all eleven tables,four views,original/input/UPDATE body and view digests; manual evaluation of all ten closure criteria. Listed first nine owner extracts re-read; unchanged policy/README prior comparisons retain declared partial scope. No full peer cycle or implementation execution inferred.",
+    "bytes": 31622,
+    "lines": 367,
+    "chapters": 20,
+    "original_numbered_sections": 28,
+    "added_sections": 2,
+    "views": 4,
+    "Markdown_tables": 11,
+    "references": 14
+  },
+  "integrity_checks": {
+    "exact_output_hash": true,
+    "exact_input_hash": true,
+    "R31_manifest_integrity": true,
+    "header_contract": true,
+    "optional_Class_reconciled": true,
+    "28_original_section_hashes": true,
+    "original_numbers_retained": true,
+    "twenty_chapters": true,
+    "two_added_sections": true,
+    "received_view_texts_hashes": true,
+    "four_balanced_typed_views": true,
+    "eleven_rectangular_tables": true,
+    "14_reference_IDs_resolve": true,
+    "five_actual_roadmaps_no_active_wrong_root": true,
+    "minimum_entries_typed": true,
+    "actual_component_inventory_matches_review": true,
+    "Reviews_partial_minimum_deficits_retained": true,
+    "owner_inventory_missing_coverage_not_assumed": true,
+    "functional_exclusions_and_uniform_Type": true,
+    "leading_BEL_removed_input_retained": true,
+    "input_history_and_actual_attribution": true,
+    "CRLF_preserved": true,
+    "comparison_hashes_unchanged": true,
+    "69_other_original_normalized_sources_unchanged": true,
+    "nine_prior_validated_sources_unchanged": true,
+    "six_READMEs_unchanged": true,
+    "eight_functional_records_excluded": true,
+    "source_matches_UPDATE_checkpoint": true
+  },
+  "section_comparison": {
+    "changed": 28,
+    "unchanged": 0,
+    "added": [
+      "20.1",
+      "20.2"
+    ]
+  },
+  "view_provenance": [
+    {
+      "original_section": "4",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n         Documentation Framework\n                    │\n                    ▼\n\n\t\t   Architectural Layer\n                    │\n                    ▼\n\n                Component\n                    │\n                    ▼\n\n\n                    Component Documentation\n                    │\n                    ├── README\n                    │\n                    ├── Architecture\n                    │\n                    ├── Structure\n                    │\n                    ├── Behavior\n                    │\n                    └── Reference\n\n```",
+      "original_view_sha256": "a342e1515d2ffe084bd6c31d83a78ea6e63b0b49db9b3339da617ef1115897be",
+      "hash_encoding": "UTF-8 received text, CRLF normalized to LF",
+      "proposed_relation": "Primary allocation and documentary containment",
+      "working_anchor": "original-section-view: 4",
+      "relation_interpretation": "Primary allocation and documentary containment"
+    },
+    {
+      "original_section": "5",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n                    <Component>/\n                    │\n                    ├── README.md\n                    │\n                    ├── 01-Architecture/\n                    │\n                    ├── 02-Structure/\n                    │\n                    ├── 03-Behavior/\n                    │\n                    └── 04-Reference/\n\n```",
+      "original_view_sha256": "e4c9db0d45890881cb7c73f0b3c6eac35aa204d7ae0f2ef90e8b044b1c12beaf",
+      "hash_encoding": "UTF-8 received text, CRLF normalized to LF",
+      "proposed_relation": "Physical component documentation organization",
+      "working_anchor": "original-section-view: 5",
+      "relation_interpretation": "Physical component documentation organization"
+    },
+    {
+      "original_section": "11",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n                  README\n                    │\n                    ▼\n\n               Architecture\n                    │\n                    ▼\n\n                 Concepts\n                    │\n                    ▼\n\n                  Model\n                    │\n                    ▼\n\n                Elements\n                    │\n                    ▼\n\n                Structure\n                    │\n                    ▼\n\n                 Behavior\n                    │\n                    ▼\n\n                Reference\n\n```",
+      "original_view_sha256": "0b777431761f1136f3529a5270251114dce7e97e1ff7723054ef4e585723e2d0",
+      "hash_encoding": "UTF-8 received text, CRLF normalized to LF",
+      "proposed_relation": "Recommended consultation order; not dependency/execution",
+      "working_anchor": "original-section-view: 11",
+      "relation_interpretation": "Recommended consultation order; not dependency/execution"
+    },
+    {
+      "original_section": "15",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n                    docs/\n                    └── 06-Roadmaps/\n\n```",
+      "original_view_sha256": "4a258169a466add63db5717827e7f31617557aa90019fe2c2756c6e291f46d06",
+      "hash_encoding": "UTF-8 received text, CRLF normalized to LF",
+      "proposed_relation": "Actual central planning location; not a new Layer",
+      "working_anchor": "original-section-view: 15",
+      "relation_interpretation": "Actual central planning location; not a new Layer"
+    }
+  ],
+  "minimum_organization": {
+    "README.md": "non-normalized file",
+    "01-Architecture/": "directory",
+    "02-Structure/": "directory",
+    "03-Behavior/": "directory",
+    "04-Reference/": "directory"
+  },
+  "actual_component_inventory": [
+    {
+      "component_directory": "02-Documentation/Metadata",
+      "README_present": true,
+      "category_MD_counts": {
+        "01-Architecture": 4,
+        "02-Structure": 4,
+        "03-Behavior": 4,
+        "04-Reference": 3
+      }
+    },
+    {
+      "component_directory": "02-Documentation/DocumentIdentity",
+      "README_present": true,
+      "category_MD_counts": {
+        "01-Architecture": 4,
+        "02-Structure": 3,
+        "03-Behavior": 4,
+        "04-Reference": 4
+      }
+    },
+    {
+      "component_directory": "02-Documentation/Classification",
+      "README_present": true,
+      "category_MD_counts": {
+        "01-Architecture": 3,
+        "02-Structure": 3,
+        "03-Behavior": 5,
+        "04-Reference": 4
+      }
+    },
+    {
+      "component_directory": "02-Documentation/Templates",
+      "README_present": true,
+      "category_MD_counts": {
+        "01-Architecture": 3,
+        "02-Structure": 3,
+        "03-Behavior": 5,
+        "04-Reference": 4
+      }
+    }
+  ],
+  "Reviews_documentation_set": "Partial; README/Architecture/Structure absent; no exception or conformance certificate",
+  "references_at_validation_input": [
+    {
+      "path": "Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "target": "../Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "expected_id": "DF-RDM-001",
+      "declared_id": "DF-RDM-001",
+      "sha256_at_validation_input": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md",
+      "target": "../Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md",
+      "expected_id": "DF-RDM-010",
+      "declared_id": "DF-RDM-010",
+      "sha256_at_validation_input": "43b692c6521c6d0d87d7ea37f7030c2f2c768f113165d069b5d72f47901402ed"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md",
+      "target": "../Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md",
+      "expected_id": "DF-RDM-020",
+      "declared_id": "DF-RDM-020",
+      "sha256_at_validation_input": "6ef6e9e51cf1c097eccb0b1ebe87c2b0ed34386b2eaaaccd52f3c60830b1e301"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md",
+      "target": "../Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md",
+      "expected_id": "DF-RDM-030",
+      "declared_id": "DF-RDM-030",
+      "sha256_at_validation_input": "aa99f796a1443196f851fcbe7e89eab21f039e6e052fc4c7f9ec48498845e3b2"
+    },
+    {
+      "path": "Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md",
+      "target": "../Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md",
+      "expected_id": "DF-RDM-040",
+      "declared_id": "DF-RDM-040",
+      "sha256_at_validation_input": "c2f539f513ca4b0943fe56771cd98d982ffd8dffdc93fe94d6f7817dfcf833bf"
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "target": "../00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "expected_id": "DF-FND-001",
+      "declared_id": "DF-FND-001",
+      "sha256_at_validation_input": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "target": "../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "expected_id": "DF-FND-004",
+      "declared_id": "DF-FND-004",
+      "sha256_at_validation_input": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "target": "DF-ARC-001-ArchitectureOverview.md",
+      "expected_id": "DF-ARC-001",
+      "declared_id": "DF-ARC-001",
+      "sha256_at_validation_input": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+      "target": "DF-ARC-002-ArchitecturalPrinciples.md",
+      "expected_id": "DF-ARC-002",
+      "declared_id": "DF-ARC-002",
+      "sha256_at_validation_input": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "target": "DF-ARC-004-ArchitecturalLayers.md",
+      "expected_id": "DF-ARC-004",
+      "declared_id": "DF-ARC-004",
+      "sha256_at_validation_input": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "target": "DF-ARC-005-ArchitecturalComponents.md",
+      "expected_id": "DF-ARC-005",
+      "declared_id": "DF-ARC-005",
+      "sha256_at_validation_input": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "target": "DF-ARC-006-Terminology.md",
+      "expected_id": "DF-ARC-006",
+      "declared_id": "DF-ARC-006",
+      "sha256_at_validation_input": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "target": "../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "expected_id": "DF-RVW-001",
+      "declared_id": "DF-RVW-001",
+      "sha256_at_validation_input": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb"
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "target": "../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "expected_id": "DF-RVW-002",
+      "declared_id": "DF-RVW-002",
+      "sha256_at_validation_input": "2f844768006d8327d6399db060b443308a1f25108dcc0269b3fdebcad344a33c"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "6",
+        "7"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "sha256": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e",
+      "sections": [
+        "4"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md",
+      "sha256": "fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e",
+      "sections": [
+        "1",
+        "2",
+        "3"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md",
+      "sha256": "17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224",
+      "sections": [
+        "4",
+        "5"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9",
+      "sections": [
+        "3",
+        "4"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec",
+      "sections": [
+        "15"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "sections": [
+        "6"
+      ],
+      "scope": "Partial sections including subordinate clauses; no full peer cycle",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md",
+      "sha256": "1ed13b4f94564703e5b5af1268941e21a329cfc62b9c67e3f69cc63b8c2fa302",
+      "sections": [
+        "1",
+        "2",
+        "3"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no peer cycle",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md",
+      "sha256": "bb711768b70f6724e6bc00e8e63eaf9310830f98115a91715a231ea6e770598a",
+      "sections": [
+        "1.1",
+        "1.2",
+        "1.3"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no peer cycle",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "scope": "Partial listed sections including subordinate clauses; no peer cycle",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "02-Documentation/Metadata/README.md",
+      "sha256": "0a2091d1de0b64e1f470dd30479b6c50202748311a4ac2a6d472d40258b93d72",
+      "sections": "Complete README",
+      "scope": "Content/reference comparison only; non-normalized; no full component validation",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/README.md",
+      "sha256": "2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7",
+      "sections": "Document Organization; Structure map; Recommended Reading Order; Related Roadmap; Conformance",
+      "scope": "Content/reference comparison only; non-normalized; no full component validation",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "02-Documentation/Classification/README.md",
+      "sha256": "452c9910cdb26654cf475c21f6c4b3bf13f624d1c4b3bfd88538d818a1474c18",
+      "sections": "§§7/8/16",
+      "scope": "Content/reference comparison only; non-normalized; no full component validation",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    },
+    {
+      "path": "02-Documentation/Templates/README.md",
+      "sha256": "cf4866ed4e449d8542ecd5f11d19c21ffdd91b6a3d4f807dce55da59cd7b693a",
+      "sections": "Documentation Structure; Development Roadmap; Conformance; related components/roadmap",
+      "scope": "Content/reference comparison only; non-normalized; no full component validation",
+      "validation_read_provenance": "First nine listed owner extracts re-read during VALIDATE; policy and README comparisons retain previously inspected stated scope with unchanged hashes. Partial comparison, not a peer cycle."
+    }
+  ],
+  "findings": [
+    {
+      "id": "ARC007-01",
+      "criterion": "Header/rationale uses the four Types, stable identity, evidence-based optional Class and actual attribution; original declarations remain traceable.",
+      "sections": "Header;1;2;20",
+      "observed_evidence": "Header and §§1/2/20 use Architecture/Structure for primary organization, preserve stable ID/path, original Standard/Class/R0/Baseline1.0 and absent Author. Undefined Class omitted; actual Codex contribution distinct from authorization/approval. No Component invented.",
+      "result": "PASS—local Component Documentation Structure correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-03; REV2-12; Review Policy §§3/5/7"
+    },
+    {
+      "id": "ARC007-02",
+      "criterion": "Functional and normalized applicability are explicit; file/directory kinds and Family/Type/identity remain distinct throughout examples and optional additions.",
+      "sections": "3;5;6;7–10;12;14",
+      "observed_evidence": "§3 applies all-location functional exclusions before normalization; §§5/12 type README as file and four categories as directories. §§7–10/14 classify by primary responsibility under four Types and canonical membership, independent of title/path/identity; no forced migration.",
+      "result": "PASS—local Component Documentation Structure correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "INV-02 remains Not applicable; REV2-03/04/07; Manifest §6; Review Policy §§2/3/4"
+    },
+    {
+      "id": "ARC007-03",
+      "criterion": "Examples support actual Metadata semantic/catalog ownership without replacing domain definitions or asserting an automatic title-based Type/path rule. Consumer discrepancies and partial coverage remain explicit.",
+      "sections": "7;8;14;20.2",
+      "observed_evidence": "§8 distinguishes element-definition/catalog from terminology consultation, with Dictionary/Schema/Profile/Instance and domain-owner limits. §§7/14 avoid universal Elements/Dictionary title rules. Metadata Dictionary/Schema comparisons support these roles; received README/path discrepancies explicitly retained in §20.2.",
+      "result": "PASS—local Component Documentation Structure correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-06/07; MTD-013 §§1–3/6–7; MTD-005 §§1–3; Metadata README Document Map"
+    },
+    {
+      "id": "ARC007-04",
+      "criterion": "Behavior examples preserve domain-specific subjects and exact-edition/executor distinctions; no universal Workflow state graph or implementation capability is inferred.",
+      "sections": "3;9;13;16",
+      "observed_evidence": "§9 identifies lifecycle subject, rules and scope; Classification-definition lifecycle distinct from document edition/Workflow/maturity. §§3/9/16 separate DF contracts, DMS/tool/manual execution, CMS evidence and review/approval/publication/membership. No universal state graph or implemented service claimed.",
+      "result": "PASS—local Component Documentation Structure correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-08/12; CLS-006 §§1–3; ARC005 §3; Review Policy §6"
+    },
+    {
+      "id": "ARC007-05",
+      "criterion": "Normativity follows explicit applicable declarations/references, not Type/title/directory alone; normative supporting sources and separate approval/implementation evidence remain possible.",
+      "sections": "10;16;18",
+      "observed_evidence": "§10 makes explicit declarations/incorporation and scope determine authority, allowing normative supporting sources rather than blanket informative remainder. Metadata Specification §4 supports that distinction. §§16/18 separate normative organization, approval and implementation evidence.",
+      "result": "PASS—local Component Documentation Structure correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-12; MTD-014 §4; Manifest §6; Review Policy §3.1"
+    },
+    {
+      "id": "ARC007-06",
+      "criterion": "All operational roadmap references resolve to actual supplied paths/identities; no absent docs/06-Roadmaps/ root or storage-based Family/Type rule remains.",
+      "sections": "6;15;17",
+      "observed_evidence": "§15 links five actual Roadmaps sources with expected IDs and physical paths; central storage is not a Layer, Family or approval source. Table states adopted rules without falsely correcting received headers. §§6/17 retain real targets; no active link to absent docs/06-Roadmaps/ or invented future roadmap ID.",
+      "result": "PASS—local Component Documentation Structure correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "INV-07; REV2-04/12; RDM-001 §§4–5; Review Policy §3.2"
+    },
+    {
+      "id": "ARC007-07",
+      "criterion": "Required baseline structure, variable source roles and applicability are explicit; partial/missing coverage is reported without blanket certification, hidden exception or mandatory fifteen-file invention.",
+      "sections": "3;5;6;7–10;14;16;20.2",
+      "observed_evidence": "§§5/6/16 specify README/four-directory minimum plus owner-declared applicable required responsibilities, exact editions/checks/evidence and explicit missing/undefined coverage. Examples are not a mandatory fifteen-file set; empty directories do not prove content. Actual four input sets have minimum entries; Reviews remains partial without hidden exception or conformance certificate.",
+      "result": "PASS—local Component Documentation Structure correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "INV-07; REV2-12; Review Policy §1/6; supplied component inventory"
+    },
+    {
+      "id": "ARC007-08",
+      "criterion": "Each view has explicit meaning and original-section provenance; no containment/reading arrow creates an undocumented required edge, automatic independence or global acyclicity.",
+      "sections": "4;5;6;11;13;17",
+      "observed_evidence": "Four anchored views separate allocation/containment, physical organization, advisory consultation and central planning. §§4/6/11 preserve actual required contracts and prohibit hiding genuine requirements/cycles with navigation labels; no execution chain, unconditional independence or global acyclicity inferred.",
+      "result": "PASS—local Component Documentation Structure correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02; ARC004 §15; ARC005 §§3–4; Review Policy §6"
+    },
+    {
+      "id": "ARC007-W01",
+      "criterion": "Quality/evolution claims are bounded and extensions preserve or explicitly revise the governed contract; no fifth Type, harmless extension or universally independent release guarantee remains.",
+      "sections": "1;13;18;19;20.1",
+      "observed_evidence": "§§1/13/18 treat quality and independent understanding as assessed objectives; §19 reuses closed taxonomy for new topics and requires owner/consumer impact, compatibility and transition evidence. Necessary incompatible contract reconciliation is justified in §20.1; no harmless-extension or automatic independent-release guarantee.",
+      "result": "PASS—local Component Documentation Structure correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "Review Policy §§3/5; ARC005 §§11/15"
+    },
+    {
+      "id": "ARC007-W02",
+      "criterion": "Successor contains no leading BEL; links resolve intended IDs and view/input/history evidence is complete, with no fabricated historic attribution or completed peer cycles.",
+      "sections": "Leading byte;17;20;20.1/20.2",
+      "observed_evidence": "Leading U+0007 removed while received bytes and four view texts/digests preserved in input/map/diff. Fourteen links resolve intended IDs; all original numbers and received history retained. New history records actual date/attribution and pending UPDATE event; no historic author/date or peer completion invented.",
+      "result": "PASS—local Component Documentation Structure correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "Review Policy §§4/5/6/7; REV2-12"
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Closed—verified": 97,
+    "Not applicable—scope decision": 1
+  },
+  "limits": [
+    "No full component-set conformance or approval inferred from local standard correction",
+    "Required owner inventories,consumer maps,roadmap headers,catalog/Profile and identity/classification still need scheduled reconciliation",
+    "No full dependency graph,global acyclicity,integrated conformity or implementation evidence",
+    "Draft/unassigned; no publication,approval,Baseline or final Context-Reviewed.zip"
+  ],
+  "history_interpretation": "Source unchanged; pending statements/history in §§20/20.2 remain UPDATE-time evidence. Later central exact-hash validation supersedes current pending tracking; changed future bytes require their own assessment without inherited result or product-consequence responsibility.",
+  "tracking_checks": {
+    "source_bytes_unchanged": true,
+    "all_other_MD_sources_preserved": true,
+    "89_stable_matrix_positions": true,
+    "matrix_current_hashes": true,
+    "prior_events_preserved": true,
+    "changelog_sequence_306_to_1": true,
+    "M10_and_M0_M7_preserved": true,
+    "M11_four_C_three_O_InProgress": true,
+    "historical_report_sections_preserved": true,
+    "next_matrix_source": true,
+    "new_report_tables_rectangular": true
+  }
+}
