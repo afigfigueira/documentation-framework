@@ -1,0 +1,373 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/54",
+  "step": "4.17",
+  "phase": "REVIEW",
+  "date": "2026-10-14",
+  "input_package_sha256": "f5aced2792356f68ddeb7e62e2e6741d544e7648a1979b66e72ceec75cfe16b3",
+  "source": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md",
+  "source_sha256": "d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f",
+  "source_size": 8837,
+  "source_unchanged": true,
+  "source_edition": "V1.0 R0 received Canonical/Baseline1.0",
+  "records": [
+    {
+      "id": "DID004-01",
+      "severity": "Medium",
+      "sections": "Header; §§1, 9, 11–12",
+      "observation": "Received Family Documentation is not the canonical component-family membership; Canonical/Baseline 1.0 are received declarations, not a successor approval.",
+      "proposal": "Use Family/Component Document Identity, retain Type Architecture and original identity/path; explicitly preserve received provenance, cumulative evidenced authors and edition controls.",
+      "state": "Open"
+    },
+    {
+      "id": "DID004-02",
+      "severity": "High",
+      "sections": "§§1–2, 4.1, 7.1, 10, 12",
+      "observation": "Every document is said to have an exactly-one permanent identity without distinguishing in-scope normalized logical documents, excluded functional files, unassigned subjects or exact editions.",
+      "proposal": "Limit applicability to assigned normalized logical documents; distinguish files, representations, edition coordinates and excluded files; preserve historical identity without guaranteeing availability.",
+      "state": "Open"
+    },
+    {
+      "id": "DID004-03",
+      "severity": "High",
+      "sections": "§§4.2–4.3, 7.2–7.3",
+      "observation": "Identifier uniqueness is specified within a domain while Document Identity is called unique without defining qualified identity, canonical representation, domain allocation, namespace/non-overlap or authoritative resolution.",
+      "proposal": "Specify qualified Domain+Identifier and canonical string under governing schema/allocator; make uniqueness and non-overlap assessed constraints, not global resolver guarantees.",
+      "state": "Open"
+    },
+    {
+      "id": "DID004-04",
+      "severity": "High",
+      "sections": "§§3, 4.4, 6–7.4",
+      "observation": "Three statuses Active/Archived/Deprecated are presented as architectural validity; peer lifecycle/state specifications distinguish Unassigned and other state vocabularies, while Identity Status is absent from the five-entity DID-003 model.",
+      "proposal": "Preserve source state labels as received, distinguish identity-record state, document-edition status, lifecycle events and pre-allocation; propose reconciliation with DID-006/014 and DID-003/005 without inventing one universal state machine.",
+      "state": "Open"
+    },
+    {
+      "id": "DID004-05",
+      "severity": "High",
+      "sections": "§§3, 4.5, 5, 7.5, 8–9",
+      "observation": "References are made identity-owned and target existing identities, without differentiating document-targeting references, optional incoming multiplicity, other endpoint types, or exact-version/snapshot references.",
+      "proposal": "Define typed reference/owner/target, optional 0..N incoming references where applicable, and exact-edition targeting/record evidence; distinguish relationship owner semantics from identity-key ownership.",
+      "state": "Open"
+    },
+    {
+      "id": "DID004-06",
+      "severity": "High",
+      "sections": "§§5, 8–9, 11",
+      "observation": "All element ownership is exclusively within Document Identity and every interaction unidirectional, potentially overriding Metadata/Relationships/Registry/Governance semantic ownership and hiding required consumer-provider graph conflicts. Governance is an area grouping Workflow, Policies, Reviews and Baselines in ARC-005, not a peer component.",
+      "proposal": "Separate definition ownership from registries/metadata/relationship edge owners, dependencies and executors; reconcile actual source/consumer required graph with prohibition of dependency cycles.",
+      "state": "Open"
+    },
+    {
+      "id": "DID004-07",
+      "severity": "Medium",
+      "sections": "§§2, 4.1–4.5, 7, 10–12",
+      "observation": "Immutable, permanent, deterministic, canonical and repository-independent qualities mix identity-key invariants with mutable status/reference records and unevidenced runtime guarantees.",
+      "proposal": "Scope immutability to assigned identity key/association; permit governed changes to states/references, qualify migrations/non-reuse, canonical resolution and actual checks.",
+      "state": "Open"
+    },
+    {
+      "id": "DID004-08",
+      "severity": "High",
+      "sections": "§§1–12",
+      "observation": "Elements and architectural interactions are asserted as universal operational guarantees without explicit normative owner/source, check scope, permitted executor, evidence, or still-open peer/schema integration.",
+      "proposal": "Make contract requirements distinguishable from implementation outcomes and approval; specify exact peer obligations and pending validation/propagation without inventing operational conformity.",
+      "state": "Open"
+    },
+    {
+      "id": "DID004-W01",
+      "severity": "Low",
+      "sections": "§§3, 5–6",
+      "observation": "Two diagrams present identity references as a subordinate element without clearly marking concept versus mandatory schema fields or association directions.",
+      "proposal": "Retain both views, add explicit scope/legend and association cardinalities subject to DID-003/005 peer reconciliation.",
+      "state": "Open"
+    },
+    {
+      "id": "DID004-W02",
+      "severity": "Low",
+      "sections": "§§4, 6–11",
+      "observation": "Existing five element headings, five responsibility rows, five constraint subclauses, five ownership rows, six component interactions and three dependency IDs need traceable preservation.",
+      "proposal": "Provide before/after map and verify headings/rows, real peer paths, cumulative provenance and exact source hash in UPDATE/VALIDATE.",
+      "state": "Open"
+    }
+  ],
+  "source_preservation": {
+    "numbered_headings": [
+      {
+        "number": "1",
+        "title": "Purpose"
+      },
+      {
+        "number": "2",
+        "title": "Introduction"
+      },
+      {
+        "number": "3",
+        "title": "Architectural View"
+      },
+      {
+        "number": "4",
+        "title": "Architectural Elements"
+      },
+      {
+        "number": "4.1",
+        "title": "Document Identity"
+      },
+      {
+        "number": "4.1.1",
+        "title": "Description"
+      },
+      {
+        "number": "4.1.2",
+        "title": "Responsibility"
+      },
+      {
+        "number": "4.1.3",
+        "title": "Characteristics"
+      },
+      {
+        "number": "4.2",
+        "title": "Identifier"
+      },
+      {
+        "number": "4.2.1",
+        "title": "Description"
+      },
+      {
+        "number": "4.2.2",
+        "title": "Responsibility"
+      },
+      {
+        "number": "4.2.3",
+        "title": "Characteristics"
+      },
+      {
+        "number": "4.3",
+        "title": "Identity Domain"
+      },
+      {
+        "number": "4.3.1",
+        "title": "Description"
+      },
+      {
+        "number": "4.3.2",
+        "title": "Responsibility"
+      },
+      {
+        "number": "4.3.3",
+        "title": "Characteristics"
+      },
+      {
+        "number": "4.4",
+        "title": "Identity Status"
+      },
+      {
+        "number": "4.4.1",
+        "title": "Description"
+      },
+      {
+        "number": "4.4.2",
+        "title": "Possible States"
+      },
+      {
+        "number": "4.5",
+        "title": "Identity Reference"
+      },
+      {
+        "number": "4.5.1",
+        "title": "Description"
+      },
+      {
+        "number": "4.5.2",
+        "title": "Responsibility"
+      },
+      {
+        "number": "5",
+        "title": "Element Relationships"
+      },
+      {
+        "number": "6",
+        "title": "Element Responsibilities"
+      },
+      {
+        "number": "7",
+        "title": "Element Constraints"
+      },
+      {
+        "number": "7.1",
+        "title": "Document Identity"
+      },
+      {
+        "number": "7.2",
+        "title": "Identifier"
+      },
+      {
+        "number": "7.3",
+        "title": "Identity Domain"
+      },
+      {
+        "number": "7.4",
+        "title": "Identity Status"
+      },
+      {
+        "number": "7.5",
+        "title": "Identity Reference"
+      },
+      {
+        "number": "8",
+        "title": "Ownership"
+      },
+      {
+        "number": "9",
+        "title": "Relationships with Other Components"
+      },
+      {
+        "number": "10",
+        "title": "Architectural Characteristics"
+      },
+      {
+        "number": "11",
+        "title": "Dependencies"
+      },
+      {
+        "number": "12",
+        "title": "Summary"
+      }
+    ],
+    "original_views": [
+      {
+        "section": "3",
+        "text": "                                Document Identity\r\n                                        │\r\n                   ┌────────────────────┼────────────────────┐\r\n                   │                    │                    │\r\n                   ▼                    ▼                    ▼\r\n\r\n            Identity Domain        Identifier         Identity Status\r\n\r\n                   │                    │                    │\r\n                   └────────────────────┼────────────────────┘\r\n                                        │\r\n\r\n                               Identity References\r\n\r\n",
+        "sha256_utf8": "fa290969917e9b27b752e85d6afce5854ad7e2365976debb096520e6fb055186"
+      },
+      {
+        "section": "5",
+        "text": "                 Document\r\n                    │\r\n                    ▼\r\n\r\n                    Document Identity\r\n                    │\r\n                    ├────────► Identifier\r\n                    │\r\n                    ├────────► Identity Domain\r\n                    │\r\n                    ├────────► Identity Status\r\n                    │\r\n                    └────────► Identity References\r\n\r\n",
+        "sha256_utf8": "6029b40796881205d7a8186c141aca3b6c506ab0cb6b637a96d110235dd251e8"
+      }
+    ],
+    "element_titles": [
+      "Document Identity",
+      "Identifier",
+      "Identity Domain",
+      "Identity Status",
+      "Identity Reference"
+    ],
+    "constraint_sections": [
+      "7.1",
+      "7.2",
+      "7.3",
+      "7.4",
+      "7.5"
+    ],
+    "responsibility_rows": 5,
+    "ownership_rows": 5,
+    "interaction_rows": 6,
+    "original_dependencies": [
+      "DF-DID-001",
+      "DF-DID-002",
+      "DF-DID-003"
+    ],
+    "received_states": [
+      "Active",
+      "Archived",
+      "Deprecated"
+    ]
+  },
+  "comparisons": [
+    {
+      "document_id": "DF-DID-001",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md",
+      "sha256": "f36e91e5a2255d5807b68bedd180f4c4d33d90c2b849e42a462815b11af6d21c",
+      "coverage": "§§1–5,7,9,12.3; selected scope/identity/owner/dependency clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-002",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "sha256": "6b3adf13bfe20d4f6b360368f1b587f8da09fa4d36b880d5d20eb67f451f1d52",
+      "coverage": "selected domain, stability, reference and state clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-003",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md",
+      "sha256": "be7ddc3e783aa3ece4216de50662794e65b0133b431422a343846b404ef897cb",
+      "coverage": "§§3–6 complete model/entity/relationship/cardinality clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-005",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "sha256": "b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc",
+      "coverage": "complete source; schema/state omission and reference0..N",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-006",
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md",
+      "sha256": "daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024",
+      "coverage": "complete source; §§4–8 state/event distinctions",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-009",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md",
+      "sha256": "82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1",
+      "coverage": "§§4–7,10–12 selected ownership/dependency clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-014",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "sha256": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668",
+      "coverage": "§§6–9,12–15,18 selected mandatory schema/state/conformance clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-010",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md",
+      "sha256": "9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d",
+      "coverage": "§§4–6 selected uniqueness/identifier/domain constraints",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-ARC-004",
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "bbab37b76ea23f609a560bdd88c982091a5dd4d903d9b81679293aefdd66d6b5",
+      "coverage": "§§12–13 selected required consumer→provider/cycle constraints",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-ARC-005",
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "0329a1ad17f95108fe9ef770e5e1de779efd1f0f8fce18cab0f28fecfcca4a6b",
+      "coverage": "selected area/component allocation and ownership clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-MTD-003",
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "sha256": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746",
+      "coverage": "selected Dictionary/Schema/Profile/Instance clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-MTD-013",
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206",
+      "coverage": "selected descriptor/status dictionary clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-RVW-001",
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "8f6c3a967f076dfc3ddd4fef90b5901dbb780e0a8c7cda17c70039e2f581f9ef",
+      "coverage": "complete operating review policy V1.0 R2",
+      "limit": "comparison only; not a completed peer review/validation"
+    }
+  ],
+  "next": "4.17 UPDATE DOCUMENT DF-DID-004",
+  "scope_limit": "REVIEW only; prior discarded attempt not accepted as completed; no source validation, closure,global conformity or approval"
+}

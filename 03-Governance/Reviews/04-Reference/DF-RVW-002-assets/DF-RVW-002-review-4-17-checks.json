@@ -1,0 +1,26 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/54",
+  "result": "PASS — REVIEW evidence integrity only",
+  "checks": {
+    "source_unchanged": true,
+    "all_other_domain_sources_unchanged": true,
+    "historical_evidence_bytes_preserved": true,
+    "twelve_chapters": true,
+    "five_elements": true,
+    "two_original_views": true,
+    "comparison_hashes_current": true,
+    "all_three_dependency_targets_exist": true,
+    "89_progress_positions": true,
+    "changelog_reverse_391_to_1": true,
+    "source_authorship_preserved": true,
+    "temporary_auxiliary_absent": true,
+    "source_update_not_performed": true,
+    "source_validation_not_performed": true
+  },
+  "totals": {
+    "Open": 29,
+    "Closed—verified": 157,
+    "Not applicable—scope decision": 1
+  }
+}

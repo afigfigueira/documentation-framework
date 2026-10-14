@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 53 |
+| **Revision** | 54 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -259,6 +259,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-14 | 1.0 | 51 | Step4.16 Model UPDATE V2.0 R1;cumulative Author;ten corrections pending validation | Draft/unassigned;compatible report tracking;#379–382;no source validation |
 | 2026-10-14 | 1.0 | 52 | Step4.16 exact Model validation;ten local closures;source unchanged | Draft/unassigned;V2.0 R1 retained;#383–386;next4.17 REVIEW |
 | 2026-10-14 | 1.0 | 53 | Recovery reconciliation after user-restored Step4.16 working tree | Compatible tracking correction; prior R52 source validation retained; corrected source-event mapping and temporary-indicator scope in section59; Draft/unassigned; no Step4.17 operation |
+| 2026-10-14 | 1.0 | 54 | Repeated Step4.17 REVIEW after recovery; eight findings/two warnings Open | Compatible report event; source unchanged V1.0 R0; section60; no UPDATE/VALIDATE DOCUMENT |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -4923,3 +4924,50 @@ Current progress and manifest are refreshed for reportR53. The reconciliation di
 ### 59.4. Pause and next operation
 
 Recovery checks complete; pause here. A subsequent CONTINUAR starts the expressly requested repeat of 4.17 REVIEW DOCUMENT DF-DID-004, then pauses before UPDATE. No Step4.17 operation was performed by this reconciliation and Step4.18 remains pending.
+
+## 60. Step 4.17 — REVIEW DOCUMENT DF-DID-004 — Document Identity Elements
+
+### 60.1. Recovery provenance and source boundary
+
+REVIEW completed on2026-10-14 from Context-Working-Step-4-16-Reconciled.zip, after the user's explicit request to repeat all Step4.17 operations. This event is the new REVIEW after recovery, not adoption of the earlier discarded-attempt results. No UPDATE or VALIDATE DOCUMENT was performed. The source remains exact V1.0 R0, Family Documentation, Type Architecture, Component Document Identity, Author Arnaldo Figueira, received Canonical/Baseline1.0, English. Those received declarations confer no successor approval or actual Baseline selection. Source SHA-256: `d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f`; size 8837 bytes.
+
+The complete twelve-chapter source, both original views, all five elements and constraints, five responsibility rows, five ownership rows, six interactions and three dependency targets were examined. Attached evidence records exact original numbered headings/views and compared peer hashes with selected coverage. Previous source-local semantic and attribution-only validation scopes remain unchanged. Policy V1.0 R2 and recovery reportR53 section59 govern this operation.
+
+### 60.2. Findings and closure criteria
+
+Eight findings and two warnings remain Open. Proposed corrections are not written source content or accepted peer contracts.
+
+| Record | Severity | Source sections | Observation | Proposed correction | State and closure evidence |
+|---|---|---|---|---|---|
+| DID004-01 | Medium | Header; §§1, 9, 11–12 | Received Family Documentation is not the canonical component-family membership; Canonical/Baseline 1.0 are received declarations, not a successor approval. | Use Family/Component Document Identity, retain Type Architecture and original identity/path; explicitly preserve received provenance, cumulative evidenced authors and edition controls. | Open; exact before/after map, peer-clause comparison and scoped validation evidence required |
+| DID004-02 | High | §§1–2, 4.1, 7.1, 10, 12 | Every document is said to have an exactly-one permanent identity without distinguishing in-scope normalized logical documents, excluded functional files, unassigned subjects or exact editions. | Limit applicability to assigned normalized logical documents; distinguish files, representations, edition coordinates and excluded files; preserve historical identity without guaranteeing availability. | Open; exact before/after map, peer-clause comparison and scoped validation evidence required |
+| DID004-03 | High | §§4.2–4.3, 7.2–7.3 | Identifier uniqueness is specified within a domain while Document Identity is called unique without defining qualified identity, canonical representation, domain allocation, namespace/non-overlap or authoritative resolution. | Specify qualified Domain+Identifier and canonical string under governing schema/allocator; make uniqueness and non-overlap assessed constraints, not global resolver guarantees. | Open; exact before/after map, peer-clause comparison and scoped validation evidence required |
+| DID004-04 | High | §§3, 4.4, 6–7.4 | Three statuses Active/Archived/Deprecated are presented as architectural validity; peer lifecycle/state specifications distinguish Unassigned and other state vocabularies, while Identity Status is absent from the five-entity DID-003 model. | Preserve source state labels as received, distinguish identity-record state, document-edition status, lifecycle events and pre-allocation; propose reconciliation with DID-006/014 and DID-003/005 without inventing one universal state machine. | Open; exact before/after map, peer-clause comparison and scoped validation evidence required |
+| DID004-05 | High | §§3, 4.5, 5, 7.5, 8–9 | References are made identity-owned and target existing identities, without differentiating document-targeting references, optional incoming multiplicity, other endpoint types, or exact-version/snapshot references. | Define typed reference/owner/target, optional 0..N incoming references where applicable, and exact-edition targeting/record evidence; distinguish relationship owner semantics from identity-key ownership. | Open; exact before/after map, peer-clause comparison and scoped validation evidence required |
+| DID004-06 | High | §§5, 8–9, 11 | All element ownership is exclusively within Document Identity and every interaction unidirectional, potentially overriding Metadata/Relationships/Registry/Governance semantic ownership and hiding required consumer-provider graph conflicts. Governance is an area grouping Workflow, Policies, Reviews and Baselines in ARC-005, not a peer component. | Separate definition ownership from registries/metadata/relationship edge owners, dependencies and executors; reconcile actual source/consumer required graph with prohibition of dependency cycles. | Open; exact before/after map, peer-clause comparison and scoped validation evidence required |
+| DID004-07 | Medium | §§2, 4.1–4.5, 7, 10–12 | Immutable, permanent, deterministic, canonical and repository-independent qualities mix identity-key invariants with mutable status/reference records and unevidenced runtime guarantees. | Scope immutability to assigned identity key/association; permit governed changes to states/references, qualify migrations/non-reuse, canonical resolution and actual checks. | Open; exact before/after map, peer-clause comparison and scoped validation evidence required |
+| DID004-08 | High | §§1–12 | Elements and architectural interactions are asserted as universal operational guarantees without explicit normative owner/source, check scope, permitted executor, evidence, or still-open peer/schema integration. | Make contract requirements distinguishable from implementation outcomes and approval; specify exact peer obligations and pending validation/propagation without inventing operational conformity. | Open; exact before/after map, peer-clause comparison and scoped validation evidence required |
+| DID004-W01 | Low | §§3, 5–6 | Two diagrams present identity references as a subordinate element without clearly marking concept versus mandatory schema fields or association directions. | Retain both views, add explicit scope/legend and association cardinalities subject to DID-003/005 peer reconciliation. | Open; exact before/after map, peer-clause comparison and scoped validation evidence required |
+| DID004-W02 | Low | §§4, 6–11 | Existing five element headings, five responsibility rows, five constraint subclauses, five ownership rows, six component interactions and three dependency IDs need traceable preservation. | Provide before/after map and verify headings/rows, real peer paths, cumulative provenance and exact source hash in UPDATE/VALIDATE. | Open; exact before/after map, peer-clause comparison and scoped validation evidence required |
+
+### 60.3. Actual peer conflicts and normative boundaries
+
+DID-003 §§4/6 distinguishes five conceptual entities (Document, Document Identity, Identifier, Identity Domain, Identity Reference), identifies state as a separate peer subject and qualifies incoming references0..N. DID-005 §§3–5 includes Domain, Identifier and optional References0..N but no State field; DID-014 §§6–8 instead makes Identity State and Canonical Reference mandatory. DID-004's Active/Archived/Deprecated cannot be silently merged with DID-006 §§4–8 and DID-014 §9 Unassigned/Assigned/Preserved/Retired. Unassigned is a pre-allocation subject, not an existing assigned key. None of these comparisons justifies silently deleting or inventing mandatory peer fields.
+
+The corrected Model's qualified Domain+Identifier and optional incoming-reference population are comparison contracts within their local scopes. Bare identifier uniqueness, canonical interpretation, exact-edition/Baseline selection and running resolution are separate requirements/evidence. Preserve key/association stability while distinguishing mutable state/reference records, non-reuse and governed migrations. No migration or ID allocation is performed.
+
+DID-009 §§7.1–7.2 distinguishes Registry registration and Relationships associations from identity meanings. ARC-005 identifies Governance as an area; its four components cannot be collapsed into a new component. Metadata descriptors and status representation do not transfer domain ownership or imply absolute independence. Required consumer→provider contracts under ARC-004 §§12–13 must be tested in their actual scopes; relabelling associations cannot hide required cycles. These checks are selected peer comparisons, not a full graph proof or complete peer validation.
+
+### 60.4. UPDATE preparation and preservation obligations
+
+Preserve all12 chapter numbers, original five element titles, two views, five responsibility/ownership rows, five element constraints, six interactions and three original dependencies. Qualify each changed meaning with exact before/after and original view provenance; avoid invented historical view IDs. Keep the source ID/path. Retain Arnaldo Figueira and add an actual later contributor only when UPDATE changes content; cumulative names use semicolon-space.
+
+An incompatible successor is provisionally expected as V2.0 R1, Draft/Baseline Not assigned because applicability, state authority, ownership and guarantee meanings change. Actual compatibility and edition action must be established by UPDATE, not by this proposal. Type Architecture is retained for conceptual element responsibility; Family/Component Document Identity is proposed. No Metadata element/profile, new universal state machine, runtime executor, architectural approval or integrated rollout is created.
+
+### 60.5. Tracking, checks and pause
+
+Ten DID004 records are Open; prior157 Closed—verified,19 global Open and INV-02 Not applicable remain. Total Open29; no corrected-pending record exists. M12 is three C/one S/60 O, In Progress; DID-004 start2026-10-14, no completion date. Historical M0–M11 results retain their own scopes. Report V1.0 R53→R54; CHANGELOG388 REVIEW,389 report,390 Milestone,391 REVIEW evidence checks. Progress and current manifest are synchronized with exact delivered bytes.
+
+REVIEW integrity checks cover unchanged source/all other domain sources, preserved historical exports, heading/view/row inventories, exact dependency targets, matching comparison hashes, stable89 progress rows, complete reverse CHANGELOG1–391, cumulative authorship scope and Context-only packaging. PASS concerns review traceability only, not VALIDATE DOCUMENT, closure or approval.
+
+**Pause after REVIEW. CONTINUAR starts4.17 UPDATE DOCUMENT DF-DID-004, then pauses before VALIDATE DOCUMENT. Step4.18 remains pending.**

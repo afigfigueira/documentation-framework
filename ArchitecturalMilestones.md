@@ -213,7 +213,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-001 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-002 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-003 — V2.0 R1 Draft;scoped validation PASS | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
-| O | 2026-09-30 |  |  | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
+| S | 2026-09-30 | 2026-10-14 |  | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
 | O | 2026-09-30 |  |  | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
 | O | 2026-09-30 |  |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
 | O | 2026-09-30 |  |  | DF-DID-010 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md |
@@ -641,3 +641,5 @@ Establish the conceptual and architectural foundations of the Documentation Fram
 
 ---
 Recovery reconciliation (2026-10-14): reportV1.0 R53 section59 establishes corrected recovery mapping: Step4.16 UPDATE CHANGELOG379–381; VALIDATE382–384. Earlier379–382/383–386 references above are preserved historical mappings, superseded for current navigation. Reconciliation entries385–387 change no source-cycle completion or acceptance scope. M12 remains three C/61 O In Progress; Step4.17 not started. Temporary Author indicator is excluded from current deliverables.
+
+Step4.17 REVIEW repeated after authorized recovery (2026-10-14): exact unchanged DID-004 V1.0 R0; eight findings/two warnings Open; three C/one S/60 O In Progress. Source cycle start2026-10-14; no completion. ReportR54 section60; CHANGELOG388–391; UPDATE/VALIDATE DOCUMENT pending.
