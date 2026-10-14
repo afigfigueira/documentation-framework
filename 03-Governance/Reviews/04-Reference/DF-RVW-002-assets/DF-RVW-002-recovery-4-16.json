@@ -1,0 +1,46 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/53",
+  "date": "2026-10-14",
+  "operation": "Recovery reconciliation after Step4.16 validation",
+  "input_zip_sha256": "f857f238e5ec2a2968b6c5beaad54d30b902a669bf0f40b75ab443fc540f890c",
+  "result": "PASS — tracking and packaging recovery scope only",
+  "checks": {
+    "changelog_exact_reverse_387_to_1": true,
+    "entry337_verbatim": true,
+    "all_domain_sources_unchanged": true,
+    "all_previous_evidence_unchanged": true,
+    "temporary_auxiliary_absent": true,
+    "step4_17_not_started": true,
+    "historical_mapping_explicit": true,
+    "source_validation_not_repeated": true
+  },
+  "corrected_event_mapping": {
+    "UPDATE": "379–381",
+    "VALIDATE": "382–384",
+    "reconciliation": "385–387"
+  },
+  "unchanged_source_hashes": {
+    "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md": "d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f",
+    "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md": "be7ddc3e783aa3ece4216de50662794e65b0133b431422a343846b404ef897cb"
+  },
+  "changed_files": {
+    "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md": {
+      "before": "21e4f7e74dc66b49ac21cb2466e1bfccf3efb3a2a8cd885820efa95b3bc05664",
+      "after": "4f8ebae69000d91c69a340a4f0adf9dab9ee4ca570c47e0edde37337f526d4ef"
+    },
+    "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv": {
+      "before": "71627397fdfe3d89352fdc3d0b0b26072dcf69bda564b8f247f820a433c182dc",
+      "after": "f999598e87f67abec4827abc5f16c683a86b4cc73c92b7cbcc9291977785ebba"
+    },
+    "ArchitecturalMilestones.md": {
+      "before": "184ef7c9bfbce0b64d549115b425c28e50d723fb6eefab6a810ef4ca80557846",
+      "after": "fba16dbeca260d76dbc35669cccd7dc6c21f62db143c65c0275cfee901c719a3"
+    },
+    "CHANGELOG.md": {
+      "before": "ed526f9d5b1a5a44f45891ba44d9172dca94c3ccf6a0540a79e05fad0b63cf5a",
+      "after": "14f4e7f2c494bb9d110ac03b3e48f3fad51ae6ea26f697032aeb20c5e9e2fc06"
+    }
+  },
+  "limits": "Historical evidence bytes retained; no repeated semantic validation, global approval or baseline; pause before4.17 REVIEW."
+}
