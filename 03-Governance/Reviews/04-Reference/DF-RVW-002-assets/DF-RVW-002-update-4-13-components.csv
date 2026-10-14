@@ -1,0 +1,24 @@
+﻿parent_document_id,report_edition,section,canonical_name,primary_area
+DF-RVW-002,1.0/40,7.1,Metadata,Documentation
+DF-RVW-002,1.0/40,7.1,Document Identity,Documentation
+DF-RVW-002,1.0/40,7.1,Classification,Documentation
+DF-RVW-002,1.0/40,7.1,Templates,Documentation
+DF-RVW-002,1.0/40,7.2,Workflow,Governance
+DF-RVW-002,1.0/40,7.2,Policies,Governance
+DF-RVW-002,1.0/40,7.2,Reviews,Governance
+DF-RVW-002,1.0/40,7.2,Baselines,Governance
+DF-RVW-002,1.0/40,7.3,Registry,Discovery
+DF-RVW-002,1.0/40,7.3,Relationships,Discovery
+DF-RVW-002,1.0/40,7.3,Knowledge Graph,Discovery
+DF-RVW-002,1.0/40,7.3,Navigation,Discovery
+DF-RVW-002,1.0/40,7.3,Search,Discovery
+DF-RVW-002,1.0/40,7.4,Validation,Automation
+DF-RVW-002,1.0/40,7.4,Metadata Generator,Automation
+DF-RVW-002,1.0/40,7.4,Registry Generator,Automation
+DF-RVW-002,1.0/40,7.4,Documentation Generator,Automation
+DF-RVW-002,1.0/40,7.4,Consistency Verification,Automation
+DF-RVW-002,1.0/40,7.5,Source Control Integration,Integration
+DF-RVW-002,1.0/40,7.5,CI/CD Integration,Integration
+DF-RVW-002,1.0/40,7.5,IDE Integration,Integration
+DF-RVW-002,1.0/40,7.5,Documentation Platform Integration,Integration
+DF-RVW-002,1.0/40,7.5,AI Integration,Integration

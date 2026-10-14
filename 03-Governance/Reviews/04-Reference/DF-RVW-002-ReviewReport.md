@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 39 |
+| **Revision** | 40 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -95,6 +95,8 @@ Revision37 records Step4.12 UPDATE in §43 on2026-10-14. Principles becomes V2.0
 Revision38 records Step4.12 VALIDATE DOCUMENT in §44 on2026-10-14. Principles V2.0 R1 remains unchanged Architecture/Architecture,Draft/unassigned;ten local verified closures. Totals:19 Open,117 Closed—verified,one Not applicable—scope decision. M11 six C/one O,In Progress. Next:4.13 REVIEW DF-ARC-001.
 
 Revision 39 records Step 4.13 Architecture Overview REVIEW in §45 on 2026-10-14. Exact source V1.0 R0 is unchanged; eight findings and two warnings Open. Current totals: 29 Open,117 Closed—verified,one Not applicable—scope decision. M11 six C/one S,In Progress. Next: 4.13 UPDATE DF-ARC-001.
+
+Revision 40 records Step 4.13 UPDATE in §46 on2026-10-14. Overview becomes V2.0 R1 Architecture/Architecture Draft/unassigned;ten corrections pending VALIDATE DOCUMENT. Totals:19 Open,ten Corrected—pending validation,117 Closed—verified,one Not applicable—scope decision. §45 retains REVIEW-time states. Next:4.13 VALIDATE DOCUMENT.
 
 ## 2. Concrete changes — before/after
 
@@ -219,6 +221,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-14 | 1.0 | 37 | Step4.12 Principles UPDATE V2.0 R1 Architecture;ten corrections pending validation | Draft;Baseline Not assigned;compatible informational report update;#322 |
 | 2026-10-14 | 1.0 | 38 | Step4.12 exact Principles validation;ten local verified closures;source unchanged | Draft;Baseline Not assigned;V2.0 R1 retained;#324–326 |
 | 2026-10-14 | 1.0 | 39 | Step 4.13 Overview REVIEW; ten local records Open; source unchanged | Draft; Baseline Not assigned; #327–330; REVIEW evidence checks only |
+| 2026-10-14 | 1.0 | 40 | Step4.13 Overview UPDATE V2.0 R1 Architecture;ten corrections pending validation | Draft;Baseline Not assigned;compatible informational report update;#332 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -3633,3 +3636,124 @@ Check detail: `DF-RVW-002-review-4-13-checks.json`; full central diff: `DF-RVW-0
 ### 45.5. Next command
 
 **CONTINUAR** starts **4.13 — UPDATE DF-ARC-001 — Architecture Overview**,applying localized corrections with actual compatibility assessment,full source/history/diff and central tracking,then pauses before VALIDATE DOCUMENT. The following document remains stable Step4.14 DF-DID-001 — Document Identity Architecture; it is not started by this review.
+
+
+## 46. Step 4.13 — UPDATE DF-ARC-001 — Architecture Overview
+
+### 46.1. Actual successor and compatibility
+
+**UPDATE complete; VALIDATE DOCUMENT pending.** Received Architecture/Overview V1.0 R0,Draft/Baseline1.0,English,Author and original date absent becomes **Architecture/Architecture V2.0 R1,Draft,Baseline Not assigned,English**. Primary responsibility is the common architectural model and decision context; Overview remains a title role,not an additional Type or capability. Stable DF-ARC-001/path,original chapter/section provenance and actual owner meanings retained. Actual contribution is Codex — AI assistant,separate from authorization,review,validation,ownership and approval.
+
+Input SHA-256: `fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d`. Output SHA-256: `00d8a81f8adaf223d3b0478c7d2a3ea422f7c8984f84428c7e338ce0e8e98291` (31,005 bytes;370 lines;CRLF retained).
+
+**Actual compatibility: incompatible normative contract reconciliation.** Unscoped hierarchical layer-service direction,absolute independent evolution/extension-only foundations and operational/alignment interpretations are replaced with scoped required contracts/support/same-Layer/cycle rules,owner/executor/evidence boundaries and assessed necessary foundational changes. These governing changes reject earlier universal interpretations;the actual delivered contracts justify major Version 1.0→2.0/minor 0 and monotonic declared Revision 0→1. Type/count/name/links/editorial corrections alone would be compatible. Report R39→R40 is compatible informational tracking and retains Version 1.0.
+
+All fifteen chapters and 28 original numbered sections retain their numbers. Added §§15.1–15.3 record compatibility,actual history and propagation limits. Three original unnamed view texts/digests are preserved in the map;replacement anchors identify original sections,not invented historic view IDs. No new Layer,component,Class,Metadata Element,Profile or identity allocation/migration is performed.
+
+### 46.2. Applied corrections and literal material before/after
+
+| Record | Actual written scope | Received evidence | Written result | State |
+|---|---|---|---|---|
+| ARC001-01 | Header;1–3;15.1/15.2 | Type=Overview is outside the four adopted normalized Types. The source declares Architecture/Overview V1.0 R0, Draft, Baseline1.0 and English, with no Author or original date. Its primary purpose is the common architectural model and decision context. | Architecture/Architecture by common architectural model responsibility; actual V2.0 R1 Draft/unassigned successor with original absent author/date/header preserved. Stable DF-ARC-001/path; no Component/Class or fifth Type invented. | Corrected—pending validation |
+| ARC001-02 | 5/6/7/8.2 | §5 lists seven areas, whereas §6 says six major layers and contains seven rows. The view is called conceptual but reproduces structural organization. Each architectural layer is said to contain components although Foundation/Architecture provide supporting definitions. | Seven structural areas distinct from five conceptual concerns; Foundation/Architecture support definitions rather than invented components. Counts/roles/views and 23 primary allocations agree. | Corrected—pending validation |
+| ARC001-03 | 7/7.1–7.5 | The illustrative lists contain eighteen entries: fifteen exact registered component names plus Generators, Development Tools and Documentation Platforms. Search and individual generator/integration names are absent. The list is explicitly examples, so omissions alone are not a failed universal completeness requirement; generic labels nevertheless blur actual registration. | Full 23-name register synopsis with4/4/5/5/5 allocation; all 18 received entries retain explicit canonical/group mappings. Search comes from the existing register; generic labels create no additional capabilities. One primary owner/allocation permits explicit support cooperation. | Corrected—pending validation |
+| ARC001-04 | 5/6/9/11 | §5 says each layer depends only on lower-layer services. §9 supplies a downward Foundation→Architecture→Documentation→Governance→Discovery→Automation→Integration chain while saying higher consumes lower; relation kinds, consumer/provider direction and same-Layer requirements are absent. §11's Foundation→model→components→specifications→implementation chain is said to ensure alignment. | Three original views have distinct allocation,required-contract and refinement meanings. Seven required consumer→provider rows retain owner contracts/scope; support precedence and same-Layer Knowledge Graph→Relationships/Workflow→Policies explicit. Actual required cycles prohibited and visible; no adjacent chain,every-earlier provider,upward exception or complete graph/implementation claim. | Corrected—pending validation |
+| ARC001-05 | 1/3/4/6/7/8.3/11/12/15 | Governance controls lifecycle, Automation automates documentation management, and Architecture turns concepts into an operational model without stating the DF contract/executor boundary. Every document is addressed without normalized/functional applicability; traceability is asserted without subjects or edition evidence. | DF contracts separate from DMS/tool/manual execution and CMS change scope. Logical entities/editions/capabilities/concerns/files and all-location functional applicability distinct. Subject lifecycle,exact coordinates/Status,maturity,approval/publication and immutable exact-approved-edition membership remain separate with actual evidence. | Corrected—pending validation |
+| ARC001-06 | 6/8.1/8.4/8.5/15.1 | Layers/components are said to evolve independently; §8.4 permits new components without modifying foundations. These absolute claims conflict with current required owner/consumer contracts and necessary assessed foundational change. Independence of formats/repositories is unqualified. | Independent evolution/technology neutrality are objectives under actual contracts/representations. Necessary assessed foundational/responsibility/interface incompatibility permitted; previous/new mapping,owners/consumers,dependencies/transitions explicit. Major/minor and monotonic Revision justified by actual changes; no harmless extension or unconditional independence. | Corrected—pending validation |
+| ARC001-07 | 10/11/12/14/15 | §12 states detailed specifications are provided in dedicated component documents and lists seven example roles, omitting the supplied Templates specification. Registry/Workflow/Policies/Knowledge Graph names do not establish actual dedicated sources or implementation. Specifications are said to inherit principles established by this overview, risking competing authority with Principles/domain owners. | Four actual detailed specifications plus canonical source-role refs resolve. Generic roles remain intended with bounded availability/no invented IDs or deployed services. Explicit applicable principles/domain contracts determine requirements,not blanket synopsis inheritance or Type/title/source presence; ARC-007 organization/conformance referenced. | Corrected—pending validation |
+| ARC001-08 | 1/3/4/8/11/13/15 | Characteristics are stated as possessed, traceability as explicitly represented, and the Foundation progression as ensuring implementation alignment. Goals, requirements and verified outcomes are not separated; no exact-edition conformance/evidence boundary is stated. | Goals/characteristics/alignment distinguish intended qualities,requirements and actual exact-edition observations/executor/coverage/limits. Partial PASS does not certify global implementation or future editions; later bytes require assessment with no inherited outcomes or responsibility for consequences of a changed product. | Corrected—pending validation |
+| ARC001-W01 | 10/14.2 | The eight principle labels omit AP IDs and use synopsis labels Stable Document Identity and Knowledge Traceability rather than the exact AP-010 Stable Identity and AP-012 Traceability titles. The plain Principles ID is unresolved as a navigable link. The list is illustrative, not the full 24-principle catalog. | All eight received principle labels map to actual AP IDs/exact owner titles,including AP-010 Stable Identity and AP-012 Traceability. Selected examples explicitly not a24-AP conformance matrix; real owner clauses/evidence boundaries retain authority. | Corrected—pending validation |
+| ARC001-W02 | Header;2/3/5/7/9/10/11/12/13/14/15 | The source has fifteen chapters,28 numbered sections,three unnamed text views,two tables and eleven unique plain related IDs but no resolving Markdown links or edition/history/input record. Prose repeatedly ends list introductions with a period. ARC-007 is omitted from related Architecture sources. | All15 chapters/28 original numbers and three unnamed view texts/digests retained in full provenance. Eighteen resolving links include all11 received owner targets,ARC-007,four specifications and two review sources. Actual compatibility/history/propagation recorded; absent historical facts remain unknown. | Corrected—pending validation |
+
+The following are selected literal excerpts,not complete replacement sections. The header row is escaped only for table presentation. `DF-RVW-002-update-4-13-map.json` records complete received/written header,all changed original numbered bodies/digests,unchanged sections,added bodies,three original/written view texts/digests,all 18 received component mappings,23 written entries,eight AP mappings,seven selected required rows and reference/impact digests. `DF-RVW-002-update-4-13.diff` is the complete source/central diff.
+
+| Section/field | Actual before excerpt | Actual written excerpt | Reason/impact |
+|---|---|---|---|
+| Header / Type | \| **Type** \| Overview \| | \| **Type** \| Architecture \| | ARC001-01; responsibility classification; identity unchanged |
+| 6 | The architecture is divided into six major layers. | The seven structural areas have the following primary responsibilities, summarized from Layers §4 and Components §4. | ARC001-02; count/view distinction and responsible sources |
+| 8.1 | Each architectural component is independent and may evolve separately. | Separate organization does not guarantee unconditional independent evolution. | ARC001-06; actual provider/consumer constraints |
+| 8.4 | New components may be introduced without modifying existing architectural foundations. | Necessary foundational, responsibility or interface changes are permitted through explicit rationale, previous/new mapping, affected exact editions, compatibility assessment and transition evidence under Principles AP-015/016/017. | ARC001-06; assessed necessary foundational incompatibility |
+| 9 | Higher layers consume services provided by lower layers. | A required dependency is directed **consumer→provider**: the consumer needs the stated provider contract in the declared scope. | ARC001-04; explicit typed direction/scope and actual required edges |
+| 11 | This progression ensures that implementation decisions remain aligned with the architectural vision established by the Foundation. | This progression guides assessment; it does not ensure alignment merely by being drawn. | ARC001-04/08; documentary refinement needs actual conformance evidence |
+| 12 | Each specification inherits the architectural principles established by this document. | Specifications identify applicable common principle clauses and exact responsible domain sources rather than inheriting competing semantics from this overview. | ARC001-07; responsible owner authority/applicability |
+
+26 original numbered bodies changed;unchanged original sections: 7.1, 7.2. The full source is delivered separately and in the interim package. These content/traceability checks do not close findings.
+
+### 46.3. Actual structural, component, principle and view mappings
+
+Seven areas and five conceptual concerns are distinct. Foundation/Architecture provide support definitions;the other five areas allocate 23 capabilities as 4/4/5/5/5. Knowledge/Preservation participation creates neither another Layer nor a component. §7 now declares a complete register-name synopsis sourced to Components V2.0 R1 §4;registration is separate from complete specification,implementation and dependency graph. The eighteen received examples were not an exhaustive requirement;their group/name mappings remain explicit below.
+
+| Original section | Received label | Written canonical target(s) | Mapping scope |
+|---|---|---|---|
+| 7.1 | Metadata | Metadata | Received-label reconciliation;not a new capability |
+| 7.1 | Document Identity | Document Identity | Received-label reconciliation;not a new capability |
+| 7.1 | Classification | Classification | Received-label reconciliation;not a new capability |
+| 7.1 | Templates | Templates | Received-label reconciliation;not a new capability |
+| 7.2 | Workflow | Workflow | Received-label reconciliation;not a new capability |
+| 7.2 | Policies | Policies | Received-label reconciliation;not a new capability |
+| 7.2 | Reviews | Reviews | Received-label reconciliation;not a new capability |
+| 7.2 | Baselines | Baselines | Received-label reconciliation;not a new capability |
+| 7.3 | Registry | Registry | Received-label reconciliation;not a new capability |
+| 7.3 | Relationships | Relationships | Received-label reconciliation;not a new capability |
+| 7.3 | Knowledge Graph | Knowledge Graph | Received-label reconciliation;not a new capability |
+| 7.3 | Navigation | Navigation | Received-label reconciliation;not a new capability |
+| 7.4 | Validation | Validation | Received-label reconciliation;not a new capability |
+| 7.4 | Generators | Metadata Generator; Registry Generator; Documentation Generator | Received-label reconciliation;not a new capability |
+| 7.4 | Consistency Verification | Consistency Verification | Received-label reconciliation;not a new capability |
+| 7.5 | Development Tools | Source Control Integration; CI/CD Integration; IDE Integration | Received-label reconciliation;not a new capability |
+| 7.5 | Documentation Platforms | Documentation Platform Integration | Received-label reconciliation;not a new capability |
+| 7.5 | AI Integration | AI Integration | Received-label reconciliation;not a new capability |
+
+Search is included from the existing register. Generators expands to three supplied register names;Development Tools expands to three integration names;Documentation Platforms maps to Documentation Platform Integration. Metadata remains Documentation;Workflow/Baselines Governance. One primary semantic owner/allocation allows explicit collaboration,shared checks and traceable projection without competing semantics or approval authority.
+
+| Original view section | Actual written relation | Evidence/limit |
+|---|---|---|
+| 5 | Structural allocation and supporting definitions | Seven names/order retained;position is not required service consumption or execution |
+| 9 | Seven selected required consumer→provider contracts | Scope/source editions explicit;provider precedes consumer cross-Layer;same-Layer requirements/cycle assessment remain explicit |
+| 11 | Documentary refinement and implementation assessment | Actual owner clauses,artifacts,checks,observations/executor/coverage needed;drawn progression does not ensure alignment |
+
+The §9 rows reproduce Concepts §8,Layers §12 and Components §12 (V2.0 R1),consistent with Blueprint §8.11. Knowledge Graph→Relationships and Workflow→Policies remain actual same-Layer requirements. No every-earlier-provider or mandatory adjacent service chain is introduced. Actual indispensable contracts/cycles are visible;required cycles are prohibited in governed scope and reconciled with owners. An authority/projection/navigation label cannot hide a required edge or establish acyclicity. Changing support constraints requires an assessed architectural revision,not arbitrary upward exceptions. Selected rows verify no complete global graph or execution pipeline. Source/working view texts and UTF-8/LF digests are attached;exact file bytes are separately protected.
+
+| Received principle label | Written actual AP ID | Exact owner title |
+|---|---|---|
+| Separation of Responsibilities | AP-006 | Separation of Responsibilities |
+| Explicit Architecture | AP-002 | Explicit Architecture |
+| Single Source of Truth | AP-004 | Single Source of Truth |
+| Stable Document Identity | AP-010 | Stable Identity |
+| Knowledge Traceability | AP-012 | Traceability |
+| Incremental Evolution | AP-015 | Incremental Evolution |
+| Backward Compatibility | AP-016 | Backward Compatibility |
+| Technology Independence | AP-003 | Technology Independence |
+
+The eight selected principle rows map real owner AP IDs/titles,including AP-010 Stable Identity and AP-012 Traceability,while preserving received-label provenance. They are not the full 24-AP catalog or a completed implementation-conformance matrix. Detailed applicable clauses/evidence boundaries remain with Principles;the overview creates no competing principle authority.
+
+Eighteen links resolve all eleven original related Foundation/Architecture targets plus ARC-007,four actual specifications(MTD-014/DID-014/CLS-014/TPL-014) and policy/report. Detailed owner requirements are separate from intended specification roles and supplied/deployed capability evidence. No missing source IDs are fabricated. Type,title,directory,source presence and partial PASS confer neither normative applicability by implication nor approval/publication/Baseline membership. ARC-007 retains source-role/organization/conformance ownership;the Reviews set remains partial without a new exception.
+
+DF defines contracts while DMS/tool/manual processes execute applicable operations and CMS governs changes in its own scope. All-location functional exclusions precede normalization without dropping content/reference/history checks. Applicable normalized identity,Family/Type/membership,subject lifecycle,exact-edition Status/coordinates,maturity,review/validation/approval/publication and immutable exact-approved-edition Baseline membership remain distinct. Metadata Dictionary/Schema/Profile/Instance and domain semantic/record owners retain their roles;no missing catalog or Profile is populated by this source.
+
+Independent evolution,technology neutrality,quality,traceability and alignment are design/evidence objectives under actual representation/provider/consumer constraints. Necessary justified foundational/responsibility/interface changes use explicit before/after,owners/consumers,dependencies,compatibility and transitions. Version major/minor and monotonic Revision rules are recorded;unchanged-source validation changes neither coordinate. Partial outcomes apply only to exact examined bytes/scope;later disk changes require assessment without inherited results or responsibility for consequences of a changed final product.
+
+Compared source scopes/hashes from REVIEW are retained and unchanged: Layers §§4/12/13;Components §§3/4/6/8/11/12/13/15;Principles §§2/3/6.1–6.3/8/10/11/13/15.1;Structure §§3/9/10/16/19;Terminology §§4/5.5/5.9/5.22/5.32/6/8/10;Manifest §§6/8/10;Blueprint §§1.7/8.11;Concepts §§3/4/8;Review Policy §§1–7. These partial owner comparisons do not complete peer cycles or validate propagation to this successor. Detailed Metadata,Identity,Classification/Templates,component maps,complete required graph,planning and implementation reconciliation remain scheduled.
+
+### 46.4. Actual history, central tracking and construction checks
+
+Source §15.2 preserves the received V1.0 R0 Architecture/Overview,Draft/Baseline1.0,English,Author/original date absent and exact input hash. The new 2026-10-14 V2.0 R1 row attributes actual assistant contribution,marks ten corrections pending VALIDATE DOCUMENT and references CHANGELOG #331/report §46. §§15.1/15.3 record actual incompatibility and remaining propagation. Approval/selection/original authorship dates are not invented;source's current hash remains external.
+
+| Item | Before | After |
+|---|---|---|
+| Source | V1.0 R0 Architecture/Overview,Draft/Baseline1.0 | V2.0 R1 Architecture/Architecture,Draft/unassigned |
+| Ten local records | Open | Corrected—pending validation |
+| Structural synopsis | Six stated/seven shown;ambiguous component/service interpretation | Seven structural areas/five conceptual concerns;23 canonical capabilities |
+| Review Report | V1.0 R39 | V1.0 R40,technical English,Draft/unassigned |
+| CHANGELOG | Through #330 | #331 source UPDATE;#332 report;#333 milestone tracking |
+| M11 | Six C/Overview S;In Progress | Same counts;UPDATE complete/VALIDATE pending,no completion date |
+
+Current totals: **19 Open,ten Corrected—pending validation,117 Closed—verified,one Not applicable—scope decision**. No finding closes during UPDATE. Twelve prior exact-source local validation scopes retain 117 closures;M10 and M0–M7 remain unchanged. M9 cites R40 without extending original acceptance. Earlier event records and report §§9–45 remain historical evidence.
+
+Construction checks cover exact input/written successor,28 original numbers/three additions,changed/unchanged body digests,all23 canonical allocations/eighteen received maps,eight real AP rows,three balanced original-section view anchors/seven selected required rows,eight rectangular tables,eighteen resolving target identities,header/history/CRLF,affected-source preservation,stable progress and central history. These are UPDATE integrity/traceability checks,not VALIDATE DOCUMENT or closure. All ten closure criteria require separate exact-source validation. Details: `DF-RVW-002-update-4-13-construction.json`.
+
+R39 exports retain REVIEW-time states;current R40 progress/manifest,map,classification/component/AP exports and diff record the delivered successor. `Context-Working-Step-4-13-Update.zip` is interim;no final Context-Reviewed.zip,integrated conformity,approval,publication or Baseline is claimed.
+
+### 46.5. Next command
+
+**CONTINUAR** starts **4.13 — VALIDATE DOCUMENT DF-ARC-001 — Architecture Overview**,checking the exact successor,ten closure criteria,full source/three views and affected comparisons,then pauses before Step4.14 REVIEW DF-DID-001.

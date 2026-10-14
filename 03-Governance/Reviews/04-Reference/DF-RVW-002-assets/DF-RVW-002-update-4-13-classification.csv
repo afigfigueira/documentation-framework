@@ -1,0 +1,2 @@
+﻿Parent,Report edition,Source,Family before,Type before,Family after,Type after,Rationale,Impact
+DF-RVW-002,1.0/40,01-Architecture/DF-ARC-001-ArchitectureOverview.md,Architecture,Overview,Architecture,Architecture,Primary common architectural model and decision context,Stable ID/path;actual incompatible contract reconciliation V2.0 R1

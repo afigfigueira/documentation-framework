@@ -1,0 +1,759 @@
+--- before-4.13-UPDATE/Context/01-Architecture/DF-ARC-001-ArchitectureOverview.md
++++ after-4.13-UPDATE/Context/01-Architecture/DF-ARC-001-ArchitectureOverview.md
+@@ -3,131 +3,122 @@
+ # Architecture Overview
+ 
+ | Metadata | Value |
+-|----------|-------|
++|---|---|
+ | **Document ID** | DF-ARC-001 |
+ | **Title** | Architecture Overview |
+ | **Family** | Architecture |
+-| **Type** | Overview |
++| **Type** | Architecture |
++| **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+-| **Version** | 1.0 |
+-| **Revision** | 0 |
+-| **Baseline** | 1.0 |
++| **Version** | 2.0 |
++| **Revision** | 1 |
++| **Baseline** | Not assigned |
+ | **Language** | English |
+ 
++The received V1.0 R0 declares Type=Overview, Draft and Baseline1.0, with no Author or original date. Those declarations remain historical evidence in §15.2. This working successor is corrected—pending VALIDATE DOCUMENT; contribution is distinct from authorization, review and approval.
++
+ ---
+ 
+ # 1. Introduction
+ 
+-The Documentation Framework is an architectural framework for designing, organizing, governing and evolving technical documentation.
+-
+-Rather than treating documentation as a collection of independent files, the framework considers documentation to be a structured knowledge system composed of well-defined architectural components that interact through explicit responsibilities and relationships.
+-
+-The framework provides the architectural foundation required to produce documentation that is consistent, traceable, maintainable and technology independent.
++The Documentation Framework (DF) defines architectural contracts for designing, organizing, governing and evolving technical documentation as structured knowledge. Logical documents and exact editions, capability components, structural areas, conceptual concerns and physical files are distinct kinds of entity or organization.
++
++DF defines documentary, representation and applicable governance contracts. A Documentation Management System (DMS), tool or applicable manual process executes document-management/checking operations; a Change Management System (CMS) governs changes in its own scope. This overview neither defines complete external systems nor proves deployed services, permissions, storage or an operational workflow.
++
++Every file named **README.md**, **CHANGELOG.md** or **ArchitecturalMilestones.md**, at every location, is a non-normalized functional file. Normalization requires no Document ID, Family, Type, Component, Version, Revision, Status or Baseline for these names. Applicable content, organization, reference, history, inventory and hash checks remain. Legitimate existing information is not automatically removed, and the exclusion introduces no exception to normalized document Types.
++
++Consistency, traceability, maintainability and technology independence are intended qualities assessed against applicable owner contracts and actual scoped evidence, rather than outcomes guaranteed by this overview.
+ 
+ ---
+ 
+ # 2. Purpose
+ 
+-The purpose of the Documentation Framework architecture is to establish a common architectural model for documentation.
+-
+-The architecture defines.
+-
+-- the fundamental concepts of the framework;
+-- the architectural organization of documentation;
+-- the responsibilities of each architectural component;
+-- the relationships between components;
+-- the principles governing framework evolution.
++The primary responsibility is the common architectural model and decision context; therefore Type is **Architecture**. Family Architecture identifies the non-component documentary area. Overview remains a title role rather than another Type or a newly registered component.
++
++The architecture defines or references:
++
++- fundamental concepts and responsible domain contracts;
++- structural organization and conceptual concerns;
++- component responsibilities and primary allocation;
++- explicit relationship kinds and scoped required contracts;
++- principles and controlled evolution constraints.
++
++This synopsis consumes responsible sources identified in §§10–14; it does not replace their detailed definitions or declare complete implementation conformance.
+ 
+ ---
+ 
+ # 3. Architectural Vision
+ 
+-The Documentation Framework views documentation as an integrated knowledge architecture.
+-
+-Instead of organizing information around files or directories, the framework organizes knowledge around architectural components.
+-
+-Every document contributes to the overall knowledge architecture and participates in a larger system of relationships.
+-
+-The architecture therefore emphasizes.
+-
+-- knowledge over files;
+-- structure over storage;
+-- identity over location;
+-- governance over manual organization;
+-- explicit relationships over implicit conventions.
++Documentation represents knowledge through logical entities, exact editions, explicit owner responsibilities and traceable relationships. Physical files and directories represent organization; their position does not define permanent identity, authority or required runtime edges.
++
++The vision emphasizes knowledge, coherent structure, stable identity, explicit governance contracts and typed relationships. Functional files participate in this knowledge architecture without acquiring normalized metadata obligations. For normalized documents, Family, four-value Type, optional defined Class, component membership, structural allocation and permanent identity are separate dimensions. Type uses exactly Architecture, Structure, Behavior or Reference by primary responsibility; component Family is its canonical component name, while admitted non-component areas have explicit scope. Component, when present, agrees with actual membership. Valid permanent IDs survive reclassification, relocation and edition changes unless an assessed migration is necessary.
++
++Each semantic domain has a responsible owner within its stated scope. Metadata represents meanings owned by Identity, Classification and Governance without replacing those meanings; Dictionary defines, Schema organizes, Profile constrains and Instance provides values under one effective Profile. Derived summaries, catalogs and graph projections retain source-edition provenance and refresh limits rather than creating competing authority.
+ 
+ ---
+ 
+ # 4. Architectural Goals
+ 
+-The Documentation Framework has the following architectural goals.
+-
+-- establish a consistent documentation architecture;
+-- separate responsibilities between architectural components;
+-- provide stable document identity;
+-- enable knowledge discovery;
+-- support documentation governance;
+-- preserve architectural traceability;
+-- facilitate incremental evolution;
+-- remain independent of implementation technologies.
++The architectural goals are to:
++
++- establish coherent documentary contracts and terminology;
++- separate primary responsibilities while permitting explicit collaboration;
++- preserve stable logical identity for applicable normalized documents;
++- enable discovery under actual catalog, relationship and source evidence;
++- support subject-specific governance and exact-edition traceability;
++- preserve explicit immutable snapshot selections and history;
++- support assessed incremental evolution and justified necessary change;
++- avoid unnecessary implementation-technology prescriptions.
++
++Achieved quality requires identified artifacts/editions, applicable requirements, checks, observations, executor, coverage and limits. Goals alone prove neither approval, publication, membership nor implemented capability.
+ 
+ ---
+ 
+ # 5. Architectural Organization
+ 
+-The Documentation Framework is organized into architectural layers.
+-
+-Each layer groups components with similar responsibilities while remaining independent from implementation technologies.
+-
+-Conceptually.
+-
+-```text
+-
+-                    Documentation Framework
+-                    │
+-                    ├── Foundation
+-                    │
+-                    ├── Architecture
+-                    │
+-                    ├── Documentation Layer
+-                    │
+-                    ├── Governance Layer
+-                    │
+-                    ├── Discovery Layer
+-                    │
+-                    ├── Automation Layer
+-                    │
+-                    └── Integration Layer
+-
+-```
+-
+-Each layer introduces a specific architectural capability while depending only on the services provided by lower layers.
++DF has **seven structural areas (structural Layers)**. This organization groups supporting definitions and registered capability allocations; it is different from the five conceptual concerns.
++
++<!-- original-section-view: 5 -->
++**Previously unnamed view in §5 — Structural allocation and supporting definitions.**
++
++| Structural area | Organizational role |
++|---|---|
++| Foundation | Supporting identity, vision, rationale and history definitions |
++| Architecture | Supporting common concepts, principles, allocation rules and vocabulary |
++| Documentation | Primary allocation of documentary representation capabilities |
++| Governance | Primary allocation of documentary governance capabilities |
++| Discovery | Primary allocation of catalog, connection and discovery capabilities |
++| Automation | Primary allocation of repeatable checking and generation capabilities |
++| Integration | Primary allocation of external adapter capabilities |
++<!-- end-original-section-view -->
++
++The original seven names/order are retained. Tree/row position represents organization, not a mandatory adjacent service chain or execution sequence. Foundation and Architecture provide supporting definition documents; a directory or document does not become a capability component merely by appearing here. Required consumption is separately governed in §9.
++
++Five conceptual concerns are Knowledge, Documentation, Governance, Discovery and Preservation (Blueprint §1.7). Knowledge is represented subject matter; Preservation participates across history, exact editions, governance and immutable snapshots. Neither creates an additional structural Layer or component. Primary allocation does not prevent cross-cutting participation or explicit cooperation under owner contracts.
+ 
+ ---
+ 
+ # 6. Architectural Layers
+ 
+-The architecture is divided into six major layers.
+-
+-| Layer | Responsibility |
+-|--------|----------------|
+-| Foundation | Defines the conceptual foundation of the framework. |
+-| Architecture | Defines the architectural model and organization. |
+-| Documentation | Represents documentation as structured knowledge. |
+-| Governance | Controls document lifecycle and governance. |
+-| Discovery | Enables navigation and knowledge discovery. |
+-| Automation | Automates validation and documentation management. |
+-| Integration | Connects the framework with external systems. |
+-
+-Each layer is specified independently and may evolve without violating the architectural principles of the framework.
++The seven structural areas have the following primary responsibilities, summarized from Layers §4 and Components §4.
++
++| Area | Responsibility | Registered capability count |
++|---|---|---|
++| Foundation | Framework basis, rationale and historical context | No component invented; supporting definitions |
++| Architecture | Common model, organization, principles and terminology | No component invented; supporting definitions |
++| Documentation | Documentary description, identity, classification and reusable structures | 4 |
++| Governance | Subject lifecycle, policy, review and exact snapshot contracts | 4 |
++| Discovery | Catalogs, typed connections, network projections, navigation and search | 5 |
++| Automation | Scoped checks and artifact generation under owner requirements | 5 |
++| Integration | Explicit adapters to external environments | 5 |
++
++The 23 capabilities are primary allocations, not proof of installed services. Governance defines requirements rather than operating every transition; Automation defines checking/generation capabilities whose implementations require actual input/output and executor evidence. Separation supports assessed evolution, subject to provider/consumer contracts and coordinated changes; areas do not guarantee independent releases.
+ 
+ ---
+ 
+ # 7. Architectural Components
+ 
+-Each architectural layer contains one or more architectural components.
+-
+-Examples include.
++The following is a complete **23-name primary-allocation summary of Components V2.0 R1 §4**, not a complete specification, implementation or required-edge inventory. Foundation/Architecture supply support definitions rather than registered components. A capability has one primary semantic responsibility/allocation while explicit support work may span concerns or shared check domains without competing semantics or approval authority.
+ 
+ ## 7.1. Documentation Layer
+ 
+@@ -149,181 +140,159 @@
+ - Relationships
+ - Knowledge Graph
+ - Navigation
++- Search
+ 
+ ## 7.4. Automation Layer
+ 
+ - Validation
+-- Generators
++- Metadata Generator
++- Registry Generator
++- Documentation Generator
+ - Consistency Verification
+ 
+ ## 7.5. Integration Layer
+ 
+-- Development Tools
+-- Documentation Platforms
++- Source Control Integration
++- CI/CD Integration
++- IDE Integration
++- Documentation Platform Integration
+ - AI Integration
+ 
+-Each component has a clearly defined responsibility and interacts with other components through explicit architectural relationships.
++The received §7 examples had eighteen entries. For this reconciliation, Generators maps to Metadata Generator, Registry Generator and Documentation Generator; Development Tools maps to Source Control Integration, CI/CD Integration and IDE Integration; Documentation Platforms maps to Documentation Platform Integration. The other fifteen names were already canonical. Search is supplied by the existing register, not newly created. The full received-to-current map remains in the UPDATE evidence; none of the three generic labels registers another capability. The received list was illustrative, so omissions alone did not violate an exhaustive-list requirement.
++
++Metadata remains allocated to Documentation; Workflow and Baselines remain Governance. Relationships owns typed connection records; Registry and Knowledge Graph expose traceable projections. Reviews can use Validation/Consistency Verification evidence without acquiring competing semantic ownership or approval authority. Allocation and cooperation are separately declared from required consumption in §9.
+ 
+ ---
+ 
+ # 8. Architectural Characteristics
+ 
+-The Documentation Framework architecture possesses the following characteristics.
++These are design objectives and applicable structural constraints. Their realization depends on actual contracts and evidence; naming a characteristic does not establish achieved operational quality.
+ 
+ ## 8.1. Modular
+ 
+-Each architectural component is independent and may evolve separately.
++Components preserve coherent primary responsibilities and compatible provider contracts where feasible. Explicit interfaces, cross-cutting support and actual dependencies can require coordinated document, descriptor or release changes. Separate organization does not guarantee unconditional independent evolution.
+ 
+ ---
+ 
+ ## 8.2. Layered
+ 
+-Responsibilities are organized into well-defined architectural layers.
++Responsibilities use the seven structural areas and 23 primary capability allocations in §§5–7. Conceptual concern participation is a separate view; it creates neither competing allocation nor additional components. Required edges obey §9 rather than visual hierarchy alone.
+ 
+ ---
+ 
+ ## 8.3. Traceable
+ 
+-Architectural decisions and document evolution are explicitly represented.
++Traceability connects identified subjects, exact editions, decisions, changes, records and observations within actual coverage. Entity lifecycles, document Version/Revision/Status, implementation maturity, approval/publication and Baseline membership are distinct facts. State lists are not a universal operational transition or permission graph.
++
++A Baseline is a separately identified immutable explicit selection of exact approved document editions with relevant pinned relationship context or traceable verification evidence. Eligibility, consistency and actual inclusion are separate checks; a current path or time label is insufficient. Immutability belongs to the selected snapshot rather than being activated only by publication. Draft successors neither retarget older selections nor inherit membership.
+ 
+ ---
+ 
+ ## 8.4. Extensible
+ 
+-New components may be introduced without modifying existing architectural foundations.
++New capabilities require demonstrated need, coherent owner responsibility, primary allocation, typed interactions and consumer/dependency impact. Reuse or extend existing meaning where feasible. Necessary foundational, responsibility or interface changes are permitted through explicit rationale, previous/new mapping, affected exact editions, compatibility assessment and transition evidence under Principles AP-015/016/017. Extension is not assumed harmless and need not create a new Layer.
++
++For working document editions, compatible correction retains Version; compatible additive capability increments minor; incompatible contract change increments major and resets minor to 0. Every changed persisted edition increments Revision monotonically across Version changes. Validation with unchanged source increments neither coordinate and is tracked centrally. A Version number alone proves neither consumer compatibility nor completed propagation.
+ 
+ ---
+ 
+ ## 8.5. Technology Independent
+ 
+-The framework is independent of documentation formats, repositories and implementation technologies.
++Conceptual definitions avoid prescribing formats, repositories or technology unless an explicit integration constraint requires it. Actual representations, adapters, storage and executors still need applicable contracts and verification. This objective guarantees neither tool availability nor universal portability/interoperability.
+ 
+ ---
+ 
+ ## 8.6. Knowledge-Oriented
+ 
+-Documentation is treated as structured knowledge rather than isolated documents.
++Documentary entities and relationships represent knowledge under explicit owner meanings, source provenance and scoped discovery evidence. Functional entry/history files also contribute while remaining outside normalization. Representation and source presence do not themselves prove current-stale handling, complete knowledge coverage or implemented discovery quality.
+ 
+ ---
+ 
+ # 9. Architectural Dependencies
+ 
+-The Documentation Framework follows a hierarchical dependency model.
+-
+-```text
+-
+-                Foundation
+-                    │
+-                    ▼
+-
+-               Architecture
+-                    │
+-                    ▼
+-
+-              Documentation
+-                    │
+-                    ▼
+-
+-                Governance
+-                    │
+-                    ▼
+-
+-                Discovery
+-                    │
+-                    ▼
+-
+-                Automation
+-                    │
+-                    ▼
+-
+-               Integration
+-
+-```
+-
+-Higher layers consume services provided by lower layers.
+-
+-Lower layers remain independent from higher-level implementation concerns.
++A required dependency is directed **consumer→provider**: the consumer needs the stated provider contract in the declared scope. Record the exact responsible source editions, required interface and actual evidence. Structural allocation, documentary authority reference, semantic association, projection, navigation and execution are separate relationship kinds.
++
++For required cross-Layer consumption governed here, support order is Foundation, Architecture, Documentation, Governance, Discovery, Automation, Integration. Lower means an earlier support area in this declared order, not a lower visual row. A required cross-Layer provider precedes its consumer. This requires neither every earlier provider nor an adjacent serial service chain. Same-Layer requirements need explicit ownership/interfaces and cycle assessment. Changing the support constraint requires an assessed architectural revision, not an arbitrary upward-dependency exception.
++
++<!-- original-section-view: 9 -->
++**Previously unnamed view in §9 — Selected required contracts; consumer→provider.**
++
++| Consumer | Provider | Required contract | Scope/justification |
++|---|---|---|---|
++| Registry | Metadata | Descriptive values with source-edition provenance | When indexing edition descriptors; refresh or identify stale values |
++| Knowledge Graph | Document Identity | Entity identity for logical document nodes | When keying document nodes; other entity kinds use their own endpoint identity contracts |
++| Knowledge Graph | Relationships | Typed connection records and provenance | When projecting the semantic network and interpreting dependency kinds |
++| Workflow | Metadata | Represented state/edition descriptors | When interpreting documentary state values for a governance transition |
++| Workflow | Policies | Applicable transition and evidence rules | When deciding permitted governance operations; execution remains with the applicable process |
++| Baselines | Document Identity | Logical member identity | When selecting/preserving document-edition members |
++| Baselines | Metadata | Exact edition-reference/descriptive contract | When selecting/preserving exact editions; relevant relationship context must also be pinned or evidenced |
++<!-- end-original-section-view -->
++
++These seven selected declarations reproduce Concepts §8, Layers §12 and Components §12 (V2.0 R1), consistent with Blueprint §8.11. Knowledge Graph→Relationships and Workflow→Policies are same-Layer requirements. Supporting Foundation/Architecture definitions and documentary references are not automatically runtime service edges; an indispensable provider remains required even if supplied through a projection or described as a reference.
++
++Circular required dependencies are prohibited within the governed contract scope, including same-area and cross-area cycles. Preserve actual indispensable edges, cycles and conflicting owner declarations visibly for reconciliation. Do not hide a cycle by changing its label, omitting a provider or reallocating semantic ownership merely to produce a clean graph. The complete graph needs actual owner/consumer evidence and context-specific contracts beyond these rows; selected declarations prove neither global acyclicity, complete compatibility nor a verified execution pipeline. Source editions and compared scopes are pinned in the UPDATE map; no unavailable detailed interface is fabricated.
+ 
+ ---
+ 
+ # 10. Architectural Principles
+ 
+-The architecture is governed by a set of architectural principles.
+-
+-These include.
+-
+-- Separation of Responsibilities
+-- Explicit Architecture
+-- Single Source of Truth
+-- Stable Document Identity
+-- Knowledge Traceability
+-- Incremental Evolution
+-- Backward Compatibility
+-- Technology Independence
+-
+-These principles are formally defined in **DF-ARC-002 – Architectural Principles**.
++Applicable design constraints remain owned by **DF-ARC-002 — Architectural Principles V2.0 R1**. This overview references selected examples rather than establishing another principle catalog or blanket implementation compliance.
++
++| Received synopsis label | Actual AP ID and exact owner title | Interpretation |
++|---|---|---|
++| Separation of Responsibilities | AP-006 — Separation of Responsibilities | Primary ownership permits explicit collaboration |
++| Explicit Architecture | AP-002 — Explicit Architecture | Identified contracts and decision evidence |
++| Single Source of Truth | AP-004 — Single Source of Truth | One scoped semantic owner with traceable derived representations |
++| Stable Document Identity | AP-010 — Stable Identity | Applicable normalized identity distinct from mutable classification/edition |
++| Knowledge Traceability | AP-012 — Traceability | Actual subject/edition/decision records and coverage |
++| Incremental Evolution | AP-015 — Incremental Evolution | Incremental improvement where feasible; assessed necessary change |
++| Backward Compatibility | AP-016 — Backward Compatibility | Compatible contracts where feasible; justified versioned incompatibility |
++| Technology Independence | AP-003 — Technology Independence | Conceptual independence with actual representation/integration constraints |
++
++Stable Document Identity and Knowledge Traceability remain received synopsis labels mapped to their actual owner titles, not additional APs. The eight selected rows are neither all 24 principles nor a completed conformance matrix. Consult actual AP clauses/evidence boundaries and §11 compliance requirements in the owner source; no principle ID, capability or approval is invented here.
+ 
+ ---
+ 
+ # 11. Relationship with the Foundation Documents
+ 
+-The Foundation documents establish the conceptual basis of the Documentation Framework.
+-
+-The Architecture documents transform those concepts into an operational architectural model.
+-
+-Conceptually.
+-
+-```text
+-
+-           Foundation Documents
+-                    │
+-                    ▼
+-
+-           Architectural Model
+-                    │
+-                    ▼
+-
+-         Architectural Components
+-                    │
+-                    ▼
+-
+-         Component Specifications
+-                    │
+-                    ▼
+-
+-             Implementation
+-
+-```
+-
+-This progression ensures that implementation decisions remain aligned with the architectural vision established by the Foundation.
++Foundation sources supply framework vision, contracts, rationale and history; Architecture sources specify common models and structural rules. Their relationships with components and implementations are documentary refinement and evidence obligations, rather than an automatic runtime sequence.
++
++<!-- original-section-view: 11 -->
++**Previously unnamed view in §11 — Documentary refinement and implementation assessment.**
++
++| Subject/source role | Contribution | Required assessment/limit |
++|---|---|---|
++| Foundation documents | Vision, basis, applicable contracts, rationale and history | Identify responsible clauses/editions; history does not silently become a current rule |
++| Architectural model | Concepts, principles, allocation and common constraints | Reconcile actual owner meanings and required contracts |
++| Architectural components | Registered capability responsibilities and cooperation | Primary allocation is not implemented service evidence |
++| Component specifications | Detailed applicable owner requirements | Actual supplied sources and missing roles remain explicit |
++| Implementation | Concrete representation, adapters and executors | Demonstrate traceable conformance against exact applicable contracts and examined artifacts |
++<!-- end-original-section-view -->
++
++This progression guides assessment; it does not ensure alignment merely by being drawn. Evidence identifies rules, exact artifacts/editions, context, checks, observations, executor, coverage and unmet/not-verified criteria. Authority follows explicit applicable responsible contracts/incorporation, not a directory, Type, title or hierarchy. Normative requirements can occur in Architecture, Structure, Behavior or Reference sources; none is approved, published or selected into a Baseline by that classification.
+ 
+ ---
+ 
+ # 12. Relationship with Component Specifications
+ 
+-The Architecture documents do not define the detailed implementation of individual components.
+-
+-Instead, they establish the architectural context within which each component is specified.
+-
+-Detailed specifications are provided in dedicated component documents.
+-
+-Examples include.
+-
+-- Metadata
+-- Document Identity
+-- Classification
+-- Registry
+-- Workflow
+-- Policies
+-- Knowledge Graph
+-
+-Each specification inherits the architectural principles established by this document.
++Common Architecture defines context; detailed specifications own domain requirements. Actual supplied files, intended specification roles and implemented capabilities are different evidence kinds. Four detailed Documentation specifications are supplied:
++
++| Component | Actual supplied specification | Evidence/owner limit |
++|---|---|---|
++| Metadata | [DF-MTD-014 — Metadata Specification](../02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md) | Dictionary/Schema/Profile/catalog reconciliation and full cycle pending |
++| Document Identity | [DF-DID-014 — Document Identity Specification](../02-Documentation/DocumentIdentity/04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md) | Identity allocation/syntax/applicability reconciliation and full cycle pending |
++| Classification | [DF-CLS-014 — Classification Specification](../02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md) | Family/Type conventions and nominal collision reconciliation pending |
++| Templates | [DF-TPL-014 — Template Specification](../02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md) | Reusable structures/instances; full detailed source cycle pending |
++
++Registry, Workflow, Policies and Knowledge Graph remain registered capabilities with intended detailed source roles in the received example list. That list does not establish dedicated specification files or external absence. No missing source ID or implemented service is invented. Templates is an actual supplied contract, although omitted from that earlier example list. Consult Components §13 for bounded corpus availability and DF-ARC-007 for source-role organization/conformance requirements.
++
++Specifications identify applicable common principle clauses and exact responsible domain sources rather than inheriting competing semantics from this overview. Explicit incorporation/applicability governs normative meaning. Source presence, Type=Reference, titles and successful checks alone grant neither approval, publication, Baseline membership nor implementation conformance. Required role coverage, partial sets and full owner/consumer compatibility retain their own assessment.
+ 
+ ---
+ 
+ # 13. Intended Audience
+ 
+-This document is intended for.
++This document is intended for:
+ 
+ - framework architects;
+ - documentation architects;
+@@ -332,41 +301,70 @@
+ - framework contributors;
+ - tool developers.
+ 
+-It provides the architectural context required to understand the organization of the Documentation Framework.
++It provides orientation to actual responsible sources and the structural model. Implementers still need detailed owner contracts, explicit representations and verification evidence; this overview is not a completed implementation guide or universal quality guarantee.
+ 
+ ---
+ 
+ # 14. Related Documents
+ 
++These are resolving documentary authority/navigation references, not runtime dependency edges. Each source retains its responsibility and examined-edition scope; prior local validation does not silently certify later consumers.
++
+ ## 14.1. Foundation
+ 
+-- DF-FND-001 — Framework Manifest
+-- DF-FND-002 — Research Journal
+-- DF-FND-003 — Evolution Timeline
+-- DF-FND-004 — Architectural Blueprint
+-- DF-FND-005 — Framework Evolution
+-- DF-FND-006 — Design Rationale
++- [DF-FND-001 — Framework Manifest](../00-Foundation/DF-FND-001-FrameworkManifest.md) — Framework orientation and adopted documentary interpretation.
++- [DF-FND-002 — Research Journal](../00-Foundation/DF-FND-002-ResearchJournal.md) — Historical reasoning; received meanings remain qualified.
++- [DF-FND-003 — Evolution Timeline](../00-Foundation/DF-FND-003-EvolutionTimeline.md) — Historical events and their exact scope.
++- [DF-FND-004 — Architectural Blueprint](../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md) — Foundational vision/contracts and selected required pairs.
++- [DF-FND-005 — Framework Evolution](../00-Foundation/DF-FND-005-FrameworkEvolution.md) — Controlled evolution/transition contracts.
++- [DF-FND-006 — Design Rationale](../00-Foundation/DF-FND-006-DesignRationale.md) — Rationale for boundaries and decisions.
+ 
+ ## 14.2. Architecture
+ 
+-- DF-ARC-002 — Architectural Principles
+-- DF-ARC-003 — Architectural Concepts
+-- DF-ARC-004 — Architectural Layers
+-- DF-ARC-005 — Architectural Components
+-- DF-ARC-006 — Terminology
++- [DF-ARC-002 — Architectural Principles](DF-ARC-002-ArchitecturalPrinciples.md) — Actual AP definitions/applicability/evidence boundaries.
++- [DF-ARC-003 — Architectural Concepts](DF-ARC-003-ArchitecturalConcepts.md) — Entity, capability and relationship interpretation.
++- [DF-ARC-004 — Architectural Layers](DF-ARC-004-ArchitecturalLayers.md) — Primary allocation, support precedence and cycle rules.
++- [DF-ARC-005 — Architectural Components](DF-ARC-005-ArchitecturalComponents.md) — Canonical 23-capability register and owner/consumer roles.
++- [DF-ARC-006 — Terminology](DF-ARC-006-Terminology.md) — Context-qualified vocabulary and responsible meanings.
++- [DF-ARC-007 — Component Documentation Structure](DF-ARC-007-ComponentDocumentationStructure.md) — Four responsibility categories, source roles and organization conformance.
++
++Working process and evidence sources:
++
++- [DF-RVW-001 — Review Policy](../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md) — Adopted classification, identity, edition and review tracking rules.
++- [DF-RVW-002 — Review Report](../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md) — Exact input/output evidence, findings, impact maps and central results; UPDATE pending source validation.
+ 
+ ---
+ 
+ # 15. Conclusion
+ 
+-The Architecture Overview provides the high-level architectural view of the Documentation Framework.
+-
+-It establishes the overall organization of the framework, introduces its architectural layers and components, and defines the context in which the remaining architectural specifications are developed.
+-
+-Together with the Foundation documents, it forms the basis for the detailed specification, implementation and future evolution of the Documentation Framework.
++The Architecture Overview supplies a common orientation to the seven structural areas, 23 registered capability allocations, five conceptual concerns, actual owner principles and scoped relationship contracts. Detailed definitions and implementation evidence remain with responsible sources; intended qualities are assessed rather than guaranteed by registration or source presence.
++
++The ten local corrections are **Corrected—pending validation**. This UPDATE establishes neither complete required-graph consistency, global consumer propagation, implemented services nor approval/publication/Baseline membership. A local PASS applies only to its exact recorded scope/bytes. Later human/tool disk edits require assessment of their resulting edition and do not inherit earlier outcomes or assign the previous contributor responsibility for consequences of a changed final product.
++
++## 15.1. Compatibility assessment
++
++Received §§5/9 give an unqualified hierarchical lower-layer service interpretation; §§6/8.1 guarantee independent evolution; §8.4 introduces new capabilities without modifying foundations; §11 says the drawn progression ensures implementation alignment. V2.0 replaces these interpretations with scoped typed consumer→provider contracts,explicit support/same-Layer/cycle rules,owner/executor and evidence boundaries,and compatible-where-feasible evolution with necessary assessed foundational changes.
++
++This is **incompatible normative contract reconciliation**: Version 1.0 increments major to 2.0/minor 0 and declared Revision 0 increments monotonically to 1. Count/name/Type, resolving links and editorial corrections alone would be compatible. All original fifteen chapters and 28 numbered section numbers remain; three original unnamed views retain section provenance in the external map. Added §§15.1–15.3 provide this assessment, history and propagation limits. DF-ARC-001/path remain stable; no identity migration, new Layer, component, Class, Metadata Element or Profile is performed.
++
++## 15.2. Edition history
++
++| Date/event | Version | Revision | Actual contribution and event | Status/Baseline/evidence |
++|---|---|---|---|---|
++| Original date not supplied; received 2026-09-30 | 1.0 | 0 | Author absent; received Architecture/Overview declarations preserved | Draft; Baseline1.0 declared; no approval/publication/selection evidence inferred |
++| 2026-10-14 | 2.0 | 1 | Codex — AI assistant; localized architectural contract reconciliation and canonical summaries | Draft; Baseline Not assigned; ten corrections pending VALIDATE DOCUMENT; CHANGELOG #331; Review Report §46 |
++
++Exact input SHA-256: `fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d`. The external UPDATE map contains complete received/written header and changed numbered bodies, component/AP/view mappings, exact source/impact digests and full diff. The source's own current hash is recorded externally to avoid recursive revision. Original absent authorship/date remains unknown; user authorization alone does not make the user the author. Contribution, authorization, review, validation, ownership and approval are separate facts.
++
++## 15.3. Propagation and validation limits
++
++This localized UPDATE changes DF-ARC-001 and central report/tracking/evidence only. Compared source editions/scopes are pinned in the UPDATE map. Twelve earlier local Foundation/Architecture validations retain their exact-byte coverage; their UPDATE-time pending statements remain event history and do not validate this successor or a full consumer rollout.
++
++Detailed Metadata Dictionary/Schema/Profile, Identity allocation/applicability, Classification conventions/nominal collision, Templates contracts, component source maps, complete required graph, planning and implementation propagation remain scheduled. The added Reviews documentation set remains partial under ARC-007; no missing source or implemented capability is fabricated. All nineteen global records remain Open; INV-02 retains the functional-file scope decision. Ten local corrections await exact-source VALIDATE DOCUMENT, including source/reference/owner comparisons and closure criteria.
++
++No final Context-Reviewed.zip or integrated conformity is delivered by this UPDATE. Draft and Baseline Not assigned remain explicit; formal approval, publication and exact membership require their own evidence.
+ 
+ ---
+ 
+ **End of Document**
+ 
+----+---
+--- before-4.13-UPDATE/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ after-4.13-UPDATE/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 39 |
++| **Revision** | 40 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -95,6 +95,8 @@
+ Revision38 records Step4.12 VALIDATE DOCUMENT in §44 on2026-10-14. Principles V2.0 R1 remains unchanged Architecture/Architecture,Draft/unassigned;ten local verified closures. Totals:19 Open,117 Closed—verified,one Not applicable—scope decision. M11 six C/one O,In Progress. Next:4.13 REVIEW DF-ARC-001.
+ 
+ Revision 39 records Step 4.13 Architecture Overview REVIEW in §45 on 2026-10-14. Exact source V1.0 R0 is unchanged; eight findings and two warnings Open. Current totals: 29 Open,117 Closed—verified,one Not applicable—scope decision. M11 six C/one S,In Progress. Next: 4.13 UPDATE DF-ARC-001.
++
++Revision 40 records Step 4.13 UPDATE in §46 on2026-10-14. Overview becomes V2.0 R1 Architecture/Architecture Draft/unassigned;ten corrections pending VALIDATE DOCUMENT. Totals:19 Open,ten Corrected—pending validation,117 Closed—verified,one Not applicable—scope decision. §45 retains REVIEW-time states. Next:4.13 VALIDATE DOCUMENT.
+ 
+ ## 2. Concrete changes — before/after
+ 
+@@ -219,6 +221,7 @@
+ | 2026-10-14 | 1.0 | 37 | Step4.12 Principles UPDATE V2.0 R1 Architecture;ten corrections pending validation | Draft;Baseline Not assigned;compatible informational report update;#322 |
+ | 2026-10-14 | 1.0 | 38 | Step4.12 exact Principles validation;ten local verified closures;source unchanged | Draft;Baseline Not assigned;V2.0 R1 retained;#324–326 |
+ | 2026-10-14 | 1.0 | 39 | Step 4.13 Overview REVIEW; ten local records Open; source unchanged | Draft; Baseline Not assigned; #327–330; REVIEW evidence checks only |
++| 2026-10-14 | 1.0 | 40 | Step4.13 Overview UPDATE V2.0 R1 Architecture;ten corrections pending validation | Draft;Baseline Not assigned;compatible informational report update;#332 |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -3633,3 +3636,124 @@
+ ### 45.5. Next command
+ 
+ **CONTINUAR** starts **4.13 — UPDATE DF-ARC-001 — Architecture Overview**,applying localized corrections with actual compatibility assessment,full source/history/diff and central tracking,then pauses before VALIDATE DOCUMENT. The following document remains stable Step4.14 DF-DID-001 — Document Identity Architecture; it is not started by this review.
++
++
++## 46. Step 4.13 — UPDATE DF-ARC-001 — Architecture Overview
++
++### 46.1. Actual successor and compatibility
++
++**UPDATE complete; VALIDATE DOCUMENT pending.** Received Architecture/Overview V1.0 R0,Draft/Baseline1.0,English,Author and original date absent becomes **Architecture/Architecture V2.0 R1,Draft,Baseline Not assigned,English**. Primary responsibility is the common architectural model and decision context; Overview remains a title role,not an additional Type or capability. Stable DF-ARC-001/path,original chapter/section provenance and actual owner meanings retained. Actual contribution is Codex — AI assistant,separate from authorization,review,validation,ownership and approval.
++
++Input SHA-256: `fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d`. Output SHA-256: `00d8a81f8adaf223d3b0478c7d2a3ea422f7c8984f84428c7e338ce0e8e98291` (31,005 bytes;370 lines;CRLF retained).
++
++**Actual compatibility: incompatible normative contract reconciliation.** Unscoped hierarchical layer-service direction,absolute independent evolution/extension-only foundations and operational/alignment interpretations are replaced with scoped required contracts/support/same-Layer/cycle rules,owner/executor/evidence boundaries and assessed necessary foundational changes. These governing changes reject earlier universal interpretations;the actual delivered contracts justify major Version 1.0→2.0/minor 0 and monotonic declared Revision 0→1. Type/count/name/links/editorial corrections alone would be compatible. Report R39→R40 is compatible informational tracking and retains Version 1.0.
++
++All fifteen chapters and 28 original numbered sections retain their numbers. Added §§15.1–15.3 record compatibility,actual history and propagation limits. Three original unnamed view texts/digests are preserved in the map;replacement anchors identify original sections,not invented historic view IDs. No new Layer,component,Class,Metadata Element,Profile or identity allocation/migration is performed.
++
++### 46.2. Applied corrections and literal material before/after
++
++| Record | Actual written scope | Received evidence | Written result | State |
++|---|---|---|---|---|
++| ARC001-01 | Header;1–3;15.1/15.2 | Type=Overview is outside the four adopted normalized Types. The source declares Architecture/Overview V1.0 R0, Draft, Baseline1.0 and English, with no Author or original date. Its primary purpose is the common architectural model and decision context. | Architecture/Architecture by common architectural model responsibility; actual V2.0 R1 Draft/unassigned successor with original absent author/date/header preserved. Stable DF-ARC-001/path; no Component/Class or fifth Type invented. | Corrected—pending validation |
++| ARC001-02 | 5/6/7/8.2 | §5 lists seven areas, whereas §6 says six major layers and contains seven rows. The view is called conceptual but reproduces structural organization. Each architectural layer is said to contain components although Foundation/Architecture provide supporting definitions. | Seven structural areas distinct from five conceptual concerns; Foundation/Architecture support definitions rather than invented components. Counts/roles/views and 23 primary allocations agree. | Corrected—pending validation |
++| ARC001-03 | 7/7.1–7.5 | The illustrative lists contain eighteen entries: fifteen exact registered component names plus Generators, Development Tools and Documentation Platforms. Search and individual generator/integration names are absent. The list is explicitly examples, so omissions alone are not a failed universal completeness requirement; generic labels nevertheless blur actual registration. | Full 23-name register synopsis with4/4/5/5/5 allocation; all 18 received entries retain explicit canonical/group mappings. Search comes from the existing register; generic labels create no additional capabilities. One primary owner/allocation permits explicit support cooperation. | Corrected—pending validation |
++| ARC001-04 | 5/6/9/11 | §5 says each layer depends only on lower-layer services. §9 supplies a downward Foundation→Architecture→Documentation→Governance→Discovery→Automation→Integration chain while saying higher consumes lower; relation kinds, consumer/provider direction and same-Layer requirements are absent. §11's Foundation→model→components→specifications→implementation chain is said to ensure alignment. | Three original views have distinct allocation,required-contract and refinement meanings. Seven required consumer→provider rows retain owner contracts/scope; support precedence and same-Layer Knowledge Graph→Relationships/Workflow→Policies explicit. Actual required cycles prohibited and visible; no adjacent chain,every-earlier provider,upward exception or complete graph/implementation claim. | Corrected—pending validation |
++| ARC001-05 | 1/3/4/6/7/8.3/11/12/15 | Governance controls lifecycle, Automation automates documentation management, and Architecture turns concepts into an operational model without stating the DF contract/executor boundary. Every document is addressed without normalized/functional applicability; traceability is asserted without subjects or edition evidence. | DF contracts separate from DMS/tool/manual execution and CMS change scope. Logical entities/editions/capabilities/concerns/files and all-location functional applicability distinct. Subject lifecycle,exact coordinates/Status,maturity,approval/publication and immutable exact-approved-edition membership remain separate with actual evidence. | Corrected—pending validation |
++| ARC001-06 | 6/8.1/8.4/8.5/15.1 | Layers/components are said to evolve independently; §8.4 permits new components without modifying foundations. These absolute claims conflict with current required owner/consumer contracts and necessary assessed foundational change. Independence of formats/repositories is unqualified. | Independent evolution/technology neutrality are objectives under actual contracts/representations. Necessary assessed foundational/responsibility/interface incompatibility permitted; previous/new mapping,owners/consumers,dependencies/transitions explicit. Major/minor and monotonic Revision justified by actual changes; no harmless extension or unconditional independence. | Corrected—pending validation |
++| ARC001-07 | 10/11/12/14/15 | §12 states detailed specifications are provided in dedicated component documents and lists seven example roles, omitting the supplied Templates specification. Registry/Workflow/Policies/Knowledge Graph names do not establish actual dedicated sources or implementation. Specifications are said to inherit principles established by this overview, risking competing authority with Principles/domain owners. | Four actual detailed specifications plus canonical source-role refs resolve. Generic roles remain intended with bounded availability/no invented IDs or deployed services. Explicit applicable principles/domain contracts determine requirements,not blanket synopsis inheritance or Type/title/source presence; ARC-007 organization/conformance referenced. | Corrected—pending validation |
++| ARC001-08 | 1/3/4/8/11/13/15 | Characteristics are stated as possessed, traceability as explicitly represented, and the Foundation progression as ensuring implementation alignment. Goals, requirements and verified outcomes are not separated; no exact-edition conformance/evidence boundary is stated. | Goals/characteristics/alignment distinguish intended qualities,requirements and actual exact-edition observations/executor/coverage/limits. Partial PASS does not certify global implementation or future editions; later bytes require assessment with no inherited outcomes or responsibility for consequences of a changed product. | Corrected—pending validation |
++| ARC001-W01 | 10/14.2 | The eight principle labels omit AP IDs and use synopsis labels Stable Document Identity and Knowledge Traceability rather than the exact AP-010 Stable Identity and AP-012 Traceability titles. The plain Principles ID is unresolved as a navigable link. The list is illustrative, not the full 24-principle catalog. | All eight received principle labels map to actual AP IDs/exact owner titles,including AP-010 Stable Identity and AP-012 Traceability. Selected examples explicitly not a24-AP conformance matrix; real owner clauses/evidence boundaries retain authority. | Corrected—pending validation |
++| ARC001-W02 | Header;2/3/5/7/9/10/11/12/13/14/15 | The source has fifteen chapters,28 numbered sections,three unnamed text views,two tables and eleven unique plain related IDs but no resolving Markdown links or edition/history/input record. Prose repeatedly ends list introductions with a period. ARC-007 is omitted from related Architecture sources. | All15 chapters/28 original numbers and three unnamed view texts/digests retained in full provenance. Eighteen resolving links include all11 received owner targets,ARC-007,four specifications and two review sources. Actual compatibility/history/propagation recorded; absent historical facts remain unknown. | Corrected—pending validation |
++
++The following are selected literal excerpts,not complete replacement sections. The header row is escaped only for table presentation. `DF-RVW-002-update-4-13-map.json` records complete received/written header,all changed original numbered bodies/digests,unchanged sections,added bodies,three original/written view texts/digests,all 18 received component mappings,23 written entries,eight AP mappings,seven selected required rows and reference/impact digests. `DF-RVW-002-update-4-13.diff` is the complete source/central diff.
++
++| Section/field | Actual before excerpt | Actual written excerpt | Reason/impact |
++|---|---|---|---|
++| Header / Type | \| **Type** \| Overview \| | \| **Type** \| Architecture \| | ARC001-01; responsibility classification; identity unchanged |
++| 6 | The architecture is divided into six major layers. | The seven structural areas have the following primary responsibilities, summarized from Layers §4 and Components §4. | ARC001-02; count/view distinction and responsible sources |
++| 8.1 | Each architectural component is independent and may evolve separately. | Separate organization does not guarantee unconditional independent evolution. | ARC001-06; actual provider/consumer constraints |
++| 8.4 | New components may be introduced without modifying existing architectural foundations. | Necessary foundational, responsibility or interface changes are permitted through explicit rationale, previous/new mapping, affected exact editions, compatibility assessment and transition evidence under Principles AP-015/016/017. | ARC001-06; assessed necessary foundational incompatibility |
++| 9 | Higher layers consume services provided by lower layers. | A required dependency is directed **consumer→provider**: the consumer needs the stated provider contract in the declared scope. | ARC001-04; explicit typed direction/scope and actual required edges |
++| 11 | This progression ensures that implementation decisions remain aligned with the architectural vision established by the Foundation. | This progression guides assessment; it does not ensure alignment merely by being drawn. | ARC001-04/08; documentary refinement needs actual conformance evidence |
++| 12 | Each specification inherits the architectural principles established by this document. | Specifications identify applicable common principle clauses and exact responsible domain sources rather than inheriting competing semantics from this overview. | ARC001-07; responsible owner authority/applicability |
++
++26 original numbered bodies changed;unchanged original sections: 7.1, 7.2. The full source is delivered separately and in the interim package. These content/traceability checks do not close findings.
++
++### 46.3. Actual structural, component, principle and view mappings
++
++Seven areas and five conceptual concerns are distinct. Foundation/Architecture provide support definitions;the other five areas allocate 23 capabilities as 4/4/5/5/5. Knowledge/Preservation participation creates neither another Layer nor a component. §7 now declares a complete register-name synopsis sourced to Components V2.0 R1 §4;registration is separate from complete specification,implementation and dependency graph. The eighteen received examples were not an exhaustive requirement;their group/name mappings remain explicit below.
++
++| Original section | Received label | Written canonical target(s) | Mapping scope |
++|---|---|---|---|
++| 7.1 | Metadata | Metadata | Received-label reconciliation;not a new capability |
++| 7.1 | Document Identity | Document Identity | Received-label reconciliation;not a new capability |
++| 7.1 | Classification | Classification | Received-label reconciliation;not a new capability |
++| 7.1 | Templates | Templates | Received-label reconciliation;not a new capability |
++| 7.2 | Workflow | Workflow | Received-label reconciliation;not a new capability |
++| 7.2 | Policies | Policies | Received-label reconciliation;not a new capability |
++| 7.2 | Reviews | Reviews | Received-label reconciliation;not a new capability |
++| 7.2 | Baselines | Baselines | Received-label reconciliation;not a new capability |
++| 7.3 | Registry | Registry | Received-label reconciliation;not a new capability |
++| 7.3 | Relationships | Relationships | Received-label reconciliation;not a new capability |
++| 7.3 | Knowledge Graph | Knowledge Graph | Received-label reconciliation;not a new capability |
++| 7.3 | Navigation | Navigation | Received-label reconciliation;not a new capability |
++| 7.4 | Validation | Validation | Received-label reconciliation;not a new capability |
++| 7.4 | Generators | Metadata Generator; Registry Generator; Documentation Generator | Received-label reconciliation;not a new capability |
++| 7.4 | Consistency Verification | Consistency Verification | Received-label reconciliation;not a new capability |
++| 7.5 | Development Tools | Source Control Integration; CI/CD Integration; IDE Integration | Received-label reconciliation;not a new capability |
++| 7.5 | Documentation Platforms | Documentation Platform Integration | Received-label reconciliation;not a new capability |
++| 7.5 | AI Integration | AI Integration | Received-label reconciliation;not a new capability |
++
++Search is included from the existing register. Generators expands to three supplied register names;Development Tools expands to three integration names;Documentation Platforms maps to Documentation Platform Integration. Metadata remains Documentation;Workflow/Baselines Governance. One primary semantic owner/allocation allows explicit collaboration,shared checks and traceable projection without competing semantics or approval authority.
++
++| Original view section | Actual written relation | Evidence/limit |
++|---|---|---|
++| 5 | Structural allocation and supporting definitions | Seven names/order retained;position is not required service consumption or execution |
++| 9 | Seven selected required consumer→provider contracts | Scope/source editions explicit;provider precedes consumer cross-Layer;same-Layer requirements/cycle assessment remain explicit |
++| 11 | Documentary refinement and implementation assessment | Actual owner clauses,artifacts,checks,observations/executor/coverage needed;drawn progression does not ensure alignment |
++
++The §9 rows reproduce Concepts §8,Layers §12 and Components §12 (V2.0 R1),consistent with Blueprint §8.11. Knowledge Graph→Relationships and Workflow→Policies remain actual same-Layer requirements. No every-earlier-provider or mandatory adjacent service chain is introduced. Actual indispensable contracts/cycles are visible;required cycles are prohibited in governed scope and reconciled with owners. An authority/projection/navigation label cannot hide a required edge or establish acyclicity. Changing support constraints requires an assessed architectural revision,not arbitrary upward exceptions. Selected rows verify no complete global graph or execution pipeline. Source/working view texts and UTF-8/LF digests are attached;exact file bytes are separately protected.
++
++| Received principle label | Written actual AP ID | Exact owner title |
++|---|---|---|
++| Separation of Responsibilities | AP-006 | Separation of Responsibilities |
++| Explicit Architecture | AP-002 | Explicit Architecture |
++| Single Source of Truth | AP-004 | Single Source of Truth |
++| Stable Document Identity | AP-010 | Stable Identity |
++| Knowledge Traceability | AP-012 | Traceability |
++| Incremental Evolution | AP-015 | Incremental Evolution |
++| Backward Compatibility | AP-016 | Backward Compatibility |
++| Technology Independence | AP-003 | Technology Independence |
++
++The eight selected principle rows map real owner AP IDs/titles,including AP-010 Stable Identity and AP-012 Traceability,while preserving received-label provenance. They are not the full 24-AP catalog or a completed implementation-conformance matrix. Detailed applicable clauses/evidence boundaries remain with Principles;the overview creates no competing principle authority.
++
++Eighteen links resolve all eleven original related Foundation/Architecture targets plus ARC-007,four actual specifications(MTD-014/DID-014/CLS-014/TPL-014) and policy/report. Detailed owner requirements are separate from intended specification roles and supplied/deployed capability evidence. No missing source IDs are fabricated. Type,title,directory,source presence and partial PASS confer neither normative applicability by implication nor approval/publication/Baseline membership. ARC-007 retains source-role/organization/conformance ownership;the Reviews set remains partial without a new exception.
++
++DF defines contracts while DMS/tool/manual processes execute applicable operations and CMS governs changes in its own scope. All-location functional exclusions precede normalization without dropping content/reference/history checks. Applicable normalized identity,Family/Type/membership,subject lifecycle,exact-edition Status/coordinates,maturity,review/validation/approval/publication and immutable exact-approved-edition Baseline membership remain distinct. Metadata Dictionary/Schema/Profile/Instance and domain semantic/record owners retain their roles;no missing catalog or Profile is populated by this source.
++
++Independent evolution,technology neutrality,quality,traceability and alignment are design/evidence objectives under actual representation/provider/consumer constraints. Necessary justified foundational/responsibility/interface changes use explicit before/after,owners/consumers,dependencies,compatibility and transitions. Version major/minor and monotonic Revision rules are recorded;unchanged-source validation changes neither coordinate. Partial outcomes apply only to exact examined bytes/scope;later disk changes require assessment without inherited results or responsibility for consequences of a changed final product.
++
++Compared source scopes/hashes from REVIEW are retained and unchanged: Layers §§4/12/13;Components §§3/4/6/8/11/12/13/15;Principles §§2/3/6.1–6.3/8/10/11/13/15.1;Structure §§3/9/10/16/19;Terminology §§4/5.5/5.9/5.22/5.32/6/8/10;Manifest §§6/8/10;Blueprint §§1.7/8.11;Concepts §§3/4/8;Review Policy §§1–7. These partial owner comparisons do not complete peer cycles or validate propagation to this successor. Detailed Metadata,Identity,Classification/Templates,component maps,complete required graph,planning and implementation reconciliation remain scheduled.
++
++### 46.4. Actual history, central tracking and construction checks
++
++Source §15.2 preserves the received V1.0 R0 Architecture/Overview,Draft/Baseline1.0,English,Author/original date absent and exact input hash. The new 2026-10-14 V2.0 R1 row attributes actual assistant contribution,marks ten corrections pending VALIDATE DOCUMENT and references CHANGELOG #331/report §46. §§15.1/15.3 record actual incompatibility and remaining propagation. Approval/selection/original authorship dates are not invented;source's current hash remains external.
++
++| Item | Before | After |
++|---|---|---|
++| Source | V1.0 R0 Architecture/Overview,Draft/Baseline1.0 | V2.0 R1 Architecture/Architecture,Draft/unassigned |
++| Ten local records | Open | Corrected—pending validation |
++| Structural synopsis | Six stated/seven shown;ambiguous component/service interpretation | Seven structural areas/five conceptual concerns;23 canonical capabilities |
++| Review Report | V1.0 R39 | V1.0 R40,technical English,Draft/unassigned |
++| CHANGELOG | Through #330 | #331 source UPDATE;#332 report;#333 milestone tracking |
++| M11 | Six C/Overview S;In Progress | Same counts;UPDATE complete/VALIDATE pending,no completion date |
++
++Current totals: **19 Open,ten Corrected—pending validation,117 Closed—verified,one Not applicable—scope decision**. No finding closes during UPDATE. Twelve prior exact-source local validation scopes retain 117 closures;M10 and M0–M7 remain unchanged. M9 cites R40 without extending original acceptance. Earlier event records and report §§9–45 remain historical evidence.
++
++Construction checks cover exact input/written successor,28 original numbers/three additions,changed/unchanged body digests,all23 canonical allocations/eighteen received maps,eight real AP rows,three balanced original-section view anchors/seven selected required rows,eight rectangular tables,eighteen resolving target identities,header/history/CRLF,affected-source preservation,stable progress and central history. These are UPDATE integrity/traceability checks,not VALIDATE DOCUMENT or closure. All ten closure criteria require separate exact-source validation. Details: `DF-RVW-002-update-4-13-construction.json`.
++
++R39 exports retain REVIEW-time states;current R40 progress/manifest,map,classification/component/AP exports and diff record the delivered successor. `Context-Working-Step-4-13-Update.zip` is interim;no final Context-Reviewed.zip,integrated conformity,approval,publication or Baseline is claimed.
++
++### 46.5. Next command
++
++**CONTINUAR** starts **4.13 — VALIDATE DOCUMENT DF-ARC-001 — Architecture Overview**,checking the exact successor,ten closure criteria,full source/three views and affected comparisons,then pauses before Step4.14 REVIEW DF-DID-001.
+--- before-4.13-UPDATE/Context/CHANGELOG.md
++++ after-4.13-UPDATE/Context/CHANGELOG.md
+@@ -58,6 +58,9 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 333 | 2026-10-14 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 Overview S,UPDATE complete/VALIDATE pending,no completion date;six prior C,In Progress;M10 retained;M9 supporting reportR40;global owner/consumer/architecture reconciliation pending;no approval/Baseline. |
++| 332 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R39 to R40 Draft/unassigned:actual Overview UPDATE,complete before/after/section/component/AP/view/compatibility/impact map;19 Open,ten Corrected-pending validation,117 Closed-verified,INV-02 Not applicable;VALIDATE pending;section46. |
++| 331 | 2026-10-14 | Codex — AI assistant | Updated | /01-Architecture/DF-ARC-001-ArchitectureOverview.md | Major | Step4.13 Overview V1.0 R0 Architecture/Overview to V2.0 R1 Architecture/Architecture Draft/unassigned:incompatible scoped-required-contract/support/cycle,owner/executor/evidence and assessed foundational evolution reconciliation;seven structural areas/five concerns,23 capability synopsis,three typed views,eight AP rows,18 links/history;ten corrections pending VALIDATE DOCUMENT;SHA-256 00d8a81f8adaf223d3b0478c7d2a3ea422f7c8984f84428c7e338ce0e8e98291;report46;update-4-13-map.json/diff;M11;stable ID/path. |
+ | 330 | 2026-10-14 | Codex — AI assistant | Validated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Step4.13 REVIEW evidence integrity PASS: unchanged input/source/R38 checkpoint,complete section/view/component/AP mappings,current owner hashes/intended references,stable matrix and preserved source/history. Not VALIDATE DOCUMENT of Overview;ten local records Open; section45; M11. |
+ | 329 | 2026-10-14 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M11 Overview O to S,start2026-10-14,no completion date; six C/one S,In Progress; M10 retained; M9 reportR39; global owner/consumer/architecture reconciliation pending. |
+ | 328 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R38 to R39 Draft/unassigned: full Overview REVIEW,original section/view/component/AP mappings,owner comparisons,proposals/criteria/impact;29 Open,117 Closed-verified,INV-02 Not applicable; source UPDATE/VALIDATE pending; section45. |
+--- before-4.13-UPDATE/Context/ArchitecturalMilestones.md
++++ after-4.13-UPDATE/Context/ArchitecturalMilestones.md
+@@ -283,6 +283,8 @@
+ 
+ Step4.13 REVIEW (2026-10-14):exact unchanged Overview V1.0 R0 Draft/Baseline1.0; eight findings/two warnings Open. Proposed Architecture/Architecture V2.0 R1 subject to actual UPDATE compatibility; seven-area/23-component and typed-view reconciliation planned. Overview S,start2026-10-14,no completion date;six C/one S,M11 In Progress. ReportR39 section45;CHANGELOG #327-330;global owner/consumer reconciliation pending;no source UPDATE/VALIDATE or approval.
+ 
++Step4.13 UPDATE (2026-10-14):Overview V2.0 R1 Architecture/Architecture Draft/unassigned;incompatible scoped-contract/support/cycle,owner/executor/evidence and assessed foundational evolution reconciliation;seven areas/five concerns,23 capability synopsis,three typed views,eight AP rows,18 links/history. Ten corrections pending VALIDATE DOCUMENT. Six C/Overview S,M11 In Progress;no completion date. ReportR40 section46;CHANGELOG #331-333;global owner/consumer reconciliation pending.
++
+ ### Objectives and acceptance
+ 
+ Execute full document cycles for all seven architecture sources; reconcile views, responsibilities, dependencies and conventions.
+@@ -291,7 +293,7 @@
+ 
+ | #Status | Order Date | Start Date | Completion Date | Document | Path |
+ | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+-| S | 2026-09-30 | 2026-10-14 |  | DF-ARC-001 — V1.0 R0 Draft; REVIEW complete; UPDATE/VALIDATE pending | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
++| S | 2026-09-30 | 2026-10-14 |  | DF-ARC-001 — V2.0 R1 Draft; UPDATE complete; validation pending | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
+ | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-002 — V2.0 R1 Draft;scoped validation PASS | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
+ | C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+ | C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-004 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
+@@ -364,7 +366,7 @@
+ 
+ Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+ 
+-Current supporting report edition: DF-RVW-002 V1.0 R39 includes all six Step 4.01-4.06 scoped cycles,the Step4.07/4.08/4.09/4.10/4.11/4.12 scoped cycles and Step4.13 REVIEW; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
++Current supporting report edition: DF-RVW-002 V1.0 R40 includes all six Step 4.01-4.06 scoped cycles,the Step4.07/4.08/4.09/4.10/4.11/4.12 scoped cycles and Step4.13 REVIEW/UPDATE; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+ 
+ ### Objectives and acceptance
+ 
