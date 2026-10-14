@@ -150,7 +150,7 @@ Dependencies: M10-M12; impact map before migration. Evidence: DF-RVW-002 and its
 | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
 | O | 2026-09-30 |  |  | DF-RDM-030 | /Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md |
 | O | 2026-09-30 |  |  | DF-RDM-020 | /Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md |
-| O | 2026-09-30 |  |  | DF-RDM-010 | /Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md |
+| O | 2026-09-30 |  |  | DF-RDM-010 — V1.0 R1 Draft;authorship delta checked;full4.83 cycle pending | /Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md |
 | O | 2026-09-30 |  |  | DF-RDM-040 | /Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md |
 | O | 2026-09-30 |  |  | DF-RDM-001 | /Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md |
 | O | 2026-09-30 |  |  | DF-RDM-002 | /Roadmaps/DF-RDM-002-ArchitecturalImplementationStrategy.md |
@@ -178,6 +178,10 @@ Step4.15 UPDATE (2026-10-14):DID-002 V2.0 R1 Family/Component Document Identity,
 
 Step4.15 VALIDATE (2026-10-14):exact unchanged DID-002 V2.0 R1 Family/Component Document Identity,Type Architecture local correction scope PASS;ten records Closed-verified. DID-002 completion2026-10-14;two C/62 O,M12 In Progress. Source Draft/unassigned;peer schema/state/assignment/reciprocal requirements and global reconciliation pending. ReportR47 section53;CHANGELOG #354-356;M10/M11 retained. No allocation/migration,approval,publication,Baseline or integrated conformity.
 
+Authorship amendment (2026-10-14):policy R2 cumulative document Author;DID-001/002 V2.0 R2 provenance successors list Arnaldo Figueira; Codex — AI assistant. Limited header/history delta checks PASS;previous R1 source validations retain exact scope. Two C/62 O,M12 In Progress unchanged;ReportR48 section54;CHANGELOG #357-363. No full successor semantic validation,approval or Baseline.
+
+Step4.16 REVIEW (2026-10-14):DF-DID-003 exact unchanged V1.0 R0 Canonical/Baseline1.0 Author Arnaldo Figueira;8 findings/2 warnings Open. Proposed canonical Document Identity Family/Component,retained Architecture,cumulative original/assistant successor authorship,scoped model/cardinality/owner/lifecycle/evidence reconciliation;actual Version action pending UPDATE. DID-003 started2026-10-14,no completion date;two C/one S/61 O,M12 In Progress. ReportR50 section56;CHANGELOG #375-378;source UPDATE/VALIDATE not performed;earlier semantic/provenance scopes preserved.
+
 ### Objectives and acceptance
 
 Complete cycles for all 60 normalized component sources and content/reference checks for four README files; reconcile Metadata, Document Identity, Classification and Templates.
@@ -202,9 +206,9 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | O | 2026-09-30 |  |  | DF-CLS-014 | /02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md |
 | O | 2026-09-30 |  |  | DF-CLS-015 | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md |
 | O | 2026-09-30 |  |  | README.md | /02-Documentation/Classification/README.md |
-| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-001 — V2.0 R1 Draft;scoped validation PASS | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
-| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-002 — V2.0 R1 Draft;scoped validation PASS | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
-| O | 2026-09-30 |  |  | DF-DID-003 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
+| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-001 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
+| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-002 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
+| S | 2026-09-30 | 2026-10-14 |  | DF-DID-003 — V1.0 R0 received;REVIEW complete;UPDATE/VALIDATE pending | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
 | O | 2026-09-30 |  |  | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
 | O | 2026-09-30 |  |  | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
 | O | 2026-09-30 |  |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
@@ -257,6 +261,8 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 
 **Milestone Status:** Completed
 
+Original authorship confirmation (2026-10-14):Arnaldo Figueira confirmed for all seven input Architecture sources lacking Author. Compatible V2.0 R2 provenance successors include original and assistant contributors;limited authorship/header/history delta checks PASS. Completed status/completion dates retain the historical R1 cycle scope;not full R2 semantic revalidation. ReportR49 section55;CHANGELOG #364-374.
+
 Step 4.07 REVIEW (2026-10-04): Concepts source unchanged V1.0 R0 Draft/Baseline1.0; eight findings/two warnings Open. Record S, no completion date; six other records O. M11 In Progress. Proposed V2.0 R1 normative reconciliation, actual compatibility pending UPDATE. Report R21 section27; CHANGELOG #267-270. M10 six Foundation documentary cycles remain complete; global findings remain Open.
 
 Step4.07 UPDATE (2026-10-04): Concepts V2.0 R1 Draft/unassigned; incompatible normative reconciliation of dependency/applicability/snapshot contracts; ten corrections pending VALIDATE DOCUMENT. Concepts S, six peers O; M11 In Progress, no completion date. ReportR22 section28; CHANGELOG #271-273. Global owner/dependency propagation remains pending.
@@ -307,13 +313,13 @@ Dependencies: M10; reconcile owner definitions before consumers. Evidence: DF-RV
 
 | #Status | Order Date | Start Date | Completion Date | Document | Path |
 | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
-| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-001 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
-| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-002 — V2.0 R1 Draft;scoped validation PASS | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
-| C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
-| C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-004 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
-| C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-005 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
-| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-006 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-006-Terminology.md |
-| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-007 — V2.0 R1 Draft; scoped validation PASS | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
+| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-001 — V2.0 R2 Draft;attribution delta checked;R1 cycle validation historical | /01-Architecture/DF-ARC-001-ArchitectureOverview.md |
+| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-002 — V2.0 R2 Draft;attribution delta checked;R1 cycle validation historical | /01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md |
+| C | 2026-09-30 | 2026-10-04 | 2026-10-05 | DF-ARC-003 — V2.0 R2 Draft;attribution delta checked;R1 cycle validation historical | /01-Architecture/DF-ARC-003-ArchitecturalConcepts.md |
+| C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-004 — V2.0 R2 Draft;attribution delta checked;R1 cycle validation historical | /01-Architecture/DF-ARC-004-ArchitecturalLayers.md |
+| C | 2026-09-30 | 2026-10-05 | 2026-10-05 | DF-ARC-005 — V2.0 R2 Draft;attribution delta checked;R1 cycle validation historical | /01-Architecture/DF-ARC-005-ArchitecturalComponents.md |
+| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-006 — V2.0 R2 Draft;attribution delta checked;R1 cycle validation historical | /01-Architecture/DF-ARC-006-Terminology.md |
+| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-ARC-007 — V2.0 R2 Draft;attribution delta checked;R1 cycle validation historical | /01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md |
 
 ---
 
@@ -380,7 +386,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
 
-Current supporting report edition: DF-RVW-002 V1.0 R47 includes all six Step4.01-4.06/all seven Step4.07-4.13/Step4.14/Step4.15 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+Current supporting report edition: DF-RVW-002 V1.0 R50 includes all six Step4.01-4.06/all seven Step4.07-4.13/Step4.14/Step4.15 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 
