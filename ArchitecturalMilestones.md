@@ -182,6 +182,8 @@ Authorship amendment (2026-10-14):policy R2 cumulative document Author;DID-001/0
 
 Step4.16 REVIEW (2026-10-14):DF-DID-003 exact unchanged V1.0 R0 Canonical/Baseline1.0 Author Arnaldo Figueira;8 findings/2 warnings Open. Proposed canonical Document Identity Family/Component,retained Architecture,cumulative original/assistant successor authorship,scoped model/cardinality/owner/lifecycle/evidence reconciliation;actual Version action pending UPDATE. DID-003 started2026-10-14,no completion date;two C/one S/61 O,M12 In Progress. ReportR50 section56;CHANGELOG #375-378;source UPDATE/VALIDATE not performed;earlier semantic/provenance scopes preserved.
 
+Step4.16 UPDATE (2026-10-14):DF-DID-003 V2.0 R1 Family/Component Document Identity,Type Architecture,Author Arnaldo Figueira; Codex — AI assistant,Draft/unassigned;incompatible normalized/assigned/domain/model/cardinality/owner/executor/evidence reconciliation with incoming-reference0..N. Ten corrections pending VALIDATE;DID-003 S,no completion date;two C/one S/61 O,M12 In Progress. ReportR51 section57;CHANGELOG #379-382;prior semantic/provenance scopes and M10/M11 retained;no allocation,migration,approval or Baseline.
+
 ### Objectives and acceptance
 
 Complete cycles for all 60 normalized component sources and content/reference checks for four README files; reconcile Metadata, Document Identity, Classification and Templates.
@@ -208,7 +210,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | O | 2026-09-30 |  |  | README.md | /02-Documentation/Classification/README.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-001 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-002 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
-| S | 2026-09-30 | 2026-10-14 |  | DF-DID-003 — V1.0 R0 received;REVIEW complete;UPDATE/VALIDATE pending | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
+| S | 2026-09-30 | 2026-10-14 |  | DF-DID-003 — V2.0 R1 Draft;UPDATE complete;validation pending | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
 | O | 2026-09-30 |  |  | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
 | O | 2026-09-30 |  |  | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
 | O | 2026-09-30 |  |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
@@ -386,7 +388,7 @@ Dependencies: M9. Evidence: DF-RVW-002 and its attached manifests/matrices. Sour
 
 Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
 
-Current supporting report edition: DF-RVW-002 V1.0 R50 includes all six Step4.01-4.06/all seven Step4.07-4.13/Step4.14/Step4.15 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+Current supporting report edition: DF-RVW-002 V1.0 R51 includes all six Step4.01-4.06/all seven Step4.07-4.13/Step4.14/Step4.15 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
 
 ### Objectives and acceptance
 

@@ -1,0 +1,8 @@
+﻿Parent,Report edition,Consumer,Provider,Contract/use,Source/scope
+DF-RVW-002,1.0/51,Metadata,Document Identity,Identity of the applicable normalized document described,DID-009 §5.1 / DID-001 §9.1;descriptor meanings retain domain owners;reciprocal claim remains pending
+DF-RVW-002,1.0/51,Classification,Document Identity,Identity of the applicable normalized document classified,DID-009 §5.2 / DID-001 §9.2;category-definition/entity keys are distinct
+DF-RVW-002,1.0/51,Registry,Document Identity,Qualified logical document key for a document entry,DID-001 §9.4;exact-edition/context/provenance evidence additionally required
+DF-RVW-002,1.0/51,Relationships,Document Identity,Identity semantics of document endpoints,DID-001 §9.5;typed records owned by Relationships;other endpoints use other domains
+DF-RVW-002,1.0/51,Knowledge Graph,Document Identity,Logical document node identity,ARC-005 §12 / DID-001 §9.6;edges and other entities retain appropriate contracts
+DF-RVW-002,1.0/51,Baselines,Document Identity,Logical identity of a document member,ARC-005 §12 / DID-001 §9.7;exact approved-edition/context selection is additional
+DF-RVW-002,1.0/51,Workflow,Document Identity,Identified applicable document subject,DID-009 §6.1 / DID-001 §9.7;subject-specific transition execution remains external

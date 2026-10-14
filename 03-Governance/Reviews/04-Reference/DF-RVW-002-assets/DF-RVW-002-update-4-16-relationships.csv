@@ -1,0 +1,5 @@
+﻿Parent,Report edition,Section,Received heading,Before body SHA-256,Written body SHA-256
+DF-RVW-002,1.0/51,5.1,## 5.1. Document → Document Identity,a46e4ff0ceaf93b745e61f7891b867e2661e234fc8843117c83d99e3cfa1d8ac,71a05cfc802ca8166ad7cb367a038218bd85a10ed7ba1aeaf1cc9d26e6ad7288
+DF-RVW-002,1.0/51,5.2,## 5.2. Document Identity → Identifier,3cfc43de462e7eb3c53d8f9a9f2fb6a9a2e39af2246c7533ab35662b45058c40,a64a4820553f9bc7046e5f90a3a016d2dc63b02b020e817cc94a61de22b528d1
+DF-RVW-002,1.0/51,5.3,## 5.3. Identity Domain → Document Identity,905b8dd8075dcee4cc5b0e3937741bb2d63dd7c8720d1a83067c4f7219a62b57,7954fa028d88d0eb0cb28d215a0ba72f61574ddfa6a075c72ec45518f6b1aa1f
+DF-RVW-002,1.0/51,5.4,## 5.4. Identity Reference → Document Identity,67ef61fbe8f844cb5ce799eb5c494c8276b0fe14bb9563b90ad473e25876d8fc,9e48f705c972e7712b6641fd4da154cfe42f318f8b985855298ca89589ef6660
