@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 37 |
+| **Revision** | 38 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -91,6 +91,8 @@ Revision35 records Step4.11 VALIDATE DOCUMENT in §41 on2026-10-14. Terminology 
 Revision36 adds Step4.12 Architectural Principles REVIEW in §42 on2026-10-14. Source V1.0 R0 remains unchanged;eight findings/two warnings Open. Current totals:29 Open,107 Closed—verified,one Not applicable—scope decision. M11 five C/one S/one O,In Progress. Next:4.12 UPDATE DF-ARC-002.
 
 Revision37 records Step4.12 UPDATE in §43 on2026-10-14. Principles becomes V2.0 R1 Architecture/Architecture Draft/unassigned;ten corrections pending VALIDATE DOCUMENT. Totals:19 Open,ten Corrected—pending validation,107 Closed—verified,one Not applicable—scope decision. §42 retains REVIEW-time states. Next:4.12 VALIDATE DOCUMENT.
+
+Revision38 records Step4.12 VALIDATE DOCUMENT in §44 on2026-10-14. Principles V2.0 R1 remains unchanged Architecture/Architecture,Draft/unassigned;ten local verified closures. Totals:19 Open,117 Closed—verified,one Not applicable—scope decision. M11 six C/one O,In Progress. Next:4.13 REVIEW DF-ARC-001.
 
 ## 2. Concrete changes — before/after
 
@@ -213,6 +215,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-14 | 1.0 | 35 | Step4.11 exact Terminology validation;ten local verified closures;source unchanged | Draft;Baseline Not assigned;V2.0 R1 retained;#314–316 |
 | 2026-10-14 | 1.0 | 36 | Step4.12 Principles REVIEW;ten local records Open;source unchanged | Draft;Baseline Not assigned;#317–320;REVIEW evidence checks only |
 | 2026-10-14 | 1.0 | 37 | Step4.12 Principles UPDATE V2.0 R1 Architecture;ten corrections pending validation | Draft;Baseline Not assigned;compatible informational report update;#322 |
+| 2026-10-14 | 1.0 | 38 | Step4.12 exact Principles validation;ten local verified closures;source unchanged | Draft;Baseline Not assigned;V2.0 R1 retained;#324–326 |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -3451,3 +3454,71 @@ R36 exports preserve historical REVIEW states;current R37 progress/manifest,map,
 ### 43.5. Next command
 
 **CONTINUAR** starts **4.12 — VALIDATE DOCUMENT DF-ARC-002 — Architectural Principles**,checking the exact successor,ten closure criteria,24 AP contracts/view and affected comparisons,then pauses before the next document cycle.
+
+
+## 44. Step 4.12 — VALIDATE DOCUMENT DF-ARC-002 — Architectural Principles
+
+### 44.1. Result and exact edition
+
+**PASS for the localized Architectural Principles correction scope,2026-10-14.** Complete read of 36,202 bytes/385 lines,fifteen chapters,all 24 AP bodies/IDs/titles/category memberships/evidence boundaries,39 original numbered sections plus 3 additions,seven tables,one typed view/six selected associations and fourteen references. Input/UPDATE body/AP/view/export comparison and ten closure criteria pass within the declared scope.
+
+Exact SHA-256:`f109eaf7d2a828a90b819b0fc795fa4adc67a317f217c23f335d57fc58acc895`. Architecture/Architecture V2.0 R1 remains Draft,Baseline Not assigned,English. The source matches the UPDATE checkpoint and remains unchanged;validation increments neither source Version nor Revision and preserves local history.
+
+The actual changed normative interpretation of responsibility overlap,layer-service direction,normalized identity/lifecycle,publication-conditioned snapshots and extension-only foundations justifies V1.0→V2.0 with monotonic R0→R1. Type/links/editorial corrections alone would be compatible. This validates localized corrections and listed comparisons,not every consuming source,all 24 principles for every implementation,or complete architecture conformity.
+
+Pending statements/history in source §§11/15/15.2/15.3 retain UPDATE-time meaning. This later exact-hash central result supersedes current pending tracking without rewriting the earlier event. Actual contribution,authorization,review,validation,ownership and approval are distinct. Later disk edits require assessment of resulting bytes;results do not transfer automatically or establish responsibility for consequences of a changed final product. No approval,publication or Baseline is granted.
+
+### 44.2. Closure criteria
+
+| Record | Verified source evidence | Before | Result |
+|---|---|---|---|
+| ARC002-01 | Header;1–4;15.1/15.2: Header/§§1–4/15.2 use Architecture/Architecture for foundational design,stable ID/path and original AP categories;actual attribution and received Principles/R0/Baseline1.0/absent Author preserved. No Component/Class,extra Type/Layer or approval invented. | Corrected—pending validation | Closed—verified |
+| ARC002-02 | 1–3;AP-001/002/010/011;12;15: §3 and AP-001/002/010/011 distinguish documents,capabilities,concerns,files and executors. Functional exclusion applies first to normalized identity/lifecycle obligations;DF contracts separate from DMS/tool/manual execution and CMS scope. No absent field/Profile or deployed manager created. | Corrected—pending validation | Closed—verified |
+| ARC002-03 | AP-004/005/006/020: AP-004/005/006/020 preserve primary semantic ownership/allocation while permitting explicit collaboration/shared check domains and traceable copies/projections. Metadata domain owners/Dictionary/Schema/Profile/Instance roles remain separate;controlled vocabulary/context preserves meaning without global consistency claims. | Corrected—pending validation | Closed—verified |
+| ARC002-04 | AP-007/008/009;10: AP-007/008/009 preserve seven areas/five concerns/23 capabilities and scoped consumer→provider support order with explicit same-Layer interfaces. Genuine required cycles prohibited and visible,no hidden edge or arbitrary upward exception. Independence is bounded,no complete DAG or unconditional layer service inferred. | Corrected—pending validation | Closed—verified |
+| ARC002-05 | AP-011–014;11: AP-011–014 distinguish subject lifecycle,exact edition/coordinates/Status,maturity and membership. Baseline immutable exact approved-edition selection/pinned context is not activated by publication;eligibility/consistency/inclusion separate. Evidence/attribution/authorization and later-byte assessment prevent inherited results or approval. | Corrected—pending validation | Closed—verified |
+| ARC002-06 | AP-008/015–018;14;15.1: AP-015–018/§14 reconcile compatible-where-feasible evolution with necessary justified foundational changes,actual owner/consumer/dependency impacts and versioned transitions. Monotonic Revision retained and unchanged-source validation no increment;no foundation immutability or independent-release guarantee. | Corrected—pending validation | Closed—verified |
+| ARC002-07 | AP-003/019–024;2;15: AP-003/019–024 and conclusion distinguish design objectives/requirements from achieved evidence. Actual formats/adapters/executors,discovery provenance and scoped checks/reuse constraints retained;no universal technology suitability,implementation,global consistency or quality guarantee. | Corrected—pending validation | Closed—verified |
+| ARC002-08 | 10;11;13: §10 six real-AP reinforcement associations preserve original mixed-label view provenance;no AP-025 or extra component. §11 records applicability/exact editions/checks/results/unmet/deviation limits;justification is not automatic compliance/waiver/approval. Real required consumption remains separately visible. | Corrected—pending validation | Closed—verified |
+| ARC002-W01 | 3;12;13;15: §§12/13 resolve14 actual source roles,including four supplied detailed specifications and Templates. Generic roles remain intended;Automation is an area with named capabilities,not a new component/specification. Normative source presence/Type/title proves no implementation,approval or completed peer cycle. | Corrected—pending validation | Closed—verified |
+| ARC002-W02 | 1–4;10;12–15: All24 IDs/titles/categories and39 original numbers retained;34 changed body hashes/five empty introductions,original view text/digest,three evidence sections,14 resolving links and actual history match. Absent historic author/date preserved;peer/global limits remain explicit. | Corrected—pending validation | Closed—verified |
+
+Full criteria,observations,exact digests,AP/view/association maps and integrity checks:`DF-RVW-002-validation-4-12.json`. These ten closures apply only to ARC002-01–08/W01/W02 and this exact source. The 107 earlier verified closures retain their scopes;all nineteen global records remain Open. INV-02 remains Not applicable—scope decision.
+
+### 44.3. Integrity,contracts and affected-source limits
+
+All 34 changed original numbered-body hashes match the UPDATE map;five empty category-introduction bodies remain unchanged. All 39 original numbers,fifteen chapters,24 AP IDs/titles and category membership are preserved. Category counts remain 5/5/4/4/6. Each AP has a written Evidence boundary;the R37 AP export matches actual sections,IDs,titles,categories and body hashes. Added §§15.1–15.3 supply compatibility,history and propagation limits. CRLF is retained;seven tables are rectangular.
+
+The original unnamed §10 view text/digest matches exact input provenance(UTF-8,CRLF normalized to LF for text digest;file bytes separately protected). One balanced original-section anchor contains six selected associations whose endpoints use actual AP IDs. Governance(category)/Automation(area) labels remain original evidence without a new AP-025/capability. The view is explicit principle reinforcement rather than required component consumption/execution. Genuine indispensable provider edges remain required and visible under AP-007/009;selected associations certify no full graph.
+
+AP-006 permits explicit collaboration/shared checking under one primary semantic owner/allocation. AP-007 uses declared structural support precedence and explicit same-Layer requirements/cycle assessment;no every-earlier-provider chain,hidden cycle or arbitrary upward exception is introduced. AP-010/011 applies normalized obligations only within scope;all-location functional exclusions preserve content/reference checks. Subject lifecycle,logical identity,edition coordinates,Status,maturity and membership remain distinct.
+
+AP-014 defines immutable explicit exact approved-edition selection and relevant pinned context/evidence independently of publication,with eligibility/consistency/inclusion separate. AP-016/017/§14 permit necessary justified foundational/responsibility/interface changes with owner/consumer mapping,dependencies and transition verification;Revision remains monotonic and unchanged-source validation increments neither coordinate. Implementation independence,quality/discovery/reuse and verifiability are assessed with actual scope/executor/evidence limits.
+
+Section11 distinguishes applicability/checks/results,required contracts,unmet/conflicting/not-verified criteria and deviations/rule changes. Justification alone neither satisfies a failed criterion nor approves a waiver;adopted scope/classification,identity,Baseline and genuine dependency requirements remain explicit. This generic evidence contract is not a completed 24-AP conformity matrix for all supplied components or systems.
+
+Fourteen links resolve intended supplied declarations,including encoded DID spaces and the actual singular Template Specification title. All five original Architecture roles are retained with ARC-007,Foundation,policy/report and four actual detailed specifications. Generic remaining roles are intended responsibilities;Automation is an area,not another specification/component. Normative/Type/source presence grants no approval or implemented service proof.
+
+The R37 manifest and UPDATE checkpoint match. Eleven prior exact-source hashes,67 other original normalized sources and all six README files remain unchanged. Eight functional records retain INV-02 Not applicable. Historical report/log/Milestone events and earlier owner remarks retain exact-edition/timing scopes rather than becoming retroactive propagation claims.
+
+Four affected partial extracts were re-read:Layers §§4/12/13;Components §§3/4/6/8/11/12/13/15;Terminology §§4/5.5/5.9/5.22/5.32/6/8/10;Component Documentation Structure §§3/9/10/16/19. Other previously inspected partial coverage retains unchanged hashes:Concepts §§3/4/5/7/8;Manifest §§6/8/10;Blueprint §§1.7/8.11;Metadata Model §§6–11;Dictionary §§1/2/3/6/7;Metadata Specification §§1/3/4/6.3–6.8;Identity Specification §§1/3;Classification Specification §§1/3;Template Specification §§1/3/21;Classification Lifecycle §§1–3;Review Policy §§1–7. Exact lists/digests/provenance in evidence;no full peer cycle is inferred.
+
+Overview retains scheduled count/direction/implementation reconciliation. Metadata Model/Dictionary/Profile and canonical catalog,identity syntax/applicability,Classification conventions/nominal collision,consumer maps and complete graph/terminology/compatibility rollout remain pending. No full component specification/implementation compliance,integrated conformity,global acyclicity or new Baseline is certified. All nineteen global records remain Open.
+
+### 44.4. Tracking and before/after
+
+| Item | Before | After |
+|---|---|---|
+| Principles source | V2.0 R1 corrected pending validation | Same bytes/edition;local PASS;Draft/unassigned |
+| Local records | Ten Corrected—pending validation | Ten Closed—verified |
+| Review Report | V1.0 R37 | V1.0 R38,technical English,Draft/unassigned |
+| M11 | Five C,Principles S,Overview O;In Progress | Six C,Overview O;In Progress;Principles completion2026-10-14 |
+| CHANGELOG | Through #323 | #324 exact source validation;#325 report;#326 milestone tracking |
+
+Current totals:**19 Open,117 Closed—verified,one Not applicable—scope decision**. No Principles corrected-pending local record remains centrally. M10 and M0–M7 remain unchanged;M9 cites R38 without extending original acceptance. M11 is not complete while Overview remains O;working sources remain Draft/unassigned.
+
+Current R38 progress/manifest,validation JSON and full central diff record this result. R37 exports retain historical UPDATE states. `Context-Working-Step-4-12-Validated.zip` is interim;final Context-Reviewed.zip remains pending.
+
+### 44.5. Next command
+
+**CONTINUAR** starts **4.13 — REVIEW DOCUMENT DF-ARC-001 — Architecture Overview**,then pauses after REVIEW. No automatic UPDATE/VALIDATE or approval is granted.

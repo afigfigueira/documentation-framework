@@ -1,0 +1,840 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/38",
+  "date": "2026-10-14",
+  "step": "4.12 VALIDATE DOCUMENT",
+  "source": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
+  "source_edition": "2.0/1",
+  "source_sha256": "f109eaf7d2a828a90b819b0fc795fa4adc67a317f217c23f335d57fc58acc895",
+  "source_changed": false,
+  "result": "PASS—local Architectural Principles correction scope",
+  "coverage": {
+    "method": "Complete385-line read:15 chapters,24 AP bodies/IDs/categories/evidence boundaries,seven tables,one typed view/14 references/history;input/UPDATE body/AP/view/export comparison and manual evaluation of ten closure criteria. Four current owner extracts re-read;other prior partial scopes retain unchanged hashes. No full peer/implementation cycle inferred.",
+    "bytes": 36202,
+    "lines": 385,
+    "chapters": 15,
+    "original_sections": 39,
+    "changed_original_sections": 34,
+    "unchanged_original_sections": 5,
+    "added_sections": 3,
+    "principles": 24,
+    "tables": 7,
+    "associations": 6,
+    "references": 14
+  },
+  "integrity_checks": {
+    "exact_output_hash": true,
+    "exact_input_hash": true,
+    "R37_manifest_integrity": true,
+    "header_contract": true,
+    "39_original_numbers_retained": true,
+    "34_changed_body_hashes": true,
+    "five_unmodified_category_bodies": true,
+    "fifteen_chapters": true,
+    "three_added_sections": true,
+    "24_AP_ids_titles_sections_preserved": true,
+    "category_counts_5_5_4_4_6": true,
+    "24_AP_maps_match": true,
+    "24_Evidence_boundaries": true,
+    "principle_export_matches": true,
+    "received_view_text_digest": true,
+    "one_balanced_original_section_view": true,
+    "six_real_AP_associations_match": true,
+    "seven_rectangular_tables": true,
+    "14_reference_IDs_resolve": true,
+    "four_supplied_specifications": true,
+    "primary_owner_and_assessed_foundations": true,
+    "same_Layer_scope_visible_cycles": true,
+    "snapshot_immutable_before_publication": true,
+    "functional_scope_uniform_Type": true,
+    "deviation_not_automatic_waiver": true,
+    "original_history_actual_attribution": true,
+    "CRLF_preserved": true,
+    "comparison_hashes_unchanged": true,
+    "67_other_original_normalized_sources_unchanged": true,
+    "eleven_prior_validated_sources_unchanged": true,
+    "six_READMEs_unchanged": true,
+    "eight_functional_records_excluded": true,
+    "source_matches_UPDATE_checkpoint": true
+  },
+  "principle_changes": [
+    {
+      "section": "5.1",
+      "principle_id": "AP-001",
+      "received_title": "Documentation as Knowledge",
+      "category": "Conceptual Principles",
+      "primary_record": "ARC002-02",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Documentation shall be treated as a structured knowledge system rather than a collection of independent files.\n\nEvery document contributes to a coherent body of knowledge.",
+      "after": "Documentation shall represent organized knowledge through logical entities, identified sources and applicable contracts. A file is a representation, not automatically a registered capability or a complete knowledge system. Normalized sources and functional files contribute within their respective scopes; DF defines documentary requirements while an applicable process produces/manages representations.\n\n**Evidence boundary:** Assess purpose, actual source organization, relationships and coverage. The principle creates neither a document component nor proof that every file contributes complete or consistent knowledge.",
+      "before_sha256": "97ce1203dfd986101eb64e0adda6b93e55d091c3fd4735d1e46f23534bdbac27",
+      "after_sha256": "7195494c9f2145e9b6ac040684dcea255299ea94f8434e67ae6db7da37d2837d"
+    },
+    {
+      "section": "5.2",
+      "principle_id": "AP-002",
+      "received_title": "Explicit Architecture",
+      "category": "Conceptual Principles",
+      "primary_record": "ARC002-02",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "The architecture of the Documentation Framework shall be explicitly defined and documented.\n\nArchitectural decisions shall never rely on implicit conventions.",
+      "after": "Architectural decisions shall identify the subject, scope, responsible owners, assumptions, applicable contracts and rationale explicitly. Significant allocation, classification, identity or required-contract changes require previous/new mapping and affected editions before propagation. Record unresolved decisions or missing evidence rather than treating an implicit label, arrow or directory as authority.\n\n**Evidence boundary:** Examine actual decision/owner/reference records and limits. Explicit documentation proves neither approval nor complete implementation; derived summaries preserve authoritative provenance.",
+      "before_sha256": "355fa8b277b33bc0af7bf88d1081703b67ab0bd48b3e283c70f30205f1a7dc7a",
+      "after_sha256": "04c715fd3f8597025ac0292d2828e5ea9546921b26040f0b381221bec6b17cb0"
+    },
+    {
+      "section": "5.3",
+      "principle_id": "AP-003",
+      "received_title": "Technology Independence",
+      "category": "Conceptual Principles",
+      "primary_record": "ARC002-07",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "The Documentation Framework shall remain independent from.\n\n- document formats;\n- repositories;\n- storage technologies;\n- development tools;\n- implementation platforms.\n\nArchitectural concepts shall remain valid regardless of implementation technology.",
+      "after": "Architectural definitions shall avoid prescribing technology unless an explicit integration constraint requires it. Logical identity, classification and domain meaning are distinct from filenames, formats, repositories and storage technology. Actual implementations still require representations, adapters, interfaces and executors under their applicable contracts.\n\n**Evidence boundary:** Assess declared technology constraints and actual representation/adapter compatibility. Conceptual independence does not guarantee every format/tool is suitable, an implementation exists or technologies can evolve without consumer impact.",
+      "before_sha256": "78a15fe0496efd5d3286f2adef068b90bdc6a44d2c850b43bf03c257c2140968",
+      "after_sha256": "aa83c7b6d44ab6041daf6fd9585272f2cf87129f5633ffc858261e109576b1d9"
+    },
+    {
+      "section": "5.4",
+      "principle_id": "AP-004",
+      "received_title": "Single Source of Truth",
+      "category": "Conceptual Principles",
+      "primary_record": "ARC002-03",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Every architectural concept shall have one authoritative definition.\n\nDuplicated definitions shall be avoided.",
+      "after": "Each semantic concept or authoritative record shall have one identified responsible owner within its declared domain/scope. Metadata Dictionary defines descriptor meaning while Identity, Classification and Governance retain their domain semantics. Traceable summaries, catalogs and projections may repeat derived values with source-edition provenance and refresh/state limits without acquiring competing authority.\n\n**Evidence boundary:** Check responsible definition/record sources, derived-copy provenance and unresolved conflicts. Logical single authority does not require one physical copy, a universal Registry route or a complete canonical catalog merely from this principle.",
+      "before_sha256": "f901fe79733bd59a71f4853fd2e59b0a54b32b59714e53cd9fc713f29861d62d",
+      "after_sha256": "a4092ebc829b185a660ef9e543de0bf40fbe1bf5e83bae233efe30f16a294365"
+    },
+    {
+      "section": "5.5",
+      "principle_id": "AP-005",
+      "received_title": "Semantic Consistency",
+      "category": "Conceptual Principles",
+      "primary_record": "ARC002-03",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Architectural concepts shall preserve the same meaning throughout the framework.\n\nTerminology shall be used consistently.",
+      "after": "Consuming representations shall preserve applicable owner meanings and identify subjects/qualified contexts. Controlled aliases and historic vocabulary retain explicit mappings; unqualified overloads or competing meanings are recorded and reconciled. Metadata represents domain values, Schema organizes references, Profile constrains usage and Instance provides values under one effective Profile without redefining semantics.\n\n**Evidence boundary:** Assess actual definitions, profiles, represented values and consumer scope. This principle does not manufacture missing Element/Profile records or prove consistency of unseen sources.",
+      "before_sha256": "1e6efedff41429ea28511d005fdf10245bc31725deb51d80bc4ef066643cb82b",
+      "after_sha256": "9fd8431c644a171c86be7bf7b6912edea1458d757391225e5ed38ddf3c101ac9"
+    },
+    {
+      "section": "6.1",
+      "principle_id": "AP-006",
+      "received_title": "Separation of Responsibilities",
+      "category": "Structural Principles",
+      "primary_record": "ARC002-03",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Each architectural component shall have one clearly defined responsibility.\n\nResponsibilities shall not overlap.",
+      "after": "Each registered capability shall have a defined primary semantic responsibility and primary allocation. Explicit collaboration, cross-cutting participation, shared check domains and traceable projections are permitted while preserving owner boundaries. Reviews may use Validation/Consistency Verification results without acquiring their rule ownership or approval authority.\n\n**Evidence boundary:** Check primary owner/consumer contracts and actual support interactions. Prevent competing semantics rather than prohibiting every overlap of supporting work; no new capability or reassignment is inferred from a concern or directory.",
+      "before_sha256": "12d2e9d419c3c3ec5ccc8116c538723d2701291b17d941290c48496560d69238",
+      "after_sha256": "d295a9089c865dc7acb96248af61222fcd91d68d4c46e5efe58c367cc7e7b6dc"
+    },
+    {
+      "section": "6.2",
+      "principle_id": "AP-007",
+      "received_title": "Layered Architecture",
+      "category": "Structural Principles",
+      "primary_record": "ARC002-04",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "The Documentation Framework shall organize architectural responsibilities into independent layers.\n\nEach layer shall provide services to higher layers without depending on them.",
+      "after": "Structural allocation shall follow Architectural Layers:seven areas are Foundation, Architecture, Documentation, Governance, Discovery, Automation and Integration. Foundation/Architecture supply supporting definitions; the supplied 23 capabilities retain their 4/4/5/5/5 allocation. Five conceptual concerns—Knowledge, Documentation, Governance, Discovery and Preservation—are a different view.\n\n**Evidence boundary:** For required cross-Layer consumption, record consumer→provider contract/scope/source editions and apply the declared support order:the provider precedes its consumer. Same-Layer requirements, including Knowledge Graph→Relationships and Workflow→Policies, need explicit interfaces/ownership and cycle assessment. There is no obligation to consume every earlier provider or an adjacent serial service chain. Genuine required cycles are prohibited in the governed scope and remain visible for reconciliation; no projection/reference label hides them. Changing constraints requires assessed architectural revision, not an arbitrary upward exception. These rules certify neither a full graph nor implemented layer services.",
+      "before_sha256": "95bab9f858e88b877b88cd36bc4b83a31f459d24624dfc78ed3c7ea9e5eb85b2",
+      "after_sha256": "442276f0da10d0afaa609e1c5f980171457212bb79697172538d5d989454503c"
+    },
+    {
+      "section": "6.3",
+      "principle_id": "AP-008",
+      "received_title": "Modular Design",
+      "category": "Structural Principles",
+      "primary_record": "ARC002-04",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Architectural components shall be modular.\n\nComponents shall evolve independently whenever possible.",
+      "after": "Components shall preserve coherent boundaries and compatible provider contracts where feasible. Separate areas or documents may still require coordinated content/descriptor, owner/consumer or release changes. Independent evolution is an assessed objective under actual dependencies, not an unconditional guarantee.\n\n**Evidence boundary:** Map affected exact editions, provider compatibility and transition evidence. A new component or module label alone proves neither independent release nor operational modularity.",
+      "before_sha256": "9a91fab8a50929b0e340173f1d2ea9273d81ab1869e2e47b1de88cd7d72e4e02",
+      "after_sha256": "2039763a95a9d1482cc319d8534b85125ae81b2d4800dd8a8b380a3a671e274f"
+    },
+    {
+      "section": "6.4",
+      "principle_id": "AP-009",
+      "received_title": "Explicit Relationships",
+      "category": "Structural Principles",
+      "primary_record": "ARC002-04",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Relationships between documents and architectural components shall be explicitly represented.\n\nRelationships shall never depend solely on directory structures or naming conventions.",
+      "after": "Applicable connections shall be explicitly typed with identified endpoints and provenance. Distinguish documentary authority references, semantic associations, representation/projection, navigation, required consumption and execution. A required edge names consumer, provider, contract, scope and responsible source editions; physical directories, names and visual order alone establish no edge.\n\n**Evidence boundary:** Check actual connection records and resolvable endpoints. Preserve genuine requirements/cycles visibly and reconcile conflicting owner contracts; do not rename an indispensable provider as navigation to create apparent acyclicity. This principle imposes no nonempty relationship list on every file.",
+      "before_sha256": "b41700322309903ca8166357c2ca152b5b1e301e4a9963c6a01d4ac83072b855",
+      "after_sha256": "327ff3a8c1faeb6f4bb54d95b21102cdf0fcbde5d43abfa2883d072b9ac53aee"
+    },
+    {
+      "section": "6.5",
+      "principle_id": "AP-010",
+      "received_title": "Stable Identity",
+      "category": "Structural Principles",
+      "primary_record": "ARC002-02",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Every document shall possess a permanent identity that remains unchanged throughout its lifecycle.\n\nIdentity shall be independent from filenames and storage locations.",
+      "after": "Normalized documents shall preserve valid permanent logical identity under the applicable Domain+Identifier allocation/preservation contract. Identifier representation, current classification, title, Version/Revision, Status and physical location are distinct facts. Existing valid DF-SSS-NNN allocations do not automatically change with Family/Type or path; necessary migration needs a mapped assessed identity change.\n\n**Evidence boundary:** Apply the functional-file exclusion in §3 first:README.md, CHANGELOG.md and ArchitecturalMilestones.md require no normalized ID by this principle. Assess actual uniqueness/resolution and collision evidence; no 000 functional identity, missing allocation or universal generation algorithm is invented.",
+      "before_sha256": "5c25ba3e3ad5daca95e3bc95e8de442d0a17710a1e63d5b49c006e3de51c5411",
+      "after_sha256": "09c17f30ffa497537f8bcac144fecd82d6df971f77db13caaf9758af7e278c69"
+    },
+    {
+      "section": "7.1",
+      "principle_id": "AP-011",
+      "received_title": "Lifecycle Governance",
+      "category": "Governance Principles",
+      "primary_record": "ARC002-05",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Every document shall evolve according to a defined lifecycle.\n\nLifecycle states shall be explicitly represented.",
+      "after": "Lifecycle contracts shall identify their governed subject and responsible domain. Document-edition Status differs from Metadata Element, Classification-definition or Template lifecycle, maturity, logical identity, Version/Revision and snapshot membership. Applicable normalized documentary state/transition requirements remain explicit; functional names follow §3 without mandatory normalized lifecycle fields.\n\n**Evidence boundary:** Workflow/Policies define documentary contracts; DMS/tool/manual processes execute operations and CMS governs changes in its own scope. A state list creates no universal permission graph. Review, validation, approval, publication and membership remain separately evidenced for exact editions; older approval does not approve Draft successors.",
+      "before_sha256": "b7403b402c77e6f3801114f84f4b46510232ad8c946888306fe610d680b4f965",
+      "after_sha256": "4b3efc366330897bc31bcac6ffda5856b6d86b3f6a9dd8dc30414bc23f4d879b"
+    },
+    {
+      "section": "7.2",
+      "principle_id": "AP-012",
+      "received_title": "Traceability",
+      "category": "Governance Principles",
+      "primary_record": "ARC002-05",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Architectural decisions and document evolution shall remain fully traceable.\n\nThe framework shall preserve historical continuity.",
+      "after": "Architectural decisions, source editions, typed relationships and actual changes shall retain appropriate identity/provenance/history evidence within the declared scope. Preserve received declarations, absent historic facts, actual attribution and previous/new mappings; do not rewrite pending or failed events as earlier successes.\n\n**Evidence boundary:** Results identify examined records/bytes, coverage, executor and limits. Actual contribution, user authorization, review, validation, ownership and approval are separate. Later human/tool disk edits require resulting-byte assessment; previous results neither transfer automatically nor assign responsibility for consequences of a changed final product. No full traceability is claimed for unexamined history.",
+      "before_sha256": "6cd4ba80f6daedb848413a11de5131dd34736550df8f98490478b0fc40977d91",
+      "after_sha256": "88e4b27106cf6b0617653ed42d283af479f7cc4a593d7a0e0ee38a365127bd7e"
+    },
+    {
+      "section": "7.3",
+      "principle_id": "AP-013",
+      "received_title": "Controlled Evolution",
+      "category": "Governance Principles",
+      "primary_record": "ARC002-05",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Changes shall be introduced through governed processes.\n\nUncontrolled architectural evolution shall be avoided.",
+      "after": "Changes shall follow applicable owner/governance contracts with explicit rationale, affected source editions, decision/evidence requirements and transition mapping. DF defines documentary contracts; applicable processes execute authorized operations, while CMS supplies change evidence within its own scope. Domain rule ownership remains distinct from checking or generation.\n\n**Evidence boundary:** Assess actual change records, required decisions and coverage. Authorization to edit is not approval/publication/Baseline selection; governance wording proves no installed workflow or complete transition model.",
+      "before_sha256": "a373238f3fb9ada1261a758d9f7d1ac8f3f88bf29119d63e84c75e997110998b",
+      "after_sha256": "310cca818e9608c748ebaec90fa11bd034663ff4589ce6ff3fbcb64f5bdbdd1b"
+    },
+    {
+      "section": "7.4",
+      "principle_id": "AP-014",
+      "received_title": "Baseline Preservation",
+      "category": "Governance Principles",
+      "primary_record": "ARC002-05",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Architectural baselines shall preserve stable snapshots of the documentation.\n\nBaselines shall remain immutable after publication.",
+      "after": "A DF Baseline shall be separately identified and immutable as an explicit selection of exact approved document editions, with relevant pinned relationship context or traceable verification evidence. Member logical identity, edition coordinates, approval eligibility, consistency and actual inclusion are distinct. Immutability is a property of the selected snapshot, not a condition activated only by publication.\n\n**Evidence boundary:** Preserve selection scope/time/evidence and exact member references. A mutable working collection is not certified as an immutable Baseline merely by its name. Draft successors do not retarget older members or inherit membership. A current path, time label, publication or successful check alone creates no Baseline; no missing historic approval is invented.",
+      "before_sha256": "4fc2bccd77159aaf307fb1eef492c15ec9446739c8d62090b90061edd3f62fb4",
+      "after_sha256": "56d6b40a4ace97ff75262bc34ebaae374734fd7bc2fc75991145e5a471ca5de6"
+    },
+    {
+      "section": "8.1",
+      "principle_id": "AP-015",
+      "received_title": "Incremental Evolution",
+      "category": "Evolution Principles",
+      "primary_record": "ARC002-06",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "The Documentation Framework shall evolve through incremental architectural improvements.\n\nLarge disruptive redesigns shall be avoided whenever possible.",
+      "after": "Prefer incremental architectural improvement where it can meet actual requirements while preserving compatible meaning. A necessary larger or foundational change can be justified when incremental alternatives cannot adequately satisfy identified responsibilities or constraints.\n\n**Evidence boundary:** Record previous/new contracts, alternatives/rationale, affected owners/consumers, dependencies and transition/verification evidence. Avoid disruption where feasible without an absolute ban on justified incompatible reconciliation.",
+      "before_sha256": "cd1fee2afedb62c308ab3ec5745b8bb2bf58475b04071173385b31cc8270d666",
+      "after_sha256": "6b5d110a1d98c9fada8ea8ebe0e1e8f31f79ff79f0ecf0cc8802c8cde2b5fadf"
+    },
+    {
+      "section": "8.2",
+      "principle_id": "AP-016",
+      "received_title": "Backward Compatibility",
+      "category": "Evolution Principles",
+      "primary_record": "ARC002-06",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Architectural evolution shall preserve compatibility with existing documentation whenever feasible.\n\nBreaking changes shall be explicitly documented and justified.",
+      "after": "Preserve compatible meaning and provider/consumer contracts where feasible. Necessary incompatible changes shall be explicitly justified with affected exact editions, previous/new mappings, reference/identity effects, transition evidence and verification limits. Compatibility is assessed from contracts, not from names, folder layout or a Version label alone.\n\n**Evidence boundary:** For this working document review, compatible correction retains Version; compatible additive capability increments minor; incompatible contract change increments major and resets minor to 0. Every changed persisted edition increments Revision monotonically across Version changes. Validation of unchanged source changes neither coordinate and is tracked centrally. Domain-specific entity numbering requires its own qualified owner; no completed consumer rollout is inferred.",
+      "before_sha256": "9c8852b4b2c69ac3780c552de0cab231b4efb6308609dbd99cb1da30b3f23784",
+      "after_sha256": "2f2ec504a2959b7af509811e32c3c84f4c5de89315dd630266944870ce951c0f"
+    },
+    {
+      "section": "8.3",
+      "principle_id": "AP-017",
+      "received_title": "Extensibility",
+      "category": "Evolution Principles",
+      "primary_record": "ARC002-06",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "New architectural capabilities shall be introduced through extension rather than modification of existing foundations.",
+      "after": "Introduce a new capability or source role only for a demonstrated need with defined owner responsibility, primary allocation, typed interactions and consumer impact. Reuse or extend existing contracts where feasible. Necessary changes to foundations, responsibilities or interfaces are permitted through the assessed evolution process in AP-015/016 and §14; extension-only is not an absolute prohibition on foundational revision.\n\n**Evidence boundary:** Assess whether existing meaning/functionality changes, actual dependencies and transition evidence. A new capability is not assumed harmless and need not create another Layer. No component, Metadata Element, Profile or specification is fabricated merely to make an extension appear complete.",
+      "before_sha256": "b85f536feb80d07bbd3e6fe6d8b9399ac9c643d716f7bc7da9d77c55afd93770",
+      "after_sha256": "3f40970209a7cf43300c0fbe0090e83b786b860db84bf3807981f21336bb472d"
+    },
+    {
+      "section": "8.4",
+      "principle_id": "AP-018",
+      "received_title": "Architectural Stability",
+      "category": "Evolution Principles",
+      "primary_record": "ARC002-06",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "The conceptual architecture shall remain stable over time.\n\nImplementation technologies may evolve independently.",
+      "after": "Preserve coherent conceptual boundaries and compatible owner meanings where feasible. Implementation technologies can evolve under applicable representation/provider/consumer contracts; their independence is not guaranteed by conceptual separation. Necessary semantic changes retain source history and explicit compatibility/version transition.\n\n**Evidence boundary:** Assess actual contracts, affected editions and integration/adapter constraints. Stability is a controlled design objective, not foundation immutability, harmless extension or a guarantee of unchanged semantics for every future edition.",
+      "before_sha256": "8043e077aaaab86c9fa48234776a5cd29202df047a0110c82195a6c18c77d91c",
+      "after_sha256": "922bc99a0968007a939234ad4d64b51e26bcc17df9fe22cebe9aa6141365d139"
+    },
+    {
+      "section": "9.1",
+      "principle_id": "AP-019",
+      "received_title": "Simplicity",
+      "category": "Quality Principles",
+      "primary_record": "ARC002-07",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Architectural solutions shall be as simple as possible while satisfying their intended responsibilities.",
+      "after": "Select the simplest organization and contracts that satisfy identified responsibilities, applicability and required evidence. Do not omit genuine dependencies, owner boundaries or unresolved requirements merely to simplify a view.\n\n**Evidence boundary:** Evaluate actual alternatives and constraints within scope. Simplicity does not justify hidden required edges, invented completeness or removal of historic evidence.",
+      "before_sha256": "1ab25833328bb22c6824fc35657493e9cabd44b22b4346d88adf6f2ff5803a1d",
+      "after_sha256": "b658e697e67c864223a5c130cb084c8ba2ecd7c3e17b6e9ac5d1ba8f60921818"
+    },
+    {
+      "section": "9.2",
+      "principle_id": "AP-020",
+      "received_title": "Consistency",
+      "category": "Quality Principles",
+      "primary_record": "ARC002-07",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Architectural patterns shall be applied consistently throughout the framework.",
+      "after": "Apply coherent responsibility-based patterns and preserve canonical domain meanings with explicit contexts/aliases. Type uses Architecture, Structure, Behavior or Reference for normalized documents; Family follows canonical component or admitted documentary-area membership independently of ID/path.\n\n**Evidence boundary:** Assess actual source content, classification, representations and owner/consumer scope. Functional exclusions remain uniform; partial propagation and stale maps remain findings rather than presumed global consistency.",
+      "before_sha256": "25cc75956c7fcb7fc7699c8bf21dd48453dd03b65e2cbea851fc3311e5f00371",
+      "after_sha256": "3dc8198d465c07663d14d8c00cd806d33b22ff847617cf33ce7c81654e4bdc04"
+    },
+    {
+      "section": "9.3",
+      "principle_id": "AP-021",
+      "received_title": "Maintainability",
+      "category": "Quality Principles",
+      "primary_record": "ARC002-07",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "The architecture shall facilitate long-term maintenance and evolution.",
+      "after": "Architecture shall support traceable identities, scoped source/edition history, explicit references and controlled owner/consumer changes to facilitate maintenance. Representations and descriptive content may need coordinated updates under actual contracts.\n\n**Evidence boundary:** Assess real maintenance work, affected references and executor/tool constraints. A directory structure, capability definition or automation goal proves neither automatic synchronization nor manageable maintenance for every future case.",
+      "before_sha256": "54a19debcc6e21acc0981d6d1b7b9d436caa2c02786ec1352b608c82061a0d8d",
+      "after_sha256": "53f2d9408301946c12101f7ad196206b3e50d071240d2d62c3a2acac943ad7a2"
+    },
+    {
+      "section": "9.4",
+      "principle_id": "AP-022",
+      "received_title": "Discoverability",
+      "category": "Quality Principles",
+      "primary_record": "ARC002-07",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Knowledge shall be easy to locate, navigate and understand.",
+      "after": "Support access through actual resolving source maps and identified entity/edition views. Discovery, Navigation and Search expose declared sources with relevant state, provenance and current/stale/historical/snapshot context. Directories are physical organization, not competing semantic authority.\n\n**Evidence boundary:** Assess actual targets, coverage and freshness. Discoverability is an intended assessed quality; it grants no approval and implies neither complete indexing nor a mandatory Registry pipeline.",
+      "before_sha256": "f4c63054f2591028f6cb7fca7609072fac1897c6582bca28d362c3ee8a98e46a",
+      "after_sha256": "a94d2e18d4f1004f3e63a992e1fe86884207fed6f81b0d8820c7ef23e92470c7"
+    },
+    {
+      "section": "9.5",
+      "principle_id": "AP-023",
+      "received_title": "Verifiability",
+      "category": "Quality Principles",
+      "primary_record": "ARC002-07",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Architectural consistency shall be objectively verifiable through validation mechanisms.",
+      "after": "Architectural requirements shall be stated so applicable checks can identify rules, exact artifacts/editions, relevant context and observations. Validation/Consistency Verification/Reviews consume responsible owner contracts and record executor, coverage, results and limits.\n\n**Evidence boundary:** A scoped PASS closes only evidenced criteria for examined bytes; it does not approve, publish, select Baseline members, prove full required-graph consistency or transfer to later changed products. Missing rules, evidence or coverage remain explicit; principle compliance is not itself an implemented verifier.",
+      "before_sha256": "3a294b5d73e1f33f93c226c35b797f7bf20038a1808a69e89c0d8d2b14d430f2",
+      "after_sha256": "f68db3a236acadca6236b3ba1ab6fc42e1900682f8e287c10eedd367a86b0fd7"
+    },
+    {
+      "section": "9.6",
+      "principle_id": "AP-024",
+      "received_title": "Reusability",
+      "category": "Quality Principles",
+      "primary_record": "ARC002-07",
+      "preservation": "Retain AP ID,title,section and category;reconcile actual contract/applicability/evidence",
+      "before": "Architectural components shall be designed to maximize reuse across different documentation domains.",
+      "after": "Design reusable capability/definition boundaries under applicable domain contracts, scope and constraints. Reuse preserves primary semantic ownership and traceable source meaning rather than creating competing copies or unrestricted adapters.\n\n**Evidence boundary:** Assess suitability, compatibility and actual reuse evidence for intended consumers. Maximal reuse is not a guarantee of universal domain suitability, unrestricted scale, implemented services or technology-independent execution.",
+      "before_sha256": "927360f235deee5f75803a5cf8e6708ecc7723e72c16040c92a5f2f5cafb6827",
+      "after_sha256": "c4acc9253840df9b162ff144ece24a48957c6dc8af9ad6cc4aea9f2e04220551"
+    }
+  ],
+  "category_counts": [
+    5,
+    5,
+    4,
+    4,
+    6
+  ],
+  "view_provenance": [
+    {
+      "original_section": "10",
+      "original_named_id": null,
+      "original_view_text": "```text\n\n         Documentation as Knowledge\n                    │\n                    ▼\n\n            Explicit Architecture\n                    │\n                    ▼\n\n      Separation of Responsibilities\n                    │\n                    ▼\n\n           Layered Architecture\n                    │\n                    ▼\n\n                Governance\n                    │\n                    ▼\n\n               Traceability\n                    │\n                    ▼\n\n                Automation\n\n```",
+      "original_view_sha256": "616390bbc3a23a18877e4215b579c76ccc1d8209fb0265c935c51acc93c12d4e",
+      "hash_encoding": "UTF-8 received view,CRLF normalized to LF",
+      "received_labels": [
+        "Documentation as Knowledge",
+        "Explicit Architecture",
+        "Separation of Responsibilities",
+        "Layered Architecture",
+        "Governance",
+        "Traceability",
+        "Automation"
+      ],
+      "proposed_relation": "Selected principle reinforcement/association,not required component dependency or execution order",
+      "working_anchor": "original-section-view: 10",
+      "relation_interpretation": "Selected principle reinforcement associations;not required component dependency or execution sequence"
+    }
+  ],
+  "selected_principle_associations": [
+    [
+      "AP-001 — Documentation as Knowledge",
+      "motivates explicit representation under",
+      "AP-002 — Explicit Architecture",
+      "Coherent representation needs identified decisions/contracts; no runtime edge inferred"
+    ],
+    [
+      "AP-002 — Explicit Architecture",
+      "supports declared connection evidence for",
+      "AP-009 — Explicit Relationships",
+      "Records distinguish actual relation kinds/requirements; no full graph claimed"
+    ],
+    [
+      "AP-006 — Separation of Responsibilities",
+      "supports primary allocation under",
+      "AP-007 — Layered Architecture",
+      "Owner/allocation boundaries permit explicit cross-cutting cooperation"
+    ],
+    [
+      "AP-011 — Lifecycle Governance",
+      "supplies scoped evolution subjects for",
+      "AP-012 — Traceability",
+      "Actual records connect exact states/changes, not an unconditional process engine"
+    ],
+    [
+      "AP-014 — Baseline Preservation",
+      "requires selection evidence assessed by",
+      "AP-023 — Verifiability",
+      "Exact immutable members/context and actual checks remain distinct from approval"
+    ],
+    [
+      "AP-016 — Backward Compatibility",
+      "governs assessed extension under",
+      "AP-017 — Extensibility",
+      "Necessary incompatible changes are justified/versioned rather than forbidden categorically"
+    ]
+  ],
+  "references_at_validation_input": [
+    {
+      "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
+      "target": "DF-ARC-001-ArchitectureOverview.md",
+      "expected_id": "DF-ARC-001",
+      "declared_id": "DF-ARC-001",
+      "sha256_at_validation_input": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "target": "DF-ARC-003-ArchitecturalConcepts.md",
+      "expected_id": "DF-ARC-003",
+      "declared_id": "DF-ARC-003",
+      "sha256_at_validation_input": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "target": "DF-ARC-004-ArchitecturalLayers.md",
+      "expected_id": "DF-ARC-004",
+      "declared_id": "DF-ARC-004",
+      "sha256_at_validation_input": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "target": "DF-ARC-005-ArchitecturalComponents.md",
+      "expected_id": "DF-ARC-005",
+      "declared_id": "DF-ARC-005",
+      "sha256_at_validation_input": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "target": "DF-ARC-006-Terminology.md",
+      "expected_id": "DF-ARC-006",
+      "declared_id": "DF-ARC-006",
+      "sha256_at_validation_input": "d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41"
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "target": "DF-ARC-007-ComponentDocumentationStructure.md",
+      "expected_id": "DF-ARC-007",
+      "declared_id": "DF-ARC-007",
+      "sha256_at_validation_input": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e"
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "target": "../00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "expected_id": "DF-FND-001",
+      "declared_id": "DF-FND-001",
+      "sha256_at_validation_input": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96"
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "target": "../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "expected_id": "DF-FND-004",
+      "declared_id": "DF-FND-004",
+      "sha256_at_validation_input": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6"
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "target": "../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "expected_id": "DF-RVW-001",
+      "declared_id": "DF-RVW-001",
+      "sha256_at_validation_input": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb"
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "target": "../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "expected_id": "DF-RVW-002",
+      "declared_id": "DF-RVW-002",
+      "sha256_at_validation_input": "d5e96fce900fc1c548c256333f7a3039f96d56ef67e2a7bee02a1c9e610cc2e0"
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "target": "../02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "expected_id": "DF-MTD-014",
+      "declared_id": "DF-MTD-014",
+      "sha256_at_validation_input": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e"
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "target": "../02-Documentation/DocumentIdentity/04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md",
+      "expected_id": "DF-DID-014",
+      "declared_id": "DF-DID-014",
+      "sha256_at_validation_input": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668"
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "target": "../02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "expected_id": "DF-CLS-014",
+      "declared_id": "DF-CLS-014",
+      "sha256_at_validation_input": "e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663"
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "target": "../02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "expected_id": "DF-TPL-014",
+      "declared_id": "DF-TPL-014",
+      "sha256_at_validation_input": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464"
+    }
+  ],
+  "comparison_sources": [
+    {
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec",
+      "sections": [
+        "4",
+        "12",
+        "13"
+      ],
+      "scope": "Partial sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.12 REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9",
+      "sections": [
+        "3",
+        "4",
+        "6",
+        "8",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "scope": "Partial sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.12 REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-006-Terminology.md",
+      "sha256": "d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41",
+      "sections": [
+        "4",
+        "5.5",
+        "5.9",
+        "5.22",
+        "5.32",
+        "6",
+        "8",
+        "10"
+      ],
+      "scope": "Partial sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.12 REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
+      "sha256": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e",
+      "sections": [
+        "3",
+        "9",
+        "10",
+        "16",
+        "19"
+      ],
+      "scope": "Partial sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Re-inspected during Step4.12 REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
+      "sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
+      "sections": [
+        "3",
+        "4",
+        "5",
+        "7",
+        "8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
+      "sha256": "6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96",
+      "sections": [
+        "6",
+        "8",
+        "10"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "00-Foundation/DF-FND-004-ArchitecturalBlueprint.md",
+      "sha256": "941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6",
+      "sections": [
+        "1.7",
+        "8.11"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "sha256": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746",
+      "sections": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "6",
+        "7"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md",
+      "sha256": "55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e",
+      "sections": [
+        "1",
+        "3",
+        "4",
+        "6.3",
+        "6.4",
+        "6.5",
+        "6.6",
+        "6.7",
+        "6.8"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "sha256": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668",
+      "sections": [
+        "1",
+        "3"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md",
+      "sha256": "e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663",
+      "sections": [
+        "1",
+        "3"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md",
+      "sha256": "f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464",
+      "sections": [
+        "1",
+        "3",
+        "21"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md",
+      "sha256": "fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e",
+      "sections": [
+        "1",
+        "2",
+        "3"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    },
+    {
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "scope": "Partial listed sections including subordinate clauses;not a full peer cycle",
+      "read_provenance": "Previously inspected in earlier steps;current unchanged hashes verified during REVIEW",
+      "validation_read_provenance": "First four owner extracts re-read during VALIDATE;other listed previously inspected partial scopes retain current unchanged hashes. No full peer cycle."
+    }
+  ],
+  "findings": [
+    {
+      "id": "ARC002-01",
+      "criterion": "Header/rationale uses the four-Type contract,stable identity and actual attribution with preserved received history;principle categories confer no extra Type,Layer or approval.",
+      "sections": "Header;1–4;15.1/15.2",
+      "observed_evidence": "Header/§§1–4/15.2 use Architecture/Architecture for foundational design,stable ID/path and original AP categories;actual attribution and received Principles/R0/Baseline1.0/absent Author preserved. No Component/Class,extra Type/Layer or approval invented.",
+      "result": "PASS—local Architectural Principles correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-03/12;Review Policy §§3/5/7"
+    },
+    {
+      "id": "ARC002-02",
+      "criterion": "AP-001/002/010/011 and general scope respect entity/capability distinctions,normalization applicability and contract/executor boundaries without hidden Type exceptions or automatic management implementation.",
+      "sections": "1–3;AP-001/002/010/011;12;15",
+      "observed_evidence": "§3 and AP-001/002/010/011 distinguish documents,capabilities,concerns,files and executors. Functional exclusion applies first to normalized identity/lifecycle obligations;DF contracts separate from DMS/tool/manual execution and CMS scope. No absent field/Profile or deployed manager created.",
+      "result": "PASS—local Architectural Principles correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "INV-02 remains Not applicable;REV2-01/03/08/12;ARC005 §3;ARC007 §3;Review Policy §§1–4"
+    },
+    {
+      "id": "ARC002-03",
+      "criterion": "AP-004/005/006/020 preserve semantic ownership and consistency while allowing explicit cross-cutting collaboration/derived views;no competing authority or automatic global consistency is introduced.",
+      "sections": "AP-004/005/006/020",
+      "observed_evidence": "AP-004/005/006/020 preserve primary semantic ownership/allocation while permitting explicit collaboration/shared check domains and traceable copies/projections. Metadata domain owners/Dictionary/Schema/Profile/Instance roles remain separate;controlled vocabulary/context preserves meaning without global consistency claims.",
+      "result": "PASS—local Architectural Principles correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-06/12;ARC004 §13.5;ARC005 §§6/8/11;ARC006 §§4/5.32/6"
+    },
+    {
+      "id": "ARC002-04",
+      "criterion": "AP-007/008/009 agree with declared structural support/cycle rules and typed owner interfaces;no required edge is hidden,complete DAG inferred or unconditional independence claimed.",
+      "sections": "AP-007/008/009;10",
+      "observed_evidence": "AP-007/008/009 preserve seven areas/five concerns/23 capabilities and scoped consumer→provider support order with explicit same-Layer interfaces. Genuine required cycles prohibited and visible,no hidden edge or arbitrary upward exception. Independence is bounded,no complete DAG or unconditional layer service inferred.",
+      "result": "PASS—local Architectural Principles correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-01/02;ARC004 §§4/12/13;ARC005 §§4/11/12"
+    },
+    {
+      "id": "ARC002-05",
+      "criterion": "AP-011–014 define exact-edition/subject lifecycle and immutable selection consistently,with actual evidence and no automatic approval,snapshot retargeting,publication gate or implementation claim.",
+      "sections": "AP-011–014;11",
+      "observed_evidence": "AP-011–014 distinguish subject lifecycle,exact edition/coordinates/Status,maturity and membership. Baseline immutable exact approved-edition selection/pinned context is not activated by publication;eligibility/consistency/inclusion separate. Evidence/attribution/authorization and later-byte assessment prevent inherited results or approval.",
+      "result": "PASS—local Architectural Principles correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-08/12;ARC005 §6;ARC006 §§5.5/5.22/8;ARC007 §§9/16;Review Policy §§5–7"
+    },
+    {
+      "id": "ARC002-06",
+      "criterion": "Evolution principles and §14 consistently permit justified necessary incompatibility under explicit impact/version/transition checks,without foundation immutability or guaranteed independent releases.",
+      "sections": "AP-008/015–018;14;15.1",
+      "observed_evidence": "AP-015–018/§14 reconcile compatible-where-feasible evolution with necessary justified foundational changes,actual owner/consumer/dependency impacts and versioned transitions. Monotonic Revision retained and unchanged-source validation no increment;no foundation immutability or independent-release guarantee.",
+      "result": "PASS—local Architectural Principles correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "ARC005 §§11/15;ARC006 §10;ARC007 §19;Review Policy §5"
+    },
+    {
+      "id": "ARC002-07",
+      "criterion": "AP-003/019–024,purpose and conclusion distinguish obligations/objectives from evidence of achieved quality;no universal interoperability,reuse,global consistency or complete implementation claim remains.",
+      "sections": "AP-003/019–024;2;15",
+      "observed_evidence": "AP-003/019–024 and conclusion distinguish design objectives/requirements from achieved evidence. Actual formats/adapters/executors,discovery provenance and scoped checks/reuse constraints retained;no universal technology suitability,implementation,global consistency or quality guarantee.",
+      "result": "PASS—local Architectural Principles correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "ARC005 §§8/11;ARC006 §§4/10;ARC007 §§16/18;Review Policy §6"
+    },
+    {
+      "id": "ARC002-08",
+      "criterion": "View entity/relation meanings and compliance scope are explicit;all AP IDs preserved,genuine required dependencies/contradictions remain visible and no disguised graph,exception or approval is inferred.",
+      "sections": "10;11;13",
+      "observed_evidence": "§10 six real-AP reinforcement associations preserve original mixed-label view provenance;no AP-025 or extra component. §11 records applicability/exact editions/checks/results/unmet/deviation limits;justification is not automatic compliance/waiver/approval. Real required consumption remains separately visible.",
+      "result": "PASS—local Architectural Principles correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "REV2-02/12;ARC004 §§12–13;ARC007 §16;Review Policy §§3/5/6"
+    },
+    {
+      "id": "ARC002-W01",
+      "criterion": "Component/specification scope distinguishes real files,intended roles,structural areas and actual implementation evidence;all operational references resolve intended identities and no peer cycle/approval is fabricated.",
+      "sections": "3;12;13;15",
+      "observed_evidence": "§§12/13 resolve14 actual source roles,including four supplied detailed specifications and Templates. Generic roles remain intended;Automation is an area with named capabilities,not a new component/specification. Normative source presence/Type/title proves no implementation,approval or completed peer cycle.",
+      "result": "PASS—local Architectural Principles correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "ARC005 §13;ARC007 §10;REV2-12"
+    },
+    {
+      "id": "ARC002-W02",
+      "criterion": "Original principle/category/section/view provenance is complete,links resolve intended IDs and actual contribution/history is traceable without invented historic facts or completed peer/global checks.",
+      "sections": "1–4;10;12–15",
+      "observed_evidence": "All24 IDs/titles/categories and39 original numbers retained;34 changed body hashes/five empty introductions,original view text/digest,three evidence sections,14 resolving links and actual history match. Absent historic author/date preserved;peer/global limits remain explicit.",
+      "result": "PASS—local Architectural Principles correction scope",
+      "state": "Closed—verified",
+      "related_records_retain_prior_scope": "Review Policy §§4–7;ARC005/006/007 source histories"
+    }
+  ],
+  "totals": {
+    "Open": 19,
+    "Closed—verified": 117,
+    "Not applicable—scope decision": 1
+  },
+  "limits": [
+    "No full24-AP compliance matrix for every component/implementation or integrated consumer propagation",
+    "Domain Dictionary/Profile,identity/classification/collision,maps,required graph and rollout retain scheduled work",
+    "Draft/unassigned;no approval,publication,Baseline,implementation maturity or final Context-Reviewed.zip"
+  ],
+  "history_interpretation": "Source unchanged;§§11/15/15.2/15.3 retain UPDATE-time pending history. Later central exact-hash validation supersedes current tracking;changed later bytes require independent assessment,no inherited outcome or product-consequence responsibility.",
+  "tracking_checks": {
+    "source_bytes_unchanged": true,
+    "all_other_MD_sources_preserved": true,
+    "89_stable_matrix_positions": true,
+    "matrix_current_hashes": true,
+    "prior_events_preserved": true,
+    "changelog_sequence_326_to_1": true,
+    "M10_and_M0_M7_preserved": true,
+    "M11_six_C_one_O_InProgress": true,
+    "historical_report_sections_preserved": true,
+    "next_matrix_source": true,
+    "new_report_tables_rectangular": true
+  }
+}
