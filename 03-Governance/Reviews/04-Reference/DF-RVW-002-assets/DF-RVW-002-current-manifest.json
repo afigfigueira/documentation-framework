@@ -1,9 +1,9 @@
 {
   "parent_document_id": "DF-RVW-002",
-  "edition": "1.0/47",
+  "edition": "1.0/49",
   "date": "2026-10-14",
   "self_hash": "Excluded;external receipt",
-  "source_state": "DID-002 exact V2.0 R1 local validation PASS,unchanged Family/Component Document Identity,Type Architecture,Draft/unassigned;fourteen earlier exact-source scopes retained;peer/global schema/identity/required graph/implementation pending",
+  "source_state": "Explicit original-author confirmation,eight compatible provenance successors;limited delta checks only;historical semantic cycles retain exact prior scope;roadmap full4.83 pending",
   "known_collision": "Nominal CLS-003 still declares CLS-001;unresolved",
   "files": [
     {
@@ -50,50 +50,50 @@
     },
     {
       "path": "01-Architecture/DF-ARC-001-ArchitectureOverview.md",
-      "sha256": "00d8a81f8adaf223d3b0478c7d2a3ea422f7c8984f84428c7e338ce0e8e98291",
-      "bytes": 31005,
+      "sha256": "4fa7955fb70a9eb295384425d6fd18ae1cd3bbb03892888f021dad9fb1659697",
+      "bytes": 32655,
       "normalization_scope": true,
       "input_sha256": "fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d"
     },
     {
       "path": "01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md",
-      "sha256": "f109eaf7d2a828a90b819b0fc795fa4adc67a317f217c23f335d57fc58acc895",
-      "bytes": 36202,
+      "sha256": "3993411c226cccd1b67059c97b09ef39646afc8021d9b55470ddbc6c737bfe16",
+      "bytes": 37852,
       "normalization_scope": true,
       "input_sha256": "5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53"
     },
     {
       "path": "01-Architecture/DF-ARC-003-ArchitecturalConcepts.md",
-      "sha256": "e8d0eea707cd5a102a6728dd5d970592d9cdc7e924acb2ea48de72cac406f55c",
-      "bytes": 34011,
+      "sha256": "45b44852117b1822e43725a9ea83d6ff74fb9eedf82e8c37a5246b7647aaceae",
+      "bytes": 35661,
       "normalization_scope": true,
       "input_sha256": "cc0f76249a5b21025ae502169b9026f36b87370053119a36e921554ffe16fa4d"
     },
     {
       "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
-      "sha256": "56770c27e08f17ce43b681774686d4c2172ab05f203b6058d877f73f641335ec",
-      "bytes": 32430,
+      "sha256": "bbab37b76ea23f609a560bdd88c982091a5dd4d903d9b81679293aefdd66d6b5",
+      "bytes": 34080,
       "normalization_scope": true,
       "input_sha256": "086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab"
     },
     {
       "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
-      "sha256": "eac600190908ac521b570cda3ab62b8629612556840e45cc6b1f39fb9452b4d9",
-      "bytes": 36574,
+      "sha256": "0329a1ad17f95108fe9ef770e5e1de779efd1f0f8fce18cab0f28fecfcca4a6b",
+      "bytes": 38224,
       "normalization_scope": true,
       "input_sha256": "a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216"
     },
     {
       "path": "01-Architecture/DF-ARC-006-Terminology.md",
-      "sha256": "d0c768b598ea6670c40522f183756d35dc67e354f601079a24e7dc1015452d41",
-      "bytes": 48675,
+      "sha256": "4e1ea6246a94657b704f37ff32dd6454aeddd5a8ac32a3ae526f35e648b9adad",
+      "bytes": 50325,
       "normalization_scope": true,
       "input_sha256": "c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb"
     },
     {
       "path": "01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md",
-      "sha256": "2bcd508d7ae476f7c0d34c0e028c6845da131c5e64e15f57d7f42c82e3d9fc4e",
-      "bytes": 31622,
+      "sha256": "0fdc12e1d096c61152a2eeef175b2bd61b23970a6842f0d9e680780538e9aea5",
+      "bytes": 33272,
       "normalization_scope": true,
       "input_sha256": "e0840a725ed0214e37d78be25d664615c4c43fea4e535334dfe47e55d20d5481"
     },
@@ -211,15 +211,15 @@
     },
     {
       "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md",
-      "sha256": "8eebae3ef2744c837bf180db25cfb8d0566ce188faf7cbe2c10a908484a016c0",
-      "bytes": 34343,
+      "sha256": "f36e91e5a2255d5807b68bedd180f4c4d33d90c2b849e42a462815b11af6d21c",
+      "bytes": 35313,
       "normalization_scope": true,
       "input_sha256": "fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624"
     },
     {
       "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
-      "sha256": "4572bc24e80782e1bfbc240bd8d5371723a50ea3477dd945e34e44692b9fcf30",
-      "bytes": 32249,
+      "sha256": "6b3adf13bfe20d4f6b360368f1b587f8da09fa4d36b880d5d20eb67f451f1d52",
+      "bytes": 33222,
       "normalization_scope": true,
       "input_sha256": "66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed"
     },
@@ -547,15 +547,15 @@
     },
     {
       "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
-      "sha256": "4fab512af3c3841f4aec108880d553bba8224d79a8a1f4652b84cbbb4a9c54eb",
-      "bytes": 20701,
+      "sha256": "8f6c3a967f076dfc3ddd4fef90b5901dbb780e0a8c7cda17c70039e2f581f9ef",
+      "bytes": 23102,
       "normalization_scope": true,
       "input_sha256": null
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
-      "sha256": "47cc8e254d3ec85c4d925b42e0d45ee8d861a26605dc6253f74faaeda6979308",
-      "bytes": 773378,
+      "sha256": "9e3ab4d169da062eacc56725403a0cacbf291bf92dbccfb3500113932950982e",
+      "bytes": 788108,
       "normalization_scope": true,
       "input_sha256": null
     },
@@ -567,9 +567,37 @@
       "input_sha256": null
     },
     {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-authorship-amendment.diff",
+      "sha256": "1ca08bd3a633e95b8dd1ce7bbb02101327f0da4f2c5ba8ee5955da29008f8b08",
+      "bytes": 30290,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-authorship-amendment.json",
+      "sha256": "f17d48df6a896e360206b8994c3608ab55a5e4f1e6821283112cfe33da290f06",
+      "bytes": 195903,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-classificacao.csv",
       "sha256": "2f8f1b6f5152d47119bde0774e61245b825dfdafa844ebaa140da01554272c92",
       "bytes": 37343,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-confirmed-authorship.diff",
+      "sha256": "9c664e397b17ecdd08b3f1f896c5c8a18bd3141f522c8183c17ea4e3977e0aad",
+      "bytes": 40516,
+      "normalization_scope": false,
+      "input_sha256": null
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-confirmed-authorship.json",
+      "sha256": "7a0316fa51617742dca025e2bd5b5c14bf528344cc9714a847011905a47809aa",
+      "bytes": 553971,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -582,8 +610,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-export-provenance.json",
-      "sha256": "7919435f4ce06ae78e3c1871f448c66a0fd1d737fbddb4ccd1467b0bd82fe4de",
-      "bytes": 8204,
+      "sha256": "448e1b4a144aeafadc3ea820dd884d9c7c2fda2f5041a57a1710cdfc1af130fc",
+      "bytes": 8448,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -596,8 +624,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv",
-      "sha256": "56000fc8210f2d71ea66d87f9f56efbdfc46538a8b5ed017bea8e4478c5bb961",
-      "bytes": 62369,
+      "sha256": "2d6bb35dce0ce6103e6cda1189a423e418dca0f988a68d4bc3fc086dd8400560",
+      "bytes": 64915,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -1646,15 +1674,15 @@
     },
     {
       "path": "ArchitecturalMilestones.md",
-      "sha256": "d9c99eb8c73c27a6917ce94edbe6d28d8c9fbccb1fe9e7e7fd2c6987246f8145",
-      "bytes": 57293,
+      "sha256": "d26da6441427bfd56318bfb82d129e6f6bad4d8fbc45c4e0d5526d707591f70d",
+      "bytes": 58472,
       "normalization_scope": false,
       "input_sha256": "9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "1e68f3cb0fb7a290b69752acb131212da868eb391b42b84ed44401773b3e2c2a",
-      "bytes": 106318,
+      "sha256": "9049cee985f76343afa9bd75b4a32b9466281ce766c58d9c521aecb2df6a8083",
+      "bytes": 113589,
       "normalization_scope": false,
       "input_sha256": "ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b"
     },
@@ -1681,8 +1709,8 @@
     },
     {
       "path": "Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md",
-      "sha256": "43b692c6521c6d0d87d7ea37f7030c2f2c768f113165d069b5d72f47901402ed",
-      "bytes": 7802,
+      "sha256": "7ef48a7c8b54177321c6bb07a9a30600c228e6d0e7717b6545c46be724446cfb",
+      "bytes": 9553,
       "normalization_scope": true,
       "input_sha256": "43b692c6521c6d0d87d7ea37f7030c2f2c768f113165d069b5d72f47901402ed"
     },

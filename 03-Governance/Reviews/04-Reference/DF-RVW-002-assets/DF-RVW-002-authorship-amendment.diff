@@ -1,0 +1,238 @@
+--- before-authorship-amendment/Context/03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md
++++ after-authorship-amendment/Context/03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md
+@@ -12,7 +12,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 1 |
++| **Revision** | 2 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -134,7 +134,7 @@
+ 
+ A newly created or modified working edition has Baseline=Not assigned unless its exact inclusion is evidenced. Record original Status and Baseline in the edition history and input manifest. Do not change the original Baseline snapshot. Draft is a lifecycle state; Not assigned is an explicit absence marker in the human-readable working header, not a new Baseline identifier.
+ 
+-This policy and DF-RVW-002 are Draft, Version 1.0, Revision 1, Baseline Not assigned. Passing their scoped checks does not approve/publish them or place them in a Baseline. The conventions for these working headers do not populate the canonical Metadata Dictionary or create a Metadata Profile lifecycle event by implication.
++At Step 3 creation, this policy and DF-RVW-002 were Draft, Version 1.0, Revision 1, Baseline Not assigned. Current working coordinates follow their headers and exact edition histories. Passing their scoped checks does not approve/publish them or place them in a Baseline. The conventions for these working headers do not populate the canonical Metadata Dictionary or create a Metadata Profile lifecycle event by implication.
+ 
+ ## 6. REVIEW, UPDATE, VALIDATE and evidence
+ 
+@@ -152,7 +152,21 @@
+ 
+ Reuse CHANGELOG.md and ArchitecturalMilestones.md, retaining their historical content. They remain non-normalized. Keep the CHANGELOG's sequential #, reverse chronology, Author, Type, Document, Impact and Description columns. Add Reviewed and Validated event types to distinguish executed reviews/checks from document content updates; these event Types are not document Type values. Existing Created/Updated/etc. and impact values remain in force.
+ 
+-Use Author=Codex — AI assistant for entries executed by this assistant. Do not attribute the edit to the user merely because the user authorized it. For each update, record source path/ID, old/new edition, material change, finding, validation state, report/diff link and Milestone in the Description. Append a later validation event rather than rewriting a pending-validation update into a historical success. Do not log future intentions as completed changes.
++### 7.1. Cumulative documentary authorship
++
++The normalized document header's **Author** field lists all evidenced authors who contributed to the document, including its original author and contributors to later editions. Use **semicolon followed by a space (`; `)** between distinct authors. Preserve established names and role qualifications; retain first evidenced contribution order and do not duplicate an author for each revision. Example: `Arnaldo Figueira; Codex — AI assistant`.
++
++Carry forward evidenced original/prior authors when preparing a successor. Record each later contributor when that contribution is supported by source history, exact edition/diff evidence or explicit reliable attribution. Preserve edition history separately so the cumulative header does not imply that every listed author performed every change. When original authorship is absent or unknown, list only known contributors and retain that limitation; do not guess an author from ownership, filename, user identity or authorization. A later substantiated attribution receives a traceable correction.
++
++A user who actually edits document content is recorded as an author when that contribution and identity are established. Permission, instructions, approval or file custody alone do not prove an authored contribution. Later disk changes must be examined as resulting bytes with attribution evidence; earlier validation results do not automatically apply. The author list is provenance, not a blanket assignment of approval or responsibility for consequences of every later final product.
++
++### 7.2. Event-specific CHANGELOG authorship
++
++The CHANGELOG **Author** column records the evidenced contributors who performed that particular event, using the same `; ` separator when the event has multiple authors. It is not copied automatically from the cumulative document header. Use `Codex — AI assistant` for events performed solely by this assistant; do not attribute the event to the user merely because the user authorized it. Preserve historical event authors rather than retroactively adding every document author to each row.
++
++For each update, record source path/ID, old/new edition, material change, finding, validation state, report/diff link and Milestone in the Description. Append a later validation event rather than rewriting a pending-validation update into a historical success. Do not log future intentions as completed changes.
++
++### 7.3. Milestone scope and history
+ 
+ Preserve M0–M7. Create M8–M14 for the review's verifiable results, with the existing Not Started/In Progress/Completed milestone states and O/S/C record states. A milestone's state derives from its own records for its declared work scope. Completion of a historical implementation milestone is not closure of a new review milestone.
+ 
+@@ -183,3 +197,4 @@
+ | Date | Version | Revision | Event | Scope and lifecycle |
+ |---|---|---|---|---|
+ | 2026-09-30 | 1.0 | 1 | Created at Step 3.1 | Initial working review policy; no previous edition; Draft; Baseline Not assigned. Scoped validation is logged centrally without changing this edition. |
++| 2026-10-14 | 1.0 | 2 | User-adopted cumulative Author convention; actual policy edit by Codex — AI assistant | Compatible attribution clarification;known document contributors separated by semicolons;event authorship remains scoped. Draft;Baseline Not assigned;Report §54;CHANGELOG #357. |
+--- before-authorship-amendment/Context/02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md
++++ after-authorship-amendment/Context/02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md
+@@ -9,16 +9,18 @@
+ | **Family** | Document Identity |
+ | **Type** | Architecture |
+ | **Component** | Document Identity |
+-| **Author** | Codex — AI assistant |
++| **Author** | Arnaldo Figueira; Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 2.0 |
+-| **Revision** | 1 |
++| **Revision** | 2 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+ Received V1.0 R0 declares Family Documentation, Component Document Identity, Type Architecture, Author Arnaldo Figueira, Status Canonical and Baseline1.0. Those facts remain history in §12.2; no approval, publication or snapshot-selection event is inferred. This successor records actual assistant contribution and ten corrections pending VALIDATE DOCUMENT, independently of authorization or approval.
+ 
+ ---
++
++**Current authorship-only successor — V2.0 R2 (2026-10-14):** Author now lists the evidenced original author and later contributor: Arnaldo Figueira; Codex — AI assistant. This compatible attribution correction retains Version 2.0 and increments Revision from 1 to 2. Earlier V2.0 R1 source/history statements and exact-source validation remain historical events;their result is not silently reissued for all successor content. Only authorship/header/history changes are checked in the amendment evidence (Review Report §54);semantic contracts are unchanged. Draft;Baseline Not assigned. The cumulative list does not assign every event or later-product consequence to every listed author.
+ 
+ # 1. Purpose
+ 
+@@ -260,6 +262,7 @@
+ |---|---|---|---|---|
+ | Original date not supplied; received 2026-09-30 | 1.0 | 0 | Arnaldo Figueira; received Family Documentation, Component Document Identity, Type Architecture, English | Canonical; Baseline1.0 declared; no supplied approval/publication/selection event inferred |
+ | 2026-10-14 | 2.0 | 1 | Codex — AI assistant; localized scope/identity contract/executor/relationship/evidence reconciliation | Draft; Baseline Not assigned; ten corrections pending VALIDATE DOCUMENT; CHANGELOG #341; Review Report §49 |
++| 2026-10-14 | 2.0 | 2 | Codex — AI assistant; restored evidenced original author to cumulative header under user instruction | Compatible authorship-only correction;Draft;Baseline Not assigned;limited amendment checks;CHANGELOG #358;Review Report §54 |
+ 
+ Exact input SHA-256: `fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624`. Complete received/written header and numbered-body maps, one original/written view text/digest, fifteen catalog mappings, eight principle roles, ten boundary rows, required/peer claims and full source/central diff are external evidence. The current source hash is external to avoid recursive revision. Original authorship is preserved; user authorization alone does not attribute this assistant's contribution to the user. Original date and historical approval/selection remain unknown.
+ 
+--- before-authorship-amendment/Context/02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md
++++ after-authorship-amendment/Context/02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md
+@@ -9,16 +9,18 @@
+ | **Family** | Document Identity |
+ | **Type** | Architecture |
+ | **Component** | Document Identity |
+-| **Author** | Codex — AI assistant |
++| **Author** | Arnaldo Figueira; Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 2.0 |
+-| **Revision** | 1 |
++| **Revision** | 2 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+ The received V1.0 R0 declares Family Documentation, Component Document Identity, Type Architecture, Author Arnaldo Figueira, Canonical and Baseline1.0. Those declarations remain history in §9.2; original date and approval/publication/selection events were not supplied. This working successor records actual assistant contribution and ten corrections pending VALIDATE DOCUMENT, separately from authorization or approval.
+ 
+ ---
++
++**Current authorship-only successor — V2.0 R2 (2026-10-14):** Author now lists the evidenced original author and later contributor: Arnaldo Figueira; Codex — AI assistant. This compatible attribution correction retains Version 2.0 and increments Revision from 1 to 2. Earlier V2.0 R1 source/history statements and exact-source validation remain historical events;their result is not silently reissued for all successor content. Only authorship/header/history changes are checked in the amendment evidence (Review Report §54);semantic contracts are unchanged. Draft;Baseline Not assigned. The cumulative list does not assign every event or later-product consequence to every listed author.
+ 
+ # 1. Purpose
+ 
+@@ -291,6 +293,7 @@
+ |---|---|---|---|---|
+ | Original date not supplied; received 2026-09-30 | 1.0 | 0 | Arnaldo Figueira; received Family Documentation, Component Document Identity, Type Architecture, English | Canonical; Baseline1.0 declared; no supplied approval/publication/selection event inferred |
+ | 2026-10-14 | 2.0 | 1 | Codex — AI assistant; localized concept/applicability/lifetime/domain/Metadata/reference/executor reconciliation | Draft; Baseline Not assigned; ten corrections pending VALIDATE DOCUMENT; CHANGELOG #351; Review Report §52 |
++| 2026-10-14 | 2.0 | 2 | Codex — AI assistant; restored evidenced original author to cumulative header under user instruction | Compatible authorship-only correction;Draft;Baseline Not assigned;limited amendment checks;CHANGELOG #359;Review Report §54 |
+ 
+ Exact input SHA-256: `66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed`. Complete received/written header and original numbered/concept bodies, digests, view/property/Metadata maps, selected associations, source/impact hashes and full diff are external evidence. Current source hash remains external to avoid recursive revision. Original authorship is preserved; user authorization alone does not attribute actual assistant edits to the user. Original date and historical approval/selection remain unknown.
+ 
+--- before-authorship-amendment/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ after-authorship-amendment/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 47 |
++| **Revision** | 48 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -111,6 +111,8 @@
+ Revision46 records Step4.15 UPDATE in §52 on2026-10-14. Concepts becomes V2.0 R1 Family/Component Document Identity,Type Architecture,Draft/unassigned;ten corrections pending VALIDATE DOCUMENT. Totals:19 Open,ten Corrected—pending validation,137 Closed—verified,one Not applicable—scope decision. §51 retains REVIEW-time states. Next:4.15 VALIDATE DOCUMENT.
+ 
+ Revision47 records Step4.15 VALIDATE DOCUMENT in §53 on2026-10-14. DID-002 V2.0 R1 remains unchanged Family/Component Document Identity,Type Architecture,Draft/unassigned;ten local verified closures. Totals:19 Open,147 Closed—verified,one Not applicable—scope decision. M12 two C/62 O,In Progress. Next:4.16 REVIEW DF-DID-003.
++
++Revision48 records the user-adopted cumulative documentary Author clarification on2026-10-14 in §54. Policy V1.0 R2 and DID-001/002 V2.0 R2 are compatible provenance successors. Fifteen completed sources audited;two headers corrected;unknown original authors not invented. Earlier exact-source validations retain original bytes/scope;limited authorship/header/history checks only. Totals remain147 Closed—verified,19 Open,one Not applicable;M12 two C/62 O,In Progress. Next unchanged:4.16 REVIEW DF-DID-003.
+ 
+ ## 2. Concrete changes — before/after
+ 
+@@ -243,6 +245,7 @@
+ | 2026-10-14 | 1.0 | 45 | Step4.15 Identity Concepts REVIEW;ten local records Open;source unchanged | Draft;Baseline Not assigned;#347–350;REVIEW evidence checks only |
+ | 2026-10-14 | 1.0 | 46 | Step4.15 Concepts UPDATE V2.0 R1;ten corrections pending validation | Draft;Baseline Not assigned;compatible report tracking;#352 |
+ | 2026-10-14 | 1.0 | 47 | Step4.15 exact DID-002 validation;ten local closures;source unchanged | Draft;Baseline Not assigned;V2.0 R1 retained;#354–356 |
++| 2026-10-14 | 1.0 | 48 | Cumulative document Author convention;policy and two DID provenance successors | Draft;Baseline Not assigned;limited amendment checks;#357–363;next4.16 unchanged |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -4499,3 +4502,43 @@
+ ### 53.5. Next command
+ 
+ **CONTINUAR** starts **4.16 — REVIEW DOCUMENT DF-DID-003 — Document Identity Model**,then pauses after REVIEW. Its received Canonical/Baseline1.0 remains input evidence;this local result approves no successor or peer by implication.
++
++
++## 54. User amendment — Cumulative documentary authorship
++
++### 54.1. Adopted rule and attribution scope
++
++On2026-10-14,the user requested that Author list the authors involved in each document,separated by a comma or semicolon. The working convention uses **semicolon followed by a space (`; `)**. Document headers list all evidenced original and later authors in first known contribution order,without duplicate names. Existing role qualifications may remain. Local edition histories identify actual contributions separately;the cumulative list does not assert every author performed every event.
++
++DF-RVW-001 §7.1 now owns this convention. Preserve evidenced original authors in successors;add later authors when actual contribution/identity is substantiated. Unknown original attribution is recorded as unknown in provenance rather than guessed from ownership,user identity or permission. A user who edits content is included when that contribution is evidenced;authorization alone is not authorship. Later edits require independent resulting-byte assessment. Author is provenance,not automatic approval or responsibility for consequences of all later product changes.
++
++CHANGELOG §Author is event-specific under policy §7.2. Solely assistant-executed events retain Codex — AI assistant. A jointly authored event lists actual contributors with the same separator. Earlier events are preserved;the cumulative document list is not copied retroactively into them.
++
++### 54.2. Exact batch and before/after
++
++The batch is identified before applying cumulative authorship:the process policy and completed DID-001/002 successors require changes;the six Foundation sources already list original and later authors. Seven completed Architecture sources have no Author in the supplied original headers,so only their evidenced assistant contribution is retained. Policy/report were created in this review with recorded assistant authorship;user instructions alone do not add an original author.
++
++| Source | Before | After | Exact amendment scope |
++|---|---|---|---|
++| DF-RVW-001 | V1.0 R1;event-author rule only | V1.0 R2;§§7.1–7.3 cumulative/event distinction | Compatible process/provenance clarification;Codex — AI assistant retained as policy author |
++| DF-DID-001 | V2.0 R1;Author Codex — AI assistant | V2.0 R2;Author Arnaldo Figueira; Codex — AI assistant | Header Author/Revision,current scope note,new history row only |
++| DF-DID-002 | V2.0 R1;Author Codex — AI assistant | V2.0 R2;Author Arnaldo Figueira; Codex — AI assistant | Header Author/Revision,current scope note,new history row only |
++| Six Foundation sources | Original and assistant contributors already listed | Unchanged bytes/editions | Existing semicolon lists,including working-update role qualifiers,retained |
++| Seven Architecture sources | Known assistant contributor;original Author absent | Unchanged bytes/editions | No unsupported historical author inferred |
++| DF-RVW-002 | V1.0 R47 | V1.0 R48 | This amendment and exact evidence;Author Codex — AI assistant retained |
++
++Original Arnaldo Figueira attribution in both DID input files and source histories supports their cumulative headers. Their semantic numbered bodies remain byte-equivalent after newline normalization,except the added history row. Source line-ending conventions remain. Versions stay2.0;Revision increments1→2 for changed persisted provenance. Policy retains1.0 and increments1→2 for compatible clarification of existing provenance obligations. All modified sources remain Draft/Baseline Not assigned;no ID/path change,Metadata Element/Profile creation,approval or allocation occurs.
++
++### 54.3. Limited verification and historical validation boundary
++
++**PASS for this authorship/header/history amendment only.** The source audit,full before/after content,exact digests and complete diff are in `DF-RVW-002-authorship-amendment.json` and `DF-RVW-002-authorship-amendment.diff`. The source batch contains three normalized changes:policy plus two DID sources. All fifteen completed input-source successors were audited. Thirteen were already compliant with known attribution and remain unchanged;unknown original Architecture attribution is not repaired by assumption.
++
++R47 manifest/checkpoint and original input hashes remain evidence. Both DID V2.0 R1 exact-source validations in §§50/53 retain their original hashes/editions and scope. They are not silently rewritten as full V2.0 R2 validations. This amendment verifies only the attributable header/history delta and preservation of all other semantic bodies;it introduces no new semantic findings or closures. Prior CLOSED records retain their actual examined-edition scope. The policy's Step3 creation/checks also remain historical;current checks concern this clarification only.
++
++All nineteen global records remain Open;147 Closed—verified and INV-02 Not applicable retain their original scopes. Peer state/cardinality/schema/assignment/reciprocity,Metadata ownership/catalog/Profile,identity/classification/collision/maps/planning and implementation remain pending. The instruction input and original archive remain unchanged;this later explicit user amendment governs Author in successors and is not inserted into an earlier instruction edition as if adopted then.
++
++### 54.4. Tracking and next action
++
++CHANGELOG #357 policy,#358–359 DID source corrections,#360 limited amendment checks,#361 report,#362 CHANGELOG field clarification,#363 Milestone tracking record actual events. Historical authors and all earlier rows remain unchanged. Current progress/manifest use exact R2/source hashes;historical exports remain attached to their original report editions. M12 remains two C/62 O,In Progress;its completed cycles refer to recorded R1 validations,with limited R2 provenance verification added explicitly. M10/M11/M0–M7 remain unchanged;M9's supporting report becomes R48 without extending original acceptance. No full peer/component conformity is granted.
++
++`Context-Working-Authorship-Amendment.zip` contains the current interim corpus. Final Context-Reviewed.zip remains pending. Stable next step is **4.16 — REVIEW DOCUMENT DF-DID-003 — Document Identity Model**. This amendment does not execute that REVIEW;CONTINUAR starts it and pauses after REVIEW.
+--- before-authorship-amendment/Context/CHANGELOG.md
++++ after-authorship-amendment/Context/CHANGELOG.md
+@@ -14,7 +14,7 @@
+ |---------|-------------|
+ | **#** | Sequential identifier of the changelog entry. |
+ | **Date** | Date on which the change was completed. |
+-| **Author** | Person responsible for the change. |
++| **Author** | Evidenced contributor(s) who performed this event; separate multiple authors with semicolon-space. Document-header cumulative authorship is distinct. |
+ | **Type** | Classification of the performed change. |
+ | **Document** | Identifier or name of the affected document. |
+ | **Impact** | Architectural significance of the change. |
+@@ -58,6 +58,13 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 363 | 2026-10-14 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M12 DID-001/002 descriptions identify V2.0 R2 authorship-only successors and historical R1 cycle validations;two C/62 O InProgress retained;M9 supporting reportR48;M10/M11/M0–M7 unchanged;no approval/Baseline/global conformity. |
++| 362 | 2026-10-14 | Codex — AI assistant | Updated | /CHANGELOG.md | Repository | Author column definition clarifies event-specific evidenced contributors with semicolon-space;distinct from cumulative document header;prior event authors/rows preserved;no original author added to an assistant-only event. |
++| 361 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | V1.0 R47→R48 records adopted Author convention,batch/provenance/hash mapping and limited checks;historical report sections preserved;next4.16 REVIEW DF-DID-003 unchanged;Draft/unassigned. |
++| 360 | 2026-10-14 | Codex — AI assistant | Validated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Limited cumulative authorship/header/history delta checks PASS;15 completed sources audited,13 unchanged;policy/two DID successors mapped;old semantic bodies and prior input/history/events preserved;not full R2 semantic validation or peer/global closure;147 closed/19 open/INV-02 unchanged;authorship-amendment.json/diff. |
++| 359 | 2026-10-14 | Codex — AI assistant | Updated | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md | Correction | V2.0 R1→R2 compatible authorship-only successor;Author Codex — AI assistant→Arnaldo Figueira; Codex — AI assistant;original input/history supports attribution;semantic contracts unchanged;R1 validation remains historical;limited amendment evidence;Draft/unassigned;report§54. |
++| 358 | 2026-10-14 | Codex — AI assistant | Updated | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md | Correction | V2.0 R1→R2 compatible authorship-only successor;Author Codex — AI assistant→Arnaldo Figueira; Codex — AI assistant;original input/history supports attribution;semantic contracts unchanged;R1 validation remains historical;limited amendment evidence;Draft/unassigned;report§54. |
++| 357 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md | Repository | Cumulative document Author clarification:V1.0 R1→R2;§7.1 original/later evidenced authors separated by semicolon-space,unknown authors not guessed;§7.2 event-specific authors preserved;compatible provenance change;Draft/unassigned;report§54. |
+ | 356 | 2026-10-14 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M12 DID-002 S to C completion2026-10-14;two C/62 O,In Progress;M10/M11 retained;M9 reportR47;historical events preserved;peer/global schema/identity/graph/implementation reconciliation pending;no approval,Baseline or integrated conformity. |
+ | 355 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Report V1.0 R46 to R47 Draft/unassigned:exact DID-002 validation and ten local closures;147 Closed-verified,19 Open,INV-02 Not applicable;source unchanged;peer/global scopes retained;next4.16 REVIEW DF-DID-003. |
+ | 354 | 2026-10-14 | Codex — AI assistant | Validated | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md | Correction | Step4.15 exact unchanged V2.0 R1 Family/Component Document Identity,Type Architecture SHA-256 4572bc24e80782e1bfbc240bd8d5371723a50ea3477dd945e34e44692b9fcf30:local DID-002 correction scope PASS;ten records Closed-verified;25 body maps,eleven concepts,one view,five Metadata contrasts,eight properties,19 links and attribution/history verified;Draft/unassigned;peer schema/state/assignment/reciprocal requirements and19 global records pending;section53;validation-4-15.json;no allocation/migration,approval or Baseline. |
+--- before-authorship-amendment/Context/ArchitecturalMilestones.md
++++ after-authorship-amendment/Context/ArchitecturalMilestones.md
+@@ -177,6 +177,8 @@
+ Step4.15 UPDATE (2026-10-14):DID-002 V2.0 R1 Family/Component Document Identity,Type Architecture,Draft/unassigned;incompatible normalized/domain/lifetime/reference/Metadata/document-component/executor/evidence reconciliation;11 concept anchors/titles retained,one typed view/five associations,eight properties/five Metadata contrasts,19 links/history. Ten corrections pending VALIDATE DOCUMENT. One C/Concepts S/62 O,M12 In Progress;no completion date. ReportR46 section52;CHANGELOG #351-353;peer/global reconciliation pending;DID-001/M10/M11 retained.
+ 
+ Step4.15 VALIDATE (2026-10-14):exact unchanged DID-002 V2.0 R1 Family/Component Document Identity,Type Architecture local correction scope PASS;ten records Closed-verified. DID-002 completion2026-10-14;two C/62 O,M12 In Progress. Source Draft/unassigned;peer schema/state/assignment/reciprocal requirements and global reconciliation pending. ReportR47 section53;CHANGELOG #354-356;M10/M11 retained. No allocation/migration,approval,publication,Baseline or integrated conformity.
++
++Authorship amendment (2026-10-14):policy R2 cumulative document Author;DID-001/002 V2.0 R2 provenance successors list Arnaldo Figueira; Codex — AI assistant. Limited header/history delta checks PASS;previous R1 source validations retain exact scope. Two C/62 O,M12 In Progress unchanged;ReportR48 section54;CHANGELOG #357-363. No full successor semantic validation,approval or Baseline.
+ 
+ ### Objectives and acceptance
+ 
+@@ -202,8 +204,8 @@
+ | O | 2026-09-30 |  |  | DF-CLS-014 | /02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md |
+ | O | 2026-09-30 |  |  | DF-CLS-015 | /02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md |
+ | O | 2026-09-30 |  |  | README.md | /02-Documentation/Classification/README.md |
+-| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-001 — V2.0 R1 Draft;scoped validation PASS | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
+-| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-002 — V2.0 R1 Draft;scoped validation PASS | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
++| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-001 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
++| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-002 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
+ | O | 2026-09-30 |  |  | DF-DID-003 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
+ | O | 2026-09-30 |  |  | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
+ | O | 2026-09-30 |  |  | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
+@@ -380,7 +382,7 @@
+ 
+ Translation follow-up 3.2.1 (2026-09-30): DF-RVW-002 V1.0 R2, English, Draft, Baseline Not assigned; CHANGELOG #205/#206; scoped translation evidence in report assets. Original acceptance scope and milestone state retained.
+ 
+-Current supporting report edition: DF-RVW-002 V1.0 R47 includes all six Step4.01-4.06/all seven Step4.07-4.13/Step4.14/Step4.15 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
++Current supporting report edition: DF-RVW-002 V1.0 R48 includes all six Step4.01-4.06/all seven Step4.07-4.13/Step4.14/Step4.15 scoped cycles; the original M9 criteria remain completed. Foundation source work is tracked separately in M10.
+ 
+ ### Objectives and acceptance
+ 

@@ -9,13 +9,27 @@
 | **Family** | Roadmap |
 | **Type** | Component Roadmap |
 | **Component** | Metadata |
+| **Author** | Arnaldo Figueira; Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 0 |
-| **Baseline** | 1.0 |
+| **Revision** | 1 |
+| **Baseline** | Not assigned |
 | **Language** | English |
 
 ---
+
+## Authorship attribution record — 2026-10-14
+
+The user explicitly confirmed that documents lacking Author in the supplied input originated in the initial work phases and that their original author is **Arnaldo Figueira**. This later attribution supplies the missing provenance; the original bytes remain unchanged in the received archive. The cumulative header now preserves that original author and the evidenced assistant contributor, separated by semicolon-space. It does not assert that every listed author performed every later event.
+
+| Event | Edition | Attribution and scope |
+|---|---|---|
+| Received input | V1.0 R0 | Author field absent in received bytes; original author subsequently confirmed as Arnaldo Figueira on2026-10-14 |
+| Attribution correction2026-10-14 | V1.0 R1 | Codex — AI assistant applied the user-confirmed cumulative Author correction;compatible provenance successor;CHANGELOG #371;Review Report §55 |
+
+The missing original Author was a field omission,not evidence that the document had no author. Earlier statements of unknown original authorship retain their event-time meaning and are superseded by this explicit confirmation. Original date,approval and snapshot-selection facts are not supplied by authorship confirmation. Document status remains Draft and Baseline is Not assigned.
+
+This V1.0 R1 changes authorship/provenance and Baseline absence only. Received Family=Roadmap and Type=Component Roadmap remain unreconciled claims pending the scheduled4.83 full REVIEW/UPDATE/VALIDATE cycle. No full roadmap/classification/dependency review,implementation verification or completion is performed by this attribution correction.
 
 # 1. Introduction
 

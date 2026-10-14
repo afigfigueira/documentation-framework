@@ -9,16 +9,18 @@
 | **Family** | Document Identity |
 | **Type** | Architecture |
 | **Component** | Document Identity |
-| **Author** | Codex — AI assistant |
+| **Author** | Arnaldo Figueira; Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 2.0 |
-| **Revision** | 1 |
+| **Revision** | 2 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
 The received V1.0 R0 declares Family Documentation, Component Document Identity, Type Architecture, Author Arnaldo Figueira, Canonical and Baseline1.0. Those declarations remain history in §9.2; original date and approval/publication/selection events were not supplied. This working successor records actual assistant contribution and ten corrections pending VALIDATE DOCUMENT, separately from authorization or approval.
 
 ---
+
+**Current authorship-only successor — V2.0 R2 (2026-10-14):** Author now lists the evidenced original author and later contributor: Arnaldo Figueira; Codex — AI assistant. This compatible attribution correction retains Version 2.0 and increments Revision from 1 to 2. Earlier V2.0 R1 source/history statements and exact-source validation remain historical events;their result is not silently reissued for all successor content. Only authorship/header/history changes are checked in the amendment evidence (Review Report §54);semantic contracts are unchanged. Draft;Baseline Not assigned. The cumulative list does not assign every event or later-product consequence to every listed author.
 
 # 1. Purpose
 
@@ -291,6 +293,7 @@ All nine chapters, 25 original numbered anchors and eleven concept titles remain
 |---|---|---|---|---|
 | Original date not supplied; received 2026-09-30 | 1.0 | 0 | Arnaldo Figueira; received Family Documentation, Component Document Identity, Type Architecture, English | Canonical; Baseline1.0 declared; no supplied approval/publication/selection event inferred |
 | 2026-10-14 | 2.0 | 1 | Codex — AI assistant; localized concept/applicability/lifetime/domain/Metadata/reference/executor reconciliation | Draft; Baseline Not assigned; ten corrections pending VALIDATE DOCUMENT; CHANGELOG #351; Review Report §52 |
+| 2026-10-14 | 2.0 | 2 | Codex — AI assistant; restored evidenced original author to cumulative header under user instruction | Compatible authorship-only correction;Draft;Baseline Not assigned;limited amendment checks;CHANGELOG #359;Review Report §54 |
 
 Exact input SHA-256: `66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed`. Complete received/written header and original numbered/concept bodies, digests, view/property/Metadata maps, selected associations, source/impact hashes and full diff are external evidence. Current source hash remains external to avoid recursive revision. Original authorship is preserved; user authorization alone does not attribute actual assistant edits to the user. Original date and historical approval/selection remain unknown.
 

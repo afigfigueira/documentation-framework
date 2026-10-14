@@ -12,7 +12,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 1 |
+| **Revision** | 2 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -134,7 +134,7 @@ Edited working documents start at Status=Draft, including successors of received
 
 A newly created or modified working edition has Baseline=Not assigned unless its exact inclusion is evidenced. Record original Status and Baseline in the edition history and input manifest. Do not change the original Baseline snapshot. Draft is a lifecycle state; Not assigned is an explicit absence marker in the human-readable working header, not a new Baseline identifier.
 
-This policy and DF-RVW-002 are Draft, Version 1.0, Revision 1, Baseline Not assigned. Passing their scoped checks does not approve/publish them or place them in a Baseline. The conventions for these working headers do not populate the canonical Metadata Dictionary or create a Metadata Profile lifecycle event by implication.
+At Step 3 creation, this policy and DF-RVW-002 were Draft, Version 1.0, Revision 1, Baseline Not assigned. Current working coordinates follow their headers and exact edition histories. Passing their scoped checks does not approve/publish them or place them in a Baseline. The conventions for these working headers do not populate the canonical Metadata Dictionary or create a Metadata Profile lifecycle event by implication.
 
 ## 6. REVIEW, UPDATE, VALIDATE and evidence
 
@@ -152,7 +152,21 @@ The input/final/validated manifests record paths, identity and edition where app
 
 Reuse CHANGELOG.md and ArchitecturalMilestones.md, retaining their historical content. They remain non-normalized. Keep the CHANGELOG's sequential #, reverse chronology, Author, Type, Document, Impact and Description columns. Add Reviewed and Validated event types to distinguish executed reviews/checks from document content updates; these event Types are not document Type values. Existing Created/Updated/etc. and impact values remain in force.
 
-Use Author=Codex — AI assistant for entries executed by this assistant. Do not attribute the edit to the user merely because the user authorized it. For each update, record source path/ID, old/new edition, material change, finding, validation state, report/diff link and Milestone in the Description. Append a later validation event rather than rewriting a pending-validation update into a historical success. Do not log future intentions as completed changes.
+### 7.1. Cumulative documentary authorship
+
+The normalized document header's **Author** field lists all evidenced authors who contributed to the document, including its original author and contributors to later editions. Use **semicolon followed by a space (`; `)** between distinct authors. Preserve established names and role qualifications; retain first evidenced contribution order and do not duplicate an author for each revision. Example: `Arnaldo Figueira; Codex — AI assistant`.
+
+Carry forward evidenced original/prior authors when preparing a successor. Record each later contributor when that contribution is supported by source history, exact edition/diff evidence or explicit reliable attribution. Preserve edition history separately so the cumulative header does not imply that every listed author performed every change. When original authorship is absent or unknown, list only known contributors and retain that limitation; do not guess an author from ownership, filename, user identity or authorization. A later substantiated attribution receives a traceable correction.
+
+A user who actually edits document content is recorded as an author when that contribution and identity are established. Permission, instructions, approval or file custody alone do not prove an authored contribution. Later disk changes must be examined as resulting bytes with attribution evidence; earlier validation results do not automatically apply. The author list is provenance, not a blanket assignment of approval or responsibility for consequences of every later final product.
+
+### 7.2. Event-specific CHANGELOG authorship
+
+The CHANGELOG **Author** column records the evidenced contributors who performed that particular event, using the same `; ` separator when the event has multiple authors. It is not copied automatically from the cumulative document header. Use `Codex — AI assistant` for events performed solely by this assistant; do not attribute the event to the user merely because the user authorized it. Preserve historical event authors rather than retroactively adding every document author to each row.
+
+For each update, record source path/ID, old/new edition, material change, finding, validation state, report/diff link and Milestone in the Description. Append a later validation event rather than rewriting a pending-validation update into a historical success. Do not log future intentions as completed changes.
+
+### 7.3. Milestone scope and history
 
 Preserve M0–M7. Create M8–M14 for the review's verifiable results, with the existing Not Started/In Progress/Completed milestone states and O/S/C record states. A milestone's state derives from its own records for its declared work scope. Completion of a historical implementation milestone is not closure of a new review milestone.
 
@@ -183,3 +197,4 @@ This policy establishes process rules and the scoped use of current field names 
 | Date | Version | Revision | Event | Scope and lifecycle |
 |---|---|---|---|---|
 | 2026-09-30 | 1.0 | 1 | Created at Step 3.1 | Initial working review policy; no previous edition; Draft; Baseline Not assigned. Scoped validation is logged centrally without changing this edition. |
+| 2026-10-14 | 1.0 | 2 | User-adopted cumulative Author convention; actual policy edit by Codex — AI assistant | Compatible attribution clarification;known document contributors separated by semicolons;event authorship remains scoped. Draft;Baseline Not assigned;Report §54;CHANGELOG #357. |

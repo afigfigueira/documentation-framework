@@ -8,14 +8,27 @@
 | **Title** | Architectural Principles |
 | **Family** | Architecture |
 | **Type** | Architecture |
-| **Author** | Codex — AI assistant |
+| **Author** | Arnaldo Figueira; Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 2.0 |
-| **Revision** | 1 |
+| **Revision** | 2 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
 ---
+
+## Authorship attribution record — 2026-10-14
+
+The user explicitly confirmed that documents lacking Author in the supplied input originated in the initial work phases and that their original author is **Arnaldo Figueira**. This later attribution supplies the missing provenance; the original bytes remain unchanged in the received archive. The cumulative header now preserves that original author and the evidenced assistant contributor, separated by semicolon-space. It does not assert that every listed author performed every later event.
+
+| Event | Edition | Attribution and scope |
+|---|---|---|
+| Received input | V1.0 R0 | Author field absent in received bytes; original author subsequently confirmed as Arnaldo Figueira on2026-10-14 |
+| Attribution correction2026-10-14 | V2.0 R2 | Codex — AI assistant applied the user-confirmed cumulative Author correction;compatible provenance successor;CHANGELOG #365;Review Report §55 |
+
+The missing original Author was a field omission,not evidence that the document had no author. Earlier statements of unknown original authorship retain their event-time meaning and are superseded by this explicit confirmation. Original date,approval and snapshot-selection facts are not supplied by authorship confirmation. Document status remains Draft and Baseline is Not assigned.
+
+This V2.0 R2 is an authorship/provenance successor only. Earlier exact V2.0 R1 validations remain historical with their original hashes and scope. Limited authorship/header/history delta checks do not silently issue a full semantic validation for R2. Semantic numbered bodies remain unchanged.
 
 # 1. Introduction
 
