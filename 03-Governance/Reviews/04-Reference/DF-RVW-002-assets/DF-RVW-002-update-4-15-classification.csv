@@ -1,0 +1,2 @@
+﻿Parent,Report edition,Source,Family before,Component before,Type before,Family after,Component after,Type after,Rationale,Impact
+DF-RVW-002,1.0/46,02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md,Documentation,Document Identity,Architecture,Document Identity,Document Identity,Architecture,Canonical component membership and conceptual responsibility,Stable ID/corpus path;actual incompatible contract reconciliation V2.0 R1

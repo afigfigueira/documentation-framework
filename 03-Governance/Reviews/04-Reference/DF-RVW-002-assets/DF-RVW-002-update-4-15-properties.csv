@@ -1,0 +1,9 @@
+﻿Parent,Report edition,Received label,Written owner/contrast,Written evidence qualification
+DF-RVW-002,1.0/46,unique,Identity domain/allocation contract; AP-010 — Stable Identity,Actual scoped record/collision evidence required
+DF-RVW-002,1.0/46,permanent,Same-document association and retired allocation non-reuse; AP-010 — Stable Identity,Active use differs from preserved history/reservations
+DF-RVW-002,1.0/46,stable,Normal evolution preservation; AP-010 — Stable Identity,Necessary migration first reconciles governing rules/maps/consumers
+DF-RVW-002,1.0/46,immutable,Assigned key under its governing identity contract; AP-010 — Stable Identity,Mutable state/descriptor/reference records are separate; no arbitrary reassignment
+DF-RVW-002,1.0/46,technology independent,Scoped AP-003 — Technology Independence application,Explicit logical/adapter constraints and actual evidence remain
+DF-RVW-002,1.0/46,repository independent,Scoped AP-003 — Technology Independence application,Location change does not automatically recalculate identity; resolver availability not guaranteed
+DF-RVW-002,1.0/46,implementation independent,Scoped AP-003 — Technology Independence application,Contract ownership differs from execution; not universal interoperability
+DF-RVW-002,1.0/46,globally understandable,Qualified representation/interpretation objective,Domain/context/canonicalization and actual evidence; not a newly registered AP

@@ -1,0 +1,6 @@
+﻿Parent,Report edition,Received label,Written owner/contrast,Written evidence qualification
+DF-RVW-002,1.0/46,Identifies a document,Describes a document,Key meaning versus descriptors; values may represent identity under its domain constraints
+DF-RVW-002,1.0/46,Permanent,Evolves over time,Same-document association/non-reuse versus actual descriptor/entity/edition lifecycle; not every value is mutable
+DF-RVW-002,1.0/46,Immutable,May change,Assigned key versus mutable support records/representations; identity values preserve owner constraints
+DF-RVW-002,1.0/46,Unique,May contain repeated values,Domain uniqueness versus actual per-element occurrence/uniqueness rules; some represented values have identity constraints
+DF-RVW-002,1.0/46,Stable,Version dependent,Logical identity versus actual descriptor/entity/edition context; not universal Metadata Version dependence
