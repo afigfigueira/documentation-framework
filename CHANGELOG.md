@@ -58,6 +58,9 @@ Entries are recorded in reverse chronological order.
 
 | # | Date | Author | Type | Document | Impact | Description |
 |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
+| 394 | 2026-10-14 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Correction | M12 DID-004 remains S;three C/one S/60 O In Progress;V2.0 R1 UPDATE prepared,validation pending;no completion. |
+| 393 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Correction | V1.0 R54→R55;section61 actual corrections/maps/compatibility;19 Open/10 pending/157 Closed/INV-02;next4.17 VALIDATE DOCUMENT. |
+| 392 | 2026-10-14 | Codex — AI assistant | Updated | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md | Correction | Step4.17 V1.0 R0→V2.0 R1 Draft/unassigned;Family Document Identity,cumulative Author preserved;incompatible scope/state/reference/owner/guarantee corrections;10 pending validation;SHA-256 cd4d74795f3c8c5918db318fe6409102aa46cec2a30113059ebf8df8dd79763d;full update map/diff;no validation/approval/Baseline. |
 | 391 | 2026-10-14 | Codex — AI assistant | Validated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Review evidence integrity checks PASS only; exact source/peer hashes, historical preservation,89 rows, sequence1–391 and Context-only packaging; no source validation/closure; review-4-17-checks.json. |
 | 390 | 2026-10-14 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M12 DID-004 O→S, start2026-10-14;three C/one S/60 O In Progress; no completion or approval. |
 | 389 | 2026-10-14 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | V1.0 R53→R54 Draft/unassigned;section60 repeated Step4.17 REVIEW after recovery;29 Open/157 Closed/INV-02;next UPDATE. |

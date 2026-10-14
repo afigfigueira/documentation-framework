@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 54 |
+| **Revision** | 55 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -260,6 +260,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-14 | 1.0 | 52 | Step4.16 exact Model validation;ten local closures;source unchanged | Draft/unassigned;V2.0 R1 retained;#383–386;next4.17 REVIEW |
 | 2026-10-14 | 1.0 | 53 | Recovery reconciliation after user-restored Step4.16 working tree | Compatible tracking correction; prior R52 source validation retained; corrected source-event mapping and temporary-indicator scope in section59; Draft/unassigned; no Step4.17 operation |
 | 2026-10-14 | 1.0 | 54 | Repeated Step4.17 REVIEW after recovery; eight findings/two warnings Open | Compatible report event; source unchanged V1.0 R0; section60; no UPDATE/VALIDATE DOCUMENT |
+| 2026-10-14 | 1.0 | 55 | Step4.17 UPDATE; DID-004 V2.0 R1; ten corrections pending | Compatible report event; section61; source VALIDATE DOCUMENT not performed |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -4971,3 +4972,36 @@ Ten DID004 records are Open; prior157 Closed—verified,19 global Open and INV-0
 REVIEW integrity checks cover unchanged source/all other domain sources, preserved historical exports, heading/view/row inventories, exact dependency targets, matching comparison hashes, stable89 progress rows, complete reverse CHANGELOG1–391, cumulative authorship scope and Context-only packaging. PASS concerns review traceability only, not VALIDATE DOCUMENT, closure or approval.
 
 **Pause after REVIEW. CONTINUAR starts4.17 UPDATE DOCUMENT DF-DID-004, then pauses before VALIDATE DOCUMENT. Step4.18 remains pending.**
+
+## 61. Step 4.17 — UPDATE DOCUMENT DF-DID-004 — Document Identity Elements
+
+### 61.1. Exact successor and result
+
+Prepared V2.0 R1 Draft/Baseline Not assigned from the exact reviewed V1.0 R0. Family becomes Document Identity; Component and Type Architecture remain. Cumulative Author is Arnaldo Figueira; Codex — AI assistant. Original Canonical/Baseline1.0 and absent source date remain received evidence in §13.1. Source ID/path preserved. SHA-256 cd4d74795f3c8c5918db318fe6409102aa46cec2a30113059ebf8df8dd79763d.
+
+Ten records DID004-01–08/W01/W02 are Corrected—pending validation. This is UPDATE only; no VALIDATE DOCUMENT, closure, approval or global conformity is claimed. Section60 retains REVIEW-time Open states. Earlier source/peer validations keep their exact semantic or attribution-only scope.
+
+### 61.2. Corrections, preservation and compatibility
+
+| Records | Changed clauses / correction | Validation still required |
+|---|---|---|
+| DID004-01 | Header;1/9/11/13: component Family, cumulative Author, original provenance and working lifecycle | Exact metadata/history and prior-author preservation |
+| DID004-02 | 1/2/4.1/7.1/12: assigned normalized logical documents, functional exclusions, pre-allocation/files/editions | Scope and peer consistency |
+| DID004-03 | 4.2/4.3/7.2/7.3: qualified domain/key, corpus allocation/namespace/non-reuse/canonicalization | Governing representation/allocation and peer-field limits |
+| DID004-04 | 3/4.4/6/7.4/13.3: historical status labels, separate state subjects and unresolved mandatory peer fields | Exact DID-003/005/006/014 comparison; no silent mandatory-field deletion |
+| DID004-05 | 4.5/5/7.5/8/9: typed target/owner,0..N incoming, exact-edition context and non-document endpoints | Cardinality/reference ownership and endpoint validity |
+| DID004-06 | 5/8/9/11: component/domain/connection/registration/executor ownership; Governance area and visible reciprocal requirements | Actual source/consumer scope and required-cycle treatment |
+| DID004-07 | 2/4/7/10: stable key versus mutable records, preservation/non-reuse, qualified canonical/repository meaning | Stability/migration/reference evidence and no runtime promises |
+| DID004-08 | 1–13: requirements versus observed implementation/approval, exact evidence scope and pending owners | Clause-level source/peer and executor/evidence boundaries |
+| DID004-W01 | 3/5: two original views retained as typed conceptual tables, original anchors/full received view provenance | Actual source-view association/cardinality coverage |
+| DID004-W02 | All original numbered headings; five elements/constraints/responsibility/ownership rows, six interactions, three dependencies retained | Complete before/after maps, intended-ID links and preservation comparison |
+
+The full source/diff and all original numbered body/header mappings are delivered in assets. Two diagrams become typed conceptual views with full original text/digests preserved externally; this is not loss of their conceptual subjects. No historical diagram ID is invented. Compatibility is incompatible because previously universal identity/state/ownership/guarantee meanings are narrowed or replaced; Version1.0→2.0 and Revision0→1, no reset. No source ID/path migration or peer edit occurs.
+
+### 61.3. Tracking and pause
+
+ReportV1.0 R54→R55; CHANGELOG392 source,393 report,394 Milestone. Progress/manifest synchronized. Totals19 global Open,10 Corrected—pending validation,157 Closed—verified,INV-02 Not applicable. M12 three C/one S/60 O In Progress; no DID-004 completion date. Historical source cycles/evidence and recovery clarification remain unchanged in scope.
+
+Construction checks concern headings, map completeness, existing relative links, source/other-file preservation and packaging only; they are not VALIDATE DOCUMENT. All10 local corrections still await the exact-source and peer comparisons. Detailed schema/state/owner/required-graph reconciliation and global integration remain pending. No allocation, operational resolver, publication, approval or Baseline is inferred.
+
+**Pause after UPDATE. CONTINUAR starts4.17 VALIDATE DOCUMENT DF-DID-004, then pauses before any4.18 REVIEW.**

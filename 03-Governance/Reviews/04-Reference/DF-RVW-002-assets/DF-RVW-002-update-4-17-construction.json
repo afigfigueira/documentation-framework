@@ -1,0 +1,14 @@
+{
+  "phase": "UPDATE construction only",
+  "semantic_validation_performed": false,
+  "original_numbered_headings_preserved": true,
+  "all_body_before_after_maps_present": true,
+  "relative_links_exist": 14,
+  "all_other_domain_sources_unchanged": true,
+  "historical_evidence_unchanged": true,
+  "ten_records_pending_validation": true,
+  "changelog_reverse_394_to_1": true,
+  "source_sha256": "cd4d74795f3c8c5918db318fe6409102aa46cec2a30113059ebf8df8dd79763d",
+  "report_edition": "1.0/55",
+  "next": "4.17 VALIDATE DOCUMENT DF-DID-004"
+}
