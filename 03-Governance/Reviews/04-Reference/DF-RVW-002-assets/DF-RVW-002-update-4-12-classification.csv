@@ -1,0 +1,2 @@
+﻿Parent,Report edition,Source,Family before,Type before,Family after,Type after,Rationale,Impact
+DF-RVW-002,1.0/37,01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md,Architecture,Principles,Architecture,Architecture,Primary foundational design-principle responsibility,Stable ID/path/AP IDs;actual incompatible contract reconciliation V2.0 R1

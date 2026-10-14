@@ -1,0 +1,25 @@
+﻿Parent,Report edition,Section,Principle ID,Title,Category,Written body SHA-256
+DF-RVW-002,1.0/37,5.1,AP-001,Documentation as Knowledge,Conceptual Principles,7195494c9f2145e9b6ac040684dcea255299ea94f8434e67ae6db7da37d2837d
+DF-RVW-002,1.0/37,5.2,AP-002,Explicit Architecture,Conceptual Principles,04c715fd3f8597025ac0292d2828e5ea9546921b26040f0b381221bec6b17cb0
+DF-RVW-002,1.0/37,5.3,AP-003,Technology Independence,Conceptual Principles,aa83c7b6d44ab6041daf6fd9585272f2cf87129f5633ffc858261e109576b1d9
+DF-RVW-002,1.0/37,5.4,AP-004,Single Source of Truth,Conceptual Principles,a4092ebc829b185a660ef9e543de0bf40fbe1bf5e83bae233efe30f16a294365
+DF-RVW-002,1.0/37,5.5,AP-005,Semantic Consistency,Conceptual Principles,9fd8431c644a171c86be7bf7b6912edea1458d757391225e5ed38ddf3c101ac9
+DF-RVW-002,1.0/37,6.1,AP-006,Separation of Responsibilities,Structural Principles,d295a9089c865dc7acb96248af61222fcd91d68d4c46e5efe58c367cc7e7b6dc
+DF-RVW-002,1.0/37,6.2,AP-007,Layered Architecture,Structural Principles,442276f0da10d0afaa609e1c5f980171457212bb79697172538d5d989454503c
+DF-RVW-002,1.0/37,6.3,AP-008,Modular Design,Structural Principles,2039763a95a9d1482cc319d8534b85125ae81b2d4800dd8a8b380a3a671e274f
+DF-RVW-002,1.0/37,6.4,AP-009,Explicit Relationships,Structural Principles,327ff3a8c1faeb6f4bb54d95b21102cdf0fcbde5d43abfa2883d072b9ac53aee
+DF-RVW-002,1.0/37,6.5,AP-010,Stable Identity,Structural Principles,09c17f30ffa497537f8bcac144fecd82d6df971f77db13caaf9758af7e278c69
+DF-RVW-002,1.0/37,7.1,AP-011,Lifecycle Governance,Governance Principles,4b3efc366330897bc31bcac6ffda5856b6d86b3f6a9dd8dc30414bc23f4d879b
+DF-RVW-002,1.0/37,7.2,AP-012,Traceability,Governance Principles,88e4b27106cf6b0617653ed42d283af479f7cc4a593d7a0e0ee38a365127bd7e
+DF-RVW-002,1.0/37,7.3,AP-013,Controlled Evolution,Governance Principles,310cca818e9608c748ebaec90fa11bd034663ff4589ce6ff3fbcb64f5bdbdd1b
+DF-RVW-002,1.0/37,7.4,AP-014,Baseline Preservation,Governance Principles,56d6b40a4ace97ff75262bc34ebaae374734fd7bc2fc75991145e5a471ca5de6
+DF-RVW-002,1.0/37,8.1,AP-015,Incremental Evolution,Evolution Principles,6b5d110a1d98c9fada8ea8ebe0e1e8f31f79ff79f0ecf0cc8802c8cde2b5fadf
+DF-RVW-002,1.0/37,8.2,AP-016,Backward Compatibility,Evolution Principles,2f2ec504a2959b7af509811e32c3c84f4c5de89315dd630266944870ce951c0f
+DF-RVW-002,1.0/37,8.3,AP-017,Extensibility,Evolution Principles,3f40970209a7cf43300c0fbe0090e83b786b860db84bf3807981f21336bb472d
+DF-RVW-002,1.0/37,8.4,AP-018,Architectural Stability,Evolution Principles,922bc99a0968007a939234ad4d64b51e26bcc17df9fe22cebe9aa6141365d139
+DF-RVW-002,1.0/37,9.1,AP-019,Simplicity,Quality Principles,b658e697e67c864223a5c130cb084c8ba2ecd7c3e17b6e9ac5d1ba8f60921818
+DF-RVW-002,1.0/37,9.2,AP-020,Consistency,Quality Principles,3dc8198d465c07663d14d8c00cd806d33b22ff847617cf33ce7c81654e4bdc04
+DF-RVW-002,1.0/37,9.3,AP-021,Maintainability,Quality Principles,53f2d9408301946c12101f7ad196206b3e50d071240d2d62c3a2acac943ad7a2
+DF-RVW-002,1.0/37,9.4,AP-022,Discoverability,Quality Principles,a94d2e18d4f1004f3e63a992e1fe86884207fed6f81b0d8820c7ef23e92470c7
+DF-RVW-002,1.0/37,9.5,AP-023,Verifiability,Quality Principles,f68db3a236acadca6236b3ba1ab6fc42e1900682f8e287c10eedd367a86b0fd7
+DF-RVW-002,1.0/37,9.6,AP-024,Reusability,Quality Principles,c4acc9253840df9b162ff144ece24a48957c6dc8af9ad6cc4aea9f2e04220551
