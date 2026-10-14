@@ -213,7 +213,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-001 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-002 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-003 — V2.0 R1 Draft;scoped validation PASS | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
-| S | 2026-09-30 | 2026-10-14 |  | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
+| C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
 | O | 2026-09-30 |  |  | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
 | O | 2026-09-30 |  |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
 | O | 2026-09-30 |  |  | DF-DID-010 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md |
@@ -645,3 +645,5 @@ Recovery reconciliation (2026-10-14): reportV1.0 R53 section59 establishes corre
 Step4.17 REVIEW repeated after authorized recovery (2026-10-14): exact unchanged DID-004 V1.0 R0; eight findings/two warnings Open; three C/one S/60 O In Progress. Source cycle start2026-10-14; no completion. ReportR54 section60; CHANGELOG388–391; UPDATE/VALIDATE DOCUMENT pending.
 
 Step4.17 UPDATE after recovered REVIEW (2026-10-14): DID-004 V2.0 R1 Family/Component Document Identity,Type Architecture,cumulative Author Arnaldo Figueira; Codex — AI assistant,Draft/unassigned. Ten corrections pending VALIDATE DOCUMENT. Three C/one S/60 O,M12 In Progress;no completion. ReportR55 section61;CHANGELOG392–394;no peer/global approval/Baseline.
+
+Step4.17 VALIDATE after recovered REVIEW/UPDATE (2026-10-14): exact unchanged DID-004 V2.0 R1 local correction scope PASS;10 records Closed—verified;DID-004 completion2026-10-14,four C/60 O M12 In Progress. ReportR56 section62;CHANGELOG395–397. Source Draft/unassigned,cumulative Author retained;peer/global integration pending;no approval/publication/Baseline. Next4.18 REVIEW DF-DID-005.

@@ -1,0 +1,389 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/56",
+  "date": "2026-10-14",
+  "step": "4.17",
+  "phase": "VALIDATE",
+  "input_zip_sha256": "0d56e281161e9bce2d97651ce9dbacce56ed5d88b5034707c832b226425f09cf",
+  "source_path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md",
+  "source_edition": "V2.0 R1 Draft/Baseline Not assigned",
+  "source_sha256": "cd4d74795f3c8c5918db318fe6409102aa46cec2a30113059ebf8df8dd79763d",
+  "source_changed": false,
+  "result": "PASS — local correction scope only",
+  "checks": {
+    "exact_UPDATE_source_hash": true,
+    "original_REVIEW_hash": true,
+    "input_manifest_all_hashes_match": true,
+    "35_original_numbered_headings_preserved": true,
+    "35_complete_before_after_maps": true,
+    "received_views_retained_with_digests": true,
+    "two_conceptual_view_anchors": true,
+    "metadata_Document ID": true,
+    "metadata_Family": true,
+    "metadata_Type": true,
+    "metadata_Component": true,
+    "metadata_Author": true,
+    "metadata_Status": true,
+    "metadata_Version": true,
+    "metadata_Revision": true,
+    "metadata_Baseline": true,
+    "section_6_row_count": true,
+    "section_8_row_count": true,
+    "section_9_row_count": true,
+    "section_10_row_count": true,
+    "five_element_and_constraint_sections": true,
+    "14_links_resolve_to_intended_ID": true,
+    "comparison_hashes_preserved": true,
+    "original_three_dependencies": true,
+    "all_other_UPDATE_files_preserved_at_validation_input": true
+  },
+  "closures": [
+    {
+      "id": "DID004-01",
+      "before": "Corrected—pending validation",
+      "after": "Closed—verified",
+      "source_scope": "Header;1/9/11/13",
+      "assessment": "Canonical component Family and cumulative original/assistant authors retained; received Canonical/Baseline1.0 recorded as history; working V2.0 R1 Draft/unassigned.",
+      "supplementary_occurrence_checks": [
+        "Family** | Document Identity",
+        "Arnaldo Figueira; Codex — AI assistant",
+        "13.1. Received edition"
+      ],
+      "limit": "local correction scope; unresolved peer/global contract propagation remains open"
+    },
+    {
+      "id": "DID004-02",
+      "before": "Corrected—pending validation",
+      "after": "Closed—verified",
+      "source_scope": "1/2/4.1/7.1/12",
+      "assessment": "Assigned normalized logical-document scope separates excluded functional files, pre-allocation, representations and exact editions.",
+      "supplementary_occurrence_checks": [
+        "non-normalized functional files",
+        "Pre-allocation subjects",
+        "exact editions"
+      ],
+      "limit": "local correction scope; unresolved peer/global contract propagation remains open"
+    },
+    {
+      "id": "DID004-03",
+      "before": "Corrected—pending validation",
+      "after": "Closed—verified",
+      "source_scope": "4.2/4.3/7.2/7.3",
+      "assessment": "Qualified key, stable series,domain allocation and actual collision/non-overlap evidence replace unqualified guarantees.",
+      "supplementary_occurrence_checks": [
+        "Domain+Identifier",
+        "DF-SSS-NNN",
+        "000 is not allocated",
+        "namespace"
+      ],
+      "limit": "local correction scope; unresolved peer/global contract propagation remains open"
+    },
+    {
+      "id": "DID004-04",
+      "before": "Corrected—pending validation",
+      "after": "Closed—verified",
+      "source_scope": "3/4.4/6/7.4/13.3",
+      "assessment": "Historical candidate labels separated from assigned lifecycle/document status; missing State versus mandatory State/Canonical Reference differences remain visible.",
+      "supplementary_occurrence_checks": [
+        "historical candidate terminology",
+        "DID-005 omits a State field",
+        "DID-014 makes Identity State mandatory",
+        "Unassigned is pre-allocation"
+      ],
+      "limit": "local correction scope; unresolved peer/global contract propagation remains open"
+    },
+    {
+      "id": "DID004-05",
+      "before": "Corrected—pending validation",
+      "after": "Closed—verified",
+      "source_scope": "4.5/5/7.5/8/9",
+      "assessment": "Typed document/non-document targets,exact-edition context,connection ownership and optional incoming0..N are explicit.",
+      "supplementary_occurrence_checks": [
+        "Other endpoint kinds",
+        "population0..N",
+        "exact-edition",
+        "Relationships owns"
+      ],
+      "limit": "local correction scope; unresolved peer/global contract propagation remains open"
+    },
+    {
+      "id": "DID004-06",
+      "before": "Corrected—pending validation",
+      "after": "Closed—verified",
+      "source_scope": "5/8/9/11",
+      "assessment": "Definition,connection/registration ownership and executors distinct; Governance area and actual reciprocal required-dependency claims retained without declaring cycles resolved.",
+      "supplementary_occurrence_checks": [
+        "Governance is an area",
+        "consumer→provider",
+        "Do not conceal a required cycle",
+        "supplied DID README"
+      ],
+      "limit": "local correction scope; unresolved peer/global contract propagation remains open"
+    },
+    {
+      "id": "DID004-07",
+      "before": "Corrected—pending validation",
+      "after": "Closed—verified",
+      "source_scope": "2/4/7/10",
+      "assessment": "Key/association stability separated from mutable records;qualified permanence/canonical/repository meaning and prior/new migration assessment stated.",
+      "supplementary_occurrence_checks": [
+        "state/reference records",
+        "No migration is performed here",
+        "no future content-availability guarantee"
+      ],
+      "limit": "local correction scope; unresolved peer/global contract propagation remains open"
+    },
+    {
+      "id": "DID004-08",
+      "before": "Corrected—pending validation",
+      "after": "Closed—verified",
+      "source_scope": "1–13",
+      "assessment": "Requirements,actual executor/observations,peer propagation and approval separated; full integration remains pending.",
+      "supplementary_occurrence_checks": [
+        "DMS, tools or an applicable manual process",
+        "actual artifacts/editions/context",
+        "Partial rollout does not establish integrated consistency"
+      ],
+      "limit": "local correction scope; unresolved peer/global contract propagation remains open"
+    },
+    {
+      "id": "DID004-W01",
+      "before": "Corrected—pending validation",
+      "after": "Closed—verified",
+      "source_scope": "3/5",
+      "assessment": "Both views retained as typed conceptual tables; original text/digests and scope/direction/cardinality recorded.",
+      "supplementary_occurrence_checks": [
+        "original-section-view: 3",
+        "original-section-view: 5",
+        "not a mandatory object layout"
+      ],
+      "limit": "local correction scope; unresolved peer/global contract propagation remains open"
+    },
+    {
+      "id": "DID004-W02",
+      "before": "Corrected—pending validation",
+      "after": "Closed—verified",
+      "source_scope": "Original headings;4/6/7/8/9/11",
+      "assessment": "All original headings,5 elements/constraints/responsibility/ownership rows,6 interactions,3 dependencies and intended-ID links traceable.",
+      "supplementary_occurrence_checks": [
+        "The three original dependencies remain",
+        "The six original rows remain"
+      ],
+      "limit": "local correction scope; unresolved peer/global contract propagation remains open"
+    }
+  ],
+  "links": [
+    {
+      "label": "DF-DID-001 — Document Identity Architecture",
+      "target": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md",
+      "expected_id": "DF-DID-001",
+      "actual_id": "DF-DID-001",
+      "result": true
+    },
+    {
+      "label": "DF-DID-002 — Document Identity Concepts",
+      "target": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "expected_id": "DF-DID-002",
+      "actual_id": "DF-DID-002",
+      "result": true
+    },
+    {
+      "label": "DF-DID-003 — Document Identity Model",
+      "target": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md",
+      "expected_id": "DF-DID-003",
+      "actual_id": "DF-DID-003",
+      "result": true
+    },
+    {
+      "label": "Schema",
+      "target": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "expected_id": "DF-DID-005",
+      "actual_id": "DF-DID-005",
+      "result": true
+    },
+    {
+      "label": "Lifecycle",
+      "target": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md",
+      "expected_id": "DF-DID-006",
+      "actual_id": "DF-DID-006",
+      "result": true
+    },
+    {
+      "label": "Relationships",
+      "target": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md",
+      "expected_id": "DF-DID-009",
+      "actual_id": "DF-DID-009",
+      "result": true
+    },
+    {
+      "label": "Constraints",
+      "target": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md",
+      "expected_id": "DF-DID-010",
+      "actual_id": "DF-DID-010",
+      "result": true
+    },
+    {
+      "label": "Specification",
+      "target": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "expected_id": "DF-DID-014",
+      "actual_id": "DF-DID-014",
+      "result": true
+    },
+    {
+      "label": "Layers",
+      "target": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "expected_id": "DF-ARC-004",
+      "actual_id": "DF-ARC-004",
+      "result": true
+    },
+    {
+      "label": "Components",
+      "target": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "expected_id": "DF-ARC-005",
+      "actual_id": "DF-ARC-005",
+      "result": true
+    },
+    {
+      "label": "Model",
+      "target": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "expected_id": "DF-MTD-003",
+      "actual_id": "DF-MTD-003",
+      "result": true
+    },
+    {
+      "label": "Dictionary",
+      "target": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "expected_id": "DF-MTD-013",
+      "actual_id": "DF-MTD-013",
+      "result": true
+    },
+    {
+      "label": "Review Policy",
+      "target": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "expected_id": "DF-RVW-001",
+      "actual_id": "DF-RVW-001",
+      "result": true
+    },
+    {
+      "label": "Review Report",
+      "target": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
+      "expected_id": "DF-RVW-002",
+      "actual_id": "DF-RVW-002",
+      "result": true
+    }
+  ],
+  "comparison_sources": [
+    {
+      "document_id": "DF-DID-001",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md",
+      "sha256": "f36e91e5a2255d5807b68bedd180f4c4d33d90c2b849e42a462815b11af6d21c",
+      "coverage": "§§1–5,7,9,12.3; selected scope/identity/owner/dependency clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-002",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "sha256": "6b3adf13bfe20d4f6b360368f1b587f8da09fa4d36b880d5d20eb67f451f1d52",
+      "coverage": "selected domain, stability, reference and state clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-003",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md",
+      "sha256": "be7ddc3e783aa3ece4216de50662794e65b0133b431422a343846b404ef897cb",
+      "coverage": "§§3–6 complete model/entity/relationship/cardinality clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-005",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "sha256": "b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc",
+      "coverage": "complete source; schema/state omission and reference0..N",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-006",
+      "path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md",
+      "sha256": "daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024",
+      "coverage": "complete source; §§4–8 state/event distinctions",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-009",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md",
+      "sha256": "82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1",
+      "coverage": "§§4–7,10–12 selected ownership/dependency clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-014",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "sha256": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668",
+      "coverage": "§§6–9,12–15,18 selected mandatory schema/state/conformance clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-DID-010",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md",
+      "sha256": "9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d",
+      "coverage": "§§4–6 selected uniqueness/identifier/domain constraints",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-ARC-004",
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "bbab37b76ea23f609a560bdd88c982091a5dd4d903d9b81679293aefdd66d6b5",
+      "coverage": "§§12–13 selected required consumer→provider/cycle constraints",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-ARC-005",
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "0329a1ad17f95108fe9ef770e5e1de779efd1f0f8fce18cab0f28fecfcca4a6b",
+      "coverage": "selected area/component allocation and ownership clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-MTD-003",
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "sha256": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746",
+      "coverage": "selected Dictionary/Schema/Profile/Instance clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-MTD-013",
+      "path": "02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md",
+      "sha256": "3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206",
+      "coverage": "selected descriptor/status dictionary clauses",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DF-RVW-001",
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "8f6c3a967f076dfc3ddd4fef90b5901dbb780e0a8c7cda17c70039e2f581f9ef",
+      "coverage": "complete operating review policy V1.0 R2",
+      "limit": "comparison only; not a completed peer review/validation"
+    },
+    {
+      "document_id": "DID README",
+      "path": "02-Documentation/DocumentIdentity/README.md",
+      "sha256": "2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7",
+      "coverage": "Architectural Dependencies/Component Dependencies/Metadata only",
+      "limit": "selected comparison,not completed functional-file review"
+    }
+  ],
+  "validation_coverage": "Complete DID-004; original headings/body/header/view maps; selected peer scopes previously read, rechecked Model4/5.4/6,Schema3–5,Lifecycle4–8,Specification6–9,Relationships5/7/10 and README dependency clauses; other comparison hashes unchanged. No complete peer review or whole dependency graph proof.",
+  "totals": {
+    "Open": 19,
+    "Closed—verified": 167,
+    "Not applicable—scope decision": 1,
+    "Corrected—pending validation": 0
+  },
+  "limits": [
+    "DID-005/006/010/014 field/state/representation integration pending",
+    "Metadata/Registry/Relationships/required-dependency propagation pending",
+    "No runtime implementation,global conformity,approval,publication or Baseline membership",
+    "Source pending-validation statements are unchanged UPDATE-time statements; current event result is recorded centrally"
+  ],
+  "next": "4.18 REVIEW DOCUMENT DF-DID-005"
+}
