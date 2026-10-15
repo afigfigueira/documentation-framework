@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 60 |
+| **Revision** | 61 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -266,6 +266,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 58 | Step4.18 UPDATE;DID-005 V2.0 R1;10 corrections pending validation | Compatible report event;section64;no source validation or approval |
 | 2026-10-15 | 1.0 | 59 | Step4.18 exact Schema V2.0 R1 local validation PASS;10 closures | Compatible report event;section65;source unchanged;no integrated approval |
 | 2026-10-15 | 1.0 | 60 | Step4.19 complete DID-006 REVIEW;9 findings/2 warnings Open | Compatible report event;section66;source unchanged;next UPDATE |
+| 2026-10-15 | 1.0 | 61 | Step4.19 UPDATE;DID-006 V2.0 R1;11 corrections pending | Compatible report event;section67;no source validation or global approval |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -5240,3 +5241,43 @@ Eleven local DID006 records Open;prior177 Closed—verified and19 global Open re
 ReportV1.0 R59→R60;CHANGELOG408 REVIEW,409 report,410 Milestone,411 REVIEW integrity checks. Stable89 progress positions,current manifest,all prior exports and all domain source bytes preserved. Evidence records exact original inventory and comparison sources/hashes. Integrity PASS concerns REVIEW traceability,not VALIDATE DOCUMENT,finding closure,implemented lifecycle,approval,publication,Baseline or integrated architecture.
 
 **Pause after REVIEW. CONTINUAR starts4.19 UPDATE DOCUMENT DF-DID-006 — Document Identity Lifecycle,then pauses before VALIDATE DOCUMENT.**
+
+## 67. Step 4.19 — UPDATE DOCUMENT DF-DID-006 — Document Identity Lifecycle
+
+### 67.1. Exact successor and operation
+
+UPDATE complete,2026-10-15. Source V1.0 R0 becomes **V2.0 R1, Draft, Baseline Not assigned**, Family/Component Document Identity, Type Behavior, cumulative Author Arnaldo Figueira; Codex — AI assistant. ID/path retained. Source SHA-256 `db437de4d515b120ab7a6a7b096d686fbcb11d0ec73e40d185e12987a9d13217`. Original Canonical/Baseline1.0 and absent date remain received provenance. No VALIDATE DOCUMENT has been performed.
+
+Eleven DID006-01–09/W01/W02 records are Corrected—pending validation; none is Closed by UPDATE. Section66 retains REVIEW-time Open states. All other domain source bytes and historical exports remain unchanged; prior exact semantic and later attribution-only results keep their original scopes.
+
+### 67.2. Changes and required validation
+
+| Records | Actual source correction | Required later evidence |
+|---|---|---|
+| DID006-01 | Header;1/12/14:component Family,Behavior retained,cumulative Author,received history and working lifecycle | Exact header/history/compatibility and original attribution |
+| DID006-02 | 1/2/4/5.1/8/13:pre-allocation subject versus assigned key/record;normalized exclusions;files/editions/status/Baseline distinct | Complete source/peer applicability and existence comparison |
+| DID006-03 | 3.3/5.2/5.4/6/10/11:qualified uniqueness versus non-reuse,actual allocation/reservation/decision evidence,corpus convention | Responsible domain/series/assignment/retirement scope,not syntax/global resolver inference |
+| DID006-04 | 3.2/3.4/5.3/9/10:stable key versus mutable support records and prior/new migration continuity | Exact owner/consumer contract comparison;no reuse or immutable-snapshot retargeting |
+| DID006-05 | 4–7/11:selected trace subject/authority,original8 rows,self-loops,event aliases and seven examples mapped;unsupported cases explicit | Full state/event/transition set and guards;Assigned-retirement case not silently granted or fabricated;no universal permissions claimed |
+| DID006-06 | 5.4/8/9.3/11:all7 original statuses/correspondences retained as conditional correlations,not automatic file-deletion retirement | Actual status/logical-document/decision/Baseline distinction;peer authority remains visible |
+| DID006-07 | 3.5/5.1.2/5.4/9.5/10/11:proper assigned target versus other/planned references,optional incoming0..N,exact-edition/context and historical/live limits | Target,association and retrieval cases;no automatic perpetual validity or silent retargeting |
+| DID006-08 | 3.4/9/11/12:Metadata/Registry/Relationships/Graph ownership,Governance area and required dependency scope | Actual source/consumer claims;mutable graph properties distinguished from stable key,no hidden cycle |
+| DID006-09 | 1–14:requirements versus actual subject/rules/executor/event/decision/observation evidence;State/record/peer/global limits | Source-wide and selected peer comparison,no universal implemented graph/approval/Baseline inferred |
+| DID006-W01 | 4/11:two typed overview views;5.1.3/5.2.3/5.3.2:three blocks retained with scope and table cross-reference | All five original/written views and labels/digests traceable;chain is not exhaustive permission graph |
+| DID006-W02 | All38 original headings/13 chapters,4 states/5 principles/7 events/8 transitions/7 status rows/6 interactions/6 constraints/5 dependencies retained | Complete before-after/header/body/event/state/status maps and intended-ID/functional links |
+
+### 67.3. Actual transition and compatibility decision
+
+The eight received rows remain with their original Current State/Event/Next State triples. Document Evolution is the umbrella category;Content Revision is its actual named subtype,Metadata Update/Classification Update/Governance Transition are explicit received aliases of their respective Evolution categories. Repository Migration retains its name. Edition creation/format conversion remain original examples but are not falsely relabelled Content Revision;actual semantic events and no-transition observations are distinguished. §5.3.2's retained retirement edge now explicitly refers to all five Preserved self-loops in §7.
+
+The selected eight-row trace contract grants no unspecified edge. Direct Assigned→Retired is not provided and needs a responsible contract decision/change before such a real case is claimed;no fake evolution may be inserted to satisfy a row. A state observation without an applied event is not a new self-loop. Retired is terminal within this selected table;that scope is not asserted as every external permission graph. Every applied transition needs its actual subject,rules,event/decision and evidence. Mandatory peer conflicts cannot be bypassed by the selected table.
+
+All seven document-status rows retain received correspondence text with explicit conditional interpretation. Deleted→Retired does not authorize retirement from file/edition/index deletion alone;require the logical identity retirement decision,history and reservations. Key stability does not require unchanged state records or graph-node properties. Historical target interpretation is preserved without promising perpetual content availability or validity of every connection.
+
+The change is incompatible in applicability,subject/transition authority,status correspondence,ownership and guarantee meaning,not merely a Family correction:Version1.0→2.0,Revision0→1,monotonic under Policy5. Exact original/written bodies and all received blocks/rows plus the source/central diff are attached in assets. No migration,allocation,actual retirement,State/Profile field creation or peer modification occurs. State/Canonical Reference mandatory complete-record interpretation,uncovered transition/permission cases and actual reciprocal required-graph propagation remain owner work.
+
+### 67.4. Tracking and pause
+
+ReportV1.0 R60→R61;CHANGELOG412 source UPDATE,413 report,414 Milestone. Totals19 global Open,11 Corrected—pending validation,177 Closed—verified,INV-02 Not applicable. M12 five C/one S/58 O In Progress;DID-006 started2026-10-15,no completion. Current progress/manifest synchronized;construction checks cover heading/map/link existence,preservation and packaging only,not VALIDATE DOCUMENT. No global architectural approval,publication or Baseline is granted.
+
+**Pause after UPDATE. CONTINUAR starts4.19 VALIDATE DOCUMENT DF-DID-006,then pauses before4.20 REVIEW.**
