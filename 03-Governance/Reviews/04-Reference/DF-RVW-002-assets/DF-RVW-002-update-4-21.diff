@@ -1,0 +1,1051 @@
+--- before/02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md
++++ after/02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md
+@@ -1,364 +1,419 @@
+-# Documentation Framework
+-
+-# DF-DID-008 – Document Identity Governance
+-
+-| Metadata | Value |
+-|----------|-------|
+-| **Document ID** | DF-DID-008 |
+-| **Title** | Document Identity Governance |
+-| **Family** | Documentation |
+-| **Type** | Behavior |
+-| **Component** | Document Identity |
+-| **Author** | Arnaldo Figueira |
+-| **Status** | Canonical |
+-| **Version** | 1.0 |
+-| **Revision** | 0 |
+-| **Baseline** | 1.0 |
+-| **Language** | English |
+-
+----
+-
+-# 1. Purpose
+-
+-This document defines the governance principles applicable to the **Document Identity** component.
+-
+-Its purpose is to establish the architectural rules that preserve the integrity, stability, uniqueness, and permanence of document identities throughout the Documentation Framework.
+-
+-This document defines **how document identities shall be governed** from an architectural perspective.
+-
+-It does **not** define organisational workflows, approval processes, repository policies, or operational governance, which are the responsibility of the **Governance Layer**.
+-
+----
+-
+-# 2. Introduction
+-
+-Document Identity is a foundational architectural concept upon which every other Documentation Framework component depends.
+-
+-Consequently, its governance differs from the governance of ordinary document attributes.
+-
+-Once assigned, a document identity becomes a permanent architectural asset whose integrity shall be preserved throughout the complete lifetime of the document.
+-
+-The governance of document identities therefore focuses on preserving architectural correctness rather than managing document evolution.
+-
+----
+-
+-# 3. Governance Objectives
+-
+-The governance of Document Identity pursues the following objectives.
+-
+-- preserve identity permanence;
+-- preserve identity uniqueness;
+-- preserve identity integrity;
+-- preserve identity stability;
+-- preserve identity consistency;
+-- preserve long-term traceability;
+-- preserve interoperability across the Documentation Framework.
+-
+----
+-
+-# 4. Governance Principles
+-
+-## 4.1. Permanence
+-
+-A Document Identity shall remain permanently associated with the document for which it was assigned.
+-
+----
+-
+-## 4.2. Immutability
+-
+-A Document Identity shall never be modified after assignment.
+-
+-Any modification to document content, metadata, classification, governance state, or storage location shall preserve the same identity.
+-
+----
+-
+-## 4.3. Uniqueness
+-
+-Every document shall possess one and only one canonical identity.
+-
+-Duplicate identities are prohibited.
+-
+----
+-
+-## 4.4. Non-Reusability
+-
+-Once retired, a Document Identity shall never be assigned to another document.
+-
+----
+-
+-## 4.5. Traceability
+-
+-A Document Identity shall remain suitable for long-term architectural reference.
+-
+-Historical references shall remain valid regardless of document evolution.
+-
+----
+-
+-## 4.6. Independence
+-
+-The governance of Document Identity shall remain independent from:
+-
+-- document content;
+-- metadata;
+-- governance workflows;
+-- repositories;
+-- implementation technologies;
+-- storage mechanisms.
+-
+----
+-
+-# 5. Governance Responsibilities
+-
+-The Document Identity component is responsible for governing:
+-
+-- the architectural definition of identity;
+-- identity ownership;
+-- identity integrity;
+-- identity permanence;
+-- identity uniqueness;
+-- identity consistency.
+-
+-The component is **not** responsible for:
+-
+-- document approval;
+-- document reviews;
+-- document publication;
+-- document lifecycle management;
+-- repository administration;
+-- access control;
+-- workflow execution.
+-
+----
+-
+-# 6. Governance Rules
+-
+-The following architectural rules shall always apply.
+-
+-## 6.1. Rule 1
+-
+-Every document shall possess exactly one Document Identity.
+-
+----
+-
+-## 6.2. Rule 2
+-
+-A Document Identity shall never be modified.
+-
+----
+-
+-## 6.3. Rule 3
+-
+-A Document Identity shall never be duplicated.
+-
+----
+-
+-## 6.4. Rule 4
+-
+-A Document Identity shall never be reassigned.
+-
+----
+-
+-## 6.5. Rule 5
+-
+-A retired Document Identity shall remain permanently reserved.
+-
+----
+-
+-## 6.6. Rule 6
+-
+-Every architectural reference shall target a valid Document Identity.
+-
+----
+-
+-## 6.7. Rule 7
+-
+-No component other than Document Identity shall define identity semantics.
+-
+----
+-
+-# 7. Governance Ownership
+-
+-The ownership of document identity is exclusively assigned to the Document Identity component.
+-
+-```text
+-
+-                    Document Identity
+-                    │
+-                    ├── Defines identity
+-                    ├── Owns identity semantics
+-                    ├── Governs identity integrity
+-                    ├── Preserves identity stability
+-                    └── Defines validation rules
+-
+-```
+-
+-Other Documentation Framework components consume document identities but never own them.
+-
+----
+-
+-# 8. Governance Interactions
+-
+-## 8.1. Metadata
+-
+-Metadata associates descriptive information with a Document Identity.
+-
+-Metadata governance shall never alter document identity.
+-
+----
+-
+-## 8.2. Classification
+-
+-Classification governs document categorisation.
+-
+-Classification governance shall preserve document identity.
+-
+----
+-
+-## 8.3. Governance Layer
+-
+-The Governance Layer manages document processes.
+-
+-Document Identity governance manages the architectural integrity of identities.
+-
+-These responsibilities are complementary.
+-
+----
+-
+-## 8.4. Registry
+-
+-Registry governs document registration.
+-
+-Registry shall preserve the canonical identity defined by this component.
+-
+----
+-
+-## 8.5. Relationships
+-
+-Relationships govern semantic associations between identified documents.
+-
+-Relationship governance shall preserve identity integrity.
+-
+----
+-
+-## 8.6. Knowledge Graph
+-
+-Knowledge Graph governs graph representations.
+-
+-The graph shall preserve canonical document identities.
+-
+----
+-
+-# 9. Governance Compliance
+-
+-A Document Identity is considered architecturally compliant when:
+-
+-- its identifier is unique;
+-- its identity remains immutable;
+-- its canonical representation is preserved;
+-- references remain valid;
+-- architectural constraints are satisfied;
+-- validation rules are fulfilled.
+-
+----
+-
+-# 10. Governance Violations
+-
+-The following situations constitute architectural governance violations.
+-
+-- modifying an assigned identity;
+-- assigning multiple identities to the same document;
+-- assigning the same identity to multiple documents;
+-- reusing a retired identity;
+-- creating implementation-specific identity semantics;
+-- bypassing canonical identity definitions.
+-
+-Such situations violate the architectural principles of the Documentation Framework.
+-
+----
+-
+-# 11. Relationship with Validation
+-
+-Governance defines the architectural rules.
+-
+-Validation verifies compliance with those rules.
+-
+-```text
+-
+-               Governance
+-                    │
+-                    ▼
+-
+-           Architectural Rules
+-                    │
+-                    ▼
+-
+-               Validation
+-                    │
+-                    ▼
+-
+-          Compliance Verification
+-
+-```
+-
+-The two specifications are complementary.
+-
+----
+-
+-# 12. Relationship with Lifecycle
+-
+-Lifecycle describes how a Document Identity exists over time.
+-
+-Governance defines the rules that shall be respected throughout that lifecycle.
+-
+-Lifecycle answers:
+-
+-> *When does an identity exist?*
+-
+-Governance answers:
+-
+-> *How shall that identity be preserved?*
+-
+----
+-
+-# 13. Architectural Constraints
+-
+-The governance of Document Identity shall remain:
+-
+-- technology independent;
+-- implementation independent;
+-- repository independent;
+-- storage independent;
+-- workflow independent;
+-- organisation independent.
+-
+-No governance rule shall depend upon implementation technologies.
+-
+----
+-
+-# 14. Dependencies
+-
+-This document depends upon:
+-
+-- DF-DID-001 — Document Identity Architecture
+-- DF-DID-002 — Document Identity Concepts
+-- DF-DID-003 — Document Identity Model
+-- DF-DID-004 — Document Identity Elements
+-- DF-DID-005 — Document Identity Schema
+-- DF-DID-006 — Document Identity Lifecycle
+-- DF-DID-007 — Document Identity Validation
+-
+----
+-
+-# 15. Summary
+-
+-The Document Identity Governance specification defines the architectural principles that preserve the integrity, permanence, uniqueness, and stability of document identities throughout the Documentation Framework.
+-
+-It establishes the governance responsibilities owned exclusively by the Document Identity component while clearly separating them from operational governance responsibilities defined by the Governance Layer.
+-
+-These governance principles ensure that every Document Identity remains a permanent, immutable, and canonical architectural reference, providing a stable foundation for all other Documentation Framework components.
+-
+----
+-
+-**End of Document**
+-
+----+# Documentation Framework
++
++# DF-DID-008 – Document Identity Governance
++
++| Metadata | Value |
++|----------|-------|
++| **Document ID** | DF-DID-008 |
++| **Title** | Document Identity Governance |
++| **Family** | Document Identity |
++| **Type** | Behavior |
++| **Component** | Document Identity |
++| **Author** | Arnaldo Figueira; Codex — AI assistant |
++| **Status** | Draft |
++| **Version** | 2.0 |
++| **Revision** | 1 |
++| **Baseline** | Not assigned |
++| **Language** | English |
++
++---
++
++# 1. Purpose
++
++This document defines identity-governance requirements and responsibility/evidence boundaries for applicable assigned normalized logical documents under explicit identity-domain contracts. It governs the meaning and preservation of assigned keys and their same-document association, not the operation of repositories, access systems, approval engines or a universal workflow.
++
++Distinguish identity-domain rules, common Architecture/Policy constraints, actual decisions under applicable authority, operational execution and observed results. Governance is the area comprising Workflow, Policies, Reviews and Baselines; those components define documentary contracts. DMS, tools or an applicable manual process execute operations, and CMS governs changes in its scope. Area/component registration is not evidence of an installed executor or a permission granted to act.
++
++All files named README.md, CHANGELOG.md or ArchitecturalMilestones.md are non-normalized at every location. They require no normalized ID/header solely because they are files; applicable content, references, history and hash checks remain. Pre-allocation subjects, assigned qualified keys, mutable support records, physical representations, exact editions and other entity-domain identities are different subjects.
++
++This source creates no user/permission model, approval process, repository policy or operational service. Identity requirements, received Canonical naming and local correction validation do not establish actual allocation, global conformity, formal approval, publication or Baseline membership.
++
++---
++
++# 2. Introduction
++
++Document Identity supplies identity meaning for the actual scoped consumers that require it. It is not an assertion that every framework component depends on every identity contract or must route through a Registry/Graph service. Required consumer→provider uses identify actual contract, scope and responsible exact editions/interfaces under ARC-004/005; conceptual reference, authority, projection and execution are distinct.
++
++For an applicable assigned normalized logical document, the qualified Domain+Identifier remains associated with the same document under its governing allocation/preservation contract. An exact edition, alias, file, index record or graph projection is not automatically another document identity. Unassigned concerns pre-allocation, not an allocated key that simultaneously does not exist.
++
++Governance preserves responsible meaning, integrity, reservations and traceable decisions through actual document/record evolution. It does not mean that every supporting state/descriptor/reference record is immutable or that rule definitions themselves can never undergo assessed change. Applicable decisions need actual subject, rules/source editions, authority, executor, affected records/context and observations; this document does not invent a person, role assignment or approval solely from authorship or custody.
++
++---
++
++# 3. Governance Objectives
++
++The seven original objectives are retained as requirements/design objectives with evidence boundaries, not guaranteed runtime outcomes.
++
++| Original objective | Qualified scope and evidence boundary |
++|---|---|
++| Preserve identity permanence | Same-document association, allocation/history and non-reuse reservations; no promise of perpetual content retrieval |
++| Preserve identity uniqueness | Full qualified key within declared domain/population/history; actual collision/reservation evidence |
++| Preserve identity integrity | Stable assigned key distinguished from mutable supporting records; compare actual prior/current contracts and observations |
++| Preserve identity stability | Ordinary evolution preserves key meaning; necessary governed contract change requires explicit prior/new continuity assessment |
++| Preserve identity consistency | Exact applicable records, rules and context with unresolved owner conflicts visible |
++| Preserve long-term traceability | Retain assignment/retirement/reference/decision provenance and intended historical target/context |
++| Preserve interoperability across the Documentation Framework | Actual compatible consumer/provider interpretation and transition evidence; no complete rollout inferred from definitions |
++
++Objectives are assessed against applicable owner contracts and exact artifacts/editions/context with actual checks, observations, executor, coverage and limits. Source presence or an objective label proves neither implementation nor conformance.
++
++---
++
++# 4. Governance Principles
++
++The six original principle headings remain. Apply them to the declared subject/domain and governing rules; they do not allocate new framework AP identifiers or silently override common Architecture/Policy or other semantic owners.
++
++---
++
++## 4.1. Permanence
++
++Preserve the assigned key's association with the same logical document under its governing domain contract. Retirement ends active use within its stated scope without releasing the allocated key for another document. Preserve historical association, reservations and intended reference interpretation; permanence does not guarantee live content or universally valid connections.
++
++---
++
++## 4.2. Immutability
++
++Immutability concerns the assigned Domain+Identifier key and same-document association, not every state/reference/descriptor/registration/projection record. Ordinary content, metadata, classification, document-status, edition, repository and format changes preserve that key while their own records may evolve under responsible owners.
++
++If a necessary authorized migration would alter an otherwise immutable representation/allocation contract, first reconcile prior/new owner rules, actual authority, affected exact sources/consumers and dependencies, old→new mappings, aliases/reservations/collisions/history, target and exact-snapshot continuity, compatibility and transition checks. Never reassign an allocated/retired key to another document or retarget immutable historical Baseline members. A governance/validation label does not authorize mutation; this UPDATE executes no migration.
++
++---
++
++## 4.3. Uniqueness
++
++An applicable assigned normalized logical document has one governing identity under its declared document/domain contract. Pre-allocation subjects, excluded functional files, other entity kinds and exact editions are not additional required DF document keys.
++
++Uniqueness concerns full qualified Domain+Identifier, actual canonical/alias interpretation and scoped assignment/population/history. Multiple copies, repeated registrations, graph projections or editions about one logical key are not by themselves duplicate allocations. Actual competing document assignments or incompatible canonical interpretations need observed evidence under the responsible rules.
++
++For this corpus, the domain is Documentation Framework, represented by DF. DF-SSS-NNN uses a registered uppercase three-letter stable allocation series and positive three-digit001–999 allocation. Current Family/Type/Component/path/edition/status do not regenerate the key; equal numeric suffixes across different full series identifiers do not alone collide. 000 is excluded; gaps prove no availability; allocated/retired numbers remain reserved. At999, register a traceable unused continuation series rather than widen or recycle silently. DID-005§4.2 and Policy§4 govern detailed corpus rules; external domains need their own explicit contracts.
++
++Record actual domain/series authority, collision/reservation/current-historical population checks and coverage. Syntax success or registration alone proves no unique allocation or global resolver.
++
++---
++
++## 4.4. Non-Reusability
++
++Allocated and retired keys remain reserved against assignment to a different logical document. Actual retirement scope/decision, reservation history and same-document association must remain traceable. Retirement neither erases prior identity evidence nor guarantees all indexes were updated or content remains retrievable.
++
++A gap, missing record or absent live content does not establish that a number is available. Distinguish observed reassignment from missing history; retain actual violations and evidence rather than rewriting the past. This source allocates, retires and reassigns no key.
++
++---
++
++## 4.5. Traceability
++
++Preserve assignment, evolution, retirement, rule/decision and reference provenance for the intended qualified document or exact edition/context. Long-term historical interpretation is a requirement; actual target validity, freshness and current/future live retrieval remain separately observed facts.
++
++A valid document-targeting reference identifies its intended existing qualified logical document or exact edition with the additional coordinates/bytes and context needed. Other endpoints follow their own contracts; optional incoming0..N does not require a reference merely for a key to exist. Keep dangling, ambiguous, stale and unavailable observations explicit. Never silently create or retarget a key to make a reference appear valid, and never retarget immutable historical snapshot members.
++
++---
++
++## 4.6. Independence
++
++The six original independence subjects remain: document content, metadata, governance workflows, repositories, implementation technologies and storage mechanisms. Ordinary changes there do not automatically redefine or reallocate identity. This is semantic separation, not absence of actual evidence, interactions, owner requirements or operational decisions.
++
++Identity governance may inspect relevant content, descriptors, representations, state/decision records, registrations and references without taking over their complete validation or semantics. Logical representation/interface and adapter requirements can be legitimate while storage/runtime choices remain open. Required contracts, including actual reciprocal Metadata/Identity claims, must not be hidden by an independence or projection label.
++
++---
++
++# 5. Governance Responsibilities
++
++The six original identity-governance responsibility subjects remain with bounded meaning.
++
++| Responsibility | Actual contract responsibility / evidence boundary |
++|---|---|
++| Architectural definition of identity | Document Identity owns document identity meaning under applicable common architecture and domain rules |
++| Identity ownership | Preserve semantic owner versus other descriptor/connection/registration/projection owners |
++| Identity integrity | State stable assigned key/association and actual record/transition evidence requirements |
++| Identity permanence | Define history/reservation/non-reuse and intended target-continuity requirements |
++| Identity uniqueness | Define qualified-domain/key and actual population/collision/allocation coverage requirements |
++| Identity consistency | Define applicable rule/subject/context assessment and retain unresolved owner/consumer conflicts |
++
++The seven original operational exclusions are preserved:
++
++- document approval;
++- document reviews;
++- document publication;
++- document lifecycle management;
++- repository administration;
++- access control;
++- workflow execution.
++
++Document Identity does not take over these operations by defining identity-governance rules. Workflow/Policies/Reviews/Baselines and applicable other domain owners define their contracts; actual DMS/tool/manual execution and CMS change governance remain separate. Identity lifecycle assertions are not the entire document lifecycle management operation. A review or validation can use identity evidence without transferring identity meaning or granting approval.
++
++For a real identity-affecting decision, record the responsible applicable authority/rules, exact subject/domain/artifacts/editions/context, proposed action, actual executor, observations, affected owners/consumers and limits. No named user, permission, organizational role assignment or implemented process is fabricated by these evidence roles. Cumulative documentary Author and event-specific contribution are provenance, not automatic decision authority.
++
++---
++
++# 6. Governance Rules
++
++The seven original rule labels and responsibilities remain, scoped to the applicable assigned logical-document/domain/operation. Governing clauses and exact responsible editions must be identified. A rule statement is not evidence of execution, permission or compliance; a local source correction does not propagate every peer contract.
++
++---
++
++## 6.1. Rule 1
++
++Require one governing assigned identity for an applicable assigned normalized logical document under its declared contract. Apply functional-file exclusions and distinguish pre-allocation, files, exact editions, copies and other entity identities. No allocation occurs merely to satisfy a blanket “every document” assertion.
++
++Decision/check evidence identifies actual subject, domain and assignment history, exact artifacts/context and coverage; recognition or registration alone is not completed allocation.
++
++---
++
++## 6.2. Rule 2
++
++Preserve the assigned qualified key and same-document association through ordinary evolution under governing rules. Supporting lifecycle, reference, descriptor, index and graph records may legitimately change. Any necessary contract/representation migration first requires §4.2 prior/new owner/authority/consumer/history and snapshot-continuity assessment; no arbitrary key change or evidence rewrite is authorized.
++
++---
++
++## 6.3. Rule 3
++
++Prevent conflicting allocations/canonical interpretations of a full qualified key for different logical documents within its actual governed domain. Do not classify every copy, repeated record, alias or exact edition as a new duplicate identity. Actual population, representation/alias rules, observed collisions and reservation/history coverage determine the scoped claim.
++
++---
++
++## 6.4. Rule 4
++
++Do not reassign an allocated key to a different logical document, whether active or retired. Preserve original same-document association and history. Legitimate observations/records or governed representations of the same key do not create a new allocation; responsible prior/new contract assessment remains required before any necessary migration.
++
++---
++
++## 6.5. Rule 5
++
++Retain retired-key reservations and historical association with the intended logical document under the applicable domain contract. Record actual retirement decision/scope, assignment/reservation evidence and coverage. Missing history or unavailable content is not permission to reuse a number, nor automatically proof that a particular reassignment happened.
++
++---
++
++## 6.6. Rule 6
++
++For each applicable document-targeting reference, preserve intended existing qualified document or exact-edition/context interpretation under the responsible connection/endpoint contract. Other endpoint kinds use their own identity rules and incoming population may be0..N.
++
++Actual reference validity and retrieval need observed evidence; no perpetual guarantee follows from stable identity. Never silently create or retarget an identity or immutable historical member to resolve a reference. Connection records remain with their responsible owner; this rule does not acquire all relation semantics.
++
++---
++
++## 6.7. Rule 7
++
++Document Identity owns document identity semantics; other components shall not silently redefine them. Applicable Foundation/Architecture/Policy constraints and responsible domain contracts still govern their declared scopes. Definition ownership does not override those sources, grant operational authority or make one document the sole source of every rule.
++
++Metadata descriptors, Classification categories, Relationships connections, Registry registration and Knowledge Graph projections retain their semantic/record owners. Implementations preserve governed identity meaning and may use legitimate representations/adapters without creating competing identity semantics. Actual required consumer→provider contracts and unresolved cycles remain visible; data projection does not remove an indispensable contract.
++
++---
++
++# 7. Governance Ownership
++
++The first selected view retains the five received ownership roles while distinguishing definitions/requirements from execution and actual observations. Identity semantic ownership is not ownership of all related records or permission to ignore common governing contracts.
++
++<!-- original-section-view: 7 -->
++**Previously unnamed view in §7 — Identity ownership responsibilities.**
++
++| Original view role | Qualified responsibility | Authority / observation boundary |
++|---|---|---|
++| Defines identity | Document Identity supplies document-key/domain meaning | Applicable common architecture and responsible exact source editions remain |
++| Owns identity semantics | Preserve responsible identity interpretation | Other descriptor/connection/registration/projection owners retain their meaning |
++| Governs identity integrity | Define stability/record/evidence requirements | Actual decisions/execution/observations need their own evidence |
++| Preserves identity stability | Require same-document key continuity and non-reuse | A requirement does not prove every actual record or future outcome |
++| Defines validation rules | Supply identity-domain checks under responsible contracts | Validation executor and Reviews scope/result remain distinct from approval |
++<!-- end-original-section-view -->
++
++Other components consume applicable identity meanings without acquiring or redefining them. They can own descriptors, connection records, registrations, projections or other entity-domain contracts involving that identity. The original diagram text/digest remains external UPDATE evidence under its original section; no historical view ID or universal operational routing path is invented.
++
++---
++
++# 8. Governance Interactions
++
++The six original interaction headings remain. Common documentary authority, semantic ownership, required consumption, evidence inspection, actual decisions, operational execution and data projection are distinct roles with explicit sources/editions/context.
++
++---
++
++## 8.1. Metadata
++
++Metadata represents identity/state/edition facts under their responsible semantic owners; its own descriptors/schema/profile/instance definitions remain separately governed. Ordinary descriptor changes do not reallocate assigned identity. Inspecting those values for identity decisions/checks does not establish complete Metadata validation or create a missing canonical Metadata Element/Profile.
++
++The functional DID README declares identity consumption of Metadata descriptive concepts, while DID-009§§5/10 declares Metadata→Document Identity/no consuming-component dependency. Preserve both actual required-contract claims for owner/core-versus-descriptor/interface reconciliation under ARC-004. Different names or projected values do not prove independence or resolve a genuine required cycle.
++
++---
++
++## 8.2. Classification
++
++Classification governs category meanings. Ordinary Family/Type/Component changes preserve the stable allocated key/series and do not regenerate identity. Actual category/entity/edition effects still need their applicable owner rules and evidence; category-definition keys are not automatically normalized document IDs. Identity governance does not validate the whole Classification component by inspecting labels.
++
++---
++
++## 8.3. Governance Layer
++
++The received heading Governance Layer denotes the Governance structural area: Workflow, Policies, Reviews and Baselines define documentary transition, decision, review and exact-snapshot contracts. It is not a single invented component or an operational process engine.
++
++Actual operation belongs to the applicable DMS/tool/manual executor; CMS governs changes in its scope. Record responsible authority/rules, intended exact subject/edition/context, actual decision/executor and observations. Do not infer user permissions or implemented workflows from an architectural role description.
++
++Identity-domain governance preserves its assigned-key/record requirements while those owners retain document approval/review/publication/lifecycle/process/snapshot responsibilities. Validation, approval, publication, document Status, identity lifecycle, maturity and actual Baseline inclusion are distinct. Logical identity or a local PASS cannot select an exact approved member, approve a Draft successor or retarget an immutable historical snapshot.
++
++---
++
++## 8.4. Registry
++
++Registry governs registration/index records under source/edition provenance, scope and freshness/current-historical-snapshot context. Their values can change while retaining the intended qualified key. Registration alone is not allocation, proof of uniqueness, completed retirement propagation or actual governance approval. Identity definition remains with its semantic owner; no universal Registry intermediary or live resolver is imposed.
++
++---
++
++## 8.5. Relationships
++
++Relationships owns typed connection semantics/records and provenance. Document Identity supplies document endpoint meaning; other endpoint kinds follow their own domains. Governed connection-record evolution does not automatically change assigned identity.
++
++Actual target/canonicalization/exact-edition/context validity and live retrieval need observations. Preserve intended historical interpretation, expose dangling/ambiguous/stale/unavailable references and never silently retarget keys or exact snapshot members. Optional incoming0..N is separate from valid per-reference targeting.
++
++---
++
++## 8.6. Knowledge Graph
++
++Knowledge Graph owns derived graph representation/projection responsibilities under underlying identity/relationship authority. Logical document keys can remain stable while node properties, edges, state descriptions, physical representation and freshness change. A projection creates neither competing identity semantics nor proof of full current consistency.
++
++Actual required consumer→provider use, rule/source interfaces and cycle assessment remain explicit under ARC-004/005. Identity governance neither dictates a universal Registry→Graph→Baseline chain nor certifies a complete globally cycle-free or implemented graph.
++
++---
++
++# 9. Governance Compliance
++
++The six original compliance conditions remain with explicit scope and evidence. They define requirements for an identified claim, not unconditional architectural certification from labels.
++
++| Received compliance condition | Qualified requirement and actual evidence boundary |
++|---|---|
++| Identifier is unique | Full qualified domain/key/canonical interpretation over declared actual population/history, with collision/reservation limits |
++| Identity remains immutable | Assigned same-document key under governing contract, not every mutable state/reference/descriptor record |
++| Canonical representation is preserved | Actual responsible representation/alias and prior/current artifact/context checks; any necessary contract transition separately assessed |
++| References remain valid | Actual typed intended target/edition/context and observed resolution; historical interpretation differs from live retrieval and no perpetual validity is promised |
++| Architectural constraints are satisfied | Identify applicable exact owner clauses, subject/scope, actual observations and unresolved authority/coverage |
++| Validation rules are fulfilled | Actual performed applicable checks and evidence under DID-007 result/coverage semantics; source presence or successful subset is insufficient |
++
++A compliance claim needs exact subject/domain/artifacts/editions/context, responsible rule set, executor/method, performed checks/observations, omissions, evidence/authority limits and actual claim coverage. DID-007§8 separates actual Valid/Invalid/Inconsistent/Unresolvable observations from missing/unexecuted evidence or unresolved owner authority. A partial successful check is not full identity, peer or framework conformity; no automatic approval, publication or Baseline follows.
++
++Mandatory State/Canonical Reference and complete-record/lifecycle/constraint authority in DID-005/006/014 remain actual owner work. Do not waive requirements, invent a merged record or select a conflicting rule merely to claim success. Unambiguous narrower observations may be reported with their limits; the broader claim remains withheld where applicable evidence or authority is unresolved.
++
++---
++
++# 10. Governance Violations
++
++The six original violation subjects remain, now tied to actual governing rule/subject/context and observed evidence. A condition is an actual violation only when the applicable requirement and observed nonconformance are established; suspected problems, missing history or unresolved owner authority are recorded with those limits rather than fabricated into failures or success.
++
++| Received violation subject | Actual violating meaning / legitimate distinction |
++|---|---|
++| Modifying an assigned identity | Unauthorized or nonconforming change of the governed key/same-document association; ordinary mutable support records are not all key modifications, and a necessary contract migration requires prior/new reconciliation before application |
++| Assigning multiple identities to the same document | Competing allocations contrary to the applicable document/domain/canonical contract; exact editions, aliases or representations are not automatically different logical identities |
++| Assigning the same identity to multiple documents | Observed conflicting assignment of a full qualified key to different logical documents in the governed domain; equal numeric suffixes across different series or copies of one document are not alone a violation |
++| Reusing a retired identity | Actual reassignment of a reserved key to a different document; missing records or live content do not establish availability |
++| Creating implementation-specific identity semantics | Changing responsible logical meaning through implementation; legitimate domain-preserving adapters/representations and applicable interface constraints are not automatically violations |
++| Bypassing canonical identity definitions | Actual circumvention of governing responsible rules; common Architecture/Policy and other domain owners remain applicable, and actual peer authority conflicts must be reconciled rather than ignored |
++
++For an observed or suspected issue:
++
++1. Preserve exact original artifacts/records, applicable rules/editions, intended subject/domain/context, observations and coverage; state whether a violation is established or evidence/authority is missing.
++2. Identify responsible semantic owners and actual decision/execution authority for the proposed correction. A review finding, governance label or validation result alone grants no mutation, allocation, operational permission, approval or publication.
++3. Before a necessary normative change or identity/path/representation migration, assess prior/new contract, rationale, affected owners/consumers and actual required dependencies; record compatibility, mappings, reservations/history/aliases/reference and exact-snapshot continuity plus transition checks.
++4. Execute only the separately authorized scoped change with actual contributor/event provenance; preserve historical failed checks and original evidence. No automatic repair or silent target/identity creation is performed by governance evaluation.
++5. Validate the exact changed artifacts/editions in the appropriate subsequent operation and report coverage/remaining conflicts. Do not rewrite an earlier failure or pending event as if it had always passed.
++
++For changed working documents, compatible correction retains Version; compatible additive capability increments minor; incompatible contract change increments major and resets minor to0. Revision increments monotonically for each persisted changed edition, including across Version changes. Validation with unchanged source changes neither coordinate and is recorded centrally under Policy§5. Other entity allocation/lifecycle remains separate. No source ID migration, allocation, actual correction operation or global remediation is executed by this procedure description.
++
++---
++
++# 11. Relationship with Validation
++
++Identity governance supplies its applicable requirements; validation assesses those actual rules against exact evidence. Common framework authority, other semantic owners and exact source editions remain explicit. The specifications are complementary, not a mandatory runtime order or an automatic approval chain.
++
++<!-- original-section-view: 11 -->
++**Previously unnamed view in §11 — Rules, evaluation and result scope.**
++
++| Original chain label | Qualified role / relation | Evidence / decision boundary |
++|---|---|---|
++| Governance | Responsible identity-governance contracts within common architecture and applicable policy | Area/domain meanings and actual authority differ; no invented operational executor |
++| Architectural Rules | Identified owner requirements, subject/domain and exact source editions | Actual applicability and unresolved mandatory peer authority remain visible |
++| Validation | Actual scoped evaluation under responsible rules | Record inputs, checks, observations, executor, coverage and limits; evaluation does not repair or approve |
++| Compliance Verification | Result supported only to its actual evaluated claim/coverage | Missing evidence or conflicting authority cannot be full success; no automatic publication/Baseline/global certification |
++<!-- end-original-section-view -->
++
++Full original/written view text and digests are external UPDATE evidence under the original section; no historical diagram ID is invented. The view neither creates an implemented checker nor changes DID-007's owner-defined result meanings. Writing an evidence report is separate from mutating the assessed key; required remediation follows §10 with its own authority/version/validation evidence.
++
++---
++
++# 12. Relationship with Lifecycle
++
++Lifecycle and governance describe related but distinct responsibilities. Preserve the two original inquiry subjects with their qualified interpretation:
++
++| Original inquiry | Qualified subject and responsible contract |
++|---|---|
++| When does an identity exist? | DID-006 distinguishes pre-allocation subject, evidenced assignment, continued preservation and retirement assertions; an assigned key differs from its record, edition status and mutable supporting facts |
++| How shall that identity be preserved? | Identity governance states stable same-document key, qualification/reservation/history/reference, owner/decision and evidence requirements under actual applicable contracts |
++
++DID-006§7 retains eight selected trace transitions with actual subjects and evidence; it is not a universal permission graph. Unsupported cases need a responsible contract decision/change, not a fabricated event. A file/edition/index deletion or document Status alone does not retire the logical identity. Retirement preserves association/history/reservation and is terminal within that selected table; no reuse or snapshot retargeting is authorized.
++
++DID-005§6 and DID-014§§7–9 retain actual mandatory state/complete-record/lifecycle requirements requiring owner interpretation. This governance source does not remove those claims, approve an accepted universal State enum or complete their cycles by linking them. A real operation must satisfy the applicable responsible contracts; unresolved mandatory conflict cannot be bypassed by local wording.
++
++---
++
++# 13. Architectural Constraints
++
++The six original independence constraints remain with qualified semantic and operational boundaries.
++
++| Received constraint | Qualified requirement / evidence boundary |
++|---|---|
++| Technology independent | Identity meaning is not defined by a platform; applicable logical representation/interface/adapter requirements and actual evidence can still matter |
++| Implementation independent | Domain ownership differs from actual executing systems; no implementation may silently redefine semantics, but legitimate representations are permitted under governing rules |
++| Repository independent | Ordinary moves preserve assigned identity; actual location/index/reference/context changes still need evidence |
++| Storage independent | Storage format does not allocate a new logical key by itself; persistence/representation/provenance requirements remain applicable |
++| Workflow independent | Key meaning is not a workflow status, while responsible process/decision contracts and actual operations can require coordinated evidence |
++| Organisation independent | Conceptual domain contract does not invent an organization's people/permissions; actual authority/executor decisions must still be evidenced for real operations |
++
++No implementation technology is prescribed here. That does not prohibit legitimate logical format/canonicalization/interface constraints or evidence about actual adapters/executors. Independence does not prove implemented interoperability, fully separate required dependencies or universal future outcomes. Record exact rules/artifacts/context, checks, executor, observations, coverage and limits.
++
++---
++
++# 14. Dependencies
++
++The seven original documentary dependencies remain:
++
++- [DF-DID-001 — Document Identity Architecture](../01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md): assigned/qualified domain, preservation, owner and actual governance boundaries.
++- [DF-DID-002 — Document Identity Concepts](../01-Architecture/DF-DID-002%20-%20Document%20Identity%20Concepts.md): documentary/key/reference/descriptor and controlled-evolution meanings.
++- [DF-DID-003 — Document Identity Model](../01-Architecture/DF-DID-003%20-%20Document%20Identity%20Model.md): assigned entities and actual domain/reference/cardinality subjects.
++- [DF-DID-004 — Document Identity Elements](../01-Architecture/DF-DID-004%20-%20Document%20Identity%20Elements.md): stable key, state/reference and semantic/record responsibility limits.
++- [DF-DID-005 — Document Identity Schema](../02-Structure/DF-DID-005%20-%20Document%20Identity%20Schema.md): qualified corpus representation, selected fields/associations, mandatory peer authority and controlled change.
++- [DF-DID-006 — Document Identity Lifecycle](DF-DID-006%20-%20Document%20Identity%20Lifecycle.md): pre-allocation/assignment/preservation/retirement assertions and actual selected-transition/decision scope.
++- [DF-DID-007 — Document Identity Validation](DF-DID-007%20-%20Document%20Identity%20Validation.md): responsible checks, outcome/coverage semantics, evidence access and nonmutating evaluation.
++
++Compare [Relationships](../02-Structure/DF-DID-009%20-%20Document%20Identity%20Relationships.md), [Constraints](../02-Structure/DF-DID-010%20-%20Document%20Identity%20Constraints.md) and [Specification](../04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md) for actual peer responsibilities/mandatory claims without inferring completed approval or integration. The [functional DID README](../README.md) preserves the actual Metadata dependency declaration as comparison evidence, not a normalized identity allocation.
++
++[Layers](../../../01-Architecture/DF-ARC-004-ArchitecturalLayers.md) and [Components](../../../01-Architecture/DF-ARC-005-ArchitecturalComponents.md) define actual required-contract/area/component roles; [Metadata Model](../../Metadata/01-Architecture/DF-MTD-003-MetadataModel.md) supplies selected descriptor/schema/profile/instance responsibilities without proving complete Metadata consistency. Working normalization, identity, edition, cumulative authorship and event evidence follow [Review Policy](../../../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md); actual operations and their exact limits are in [Review Report](../../../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md).
++
++These references are documentary contract sources, not a mandatory executable sequence or a complete globally acyclic graph. No peer/source identity or path is migrated by this UPDATE.
++
++---
++
++# 15. Summary
++
++Identity governance preserves qualified same-document assignment, non-reuse, responsibility boundaries and traceable decisions/evidence under applicable contracts. The original principles, objectives, rules, responsibilities/exclusions, compliance/violation subjects and independence constraints remain with explicit scope.
++
++Governance requirements and actual observations differ from implemented outcomes, operational permission, full peer/global conformity, formal approval, publication and Baseline selection. Actual mandatory field/state/constraint and reciprocal required-contract propagation remains owner work. Exact-source VALIDATE DOCUMENT of this successor is pending.
++
++---
++
++# 16. Edition History and Pending Integration
++
++## 16.1. Received provenance
++
++Received V1.0 R0: Family Documentation, Type Behavior, Component Document Identity, Author Arnaldo Figueira, Status Canonical, Baseline1.0, English; original date absent. These are received declarations, not evidence of actual approval, publication or successor Baseline inclusion. Exact original header, all34 numbered section bodies, lists and two views/text digests remain in external REVIEW/UPDATE evidence.
++
++## 16.2. Working successor and compatibility
++
++| Date | Version | Revision | Contribution | Change / lifecycle |
++|---|---|---|---|---|
++| 2026-10-15 | 2.0 | 1 | Codex — AI assistant; original Arnaldo Figueira contribution retained | Step4.21 UPDATE: incompatible applicability, immutable-record/owner/operational boundaries, reference/compliance/violation and controlled-change correction. Draft; Baseline Not assigned;11 corrections pending VALIDATE DOCUMENT. |
++
++This is not merely a Family correction. Universal dependency/existence assertions, absolute record immutability/independence, blanket reference validity and ownership/operational/compliance/violation interpretations are narrowed or replaced by exact subjects, applicable rules, observed evidence and actual authority/change boundaries. Version1.0→2.0 and Revision0→1 follow Policy§5; Revision remains monotonic across Version changes. ID/path and original headings/responsibility/list subjects remain. Cumulative Author preserves contribution provenance, not approval or authorship of every event/later-product consequence by every listed person.
++
++## 16.3. Pending validation and owner work
++
++Eleven corrections remain Corrected—pending validation. No VALIDATE DOCUMENT has yet examined this exact successor. Prior exact semantic and later attribution-only validations keep their original source bytes, editions and coverage, without silently extending to changed content.
++
++Mandatory State/Canonical Reference, actual lifecycle/constraint authority, reciprocal Metadata/Identity requirements and full owner/consumer/required-graph/implementation propagation remain pending. This source-local correction does not waive peer requirements, approve an integrated complete record or authorize a real operation that lacks applicable authority/evidence. All seven operational exclusions remain in force.
++
++No allocation, identity mutation, actual retirement, migration, runtime governance engine, global conformity, formal approval, publication or Baseline selection is created by this UPDATE. A later local validation would cover the exact examined correction scope, not every peer or future implementation outcome.
++
++---
++
++**End of Document**
+--- before/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ after/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 66 |
++| **Revision** | 67 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -272,6 +272,7 @@
+ | 2026-10-15 | 1.0 | 64 | Step4.20 UPDATE;DID-007 V2.0 R1;11 corrections pending | Compatible report event;section70;source validation not performed |
+ | 2026-10-15 | 1.0 | 65 | Step4.20 exact Validation V2.0 R1 local PASS;11 closures | Compatible report event;section71;source unchanged;no global architectural approval |
+ | 2026-10-15 | 1.0 | 66 | Step4.21 complete Governance REVIEW;9 findings/2 warnings Open | Compatible report event;section72;source unchanged;next UPDATE |
++| 2026-10-15 | 1.0 | 67 | Step4.21 Governance UPDATE;V2.0 R1;11 corrections pending | Compatible report event;section73;source validation not performed |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -5529,3 +5530,43 @@
+ ReportV1.0 R65→R66;CHANGELOG428 REVIEW,429 report,430 Milestone,431 REVIEW integrity checks. Stable89 progress positions,current manifest,all historical exports anddomain bytes preserved. Traceability PASS concerns exact source/inventory/comparison hashes,history/tracking andContext-only packaging,not source VALIDATE DOCUMENT,closure,architectural approval,publication orBaseline selection.
+ 
+ **Pause after REVIEW. CONTINUAR starts4.21 UPDATE DOCUMENT DF-DID-008 — Document Identity Governance,then pauses before VALIDATE DOCUMENT.**
++
++## 73. Step 4.21 — UPDATE DOCUMENT DF-DID-008 — Document Identity Governance
++
++### 73.1. Exact successor and operation
++
++UPDATE complete,2026-10-15. Received V1.0 R0 becomes **V2.0 R1, Draft, Baseline Not assigned**, Family/Component Document Identity, Type Behavior, cumulative Author Arnaldo Figueira; Codex — AI assistant. ID/path retained; received Canonical/Baseline1.0 and absent date preserved as provenance. Output SHA-256 `dfd9af0aa486d8f99f3e2b618695e4d2e1f1af9f854ef4ec5975e2fcafc32457`. No VALIDATE DOCUMENT performed.
++
++Eleven DID008-01–09/W01/W02 records are Corrected—pending validation,not Closed. Section72 preserves REVIEW-time states. All other domain bytes and historical evidence are unchanged; prior exact semantic and later attribution-only results retain their actual scopes.
++
++### 73.2. Corrections and later validation requirements
++
++| Records | Actual source correction | Required subsequent evidence |
++|---|---|---|
++| DID008-01 | Header;1/14/16:component Family,Behavior retained,cumulative Author,received history and working lifecycle | Exact header/history/compatibility and original author preservation |
++| DID008-02 | 1/2/4.3/6.1/9/15:assigned normalized subject,functional exclusions,actual consumer scope,key/file/edition/status/Baseline distinctions | Full applicability/required-contract comparison;no universal dependency/routing orallocation |
++| DID008-03 | 3/4.3–4.4/6.3–6.5/9/10:qualified key/series,population/history/reservations,copy/alias/edition distinctions | Actual domain/assignment/collision/non-reuse and coverage cases;no bare syntax/index global proof |
++| DID008-04 | 4.1–4.2/4.6/6.2/8/10/12–13:stable key versus mutable records,legitimate adapter/interface constraints,prior/new necessary contract continuity | Exact owner/consumer/migration/history/snapshot boundaries;no mutation/reuse/retargeting performed |
++| DID008-05 | 4.5/6.6/8.5–8.6/9:typed document/other endpoints,optional0..N,exact-edition/context and historical/live validity | Target/reference/ownership observations;no perpetual guarantee orsilent repair |
++| DID008-06 | 5/6.7/7/8/11:identity meaning under common rules versus actual descriptor/connection/registration/projection ownership | Actual source/consumer/authority matrix;no sole-source override orhidden required cycle |
++| DID008-07 | 1/5/8.3/11–13:Governance area components versus actual DMS/tool/manual/CMS roles,decisions/evidence and7 operational exclusions | Contract/authority/executor/result cases;no invented permissions orautomatic approval/publication/Baseline |
++| DID008-08 | 3/9/11/15:6 compliance conditions scoped to actual artifacts/rules/checks/coverage;DID-007 outcomes and mandatory peer authority limits | Partial/missing/conflicted/observed evidence cases;no full identity/peer/framework conformance from local PASS |
++| DID008-09 | 5–6/9–12/14–16:6 violation subjects with exact-rule observations,missing-evidence distinction and separately authorized corrective/contract evolution protocol | Violation versus legitimate record/adapter/copy cases;prior/new impact/version/author/history/later validation,not automatic mutation |
++| DID008-W01 | 7/11:two typed ownership/rule/evaluation/result views,all original labels and digests retained | Full received/written view maps,scope/authority/executor/result boundaries,no runtime approval pipeline |
++| DID008-W02 | All34 original headings/15 chapters,7 objectives/6 principles/6 responsibilities+7 exclusions/7 rules/6 interactions/6 compliance6 violation6 constraint subjects/7 dependencies retained | Full body/header/list/view maps and intended-ID/functional references |
++
++### 73.3. Authority,compliance andviolation treatment
++
++Identity meaning stays with Document Identity under applicable common Architecture/Policy and responsible domain rules. That ownership does not acquire descriptors,connections,registrations orprojections. Governance is Workflow/Policies/Reviews/Baselines contracts,not an operational engine;actual DMS/tool/manual executor andCMS change scope are separate. Seven original operational exclusions remain intact. No person,organizational role orpermission is inferred from documentary authorship,custody orarchitectural registration.
++
++Compliance needs actual exact subject/domain/artifacts/edition/context,rules,executor,checks,observations,coverage andlimits under DID-007. Missing evidence,unexecuted checks andunresolved mandatory State/Canonical Reference/lifecycle/constraint authority do not become unconditional success orfabricated violations. Narrower unambiguous observations retain their limits without waiving peer requirements.
++
++The6 original violation subjects now identify actual nonconforming key/assignment/reuse/semantic circumvention under aresponsible rule,distinct from mutable records,valid aliases/copies/editions andlegitimate representation adapters. Preserve original evidence andactual failed checks. Correction is a separately authorized scoped change with owner/consumer/required-dependency impact,prior/new rationale,mappings/reservation/history/reference/exact-snapshot continuity,compatibility/version/Revision andlater exact-source validation. No automatic repair,allocation,migration orapproval is implied.
++
++The source change is incompatible in applicability,record/owner/operational boundaries,reference/compliance/violation andcontrolled-change meaning,not merely Family relabelling:Version1.0→2.0,Revision0→1 under Policy5. Exact34 original body/header maps,original/written list/view andauthority protocol plus complete source/central diff are attached. Source identity/path andall prior domain/evidence bytes retained;no peer modification orreal operation performed.
++
++### 73.4. Tracking andpause
++
++ReportV1.0 R66→R67;CHANGELOG432 source UPDATE,433 report,434 Milestone. Totals19 global Open,11 Corrected—pending validation,199 Closed—verified,INV-02 Not applicable. M12 seven C/one S/56 O In Progress;DID-008 start2026-10-15,no completion. Progress/manifest synchronized. Construction checks cover heading/map/link existence,preservation andpackaging only,not VALIDATE DOCUMENT orclosure. Draft/unassigned;no global architectural approval,publication orBaseline membership.
++
++**Pause after UPDATE. CONTINUAR starts4.21 VALIDATE DOCUMENT DF-DID-008,then pauses before4.22 REVIEW.**
+--- before/CHANGELOG.md
++++ after/CHANGELOG.md
+@@ -58,6 +58,9 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 434 | 2026-10-15 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Correction | M12 DID-008 remains S;seven C/one S/56 O In Progress;V2.0 R1 UPDATE,11 pending validation;7 operational exclusions preserved;no completion/approval. |
++| 433 | 2026-10-15 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Correction | V1.0 R66→R67 Draft/unassigned;section73 actual Governance authority/evidence/compliance/violation/change protocol andmaps;19 Open/11 pending/199 Closed/INV-02;next VALIDATE DOCUMENT. |
++| 432 | 2026-10-15 | Codex — AI assistant | Updated | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md | Correction | Step4.21 V1.0 R0→V2.0 R1 Draft/unassigned;Family/Component Document Identity,Type Behavior,cumulative Author;qualified identity/ownership/operational boundaries,6 compliance6 violation subjects andcontrolled change corrected;11 pending;SHA-256 dfd9af0aa486d8f99f3e2b618695e4d2e1f1af9f854ef4ec5975e2fcafc32457;full map/diff;no source validation/approval/Baseline. |
+ | 431 | 2026-10-15 | Codex — AI assistant | Validated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | Step4.21 REVIEW traceability PASS only;exact source/peer hashes,15 chapters/7 rules/6 compliance6 violation subjects/2 views,89 rows,sequence1–431/history preserved;no source validation/closure;review4-21 evidence/checks. |
+ | 430 | 2026-10-15 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Repository | M12 DID-008 O→S,start2026-10-15;seven C/one S/56 O In Progress;no completion/approval. |
+ | 429 | 2026-10-15 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Repository | V1.0 R65→R66 Draft/unassigned;section72 Governance applicability/authority/decision/evidence/compliance/violation review;30 Open/199 Closed/INV-02;next UPDATE. |
+--- before/ArchitecturalMilestones.md
++++ after/ArchitecturalMilestones.md
+@@ -667,3 +667,5 @@
+ Step4.20 VALIDATE (2026-10-15): exact unchanged DID-007 V2.0 R1 local correction PASS;11 records Closed—verified;4 outcome labels/scoped evidence meanings andcumulative Author retained. DID-007 completion2026-10-15;seven C/57 O M12 In Progress. ReportR65 section71;CHANGELOG425–427. Draft/unassigned;mandatory owner/field/state/required-graph/implementation integration pending,no global approval/Baseline. Next4.21 REVIEW DF-DID-008.
+ 
+ Step4.21 REVIEW (2026-10-15): exact unchanged DID-008 V1.0 R0 Canonical/Baseline1.0,Author Arnaldo Figueira;9 findings/2 warnings Open. Seven C/one S/56 O M12 In Progress;DID-008 start2026-10-15,no completion. ReportR66 section72;CHANGELOG428–431;UPDATE/VALIDATE pending;prior local results retained,no global approval/Baseline.
++
++Step4.21 UPDATE (2026-10-15): DID-008 V2.0 R1 Draft/unassigned,Family/Component Document Identity,Type Behavior,cumulative Author Arnaldo Figueira; Codex — AI assistant. 11 corrections pending VALIDATE;original responsibilities/7 exclusions,6 compliance/6 violation subjects retained with authority/evidence/change boundaries. Seven C/one S/56 O M12 In Progress;no completion. ReportR67 section73;CHANGELOG432–434;no operational mutation/global approval/Baseline.
+--- before/03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv
++++ after/03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv
+@@ -1,90 +1,90 @@
+-Step,Path,Document ID,Title,Input edition,Current edition,REVIEW,UPDATE,VALIDATE,Findings,CHANGELOG,Milestone,Dependencies
+-4.01,00-Foundation/DF-FND-004-ArchitecturalBlueprint.md,DF-FND-004,Architectural Blueprint,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=74a254092deebeb00151d6044b5e023b6cdcc2444de6e3c5082897d42ad35446,Version=2.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Architecture; SHA-256=941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6,4.01: Full REVIEW completed with nine findings and two warnings,4.01 UPDATE complete; incompatible convention change; V2.0 R1,4.01 PASS—local correction scope; exact V2.0 R1 hash unchanged,Eleven FND004 records Closed—verified; related earlier cross-source findings remain Open,207 REVIEW; 211 UPDATE; report/tracking 212-213; 214,"M10: Completed document cycle; milestone In Progress (1 C, 5 O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.02,00-Foundation/DF-FND-001-FrameworkManifest.md,DF-FND-001,Framework Manifest,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=ba259eb305048893eabbd720271a9f5e8d14ceb6f138b441827089665128883b,Version=2.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Architecture; SHA-256=6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96,4.02 Full REVIEW complete; six findings and one warning Open,4.02 UPDATE complete; V2.0 R1 incompatible convention successor,4.02 PASS—local Manifest correction scope; exact source hash unchanged,Seven FND001 records Closed—verified; earlier cross-source findings retain prior scope/states,202: thematic consolidation; individual cycle pending; 217; 221; 224,"M10: Completed Manifest cycle; milestone In Progress (two C, four O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.03,00-Foundation/DF-FND-006-DesignRationale.md,DF-FND-006,Design Rationale,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=6e911db07e6eba28222fb1f020b472c940543ed0ce873ca6c3945eaa69bbb66d,Version=2.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Architecture; SHA-256=0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6,4.03 Full REVIEW complete; seven findings and two warnings Open,4.03 UPDATE complete; V2.0 R1 incompatible architectural-contract interpretation,4.03 PASS—local Design Rationale correction scope; exact source hash unchanged,Nine FND006 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 227; 231; 234,"M10: Completed Design Rationale cycle; milestone In Progress (three C, three O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.04,00-Foundation/DF-FND-005-FrameworkEvolution.md,DF-FND-005,Framework Evolution,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=0159036f4593633260414dcf0a98870895f9db177cada8cf4555c82f03fd8874,Version=1.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Reference; SHA-256=8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04,4.04 Full REVIEW complete; seven findings and two warnings Open,4.04 UPDATE complete; V1.0 R1 compatible historical-reference clarification,4.04 PASS—local Framework Evolution correction scope; exact source hash unchanged,Nine FND006 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 237; 241; 244,"M10: Completed Framework Evolution cycle; milestone In Progress (four C, two O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.05,00-Foundation/DF-FND-002-ResearchJournal.md,DF-FND-002,Research Journal,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=53fad4f5847ead6e54fc2a4e46947cf8b1b48a123d548fa96d8347cdbc891831,Version=1.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Reference; SHA-256=018b81c60884dfb13eda73083c134f4c1bfab4248184795f479ca1fd8ac851f6,4.05 Full REVIEW complete; eight findings and two warnings Open,4.05 UPDATE complete; V1.0 R1 compatible historical-reference clarification,4.05 PASS—local Research Journal correction scope; exact source hash unchanged,Ten FND002 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 247; 251; 254,"M10: Completed Research Journal cycle; milestone In Progress (five C, one O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.06,00-Foundation/DF-FND-003-EvolutionTimeline.md,DF-FND-003,Evolution Timeline,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=69b6c3cc258d5e1f4a1682787193698b9ae111b0ccdfc179f86f1821d44bc211,Version=1.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Reference; SHA-256=2488360bc2fc498e9dcb46536a0af8b9056beb662f25a6013ad01ef1ac77ffb3,4.06 Full REVIEW complete; nine findings and two warnings Open,4.06 UPDATE complete; V1.0 R1 historical-reference clarification/continuity with provenance,4.06 PASS—local Evolution Timeline scope; exact source hash unchanged,Eleven FND003 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 257; 261; 264,M10: Completed six Foundation documentary cycles; no integrated conformity,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.07,01-Architecture/DF-ARC-003-ArchitecturalConcepts.md,DF-ARC-003,Architectural Concepts,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=cc0f76249a5b21025ae502169b9026f36b87370053119a36e921554ffe16fa4d,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant (working-edition contribution);SHA-256=45b44852117b1822e43725a9ea83d6ff74fb9eedf82e8c37a5246b7647aaceae,4.07 Full REVIEW complete; eight findings/two warnings Open,4.07 UPDATE complete; V2.0 R1 incompatible normative contract reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.07 PASS—local Concepts correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC003 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 267; 271; 274; 366; 372,"M11: Completed Concepts cycle; milestone In Progress (one C,six O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.08,01-Architecture/DF-ARC-004-ArchitecturalLayers.md,DF-ARC-004,Architectural Layers,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=bbab37b76ea23f609a560bdd88c982091a5dd4d903d9b81679293aefdd66d6b5,4.08 Full REVIEW complete; eight findings/two warnings Open,4.08 UPDATE complete; V2.0 R1 incompatible scoped structural contract reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.08 PASS—local Layers correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC004 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 277; 281; 284; 367; 372,"M11: Completed Layers cycle; milestone In Progress (two C,five O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.09,01-Architecture/DF-ARC-005-ArchitecturalComponents.md,DF-ARC-005,Architectural Components,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=0329a1ad17f95108fe9ef770e5e1de779efd1f0f8fce18cab0f28fecfcca4a6b,4.09 Full REVIEW complete; eight findings/two warnings Open,4.09 UPDATE complete; V2.0 R1 incompatible scoped component contract reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.09 PASS—local Components correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC005 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 287; 291; 294; 368; 372,"M11: Completed Components cycle; milestone In Progress (three C,four O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.10,01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md,DF-ARC-007,Component Documentation Structure,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e0840a725ed0214e37d78be25d664615c4c43fea4e535334dfe47e55d20d5481,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=0fdc12e1d096c61152a2eeef175b2bd61b23970a6842f0d9e680780538e9aea5,4.10 Full REVIEW complete; eight findings/two warnings Open,4.10 UPDATE complete; V2.0 R1 incompatible organization/authority/conformance reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.10 PASS—local Component Documentation Structure correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC007 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 297; 301; 304; 370; 372,"M11: Completed Component Documentation Structure cycle; milestone In Progress (four C,three O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.11,01-Architecture/DF-ARC-006-Terminology.md,DF-ARC-006,Terminology,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=4e1ea6246a94657b704f37ff32dd6454aeddd5a8ac32a3ae526f35e648b9adad,4.11 Full REVIEW complete; eight findings/two warnings Open,4.11 UPDATE complete; V2.0 R1 incompatible owner/edition/relationship/naming reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.11 PASS—local Terminology correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC006 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 307; 311; 314; 369; 372,"M11: Completed Terminology cycle; milestone In Progress (five C,two O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.12,01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md,DF-ARC-002,Architectural Principles,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=3993411c226cccd1b67059c97b09ef39646afc8021d9b55470ddbc6c737bfe16,4.12 Full REVIEW complete;eight findings/two warnings Open,4.12 UPDATE complete;V2.0 R1 incompatible primary-owner/layer/edition/foundational evolution reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.12 PASS—local Architectural Principles correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC002 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 317; 321; 324; 365; 372,"M11: Completed Architectural Principles cycle; milestone In Progress (six C,one O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.13,01-Architecture/DF-ARC-001-ArchitectureOverview.md,DF-ARC-001,Architecture Overview,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=4fa7955fb70a9eb295384425d6fd18ae1cd3bbb03892888f021dad9fb1659697,4.13 Full REVIEW complete; eight findings/two warnings Open,4.13 UPDATE complete;V2.0 R1 incompatible scoped-contract/evolution/executor/evidence reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.13 PASS—local Architecture Overview correction scope;exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC001 records Closed—verified;earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 327; 331; 334; 364; 372,"M11:Completed Overview cycle;seven scoped Architecture cycles Completed2026-10-14;attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.14,02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md,DF-DID-001,Document Identity Architecture,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Family=Document Identity;Component=Document Identity;Type=Architecture;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=f36e91e5a2255d5807b68bedd180f4c4d33d90c2b849e42a462815b11af6d21c,4.14 full REVIEW complete;eight findings/two warnings Open,4.14 UPDATE complete;V2.0 R1 incompatible normalized/domain/contract/executor/reference/evidence reconciliation;authorship-only R2 amendment2026-10-14,4.14 PASS—local Document Identity Architecture correction scope;exact source hash unchanged (historical V2.0 R1);R2 authorship/header/history delta checks PASS only;not full successor semantic validation,Ten DID001 records Closed—verified;REV2-09/peer/global states retain pending scope,202: thematic consolidation; individual cycle pending; 337; 341; 344; 358; 360,"M12:Completed historical R1 cycle;R2 authorship delta verified;milestone In Progress(two C,62 O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.15,02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md,DF-DID-002,Document Identity Concepts,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Family=Document Identity;Component=Document Identity;Type=Architecture;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=6b3adf13bfe20d4f6b360368f1b587f8da09fa4d36b880d5d20eb67f451f1d52,4.15 full REVIEW complete;eight findings/two warnings Open,4.15 UPDATE complete;V2.0 R1 incompatible normalized/domain/lifetime/reference/Metadata/scope/evidence reconciliation;authorship-only R2 amendment2026-10-14,4.15 PASS—local Document Identity Concepts correction scope;exact source hash unchanged (historical V2.0 R1);R2 authorship/header/history delta checks PASS only;not full successor semantic validation,Ten DID002 records Closed—verified;REV2-09/peer/global states retain pending scope,202: thematic consolidation; individual cycle pending; 347; 351; 354; 359; 360,"M12:Completed historical R1 cycle;R2 authorship delta verified;milestone In Progress(two C,62 O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.16,02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md,DF-DID-003,Document Identity Model,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=79cd7dcc42cfd9f4c009787353a891f98253f0d01d73d8c9872e50cc614e180e,Version=2.0;Revision=1;Draft;Baseline=Not assigned;Language=English;Family=Document Identity;Component=Document Identity;Type=Architecture;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=be7ddc3e783aa3ece4216de50662794e65b0133b431422a343846b404ef897cb,4.16 full REVIEW complete;eight findings/two warnings Open,4.16 UPDATE complete;V2.0 R1 incompatible qualified model/cardinality/owner/lifecycle/evidence reconciliation,4.16 PASS—local Document Identity Model correction scope;exact source hash unchanged,Ten DID003 records Closed—verified;REV2-09/peer/global states retain pending scope,375–378 REVIEW;379–381 UPDATE;382–384 VALIDATE;385–387 later recovery reconciliation (ReportR53 section59),"M12:Completed DID-003 cycle;milestone In Progress(three C,61 O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents; temporary Author indicator is not a maintained deliverable; historical evidence mappings retained with explicit recovery clarification
+-4.17,02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md,DF-DID-004,Document Identity Elements,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f,V2.0 R1 Draft;Baseline Not assigned;Family/Component Document Identity;Type Architecture;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=cd4d74795f3c8c5918db318fe6409102aa46cec2a30113059ebf8df8dd79763d,Repeated full REVIEW after recovery;8 findings/2 warnings Open;reportR54 section60,Complete;incompatible conceptual scope/state/reference/ownership/guarantee correction;reportR55 section61,PASS—local correction scope;exact V2.0 R1 SHA-256 cd4d74795f3c8c5918db318fe6409102aa46cec2a30113059ebf8df8dd79763d unchanged;reportR56 section62,10 DID004 records Closed—verified;global19 Open unchanged;peer propagation pending,388–391 REVIEW;392–394 UPDATE;395–397 VALIDATE,"M12 four C/60 O In Progress;DID-004 C,completion2026-10-14;local scope only",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.18,02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md,DF-DID-005,Document Identity Schema,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc,V2.0 R1 Draft;Baseline Not assigned;Family/Component Document Identity;Type Structure;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=06848d5545855826bf92bb215bb074276841b3da074cf0588115121e9c21ae18,Complete full REVIEW;8 findings/2 warnings Open;reportR57 section63,Complete;incompatible subject/domain/record/ownership/evolution correction;reportR58 section64;1/1/0..N retained,PASS—local Schema correction scope;exact unchanged V2.0 R1 SHA-256 06848d5545855826bf92bb215bb074276841b3da074cf0588115121e9c21ae18;reportR59 section65,10 DID005 records Closed—verified;global19 Open unchanged;peer mandatory fields/state/extension integration pending,398–401 REVIEW;402–404 UPDATE;405–407 VALIDATE,"M12 five C/59 O In Progress;DID-005 C,completion2026-10-15;local scope only",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.19,02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md,DF-DID-006,Document Identity Lifecycle,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024,V2.0 R1 Draft;Baseline Not assigned;Family/Component Document Identity;Type Behavior;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=db437de4d515b120ab7a6a7b096d686fbcb11d0ec73e40d185e12987a9d13217,Complete full REVIEW;9 findings/2 warnings Open;reportR60 section66,Complete;incompatible lifecycle subject/transition/status/ownership/guarantee correction;reportR61 section67;original8 triples retained,PASS—local Lifecycle correction scope;exact unchanged V2.0 R1 SHA-256 db437de4d515b120ab7a6a7b096d686fbcb11d0ec73e40d185e12987a9d13217;reportR62 section68,11 DID006 records Closed—verified;19 global Open unchanged;state/record/permission/required-scope integration pending,408–411 REVIEW;412–414 UPDATE;415–417 VALIDATE,"M12 six C/58 O In Progress;DID-006 C,completion2026-10-15;local scope only",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.20,02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md,DF-DID-007,Document Identity Validation,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=4310e5f480844f017136329ba63befea90431ec8efd5cc53085f71ae164b7fe2,V2.0 R1 Draft;Baseline Not assigned;Family/Component Document Identity;Type Behavior;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=dfe21ab2b6ce759bfa8629b40f49c82a2da1246eac443568ee127fc8ee860614,Complete full REVIEW;9 findings/2 warnings Open;reportR63 section69,Complete;incompatible applicability/evidence/record-reference/outcome authority correction;reportR64 section70,PASS—local Validation contract correction scope;exact unchanged V2.0 R1 SHA-256 dfe21ab2b6ce759bfa8629b40f49c82a2da1246eac443568ee127fc8ee860614;reportR65 section71,11 DID007 records Closed—verified;19 global Open unchanged;mandatory owner/record/state/required-graph integration pending,418–421 REVIEW;422–424 UPDATE;425–427 VALIDATE,"M12 seven C/57 O In Progress;DID-007 C,completion2026-10-15;local scope only",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.21,02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md,DF-DID-008,Document Identity Governance,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=02e2ae1cb164756db35f243e2e76f880a39523eae73f3b12661f4837030c7497,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=02e2ae1cb164756db35f243e2e76f880a39523eae73f3b12661f4837030c7497,Complete full REVIEW;9 findings/2 warnings Open;reportR66 section72,Not performed;next operation,Not performed,DID008-01–09 and DID008-W01/W02 Open;global19 Open unchanged,428 REVIEW;429 report;430 Milestone;431 review integrity checks,"M12 seven C/one S/56 O In Progress;DID-008 S,start2026-10-15;no completion",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.22,02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md,DF-DID-009,Document Identity Relationships,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.23,02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md,DF-DID-010,Document Identity Constraints,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.24,02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md,DF-DID-011,Document Identity Extensibility,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=3c3112e3f5dbb37dd93b31f8c3af33037a48fd2db9d53ac0fd4a1fb6cfea69d3,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=3c3112e3f5dbb37dd93b31f8c3af33037a48fd2db9d53ac0fd4a1fb6cfea69d3,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.25,02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md,DF-DID-012,Document Identity Best Practices,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=692230e6c874ddd97e8215334534b61c12b487e7e2a9ea85b9ac506513cd8c8e,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=692230e6c874ddd97e8215334534b61c12b487e7e2a9ea85b9ac506513cd8c8e,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.26,02-Documentation/DocumentIdentity/04-Reference/DF-DID-013 - Document Identity Dictionary.md,DF-DID-013,Document Identity Dictionary,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=030354bc9d3c57fbe84bd576ecbd6e4e3e2f1b0c5bbea2e9a0ef8b5ecee30c61,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=030354bc9d3c57fbe84bd576ecbd6e4e3e2f1b0c5bbea2e9a0ef8b5ecee30c61,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.27,02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md,DF-DID-014,Document Identity Specification,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-09; REV2-10; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.28,02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md,DF-DID-015,Document Identity Examples,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=30d79dc17cbda645f4c2ab5541b7fcab8aef068e995e85321239329b1e6511c0,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=30d79dc17cbda645f4c2ab5541b7fcab8aef068e995e85321239329b1e6511c0,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.29,02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md,DF-CLS-001,Classification Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=75b689426bec5e349f555ab41855732c1c689898a49563aa4bdf44ef7d4014e9,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=75b689426bec5e349f555ab41855732c1c689898a49563aa4bdf44ef7d4014e9,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,INV-01; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.30,02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md,DF-CLS-002,Classification Concepts,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.31,02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md,DF-CLS-001,Classification Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,INV-01; REV2-05; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.32,02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md,DF-CLS-004,Classification Elements,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=b83d95cae80262ce0cf72b42cd0f7a2b64f16ebab9c4bfcbca5fa65bf66f2215,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=b83d95cae80262ce0cf72b42cd0f7a2b64f16ebab9c4bfcbca5fa65bf66f2215,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.33,02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md,DF-CLS-005,Classification Schema,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=949674b939519664145cd57b4186ff5f1edfbbd5be268d015858bebcc0977b6f,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=949674b939519664145cd57b4186ff5f1edfbbd5be268d015858bebcc0977b6f,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.34,02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md,DF-CLS-006,Classification Lifecycle,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.35,02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md,DF-CLS-007,Classification Validation,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=9d2fe8a503c37d12143420e76205b44e4d031812516c3c30d151e3b3e8c288cb,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=9d2fe8a503c37d12143420e76205b44e4d031812516c3c30d151e3b3e8c288cb,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.36,02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md,DF-CLS-008,Classification Governance,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=5317d1a596490ad0bb7a976b0f9504324adcc10131b27e969b141bd392a84a26,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=5317d1a596490ad0bb7a976b0f9504324adcc10131b27e969b141bd392a84a26,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.37,02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md,DF-CLS-009,Classification Relationships,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=55f14b44a3977856568a1d5bf4d391987a5ce923fa2e464e8eb59bfa04e88d7b,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=55f14b44a3977856568a1d5bf4d391987a5ce923fa2e464e8eb59bfa04e88d7b,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.38,02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md,DF-CLS-010,Classification Constraints,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=3575675cef6d6f990161bc6d04365779b8c60094bc38bf809d767ef9fe6834e0,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=3575675cef6d6f990161bc6d04365779b8c60094bc38bf809d767ef9fe6834e0,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.39,02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md,DF-CLS-011,Classification Extensibility,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e9634c8977c8c4dfddb5f1f04bb0c62c5df180794fea46471c14a8e524aa4a95,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e9634c8977c8c4dfddb5f1f04bb0c62c5df180794fea46471c14a8e524aa4a95,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.40,02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md,DF-CLS-012,Classification Best Practices,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=4b7ae1b3ee972963d73534be64818b4b462079d708fbf2c37bfab3346248904c,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=4b7ae1b3ee972963d73534be64818b4b462079d708fbf2c37bfab3346248904c,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.41,02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md,DF-CLS-013,Classification Dictionary,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=a1ca8359af0f52b9723d418798ace0abc352233e76afd81597d181bf22f823f5,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=a1ca8359af0f52b9723d418798ace0abc352233e76afd81597d181bf22f823f5,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.42,02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md,DF-CLS-014,Classification Specification,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.43,02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md,DF-CLS-015,Classification Examples,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=204db601fc644f2fb799905beb8e03676ecf258a9a7dad7a4f509be0cf6e0603,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=204db601fc644f2fb799905beb8e03676ecf258a9a7dad7a4f509be0cf6e0603,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.44,02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md,DF-MTD-001,Metadata Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-02; REV2-08; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.45,02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md,DF-MTD-002,Metadata Concepts,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=1abf7b1d0c2b80b14bff6d49c902f9ba8f951889daf833522e33e2e08fe5e19c,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=1abf7b1d0c2b80b14bff6d49c902f9ba8f951889daf833522e33e2e08fe5e19c,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-08; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.46,02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md,DF-MTD-003,Metadata Model,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.47,02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md,DF-MTD-004,Metadata Elements,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=60dc7aa35153410b7bfacb774163d62959c3c830b6fa15948a82f913c0657568,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=60dc7aa35153410b7bfacb774163d62959c3c830b6fa15948a82f913c0657568,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.48,02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md,DF-MTD-005,Metadata Schema,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=1ed13b4f94564703e5b5af1268941e21a329cfc62b9c67e3f69cc63b8c2fa302,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=1ed13b4f94564703e5b5af1268941e21a329cfc62b9c67e3f69cc63b8c2fa302,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; REV2-07; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.49,02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md,DF-MTD-006,Metadata Lifecycle,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=ddb15d2cbffe7ec2d4c0f9903226f65f98d3a63f82afa3864433173e5cc86acc,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=ddb15d2cbffe7ec2d4c0f9903226f65f98d3a63f82afa3864433173e5cc86acc,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.50,02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md,DF-MTD-007,Metadata Validation,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=163c13b58acba33353e66d472649759ced513f6742d9231d3e60d7562ec632aa,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=163c13b58acba33353e66d472649759ced513f6742d9231d3e60d7562ec632aa,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.51,02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md,DF-MTD-008,Metadata Governance,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=69112d8cce7fb5bb511c9d548bf64ab0e2a97c3b9bfd667d5225ccf626569c8d,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=69112d8cce7fb5bb511c9d548bf64ab0e2a97c3b9bfd667d5225ccf626569c8d,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.52,02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md,DF-MTD-009,Metadata Relationships,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=ed847e8f5e9026159ac119432c9b77cbaf6f790cd771296b99809a96759a74dc,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=ed847e8f5e9026159ac119432c9b77cbaf6f790cd771296b99809a96759a74dc,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.53,02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md,DF-MTD-010,Metadata Constraints,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=466cc09d475f690779ea0f929dcafea150e643f9d2a622e47d87f519426142fa,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=466cc09d475f690779ea0f929dcafea150e643f9d2a622e47d87f519426142fa,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.54,02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md,DF-MTD-011,Metadata Extensibility,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=044fc204c8b877e705902d3a7fbfe7c2bd5b40fa18aa32ea6602f38131e7ab26,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=044fc204c8b877e705902d3a7fbfe7c2bd5b40fa18aa32ea6602f38131e7ab26,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.55,02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md,DF-MTD-012,Metadata Best Practices,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=324fd72a22bf6417d1f0a05f43ff1d01f7666c6f61916acf96c7730159935f61,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=324fd72a22bf6417d1f0a05f43ff1d01f7666c6f61916acf96c7730159935f61,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.56,02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md,DF-MTD-013,Metadata Dictionary,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; REV2-07; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.57,02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md,DF-MTD-014,Metadata Specification,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; REV2-07; REV2-11; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.58,02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md,DF-MTD-015,Metadata Examples,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=9de2984688ff67469ee6b0761aa445d0cc23b7075738e11277ece2462f24a7c8,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=9de2984688ff67469ee6b0761aa445d0cc23b7075738e11277ece2462f24a7c8,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.59,02-Documentation/Templates/01-Architecture/DF-TPL-001-TemplatesArchitecture.md,DF-TPL-001,Templates Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=d7408ff1c43e04d57c4a794b06594f7e68dd759b445c45637adb3c4f7d7cc756,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=d7408ff1c43e04d57c4a794b06594f7e68dd759b445c45637adb3c4f7d7cc756,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.60,02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md,DF-TPL-002,Template Concepts,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.61,02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md,DF-TPL-003,Template Model,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=80a57e07e0494b19c849a10f8421108ed935698da2bf11373da4d02addb11087,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=80a57e07e0494b19c849a10f8421108ed935698da2bf11373da4d02addb11087,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.62,02-Documentation/Templates/02-Structure/DF-TPL-004-TemplateElements.md,DF-TPL-004,Template Elements,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=79d6ed961b26ec03c7076a4cb6306f5beb6a56c89af7b4981c214482f00495e5,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=79d6ed961b26ec03c7076a4cb6306f5beb6a56c89af7b4981c214482f00495e5,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.63,02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md,DF-TPL-005,Template Schema,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=bb711768b70f6724e6bc00e8e63eaf9310830f98115a91715a231ea6e770598a,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=bb711768b70f6724e6bc00e8e63eaf9310830f98115a91715a231ea6e770598a,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.64,02-Documentation/Templates/03-Behavior/DF-TPL-006-TemplatesLifecycle.md,DF-TPL-006,Template Lifecycle,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=581c43203ca39b6c9438fa4b8ad0f9b1de5e7ae4683b7af8cc0e538824fe610b,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=581c43203ca39b6c9438fa4b8ad0f9b1de5e7ae4683b7af8cc0e538824fe610b,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.65,02-Documentation/Templates/03-Behavior/DF-TPL-007-TemplatesValidation.md,DF-TPL-007,Template Validation,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e2e38a950e4cc7de513190bb63a8ea6f9a95db2073ee8e0fa59b11851767afa6,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e2e38a950e4cc7de513190bb63a8ea6f9a95db2073ee8e0fa59b11851767afa6,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.66,02-Documentation/Templates/03-Behavior/DF-TPL-008-TemplatesGovernance.md,DF-TPL-008,Template Governance,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=d6b69ae73b5ba54e94c465ee485bca91b6874bcc0151773bed5635f1826a3f9b,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=d6b69ae73b5ba54e94c465ee485bca91b6874bcc0151773bed5635f1826a3f9b,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.67,02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md,DF-TPL-009,Template Relationships,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=b10b6174f5240b4f46157ba8bd9882035179ba862215ab6fdbbcee584669f1cf,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=b10b6174f5240b4f46157ba8bd9882035179ba862215ab6fdbbcee584669f1cf,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.68,02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md,DF-TPL-010,Template Constraints,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=965a1eb1756a1a8e685af9f978558dd055f28b8ebb4e4080f2737ead42d30e12,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=965a1eb1756a1a8e685af9f978558dd055f28b8ebb4e4080f2737ead42d30e12,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.69,02-Documentation/Templates/03-Behavior/DF-TPL-011-TemplatesExtensibility.md,DF-TPL-011,Template Extensibility,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=15607054122758cd163757836cf551779877aa90c7565d20f47220a406279b78,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=15607054122758cd163757836cf551779877aa90c7565d20f47220a406279b78,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.70,02-Documentation/Templates/04-Reference/DF-TPL-012-TemplatesBestPractices.md,DF-TPL-012,Template Best Practices,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=de45215261de1e4f6feffc727bbf0f38be2582f5cde2cb892a936112db65ce51,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=de45215261de1e4f6feffc727bbf0f38be2582f5cde2cb892a936112db65ce51,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.71,02-Documentation/Templates/04-Reference/DF-TPL-013-TemplatesDictionary.md,DF-TPL-013,Template Dictionary,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=4f039c17f2818bcfab51009cae38d31053e0e779ebc353d9722307e8b0d2901d,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=4f039c17f2818bcfab51009cae38d31053e0e779ebc353d9722307e8b0d2901d,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.72,02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md,DF-TPL-014,Template Specification,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.73,02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md,DF-TPL-015,Template Examples,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=c2713cf5f89d62527299f81e2bb32a6871b5a59c00016604e823551d0735255b,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=c2713cf5f89d62527299f81e2bb32a6871b5a59c00016604e823551d0735255b,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.74,02-Documentation/Classification/README.md,Absent (non-normalized),Classification Component,Non-normalized; input SHA-256=452c9910cdb26654cf475c21f6c4b3bf13f624d1c4b3bfd88538d818a1474c18,Non-normalized; SHA-256=452c9910cdb26654cf475c21f6c4b3bf13f624d1c4b3bfd88538d818a1474c18,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M12,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
+-4.75,02-Documentation/DocumentIdentity/README.md,Absent (non-normalized),Document Identity Component,Non-normalized; input SHA-256=2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7,Non-normalized; SHA-256=2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M12,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
+-4.76,02-Documentation/Metadata/README.md,Absent (non-normalized),Metadata Component,Non-normalized; input SHA-256=0a2091d1de0b64e1f470dd30479b6c50202748311a4ac2a6d472d40258b93d72,Non-normalized; SHA-256=0a2091d1de0b64e1f470dd30479b6c50202748311a4ac2a6d472d40258b93d72,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M12,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
+-4.77,02-Documentation/Templates/README.md,Absent (non-normalized),Templates Componnet,Non-normalized; input SHA-256=cf4866ed4e449d8542ecd5f11d19c21ffdd91b6a3d4f807dce55da59cd7b693a,Non-normalized; SHA-256=cf4866ed4e449d8542ecd5f11d19c21ffdd91b6a3d4f807dce55da59cd7b693a,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M12,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
+-4.78,ArchitecturalMilestones.md,Absent (non-normalized),Architectural Milestones,Non-normalized; input SHA-256=9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb,Non-normalized;SHA-256=184ef7c9bfbce0b64d549115b425c28e50d723fb6eefab6a810ef4ca80557846,Formats/history reviewed; individual historical findings remain Open,Central tracking through Step4.16 VALIDATE,History and new tracking checked; no closure of historical content findings,INV-02 Not applicable—scope decision,198; 201; 204; 205; 206; 207-210; 211-213; 214-216; 217-220; 221-223; 224-226; 227-230; 231-233; 234-236; 237-240; 241-243; 244-246; 247-250; 251-253; 254-256; 257-260; 261-263; 264-266; 267-270; 271-273; 274-276; 277-280; 281-283; 284-286; 287-290; 291-293; 294-296; 297-300; 301-303; 304-306; 307-310; 311-313; 314-316; 317-320; 321-323; 324-326; 327-330; 331-333; 334-336; 337-340; 341-343; 344-346; 347-350; 351-353; 354-356; 357-363; 364-374; 375-378; 379-382; 383-386,M9; M13 (historical corrections pending),Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
+-4.79,CHANGELOG.md,Absent (non-normalized),Changelog,Non-normalized; input SHA-256=ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b,Non-normalized;SHA-256=d5a342d0f3e4675563a49c37f6bcdd204ab3ed1c4bf82a0be0a1e8bfac257ee0,Formats/history reviewed; individual historical findings remain Open,Central tracking through Step4.16 VALIDATE,History and new tracking checked; no closure of historical content findings,INV-02 Not applicable—scope decision,198; 201; 204; 205; 206; 207-210; 211-213; 214-216; 217-220; 221-223; 224-226; 227-230; 231-233; 234-236; 237-240; 241-243; 244-246; 247-250; 251-253; 254-256; 257-260; 261-263; 264-266; 267-270; 271-273; 274-276; 277-280; 281-283; 284-286; 287-290; 291-293; 294-296; 297-300; 301-303; 304-306; 307-310; 311-313; 314-316; 317-320; 321-323; 324-326; 327-330; 331-333; 334-336; 337-340; 341-343; 344-346; 347-350; 351-353; 354-356; 357-363; 364-374; 375-378; 379-382; 383-386,M9; M13 (historical corrections pending),Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
+-4.80,README.md,Absent (non-normalized),Overview,Non-normalized; input SHA-256=27166775bbaf3124dd17dce3c0369263f674f96146b2c15b24e0616aef719a00,Non-normalized; SHA-256=27166775bbaf3124dd17dce3c0369263f674f96146b2c15b24e0616aef719a00,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M13,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
+-4.81,Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md,DF-RDM-030,Classification Roadmap,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=aa99f796a1443196f851fcbe7e89eab21f039e6e052fc4c7f9ec48498845e3b2,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=aa99f796a1443196f851fcbe7e89eab21f039e6e052fc4c7f9ec48498845e3b2,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M13,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.82,Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md,DF-RDM-020,Document Identity Roadmap,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=6ef6e9e51cf1c097eccb0b1ebe87c2b0ed34386b2eaaaccd52f3c60830b1e301,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=6ef6e9e51cf1c097eccb0b1ebe87c2b0ed34386b2eaaaccd52f3c60830b1e301,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M13,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.83,Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md,DF-RDM-010,Metadata Roadmap,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=43b692c6521c6d0d87d7ea37f7030c2f2c768f113165d069b5d72f47901402ed,Version=1.0;Revision=1;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=7ef48a7c8b54177321c6bb07a9a30600c228e6d0e7717b6545c46be724446cfb,Step 2 thematic comparison; complete document cycle pending,Not performed;2026-10-14 user-confirmed original Author provenance successor,Not performed;full cycle still pending;limited attribution/header/history delta checks PASS only,Initial triage; see report,202: thematic consolidation; individual cycle pending; 371; 372,"M13;attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.84,Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md,DF-RDM-040,Templates Roadmap,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=c2f539f513ca4b0943fe56771cd98d982ffd8dffdc93fe94d6f7817dfcf833bf,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=c2f539f513ca4b0943fe56771cd98d982ffd8dffdc93fe94d6f7817dfcf833bf,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M13,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.85,Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md,DF-RDM-001,Documentation Framework Roadmap,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M13,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.86,Roadmaps/DF-RDM-002-ArchitecturalImplementationStrategy.md,DF-RDM-002,Architectural Implementation Strategy,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=6af9f06e3ef4a5980f6c25aed2d57dec0046c7a48c7bbf4c0977a214d984ca23,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=6af9f06e3ef4a5980f6c25aed2d57dec0046c7a48c7bbf4c0977a214d984ca23,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M13,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.87,Roadmaps/README.md,Absent (non-normalized),Roadmaps,Non-normalized; input SHA-256=7cc32597d6cf48ab840cd02ba0a11184a82904cd244057c214c628bb66a2d3dc,Non-normalized; SHA-256=7cc32597d6cf48ab840cd02ba0a11184a82904cd244057c214c628bb66a2d3dc,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M13,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
+-3.1,03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md,DF-RVW-001,Review Policy,New document; no input edition or historical R0,Version=1.0;Revision=2;Draft;Baseline=Not assigned;Language=English;SHA-256=8f6c3a967f076dfc3ddd4fef90b5901dbb780e0a8c7cda17c70039e2f581f9ef,Step 3 conventions and source comparison completed,Initial working edition R1 created;2026-10-14 cumulative authorship clarification R2,Step 3 scoped checks PASS; not approval or integrated validation;R2 authorship rule/history amendment checks PASS only,Source-domain discrepancies remain Open; see report,199; 203; 357; 360,M9,Domain-owner source reconciliation pending in cycles 4.*
+-3.2,03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md,DF-RVW-002,Review Report,New document; no input edition or historical R0,Version=1.0;Revision=52;Draft;Baseline=Not assigned;Language=English;SHA-256=baca70f433191d28687b65b2e0c6e7eac1c54dfde8be249fdaa7a4d6d49df475,Step 3 conventions; R2 translation checked; R3 records complete 4.01 source review,R52 exact Model validation/closures,Source local validation PASS;evidence/tracking checks PASS,19 Open;157 Closed—verified;INV-02 Not applicable,200; 202; 204; 205; 206; 208; 210; 212; 215; 218; 220; 222; 225; 228; 230; 232; 235; 238; 240; 242; 245; 248; 250; 252; 255; 258; 260; 262; 265; 268; 270; 272; 275; 278; 280; 282; 285; 288; 290; 292; 295; 298; 300; 302; 305; 308; 310; 312; 315; 318; 320; 322; 325; 328; 330; 332; 335; 338; 340; 342; 345; 348; 350; 352; 355; 360; 361; 372; 373; 376; 378; 380; 384,M9; M10 evidence,Review policy and reviewed source editions; domain-source rollout pending
++Step,Path,Document ID,Title,Input edition,Current edition,REVIEW,UPDATE,VALIDATE,Findings,CHANGELOG,Milestone,Dependencies
++4.01,00-Foundation/DF-FND-004-ArchitecturalBlueprint.md,DF-FND-004,Architectural Blueprint,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=74a254092deebeb00151d6044b5e023b6cdcc2444de6e3c5082897d42ad35446,Version=2.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Architecture; SHA-256=941f3e4aa649a9813e29174b76b39d6c5e9ff7708720985d6511dca5618ecda6,4.01: Full REVIEW completed with nine findings and two warnings,4.01 UPDATE complete; incompatible convention change; V2.0 R1,4.01 PASS—local correction scope; exact V2.0 R1 hash unchanged,Eleven FND004 records Closed—verified; related earlier cross-source findings remain Open,207 REVIEW; 211 UPDATE; report/tracking 212-213; 214,"M10: Completed document cycle; milestone In Progress (1 C, 5 O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.02,00-Foundation/DF-FND-001-FrameworkManifest.md,DF-FND-001,Framework Manifest,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=ba259eb305048893eabbd720271a9f5e8d14ceb6f138b441827089665128883b,Version=2.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Architecture; SHA-256=6e6d1783fcbde348f3b7ed6761ad1763c04f399b6c7c5d905466c4f7271bbb96,4.02 Full REVIEW complete; six findings and one warning Open,4.02 UPDATE complete; V2.0 R1 incompatible convention successor,4.02 PASS—local Manifest correction scope; exact source hash unchanged,Seven FND001 records Closed—verified; earlier cross-source findings retain prior scope/states,202: thematic consolidation; individual cycle pending; 217; 221; 224,"M10: Completed Manifest cycle; milestone In Progress (two C, four O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.03,00-Foundation/DF-FND-006-DesignRationale.md,DF-FND-006,Design Rationale,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=6e911db07e6eba28222fb1f020b472c940543ed0ce873ca6c3945eaa69bbb66d,Version=2.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Architecture; SHA-256=0d56aebd768a5563c2842529bd3c8e0f7d7cf296acdb2389977c4ac355575ea6,4.03 Full REVIEW complete; seven findings and two warnings Open,4.03 UPDATE complete; V2.0 R1 incompatible architectural-contract interpretation,4.03 PASS—local Design Rationale correction scope; exact source hash unchanged,Nine FND006 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 227; 231; 234,"M10: Completed Design Rationale cycle; milestone In Progress (three C, three O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.04,00-Foundation/DF-FND-005-FrameworkEvolution.md,DF-FND-005,Framework Evolution,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=0159036f4593633260414dcf0a98870895f9db177cada8cf4555c82f03fd8874,Version=1.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Reference; SHA-256=8fe1016cd006661f9f6e1650f1ccb42304b4db9cb09a24bac397c7479a252e04,4.04 Full REVIEW complete; seven findings and two warnings Open,4.04 UPDATE complete; V1.0 R1 compatible historical-reference clarification,4.04 PASS—local Framework Evolution correction scope; exact source hash unchanged,Nine FND006 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 237; 241; 244,"M10: Completed Framework Evolution cycle; milestone In Progress (four C, two O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.05,00-Foundation/DF-FND-002-ResearchJournal.md,DF-FND-002,Research Journal,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=53fad4f5847ead6e54fc2a4e46947cf8b1b48a123d548fa96d8347cdbc891831,Version=1.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Reference; SHA-256=018b81c60884dfb13eda73083c134f4c1bfab4248184795f479ca1fd8ac851f6,4.05 Full REVIEW complete; eight findings and two warnings Open,4.05 UPDATE complete; V1.0 R1 compatible historical-reference clarification,4.05 PASS—local Research Journal correction scope; exact source hash unchanged,Ten FND002 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 247; 251; 254,"M10: Completed Research Journal cycle; milestone In Progress (five C, one O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.06,00-Foundation/DF-FND-003-EvolutionTimeline.md,DF-FND-003,Evolution Timeline,Version=1.0; Revision=absent; Status=Approved; Baseline=1.0; SHA-256=69b6c3cc258d5e1f4a1682787193698b9ae111b0ccdfc179f86f1821d44bc211,Version=1.0; Revision=1; Draft; Baseline=Not assigned; Language=English; Family=Foundation; Type=Reference; SHA-256=2488360bc2fc498e9dcb46536a0af8b9056beb662f25a6013ad01ef1ac77ffb3,4.06 Full REVIEW complete; nine findings and two warnings Open,4.06 UPDATE complete; V1.0 R1 historical-reference clarification/continuity with provenance,4.06 PASS—local Evolution Timeline scope; exact source hash unchanged,Eleven FND003 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 257; 261; 264,M10: Completed six Foundation documentary cycles; no integrated conformity,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.07,01-Architecture/DF-ARC-003-ArchitecturalConcepts.md,DF-ARC-003,Architectural Concepts,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=cc0f76249a5b21025ae502169b9026f36b87370053119a36e921554ffe16fa4d,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant (working-edition contribution);SHA-256=45b44852117b1822e43725a9ea83d6ff74fb9eedf82e8c37a5246b7647aaceae,4.07 Full REVIEW complete; eight findings/two warnings Open,4.07 UPDATE complete; V2.0 R1 incompatible normative contract reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.07 PASS—local Concepts correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC003 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 267; 271; 274; 366; 372,"M11: Completed Concepts cycle; milestone In Progress (one C,six O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.08,01-Architecture/DF-ARC-004-ArchitecturalLayers.md,DF-ARC-004,Architectural Layers,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=086e0280fea3a95e42cc452e88fd68f5a0ef6f7f21680ef183d367090a8947ab,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=bbab37b76ea23f609a560bdd88c982091a5dd4d903d9b81679293aefdd66d6b5,4.08 Full REVIEW complete; eight findings/two warnings Open,4.08 UPDATE complete; V2.0 R1 incompatible scoped structural contract reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.08 PASS—local Layers correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC004 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 277; 281; 284; 367; 372,"M11: Completed Layers cycle; milestone In Progress (two C,five O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.09,01-Architecture/DF-ARC-005-ArchitecturalComponents.md,DF-ARC-005,Architectural Components,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=a77d8667ea9ff97f7fd2f4b54cc7577a7858d7d2b283c13e3dc875f741b3d216,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=0329a1ad17f95108fe9ef770e5e1de779efd1f0f8fce18cab0f28fecfcca4a6b,4.09 Full REVIEW complete; eight findings/two warnings Open,4.09 UPDATE complete; V2.0 R1 incompatible scoped component contract reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.09 PASS—local Components correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC005 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 287; 291; 294; 368; 372,"M11: Completed Components cycle; milestone In Progress (three C,four O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.10,01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md,DF-ARC-007,Component Documentation Structure,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e0840a725ed0214e37d78be25d664615c4c43fea4e535334dfe47e55d20d5481,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=0fdc12e1d096c61152a2eeef175b2bd61b23970a6842f0d9e680780538e9aea5,4.10 Full REVIEW complete; eight findings/two warnings Open,4.10 UPDATE complete; V2.0 R1 incompatible organization/authority/conformance reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.10 PASS—local Component Documentation Structure correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC007 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 297; 301; 304; 370; 372,"M11: Completed Component Documentation Structure cycle; milestone In Progress (four C,three O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.11,01-Architecture/DF-ARC-006-Terminology.md,DF-ARC-006,Terminology,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=c99cc06206cbd1382529c295ea72e0177325202fc039d2bc48b2181cc41d90eb,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=4e1ea6246a94657b704f37ff32dd6454aeddd5a8ac32a3ae526f35e648b9adad,4.11 Full REVIEW complete; eight findings/two warnings Open,4.11 UPDATE complete; V2.0 R1 incompatible owner/edition/relationship/naming reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.11 PASS—local Terminology correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC006 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 307; 311; 314; 369; 372,"M11: Completed Terminology cycle; milestone In Progress (five C,two O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.12,01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md,DF-ARC-002,Architectural Principles,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=5f29f7fd6f92697040ed2f93ed290fa1be9498f6f119399ba6e710f129d1ec53,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=3993411c226cccd1b67059c97b09ef39646afc8021d9b55470ddbc6c737bfe16,4.12 Full REVIEW complete;eight findings/two warnings Open,4.12 UPDATE complete;V2.0 R1 incompatible primary-owner/layer/edition/foundational evolution reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.12 PASS—local Architectural Principles correction scope; exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC002 records Closed—verified; earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 317; 321; 324; 365; 372,"M11: Completed Architectural Principles cycle; milestone In Progress (six C,one O);attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.13,01-Architecture/DF-ARC-001-ArchitectureOverview.md,DF-ARC-001,Architecture Overview,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=fd9664e9e68cd10399ca76efb23482dd06acf03ef7bf161767e90fc7bc565c6d,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=4fa7955fb70a9eb295384425d6fd18ae1cd3bbb03892888f021dad9fb1659697,4.13 Full REVIEW complete; eight findings/two warnings Open,4.13 UPDATE complete;V2.0 R1 incompatible scoped-contract/evolution/executor/evidence reconciliation;2026-10-14 user-confirmed original Author provenance successor,4.13 PASS—local Architecture Overview correction scope;exact source hash unchanged (historical R1 cycle);limited attribution/header/history delta checks PASS only,Ten ARC001 records Closed—verified;earlier cross-source states retain scope,202: thematic consolidation; individual cycle pending; 327; 331; 334; 364; 372,"M11:Completed Overview cycle;seven scoped Architecture cycles Completed2026-10-14;attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.14,02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md,DF-DID-001,Document Identity Architecture,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=fda8e8684e464d0c0042850e4b5eaaed5eaefc5e409135274255ce9de8180624,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Family=Document Identity;Component=Document Identity;Type=Architecture;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=f36e91e5a2255d5807b68bedd180f4c4d33d90c2b849e42a462815b11af6d21c,4.14 full REVIEW complete;eight findings/two warnings Open,4.14 UPDATE complete;V2.0 R1 incompatible normalized/domain/contract/executor/reference/evidence reconciliation;authorship-only R2 amendment2026-10-14,4.14 PASS—local Document Identity Architecture correction scope;exact source hash unchanged (historical V2.0 R1);R2 authorship/header/history delta checks PASS only;not full successor semantic validation,Ten DID001 records Closed—verified;REV2-09/peer/global states retain pending scope,202: thematic consolidation; individual cycle pending; 337; 341; 344; 358; 360,"M12:Completed historical R1 cycle;R2 authorship delta verified;milestone In Progress(two C,62 O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.15,02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md,DF-DID-002,Document Identity Concepts,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=66ef967cecf7901d86e3658a00584c14bb4db0161c70e5a7a253a105891c20ed,Version=2.0;Revision=2;Draft;Baseline=Not assigned;Language=English;Family=Document Identity;Component=Document Identity;Type=Architecture;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=6b3adf13bfe20d4f6b360368f1b587f8da09fa4d36b880d5d20eb67f451f1d52,4.15 full REVIEW complete;eight findings/two warnings Open,4.15 UPDATE complete;V2.0 R1 incompatible normalized/domain/lifetime/reference/Metadata/scope/evidence reconciliation;authorship-only R2 amendment2026-10-14,4.15 PASS—local Document Identity Concepts correction scope;exact source hash unchanged (historical V2.0 R1);R2 authorship/header/history delta checks PASS only;not full successor semantic validation,Ten DID002 records Closed—verified;REV2-09/peer/global states retain pending scope,202: thematic consolidation; individual cycle pending; 347; 351; 354; 359; 360,"M12:Completed historical R1 cycle;R2 authorship delta verified;milestone In Progress(two C,62 O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.16,02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md,DF-DID-003,Document Identity Model,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=79cd7dcc42cfd9f4c009787353a891f98253f0d01d73d8c9872e50cc614e180e,Version=2.0;Revision=1;Draft;Baseline=Not assigned;Language=English;Family=Document Identity;Component=Document Identity;Type=Architecture;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=be7ddc3e783aa3ece4216de50662794e65b0133b431422a343846b404ef897cb,4.16 full REVIEW complete;eight findings/two warnings Open,4.16 UPDATE complete;V2.0 R1 incompatible qualified model/cardinality/owner/lifecycle/evidence reconciliation,4.16 PASS—local Document Identity Model correction scope;exact source hash unchanged,Ten DID003 records Closed—verified;REV2-09/peer/global states retain pending scope,375–378 REVIEW;379–381 UPDATE;382–384 VALIDATE;385–387 later recovery reconciliation (ReportR53 section59),"M12:Completed DID-003 cycle;milestone In Progress(three C,61 O)",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents; temporary Author indicator is not a maintained deliverable; historical evidence mappings retained with explicit recovery clarification
++4.17,02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md,DF-DID-004,Document Identity Elements,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=d38234e701ba3d2c95c5fb61dd5e1ac5097c63652891a4034d0fb14051a7d55f,V2.0 R1 Draft;Baseline Not assigned;Family/Component Document Identity;Type Architecture;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=cd4d74795f3c8c5918db318fe6409102aa46cec2a30113059ebf8df8dd79763d,Repeated full REVIEW after recovery;8 findings/2 warnings Open;reportR54 section60,Complete;incompatible conceptual scope/state/reference/ownership/guarantee correction;reportR55 section61,PASS—local correction scope;exact V2.0 R1 SHA-256 cd4d74795f3c8c5918db318fe6409102aa46cec2a30113059ebf8df8dd79763d unchanged;reportR56 section62,10 DID004 records Closed—verified;global19 Open unchanged;peer propagation pending,388–391 REVIEW;392–394 UPDATE;395–397 VALIDATE,"M12 four C/60 O In Progress;DID-004 C,completion2026-10-14;local scope only",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.18,02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md,DF-DID-005,Document Identity Schema,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=b0097caac12209188d8e63ba9e0757cc5630945a7be5a5570b4634a7b7abd6bc,V2.0 R1 Draft;Baseline Not assigned;Family/Component Document Identity;Type Structure;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=06848d5545855826bf92bb215bb074276841b3da074cf0588115121e9c21ae18,Complete full REVIEW;8 findings/2 warnings Open;reportR57 section63,Complete;incompatible subject/domain/record/ownership/evolution correction;reportR58 section64;1/1/0..N retained,PASS—local Schema correction scope;exact unchanged V2.0 R1 SHA-256 06848d5545855826bf92bb215bb074276841b3da074cf0588115121e9c21ae18;reportR59 section65,10 DID005 records Closed—verified;global19 Open unchanged;peer mandatory fields/state/extension integration pending,398–401 REVIEW;402–404 UPDATE;405–407 VALIDATE,"M12 five C/59 O In Progress;DID-005 C,completion2026-10-15;local scope only",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.19,02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md,DF-DID-006,Document Identity Lifecycle,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024,V2.0 R1 Draft;Baseline Not assigned;Family/Component Document Identity;Type Behavior;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=db437de4d515b120ab7a6a7b096d686fbcb11d0ec73e40d185e12987a9d13217,Complete full REVIEW;9 findings/2 warnings Open;reportR60 section66,Complete;incompatible lifecycle subject/transition/status/ownership/guarantee correction;reportR61 section67;original8 triples retained,PASS—local Lifecycle correction scope;exact unchanged V2.0 R1 SHA-256 db437de4d515b120ab7a6a7b096d686fbcb11d0ec73e40d185e12987a9d13217;reportR62 section68,11 DID006 records Closed—verified;19 global Open unchanged;state/record/permission/required-scope integration pending,408–411 REVIEW;412–414 UPDATE;415–417 VALIDATE,"M12 six C/58 O In Progress;DID-006 C,completion2026-10-15;local scope only",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.20,02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md,DF-DID-007,Document Identity Validation,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=4310e5f480844f017136329ba63befea90431ec8efd5cc53085f71ae164b7fe2,V2.0 R1 Draft;Baseline Not assigned;Family/Component Document Identity;Type Behavior;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=dfe21ab2b6ce759bfa8629b40f49c82a2da1246eac443568ee127fc8ee860614,Complete full REVIEW;9 findings/2 warnings Open;reportR63 section69,Complete;incompatible applicability/evidence/record-reference/outcome authority correction;reportR64 section70,PASS—local Validation contract correction scope;exact unchanged V2.0 R1 SHA-256 dfe21ab2b6ce759bfa8629b40f49c82a2da1246eac443568ee127fc8ee860614;reportR65 section71,11 DID007 records Closed—verified;19 global Open unchanged;mandatory owner/record/state/required-graph integration pending,418–421 REVIEW;422–424 UPDATE;425–427 VALIDATE,"M12 seven C/57 O In Progress;DID-007 C,completion2026-10-15;local scope only",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.21,02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md,DF-DID-008,Document Identity Governance,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=02e2ae1cb164756db35f243e2e76f880a39523eae73f3b12661f4837030c7497,V2.0 R1 Draft;Baseline Not assigned;Family/Component Document Identity;Type Behavior;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=dfd9af0aa486d8f99f3e2b618695e4d2e1f1af9f854ef4ec5975e2fcafc32457,Complete full REVIEW;9 findings/2 warnings Open;reportR66 section72,Complete;incompatible applicability/record-owner-operational/reference/compliance/violation correction;reportR67 section73;7 exclusions retained,Not performed;next operation,11 DID008 records Corrected—pending validation;19 global Open unchanged,428–431 REVIEW;432–434 UPDATE,"M12 seven C/one S/56 O In Progress;DID-008 S,no completion",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.22,02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md,DF-DID-009,Document Identity Relationships,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.23,02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md,DF-DID-010,Document Identity Constraints,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.24,02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md,DF-DID-011,Document Identity Extensibility,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=3c3112e3f5dbb37dd93b31f8c3af33037a48fd2db9d53ac0fd4a1fb6cfea69d3,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=3c3112e3f5dbb37dd93b31f8c3af33037a48fd2db9d53ac0fd4a1fb6cfea69d3,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.25,02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md,DF-DID-012,Document Identity Best Practices,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=692230e6c874ddd97e8215334534b61c12b487e7e2a9ea85b9ac506513cd8c8e,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=692230e6c874ddd97e8215334534b61c12b487e7e2a9ea85b9ac506513cd8c8e,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.26,02-Documentation/DocumentIdentity/04-Reference/DF-DID-013 - Document Identity Dictionary.md,DF-DID-013,Document Identity Dictionary,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=030354bc9d3c57fbe84bd576ecbd6e4e3e2f1b0c5bbea2e9a0ef8b5ecee30c61,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=030354bc9d3c57fbe84bd576ecbd6e4e3e2f1b0c5bbea2e9a0ef8b5ecee30c61,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.27,02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md,DF-DID-014,Document Identity Specification,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-09; REV2-10; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.28,02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md,DF-DID-015,Document Identity Examples,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=30d79dc17cbda645f4c2ab5541b7fcab8aef068e995e85321239329b1e6511c0,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=30d79dc17cbda645f4c2ab5541b7fcab8aef068e995e85321239329b1e6511c0,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.29,02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md,DF-CLS-001,Classification Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=75b689426bec5e349f555ab41855732c1c689898a49563aa4bdf44ef7d4014e9,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=75b689426bec5e349f555ab41855732c1c689898a49563aa4bdf44ef7d4014e9,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,INV-01; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.30,02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md,DF-CLS-002,Classification Concepts,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.31,02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md,DF-CLS-001,Classification Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,INV-01; REV2-05; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.32,02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md,DF-CLS-004,Classification Elements,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=b83d95cae80262ce0cf72b42cd0f7a2b64f16ebab9c4bfcbca5fa65bf66f2215,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=b83d95cae80262ce0cf72b42cd0f7a2b64f16ebab9c4bfcbca5fa65bf66f2215,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.33,02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md,DF-CLS-005,Classification Schema,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=949674b939519664145cd57b4186ff5f1edfbbd5be268d015858bebcc0977b6f,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=949674b939519664145cd57b4186ff5f1edfbbd5be268d015858bebcc0977b6f,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.34,02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md,DF-CLS-006,Classification Lifecycle,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.35,02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md,DF-CLS-007,Classification Validation,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=9d2fe8a503c37d12143420e76205b44e4d031812516c3c30d151e3b3e8c288cb,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=9d2fe8a503c37d12143420e76205b44e4d031812516c3c30d151e3b3e8c288cb,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.36,02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md,DF-CLS-008,Classification Governance,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=5317d1a596490ad0bb7a976b0f9504324adcc10131b27e969b141bd392a84a26,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=5317d1a596490ad0bb7a976b0f9504324adcc10131b27e969b141bd392a84a26,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.37,02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md,DF-CLS-009,Classification Relationships,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=55f14b44a3977856568a1d5bf4d391987a5ce923fa2e464e8eb59bfa04e88d7b,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=55f14b44a3977856568a1d5bf4d391987a5ce923fa2e464e8eb59bfa04e88d7b,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.38,02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md,DF-CLS-010,Classification Constraints,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=3575675cef6d6f990161bc6d04365779b8c60094bc38bf809d767ef9fe6834e0,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=3575675cef6d6f990161bc6d04365779b8c60094bc38bf809d767ef9fe6834e0,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.39,02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md,DF-CLS-011,Classification Extensibility,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e9634c8977c8c4dfddb5f1f04bb0c62c5df180794fea46471c14a8e524aa4a95,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e9634c8977c8c4dfddb5f1f04bb0c62c5df180794fea46471c14a8e524aa4a95,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.40,02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md,DF-CLS-012,Classification Best Practices,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=4b7ae1b3ee972963d73534be64818b4b462079d708fbf2c37bfab3346248904c,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=4b7ae1b3ee972963d73534be64818b4b462079d708fbf2c37bfab3346248904c,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.41,02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md,DF-CLS-013,Classification Dictionary,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=a1ca8359af0f52b9723d418798ace0abc352233e76afd81597d181bf22f823f5,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=a1ca8359af0f52b9723d418798ace0abc352233e76afd81597d181bf22f823f5,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.42,02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md,DF-CLS-014,Classification Specification,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.43,02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md,DF-CLS-015,Classification Examples,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=204db601fc644f2fb799905beb8e03676ecf258a9a7dad7a4f509be0cf6e0603,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=204db601fc644f2fb799905beb8e03676ecf258a9a7dad7a4f509be0cf6e0603,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.44,02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md,DF-MTD-001,Metadata Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-02; REV2-08; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.45,02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md,DF-MTD-002,Metadata Concepts,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=1abf7b1d0c2b80b14bff6d49c902f9ba8f951889daf833522e33e2e08fe5e19c,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=1abf7b1d0c2b80b14bff6d49c902f9ba8f951889daf833522e33e2e08fe5e19c,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-08; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.46,02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md,DF-MTD-003,Metadata Model,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.47,02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md,DF-MTD-004,Metadata Elements,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=60dc7aa35153410b7bfacb774163d62959c3c830b6fa15948a82f913c0657568,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=60dc7aa35153410b7bfacb774163d62959c3c830b6fa15948a82f913c0657568,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.48,02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md,DF-MTD-005,Metadata Schema,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=1ed13b4f94564703e5b5af1268941e21a329cfc62b9c67e3f69cc63b8c2fa302,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=1ed13b4f94564703e5b5af1268941e21a329cfc62b9c67e3f69cc63b8c2fa302,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; REV2-07; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.49,02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md,DF-MTD-006,Metadata Lifecycle,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=ddb15d2cbffe7ec2d4c0f9903226f65f98d3a63f82afa3864433173e5cc86acc,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=ddb15d2cbffe7ec2d4c0f9903226f65f98d3a63f82afa3864433173e5cc86acc,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.50,02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md,DF-MTD-007,Metadata Validation,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=163c13b58acba33353e66d472649759ced513f6742d9231d3e60d7562ec632aa,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=163c13b58acba33353e66d472649759ced513f6742d9231d3e60d7562ec632aa,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.51,02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md,DF-MTD-008,Metadata Governance,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=69112d8cce7fb5bb511c9d548bf64ab0e2a97c3b9bfd667d5225ccf626569c8d,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=69112d8cce7fb5bb511c9d548bf64ab0e2a97c3b9bfd667d5225ccf626569c8d,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.52,02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md,DF-MTD-009,Metadata Relationships,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=ed847e8f5e9026159ac119432c9b77cbaf6f790cd771296b99809a96759a74dc,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=ed847e8f5e9026159ac119432c9b77cbaf6f790cd771296b99809a96759a74dc,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.53,02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md,DF-MTD-010,Metadata Constraints,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=466cc09d475f690779ea0f929dcafea150e643f9d2a622e47d87f519426142fa,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=466cc09d475f690779ea0f929dcafea150e643f9d2a622e47d87f519426142fa,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.54,02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md,DF-MTD-011,Metadata Extensibility,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=044fc204c8b877e705902d3a7fbfe7c2bd5b40fa18aa32ea6602f38131e7ab26,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=044fc204c8b877e705902d3a7fbfe7c2bd5b40fa18aa32ea6602f38131e7ab26,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.55,02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md,DF-MTD-012,Metadata Best Practices,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=324fd72a22bf6417d1f0a05f43ff1d01f7666c6f61916acf96c7730159935f61,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=324fd72a22bf6417d1f0a05f43ff1d01f7666c6f61916acf96c7730159935f61,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.56,02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md,DF-MTD-013,Metadata Dictionary,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=3c0a07a8cf9e9ed4cd43fe70591e883e235fa3c5a11013fb9b651e72facc7206,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; REV2-07; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.57,02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md,DF-MTD-014,Metadata Specification,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=55cf09d6237304314d18e6e13d7cfd74e41e222ebae0779002d7d8e6ae7ddf2e,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; REV2-07; REV2-11; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.58,02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md,DF-MTD-015,Metadata Examples,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=9de2984688ff67469ee6b0761aa445d0cc23b7075738e11277ece2462f24a7c8,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=9de2984688ff67469ee6b0761aa445d0cc23b7075738e11277ece2462f24a7c8,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.59,02-Documentation/Templates/01-Architecture/DF-TPL-001-TemplatesArchitecture.md,DF-TPL-001,Templates Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=d7408ff1c43e04d57c4a794b06594f7e68dd759b445c45637adb3c4f7d7cc756,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=d7408ff1c43e04d57c4a794b06594f7e68dd759b445c45637adb3c4f7d7cc756,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.60,02-Documentation/Templates/01-Architecture/DF-TPL-002-TemplatesConcepts.md,DF-TPL-002,Template Concepts,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=00b9032249aa8dfe3f0bf86a018e247bfc8333fad0f12ed7f7028baad3178c04,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.61,02-Documentation/Templates/01-Architecture/DF-TPL-003-TemplatesModel.md,DF-TPL-003,Template Model,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=80a57e07e0494b19c849a10f8421108ed935698da2bf11373da4d02addb11087,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=80a57e07e0494b19c849a10f8421108ed935698da2bf11373da4d02addb11087,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.62,02-Documentation/Templates/02-Structure/DF-TPL-004-TemplateElements.md,DF-TPL-004,Template Elements,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=79d6ed961b26ec03c7076a4cb6306f5beb6a56c89af7b4981c214482f00495e5,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=79d6ed961b26ec03c7076a4cb6306f5beb6a56c89af7b4981c214482f00495e5,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.63,02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md,DF-TPL-005,Template Schema,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=bb711768b70f6724e6bc00e8e63eaf9310830f98115a91715a231ea6e770598a,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=bb711768b70f6724e6bc00e8e63eaf9310830f98115a91715a231ea6e770598a,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.64,02-Documentation/Templates/03-Behavior/DF-TPL-006-TemplatesLifecycle.md,DF-TPL-006,Template Lifecycle,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=581c43203ca39b6c9438fa4b8ad0f9b1de5e7ae4683b7af8cc0e538824fe610b,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=581c43203ca39b6c9438fa4b8ad0f9b1de5e7ae4683b7af8cc0e538824fe610b,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.65,02-Documentation/Templates/03-Behavior/DF-TPL-007-TemplatesValidation.md,DF-TPL-007,Template Validation,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e2e38a950e4cc7de513190bb63a8ea6f9a95db2073ee8e0fa59b11851767afa6,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e2e38a950e4cc7de513190bb63a8ea6f9a95db2073ee8e0fa59b11851767afa6,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.66,02-Documentation/Templates/03-Behavior/DF-TPL-008-TemplatesGovernance.md,DF-TPL-008,Template Governance,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=d6b69ae73b5ba54e94c465ee485bca91b6874bcc0151773bed5635f1826a3f9b,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=d6b69ae73b5ba54e94c465ee485bca91b6874bcc0151773bed5635f1826a3f9b,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.67,02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md,DF-TPL-009,Template Relationships,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=b10b6174f5240b4f46157ba8bd9882035179ba862215ab6fdbbcee584669f1cf,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=b10b6174f5240b4f46157ba8bd9882035179ba862215ab6fdbbcee584669f1cf,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.68,02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md,DF-TPL-010,Template Constraints,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=965a1eb1756a1a8e685af9f978558dd055f28b8ebb4e4080f2737ead42d30e12,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=965a1eb1756a1a8e685af9f978558dd055f28b8ebb4e4080f2737ead42d30e12,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.69,02-Documentation/Templates/03-Behavior/DF-TPL-011-TemplatesExtensibility.md,DF-TPL-011,Template Extensibility,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=15607054122758cd163757836cf551779877aa90c7565d20f47220a406279b78,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=15607054122758cd163757836cf551779877aa90c7565d20f47220a406279b78,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.70,02-Documentation/Templates/04-Reference/DF-TPL-012-TemplatesBestPractices.md,DF-TPL-012,Template Best Practices,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=de45215261de1e4f6feffc727bbf0f38be2582f5cde2cb892a936112db65ce51,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=de45215261de1e4f6feffc727bbf0f38be2582f5cde2cb892a936112db65ce51,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.71,02-Documentation/Templates/04-Reference/DF-TPL-013-TemplatesDictionary.md,DF-TPL-013,Template Dictionary,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=4f039c17f2818bcfab51009cae38d31053e0e779ebc353d9722307e8b0d2901d,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=4f039c17f2818bcfab51009cae38d31053e0e779ebc353d9722307e8b0d2901d,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.72,02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md,DF-TPL-014,Template Specification,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=f5c97db206885a5de77be9eb993a4d83294a51ec4d94f9025d6670c8f82c1464,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.73,02-Documentation/Templates/04-Reference/DF-TPL-015-TemplatesExamples.md,DF-TPL-015,Template Examples,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=c2713cf5f89d62527299f81e2bb32a6871b5a59c00016604e823551d0735255b,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=c2713cf5f89d62527299f81e2bb32a6871b5a59c00016604e823551d0735255b,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.74,02-Documentation/Classification/README.md,Absent (non-normalized),Classification Component,Non-normalized; input SHA-256=452c9910cdb26654cf475c21f6c4b3bf13f624d1c4b3bfd88538d818a1474c18,Non-normalized; SHA-256=452c9910cdb26654cf475c21f6c4b3bf13f624d1c4b3bfd88538d818a1474c18,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M12,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
++4.75,02-Documentation/DocumentIdentity/README.md,Absent (non-normalized),Document Identity Component,Non-normalized; input SHA-256=2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7,Non-normalized; SHA-256=2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M12,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
++4.76,02-Documentation/Metadata/README.md,Absent (non-normalized),Metadata Component,Non-normalized; input SHA-256=0a2091d1de0b64e1f470dd30479b6c50202748311a4ac2a6d472d40258b93d72,Non-normalized; SHA-256=0a2091d1de0b64e1f470dd30479b6c50202748311a4ac2a6d472d40258b93d72,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M12,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
++4.77,02-Documentation/Templates/README.md,Absent (non-normalized),Templates Componnet,Non-normalized; input SHA-256=cf4866ed4e449d8542ecd5f11d19c21ffdd91b6a3d4f807dce55da59cd7b693a,Non-normalized; SHA-256=cf4866ed4e449d8542ecd5f11d19c21ffdd91b6a3d4f807dce55da59cd7b693a,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M12,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
++4.78,ArchitecturalMilestones.md,Absent (non-normalized),Architectural Milestones,Non-normalized; input SHA-256=9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb,Non-normalized;SHA-256=184ef7c9bfbce0b64d549115b425c28e50d723fb6eefab6a810ef4ca80557846,Formats/history reviewed; individual historical findings remain Open,Central tracking through Step4.16 VALIDATE,History and new tracking checked; no closure of historical content findings,INV-02 Not applicable—scope decision,198; 201; 204; 205; 206; 207-210; 211-213; 214-216; 217-220; 221-223; 224-226; 227-230; 231-233; 234-236; 237-240; 241-243; 244-246; 247-250; 251-253; 254-256; 257-260; 261-263; 264-266; 267-270; 271-273; 274-276; 277-280; 281-283; 284-286; 287-290; 291-293; 294-296; 297-300; 301-303; 304-306; 307-310; 311-313; 314-316; 317-320; 321-323; 324-326; 327-330; 331-333; 334-336; 337-340; 341-343; 344-346; 347-350; 351-353; 354-356; 357-363; 364-374; 375-378; 379-382; 383-386,M9; M13 (historical corrections pending),Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
++4.79,CHANGELOG.md,Absent (non-normalized),Changelog,Non-normalized; input SHA-256=ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b,Non-normalized;SHA-256=d5a342d0f3e4675563a49c37f6bcdd204ab3ed1c4bf82a0be0a1e8bfac257ee0,Formats/history reviewed; individual historical findings remain Open,Central tracking through Step4.16 VALIDATE,History and new tracking checked; no closure of historical content findings,INV-02 Not applicable—scope decision,198; 201; 204; 205; 206; 207-210; 211-213; 214-216; 217-220; 221-223; 224-226; 227-230; 231-233; 234-236; 237-240; 241-243; 244-246; 247-250; 251-253; 254-256; 257-260; 261-263; 264-266; 267-270; 271-273; 274-276; 277-280; 281-283; 284-286; 287-290; 291-293; 294-296; 297-300; 301-303; 304-306; 307-310; 311-313; 314-316; 317-320; 321-323; 324-326; 327-330; 331-333; 334-336; 337-340; 341-343; 344-346; 347-350; 351-353; 354-356; 357-363; 364-374; 375-378; 379-382; 383-386,M9; M13 (historical corrections pending),Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
++4.80,README.md,Absent (non-normalized),Overview,Non-normalized; input SHA-256=27166775bbaf3124dd17dce3c0369263f674f96146b2c15b24e0616aef719a00,Non-normalized; SHA-256=27166775bbaf3124dd17dce3c0369263f674f96146b2c15b24e0616aef719a00,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M13,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
++4.81,Roadmaps/02-Documentation/Classification/DF-RDM-030-ClassificationRoadmap.md,DF-RDM-030,Classification Roadmap,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=aa99f796a1443196f851fcbe7e89eab21f039e6e052fc4c7f9ec48498845e3b2,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=aa99f796a1443196f851fcbe7e89eab21f039e6e052fc4c7f9ec48498845e3b2,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M13,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.82,Roadmaps/02-Documentation/DocumentIdentity/DF-RDM-020-DocumentIdentityRoadmap.md,DF-RDM-020,Document Identity Roadmap,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=6ef6e9e51cf1c097eccb0b1ebe87c2b0ed34386b2eaaaccd52f3c60830b1e301,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=6ef6e9e51cf1c097eccb0b1ebe87c2b0ed34386b2eaaaccd52f3c60830b1e301,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M13,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.83,Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md,DF-RDM-010,Metadata Roadmap,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=43b692c6521c6d0d87d7ea37f7030c2f2c768f113165d069b5d72f47901402ed,Version=1.0;Revision=1;Draft;Baseline=Not assigned;Language=English;Author=Arnaldo Figueira; Codex — AI assistant;SHA-256=7ef48a7c8b54177321c6bb07a9a30600c228e6d0e7717b6545c46be724446cfb,Step 2 thematic comparison; complete document cycle pending,Not performed;2026-10-14 user-confirmed original Author provenance successor,Not performed;full cycle still pending;limited attribution/header/history delta checks PASS only,Initial triage; see report,202: thematic consolidation; individual cycle pending; 371; 372,"M13;attribution amendment only,original cycle scope retained",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.84,Roadmaps/02-Documentation/Templates/DF-RDM-040-TemplatesRoadmap.md,DF-RDM-040,Templates Roadmap,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=c2f539f513ca4b0943fe56771cd98d982ffd8dffdc93fe94d6f7817dfcf833bf,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=c2f539f513ca4b0943fe56771cd98d982ffd8dffdc93fe94d6f7817dfcf833bf,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M13,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.85,Roadmaps/DF-RDM-001-DocumentationFrameworkRoadmap.md,DF-RDM-001,Documentation Framework Roadmap,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=17ffbd426ec662ea683564211c8291f002d37e1bbca6434a5cfa3dc664e0b224,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M13,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.86,Roadmaps/DF-RDM-002-ArchitecturalImplementationStrategy.md,DF-RDM-002,Architectural Implementation Strategy,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=6af9f06e3ef4a5980f6c25aed2d57dec0046c7a48c7bbf4c0977a214d984ca23,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=6af9f06e3ef4a5980f6c25aed2d57dec0046c7a48c7bbf4c0977a214d984ca23,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M13,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.87,Roadmaps/README.md,Absent (non-normalized),Roadmaps,Non-normalized; input SHA-256=7cc32597d6cf48ab840cd02ba0a11184a82904cd244057c214c628bb66a2d3dc,Non-normalized; SHA-256=7cc32597d6cf48ab840cd02ba0a11184a82904cd244057c214c628bb66a2d3dc,Content/reference review pending; normalization not applicable,Not performed,Not performed,INV-02 Not applicable—scope decision,202: thematic consolidation; individual cycle pending,M13,Own conventions and content/reference consistency; normalized identity/classification/edition requirements excluded
++3.1,03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md,DF-RVW-001,Review Policy,New document; no input edition or historical R0,Version=1.0;Revision=2;Draft;Baseline=Not assigned;Language=English;SHA-256=8f6c3a967f076dfc3ddd4fef90b5901dbb780e0a8c7cda17c70039e2f581f9ef,Step 3 conventions and source comparison completed,Initial working edition R1 created;2026-10-14 cumulative authorship clarification R2,Step 3 scoped checks PASS; not approval or integrated validation;R2 authorship rule/history amendment checks PASS only,Source-domain discrepancies remain Open; see report,199; 203; 357; 360,M9,Domain-owner source reconciliation pending in cycles 4.*
++3.2,03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md,DF-RVW-002,Review Report,New document; no input edition or historical R0,Version=1.0;Revision=52;Draft;Baseline=Not assigned;Language=English;SHA-256=baca70f433191d28687b65b2e0c6e7eac1c54dfde8be249fdaa7a4d6d49df475,Step 3 conventions; R2 translation checked; R3 records complete 4.01 source review,R52 exact Model validation/closures,Source local validation PASS;evidence/tracking checks PASS,19 Open;157 Closed—verified;INV-02 Not applicable,200; 202; 204; 205; 206; 208; 210; 212; 215; 218; 220; 222; 225; 228; 230; 232; 235; 238; 240; 242; 245; 248; 250; 252; 255; 258; 260; 262; 265; 268; 270; 272; 275; 278; 280; 282; 285; 288; 290; 292; 295; 298; 300; 302; 305; 308; 310; 312; 315; 318; 320; 322; 325; 328; 330; 332; 335; 338; 340; 342; 345; 348; 350; 352; 355; 360; 361; 372; 373; 376; 378; 380; 384,M9; M10 evidence,Review policy and reviewed source editions; domain-source rollout pending

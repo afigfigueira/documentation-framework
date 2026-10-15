@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 66 |
+| **Revision** | 67 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -272,6 +272,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 64 | Step4.20 UPDATE;DID-007 V2.0 R1;11 corrections pending | Compatible report event;section70;source validation not performed |
 | 2026-10-15 | 1.0 | 65 | Step4.20 exact Validation V2.0 R1 local PASS;11 closures | Compatible report event;section71;source unchanged;no global architectural approval |
 | 2026-10-15 | 1.0 | 66 | Step4.21 complete Governance REVIEW;9 findings/2 warnings Open | Compatible report event;section72;source unchanged;next UPDATE |
+| 2026-10-15 | 1.0 | 67 | Step4.21 Governance UPDATE;V2.0 R1;11 corrections pending | Compatible report event;section73;source validation not performed |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -5529,3 +5530,43 @@ Eleven DID008 records Open;prior199 Closed—verified and19 global Open retained
 ReportV1.0 R65→R66;CHANGELOG428 REVIEW,429 report,430 Milestone,431 REVIEW integrity checks. Stable89 progress positions,current manifest,all historical exports anddomain bytes preserved. Traceability PASS concerns exact source/inventory/comparison hashes,history/tracking andContext-only packaging,not source VALIDATE DOCUMENT,closure,architectural approval,publication orBaseline selection.
 
 **Pause after REVIEW. CONTINUAR starts4.21 UPDATE DOCUMENT DF-DID-008 — Document Identity Governance,then pauses before VALIDATE DOCUMENT.**
+
+## 73. Step 4.21 — UPDATE DOCUMENT DF-DID-008 — Document Identity Governance
+
+### 73.1. Exact successor and operation
+
+UPDATE complete,2026-10-15. Received V1.0 R0 becomes **V2.0 R1, Draft, Baseline Not assigned**, Family/Component Document Identity, Type Behavior, cumulative Author Arnaldo Figueira; Codex — AI assistant. ID/path retained; received Canonical/Baseline1.0 and absent date preserved as provenance. Output SHA-256 `dfd9af0aa486d8f99f3e2b618695e4d2e1f1af9f854ef4ec5975e2fcafc32457`. No VALIDATE DOCUMENT performed.
+
+Eleven DID008-01–09/W01/W02 records are Corrected—pending validation,not Closed. Section72 preserves REVIEW-time states. All other domain bytes and historical evidence are unchanged; prior exact semantic and later attribution-only results retain their actual scopes.
+
+### 73.2. Corrections and later validation requirements
+
+| Records | Actual source correction | Required subsequent evidence |
+|---|---|---|
+| DID008-01 | Header;1/14/16:component Family,Behavior retained,cumulative Author,received history and working lifecycle | Exact header/history/compatibility and original author preservation |
+| DID008-02 | 1/2/4.3/6.1/9/15:assigned normalized subject,functional exclusions,actual consumer scope,key/file/edition/status/Baseline distinctions | Full applicability/required-contract comparison;no universal dependency/routing orallocation |
+| DID008-03 | 3/4.3–4.4/6.3–6.5/9/10:qualified key/series,population/history/reservations,copy/alias/edition distinctions | Actual domain/assignment/collision/non-reuse and coverage cases;no bare syntax/index global proof |
+| DID008-04 | 4.1–4.2/4.6/6.2/8/10/12–13:stable key versus mutable records,legitimate adapter/interface constraints,prior/new necessary contract continuity | Exact owner/consumer/migration/history/snapshot boundaries;no mutation/reuse/retargeting performed |
+| DID008-05 | 4.5/6.6/8.5–8.6/9:typed document/other endpoints,optional0..N,exact-edition/context and historical/live validity | Target/reference/ownership observations;no perpetual guarantee orsilent repair |
+| DID008-06 | 5/6.7/7/8/11:identity meaning under common rules versus actual descriptor/connection/registration/projection ownership | Actual source/consumer/authority matrix;no sole-source override orhidden required cycle |
+| DID008-07 | 1/5/8.3/11–13:Governance area components versus actual DMS/tool/manual/CMS roles,decisions/evidence and7 operational exclusions | Contract/authority/executor/result cases;no invented permissions orautomatic approval/publication/Baseline |
+| DID008-08 | 3/9/11/15:6 compliance conditions scoped to actual artifacts/rules/checks/coverage;DID-007 outcomes and mandatory peer authority limits | Partial/missing/conflicted/observed evidence cases;no full identity/peer/framework conformance from local PASS |
+| DID008-09 | 5–6/9–12/14–16:6 violation subjects with exact-rule observations,missing-evidence distinction and separately authorized corrective/contract evolution protocol | Violation versus legitimate record/adapter/copy cases;prior/new impact/version/author/history/later validation,not automatic mutation |
+| DID008-W01 | 7/11:two typed ownership/rule/evaluation/result views,all original labels and digests retained | Full received/written view maps,scope/authority/executor/result boundaries,no runtime approval pipeline |
+| DID008-W02 | All34 original headings/15 chapters,7 objectives/6 principles/6 responsibilities+7 exclusions/7 rules/6 interactions/6 compliance6 violation6 constraint subjects/7 dependencies retained | Full body/header/list/view maps and intended-ID/functional references |
+
+### 73.3. Authority,compliance andviolation treatment
+
+Identity meaning stays with Document Identity under applicable common Architecture/Policy and responsible domain rules. That ownership does not acquire descriptors,connections,registrations orprojections. Governance is Workflow/Policies/Reviews/Baselines contracts,not an operational engine;actual DMS/tool/manual executor andCMS change scope are separate. Seven original operational exclusions remain intact. No person,organizational role orpermission is inferred from documentary authorship,custody orarchitectural registration.
+
+Compliance needs actual exact subject/domain/artifacts/edition/context,rules,executor,checks,observations,coverage andlimits under DID-007. Missing evidence,unexecuted checks andunresolved mandatory State/Canonical Reference/lifecycle/constraint authority do not become unconditional success orfabricated violations. Narrower unambiguous observations retain their limits without waiving peer requirements.
+
+The6 original violation subjects now identify actual nonconforming key/assignment/reuse/semantic circumvention under aresponsible rule,distinct from mutable records,valid aliases/copies/editions andlegitimate representation adapters. Preserve original evidence andactual failed checks. Correction is a separately authorized scoped change with owner/consumer/required-dependency impact,prior/new rationale,mappings/reservation/history/reference/exact-snapshot continuity,compatibility/version/Revision andlater exact-source validation. No automatic repair,allocation,migration orapproval is implied.
+
+The source change is incompatible in applicability,record/owner/operational boundaries,reference/compliance/violation andcontrolled-change meaning,not merely Family relabelling:Version1.0→2.0,Revision0→1 under Policy5. Exact34 original body/header maps,original/written list/view andauthority protocol plus complete source/central diff are attached. Source identity/path andall prior domain/evidence bytes retained;no peer modification orreal operation performed.
+
+### 73.4. Tracking andpause
+
+ReportV1.0 R66→R67;CHANGELOG432 source UPDATE,433 report,434 Milestone. Totals19 global Open,11 Corrected—pending validation,199 Closed—verified,INV-02 Not applicable. M12 seven C/one S/56 O In Progress;DID-008 start2026-10-15,no completion. Progress/manifest synchronized. Construction checks cover heading/map/link existence,preservation andpackaging only,not VALIDATE DOCUMENT orclosure. Draft/unassigned;no global architectural approval,publication orBaseline membership.
+
+**Pause after UPDATE. CONTINUAR starts4.21 VALIDATE DOCUMENT DF-DID-008,then pauses before4.22 REVIEW.**
