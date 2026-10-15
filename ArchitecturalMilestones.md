@@ -219,7 +219,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | O | 2026-09-30 |  |  | DF-DID-010 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md |
 | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-006 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md |
 | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-007 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md |
-| S | 2026-09-30 | 2026-10-15 |  | DF-DID-008 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md |
+| C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-008 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md |
 | O | 2026-09-30 |  |  | DF-DID-011 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md |
 | O | 2026-09-30 |  |  | DF-DID-012 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md |
 | O | 2026-09-30 |  |  | DF-DID-013 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-013 - Document Identity Dictionary.md |
@@ -669,3 +669,5 @@ Step4.20 VALIDATE (2026-10-15): exact unchanged DID-007 V2.0 R1 local correction
 Step4.21 REVIEW (2026-10-15): exact unchanged DID-008 V1.0 R0 Canonical/Baseline1.0,Author Arnaldo Figueira;9 findings/2 warnings Open. Seven C/one S/56 O M12 In Progress;DID-008 start2026-10-15,no completion. ReportR66 section72;CHANGELOG428–431;UPDATE/VALIDATE pending;prior local results retained,no global approval/Baseline.
 
 Step4.21 UPDATE (2026-10-15): DID-008 V2.0 R1 Draft/unassigned,Family/Component Document Identity,Type Behavior,cumulative Author Arnaldo Figueira; Codex — AI assistant. 11 corrections pending VALIDATE;original responsibilities/7 exclusions,6 compliance/6 violation subjects retained with authority/evidence/change boundaries. Seven C/one S/56 O M12 In Progress;no completion. ReportR67 section73;CHANGELOG432–434;no operational mutation/global approval/Baseline.
+
+Step4.21 VALIDATE (2026-10-15): exact unchanged DID-008 V2.0 R1 local correction PASS;11 records Closed—verified;7 operational exclusions/all original responsibility subjects andcumulative Author retained. DID-008 completion2026-10-15;eight C/56 O M12 In Progress. ReportR68 section74;CHANGELOG435–437. Draft/unassigned;mandatory authority/record/state/required-graph/global integration pending,no approval/Baseline. Next4.22 REVIEW DF-DID-009.
