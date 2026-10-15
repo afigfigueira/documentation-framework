@@ -215,7 +215,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-003 — V2.0 R1 Draft;scoped validation PASS | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
 | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
-| O | 2026-09-30 |  |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
+| S | 2026-09-30 | 2026-10-15 |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
 | O | 2026-09-30 |  |  | DF-DID-010 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md |
 | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-006 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md |
 | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-007 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md |
@@ -671,3 +671,5 @@ Step4.21 REVIEW (2026-10-15): exact unchanged DID-008 V1.0 R0 Canonical/Baseline
 Step4.21 UPDATE (2026-10-15): DID-008 V2.0 R1 Draft/unassigned,Family/Component Document Identity,Type Behavior,cumulative Author Arnaldo Figueira; Codex — AI assistant. 11 corrections pending VALIDATE;original responsibilities/7 exclusions,6 compliance/6 violation subjects retained with authority/evidence/change boundaries. Seven C/one S/56 O M12 In Progress;no completion. ReportR67 section73;CHANGELOG432–434;no operational mutation/global approval/Baseline.
 
 Step4.21 VALIDATE (2026-10-15): exact unchanged DID-008 V2.0 R1 local correction PASS;11 records Closed—verified;7 operational exclusions/all original responsibility subjects andcumulative Author retained. DID-008 completion2026-10-15;eight C/56 O M12 In Progress. ReportR68 section74;CHANGELOG435–437. Draft/unassigned;mandatory authority/record/state/required-graph/global integration pending,no approval/Baseline. Next4.22 REVIEW DF-DID-009.
+
+Step4.22 REVIEW (2026-10-15): exact unchanged DID-009 V1.0 R0 Canonical/Baseline1.0,Author Arnaldo Figueira;9 findings/2 warnings Open. Eight C/one S/55 O M12 In Progress;DID-009 start2026-10-15,no completion. ReportR69 section75;CHANGELOG438–441;actual reciprocal required claims retained,UPDATE/VALIDATE pending;no DAG/global approval/Baseline.

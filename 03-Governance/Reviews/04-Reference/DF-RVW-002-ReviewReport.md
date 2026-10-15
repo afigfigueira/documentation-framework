@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 68 |
+| **Revision** | 69 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -274,6 +274,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 66 | Step4.21 complete Governance REVIEW;9 findings/2 warnings Open | Compatible report event;section72;source unchanged;next UPDATE |
 | 2026-10-15 | 1.0 | 67 | Step4.21 Governance UPDATE;V2.0 R1;11 corrections pending | Compatible report event;section73;source validation not performed |
 | 2026-10-15 | 1.0 | 68 | Step4.21 exact Governance V2.0 R1 local PASS;11 closures | Compatible report event;section74;source unchanged;no global approval |
+| 2026-10-15 | 1.0 | 69 | Step4.22 complete Relationships REVIEW;9 findings/2 warnings Open | Compatible report event;section75;source unchanged;next UPDATE |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -5615,3 +5616,81 @@ Eleven DID008 records move Corrected—pending validation→Closed—verified. T
 ReportV1.0 R67→R68;CHANGELOG435 exact source validation,436 report,437 Milestone. Stable89 progress positions,current manifest andcumulative Context-only package verified;temporary Author indicator absent. Source remains Draft/unassigned. No actual allocation,mutation,retirement,migration,runtime governance approval,formal approval,publication orBaseline inclusion inferred. Final integrated delivery remains pending.
 
 **Pause after VALIDATE. CONTINUAR starts4.22 REVIEW DOCUMENT DF-DID-009 — Document Identity Relationships,then pauses before UPDATE.**
+
+## 75. Step 4.22 — REVIEW DOCUMENT DF-DID-009 — Document Identity Relationships
+
+### 75.1. Exact source andphase boundary
+
+**REVIEW complete,2026-10-15:9 findings and2 warnings,all11 Open. No UPDATE orVALIDATE DOCUMENT performed.** Source `02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md`;SHA-256 `82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1`;10630 bytes. Complete14 chapters/all numbered bodies,four principles,three Documentation/four Governance/five Discovery/five Automation roles,five Integration examples,13 ownership rows,six constraints,five original dependencies andtwo views examined.
+
+Received V1.0 R0,Family Documentation,Type Structure,Component Document Identity,Author Arnaldo Figueira,Canonical/Baseline1.0,English remains byte-identical;source original date/history absent andno Markdown links. Received Canonical/Baseline declarations do not prove actual approval orsuccessor selection. Input is the exact cumulative Step4.21 Validated package;PolicyV1.0 R2 governs. Prior exact local Governance V2.0 R1 validation andall earlier semantic/attribution-only limits remain unchanged.
+
+### 75.2. Findings,proposals andclosure criteria
+
+All records Open. Proposals do not modify the source,approve an integrated relationship graph orsilently reconcile actual required contracts.
+
+| Record | Severity | Source sections | Observation | Proposed correction | Required closure evidence |
+|---|---|---|---|---|---|
+| DID009-01 | Medium | Header;1;13–14 | Received Family Documentation differs from canonical component Family;Canonical/Baseline1.0 andabsent edition history do not establish an approved working successor. | Use Family/Component Document Identity,retain Type Structure andID/path;preserve original Arnaldo contribution/received declarations andadd evidenced later contributor only on actual UPDATE. | Exact header/history/compatibility andPolicy3/5/7;working Draft/unassigned,cumulative provenance explicit. |
+| DID009-02 | High | 1–2;4.2;5.1–5.3;11;14 | Every document/major component andeach classification/template is treated as already using a document identity without assigned-normalized scope orseparation oflogical documents,files,exact editions andother definition/instance/entity endpoints. | Scope document-identity consumption to actual applicable assigned normalized document subjects;apply functional exclusions anddistinguish classification/Template/Metadata entities,exact editions andactual consumer needs without universal mandatory routing/dependencies. | DID-001/003/005/006/008 andARC-005 actual role/population comparisons;no automatic DF IDs forevery file/entity oruniversal source-of-truth service. |
+| DID009-03 | High | 3;5.1.1–5.3.1;7.1;7.5;10;12–13 | Untyped diagram arrows andAll dependencies unidirectional/no consumer dependency do not identify consumer→provider contract scopes,andconflict with actual DID README identity→Metadata consumption while source5.1 declares Metadata→Identity. | Separate collaboration,semantic ownership,documentary authority,projection/navigation/execution andactual indispensable consumer→provider requirements. Preserve literal reciprocal claims andaffected sources/context;assess same/cross-Layer requirements/cycles under ARC-004/005 without hiding anedge by relabelling. | Typed actual-source edge/claim matrix with responsible exact editions/interfaces,support-order/same-Layer/cycle limits;do not certify aDAG orresolved reciprocal contract merely by core/descriptor names ormissing edges. |
+| DID009-04 | High | 4.1–4.3;5;7;11–12 | Exclusive definition/no alternative models andowns-versus-references matrix do not distinguish document endpoint meaning from descriptor/category/connection/registration/projection records,other entity domains orlegitimate aliases/representations andcontrolled domain evolution. | Retain identity semantic ownership under applicable common Architecture/Policy while keeping other record/domain owners;qualify model/representation reuse,mutable records andactual prior/new owner-consumer assessment before necessary contract evolution/migration. | DID-001/004/005/008 andMetadata contracts;all13 original matrix subjects retain typed area/component distinction;no competing identity semantics,ownership transfer,arbitrary key change orsilently waived common rule. |
+| DID009-05 | High | 4.4;5;7.1–7.5;11–12 | Canonical resolution andall semantic associations always target canonical document identities without qualified Domain+Identifier,optional incoming0..N,typed other endpoints,exact edition/context,alias/target interpretation orlive-retrieval validity limits. | Define intended qualified document-target/exact-edition context andother endpoint contracts;keep optional incoming cardinality/per-reference validity separate,connection/Registry/Graph ownership explicit,andactual dangling/ambiguous/stale/unavailable observations without silent creation/retargeting. | DID-0035.4/6,DID-0054.3/8.3,DID-0075.5/6.7 andDID-0084.5/8.5;actual target/alias/context andhistorical versuslive evidence,not universal document-ID orrunning-resolver promise. |
+| DID009-06 | High | 6.1–6.4;9;10–12 | Workflow manages processes andBaselines groups identities without actual contract-versus-executor authority,exact approved-edition/context selection orvalidation/review/approval/publication/Baseline distinction;area chain can imply operational routing. | Preserve four Governance roles with Workflow/Policies/Reviews/Baselines contracts distinct from DMS/tool/manual/CMS execution;state exact member eligibility/selection/pinned relation context andimmutable snapshot continuity,not membership orapproval from logical identity orlocal PASS. | ARC-0056,DID-0019.7,DID-0068,DID-0079.5,DID-0088.3;actual authority/event/evidence andexact-edition cases,no inherited Draft approval orhistorical retargeting. |
+| DID009-07 | Medium | 7.1–7.5;11–12 | Graph representation is reduced to implementation concern andNavigation never creates identity information without separating logical projection/index/discovery contracts from actual generation,lookup,properties/freshness andauthoritative allocation semantics. | Preserve five Discovery roles;distinguish qualified key/connection/registration authority,actual source-edition/freshness/context andmutable projection properties. Permit legitimate derived representation without competing identity allocation ormandatory universal intermediary. | ARC-0057/12,DID-0019.4–9.6,DID-005/008 reference/graph boundaries;no graph-source authority transfer,universal availability orunchanged physical-node claim. |
+| DID009-08 | Medium | 8.1–8.5;9;11 | Automation role labels differ from canonical registered names,Integration examples/area rows mix components andenvironments,andgenerated/exchanged identities lack exact-input/output provenance,owner/authorization/result limits. | Map retained received labels to actual Validation,Metadata Generator,Registry Generator,Consistency Verification,Documentation Generator andfive Integration components;identify optional adapters/executors,input/output editions/bytes/author provenance andactual checks without invented data,permissions orapproval. | Explicit received→registered map against ARC-0058/9;allfive Automation/five example subjects retained,Automation/Integration matrix rows qualified as areas;no new components orimplemented global service implied. |
+| DID009-09 | High | 1–14,especially10;12;14 | Separation/independence is asserted to ensure every component consumes identity correctly andguarantee permanent/canonical stability without actual governing source/edition,required interface,executor,coverage/observations orremaining peer/integration authority limits. | Make contract requirements distinct from implementation/global outcomes;state exact source/consumer/subject/context andactual evidence/limits,stable key versusmutable records andcontrolled transition requirements. Preserve unresolved field/state/dependency work andlocal-versus-global validation/approval boundary. | Source-wide actual contract/result comparison with DID-005/006/007/008 andARC-004/005;no universal DAG,consumer conformance,allocation,resolver,approval,publication orBaseline inferred from document presence. |
+| DID009-W01 | Low | 3;10 | Two diagrams omit relation-kind/direction/context legends andmix component/area labels;the overview can be interpreted as a required serial area/execution chain orprovider→consumer arrows despite actual consumer→provider contracts. | Preserve alloriginal labels andboth view texts/digests with section anchors;type each depicted relation,source claim,area/component scope anddirection,show actual required edges separately andretain unresolved reciprocal claims without invented historic IDs. | Complete received/written view/edge map;no arrow/order-only dependency oracyclicity proof,mandatory serial pipeline orsilent deletion ofactual claims. |
+| DID009-W02 | Low | All14 chapters;4–13 | Four principles,three Documentation/four Governance/five Discovery/five Automation/five Integration example subjects,13 matrix rows,six constraints,five dependencies andtwo views need full change-map andresolving reference provenance. | Preserve original headings/role labels/rows/dependency IDs andrecord exact before-after/header/body/view/role-name/compatibility history maps with intended-ID links;qualify area labels without removing historical subjects orinventing dates. | Complete inventory/role/edge map,digests andtarget IDs;original cumulative Arnaldo authorship,prior exact-source results andhistorical exports retained;functional exclusions unchanged. |
+
+### 75.3. Actual required claims versusuntyped diagrams
+
+| Source | Claim kind | Consumer | Provider | Contract / meaning | Evidence / remaining limit |
+|---|---|---|---|---|---|
+| DID-0095.1.1 | received required dependency declaration | Metadata | Document Identity | identity of the normalized document described | needs actual scope/interface/consumer/owner reconciliation;not downgraded to navigation |
+| DID README Component Dependencies/Metadata | actual peer required dependency declaration | Document Identity | Metadata | canonical descriptive concepts used to describe identity | reciprocal declaration retained;different core/descriptor names alone do not prove acyclicity |
+| DID-0095.2.1 | received required dependency declaration | Classification | Document Identity | identity of normalized classified documents | classification entities have distinct keys/subjects |
+| DID-0095.3.1 | received required dependency declaration | Templates | Document Identity | identity of normalized Template documents | Template definition/instance keys are not automatically DF document IDs |
+| DID-0097.1 | received required dependency declaration | Registry | Document Identity | canonical document identification in registration | no universal Registry intermediary orlookup implementation |
+| DID-0097.5 | received required dependency declaration | Search | Document Identity | document-target identity in identified search results | actual target/context andsearch scope,not every entity |
+| DID-0093/10 diagrams | untyped received view arrows | None | None | collaboration/overview labels without relation-kind legend | do not infer actual required edges orruntime order from arrow placement |
+| DID-00910 prose | received blanket claim | Document Identity | none of its consumers | no consuming-component dependency;all dependencies unidirectional | contradicts unrestricted reading of actual README reciprocal claim;source-local review does not certify DAG |
+
+The reciprocal Metadata/Identity declarations are actual source evidence,not invented graph edges. Their exact core/descriptor/record/interface scopes need owner/consumer reconciliation before integrated compatibility oracyclicity can be claimed. Different use names alone do not prove independence;projection/navigation labels cannot erase an indispensable required contract. Conversely,untyped arrows in the two received diagrams are not sufficient evidence to infer an operational required edge ormandatory area chain. Preserve their labels/text/digests while separating collaboration,meaning provision,ownership,required consumption,authority references,projection,navigation andexecution.
+
+ARC-00412–13 andARC-00512 govern consumer→provider direction,support precedence,legitimate same-Layer requirements andprohibited required cycles in their actual scope. Knowledge Graph→Relationships andWorkflow→Policies are explicit same-Layer examples;Baselines also consumes Metadata exact-edition descriptors andDocument Identity logical member meaning. Aone-arrow diagram ormissing edge proves no full DAG. No local REVIEW result closes the earlier global dependency findings orcertifies every peer's implementation.
+
+### 75.4. Role-name andsubject boundaries
+
+| Received Automation/Integration label | Actual ARC-005 registered capability |
+|---|---|
+| 8.1 Validation | Validation |
+| 8.2 Metadata Generation | Metadata Generator |
+| 8.3 Registry Generation | Registry Generator |
+| 8.4 Consistency Verification | Consistency Verification |
+| 8.5 Documentation Generators | Documentation Generator |
+| 9 Source Control | Source Control Integration |
+| 9 CI/CD platforms | CI/CD Integration |
+| 9 IDE extensions | IDE Integration |
+| 9 Documentation platforms | Documentation Platform Integration |
+| 9 AI-based services | AI Integration |
+
+Original headings/examples must remain traceable,with explicit role-name maps rather than new components. Automation/Integration ownership-matrix rows are areas,not single components with a universal runtime call path. Actual generation/integration needs identified input/output editions/representations,owner/authorization contracts,actual contributor andchecks/observations/coverage. Source presence or AI/tool output supplies no invented identity/category/state/approval facts,semantic ownership orpermission.
+
+Classification/Template/Metadata definition/instance/entity identities are not automatically normalized document IDs;scope actual document-target use. Document Identity owns document endpoint meanings,Relationships connection semantics/records,Registry registration andKnowledge Graph derived projections with provenance/freshness. Graph logical projection contracts are architectural responsibilities while storage/runtime choices remain separate. Canonical domain/key/alias andexact-edition target interpretation differ from live lookup/retrieval;optional incoming0..N is separate from per-reference validity. Preserve actual target/context evidence rather than silently allocating orretargeting to resolve a reference.
+
+Workflow/Policies/Reviews/Baselines define documentary contracts;actual DMS/tool/manual operation andCMS change scope are separate. Baselines needs explicit exact approved-edition eligibility,selection andpinned relation context ortraceable evidence,not logical identity alone. Local validation/review is neither formal approval norpublication/inclusion;Draft successors do not inherit membership orretarget immutable history. Actual mandatory field/state/constraint andreciprocal required-contract propagation remain pending owner work.
+
+### 75.5. UPDATE preservation andprospective edition
+
+Retain all14 original chapter numbers/numbered headings,four principles,three Documentation/four Governance/five Discovery/five Automation labels,five Integration examples,13 original ownership subjects,six constraints,five dependency IDs andboth views. Preserve exact body/header/role/area/edge/view originals anddigests with original sections;no fabricated historic view ID orsource date. Full received/written typed-contract andcanonical-role maps,intended-ID references,compatibility/history andactual peer impacts required. Area labels remain qualified historical subjects rather than silently removed matrix rows.
+
+Family/Component Document Identity andretained Type Structure proposed;keep original Arnaldo author andadd only actual evidenced later contributor on UPDATE,using semicolon-space. Changed successor is Draft/Baseline Not assigned with received Canonical/Baseline1.0 as history. ID/path retained. Prospective applicability,typed required/reciprocal dependence,owner/reference/record andguarantee changes likely require incompatible V2.0 R1;actual UPDATE must justify compatibility,not infer major change from Family alone. No allocation,ID/path migration,peer update,complete graph approval orimplemented interface created by REVIEW.
+
+### 75.6. Tracking,checks andpause
+
+Eleven DID009 records Open;prior210 Closed—verified and19 global Open retained;INV-02 Not applicable. Current totals30 Open,210 Closed—verified,one Not applicable;no corrected-pending source records. M12 eight C/one S/55 O,In Progress;DID-009 started2026-10-15,no completion. Prior exact local cycles,semantic/provenance scope andactual milestone history unchanged.
+
+ReportV1.0 R68→R69;CHANGELOG438 REVIEW,439 report,440 Milestone,441 REVIEW integrity checks. Stable89 progress positions,current manifest,all historical exports andall domain bytes preserved. Traceability PASS concerns source/inventory/comparison hashes andactual history/tracking/Context-only packaging,not source VALIDATE DOCUMENT,closure,full dependency-graph proof,architectural approval,publication orBaseline selection.
+
+**Pause after REVIEW. CONTINUAR starts4.22 UPDATE DOCUMENT DF-DID-009 — Document Identity Relationships,then pauses before VALIDATE DOCUMENT.**
