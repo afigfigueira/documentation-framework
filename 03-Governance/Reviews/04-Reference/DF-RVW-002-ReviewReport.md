@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 57 |
+| **Revision** | 58 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -263,6 +263,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-14 | 1.0 | 55 | Step4.17 UPDATE; DID-004 V2.0 R1; ten corrections pending | Compatible report event; section61; source VALIDATE DOCUMENT not performed |
 | 2026-10-14 | 1.0 | 56 | Step4.17 exact DID-004 V2.0 R1 local validation PASS;10 closures | Compatible report event;section62;source unchanged;no global approval |
 | 2026-10-15 | 1.0 | 57 | Step4.18 complete DID-005 REVIEW;8 findings/2 warnings Open | Compatible report event;section63;source unchanged;next UPDATE;no source validation |
+| 2026-10-15 | 1.0 | 58 | Step4.18 UPDATE;DID-005 V2.0 R1;10 corrections pending validation | Compatible report event;section64;no source validation or approval |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -5101,3 +5102,40 @@ Ten local DID005 records Open;global19 Open and prior167 Closed—verified retai
 ReportV1.0 R56→R57,CHANGELOG398 REVIEW,399 report,400 Milestone,401 REVIEW evidence checks. Stable89 progress positions,current manifest and historical evidence preserved;all domain source bytes unchanged. REVIEW traceability checks concern input/source/peer hashes,complete heading/view inventories,intended dependency IDs,tracking/history and Context-only packaging. They are not VALIDATE DOCUMENT,closure,implementation conformance,approval,publication or Baseline membership.
 
 **Pause after REVIEW. CONTINUAR starts4.18 UPDATE DOCUMENT DF-DID-005 — Document Identity Schema,then pauses before VALIDATE DOCUMENT.**
+
+## 64. Step 4.18 — UPDATE DOCUMENT DF-DID-005 — Document Identity Schema
+
+### 64.1. Exact successor and phase
+
+UPDATE complete,2026-10-15;no VALIDATE DOCUMENT performed. Exact source V1.0 R0 becomes **V2.0 R1,Draft,Baseline Not assigned**. Family/Component Document Identity,Type Structure,Author Arnaldo Figueira; Codex — AI assistant. Original Canonical/Baseline1.0 and absent date remain received history;ID/path unchanged. Output SHA-256 `06848d5545855826bf92bb215bb074276841b3da074cf0588115121e9c21ae18`.
+
+Ten DID005-01–08/W01/W02 records are Corrected—pending validation,not Closed. Section63 preserves REVIEW-time Open states;earlier exact semantic and attribution-only results retain their scopes. All other domain sources and historical exports remain byte-identical.
+
+### 64.2. Corrections and future validation scope
+
+| Records | Actual correction / source clauses | Required VALIDATE evidence |
+|---|---|---|
+| DID005-01 | Header;1/12/14:component Family,cumulative authors,working lifecycle,received provenance | Exact header/history and original attribution comparison |
+| DID005-02 | 1–4/7.3/8/13:assigned normalized subject,functional exclusions,files/editions/pre-allocation/Baseline distinct | Full source applicability and peer comparison |
+| DID005-03 | 4.1–4.2/5/7.3/8.1–8.2:Domain+Identifier,DF-SSS-NNN stable series001–999/non-reuse/000/overflow,canonicalization/evidence scope | Corpus syntax boundary examples plus actual domain/allocation rules;no syntax-only uniqueness claim |
+| DID005-04 | 2/3/6/7.3/12–14:explicit selected-view versus complete-record field matrix,State/Canonical Reference obligations retained | Exact DID-003/004/006/014 subjects/mandatory claims;no silent field waiver or merged-state approval |
+| DID005-05 | 3/4.3/5/6/8.3/9:incoming optional0..N,external connection records,typed qualified/exact-edition targets | Preserve1/1/0..N,per-reference target distinction/connection ownership and historical/live validity |
+| DID005-06 | 9/10/12:identity meaning versus connection/registration/Metadata/executor responsibilities,Governance area and actual reciprocal required claims | ARC-004/005,DID-009 and DID README comparison;no hidden required cycle |
+| DID005-07 | 4.1.3/4.2.3/7.2/8/11/14:stable key versus mutable records,controlled edition/migration/consumer assessment | Actual incompatible rationale and monotonic Revision;DID-01414 conflict remains pending;no key reassignment/historical retargeting |
+| DID005-08 | 1–14:requirements,owner rules,actual artifacts/context,executor/check/observation limits | Source-wide evidence/conformance boundary;no runtime service or architectural approval implied |
+| DID005-W01 | 3/6:two typed conceptual views;4.1.2/4.2.2/4.3.2 retain cardinality declarations | Full received/written view/cardinality provenance;scope/direction/ownership explicit |
+| DID005-W02 | All32 original headings,13 chapters,3 elements/cardinality/ownership rows,6 interactions,4 principles,3 constraints,4 dependencies retained | Full before-after maps,intended link IDs and preservation checks |
+
+Two original structural diagrams become typed subject/association views retaining their original-section anchors;three cardinality declarations remain. Full original texts/digests,32 numbered body/header before-after maps,field/cardinality authority matrix and complete source/central diff are attached under assets. Original optional0..N is preserved,not corrected into mandatory incoming references.
+
+### 64.3. Compatibility and remaining conflicts
+
+This is an incompatible meaning correction,not just a Family relabelling:unqualified universal-schema/uniqueness assertions,identity-owned reference records and unconditional future-compatible evolution are replaced by explicit assigned-subject/domain/owner contracts and assessed controlled change. Version1.0→2.0,Revision0→1 under Policy5;Revision not reset. Corpus representation integrates adopted rules without allocating IDs or imposing a format on external domains.
+
+DID-014 mandatory State/Lifecycle State/Canonical Reference and additive/backward-compatible-only extension claims remain explicitly recorded,not waived. The selected key/association view does not authorize disregarding those claims or certify an accepted complete record. State vocabulary/authority,reference/Metadata/registration ownership,actual reciprocal required scopes/cycles and global implementation evidence require responsible peer cycles. Logical identity alone selects no exact approved Baseline edition;historical snapshots/reservations remain preserved. No migration or peer edit occurs.
+
+### 64.4. Tracking and pause
+
+ReportV1.0 R57→R58;CHANGELOG402 source UPDATE,403 report,404 Milestone. Progress/manifest synchronized. Totals19 global Open,10 Corrected—pending validation,167 Closed—verified,INV-02 Not applicable. M12 four C/one S/59 O In Progress;DID-005 start2026-10-15,no completion. Construction checks verify heading/map/link existence,historical/domain preservation and packaging only;they do not constitute VALIDATE DOCUMENT or local closure. No publication,approval,Baseline,allocation,resolver or global architectural validation is claimed.
+
+**Pause after UPDATE. CONTINUAR starts4.18 VALIDATE DOCUMENT DF-DID-005,then pauses before any4.19 REVIEW.**
