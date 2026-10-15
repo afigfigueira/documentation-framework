@@ -214,7 +214,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-002 — V2.0 R2 Draft;authorship-only checks PASS;R1 cycle validation historical | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-003 — V2.0 R1 Draft;scoped validation PASS | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md |
 | C | 2026-09-30 | 2026-10-14 | 2026-10-14 | DF-DID-004 | /02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md |
-| S | 2026-09-30 | 2026-10-15 |  | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
+| C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
 | O | 2026-09-30 |  |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
 | O | 2026-09-30 |  |  | DF-DID-010 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md |
 | O | 2026-09-30 |  |  | DF-DID-006 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md |
@@ -651,3 +651,5 @@ Step4.17 VALIDATE after recovered REVIEW/UPDATE (2026-10-14): exact unchanged DI
 Step4.18 REVIEW (2026-10-15): DID-005 exact unchanged V1.0 R0 Canonical/Baseline1.0,Author Arnaldo Figueira;8 findings/2 warnings Open. Four C/one S/59 O,M12 In Progress;start2026-10-15,no completion. ReportR57 section63;CHANGELOG398–401;UPDATE/VALIDATE DOCUMENT pending;prior DID-004 local completion retained,no global approval/Baseline.
 
 Step4.18 UPDATE (2026-10-15): DID-005 V2.0 R1 Draft/unassigned,Family/Component Document Identity,Type Structure,cumulative Author Arnaldo Figueira; Codex — AI assistant. 10 corrections pending VALIDATE DOCUMENT;1/1/0..N retained;peer field/state/extension/required-graph conflicts explicit. Four C/one S/59 O,M12 In Progress;no completion. ReportR58 section64;CHANGELOG402–404;no global approval/Baseline.
+
+Step4.18 VALIDATE (2026-10-15): exact unchanged DID-005 V2.0 R1 local corrections PASS;10 records Closed—verified;1/1/0..N and cumulative Author retained. DID-005 completion2026-10-15;five C/59 O M12 In Progress. ReportR59 section65;CHANGELOG405–407. Source Draft/unassigned;peer field/state/extension/reciprocal required-scope integration pending;no global approval/Baseline. Next4.19 REVIEW DF-DID-006.
