@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 63 |
+| **Revision** | 64 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -269,6 +269,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 61 | Step4.19 UPDATE;DID-006 V2.0 R1;11 corrections pending | Compatible report event;section67;no source validation or global approval |
 | 2026-10-15 | 1.0 | 62 | Step4.19 exact Lifecycle V2.0 R1 local validation PASS;11 closures | Compatible report event;section68;source unchanged;no global approval |
 | 2026-10-15 | 1.0 | 63 | Step4.20 complete DID-007 REVIEW;9 findings/2 warnings Open | Compatible report event;section69;source unchanged;next UPDATE |
+| 2026-10-15 | 1.0 | 64 | Step4.20 UPDATE;DID-007 V2.0 R1;11 corrections pending | Compatible report event;section70;source validation not performed |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -5384,3 +5385,43 @@ Eleven DID007 records Open;prior188 Closed—verified and19 global Open retained
 ReportV1.0 R62→R63;CHANGELOG418 REVIEW,419 report,420 Milestone,421 REVIEW integrity checks. Stable89 progress positions,current manifest,all historical exports andall domain bytes preserved. Traceability PASS concerns exact source/inventory/comparison hashes,history/tracking andContext-only packaging,not VALIDATE DOCUMENT,closure,approval,publication,Baseline orarchitectural/implementation conformity.
 
 **Pause after REVIEW. CONTINUAR starts4.20 UPDATE DOCUMENT DF-DID-007 — Document Identity Validation,then pauses before VALIDATE DOCUMENT.**
+
+## 70. Step 4.20 — UPDATE DOCUMENT DF-DID-007 — Document Identity Validation
+
+### 70.1. Exact successor and phase
+
+UPDATE complete,2026-10-15. Received V1.0 R0 becomes **V2.0 R1, Draft, Baseline Not assigned**, Family/Component Document Identity, Type Behavior, cumulative Author Arnaldo Figueira; Codex — AI assistant. ID/path retained; original Canonical/Baseline1.0 and absent date preserved as received history. Output SHA-256 `dfe21ab2b6ce759bfa8629b40f49c82a2da1246eac443568ee127fc8ee860614`. No VALIDATE DOCUMENT performed.
+
+Eleven DID007-01–09/W01/W02 records are Corrected—pending validation. Section69 retains REVIEW-time Open states; all other domain bytes and historical evidence remain unchanged. Prior exact semantic and later attribution-only results retain their original coverage; UPDATE closes no record by implication.
+
+### 70.2. Corrections and required validation
+
+| Records | Actual source correction | Required later evidence |
+|---|---|---|
+| DID007-01 | Header;1/11/13:component Family,cumulative Author,received provenance,working lifecycle | Exact header/history and compatible report versus incompatible source assessment |
+| DID007-02 | 1–6/12:assigned normalized subject,key/record/file/edition/domain distinctions and exclusions | Complete applicability/existence/reference comparison;no allocation for excluded or pre-allocation subjects |
+| DID007-03 | 3.1–3.2/4/5.1/5.4/6:elements versus properties,explicit governing clauses and mandatory State/Canonical Reference conflicts | Schema/Specification/Lifecycle owner/record/authority checks;no invented prohibition or field waiver |
+| DID007-04 | 5.2/6.2–6.4/8:qualified domain/key,stable corpus rules,actual populations/reservations/aliases and coverage | Corpus boundary and partial-history cases;no global allocation/availability from syntax or index |
+| DID007-05 | 3.4/5.3/6.5–6.6/10:stable assigned key versus mutable supporting records,retirement/non-reuse and prior/new contract continuity | Exact before-after/current-history/owner observations,no remediation or snapshot retargeting by checking |
+| DID007-06 | 5.5/6.7/7–9:typed target,optional incoming0..N,exact-edition/context,historical/live validity and connection ownership | Target/reference/coverage/ownership cases;no mandatory incoming association or silent target creation |
+| DID007-07 | 2/4/5/9:evidence access versus semantic/result scope;relevant descriptors/content/representation/decision records permitted | Evidence-role/claim matrix;no full excluded-domain validation or competing ownership inferred |
+| DID007-08 | 2/3/7/8/12:four owner-defined outcome meanings,coverage limits and negative multi-observation aggregation | Cases for observed violation/conflict/unresolvable,missing evidence,unexecuted checks,authority conflict,changed context and fully scoped success |
+| DID007-09 | 3.5/7/9/10:pinned inputs/rules/context,actual executor/observations,checking versus evidence output/remediation and actual area/component roles | Repeatability/nonmutation/provenance cases;no deployed engine or context-free runtime guarantee |
+| DID007-W01 | 7:all seven original stage labels retained as typed coverage view;five categories/seven rules mapped,uniqueness explicit | Complete original-view/digest and stage/category/rule mapping,actual coverage not inferred from diagram |
+| DID007-W02 | All35 original headings/12 chapters,5 principles/scope/category labels,7 rules,4 outcomes,6 interactions/constraints/dependencies retained | Complete before-after maps,all labels and intended-ID/functional links |
+
+### 70.3. Result and evidence contract
+
+Valid is a fully evaluated applicable mandatory-rule claim for exact subject/input/rules/context, not successful subset, future guarantee or full framework approval. Invalid requires an actual observed mandatory violation; Inconsistent requires actual conflicting subject information; Unresolvable requires an actual performed target check/observation under its responsible context. Missing evidence,unexecuted checks and unresolved owner authority are separate coverage facts,not fabricated failures or a new lifecycle/document/Milestone state.
+
+Preserve all supported negative observations without silent precedence. Per-check success can coexist with failures elsewhere,but the same aggregate claim cannot be both Valid and contrary observations. An implementation needing one summary must disclose its mapping and preserve all observations;it cannot redefine these owner meanings or manufacture coverage. An arbitrarily narrowed successful subset cannot become a full Valid identity claim. Later artifacts/rules/context need new assessment.
+
+Identity-result boundaries do not forbid inspecting relevant content,Metadata values,representations or decision records as evidence. Such access does not validate those entire domains or transfer their semantics. Nonmutating checking differs from writing a result/evidence report;correction,allocation or migration remains separate. Inputs/rules/editions/context and actual executor/observation provenance qualify repeatability/determinism. Governance/Automation remain areas with actual responsible components,not evidence that an engine exists.
+
+This source change is incompatible in applicability,evidence access,record/reference scope,outcome authority/aggregation and guarantee interpretation,not merely Family relabelling:Version1.0→2.0,Revision0→1 under Policy5. All35 original heading/body/header maps,full original/written workflow andscope/outcome mappings plus complete source/central diff are attached. Mandatory peer State/record/lifecycle authority andactual reciprocal required scopes remain pending,not waived. No allocation,identity mutation,migration,live resolver,peer edit or global approval occurs.
+
+### 70.4. Tracking and pause
+
+ReportV1.0 R63→R64;CHANGELOG422 source UPDATE,423 report,424 Milestone. Totals19 global Open,11 Corrected—pending validation,188 Closed—verified,INV-02 Not applicable. M12 six C/one S/57 O In Progress;DID-007 start2026-10-15,no completion. Progress/manifest synchronized. Construction checks concern heading/map/link existence,preservation and packaging only,not VALIDATE DOCUMENT orclosure. Source Draft/unassigned;no publication,approval or Baseline membership.
+
+**Pause after UPDATE. CONTINUAR starts4.20 VALIDATE DOCUMENT DF-DID-007,then pauses before4.21 REVIEW.**
