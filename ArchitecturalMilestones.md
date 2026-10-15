@@ -217,7 +217,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
 | O | 2026-09-30 |  |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
 | O | 2026-09-30 |  |  | DF-DID-010 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md |
-| S | 2026-09-30 | 2026-10-15 |  | DF-DID-006 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md |
+| C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-006 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md |
 | O | 2026-09-30 |  |  | DF-DID-007 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md |
 | O | 2026-09-30 |  |  | DF-DID-008 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md |
 | O | 2026-09-30 |  |  | DF-DID-011 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md |
@@ -657,3 +657,5 @@ Step4.18 VALIDATE (2026-10-15): exact unchanged DID-005 V2.0 R1 local correction
 Step4.19 REVIEW (2026-10-15): exact unchanged DID-006 V1.0 R0 Canonical/Baseline1.0,Author Arnaldo Figueira;9 findings/2 warnings Open. Five C/one S/58 O M12 In Progress;DID-006 start2026-10-15,no completion. ReportR60 section66;CHANGELOG408–411;UPDATE/VALIDATE pending;prior source-local results retained,no global approval/Baseline.
 
 Step4.19 UPDATE (2026-10-15): DID-006 V2.0 R1 Draft/unassigned,Family/Component Document Identity,Type Behavior,cumulative Author Arnaldo Figueira; Codex — AI assistant. 11 corrections pending VALIDATE;4 state labels/7 events/8 original transition triples/7 conditional status correspondences retained. Five C/one S/58 O M12 In Progress;no completion. ReportR61 section67;CHANGELOG412–414;State/record/required-graph/implementation integration pending,no global approval/Baseline.
+
+Step4.19 VALIDATE (2026-10-15): exact unchanged DID-006 V2.0 R1 local correction scope PASS;11 records Closed—verified;8 original selected transition triples/status subjects retained,cumulative Author preserved. DID-006 completion2026-10-15;six C/58 O M12 In Progress. ReportR62 section68;CHANGELOG415–417. Draft/unassigned;state/record/permission/required-graph/global integration pending,no approval/Baseline or actual retirement. Next4.20 REVIEW DF-DID-007.
