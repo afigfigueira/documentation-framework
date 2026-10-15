@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 69 |
+| **Revision** | 70 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -275,6 +275,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 67 | Step4.21 Governance UPDATE;V2.0 R1;11 corrections pending | Compatible report event;section73;source validation not performed |
 | 2026-10-15 | 1.0 | 68 | Step4.21 exact Governance V2.0 R1 local PASS;11 closures | Compatible report event;section74;source unchanged;no global approval |
 | 2026-10-15 | 1.0 | 69 | Step4.22 complete Relationships REVIEW;9 findings/2 warnings Open | Compatible report event;section75;source unchanged;next UPDATE |
+| 2026-10-15 | 1.0 | 70 | Step4.22 Relationships UPDATE; V2.0 R1;11 corrections pending | Compatible report event;section76;source validation not performed |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -5694,3 +5695,41 @@ Eleven DID009 records Open;prior210 Closed—verified and19 global Open retained
 ReportV1.0 R68→R69;CHANGELOG438 REVIEW,439 report,440 Milestone,441 REVIEW integrity checks. Stable89 progress positions,current manifest,all historical exports andall domain bytes preserved. Traceability PASS concerns source/inventory/comparison hashes andactual history/tracking/Context-only packaging,not source VALIDATE DOCUMENT,closure,full dependency-graph proof,architectural approval,publication orBaseline selection.
 
 **Pause after REVIEW. CONTINUAR starts4.22 UPDATE DOCUMENT DF-DID-009 — Document Identity Relationships,then pauses before VALIDATE DOCUMENT.**
+
+## 76. Step 4.22 — UPDATE DOCUMENT DF-DID-009 — Document Identity Relationships
+
+### 76.1. Exact successor and operation
+
+UPDATE complete,2026-10-15. Received V1.0 R0 becomes **V2.0 R1, Draft, Baseline Not assigned**, Family/Component Document Identity, Type Structure, cumulative Author Arnaldo Figueira; Codex — AI assistant. ID/path unchanged; received Canonical/Baseline1.0 and absent date retained as provenance. Output SHA-256 `892dab07966a3a6e49ebcd2e97afeb9898c8022f7889d6538a24b8260cac4566`. No VALIDATE DOCUMENT performed.
+
+Eleven DID009-01–09/W01/W02 records are Corrected—pending validation, not Closed. Section75 retains REVIEW-time states. Other domain bytes and historical evidence remain unchanged; earlier exact-source results keep their actual scope.
+
+### 76.2. Corrections and later closure evidence
+
+| Record | Updated source scope | Required later validation |
+|---|---|---|
+| DID009-01 | Header;1/13/15:component Family,Structure retained,cumulative author,received provenance,Draft/unassigned | Exact header/history/compatibility and authorship |
+| DID009-02 | 1–2/4.2/5/11/14:assigned normalized scope,other entity/edition distinctions,functional exclusions | Applicable subject/consumer cases,not universal IDs/routes |
+| DID009-03 | 3/5.1.1/10/12–13:typed actual consumer→provider claims,reciprocal Metadata requirements retained | Exact source/edition/scope/interface comparison,no concealed edge or DAG claim |
+| DID009-04 | 4.1–4.3/5/7/11–12:identity semantic versus record/domain ownership,common authority,legitimate representations and controlled change | All13 matrix subjects and actual prior/new owner/consumer boundaries |
+| DID009-05 | 4.4/5/7/11–12:qualified/typed endpoints,exact edition/context,optional incoming0..N,historical versus live availability | Intended target/cardinality/alias/connection cases,no silent creation/retargeting |
+| DID009-06 | 6/9–12:four Governance contracts,actual DMS/tool/manual/CMS executor,exact approved eligible selection/pinned context | No identity-only membership,inherited Draft approval or historical snapshot retargeting |
+| DID009-07 | 7/11–12:five Discovery roles,logical graph contract,source/context/provenance/freshness and mutable projections | No ownership transfer,mandatory intermediary,new allocation or retrieval guarantee |
+| DID009-08 | 8–9/11:five Automation andfive Integration received→registered maps,exact input/output/contribution/check evidence | Canonical role names,area/component distinction,no fabricated facts/permissions/implementation |
+| DID009-09 | 1–15:contracts versus actual outcomes,authority/check/coverage limits,stable key versus mutable records and necessary transition | Source-wide peer/owner/result boundaries;mandatory state/reference/dependency work remains |
+| DID009-W01 | 3/10:two typed replacement views,all received labels/text/digests preserved externally | Full view/claim map,consumer→provider convention,no serial pipeline or acyclicity proof |
+| DID009-W02 | All41 original headings/14 chapters and role/list/dependency subjects retained | Full before/after bodies/header/roles/links/history and original author evidence |
+
+### 76.3. Dependency and preservation decision
+
+Metadata→Document Identity remains the required identification claim. The functional DID README's actual Document Identity→Metadata descriptive-concept requirement is preserved as a reciprocal required claim, not relabelled optional navigation. The former blanket no-consumer-dependency assertion is replaced with this explicit unresolved conflict. Exact comparison sources/hashes remain attached; owner/core-versus-descriptor/interface reconciliation is pending. Scope naming alone does not resolve a real required cycle. Selected Registry/Graph/Workflow/Baselines requirements under ARC-004/005 are recorded without claiming a complete graph or supplied implementation interfaces.
+
+Required edges mean consumer→provider. Same-Layer use needs actual scopes/interfaces and no required cycles; support order is not a universal execution chain. Semantic ownership, reference, documentary authority, projection and execution remain distinct. Mandatory State/Canonical Reference/lifecycle/constraint authority and full owner/consumer propagation remain pending; no peer requirement is waived.
+
+Two received view texts/digests,41 complete body maps,original header,all13 matrix subjects,six constraint subjects,five original documentary dependencies,five Automation/five Integration mappings and complete source/central diff are attached. Original ID/path and all prior domain/evidence bytes retained. V1.0→2.0/R0→R1 reflects incompatible applicability,dependency/reference/ownership and operational evidence boundary changes under Policy5, not mere Family relabelling.
+
+### 76.4. Tracking and pause
+
+Report V1.0 R69→R70;CHANGELOG442 source UPDATE,443 report,444 Milestone. Totals19 global Open,11 Corrected—pending validation,210 Closed—verified,INV-02 Not applicable. M12 eight C/one S/55 O In Progress;DID-009 start2026-10-15,no completion. Progress/manifest synchronized. Construction checks cover preservation,heading/maps/link existence and packaging only;they are not VALIDATE DOCUMENT or finding closure. Draft/unassigned;no implemented global conformity,architectural approval,publication or Baseline membership.
+
+**Pause after UPDATE. CONTINUAR starts4.22 VALIDATE DOCUMENT DF-DID-009,then pauses before4.23 REVIEW.**
