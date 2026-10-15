@@ -1,0 +1,841 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/60",
+  "date": "2026-10-15",
+  "step": "4.19",
+  "phase": "REVIEW",
+  "input_package_sha256": "1ceb49c9022c1d6936d99b2ae55c708b8d4251c2bc2475e46291b83beb08729f",
+  "source_path": "02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md",
+  "source_sha256": "daac70f4f6a8b3fa177a71e4f4e5f89bc93951ef6bf3529bdcbf950c01eba024",
+  "source_bytes": 9353,
+  "source_unchanged": true,
+  "received_edition": "V1.0 R0;Family Documentation;Type Behavior;Component Document Identity;Author Arnaldo Figueira;Canonical/Baseline1.0;English",
+  "coverage": "Complete13 chapters/all numbered bodies;4 states/5 principles/7 events/8 transition rows/7 document-status rows/6 component interactions/6 constraints/5 dependencies/5 fenced blocks;selected peers only",
+  "section_map": [
+    {
+      "number": "1",
+      "title": "Purpose",
+      "body": "\n\nThis document defines the architectural lifecycle of a **Document Identity** within the Documentation Framework.\n\nIts purpose is to describe the lifecycle of the identity itself, independently of the lifecycle of the document, its content, metadata, governance, storage, or implementation.\n\nThe Document Identity Lifecycle specifies the architectural events that affect the existence of a document identity while preserving its permanence and stability.\n\n---\n\n",
+      "body_sha256_utf8": "0550ca9cea7f512638ae54e127ad77eea37af34923fe2644034840b702745e85"
+    },
+    {
+      "number": "2",
+      "title": "Introduction",
+      "body": "\n\nEvery document managed by the Documentation Framework possesses exactly one permanent identity.\n\nUnlike documents, whose content, metadata, classification, governance state, and storage location may evolve over time, the identity itself follows a minimal and stable lifecycle.\n\nOnce established, a document identity becomes the permanent architectural reference for that document throughout its entire existence.\n\n---\n\n",
+      "body_sha256_utf8": "b39bbfbb4c9cfbcfa1eda751a81c486ae042f15c8652788d591045630a08cc41"
+    },
+    {
+      "number": "3",
+      "title": "Lifecycle Principles",
+      "body": "\n\nThe lifecycle of a document identity is governed by the following principles.\n\n",
+      "body_sha256_utf8": "7225aad97157a8c228141484005462fe8e4a9483053d7d6fd0fbd52188e94180"
+    },
+    {
+      "number": "3.1",
+      "title": "Permanence",
+      "body": "\n\nOnce assigned, a document identity shall remain associated with the same document for its entire lifetime.\n\n---\n\n",
+      "body_sha256_utf8": "06e56917a21fd42b213e8a10d64f9529c5789c81fb4e13e6b4cd3f989d99863e"
+    },
+    {
+      "number": "3.2",
+      "title": "Immutability",
+      "body": "\n\nThe identity shall never be modified.\n\nOnly the document associated with the identity may evolve.\n\n---\n\n",
+      "body_sha256_utf8": "1507866b64c49b3918bee6bb121c6012c86937570ff1aef2a1da46bf7a59c929"
+    },
+    {
+      "number": "3.3",
+      "title": "Uniqueness",
+      "body": "\n\nAn identity shall never be reused for another document.\n\n---\n\n",
+      "body_sha256_utf8": "3dd5bad0ff66c3d6d97adeeaef805d35c463e5cde53c31bf5dc2b2b551890b9e"
+    },
+    {
+      "number": "3.4",
+      "title": "Independence",
+      "body": "\n\nThe lifecycle of the identity is independent of:\n\n- document content;\n- metadata;\n- classification;\n- governance;\n- repository;\n- storage technology;\n- implementation.\n\n---\n\n",
+      "body_sha256_utf8": "7b058c07d4266b4f4d25a07b2ef0ff31f7ba09534e7768461bfe0e9bfd7147da"
+    },
+    {
+      "number": "3.5",
+      "title": "Traceability",
+      "body": "\n\nA document identity shall remain suitable for long-term architectural reference.\n\n---\n\n",
+      "body_sha256_utf8": "a3c39ce5fed245933e68cd36cbdbf42769731945052c5ae7dffbb7310189d6a8"
+    },
+    {
+      "number": "4",
+      "title": "Lifecycle States",
+      "body": "\n\nA document identity progresses through the following conceptual states.\n\n```text\n\n                    ┌───────────────────┐\n                    │     Unassigned    │\n                    └───────────────────┘\n                              │\n                              ▼\n\n                    ┌───────────────────┐\n                    │      Assigned     │\n                    └───────────────────┘\n                              │\n                              ▼\n\n                    ┌───────────────────┐\n                    │     Preserved     │\n                    └───────────────────┘\n                              │\n                              ▼\n\n                    ┌───────────────────┐\n                    │      Retired      │\n                    └───────────────────┘\n```\n\nThese states describe the existence of the identity, not the operational state of the document.\n\n---\n\n",
+      "body_sha256_utf8": "cf06458d30251356f34331884d4f3698939387a704fbbd2706a8e821afddde63"
+    },
+    {
+      "number": "5",
+      "title": "State Definitions",
+      "body": "\n\n",
+      "body_sha256_utf8": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+    },
+    {
+      "number": "5.1",
+      "title": "Unassigned",
+      "body": "\n\n",
+      "body_sha256_utf8": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+    },
+    {
+      "number": "5.1.1",
+      "title": "Description",
+      "body": "\n\nThe document does not yet possess a document identity.\n\n",
+      "body_sha256_utf8": "1e68a678ee959751f6464a9605f70a82d592c11bfc1901fe241d9fc18ff6ec22"
+    },
+    {
+      "number": "5.1.2",
+      "title": "Characteristics",
+      "body": "\n\n- temporary;\n- identity does not exist;\n- no references are permitted.\n\n",
+      "body_sha256_utf8": "e6c654c016e41e2d3af9e9bf7ac26a1f6d4232568c3f1c4424f69598b0957355"
+    },
+    {
+      "number": "5.1.3",
+      "title": "Allowed Transition",
+      "body": "\n\n```text\nUnassigned → Assigned\n```\n\n---\n\n",
+      "body_sha256_utf8": "23217e83b0b395ca8144c1fe6299e9902bb101270cf3886a10f8ecf6ac1233cf"
+    },
+    {
+      "number": "5.2",
+      "title": "Assigned",
+      "body": "\n\n",
+      "body_sha256_utf8": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+    },
+    {
+      "number": "5.2.1",
+      "title": "Description",
+      "body": "\n\nA permanent identity has been associated with the document.\n\nThe document becomes uniquely identifiable within its identity domain.\n\n",
+      "body_sha256_utf8": "230e72241357012e034f8a8b259f018fc9e7d244ab4b81f186ffad9003266ddb"
+    },
+    {
+      "number": "5.2.2",
+      "title": "Characteristics",
+      "body": "\n\n- identity exists;\n- immutable;\n- globally referenceable;\n- unique.\n\n",
+      "body_sha256_utf8": "9b84c26eb5d1d1a9d27cdaff026385a486536552295d057484507c6f16881d98"
+    },
+    {
+      "number": "5.2.3",
+      "title": "Allowed Transition",
+      "body": "\n\n```text\nAssigned → Preserved\n```\n\n---\n\n",
+      "body_sha256_utf8": "397e5aff8e18285c80b03814072a4cb4b98651f7f3d544b546abd68fe76987e0"
+    },
+    {
+      "number": "5.3",
+      "title": "Preserved",
+      "body": "\n\n",
+      "body_sha256_utf8": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+    },
+    {
+      "number": "5.3.1",
+      "title": "Description",
+      "body": "\n\nThe document continues to evolve while maintaining the same identity.\n\nAll modifications to the document preserve the assigned identity.\n\nExamples include:\n\n- metadata updates;\n- content revisions;\n- edition creation;\n- classification changes;\n- repository migration;\n- format conversion;\n- governance transitions.\n\nNone of these operations affect the identity.\n\n",
+      "body_sha256_utf8": "604f7b6708f86f58cc04f2e839ec2b4dd82ae1595865cd0bd9dfd6a99dfcbba6"
+    },
+    {
+      "number": "5.3.2",
+      "title": "Allowed Transition",
+      "body": "\n\n```text\nPreserved → Retired\n```\n\n---\n\n",
+      "body_sha256_utf8": "e7bebb2f177d89dfda47d4339c0bd12a70d683a618e2e9ae9736bcb0a21bf5fe"
+    },
+    {
+      "number": "5.4",
+      "title": "Retired",
+      "body": "\n\n",
+      "body_sha256_utf8": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+    },
+    {
+      "number": "5.4.1",
+      "title": "Description",
+      "body": "\n\nThe document identity is no longer associated with an active document within the architectural scope.\n\nThe identity is permanently retired.\n\nRetirement does **not** permit identity reuse.\n\nHistorical references remain valid.\n\n",
+      "body_sha256_utf8": "2958a798db3b57fd5d885346460d600cd3786966d5ae59fba45c0a06d778c23b"
+    },
+    {
+      "number": "5.4.2",
+      "title": "Characteristics",
+      "body": "\n\n- immutable;\n- non-reusable;\n- historically valid;\n- permanently reserved.\n\n---\n\n",
+      "body_sha256_utf8": "026b0a1603925c5b73a75620883a76c5c9a45630fa823a6beecab25785b8c61c"
+    },
+    {
+      "number": "6",
+      "title": "Lifecycle Events",
+      "body": "\n\nThe lifecycle is driven by the following architectural events.\n\n| Event | Description |\n|--------|-------------|\n| Identity Assignment | A new identity is associated with a document. |\n| Document Evolution | The document changes while preserving its identity. |\n| Repository Migration | The document moves without changing identity. |\n| Metadata Evolution | Metadata changes without affecting identity. |\n| Classification Evolution | Classification changes without affecting identity. |\n| Governance Evolution | Governance processes preserve identity. |\n| Identity Retirement | The identity is permanently retired. |\n\n---\n\n",
+      "body_sha256_utf8": "6a27c2db4133b6d2dc85d9ebf1a77490be231b396ce9b5c36bcddbe8e7a5ee80"
+    },
+    {
+      "number": "7",
+      "title": "Lifecycle State Transitions",
+      "body": "\n\n| Current State | Event | Next State |\n|---------------|-------|------------|\n| Unassigned | Identity Assignment | Assigned |\n| Assigned | Document Evolution | Preserved |\n| Preserved | Content Revision | Preserved |\n| Preserved | Metadata Update | Preserved |\n| Preserved | Classification Update | Preserved |\n| Preserved | Repository Migration | Preserved |\n| Preserved | Governance Transition | Preserved |\n| Preserved | Identity Retirement | Retired |\n\nNo other transitions are permitted.\n\n---\n\n",
+      "body_sha256_utf8": "990502a57ab32bb7e579fb12cd2023c225106c89a6af7360985e792bef82d1dc"
+    },
+    {
+      "number": "8",
+      "title": "Relationship with Document Lifecycle",
+      "body": "\n\nThe Document Identity Lifecycle is distinct from the lifecycle of a document.\n\n| Document Lifecycle | Identity Lifecycle |\n|--------------------|-------------------|\n| Draft | Assigned / Preserved |\n| Review | Preserved |\n| Approved | Preserved |\n| Published | Preserved |\n| Archived | Preserved |\n| Obsolete | Preserved |\n| Deleted | Retired |\n\nThe operational state of the document never determines the identity.\n\n---\n\n",
+      "body_sha256_utf8": "5330642e332ad2f66d12aefb24e30b94a15f024679b0ed59c6a4c4e7838de82f"
+    },
+    {
+      "number": "9",
+      "title": "Relationship with Other Components",
+      "body": "\n\n",
+      "body_sha256_utf8": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+    },
+    {
+      "number": "9.1",
+      "title": "Metadata",
+      "body": "\n\nMetadata evolves independently while preserving identity.\n\n---\n\n",
+      "body_sha256_utf8": "95a70b97502436771204983bb784045a3c926ef1db954955d96e6de465643d66"
+    },
+    {
+      "number": "9.2",
+      "title": "Classification",
+      "body": "\n\nClassification changes do not affect identity.\n\n---\n\n",
+      "body_sha256_utf8": "eabcf6b37e48de7f2183320e9c626d77a9419017edccc90bc277a794b4fad21a"
+    },
+    {
+      "number": "9.3",
+      "title": "Governance",
+      "body": "\n\nGovernance processes preserve identity throughout the document lifecycle.\n\n---\n\n",
+      "body_sha256_utf8": "0d56514297967fae76ea0ad3fc070f540851349487e023d16536331ecdb9b990"
+    },
+    {
+      "number": "9.4",
+      "title": "Registry",
+      "body": "\n\nRegistry entries continue to reference the same identity.\n\n---\n\n",
+      "body_sha256_utf8": "7b095caf48010caa4b57b3c71a004d86016bb022b85a72dbd216ba79330b6950"
+    },
+    {
+      "number": "9.5",
+      "title": "Relationships",
+      "body": "\n\nRelationships remain valid because document identities are stable.\n\n---\n\n",
+      "body_sha256_utf8": "77c773bb9dd2b8f4b30770f2d099094e4ac1e658cc915942f3932030c903ebac"
+    },
+    {
+      "number": "9.6",
+      "title": "Knowledge Graph",
+      "body": "\n\nGraph nodes representing document identities remain unchanged throughout the lifecycle.\n\n---\n\n",
+      "body_sha256_utf8": "ec4e9789c67b928649d0668d6dbcea46a27e0ba5cc6134dc73e8dcff9b6580d7"
+    },
+    {
+      "number": "10",
+      "title": "Architectural Constraints",
+      "body": "\n\nThe lifecycle shall satisfy the following constraints.\n\n- An identity shall be assigned only once.\n- An identity shall never change.\n- An identity shall never be duplicated.\n- An identity shall never be reused.\n- Retirement shall not invalidate historical references.\n- Identity shall remain independent of implementation technologies.\n\n---\n\n",
+      "body_sha256_utf8": "5570649f2059e2a3d322b2391af0939db9135f5777f926fda882640b02d61f3d"
+    },
+    {
+      "number": "11",
+      "title": "Lifecycle Overview",
+      "body": "\n\n```text\n\n            Document Created\n                    │\n                    ▼\n\n            Identity Assigned\n                    │\n                    ▼\n\n       Document Evolves Repeatedly\n                    │\n                    ▼\n\n            Identity Preserved\n                    │\n                    ▼\n\n            Document Retired\n                    │\n                    ▼\n\n            Identity Retired\n\n```\n\nThroughout the lifecycle:\n\n- the identifier remains unchanged;\n- references remain valid;\n- uniqueness is preserved;\n- ownership remains with the Document Identity component.\n\n---\n\n",
+      "body_sha256_utf8": "64b78ce5270b0349b17f1e4f64fb74e37b89e74ebcaead21e386810b6561aca8"
+    },
+    {
+      "number": "12",
+      "title": "Dependencies",
+      "body": "\n\nThis document depends upon:\n\n- DF-DID-001 — Document Identity Architecture\n- DF-DID-002 — Document Identity Concepts\n- DF-DID-003 — Document Identity Model\n- DF-DID-004 — Document Identity Elements\n- DF-DID-005 — Document Identity Schema\n\n---\n\n",
+      "body_sha256_utf8": "3a258cea71e49b745f818a2d7f5800fb864d726da70c2535e09c365bf5e34b7f"
+    },
+    {
+      "number": "13",
+      "title": "Summary",
+      "body": "\n\nThe Document Identity Lifecycle defines the canonical lifecycle of document identities within the Documentation Framework.\n\nUnlike documents, whose operational states may change over time, document identities follow a minimal lifecycle that guarantees permanence, uniqueness, immutability, and long-term traceability.\n\nThis lifecycle ensures that document identities remain stable architectural references regardless of document evolution, governance processes, repository migrations, or implementation technologies.\n\n---\n\n**End of Document**\n\n---",
+      "body_sha256_utf8": "96eb449d5a26eb58e0b9b5c258664b90ab1390287fc8f036156215968e5e95a6"
+    }
+  ],
+  "received_views": [
+    {
+      "source_order": 1,
+      "section": "4",
+      "role": "conceptual state chain",
+      "text": "                    ┌───────────────────┐\n                    │     Unassigned    │\n                    └───────────────────┘\n                              │\n                              ▼\n\n                    ┌───────────────────┐\n                    │      Assigned     │\n                    └───────────────────┘\n                              │\n                              ▼\n\n                    ┌───────────────────┐\n                    │     Preserved     │\n                    └───────────────────┘\n                              │\n                              ▼\n\n                    ┌───────────────────┐\n                    │      Retired      │\n                    └───────────────────┘\n",
+      "sha256_utf8": "fcbc6988c2338cb96fe753201dfe6d6f4dff73054f51e5ce1e66f153f714630b"
+    },
+    {
+      "source_order": 2,
+      "section": "5.1.3",
+      "role": "transition block",
+      "text": "Unassigned → Assigned\n",
+      "sha256_utf8": "26f7b07e75833ea6ca80ffe509200f05b5e209abfd27750991b70936325c9e6a"
+    },
+    {
+      "source_order": 3,
+      "section": "5.2.3",
+      "role": "transition block",
+      "text": "Assigned → Preserved\n",
+      "sha256_utf8": "d4775c89352d995601a57cac7542b686786963880aa15b06f2a29ef927436203"
+    },
+    {
+      "source_order": 4,
+      "section": "5.3.2",
+      "role": "transition block",
+      "text": "Preserved → Retired\n",
+      "sha256_utf8": "d7e1c70cc36693a797dce8816131da4c3c4d9561d3117d9d8db1bb4ee967da25"
+    },
+    {
+      "source_order": 5,
+      "section": "11",
+      "role": "lifecycle overview",
+      "text": "            Document Created\n                    │\n                    ▼\n\n            Identity Assigned\n                    │\n                    ▼\n\n       Document Evolves Repeatedly\n                    │\n                    ▼\n\n            Identity Preserved\n                    │\n                    ▼\n\n            Document Retired\n                    │\n                    ▼\n\n            Identity Retired\n\n",
+      "sha256_utf8": "34bd759b8a9f26fa578b98d53eeb6079bb83154fbc18a751fa3c8deed0fa339b"
+    }
+  ],
+  "original_event_rows": [
+    "| Identity Assignment | A new identity is associated with a document. |",
+    "| Document Evolution | The document changes while preserving its identity. |",
+    "| Repository Migration | The document moves without changing identity. |",
+    "| Metadata Evolution | Metadata changes without affecting identity. |",
+    "| Classification Evolution | Classification changes without affecting identity. |",
+    "| Governance Evolution | Governance processes preserve identity. |",
+    "| Identity Retirement | The identity is permanently retired. |"
+  ],
+  "original_transition_rows": [
+    "| Unassigned | Identity Assignment | Assigned |",
+    "| Assigned | Document Evolution | Preserved |",
+    "| Preserved | Content Revision | Preserved |",
+    "| Preserved | Metadata Update | Preserved |",
+    "| Preserved | Classification Update | Preserved |",
+    "| Preserved | Repository Migration | Preserved |",
+    "| Preserved | Governance Transition | Preserved |",
+    "| Preserved | Identity Retirement | Retired |"
+  ],
+  "original_document_status_rows": [
+    "| Draft | Assigned / Preserved |",
+    "| Review | Preserved |",
+    "| Approved | Preserved |",
+    "| Published | Preserved |",
+    "| Archived | Preserved |",
+    "| Obsolete | Preserved |",
+    "| Deleted | Retired |"
+  ],
+  "transition_conflict_matrix": [
+    {
+      "source": "5.1.3 / 7 row1",
+      "received": "Unassigned→Assigned on Identity Assignment",
+      "issue": "pre-allocation subject versus assigned-key/record distinction and actual assignment evidence"
+    },
+    {
+      "source": "5.2.3 / 7 row2",
+      "received": "Assigned→Preserved on Document Evolution",
+      "issue": "scope/preconditions/evidence;retirement without prior evolution not specified"
+    },
+    {
+      "source": "5.3.2 / 7 rows3–8",
+      "received": "Preserved→Retired in subsection,plus Preserved self-loops and retirement in table",
+      "issue": "subsection not exhaustive while table claims no other transitions;event-name aliases/example mapping absent"
+    },
+    {
+      "source": "6 versus7",
+      "received": "Metadata/Classification/Governance Evolution versus Update/Transition;Repository Migration explicit",
+      "issue": "event taxonomy versus table trigger names needs traceable mapping;edition/format examples not explicit rows"
+    },
+    {
+      "source": "8 Deleted→Retired versus closing sentence",
+      "received": "Deleted maps to Retired;operational state never determines identity",
+      "issue": "automatic-looking status correlation conflicts with independent subject/decision;file/edition deletion differs from identity retirement"
+    }
+  ],
+  "records": [
+    {
+      "id": "DID006-01",
+      "severity": "Medium",
+      "sections": "Header;1;12–13",
+      "observation": "Family Documentation conflicts with the adopted component-family contract;received Canonical/Baseline1.0 and absence of edition history do not identify an approved working successor.",
+      "proposal": "Use Family/Component Document Identity,retain Type Behavior,source ID/path and original author;preserve received claims/history and add an evidenced contributor only upon actual UPDATE.",
+      "closure_criterion": "Exact header/history map and Policy3/5/7 compatibility/working-lifecycle checks;received input bytes retained.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "| **Family** | Documentation |",
+        "| **Type** | Behavior |",
+        "| **Author** | Arnaldo Figueira |"
+      ]
+    },
+    {
+      "id": "DID006-02",
+      "severity": "High",
+      "sections": "1–2;4;5.1;8;13",
+      "observation": "Every managed document is said to possess one identity while Unassigned means the identity does not exist;the lifecycle population is not limited to applicable normalized subjects and its pre-allocation/key/record/document-edition subjects are conflated.",
+      "proposal": "Separate pre-allocation documentary subject from assigned qualified key and its lifecycle record;apply functional exclusions and distinguish logical document,physical representation,exact edition,status,maturity and Baseline membership.",
+      "closure_criterion": "Check every existence/lifecycle claim against DID-001/003/004/005 and Policy2;Unassigned must not be treated as an already allocated key or mandatory state for every file.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "Every document managed by the Documentation Framework possesses exactly one permanent identity.",
+        "- identity does not exist;"
+      ]
+    },
+    {
+      "id": "DID006-03",
+      "severity": "High",
+      "sections": "3.3;5.2;5.4;6;10–11",
+      "observation": "Uniqueness is conflated with non-reuse and globally referenceable assignment;assignment once,global uniqueness/resolution and actual allocation/reservation authority/evidence are unspecified.",
+      "proposal": "Distinguish qualified-domain uniqueness,allocation versus association/non-reuse and canonical interpretation;identify responsible domain/series rules,collision/history/reservation checks and observed assignment/retirement evidence without implying implemented allocator.",
+      "closure_criterion": "Actual source/peer representation and allocation comparison;domain-qualified key and stable series under Policy4/DID-005;no syntax-only allocation/availability or universal global resolver claim.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "## 3.3. Uniqueness",
+        "An identity shall never be reused for another document.",
+        "- globally referenceable;",
+        "- An identity shall be assigned only once."
+      ]
+    },
+    {
+      "id": "DID006-04",
+      "severity": "High",
+      "sections": "3.2–3.4;5.3;9;10",
+      "observation": "Only document evolution is allowed while identity must never change;the text does not distinguish stable assigned key from mutable lifecycle/reference/descriptor/registration records or a justified governed migration affecting a contract.",
+      "proposal": "Scope immutability to same-document assigned key/association;allow owner-governed state/reference/descriptor changes,qualify ordinary repository/format/edition evolution and require previous/new owner/consumer mapping before any necessary migration.",
+      "closure_criterion": "Source-wide stable-key/mutable-record and controlled-evolution comparison with DID-0017,DID-0047 and DID-00511;no key reuse or historical snapshot retargeting;no migration executed.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "Only the document associated with the identity may evolve.",
+        "All modifications to the document preserve the assigned identity.",
+        "- An identity shall never change."
+      ]
+    },
+    {
+      "id": "DID006-05",
+      "severity": "High",
+      "sections": "4–7;11",
+      "observation": "A conceptual chain and three Allowed Transition blocks coexist with eight table rows and No other transitions permitted;Preserved self-loops are absent from its allowed-transition subsection,the seven event labels differ from table events,and format/edition evolution examples lack an explicit event mapping.",
+      "proposal": "Define the lifecycle subjects and authority/scope of state assertions/events/transitions;map all received states,events,eight transition rows,self-loops and examples with preconditions/evidence. Explicitly identify underspecified cases and do not invent a universal executable permission graph or silently add/revoke transitions.",
+      "closure_criterion": "Complete state/event/transition comparison matrix,including Assigned retirement without prior evolution and unchanged preservation cases as currently underspecified;align sections/views/table or declare their qualified roles;exact allowed-set/peer authority checks required.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "Preserved → Retired",
+        "| Preserved | Content Revision | Preserved |",
+        "No other transitions are permitted.",
+        "| Metadata Evolution | Metadata changes without affecting identity. |",
+        "| Preserved | Metadata Update | Preserved |"
+      ]
+    },
+    {
+      "id": "DID006-06",
+      "severity": "High",
+      "sections": "1;5.4;8;9.3;11",
+      "observation": "Document/identity lifecycles are called independent and operational state never determines identity,yet Deleted maps to Retired and a fixed seven-row document-state correspondence is presented without decision/subject/edition qualification.",
+      "proposal": "Keep all seven original rows as explicit qualified correlations or requirements with justified authority;separate document status/deletion of a file or edition from retirement decision for the logical identity,exact snapshot membership and evidence.",
+      "closure_criterion": "Compare the complete status matrix with DID-0019.7,DID-0044.4 and DID-0056;no automatic retirement by file deletion or approval/Baseline from a status label;retain actual peer conflicts.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "| Deleted | Retired |",
+        "The operational state of the document never determines the identity.",
+        "The identity is permanently retired."
+      ]
+    },
+    {
+      "id": "DID006-07",
+      "severity": "High",
+      "sections": "3.5;5.1.2;5.4;9.5;10–11",
+      "observation": "No references permitted before allocation and permanent historical-reference validity are unqualified;stability alone is said to keep Relationships valid,without typed target/exact-edition/context distinction,optional incoming population or live retrieval limits.",
+      "proposal": "Restrict assigned-key target requirements to the proper document-targeting subject;distinguish other associations/planned or unresolved references,existing qualified targets,optional0..N incoming records,exact-edition/context and historical interpretation versus actual resolution/retrieval.",
+      "closure_criterion": "Check DID-0035.4/6,DID-0044.5/7.5,DID-0054.3/8.3 and actual reference cases;no silent identity creation/retargeting,no mandatory incoming reference,no perpetual availability guarantee.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "- no references are permitted.",
+        "Historical references remain valid.",
+        "Relationships remain valid because document identities are stable."
+      ]
+    },
+    {
+      "id": "DID006-08",
+      "severity": "High",
+      "sections": "3.4;6;9.1–9.6;11–12",
+      "observation": "Independence and unchanged graph nodes overreach mutable projected data,registration and connection ownership;Governance is named without area/component distinction or actual required dependency context.",
+      "proposal": "Preserve six interaction subjects while distinguishing Document Identity meanings,Metadata descriptors,Registry registration,Relationships connections,Knowledge Graph projections and Governance area components/actual executors;make required consumer→provider conflicts visible.",
+      "closure_criterion": "Selected ARC-004/005,DID-009/functional README/Metadata comparisons;stable identity differs from mutable node properties/projection freshness;no required cycle hidden by association/projection labels.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "Graph nodes representing document identities remain unchanged throughout the lifecycle.",
+        "## 9.3. Governance",
+        "Registry entries continue to reference the same identity."
+      ]
+    },
+    {
+      "id": "DID006-09",
+      "severity": "High",
+      "sections": "1–13,especially5.2;5.4;6–7;10–13",
+      "observation": "The canonical lifecycle is presented as ensuring outcomes without actual observed state/event records,executor/preconditions/evidence limits or field/state authority integration with DID-005 and DID-014.",
+      "proposal": "Define lifecycle requirements and evidence expectations,not deployed operations;pin state subject/owner/edition,event/transition decision and observations,retain State/Canonical Reference contract conflicts and distinguish DF,DMS/tool/manual,CMS,approval/publication/Baseline.",
+      "closure_criterion": "Complete source and peer state/record/evidence matrix with explicit coverage and pending propagation;no universal implementation,state-machine approval,global conformity or future outcome guarantee.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "document identities follow a minimal lifecycle that guarantees permanence, uniqueness, immutability, and long-term traceability.",
+        "This lifecycle ensures that document identities remain stable architectural references"
+      ]
+    },
+    {
+      "id": "DID006-W01",
+      "severity": "Low",
+      "sections": "4;5.1.3;5.2.3;5.3.2;7;11",
+      "observation": "Two chain views and three inline transition blocks have no subject/authority/direction/coverage legend;their relationship to table self-loops and the lifecycle of records is ambiguous.",
+      "proposal": "Preserve all five received blocks and original section anchors/text/digests;produce typed views/transition interpretations that distinguish selected conceptual progression from exhaustive permission or runtime workflow.",
+      "closure_criterion": "Five original/written view maps and all labels/transition meanings traceable;no invented historic view ID or implication that a chain is a complete allowed graph.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "# 4. Lifecycle States",
+        "# 11. Lifecycle Overview",
+        "Unassigned → Assigned",
+        "Assigned → Preserved",
+        "Preserved → Retired"
+      ]
+    },
+    {
+      "id": "DID006-W02",
+      "severity": "Low",
+      "sections": "All13 chapters;3–12",
+      "observation": "Four state definitions,five principles,seven events,eight transition rows,seven document-status rows,six component interactions,six constraints andfive dependencies need complete change provenance and resolving reference checks.",
+      "proposal": "Preserve original numbered headings/labels/rows and record full before-after/compatibility/source-history maps and intended-ID links in UPDATE. Record renamed event aliases and scope changes rather than silently discard examples/rows.",
+      "closure_criterion": "All original headings/subjects/rows/five dependency targets and view/body/header digests verified;original Arnaldo authorship,prior source-local results and historical evidence preserved.",
+      "state": "Open",
+      "literal_source_evidence": [
+        "# 13. Summary",
+        "- DF-DID-005 — Document Identity Schema"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "document_id": "DF-DID-001",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md",
+      "sha256": "f36e91e5a2255d5807b68bedd180f4c4d33d90c2b849e42a462815b11af6d21c",
+      "coverage": "Selected normalized/assigned scope,stable key,retirement and exact Baseline distinctions",
+      "literal_comparison_clauses": [
+        {
+          "section": "4",
+          "text": "# 4. Scope\n\nThe component's scope includes identity concepts, models, elements/schema, constraints, identity lifecycle, validation, governance, typed relationships, assessed extensibility, specifications and examples. Detailed sources retain their responsibilities; this architecture does not invent a canonical merged field catalog or certify all peer requirements.\n\nFor applicable normalized documents, logical identity remains associated with the same document across ordinary content/descriptor, classification, representation, repository and document-edition changes. Exact edition coordinates, document Status, identity-record assignment/preservation/retirement evidence, maturity and Baseline membership are separate facts. A mutable state record is not a replacement for the stable identity key.\n\nUnassigned concerns a pre-allocation subject, not an already assigned Domain+Identifier key. Retirement preserves allocated-number reservation, document association/history and reference interpretation; it does not guarantee a running resolver or retrievable content. Document lifecycle and identity-record lifecycle can have distinct subjects/contracts. The source does not prescribe a universal transition or permission graph.\n\nDID-003/004/005/006/010/014 currently disagree on reference cardinality, mandatory State/Canonical Reference fields and identity state terminology. Those actual claims are preserved in §12.3 for full owner cycles. The architectural distinctions here neither merge incompatible schemas nor silently remove/add their mandatory fields. No Metadata Dictionary Element, Profile or canonical state record is fabricated.\n\n---\n\n"
+        },
+        {
+          "section": "7",
+          "text": "# 7. Core Architectural Characteristics\n\nWithin its declared allocation/preservation contract, an assigned logical identity shall be unique for the document in its domain, stable through normal evolution, and never reassigned to a different document. Domain qualification is required to interpret uniqueness; an identifier string alone is not universally unique across unregistered domains.\n\nImmutability concerns the assigned Domain+Identifier key under its applicable contract, not every mutable record about that identity. Identity-state evidence, references, location, descriptors and exact-edition coordinates can evolve under their own owner rules without automatically replacing the key. References and aliases interpret an existing logical document; they do not license another document to reuse its identity. Allocated and retired identities remain reserved.\n\nPreserve valid assigned identity during ordinary classification, repository, format, lifecycle and edition changes. If a necessary authorized schema/ID migration would change an otherwise immutable representation/allocation contract, first assess and explicitly reconcile the governing previous/new rules with responsible identity/domain sources. Record old→new mappings, same-document continuity, aliases/reservations, collisions, historical/reference/context effects, exact source editions, affected consumers and transition verification before coordinated application. Preserve original representations and historical immutable snapshot selections; never retarget old members or reassign retired allocations to another document. No blanket permission for arbitrary identity changes or two contradictory governing rules for one operation is introduced. This localized UPDATE performs no migration.\n\nLong-term understandable/referenceable identity is a requirement and design objective supported by qualified domain/canonicalization and actual preservation/resolution evidence. It guarantees neither universally understood bare strings nor future content availability. Exact-edition references additionally identify the intended Version/Revision and relevant bytes/context; logical identity alone selects neither an exact edition nor Baseline membership.\n\n---\n\n"
+        },
+        {
+          "section": "9.7",
+          "text": "## 9.7. Governance\n\nWorkflow, Policies, Reviews and Baselines define documentary transition, decision, review and snapshot requirements; actual operation remains with DMS/tool/manual processes and CMS change scope. Identity-record lifecycle, document Status/Version/Revision, maturity, review, validation, approval, publication and membership are distinct. A state list alone is neither a universal permission graph nor an implemented workflow.\n\nBaselines selects an explicitly identified immutable set of exact approved document editions with relevant pinned relationship context or traceable verification evidence. Identity alone cannot select an exact member; eligibility, consistency and actual inclusion remain separate checks. Draft successors neither inherit membership nor retarget older snapshots. Retired identities preserve reservations/history without implying current document publication or resolver availability.\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-DID-002",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-002 - Document Identity Concepts.md",
+      "sha256": "6b3adf13bfe20d4f6b360368f1b587f8da09fa4d36b880d5d20eb67f451f1d52",
+      "coverage": "Selected document/key/domain/reference/lifetime and descriptor/evolution concepts",
+      "literal_comparison_clauses": [
+        {
+          "section": "3.1",
+          "text": "## 3.1 Document\n\nA **Document** is a logical documentary knowledge entity under an applicable recognition and normalization scope. An exact document edition records particular content/descriptors and context; a file or representation is not the logical entity itself.\n\nNormalized identity obligations apply after the functional-file exclusion in §2. Template definitions/instances, Metadata Elements and graph/relationship records can have other qualified entity contracts; not every knowledge asset or endpoint receives a DF document ID.\n\n**Evidence boundary:** Identify the actual subject, scope and exact edition/representation examined. Distinguish valid logical identity from coordinates, Status, maturity and membership; registration or recognition alone proves neither approval nor complete conformance.\n\n---\n\n"
+        },
+        {
+          "section": "3.2",
+          "text": "## 3.2 Document Identity\n\nA **Document Identity** identifies the same logical document under a declared **Domain+Identifier** allocation/preservation contract. Uniqueness applies within that domain, not to every bare string in every external system. Identity remains associated with the document through ordinary changes and is not reconstructed from current classification, path or edition.\n\nThe assigned key, canonical identifier representation, mutable identity-record state and exact edition are separate. DID-001 establishes the applicable architecture; full peer schema integration remains pending.\n\n**Evidence boundary:** Check domain qualification, actual allocation/reservation records, intended document continuity and examined source editions. No successful allocation, universal resolver or arbitrary key change is implied by the definition.\n\n---\n\n"
+        },
+        {
+          "section": "3.4",
+          "text": "## 3.4 Identifier\n\nAn **Identifier** is the canonical representation used to reference identity within its declared domain. The representation is not the logical document itself. Human/machine interpretation follows applicable domain, syntax, canonicalization and adapter requirements rather than universally understandable bare strings.\n\nFor this DF corpus, DF-SSS-NNN uses stable registered three-letter allocation series and a positive allocated number under DID-001/Review Policy. The series is independent of current Family/Type/path/Version/Revision. Detailed logical schema/constraint/specification owners supply actual representation contracts; this concept supplies no physical format or generation algorithm.\n\n**Evidence boundary:** Check actual domain/representation rules and intended reference target. Preserve current owner discrepancies; do not infer arbitrary domain creation, a merged mandatory field schema or completed corpus migration from this synopsis.\n\n---\n\n"
+        },
+        {
+          "section": "3.6",
+          "text": "## 3.6 Identity Lifetime\n\nThe **Identity Lifetime** concerns assignment, active use and preserved historical identity association under the applicable contract. Ending active document use or retiring/deleting an operational representation does not by itself erase retained identity history/reservations or permit reassignment to another document.\n\nIdentity-record lifecycle and document-edition lifecycle have different subjects. Unassigned describes a pre-allocation subject; retirement preserves reservation/history and reference interpretation, not evidence of current publication or live content retrieval. DID-004/006/014 state disagreements remain owner work.\n\n**Evidence boundary:** Identify the actual active/historical/retired subject and preservation evidence. The concept does not prescribe an immortal storage implementation or guarantee future resolution/content availability; it preserves non-reuse and traceable historical association obligations.\n\n---\n\n"
+        },
+        {
+          "section": "3.7",
+          "text": "## 3.7 Identity Stability\n\n**Identity Stability** requires valid assigned identity to remain associated with the same document through ordinary content/descriptor, classification, repository, format, lifecycle and edition evolution. The key is stable under its governing allocation contract; mutable state/location/reference records do not automatically replace it.\n\nNecessary authorized schema/ID migration that changes an otherwise immutable representation/allocation rule first explicitly reconciles governing previous/new contracts with responsible identity/domain owners. Record old→new mapping, same-document continuity, aliases/reservations, collisions, history/reference/context, exact editions, affected consumers and transition checks before coordinated application. Preserve historical immutable snapshot selections; no arbitrary reassignment or simultaneous contradictory governing rules is introduced.\n\n**Evidence boundary:** Assess actual target continuity, representations and owner/consumer evidence. Stability supports preserved reference interpretation but does not ensure a running resolver or retrieved content. This localized UPDATE performs no migration.\n\n---\n\n"
+        },
+        {
+          "section": "5",
+          "text": "# 5. Relationship with Metadata\n\nDocument Identity owns identity/domain/allocation meanings. Metadata defines/represents descriptors under their responsible semantic owners; representing an identity value does not redefine or replace identity. Dictionary defines, Schema organizes, Profile constrains and Instance supplies values under one effective Profile. The following preserves the five received contrast subjects with actual qualifications.\n\n| Received identity-side contrast | Received Metadata-side contrast | Qualified interpretation |\n|---|---|---|\n| Identifies a document | Describes a document | Key meaning versus descriptors; values may represent identity under its domain constraints |\n| Permanent | Evolves over time | Same-document association/non-reuse versus actual descriptor/entity/edition lifecycle; not every value is mutable |\n| Immutable | May change | Assigned key versus mutable support records/representations; identity values preserve owner constraints |\n| Unique | May contain repeated values | Domain uniqueness versus actual per-element occurrence/uniqueness rules; some represented values have identity constraints |\n| Stable | Version dependent | Logical identity versus actual descriptor/entity/edition context; not universal Metadata Version dependence |\n\nMetadata Elements, definitions and represented instance values have their own qualified identity/lifecycle subjects. Semantic separation does not guarantee independent editions or content-free verification; coordinated descriptor/content changes may be needed. No Metadata Element ID, mandatory catalog field or Profile is created by this Concept source.\n\nMTD-003 §8 says Schema defines Metadata Elements, while MTD-013 assigns canonical definitions/catalog responsibility to Dictionary. These actual owner-source claims and catalog/Profile gaps remain pending full reconciliation. This table follows adopted role boundaries without certifying a merged schema or complete peer propagation.\n\n---\n\n"
+        },
+        {
+          "section": "8",
+          "text": "# 8. Concept Boundaries\n\n**This document defines concepts only.** The **Document Identity component** also defines architectural, model, element/schema, allocation/preservation, lifecycle, validation, governance, reference and controlled-evolution contracts through their responsible sources. It does not itself execute identifier generation, storage, assignment or management services.\n\nThis source can explain logical domain/identifier/reference/representation requirements without supplying complete syntax/schema catalogs, algorithm code, physical persistence or operational permissions. Detailed constraints and implementation choices remain qualified by their owners. Explicit conceptual limits do not prohibit legitimate logical contract requirements or assign all responsibility solely to Specification.\n\nPreserve compatible meaning where feasible. Necessary changes require previous/new rationale, exact affected editions, owners/consumers, dependencies, compatibility and transition checks. For working document editions, compatible correction retains Version; compatible additive capability increments minor; incompatible contract change increments major and resets minor to 0. Each changed persisted edition increments Revision monotonically across Version changes. Validation of unchanged source changes neither coordinate and is tracked centrally. Other entity-domain numbering/lifecycle remains separate.\n\nResponsible supplied source map; these are documentary authority/navigation references, not runtime edges or proof of complete peer conformance:\n\n- [DF-DID-001 — Document Identity Architecture](DF-DID-001-DocumentIdentityArchitecture.md).\n- [DF-DID-003 — Document Identity Model](DF-DID-003%20-%20Document%20Identity%20Model.md).\n- [DF-DID-004 — Document Identity Elements](DF-DID-004%20-%20Document%20Identity%20Elements.md).\n- [DF-DID-005 — Document Identity Schema](../02-Structure/DF-DID-005%20-%20Document%20Identity%20Schema.md).\n- [DF-DID-006 — Document Identity Lifecycle](../03-Behavior/DF-DID-006%20-%20Document%20Identity%20Lifecycle.md).\n- [DF-DID-009 — Document Identity Relationships](../02-Structure/DF-DID-009%20-%20Document%20Identity%20Relationships.md).\n- [DF-DID-010 — Document Identity Constraints](../02-Structure/DF-DID-010%20-%20Document%20Identity%20Constraints.md).\n- [DF-DID-013 — Document Identity Dictionary](../04-Reference/DF-DID-013%20-%20Document%20Identity%20Dictionary.md).\n- [DF-DID-014 — Document Identity Specification](../04-Reference/DF-DID-014%20-%20Document%20Identity%20Specification.md).\n- [DF-ARC-002 — Architectural Principles](../../../01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md).\n- [DF-ARC-003 — Architectural Concepts](../../../01-Architecture/DF-ARC-003-ArchitecturalConcepts.md).\n- [DF-ARC-004 — Architectural Layers](../../../01-Architecture/DF-ARC-004-ArchitecturalLayers.md).\n- [DF-ARC-005 — Architectural Components](../../../01-Architecture/DF-ARC-005-ArchitecturalComponents.md).\n- [DF-ARC-006 — Terminology](../../../01-Architecture/DF-ARC-006-Terminology.md).\n- [DF-ARC-007 — Component Documentation Structure](../../../01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md).\n- [DF-RVW-001 — Review Policy](../../../03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md).\n- [DF-RVW-002 — Review Report](../../../03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md).\n- [DF-MTD-003 — Metadata Model](../../Metadata/01-Architecture/DF-MTD-003-MetadataModel.md).\n- [DF-MTD-013 — Metadata Dictionary](../../Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md).\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-DID-003",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-003 - Document Identity Model.md",
+      "sha256": "be7ddc3e783aa3ece4216de50662794e65b0133b431422a343846b404ef897cb",
+      "coverage": "Selected entities,assignment/domain/reference/cardinality clauses",
+      "literal_comparison_clauses": [
+        {
+          "section": "4",
+          "text": "# 4. Model Entities\n\nThe five received entity labels are retained. They identify conceptual subjects, not a populated Metadata catalog or mandatory merged identity-record schema.\n\n| Entity | Qualified model description | Evidence/owner boundary |\n|---|---|---|\n| **Document** | Logical documentary entity recognized under applicable normalization scope | Files, exact editions, pre-allocation subjects and other entity kinds are distinct |\n| **Document Identity** | Same-document logical identity under a declared Domain+Identifier allocation/preservation contract | Assigned key differs from supporting state/reference records; actual allocation/reservation evidence required |\n| **Identifier** | Canonical representation of qualified identity under its domain rules | String is not the logical entity, current classification or every alias/reference representation |\n| **Identity Domain** | Explicit scope of uniqueness, allocation and preservation requirements | Domain owner/rules and scoped collision evidence required; not globally unique bare strings |\n| **Identity Reference** | Typed association to an intended qualified logical document or exact edition | Relationships owns connection records; document endpoint semantics belong to Document Identity |\n\nOther endpoints, Template/Metadata entities and graph edges use appropriate qualified identity contracts; they do not automatically receive normalized document IDs. Identity-record State/Status, document Status/edition, maturity and Baseline membership are separate subjects. DID-004/006/014 disagree on state terminology, and DID-014 adds mandatory State/Canonical Reference under a schema different from DID-005. This model neither invents a merged field/state graph nor silently adds/removes their mandatory requirements; full owner cycles remain pending.\n\n---\n\n"
+        },
+        {
+          "section": "5.1",
+          "text": "## 5.1. Document → Document Identity\n\nAn applicable **assigned normalized logical document** has one valid assigned document identity under its declared document/domain contract. The requirement does not imply that a pre-allocation subject already has a key or that excluded functional files cannot exist without normalized metadata.\n\nDID-006 §5.1 describes an Unassigned subject before allocation. That subject differs from an assigned key; this Model does not supply a universal creation/permission graph. Other entity-domain identities and exact document editions are not additional interchangeable DF document keys.\n\n**Evidence boundary:** Identify actual document, normalized applicability, domain, assignment/reservation history and exact examined edition. Source recognition or registration alone proves neither approval nor completed allocation.\n\n---\n\n"
+        },
+        {
+          "section": "5.3",
+          "text": "## 5.3. Identity Domain → Document Identity\n\nEach assigned document identity belongs to one declared governing identity domain. The domain establishes uniqueness, allocation and preservation requirements; it does not demonstrate that every actual record is already unique merely by being defined.\n\nMembership direction differs from domain population: one domain may have no allocated members or multiple members unless a separately applicable owner contract explicitly imposes a minimum. Documentation Framework, represented by DF, is the adopted documentary domain. Equal numeric suffixes in distinct registered series are not collisions when full qualified identifiers differ. Other-domain use requires explicit qualified owners/rules and relevant registration/context evidence rather than silent implementation-created domains.\n\n**Evidence boundary:** Identify domain owner, scope, actual current/historical allocation and collision coverage. A partial scan or absent reservation history proves no global uniqueness or availability.\n\n---\n\n"
+        },
+        {
+          "section": "5.4",
+          "text": "## 5.4. Identity Reference → Document Identity\n\nA valid document-targeting Identity Reference identifies its intended existing qualified document identity. Exact-edition targeting additionally identifies intended coordinates/bytes and relevant context. Reference association, alias/canonical representation and assigned identity key are separate facts.\n\nRelationships owns typed connection records and provenance; Document Identity owns document endpoint meanings. Other endpoint kinds follow their own domain contracts. A reference does not create or redefine its target identity. An assigned identity does not require an incoming reference merely to exist: selected reference population is zero or more under §6 and DID-005's explicit optionality. A dangling or ambiguous reference is an unresolved validity observation, not proof that a new target exists or permission to silently retarget it.\n\n**Evidence boundary:** Check actual target, domain, edition/context and reference-record evidence. Historical interpretation differs from live retrieval. Required consumer→provider uses are separately typed and remain visible even when values arrive through a projection; no complete relationship catalog or globally cycle-free graph is certified.\n\n---\n\n"
+        },
+        {
+          "section": "6",
+          "text": "# 6. Cardinality\n\nThe four received rows are preserved with their actual previous notation and explicit selected conceptual population bounds. This is a local normative Model correction, not silent schema/Specification propagation. “N” in the received notation does not by itself supply a justified minimum.\n\n| Relationship | Received cardinality | Written selected subject/bounds | Interpretation and remaining owner boundary |\n|---|---|---|---|\n| Document → Document Identity | 1 : 1 | One assigned identity per applicable assigned normalized document in its declared contract | Pre-allocation subjects and functional files differ; no universal existence/permission claim |\n| Document Identity → Identifier | 1 : 1 | One canonical identifier representation per assigned qualified identity | Alternative aliases/physical representations do not allocate another key; detailed representation schema pending |\n| Identity Domain → Document Identity | 1 : N | One governing domain per assigned identity; domain population 0..N absent an applicable owner minimum | Membership and population directions distinct; no guessed mandatory external-domain registry |\n| Document Identity → Identity Reference | 1 : N | Incoming document-targeting reference population 0..N per identity; each valid reference has its intended qualified target | DID-005 §§4.3/5 explicitly optional; received mandatory-minimum interpretation corrected locally; peer propagation remains pending |\n\nDID-005 states optional Identity References0..N, so this Model no longer implies that an identity must have a reference. Exact-edition qualification is additional target evidence, not another freely interchangeable identity. The conceptual choice does not fabricate database field cardinalities, a canonical Profile or a complete schema for every other endpoint type.\n\nDID-014 mandatory State/Canonical Reference and DID-004/006/014 state-name discrepancies remain full owner work. Existing referenced mandatory fields are neither removed nor assumed accepted by omission here. The complete previous/written relationship/cardinality map, rationale and source hashes are external evidence.\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-DID-004",
+      "path": "02-Documentation/DocumentIdentity/01-Architecture/DF-DID-004 - Document Identity Elements.md",
+      "sha256": "cd4d74795f3c8c5918db318fe6409102aa46cec2a30113059ebf8df8dd79763d",
+      "coverage": "Selected state/reference/preservation/ownership clauses",
+      "literal_comparison_clauses": [
+        {
+          "section": "4.4",
+          "text": "## 4.4. Identity Status\n\n\n\n### 4.4.1. Description\n\n**Identity Status** retains the original architectural element name for state-related facts about identity records. It is not defined here as one universal validity enum. Separate assigned-key existence/preservation/retirement, state assertions, document-edition Draft/Review/Approved/Published/Archived status, maturity and Baseline membership.\n\nDID-003 does not make Identity Status a sixth core entity; DID-005 omits a State field; DID-014 makes Identity State mandatory. Those are real peer-contract differences, not permission to silently add or remove mandatory fields. Metadata can describe a domain-owned state without redefining its semantics; independence does not mean that no descriptive representation or required consumer contract can exist.\n\n---\n\n### 4.4.2. Possible States\n\nThe received labels **Active**, **Archived** and **Deprecated** are retained as historical candidate terminology, not an authoritative current state machine or proof of architectural validity. DID-006 §§4–8 and DID-014 §9 instead use Unassigned, Assigned, Preserved and Retired for their stated lifecycle subject. Unassigned is pre-allocation; it does not mean an assigned key already exists.\n\nDo not equate Archived document status with retired identity or derive identity validity from a state word alone. Final state vocabulary, transition permissions, subject and authority require explicit DID-006/014 and Schema/Model reconciliation. This architectural clarification neither approves their complete lifecycle nor invents a merged transition graph.\n\n---\n\n"
+        },
+        {
+          "section": "4.5",
+          "text": "## 4.5. Identity Reference\n\n\n\n### 4.5.1. Description\n\nAn **Identity Reference** is a typed association whose document endpoint identifies an intended qualified logical document or exact edition. Other endpoint kinds use their own applicable identity contracts. Document Identity owns document endpoint meaning; Relationships owns connection semantics/records, and Registry owns registration/index records in their scopes. An association does not transfer those responsibilities.\n\n---\n\n### 4.5.2. Responsibility\n\n- Identify an intended existing qualified target without creating/redefining its identity.\n- Distinguish document-level targeting from exact-edition targeting, which additionally pins coordinates/bytes and relevant context.\n- Support cross-component references with declared owner, relation kind, source/target and provenance.\n\nAn identity can exist without incoming references: document-targeting incoming population is0..N under DID-003 §6 and DID-005 §§4.3/5. A dangling or ambiguous reference is an unresolved validity observation; it does not authorize creating or silently retargeting an identity. Historical target interpretation is distinct from current retrieval.\n\n---\n\n"
+        },
+        {
+          "section": "7.1",
+          "text": "## 7.1. Document Identity\n\n- One assigned identity for an applicable assigned normalized logical document under its declared contract; pre-allocation subjects and functional files differ.\n- Preserve the key's association with the same document; never reuse allocated or retired identities for another document.\n- Ordinary content, classification, edition, format, repository and status changes do not reallocate the key.\n\nIf a necessary authorized migration would change the otherwise immutable representation/allocation contract, first reconcile previous/new owner rules, affected sources/consumers, mappings, collision/reservation history, aliases, transition checks and historical reference/snapshot continuity. Preserve old evidence and do not retarget immutable snapshot members. No migration is performed here.\n\n---\n\n"
+        },
+        {
+          "section": "7.4",
+          "text": "## 7.4. Identity Status\n\n- Changing a state description does not automatically change the assigned identity key.\n- State assertions identify their subject, owner and governing vocabulary; document-edition status, identity lifecycle and approval/Baseline evidence differ.\n- A Metadata representation does not redefine the state domain. Do not assert total independence where actual consuming contracts exist.\n- Preserve the DID-004/006/014 and DID-003/005 differences in §4.4 until the responsible peer cycles reconcile them. No new universal valid-state or transition enum is imposed.\n\n---\n\n"
+        },
+        {
+          "section": "7.5",
+          "text": "## 7.5. Identity Reference\n\n- A valid document-targeting reference identifies its intended existing qualified target, and exact-edition references additionally pin the intended edition/context.\n- An identity requires no incoming reference merely to exist; applicable incoming population0..N is separate from per-reference target validity.\n- A reference neither allocates nor redefines the target. Other endpoint kinds follow their own contracts.\n- Mutable connection records retain their owners/provenance; identity stability does not guarantee all references remain valid or retrievable after arbitrary change.\n\n---\n\n"
+        },
+        {
+          "section": "8",
+          "text": "# 8. Ownership\n\n| Element | Definition responsibility | Related record/execution boundary |\n|---|---|---|\n| Document Identity | Document Identity | Actual allocation/preservation executor and evidence are separately identified |\n| Identifier | Document Identity under domain rules | Generator/adapter/resolver implements applicable rules; no service supplied here |\n| Identity Domain | Document Identity and declared domain authority | Namespace/registration/allocation decisions need actual records |\n| Identity Status | Applicable identity-state/lifecycle owner; detailed peer reconciliation pending | Metadata may describe states; document status/approval/Baselines retain their own subjects |\n| Identity Reference | Document Identity for document endpoint semantics | Relationships owns connections, Registry registration; other endpoint kinds retain domain ownership |\n\nConsumers shall not silently redefine document identity. Exclusive identity meaning does not give Document Identity ownership of all metadata, classifications, connections, indexes or governance operations. Definition, required consumption, data projection and execution differ.\n\n---\n\n"
+        },
+        {
+          "section": "9",
+          "text": "# 9. Relationships with Other Components\n\n| Component / retained area label | Interaction | Responsibility / evidence limit |\n|---|---|---|\n| Metadata | Describes identified documents and represented state/edition facts | Metadata owns descriptors; domain owners retain identity/status meanings; Schema/Profile/Instance rules still apply |\n| Classification | Associates categories with identified documents | Mutable classification does not recalculate assigned IDs |\n| Registry | Registers/indexes qualified identities | Registry owns registration records; registration alone proves no allocation, approval or resolution |\n| Relationships | Connects qualified endpoints using typed associations | Owns relation semantics/records; Document Identity owns document endpoint meaning |\n| Knowledge Graph | Projects identities and typed relationships | Projection does not create identity authority or require every consumer to route through a graph |\n| Governance (area label retained) | Workflow, Policies, Reviews and Baselines act within their scopes | Governance is an area, not a new component; logical identity alone does not select an approved exact-edition Baseline member |\n\nThe six original rows remain, with Governance explicitly qualified. Actual required consumer→provider edges identify contract, scope, responsible sources and interfaces under ARC-004. The supplied DID README declares identity consumption of Metadata descriptive concepts, while DID-009 §§5/10 declares Metadata→Document Identity and no consuming-component dependency. These claims need actual core/descriptor/interface scope assessment; different names alone prove no independence or acyclicity. Do not conceal a required cycle through projection or semantic relabelling. No universal Registry/Graph routing path is imposed.\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-DID-005",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md",
+      "sha256": "06848d5545855826bf92bb215bb074276841b3da074cf0588115121e9c21ae18",
+      "coverage": "Selected schema subject,State/Canonical Reference matrix,reference/ownership/evolution",
+      "literal_comparison_clauses": [
+        {
+          "section": "1",
+          "text": "# 1. Purpose\n\nThis document defines a logical schema view for **applicable assigned normalized document identities** under an explicit identity-domain contract. It specifies domain qualification, canonical identifier representation and optional incoming document-targeting references. The assigned key, mutable records about that key, reference associations and exact document editions are distinct subjects.\n\nEvery file named README.md, CHANGELOG.md or ArchitecturalMilestones.md is a non-normalized functional file at every location. These names require no normalized identity/header solely because they are files; applicable content, references, history and hash checks remain. A pre-allocation subject does not yet possess an assigned key. Other entity kinds and external identity domains need their own explicit owner contracts, not automatic allocation of DF document IDs.\n\nThis working schema defines requirements, not an implemented assigning, registering or resolving service. DF owns documentary semantics; DMS, tools or an applicable manual process execute operations under those contracts, while CMS governs changes in its scope. Received Canonical naming and a local validation do not establish approval, publication, Baseline membership or whole-framework implementation conformity.\n\n---\n\n"
+        },
+        {
+          "section": "4.3",
+          "text": "## 4.3. Identity References\n\n\n\n### 4.3.1. Purpose\n\nIdentity References is the population of typed incoming associations targeting an intended qualified document identity or exact edition. They are logical associations, external to the identifier; they need not be physically stored within an identity record.\n\nDocument Identity owns document endpoint meaning; Relationships owns connection semantics/records and provenance. Registry owns registration/index records; graph projections do not create alternative identity authority. Other endpoint kinds use their own applicable identity contracts rather than automatically receiving normalized DF document IDs. Exact-edition targeting additionally identifies intended coordinates/bytes and context; logical identity alone is insufficient.\n\n---\n\n### 4.3.2. Cardinality\n\n```text\nZero or more\n```\n\nAn assigned identity can exist without any incoming reference. This preserves the received0..N and agrees with DID-003 §6 and DID-004 §§4.5/7.5. Incoming population cardinality differs from each reference's valid target: a valid document-targeting association must identify its intended qualified document/edition under its relation contract. This schema does not define every possible multi-endpoint relationship format.\n\n---\n\n### 4.3.3. Characteristics\n\n- **Optional:** incoming reference population0..N; absence does not invalidate an assigned identity.\n- **Extensible:** additional governed associations or endpoint types preserve existing meaning/ownership; a new reference does not redefine its target.\n- **Implementation independent:** semantic target/owner/provenance rules do not prescribe a storage layout or require every consumer to route through Registry/Knowledge Graph.\n\nReference records can evolve under their owner rules without reallocating the target identity. Dangling, ambiguous, stale or unavailable targets are observations requiring evidence and correction, not permission to create or silently retarget an identity. Historical interpretation differs from current retrieval.\n\n---\n\n"
+        },
+        {
+          "section": "6",
+          "text": "# 6. Logical Relationships\n\nThe second view preserves the same three subjects as the received relationship diagram. It qualifies direction, authority and subject; it is not a mandatory object layout, operational call chain or required-dependency graph.\n\n<!-- original-section-view: 6 -->\n**Previously unnamed view in §6 — Logical relationships and owner boundaries.**\n\n| From | Relation kind | To | Meaning / boundary |\n|---|---|---|---|\n| Assigned Document Identity | belongs within | Identity Domain | One governing allocation/preservation scope |\n| Assigned Document Identity | is represented through | Identifier | One canonical interpretation under domain rules |\n| Identity Reference | targets | Intended Document Identity / exact edition | Incoming0..N population; connection records remain with their relationship owner |\n<!-- end-original-section-view -->\n\nMinimal key/association scope is distinct from the complete subject claimed by other specifications. The following records actual peer requirements; it neither deletes mandatory peer fields nor invents an accepted merged record/state machine.\n\n| Subject | This source's retained view | Actual responsible peer clauses | Remaining integration obligation |\n|---|---|---|---|\n| Domain / Identifier | Assigned governing qualification and canonical representation | DID-003 §§4–6; DID-004 §§4/7; DID-014 §§7–8 mandatory Domain/Identifier | Preserve qualified key and explicitly governed corpus representation/other domains |\n| Identity References | Optional incoming associations0..N | DID-003 §§5.4/6; DID-004 §§4.5/7.5 | Connection ownership,typed target and exact-edition evidence; not a mandatory key field |\n| Identity State / Lifecycle State | Not introduced as a merged key field by this source | DID-014 §§7–8 mandates State/Lifecycle State; DID-006 §§4–8 defines Unassigned/Assigned/Preserved/Retired for its lifecycle subject | Reconcile field/record subject,authority,vocabulary and transitions with owners; no implicit removal or universal-state approval |\n| Canonical Reference | Not equated with optional plural Identity References | DID-014 §§7–8 makes Canonical Reference mandatory | Reconcile representation/field versus association meaning and mandatory scope; omission from this selected view does not waive the peer requirement |\n\nDID-004 retains Active/Archived/Deprecated as historical candidate terminology; these are not automatically equivalent to DID-006 lifecycle states or document-edition Draft/Review/Approved/Published/Archived status. Unassigned concerns pre-allocation, not an already assigned key. State,Status,exact edition,maturity,approval and Baseline membership require their proper subject/owner evidence. This source-local schema correction does not complete DID-006/014 cycles,authorize disregarding mandatory claims or certify integrated conformity. Contradictory complete-record claims require a coordinated owner decision before claiming a fully reconciled implementation contract.\n\n---\n\n"
+        },
+        {
+          "section": "8.3",
+          "text": "## 8.3. Identity References\n\n- A valid document-targeting reference identifies its intended existing qualified document or exact edition/context; other endpoint kinds follow their own contracts.\n- Incoming population remains optional0..N; an identity does not need an incoming reference merely to exist.\n- References never allocate or redefine their target and remain external to the identifier.\n- Connection records retain their relationship owner and provenance; mutations do not automatically change the target key.\n- Record dangling,ambiguous,stale or unavailable references as actual observations; preserve historical interpretation and never silently retarget. Identity stability alone guarantees no live-content retrieval or universal future reference validity.\n\n---\n\n"
+        },
+        {
+          "section": "10",
+          "text": "# 10. Relationship with Other Components\n\n| Component / retained area label | Usage | Contract / evidence boundary |\n|---|---|---|\n| Metadata | Associates descriptors with identified documents | Domain meanings remain with identity/state owners;Schema/Profile/Instance/Dictionary roles need their own applicable contracts |\n| Classification | Classifies identified documents | Mutable Family/Type/Component labels do not recalculate stable allocation series |\n| Registry | Registers/indexes qualified identities or editions | Owns registration records;exact-edition context and freshness evidence needed;registration alone proves no allocation/approval |\n| Relationships | Creates typed semantic connections between qualified endpoints | Owns connection semantics/records;Document Identity owns document endpoint meaning;other endpoints use applicable contracts |\n| Knowledge Graph | Projects identified entities and typed connections | Projection is not a new identity authority or universal routing intermediary |\n| Governance (area label retained) | Workflow,Policies,Reviews and Baselines govern their stated subjects | Area,not a new component;identity alone selects no approved exact-edition Baseline member |\n\nSix original interaction labels are preserved with qualified roles. Actual required dependencies use consumer→provider direction and state the contract,scope,provider/consumer/source editions and interfaces under ARC-004 §§12–13. Semantic association,documentary reference,projection,navigation and execution are distinct,not ways to hide a required cycle.\n\nDID-009 §§5/10 declares Metadata→Document Identity/no consuming-component dependency,while the functional DID README Component Dependencies/Metadata declares identity consumption of Metadata descriptive concepts. These actual claims remain pending owner/core-versus-descriptor/interface reconciliation;different names alone prove neither independence nor acyclicity. No universal Registry/Graph service chain or complete graph proof is supplied.\n\n---\n\n"
+        },
+        {
+          "section": "11",
+          "text": "# 11. Extensibility\n\nSchema evolution shall preserve same-document assignment,non-reuse and compatible meaning where feasible. Additional roles may be introduced only through an explicit responsible contract and impact assessment,not by treating a picture or Metadata representation as an automatically registered field.\n\nBefore a necessary normative change or path/identity migration:\n\n1. Identify the prior/new governing rules,source editions,rationale,affected owners/consumers and actual required dependencies.\n2. Assess compatibility,mandatory-field/State/Canonical Reference effects,record populations,canonical representation/aliases and reference targets; retain unresolved peer claims visibly.\n3. Record exact old→new mappings,collision/reservation/history checks,same-document continuity and relevant exact-edition/snapshot contexts. Preserve old evidence and never retarget immutable historical snapshot members or reassign retired IDs.\n4. Establish transition verification and coordinated propagation before claiming integrated conformance. A local source update does not approve peers or execute migration.\n\nFor changed working document editions,compatible correction retains Version,compatible additive capability increments minor,incompatible contract change increments major and resets minor to0. Each persisted changed edition increments Revision monotonically across Versions. Unchanged-source validation changes neither coordinate and is recorded centrally. Those documentary coordinates do not define all other entities' allocation/lifecycle.\n\nDID-014 §14's received additive/backward-compatible-only extension rule remains a real peer contract requiring scheduled reconciliation with the controlled-evolution approach;it is not silently waived by this source. No blanket permission to mutate assigned identity is introduced. This UPDATE executes no allocation,series registration,alias or migration.\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-DID-009",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md",
+      "sha256": "82de0391ca883e9a1ccc43bb5702d34aa6ca2141284c6ee0bd5cde79db7fe1e1",
+      "coverage": "Selected peer consuming/registration/relationship/Governance/graph claims",
+      "literal_comparison_clauses": [
+        {
+          "section": "5.1",
+          "text": "## 5.1. Metadata\n\n### 5.1.1. Dependency\n\nMetadata depends upon Document Identity.\n\n### 5.1.2. Purpose\n\nMetadata describes documents.\n\nDocument Identity identifies documents.\n\nMetadata shall associate descriptive information with an existing document identity.\n\nMetadata shall never define identity.\n\n---\n\n"
+        },
+        {
+          "section": "6",
+          "text": "# 6. Relationships with Governance Components\n\n## 6.1. Workflow\n\nWorkflow references document identities while managing document processes.\n\nWorkflow shall never modify identity.\n\n---\n\n## 6.2. Policies\n\nPolicies may define organisational rules regarding document identities.\n\nPolicies shall never redefine the identity model.\n\n---\n\n## 6.3. Reviews\n\nReviews operate on identified documents.\n\nThe review process shall preserve document identity.\n\n---\n\n## 6.4. Baselines\n\nBaselines group documents through their identities.\n\nBaseline membership never changes document identity.\n\n---\n\n"
+        },
+        {
+          "section": "7",
+          "text": "# 7. Relationships with Discovery Components\n\n## 7.1. Registry\n\nRegistry indexes document identities.\n\nRegistry depends upon Document Identity for canonical identification.\n\nRegistry owns document registration.\n\nDocument Identity owns document identity.\n\n---\n\n## 7.2. Relationships\n\nThe Relationships component establishes semantic associations between documents.\n\nThose associations shall always reference canonical document identities.\n\nThe Relationships component never defines identity semantics.\n\n---\n\n## 7.3. Knowledge Graph\n\nKnowledge Graph represents document identities as graph entities.\n\nThe graph representation is an implementation concern.\n\nThe definition of identity remains owned by the Document Identity component.\n\n---\n\n## 7.4. Navigation\n\nNavigation uses document identities to locate documents.\n\nNavigation shall never create identity information.\n\n---\n\n## 7.5. Search\n\nSearch resolves queries to identified documents.\n\nSearch depends upon canonical document identities.\n\n---\n\n"
+        },
+        {
+          "section": "10",
+          "text": "# 10. Dependency Overview\n\n```text\n\n                                         Document Identity\n                                                 │\n            ┌──────────────────┬─────────────────┼──────────────────┬────────────────────┐\n            │                  │                 │                  │                    │\n            ▼                  ▼                 ▼                  ▼                    ▼\n\n        Metadata        Classification        Registry        Relationships       Knowledge Graph\n\n            │\n            ▼\n\n       Governance\n            │\n            ▼\n\n        Automation\n            │\n            ▼\n\n       Integration\n\n```\n\nAll dependencies are unidirectional.\n\nDocument Identity has no dependency on the consuming components.\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-DID-010",
+      "path": "02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md",
+      "sha256": "9654a012bfee7234e45204da74254673ae2927e6454044be22549a80aa599c2d",
+      "coverage": "Selected identity/key/domain preservation/non-reuse constraints",
+      "literal_comparison_clauses": [
+        {
+          "section": "4",
+          "text": "# 4. Identity Constraints\n\n## 4.1. DID-C-001 — Identity Existence\n\nEvery document recognised by the Documentation Framework shall possess exactly one Document Identity.\n\n### 4.1.1. Rationale\n\nEvery document requires a permanent architectural identity.\n\n---\n\n## 4.2. DID-C-002 — Identity Permanence\n\nA Document Identity shall remain associated with the same document throughout its entire lifetime.\n\n### 4.2.1. Rationale\n\nIdentity provides permanent document recognition.\n\n---\n\n## 4.3. DID-C-003 — Identity Immutability\n\nA Document Identity shall never be modified after assignment.\n\n### 4.3.1. Rationale\n\nStable identities guarantee long-term references.\n\n---\n\n## 4.4. DID-C-004 — Identity Uniqueness\n\nNo two documents shall possess the same Document Identity within the same Identity Domain.\n\n### 4.4.1. Rationale\n\nIdentity uniqueness prevents ambiguity.\n\n---\n\n## 4.5. DID-C-005 — Identity Non-Reusability\n\nA retired Document Identity shall never be assigned to another document.\n\n### 4.5.1. Rationale\n\nHistorical references shall remain permanently valid.\n\n---\n\n"
+        },
+        {
+          "section": "5",
+          "text": "# 5. Identifier Constraints\n\n## 5.1. DID-C-006 — Canonical Identifier\n\nEvery Document Identity shall possess exactly one canonical Identifier.\n\n### 5.1.1. Rationale\n\nA unique canonical representation guarantees consistent identification.\n\n---\n\n## 5.2. DID-C-007 — Identifier Stability\n\nThe canonical Identifier shall remain unchanged throughout the lifetime of the Document Identity.\n\n### 5.2.1. Rationale\n\nStable identifiers preserve interoperability.\n\n---\n\n## 5.3. DID-C-008 — Identifier Uniqueness\n\nEvery Identifier shall uniquely represent one Document Identity.\n\n### 5.3.1. Rationale\n\nOne identifier shall always resolve to one identity.\n\n---\n\n"
+        },
+        {
+          "section": "6",
+          "text": "# 6. Identity Domain Constraints\n\n## 6.1. DID-C-009 — Domain Membership\n\nEvery Document Identity shall belong to exactly one Identity Domain.\n\n### 6.1.1. Rationale\n\nIdentity uniqueness is evaluated within a defined architectural scope.\n\n---\n\n## 6.2. DID-C-010 — Domain Stability\n\nThe Identity Domain of a Document Identity shall never change after assignment.\n\n### 6.2.1. Rationale\n\nChanging domains could invalidate identity uniqueness.\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-DID-014",
+      "path": "02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md",
+      "sha256": "2f1e185477a017f54fd5b013e7e8d890d7732924c4065123b6ab81503802e668",
+      "coverage": "Selected mandatory State,received lifecycle,governance and compliance constraints",
+      "literal_comparison_clauses": [
+        {
+          "section": "7",
+          "text": "# 7. Canonical Elements\n\nEvery Document Identity is composed of the following canonical elements.\n\n| Element | Description | Mandatory |\n|----------|-------------|-----------|\n| Document Identity | Permanent architectural identity | Yes |\n| Identifier | Canonical identifier | Yes |\n| Identity Domain | Scope of uniqueness | Yes |\n| Identity State | Lifecycle state | Yes |\n| Canonical Reference | Permanent reference | Yes |\n\nNo implementation may remove mandatory elements.\n\n---\n\n"
+        },
+        {
+          "section": "9",
+          "text": "# 9. Lifecycle Specification\n\nThe lifecycle of a Document Identity consists of four architectural states.\n\n```text\n\n                Unassigned\n                    │\n                    ▼\n\n                 Assigned\n                    │\n                    ▼\n\n                Preserved\n                    │\n                    ▼\n\n                 Retired\n\n```\n\nThe lifecycle describes the existence of the identity itself rather than the operational state of the document.\n\n---\n\n"
+        },
+        {
+          "section": "11",
+          "text": "# 11. Governance Requirements\n\nThe governance of Document Identity shall preserve:\n\n- permanence;\n- uniqueness;\n- immutability;\n- traceability;\n- canonical ownership;\n- architectural consistency.\n\nGovernance shall never redefine identity semantics.\n\n---\n\n"
+        },
+        {
+          "section": "13",
+          "text": "# 13. Constraint Specification\n\nEvery implementation shall preserve the following architectural constraints.\n\n- exactly one identity per document;\n- exactly one canonical identifier;\n- immutable identity;\n- permanent identity;\n- unique identity;\n- non-reusable identity;\n- technology independence;\n- repository independence.\n\nViolation of any mandatory constraint constitutes non-conformance with this specification.\n\n---\n\n"
+        },
+        {
+          "section": "18",
+          "text": "# 18. Conformance Statement\n\nAn implementation claiming conformance with the Documentation Framework **Document Identity** component shall satisfy every mandatory requirement defined by this specification and by all normative references listed herein.\n\nNo implementation-specific optimisation, extension, or integration shall modify the canonical semantics of a Document Identity.\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-ARC-004",
+      "path": "01-Architecture/DF-ARC-004-ArchitecturalLayers.md",
+      "sha256": "bbab37b76ea23f609a560bdd88c982091a5dd4d903d9b81679293aefdd66d6b5",
+      "coverage": "Actual required consumer→provider/cycle rules",
+      "literal_comparison_clauses": [
+        {
+          "section": "12",
+          "text": "# 12. Layer Dependencies\n\nA required dependency is directed **consumer→provider**: the consumer needs the stated provider contract in the declared scope. Allocation, documentary authority reference, semantic association, data projection, navigation and execution order are separately typed and must not be inferred solely from row order or arrows.\n\nFor cross-Layer required contracts governed here, the support order is Foundation, Architecture, Documentation, Governance, Discovery, Automation, Integration. Lower means an earlier support area in this declared order, not a lower visual row. A consumer's cross-Layer required provider belongs to an earlier support area. This does not require every consumer to depend on every earlier Layer or form an adjacent serial chain. Same-Layer required contracts are permitted under explicit ownership/interfaces and the cycle rule. Changing this structural constraint requires assessed architectural revision under §17, not an unrecorded upward-dependency exception.\n\n<!-- original-section-view: 12 -->\n**Previously unnamed view in §12 — Selected required contracts; consumer→provider.**\n\n| Consumer | Consumer area | Provider | Provider area | Required contract | Scope/justification |\n|---|---|---|---|---|---|\n| Registry | Discovery | Metadata | Documentation | Descriptive values with source-edition provenance | When indexing edition descriptors; refresh or identify stale values |\n| Knowledge Graph | Discovery | Document Identity | Documentation | Entity identity for logical document nodes | When keying document nodes; other entity kinds use their own endpoint identity contracts |\n| Knowledge Graph | Discovery | Relationships | Discovery | Typed connection records and provenance | When projecting the semantic network and interpreting dependency kinds |\n| Workflow | Governance | Metadata | Documentation | Represented state/edition descriptors | When interpreting documentary state values for a governance transition |\n| Workflow | Governance | Policies | Governance | Applicable transition and evidence rules | When deciding permitted governance operations; execution remains with the applicable process |\n| Baselines | Governance | Document Identity | Documentation | Logical member identity | When selecting/preserving document-edition members |\n| Baselines | Governance | Metadata | Documentation | Exact edition-reference/descriptive contract | When selecting/preserving exact editions; relevant relationship context must also be pinned or evidenced |\n<!-- end-original-section-view -->\n\nThese seven intended contracts reproduce the selected comparison basis in Concepts V2.0 R1 §8/Blueprint V2.0 R1 §8.11 with primary areas added. Knowledge Graph→Relationships and Workflow→Policies are legitimate same-Layer pairs. The rows are architectural declarations for their stated scopes, not a verified complete graph or implementation inventory.\n\nThe received seven-box dependency chain is preserved in input/diff/view provenance, not accepted as a mandatory service or execution sequence. Its allocation meaning belongs to §4. Foundation documents referencing component sources, or Metadata representing Governance/Identity/Classification meanings, do not automatically create runtime dependencies. Conversely, an indispensable provider contract remains required even if its data arrives through a projection or an interface is labelled a reference.\n\nThe complete graph requires owner/consumer reconciliation, explicit context-specific edges and cycle/compatibility assessment beyond these rows. Unresolved peer claims remain recorded; no global acyclicity or integrated conformity is asserted.\n\n---\n\n"
+        },
+        {
+          "section": "13.2",
+          "text": "## 13.2. Rule 2 — No Circular Dependencies\n\nCircular required dependencies are prohibited in the governed contract scope, including cycles among components within an area and across areas. Assess actual required edges and source evidence, not just the area ordering. A missing edge or a different relationship label cannot establish acyclicity.\n\nWhere an actual required cycle or conflicting provider declaration is found, retain it visibly in the evidence and reconcile the responsible contracts/allocations. This working source does not certify a complete cycle-free framework graph.\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-ARC-005",
+      "path": "01-Architecture/DF-ARC-005-ArchitecturalComponents.md",
+      "sha256": "0329a1ad17f95108fe9ef770e5e1de779efd1f0f8fce18cab0f28fecfcca4a6b",
+      "coverage": "Selected allocation/register and Governance/Discovery area/component roles",
+      "literal_comparison_clauses": [
+        {
+          "section": "3",
+          "text": "# 3. Scope\n\nThis source defines capability responsibilities, organization and scoped interaction constraints. Detailed specifications own their domain contracts; this overview neither substitutes for them nor establishes every intended specification as supplied.\n\nDF defines documentary contracts. A DMS, tool or applicable manual process executes management operations; CMS governs changes in its own scope. This specification supplies neither an operational permission model nor a deployed workflow/storage implementation.\n\nEvery README.md, CHANGELOG.md and ArchitecturalMilestones.md is a non-normalized functional file at every corpus location. Applicable content/reference/integrity checks remain; normalized metadata, Family/Type and document-ID requirements do not apply to those names. This exclusion creates no exceptions to the four Types for normalized documents.\n\n---\n\n"
+        },
+        {
+          "section": "6",
+          "text": "# 6. Governance Components\n\nGovernance defines documentary lifecycle, policy, review and immutable snapshot contracts. It does not itself prove an implemented process engine. Exact-edition review, validation, approval, publication and membership are distinct decisions/events.\n\n---\n\n## 6.1. Workflow\n\n### 6.1.1. Purpose\n\nDefines exact-edition lifecycle, transition, responsibility and evidence contracts.\n\n---\n\n### 6.1.2. Responsibilities\n\nDescribe documentary state transitions and publication conditions under applicable Policies. A DMS, tool or manual process executes operations; CMS governs changes in its own scope. Logical identity, Version/Revision, exact Status, approval/publication and membership are separate. Illustrative states do not create an unconditional transition graph; older approvals do not approve Draft successors.\n\n---\n\n## 6.2. Policies\n\n### 6.2.1. Purpose\n\nDefines applicable documentary governance rules and evidence requirements.\n\n---\n\n### 6.2.2. Responsibilities\n\nState review, publication, approval and maintenance policies with applicability and responsible authorities. Rules govern identified editions and operations; actual author contribution, authorization, review, validation and approval remain distinct. Policy definition does not prove implementation, grant an operation automatically or replace semantic owners in other domains.\n\n---\n\n## 6.3. Reviews\n\n### 6.3.1. Purpose\n\nDefines review responsibilities and records examined scope, observations and findings.\n\n---\n\n### 6.3.2. Responsibilities\n\nTechnical and architectural review assess exact identified artifacts/rules and consistency within recorded coverage. Reviews may use results from Validation or Consistency Verification, whose executors record applicable checks; overlapping check domains do not create competing semantics or approval authority. A review result is evidence, not an approval, publication decision, Baseline selection or guarantee of product consequences.\n\n---\n\n## 6.4. Baselines\n\n### 6.4.1. Purpose\n\nDefines separately identified immutable selections of exact approved document editions.\n\n---\n\n### 6.4.2. Responsibilities\n\nPreserve explicit selected member identity/edition coordinates and relevant pinned relationship context or traceable verification evidence. Approval eligibility, consistency and actual inclusion are separate checks. Release snapshots and historical traceability require scope and selection evidence; a current path or time label alone is insufficient. Draft successors do not retarget older members or inherit membership. This UPDATE creates no Baseline or missing historic approval.\n\n---\n\n"
+        },
+        {
+          "section": "7",
+          "text": "# 7. Discovery Components\n\nDiscovery defines typed connections, catalog/network projections and access to identified entities/editions. Directories remain physical locations rather than semantic authority. Draft, historical and snapshot-specific discovery is allowed with explicit state and scope; discoverability does not confer approval.\n\n---\n\n## 7.1. Registry\n\n### 7.1.1. Purpose\n\nDefines catalog/lookup authority for its declared entity/edition scope.\n\n---\n\n### 7.1.2. Responsibilities\n\nSupport registration, lookup and discoverability through traceable authoritative source-edition records/projections. Catalog authority does not replace identity, classification, governance or relationship-record meaning. Derived copies retain provenance, refresh and current/stale/historical/snapshot context. Cataloguing does not make Registry an indispensable intermediary for every component or require physical single-copy storage.\n\n---\n\n## 7.2. Relationships\n\n### 7.2.1. Purpose\n\nDefines typed connection records for identified endpoints and their provenance.\n\n---\n\n### 7.2.2. Responsibilities\n\nMap and preserve semantic reference, association, replacement, navigation and required-dependency kinds as applicable. Endpoint domains and identity contracts follow their entity kinds; not every endpoint gets a normalized document ID. Required edges use consumer→provider contract/scope and remain visible, including genuine cycles requiring reconciliation. Explicit records support traceability without fabricating a complete relation catalog.\n\n---\n\n## 7.3. Knowledge Graph\n\n### 7.3.1. Purpose\n\nDefines traceable semantic-network projections of identified entities and typed Relationships records.\n\n---\n\n### 7.3.2. Responsibilities\n\nSupport semantic navigation, dependency and impact analysis with authoritative source/edition provenance. Derived values do not acquire competing semantic authority; views declare refresh/freshness and current/historical/snapshot scope. No universal Registry-to-Graph routing or complete network/acyclicity is inferred from this capability.\n\n---\n\n## 7.4. Navigation\n\n### 7.4.1. Purpose\n\nDefines logical access through declared entity/edition and relationship views.\n\n---\n\n### 7.4.2. Responsibilities\n\nSupport hierarchical/contextual navigation and cross references with resolvable identified targets, state and relevant freshness context. Sources and relation meanings are explicit; navigation does not automatically impose a provider service dependency, confer approval or replace physical storage contracts.\n\n---\n\n## 7.5. Search\n\n### 7.5.1. Purpose\n\nDefines discovery of identified architectural entities through declared indexes/views.\n\n---\n\n### 7.5.2. Responsibilities\n\nSupport document, Metadata and semantic search with source-edition provenance and freshness/state limits. Draft and historical results are distinguished from approved/snapshot members. Intended search neither certifies completeness nor requires a universal Registry pipeline or new semantic owner.\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-MTD-003",
+      "path": "02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md",
+      "sha256": "0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746",
+      "coverage": "Selected descriptor/schema/profile/instance subjects",
+      "literal_comparison_clauses": [
+        {
+          "section": "6",
+          "text": "# 6. Metadata Abstraction Levels\n\nThe Metadata component is organized into successive abstraction levels.\n\n```text\n\n                 Level 1\n            Metadata Concepts\n                    ↓\n\n                 Level 2\n              Metadata Model\n                    ↓\n\n                 Level 3\n             Metadata Schema\n                    ↓\n\n                 Level 4\n            Metadata Profiles\n                    ↓\n\n                 Level 5\n            Metadata Instances\n\n```\n\nEach level refines the previous one without altering its semantics.\n\n---\n\n"
+        },
+        {
+          "section": "7",
+          "text": "# 7. Conceptual Entities\n\nThe Metadata Model is composed of the following conceptual entities.\n\n## 7.1 Metadata\n\nRepresents the complete descriptive information associated with a document.\n\nMetadata is composed of Metadata Elements.\n\n---\n\n## 7.2 Metadata Element\n\nRepresents one descriptive property of Metadata.\n\nEach Metadata Element has one semantic meaning.\n\nMetadata Elements are defined independently.\n\n---\n\n## 7.3 Metadata Value\n\nRepresents the value assigned to a Metadata Element for a specific document.\n\nValues instantiate Metadata Elements.\n\n---\n\n## 7.4 Metadata Schema\n\nRepresents the formal organization of Metadata Elements.\n\nThe Schema determines which Metadata Elements may appear within a Metadata instance.\n\n---\n\n## 7.5 Metadata Profile\n\nRepresents a specialization of a Metadata Schema for a particular category of documents.\n\nProfiles constrain, but do not redefine, the underlying Metadata Schema.\n\n---\n\n## 7.6 Metadata Instance\n\nRepresents the complete Metadata associated with one individual document.\n\nEach Metadata Instance conforms to exactly one Metadata Profile.\n\n---\n\n"
+        },
+        {
+          "section": "8",
+          "text": "# 8. Conceptual Relationships\n\nThe Metadata Model defines the following relationships.\n\n| Source | Relationship | Target |\n|----------|-------------|--------|\n| Metadata | is composed of | Metadata Elements |\n| Metadata Element | possesses | Metadata Value |\n| Metadata Schema | defines | Metadata Elements |\n| Metadata Profile | specializes | Metadata Schema |\n| Metadata Instance | conforms to | Metadata Profile |\n| Metadata Instance | contains | Metadata Values |\n\n---\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": "DF-RVW-001",
+      "path": "03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md",
+      "sha256": "8f6c3a967f076dfc3ddd4fef90b5901dbb780e0a8c7cda17c70039e2f581f9ef",
+      "coverage": "Operating normalization/classification/identity/editions/evidence/authorship",
+      "literal_comparison_clauses": [
+        {
+          "section": "2",
+          "text": "## 2. Normalized documents and functional files\n\nEvery file named README.md, CHANGELOG.md or ArchitecturalMilestones.md in this corpus is a non-normalized functional file. It retains its name and does not require Document ID, Family, Type, Component, Version, Revision, Status or Baseline by virtue of document normalization. Do not infer a finding from absence of those fields. Do not automatically delete legitimate existing information.\n\nThese files remain in inventories, SHA-256 manifests, content reviews and applicable structural, terminology, reference and consistency checks. CHANGELOG.md and ArchitecturalMilestones.md retain their own entry/milestone IDs, states, dates and historical conventions. Their maintenance is not conditional on normalized document metadata.\n\nThe input corpus comprises 79 documents within normalization scope and 8 non-normalized files. Two normalized review documents are introduced by Step 3. Machine-readable exports attached to DF-RVW-002 are representations of its inventories and matrices, not independent normalized documents or new authorities. Each export identifies its parent document and edition in its manifest or accompanying report.\n\n"
+        },
+        {
+          "section": "3",
+          "text": "## 3. Classification contract\n\n### 3.1. Uniform Type\n\nType identifies the primary responsibility of every normalized document and uses exactly one value from {Architecture, Structure, Behavior, Reference}. There are no special Type values for Foundation, Architecture, global roadmaps or review artifacts.\n\n| Type | Primary responsibility |\n|---|---|\n| Architecture | Foundations, principles, concepts, conceptual models/elements and architectural decisions. |\n| Structure | Organization, composition, schemas, structural relationships, restrictions and element catalogs. |\n| Behavior | Processes, lifecycle, validation, governance, extensibility and planned evolution. |\n| Reference | Consultation, terminology, consolidated specifications, examples, recommendations and historical records. |\n\nUse the spelling Behavior. Base, Core, Schema, Dictionary and Lifecycle are not additional Type values. A historical evolution account is Reference; a process or evolution plan is Behavior. Assess content and primary responsibility rather than filename or directory alone. Normative or informative authority is established by explicit statements/references, never by Type=Reference alone. Validation is not approval.\n\n### 3.2. Family and Component\n\n| Document category | Family | Component |\n|---|---|---|\n| Belongs to a component | Canonical component name | Same canonical name, when the field is used. |\n| Foundation without a component | Foundation | Absent/not applicable. |\n| Architecture without a component | Architecture | Absent/not applicable. |\n| Global roadmap or global implementation strategy | Roadmap | Absent/not applicable. |\n| This review's policy/report | Reviews | Reviews. |\n\nRoadmap is an explicitly scoped documentary planning area for global, non-component plans. It reuses the received Family value in DF-RDM-001/002, not an invented component or Layer. These two documents use Type=Behavior. The existing Component=Documentation Framework in DF-RDM-002 must be assessed and removed from its working header in the scheduled UPDATE: the framework is the container, not a component of itself.\n\nComponent roadmaps belong to the component they plan and therefore use Family=component, Type=Behavior and matching Component, regardless of central storage under Roadmaps. Current component names are Metadata, Document Identity, Classification and Templates. DocumentIdentity is a directory alias, not a competing canonical component name.\n\nDo not remove Component indiscriminately. The global roadmap decision is localized and does not remove it from component documents. Family/Type changes do not determine document identity or structural Layer allocation.\n\n### 3.3. Class\n\nClass remains a separate, optional semantic dimension. This policy does not create a complete Class vocabulary or make it mandatory. Retain received values as evidence, then assess each use in its document cycle. A value that merely repeats Type or misstates authority must be reconciled with evidence. New review artifacts omit Class because no additional distinction is needed. Optional does not mean unrestricted: any value used must have an explicit, non-conflicting definition.\n\n"
+        },
+        {
+          "section": "4",
+          "text": "## 4. Identity convention for this corpus and review artifacts\n\n### 4.1. Representation and uniqueness\n\nThe identity domain is Documentation Framework. Its representation prefix is DF. A working normalized document identifier follows DF-SSS-NNN, where SSS is a registered three-letter uppercase allocation-series code and NNN is a three-digit positive allocation number, 001–999. The full identifier is unique within the domain. Numbers are allocated within a series; equal numeric suffixes across different series are not collisions.\n\nSeries codes are stable allocation namespaces, not the document's current Family, Type, component, location, version or revision. Preserve existing valid identifiers when those characteristics change. A series' original purpose is recorded for traceability, but it does not recalculate an existing document ID after reassignment/reclassification.\n\n| Series | Received origin/purpose | Step 3 action |\n|---|---|---|\n| FND | Foundation documents | Preserve existing allocations. |\n| ARC | Framework Architecture documents | Preserve existing allocations. |\n| MTD | Metadata documents | Preserve existing allocations. |\n| DID | Document Identity documents | Preserve existing allocations. |\n| CLS | Classification documents | Preserve unambiguous allocations; resolve the nominal CLS-003 collision. |\n| TPL | Templates documents | Preserve existing allocations. |\n| RDM | Planning documents | Preserve allocations even when Family becomes a component name. |\n| RVW | Review policy and consolidated review report | Allocate 001 to this policy and 002 to DF-RVW-002 after collision checks. |\n\nThis is a corpus convention, not a format imposed on identities in other domains or an identifier-generation implementation. Scheduled reconciliation of DF-DID-005/010/014 owns its integration into the identity contract. Foundation and Classification must qualify the earlier Family/Type-based convention accordingly.\n\n### 4.2. Allocation, reservations and retirement\n\nNew allocation requires an explicit series record and collision scan of headers, filenames, references, historical/reserved records and this review's allocation register. Do not reuse allocated/retired numbers. A gap does not prove availability; when allocation history is unavailable, record that limitation and use a documented allocation decision rather than infer a historical reservation. Missing IDs are not assigned to the eight functional files excluded in §2.\n\n000 is not allocated under this working convention; it is not implicitly a README code. RVW-001/002 are the only new allocations at Step 3; no future numbers are reserved. At 999, do not widen the syntax or silently recycle: register another unused three-letter series with traceable continuation and preserve all old IDs. A new domain is a separate semantic decision, not a shortcut for renumbering this corpus.\n\nMaintain an allocation register in DF-RVW-002's exports, including series, number, identifier, path, allocation status and evidence. Retired IDs remain reserved. The source archive and the input manifest preserve received declarations, including invalid ones; preservation is evidence, not acceptance of a collision.\n\n### 4.3. Localized correction and historical syntax\n\nNo general ID migration is required by the adopted classification change. The nominal DF-CLS-003-ClassificationModel.md wrongly declares DF-CLS-001 and repeats the Architecture prose. Its correction is pending a distinct document recovery/update and path-scoped map. It is not a global DF-CLS-001→DF-CLS-003 replacement or an alias that makes one identifier resolve to two documents.\n\nOperational references must resolve to the intended final identity/path after a coordinated correction. Historical examples such as META-DCL-001, or earlier roadmap forms containing RDM as an extra segment, must be explicitly qualified where historical or revised where they purport to prescribe the current working convention. Do not rewrite history as if the new convention had always existed.\n\nMetadata Element IDs, document IDs, finding IDs, CHANGELOG numbers and Milestone IDs are separate entities. Creating this policy does not assign Metadata Element IDs or create element lifecycle/publication records.\n\n"
+        },
+        {
+          "section": "5",
+          "text": "## 5. Version, Revision, Status and Baseline\n\n### 5.1. Received evidence\n\nThe 79 in-scope input documents declare Version 1.0 and Baseline 1.0; 73 declare Revision 0 and six Foundation documents do not declare Revision. Historical sources distinguish significant Version evolution from backward-compatible Revision changes: DF-FND-002 §6.6 and DF-FND-004 §§4.10/6.8. Neither establishes a complete numerical successor contract for this review. The following working rule formalizes that gap while preserving input evidence.\n\n### 5.2. Edition successors\n\nVersion uses the observed major.minor numeric form. Revision is a monotonic integer per document across version changes during this review.\n\n| Change | Version action | Revision action |\n|---|---|---|\n| Compatible correction/clarification/reclassification preserving contractual meaning | Keep Version. | Increment declared Revision by one; use 1 when absent. |\n| Compatible additive contract capability | Increment minor by one. | Increment declared Revision by one; use 1 when absent. |\n| Incompatible contract/convention change | Increment major by one and set minor to 0. | Increment declared Revision by one; use 1 when absent. |\n| Validation/reporting with no source content change | Keep Version. | Keep Revision; track the event centrally. |\n| New normalized review document | Initial Version 1.0. | Initial Revision 1; no invented Revision 0 history. |\n\nExplain compatibility per UPDATE. Changing a classification label does not automatically change Version; replacing what a classification/schema contract permits may be incompatible even if no IDs change. Assess changes to identity syntax/resolution separately from a filename correction. Do not reset an existing Revision counter on Version changes during this review. Future alternative numbering requires a traceable policy change, not an implied reset.\n\nEach completed persisted working edition with changed content receives its successor. Draft editing before an edition is finalized is preparation, not evidence of completed intermediate editions. If a validated/finalized edition needs a correction, create another successor and retain the failed validation event. No source revision is incremented merely to record this policy's adoption.\n\n### 5.3. Working lifecycle and Baseline\n\nEdited working documents start at Status=Draft, including successors of received Approved/Canonical documents. A subsequent explicit submission may use Review; formal approval/publication requires its own decision/evidence. Leave untouched source statuses unchanged. Canonical in a received header is preserved as historical evidence, not automatically granted to a successor or silently converted into Approved.\n\nA newly created or modified working edition has Baseline=Not assigned unless its exact inclusion is evidenced. Record original Status and Baseline in the edition history and input manifest. Do not change the original Baseline snapshot. Draft is a lifecycle state; Not assigned is an explicit absence marker in the human-readable working header, not a new Baseline identifier.\n\nAt Step 3 creation, this policy and DF-RVW-002 were Draft, Version 1.0, Revision 1, Baseline Not assigned. Current working coordinates follow their headers and exact edition histories. Passing their scoped checks does not approve/publish them or place them in a Baseline. The conventions for these working headers do not populate the canonical Metadata Dictionary or create a Metadata Profile lifecycle event by implication.\n\n"
+        },
+        {
+          "section": "6",
+          "text": "## 6. REVIEW, UPDATE, VALIDATE and evidence\n\nKeep Step 1–7 and document substep numbers 4.01–4.87 stable. Step 3.1 identifies this policy; Step 3.2 identifies the consolidated report. The eight functional files keep their scheduled content/reference substeps but have no normalization requirement.\n\nREVIEW reports findings, sections, severity, proposed correction and closure evidence without modifying the reviewed source. UPDATE shows exact material before/after, compatibility assessment, full updated source, diff, edition history, central CHANGELOG entry and Milestone. Mark source corrections pending validation. VALIDATE compares the exact updated edition with its input and affected sources, checks related occurrences and records outcome/limits with SHA-256 evidence. A failure creates a traceable corrective step.\n\nBefore any cross-document normative change or path/ID migration, identify the batch, rationale, affected documents and previous/new mapping. Do not claim integrated consistency during partial rollout. Resolve semantic references and actual dependencies separately; do not use a renamed relationship type to conceal a mandatory dependency cycle.\n\nFinding states used for this review are Open, Corrected—pending validation, Closed—verified and Not applicable—scope decision. These tracking states are not document Status, element lifecycle or Milestone Status. Closure requires evidence; scope exclusion requires the specific decision. INV-02 is Not applicable because the user excluded the eight functional files, not because IDs were assigned or validation passed.\n\nThe input/final/validated manifests record paths, identity and edition where applicable, SHA-256 and scope. Evidence exports are attached to DF-RVW-002. A manifest's own hash belongs in its delivery receipt/enclosing package, not recursively inside its own contents. A document's hash is recorded outside the document itself. Validation logs do not force recursive revisions of themselves.\n\n"
+        },
+        {
+          "section": "7",
+          "text": "## 7. Central CHANGELOG and Milestones\n\nReuse CHANGELOG.md and ArchitecturalMilestones.md, retaining their historical content. They remain non-normalized. Keep the CHANGELOG's sequential #, reverse chronology, Author, Type, Document, Impact and Description columns. Add Reviewed and Validated event types to distinguish executed reviews/checks from document content updates; these event Types are not document Type values. Existing Created/Updated/etc. and impact values remain in force.\n\n### 7.1. Cumulative documentary authorship\n\nThe normalized document header's **Author** field lists all evidenced authors who contributed to the document, including its original author and contributors to later editions. Use **semicolon followed by a space (`; `)** between distinct authors. Preserve established names and role qualifications; retain first evidenced contribution order and do not duplicate an author for each revision. Example: `Arnaldo Figueira; Codex — AI assistant`.\n\nCarry forward evidenced original/prior authors when preparing a successor. Record each later contributor when that contribution is supported by source history, exact edition/diff evidence or explicit reliable attribution. Preserve edition history separately so the cumulative header does not imply that every listed author performed every change. When original authorship is absent or unknown, list only known contributors and retain that limitation; do not guess an author from ownership, filename, user identity or authorization. A later substantiated attribution receives a traceable correction.\n\nA user who actually edits document content is recorded as an author when that contribution and identity are established. Permission, instructions, approval or file custody alone do not prove an authored contribution. Later disk changes must be examined as resulting bytes with attribution evidence; earlier validation results do not automatically apply. The author list is provenance, not a blanket assignment of approval or responsibility for consequences of every later final product.\n\n### 7.2. Event-specific CHANGELOG authorship\n\nThe CHANGELOG **Author** column records the evidenced contributors who performed that particular event, using the same `; ` separator when the event has multiple authors. It is not copied automatically from the cumulative document header. Use `Codex — AI assistant` for events performed solely by this assistant; do not attribute the event to the user merely because the user authorized it. Preserve historical event authors rather than retroactively adding every document author to each row.\n\nFor each update, record source path/ID, old/new edition, material change, finding, validation state, report/diff link and Milestone in the Description. Append a later validation event rather than rewriting a pending-validation update into a historical success. Do not log future intentions as completed changes.\n\n### 7.3. Milestone scope and history\n\nPreserve M0–M7. Create M8–M14 for the review's verifiable results, with the existing Not Started/In Progress/Completed milestone states and O/S/C record states. A milestone's state derives from its own records for its declared work scope. Completion of a historical implementation milestone is not closure of a new review milestone.\n\nM8 establishes the received corpus, including explicit limitations. M9 establishes this review's policy, artifact identities, central tracking and scoped checks. M10 covers Foundation cycles; M11 Architecture cycles; M12 the four input Documentation components; M13 localized identity/path/reference reconciliation; M14 integrated validation and final delivery. M9 excludes propagation into all domain sources, which is assigned to M10–M13.\n\nNo estimated completion date is invented. Completion dates are actual dates when criteria are satisfied. No new Blocked/Not applicable milestone state is introduced; describe blockers or non-applicable migration scope in the relevant milestone's evidence. A review Milestone=Completed means its documentary criteria were met, not approval, publication, release or Baseline membership.\n\n"
+        }
+      ],
+      "limit": "Selected comparison only;not full peer review/validation or integrated lifecycle approval"
+    },
+    {
+      "document_id": null,
+      "path": "02-Documentation/DocumentIdentity/README.md",
+      "sha256": "2e9b6d1be5145e979b72a992a56266c370eaa310dd9bacf5acb78727886322f7",
+      "coverage": "Component Dependencies/Metadata only",
+      "literal_comparison_clauses": [
+        {
+          "section": "Component Dependencies/Metadata",
+          "text": "The Document Identity component depends on the Metadata component for the canonical definition of metadata concepts used to describe document identity."
+        }
+      ],
+      "limit": "Functional file,selected reference comparison only"
+    }
+  ],
+  "totals": {
+    "Open": 30,
+    "Closed—verified": 177,
+    "Not applicable—scope decision": 1
+  },
+  "source_update_performed": false,
+  "source_validation_performed": false,
+  "next": "4.19 UPDATE DOCUMENT DF-DID-006"
+}

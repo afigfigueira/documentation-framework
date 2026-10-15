@@ -217,7 +217,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-005 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md |
 | O | 2026-09-30 |  |  | DF-DID-009 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md |
 | O | 2026-09-30 |  |  | DF-DID-010 | /02-Documentation/DocumentIdentity/02-Structure/DF-DID-010 - Document Identity Constraints.md |
-| O | 2026-09-30 |  |  | DF-DID-006 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md |
+| S | 2026-09-30 | 2026-10-15 |  | DF-DID-006 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-006 - Document Identity Lifecycle.md |
 | O | 2026-09-30 |  |  | DF-DID-007 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md |
 | O | 2026-09-30 |  |  | DF-DID-008 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md |
 | O | 2026-09-30 |  |  | DF-DID-011 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md |
@@ -653,3 +653,5 @@ Step4.18 REVIEW (2026-10-15): DID-005 exact unchanged V1.0 R0 Canonical/Baseline
 Step4.18 UPDATE (2026-10-15): DID-005 V2.0 R1 Draft/unassigned,Family/Component Document Identity,Type Structure,cumulative Author Arnaldo Figueira; Codex — AI assistant. 10 corrections pending VALIDATE DOCUMENT;1/1/0..N retained;peer field/state/extension/required-graph conflicts explicit. Four C/one S/59 O,M12 In Progress;no completion. ReportR58 section64;CHANGELOG402–404;no global approval/Baseline.
 
 Step4.18 VALIDATE (2026-10-15): exact unchanged DID-005 V2.0 R1 local corrections PASS;10 records Closed—verified;1/1/0..N and cumulative Author retained. DID-005 completion2026-10-15;five C/59 O M12 In Progress. ReportR59 section65;CHANGELOG405–407. Source Draft/unassigned;peer field/state/extension/reciprocal required-scope integration pending;no global approval/Baseline. Next4.19 REVIEW DF-DID-006.
+
+Step4.19 REVIEW (2026-10-15): exact unchanged DID-006 V1.0 R0 Canonical/Baseline1.0,Author Arnaldo Figueira;9 findings/2 warnings Open. Five C/one S/58 O M12 In Progress;DID-006 start2026-10-15,no completion. ReportR60 section66;CHANGELOG408–411;UPDATE/VALIDATE pending;prior source-local results retained,no global approval/Baseline.
