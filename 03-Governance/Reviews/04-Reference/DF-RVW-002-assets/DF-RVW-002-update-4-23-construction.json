@@ -1,0 +1,23 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/73",
+  "date": "2026-10-15",
+  "phase": "UPDATE construction only",
+  "source_validation_performed": false,
+  "source_sha256": "df7c2c254c956ecbc12d6d3cac5923d68256f9756cfe01fb317c43f39f841dbf",
+  "checks": {
+    "49_original_heading_numbers_titles": true,
+    "49_complete_body_maps": true,
+    "18_constraint_ID_maps_12_rationale_associations": true,
+    "3_original_extension_conditions_verbatim": true,
+    "no_received_view_fabricated": true,
+    "relative_links_exist": 17,
+    "other_domain_sources_unchanged": true,
+    "historical_evidence_unchanged": true,
+    "89_progress_rows": true,
+    "changelog_reverse_454_to_1": true,
+    "12_records_pending_validation": true,
+    "temporary_auxiliary_absent": true
+  },
+  "next": "4.23 VALIDATE DOCUMENT DF-DID-010"
+}

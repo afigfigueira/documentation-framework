@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 72 |
+| **Revision** | 73 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -278,6 +278,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 70 | Step4.22 Relationships UPDATE; V2.0 R1;11 corrections pending | Compatible report event;section76;source validation not performed |
 | 2026-10-15 | 1.0 | 71 | Step4.22 exact Relationships V2.0 R1 local PASS;11 closures | Compatible report event;section77;source unchanged;global dependency reconciliation pending |
 | 2026-10-15 | 1.0 | 72 | Step4.23 complete Constraints REVIEW;10 findings/2 warnings Open | Compatible report event;section78;source unchanged;next UPDATE |
+| 2026-10-15 | 1.0 | 73 | Step4.23 Constraints UPDATE;V2.0 R1;12 corrections pending | Compatible report event;section79;source validation not performed |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -5868,3 +5869,46 @@ Twelve DID010 records Open;19 global Open and221 earlier Closed—verified uncha
 ReportV1.0 R71→R72;CHANGELOG448 source REVIEW,449 report,450 Milestone,451 REVIEW traceability checks. Stable89 progress positions,current manifest andcumulative Context-only ZIP synchronized;all domain bytes/historical exports preserved. Traceability PASS is source/inventory/comparison/hash/tracking/packaging verification,not source VALIDATE DOCUMENT,finding closure,global graph proof,formal approval,publication orBaseline selection.
 
 **Pause after REVIEW. CONTINUAR starts4.23 UPDATE DOCUMENT DF-DID-010 — Document Identity Constraints,then pauses before VALIDATE DOCUMENT.**
+
+## 79. Step 4.23 — UPDATE DOCUMENT DF-DID-010 — Document Identity Constraints
+
+### 79.1. Exact successor and operation
+
+UPDATE complete,2026-10-15. Received V1.0 R0 becomes **V2.0 R1, Draft, Baseline Not assigned**, Family/Component Document Identity, Type Structure, cumulative Author Arnaldo Figueira; Codex — AI assistant. ID/path andall49 original headings remain;received Canonical/Baseline1.0 andabsent date retained as provenance. Output SHA-256 `df7c2c254c956ecbc12d6d3cac5923d68256f9756cfe01fb317c43f39f841dbf`. No VALIDATE DOCUMENT performed.
+
+Twelve DID010-01–10/W01/W02 records are Corrected—pending validation,not Closed. Section78 retains REVIEW-time states. Other domain bytes andhistorical evidence remain unchanged;prior exact semantic/attribution results retain actual scope.
+
+### 79.2. Corrections and later validation requirements
+
+| Record | Corrected source scope | Required subsequent evidence |
+|---|---|---|
+| DID010-01 | Header;1/11/14:component Family,Structure retained,cumulative author,received provenance,Draft/unassigned | Exact header/history/compatibility and original contribution |
+| DID010-02 | 1–4.1/12–13:assigned normalized subject,functional exclusions,pre-allocation/file/edition/entity distinctions,7 scoped principles | Actual applicability/observation cases,no automatic allocation/universal conditions |
+| DID010-03 | 4.2–4.3/4.5/5.2/6.2/12:stable key versus mutable records,non-reuse/history andnecessary prior/new governed continuity | Ordinary changes,necessary transition,retirement/history/immutable snapshots without arbitrary mutation orretrieval guarantees |
+| DID010-04 | 4.4–4.5/5.3/6.1/12:full qualified domain/key,actual assignments/population/reservations/collisions/history andlimits | Copies/aliases/editions/equal suffixes versus actual conflicting allocation;missing evidence is not availability |
+| DID010-05 | 5–6/12:one governing canonical interpretation/domain,legitimate aliases,DF stable series001–999/continuation andexternal-domain scope | Actual qualification/canonicalization/stability/series/reservation cases,no bare-string global resolver |
+| DID010-06 | 4 rationales/7/9.4:typed intended document/exact-edition targets,optional incoming0..N,other endpoints andlive/history limits | Per-reference validity/alias/target/connection observations,no silent allocation/retargeting |
+| DID010-07 | 2–3/8/12:six semantic-independence subjects with legitimate representation/interface/adapter/executor evidence | Domain-preserving implementation versus semantic redefinition,no universal suitability/interoperability |
+| DID010-08 | 7.2/9–11:other record/domain owners under common rules,actual required claims andreceived Integration category qualification | Six retained subjects,typed source/consumer/interface andreciprocal requirements,no relabelled-away cycle |
+| DID010-09 | 4/9.6/12–14:Governance area contracts versus actual DMS/tool/manual/CMS,decision/lifecycle/exact-approved-selection boundaries | No automatic retirement from deletion/status,no inherited Draft approval/Baseline;mandatory State/Canonical Reference authority retained |
+| DID010-10 | 1–3/11–14:scoped normative intent,actual claim/rules/checks/observations/coverage,3 ordinary extension conditions and5-step separate normative-change protocol | Partial/missing/conflicted/negative evidence andprior/new authority/version/consumer/history/later validation;actual DID-014 restriction not waived |
+| DID010-W01 | All49 original bodies/18 codes/12 rationale associations/7 principles/6 roles/6 categories/3 extension conditions | Complete inventory/body/header/code/rationale/list/table map;no invented historical diagrams/dates/global registration |
+| DID010-W02 | 11/14:ten received dependencies retained as resolving links plusselected owners/policy/report/README | All intended declared targets and exact comparison editions/hashes;documentary reference distinct from actual required graph/execution |
+
+### 79.3. Authority,compatibility and preservation decisions
+
+Assigned qualified Domain+Identifier andsame-document association are stable;mutable supporting state/reference/descriptor/registration/projection records retain their owners. Full uniqueness needs actual allocation/canonicalization/population/reservation/history evidence. Applicable assigned normalized scope excludes functional files/pre-allocation/other entity kinds. Document-target references need qualified intended subject/exact-edition/context;incoming0..N does not waive each actual reference's validity andhistorical identity does not promise perpetual content availability.
+
+Ordinary evolution preserves governing key/domain. Any necessary normative/domain/representation migration first needs actual prior/new rules/authority,owner/consumer/indispensable-interface impact,compatibility,mappings/aliases/collisions/reservations/history andreference/immutable-snapshot continuity. No arbitrary reassignment,reuse orretargeting is permitted. Ordinary compatible implementation additions retain allthree received conditions. DID-014§14's actual additive/backward-compatible/core-not-extensible restriction remains explicit pending owner reconciliation;controlled evolution is not a silent waiver or executed migration.
+
+Governance is Workflow/Policies/Reviews/Baselines documentary contracts,actual DMS/tool/manual execution andCMS change scope separately evidenced. Lifecycle assertions,status,approval,publication andexact eligible approved-edition selection/pinned context are distinct. No operational authority follows from authorship orlocal PASS. Actual mandatory State/Canonical Reference/lifecycle/extension authority remains pending;no merged mandatory schema orpeer approval invented.
+
+Metadata→Document Identity andfunctional README's actual Document Identity→Metadata requirement remain explicit under current DID-009§5.1.1/§10. Core-versus-descriptor names,projections orrelationship relabelling do not dissolve an indispensable required cycle. Selected edges anddocumentary references do not certify acomplete globally acyclic graph orimplemented conformity. No peer requirement is waived orsource modified.
+
+Incompatible applicability,key/record/domain/reference,independence andcompliance/authority meanings justify Version1.0→2.0 andRevision0→1 under Policy5;Family correction alone does not determine Version. Exact49 body/header maps,18 code/12 rationale associations,alloriginal lists/categories/dependencies andcomplete source/central diff are attached. No received diagrams existed;none are fabricated as history.
+
+### 79.4. Tracking and pause
+
+ReportV1.0 R72→R73;CHANGELOG452 source UPDATE,453 report,454 Milestone. Totals19 global Open,12 Corrected—pending validation,221 Closed—verified,INV-02 Not applicable. M12 nine C/one S/54 O In Progress;DID-010 start2026-10-15,no completion. Stable progress/manifest synchronized. Construction checks cover preservation,headings/maps/link existence andpackaging only,not VALIDATE DOCUMENT orclosure. Source remains Draft/unassigned;no allocation,migration,implemented global conformity,architectural approval,publication orBaseline membership.
+
+**Pause after UPDATE. CONTINUAR starts4.23 VALIDATE DOCUMENT DF-DID-010,then pauses before4.24 REVIEW.**
