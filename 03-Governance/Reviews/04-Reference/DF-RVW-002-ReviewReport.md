@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 81 |
+| **Revision** | 82 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -287,6 +287,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 79 | Step4.25 Best Practices UPDATE;V2.0 R1;13 corrections pending | Compatible report event;section85;advisory nature retained;source validation not performed |
 | 2026-10-15 | 1.0 | 80 | Step4.25 exact Best Practices V2.0 R1 local PASS;13 closures | Compatible report event;section86;source/advisory nature unchanged;global authority/extension/dependency work pending |
 | 2026-10-15 | 1.0 | 81 | Step4.26 complete Dictionary REVIEW;12 findings/2 warnings Open | Compatible report event;section87;source unchanged;30 terms including unnumbered Non-Reusability;next UPDATE |
+| 2026-10-15 | 1.0 | 82 | Step4.26 Dictionary UPDATE;V2.0 R1;14 corrections pending | Compatible report event;section88;30 terms/unnumbered anchor preserved;source validation not performed |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -6414,3 +6415,48 @@ Fourteen DID013 records Open;19 global Open and259 earlier Closed—verified unc
 ReportV1.0 R80→R81;CHANGELOG478 source REVIEW,479 report,480 Milestone,481 REVIEW traceability checks. Stable89 progress positions,current manifest andcumulative Context-only package synchronized;all domain/evidence bytes preserved. Traceability PASS concerns exact source/inventory/comparison/hash/tracking/packaging only,not source VALIDATE DOCUMENT,finding closure,full terminology rollout,implemented global conformity,formal approval,publication orBaseline selection.
 
 **Pause after REVIEW. CONTINUAR starts4.26 UPDATE DOCUMENT DF-DID-013 — Document Identity Dictionary,then pauses before VALIDATE DOCUMENT.**
+
+## 88. Step 4.26 — UPDATE DOCUMENT DF-DID-013 — Document Identity Dictionary
+
+### 88.1. Exact successor and operation
+
+UPDATE complete,2026-10-15. Received V1.0 R0 becomes **V2.0 R1, Draft, Baseline Not assigned**, Family/Component Document Identity, Type Reference, cumulative Author Arnaldo Figueira; Codex — AI assistant. ID/path, all38 original numbered headings and unnumbered Non-Reusability position retained:39 complete content bodies and30 terms/Definition blocks. Received Canonical/Baseline1.0 and absent date remain provenance. Output SHA-256 `7c54387f68dfedb8f84ff47aed45c3478a5fabb45552ba1b8bc815804e52c550`. No VALIDATE DOCUMENT performed.
+
+Explicit component-normative vocabulary intent remains within qualified responsible subject/domain/contracts, not Type-derived authority or blanket glossary supremacy. Fourteen DID013-01–12/W01/W02 records are Corrected—pending validation, not Closed. Section87 retains REVIEW-time states. All other source/evidence bytes unchanged; previous exact semantic/attribution results retain actual coverage.
+
+### 88.2. Corrections and later validation requirements
+
+| Record | Corrected source scope | Required subsequent evidence |
+|---|---|---|
+| DID013-01 | Header;1/7–10:component Family,Reference retained,cumulative Author,received provenance,Draft/unassigned | Exact header/history/compatibility/original contribution |
+| DID013-02 | 1–2/3.10/4/6–7/9:scoped component-normative meanings,owner-linked common terminology,actual authority/consumer limits | Current ARC-006 roles and generic entity meanings;no universal glossary takeover/Type-derived approval or full R2 semantic validation |
+| DID013-03 | 1–3/3.3–3.4/3.10/3.21:assigned normalized subjects,functional exclusions,pre-allocation/file/entity/edition/record/Status distinctions | No every-file/entity allocation or Canonical naming→approval/Baseline |
+| DID013-04 | 3.2/3.12/3.21/3.28/4/6:qualified key/domain/canonical rendering/alias,actual assignment-population-history uniqueness and DF stable-series rules | No bare-string uniqueness/resolver guarantee,current-category reconstruction,gaps-as-availability or new allocation |
+| DID013-05 | 3.4/3.16/3.19/3.22–3.24/Non-Reusability/9:stable key versus mutable records,allocated/retired non-reuse and necessary assessed governing-contract continuity | Actual record/adapter/ordinary/necessary transition cases;no arbitrary reassignment/historical retargeting or perpetual preservation/retrieval |
+| DID013-06 | 3.1/3.5/3.11/4/6:Assignment act/event and creation alias with actual authority/history,component contracts versus actual executor | Pre-allocation/recognition/string/file/registration not assignment;no algorithm,user role/permission or approval from term |
+| DID013-07 | 3.6/3.15/3.18/3.26/4/6:selected lifecycle/pre-allocation/decision,event versus Retired assertion and retained same-document association/history | DID-006 eight-transition/status/deletion/retirement scopes;no universal permission graph,lost association,reuse or missing edge implied |
+| DID013-08 | 3.9/3.17/3.25/3.27/4/6:qualified intended document/exact-edition/other endpoints,incoming0..N,actual resolution/connection/retrieval and provenance/coverage | No successful/perpetual resolver from definition,universal document-only endpoints,silent key creation or snapshot retargeting |
+| DID013-09 | 3.13–3.14/3.20/3.29/9:Governance/Integrity/Validation actual rule/subject/authority/executor/check/outcome/coverage,mandatory peer limits | No invented authenticity/security mechanism,accepted complete record,every-framework-rule Valid,repair permission,approval/publication/Baseline |
+| DID013-10 | 3 paired entries/4:five controlled synonym rows plus act/event/state/qualified-domain pair mappings | All original labels/contexts retained;no global interchangeable words or field/history rewrite |
+| DID013-11 | 5–6/Header:six received avoidance pairs/six naming subjects context-qualified;Document ID valid working field | Other internal/file/repository/database/provisional keys not automatically document Identifiers/References;no blanket substitution/field migration |
+| DID013-12 | 3.7–3.8/1–2/7–9:scoped Model/Schema versus actual mandatory complete-record/State/Canonical Reference/lifecycle/extension/required-interface authority | No fabricated merged schema or waived peer rule;actual prior/new owner/consumer term/contract evolution/evidence and remaining global work |
+| DID013-W01 | 39 body/header maps,30 term maps,all Definition/Notes andoriginal lists/tables;unnumbered Non-Reusability kept between3.23/3.24 | No renumbering,missing term,invented historical number/date/diagram/global registration/temporary Author list |
+| DID013-W02 | 7–8/10:thirteen original dependencies with intended-ID links and exact comparison provenance/attribution limits | Current selected ARC-006 V2.0 R2 versus prior R1 semantic/attribution-only scope,no inherited full validation or completed peer rollout |
+
+### 88.3. Authority, compatibility and preservation decisions
+
+Component normative intent remains explicit within actual responsible documentary/domain contexts. Common ARC-006 supplies owner-linked consultation/qualified aliases and retains its actual current clauses/attribution-only successor limits; neither dictionary acquires blanket authority over every domain. Identity in generic contexts remains entity-domain qualified, document Identifier is representation rather than logical entity, and Canonical naming is separate from Status/approval/selection. Actual field/state/lifecycle/extension and reciprocal required-interface conflicts remain visible, not silently resolved.
+
+Stable assigned Domain+Identifier/same-document association and non-reuse/history differ from mutable support records, files and exact editions. Uniqueness/canonicalization/reservation claims need actual assignments/population/history/coverage, not domain labels or syntax. Necessary normative/domain/representation/term change requires actual previous/new authority/rationale, owners/consumers/indispensable interfaces, compatibility/version, mappings/aliases/collisions/reservations/history and intended reference/exact-snapshot continuity before separately authorized change and later exact validation. No migration,allocation,ownership transfer or history rewrite occurs.
+
+Lifecycle definitions now distinguish pre-allocation subject, selected DID-006 transitions and actual event/decision;retirement ends active use while preserving same-document historical association/reservation. Document deletion/Status is not automatic retirement or an unlisted edge. Reference/Resolution/Traceability distinguish typed intended qualified target/exact edition/context, optional incoming0..N, connection ownership/provenance and actual historical/live observations;no silent key creation/retargeting or perpetual resolver. Governance/Integrity/Validation require actual rules/artifacts/context, authority/executor/checks/outcomes/coverage and limits;no authentication mechanism or complete mandatory merged model is fabricated.
+
+Five synonym rows and paired entry roles remain controlled contextual aliases. Six avoidance pairs retain received alternatives as history-qualified consultation,not automatic substitutions. Document ID remains a valid current header field;other entity/record/file/database/provisional keys retain their own contracts. All six naming subjects are qualified without renaming existing fields/IDs/paths. Metadata→Identity andIdentity→Metadata remain actual required claims;projection/naming cannot dissolve a genuine required cycle or certify acomplete globally acyclic graph.
+
+These are incompatible authority/applicability/key-record/domain/lifecycle/reference/validation/alias/field-usage meanings,not merely Family orconsultation-link correction:V1.0→V2.0,R0→R1 under Policy5,monotonic Revision across Versions. Exact39 body/header/raw-heading maps and30 definition/Notes maps,all original five synonym/six avoidance/six naming/six independence/thirteen dependency subjects andcomplete diff attached. No numbered anchor is shifted andno historical number is invented for Non-Reusability. Type Reference,ID/path andoriginal contribution preserved.
+
+### 88.4. Tracking and pause
+
+ReportV1.0 R81→R82;CHANGELOG482 source UPDATE,483 report,484 Milestone. Totals19 global Open,14 Corrected—pending validation,259 Closed—verified,INV-02 Not applicable. M12 twelve C/one S/51 O In Progress;DID-013 start2026-10-15,no completion. Stable progress/manifest synchronized. Construction checks cover preservation,headings/maps/link existence andpackaging only,not VALIDATE DOCUMENT orclosure. Source Draft/unassigned;no actual allocation,migration,implemented global conformity,operational permission,formal approval,publication orBaseline membership.
+
+**Pause after UPDATE. CONTINUAR starts4.26 VALIDATE DOCUMENT DF-DID-013,then pauses before4.27 REVIEW.**
