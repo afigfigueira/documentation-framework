@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 75 |
+| **Revision** | 76 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -281,6 +281,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 73 | Step4.23 Constraints UPDATE;V2.0 R1;12 corrections pending | Compatible report event;section79;source validation not performed |
 | 2026-10-15 | 1.0 | 74 | Step4.23 exact Constraints V2.0 R1 local PASS;12 closures | Compatible report event;section80;source unchanged;global authority/dependency reconciliation pending |
 | 2026-10-15 | 1.0 | 75 | Step4.24 complete Extensibility REVIEW;11 findings/2 warnings Open | Compatible report event;section81;source unchanged;next UPDATE |
+| 2026-10-15 | 1.0 | 76 | Step4.24 Extensibility UPDATE;V2.0 R1;13 corrections pending | Compatible report event;section82;source validation not performed |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -6038,3 +6039,45 @@ Thirteen DID011 records Open;19 global Open and233 earlier Closed—verified unc
 ReportV1.0 R74→R75;CHANGELOG458 source REVIEW,459 report,460 Milestone,461 REVIEW traceability checks. Stable89 progress positions,current manifest andcumulative Context-only package synchronized;all domain bytes/historical exports preserved. Traceability PASS concerns source/inventory/comparison/hash/tracking/packaging,not source VALIDATE DOCUMENT,finding closure,full compatibility/conformance,architectural approval,publication orBaseline selection.
 
 **Pause after REVIEW. CONTINUAR starts4.24 UPDATE DOCUMENT DF-DID-011 — Document Identity Extensibility,then pauses before VALIDATE DOCUMENT.**
+
+## 82. Step 4.24 — UPDATE DOCUMENT DF-DID-011 — Document Identity Extensibility
+
+### 82.1. Exact successor and operation
+
+UPDATE complete, 2026-10-15. Received V1.0 R0 becomes **V2.0 R1, Draft, Baseline Not assigned**, Family/Component Document Identity, Type Behavior, cumulative Author Arnaldo Figueira; Codex — AI assistant. ID/path and all 29 original heading numbers/titles retained; irregular punctuation explicitly mapped to normalized formatting. Received Canonical/Baseline1.0 and absent date remain provenance. Output SHA-256 `89414db1b6816877723f7c255bfbbf5d5761a8f6d0f70730838d4587cb3daf2a`. No VALIDATE DOCUMENT performed.
+
+Thirteen DID011-01–11/W01/W02 records are Corrected—pending validation, not Closed. Section81 retains REVIEW-time states. Allother domain/evidence bytes unchanged; earlier exact semantic/attribution results retain actual source/scope.
+
+### 82.2. Corrections and later validation requirements
+
+| Record | Corrected source scope | Required subsequent evidence |
+|---|---|---|
+| DID011-01 | Header; 1/11/14:component Family, Behavior retained, cumulative Author, received provenance, Draft/unassigned | Exact header/history/compatibility and original contribution |
+| DID011-02 | 1–2/5–7/10:assigned normalized/domain/extension subjects, functional exclusions, pre-allocation/file/entity/edition/record distinctions | Actual extension input/output/applicability cases, no automatic IDs orallocation |
+| DID011-03 | 4.1–4.3/5/9–10/12/14:ordinary compatible extension versusnecessary assessed normative/foundational revision | Common actual authority, prior/new rationale/owners/consumers/interfaces/compatibility/version/transition; DID-014 restrictive claim not waived |
+| DID011-04 | 2/5/7/12:stable qualified key and same-document association versusmutable records, actual uniqueness/reservations/history and mandatory owner authority | Copies/aliases/editions/record changes versuskey mutation; mandatory State/Canonical Reference/lifecycle not merged orremoved |
+| DID011-05 | 5/6.1/6.3/7.2/9–10:qualified domain/canonical/alias/mapping and DF stable-series001–999/continuation rules | Actual prior/new domain/representation/consumer/history/snapshot cases, no registration/reallocation/recycling/migration |
+| DID011-06 | 5/6.2/8–9/12:responsible additional rule/policy authority, exact claim/check/coverage, outcomes and actual executor | Partial/missing/conflicted/negative evidence; Governance contracts versusactual DMS/tool/manual/CMS/decision, no fabricated facts/permissions |
+| DID011-07 | 4.1/5/7.1–7.3/8/10:typed qualified intended targets/exact edition/context, other endpoints, optional incoming0..N, observed validity/history/live limits | No perpetual relationship validity orretrieval guarantee, silent key creation orimmutable snapshot retargeting |
+| DID011-08 | 4.4/7.7/8/11:actual semantic/record/domain owners under common rules, six subjects typed, reciprocal required interfaces and necessary assessed responsibility revision | No silent transfer, universal route orrelabelling-away actual required cycle; full graph not certified |
+| DID011-09 | 4.5/5/6/12:five independence subjects, four categories/seven examples, logical interfaces versusactual implementation/adapter evidence | Registered capability versusexample/area/executor; exact inputs/outputs/contributors/authorization/checks, no invented components orimplemented outcome |
+| DID011-10 | 9–10/14:five stage labels/four transitions typed, five-step separately authorized change protocol and working edition/phase rules | No automatic Canonical/Approved/publication/Baseline from checks; actual prior/new authority/version/history/later exact validation |
+| DID011-11 | 1/3/7/9–10/12–14:objectives/requirements versusactual compatibility/interoperability/consistency evidence and remaining owner rollout | Exact sources/claims/observations/coverage/limits; no future guarantee, global conformity orapproval from local correction |
+| DID011-W01 | 9:original view text/digest and five labels retained; typed artifact/proposal/evaluation/evidence/decision view and four transitions | Original-section anchor, no invented historic ID, serial runtime pipeline orautomatic status promotion |
+| DID011-W02 | All29 headings/7 DID-E labels/all list/table/example/dependency subjects with explicit punctuation maps | Complete before/after/header/body/role/list/view/history and eight intended dependency targets; original authorship/provenance |
+
+### 82.3. Authority, compatibility and preservation decisions
+
+Ordinary compatible implementation extensions preserve responsible meanings and assigned-key continuity. Necessary normative/foundational/responsibility/interface revision is assessed under common Architecture AP-015–018 with actual previous/new authority, rationale/alternatives, affected exact owners/consumers/indispensable interfaces, compatibility/version, mappings/aliases/reservations/history/reference/exact-snapshot continuity and later transition validation. This is not an absolute extension-only ban orblanket permission for arbitrary key mutation. No actual transfer, migration, allocation orconsumer rollout is performed.
+
+DID-014§14 still restricts extensions toadditive/backward-compatible/core-not-extensible changes; the actual peer restriction is explicit pending responsible reconciliation. Mandatory State/Canonical Reference/lifecycle authority likewise remains. No selected key view/table silently removes requirements ormanufactures anaccepted merged model. Reciprocal Metadata→Identity and functional README's Identity→Metadata requirements remain real claims; core-versus-descriptor names, projections orrelabelling cannot dissolve a genuine required cycle. No global acyclicity orintegrated contract agreement is asserted.
+
+Qualified assigned key and same-document association differ from mutable support records and exact editions; actual collision/reservation/population/history determine uniqueness. Document references need intended qualified targets and exact-edition/context, other endpoints their own contracts; optional incoming0..N does not waive per-reference validity. Preserve historical interpretation without perpetual availability guarantees orsilent snapshot retargeting. Governance four-component contracts differ from actual execution/authority and exact approved Baseline selection. Local validation is not promotion toCanonical/Approved, publication ormembership.
+
+Incompatible applicability, extension/evolution authority, key/record/reference/ownership and compatibility/outcome meanings justify V1.0→V2.0, R0→R1 under Policy5. Family/heading punctuation repair alone does not determine Version. Exact29 header/body/heading maps, seven DID-E maps, all original lists/tables/examples, five stage/four transition view and complete source/central diff attached. No original date, view ID, component/global constraint allocation orsource path is invented/migrated. Type Behavior and received Behavioural Extensions title retained.
+
+### 82.4. Tracking and pause
+
+ReportV1.0 R75→R76; CHANGELOG462 source UPDATE, 463 report, 464 Milestone. Totals19 global Open, 13 Corrected—pending validation, 233 Closed—verified, INV-02 Not applicable. M12 ten C/one S/53 O In Progress; DID-011 start2026-10-15, no completion. Stable progress/manifest synchronized. Construction checks cover preservation, maps/heading/links and packaging only, not VALIDATE DOCUMENT orclosure. Source Draft/unassigned; no actual allocation, migration, implemented global conformity, operational permission, architectural approval, publication orBaseline membership.
+
+**Pause after UPDATE. CONTINUAR starts4.24 VALIDATE DOCUMENT DF-DID-011, then pauses before4.25 REVIEW.**
