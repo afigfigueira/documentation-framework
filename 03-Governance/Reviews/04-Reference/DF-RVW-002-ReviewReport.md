@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 79 |
+| **Revision** | 80 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -285,6 +285,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 77 | Step4.24 exact Extensibility V2.0 R1 local PASS;13 closures | Compatible report event;section83;source unchanged;global authority/extension/dependency reconciliation pending |
 | 2026-10-15 | 1.0 | 78 | Step4.25 complete Best Practices REVIEW;11 findings/2 warnings Open | Compatible report event;section84;source unchanged/advisory role retained;next UPDATE |
 | 2026-10-15 | 1.0 | 79 | Step4.25 Best Practices UPDATE;V2.0 R1;13 corrections pending | Compatible report event;section85;advisory nature retained;source validation not performed |
+| 2026-10-15 | 1.0 | 80 | Step4.25 exact Best Practices V2.0 R1 local PASS;13 closures | Compatible report event;section86;source/advisory nature unchanged;global authority/extension/dependency work pending |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -6256,3 +6257,51 @@ The substantive guidance changes are incompatible in interpretation:architectura
 ReportV1.0 R78→R79;CHANGELOG472 source UPDATE,473 report,474 Milestone. Totals19 global Open,13 Corrected—pending validation,246 Closed—verified,INV-02 Not applicable. M12 eleven C/one S/52 O In Progress;DID-012 start2026-10-15,no completion. Stable progress/manifest synchronized. Construction checks cover source preservation,maps/headings/link existence andpackaging only,not VALIDATE DOCUMENT orclosure. Source Draft/unassigned;no actual allocation,migration,implemented global conformity,operational permission,formal architectural approval,publication orBaseline membership.
 
 **Pause after UPDATE. CONTINUAR starts4.25 VALIDATE DOCUMENT DF-DID-012,then pauses before4.26 REVIEW.**
+
+## 86. Step 4.25 — VALIDATE DOCUMENT DF-DID-012 — Document Identity Best Practices
+
+### 86.1. Exact unchanged source and result
+
+**PASS — local correction scope only (2026-10-15).** Complete DID-012 V2.0 R1, Draft/Baseline Not assigned, cumulative Author Arnaldo Figueira; Codex — AI assistant remains byte-identical to UPDATE. SHA-256 `634fced1216f6c3d598b062208d9eb611a0ade571eb2067e8186494741ffde36`. No source edit or coordinate increment. Received/written header, all36 exact numbered bodies/headings and original subject maps compared. Earlier exact semantic/attribution results retain actual bytes/editions/scope.
+
+Explicit non-normative recommendation role remains. Applicable mandatory owner contracts retain independent actual authority; the validation introduces no new universal normative rules and waives none. Source pending-validation phrases remain UPDATE-time evidence; this later central event records the result without editing the examined bytes. PASS covers corrected advisory content and traceability, not full identity/component/framework conformity or formal approval.
+
+### 86.2. Thirteen local closures
+
+| Record | Checked scope | Assessment | Local result |
+|---|---|---|---|
+| DID012-01 | Header;1/14/16 | Family/Component Document Identity,Reference,cumulative author,Draft/unassigned andreceived provenance exact;materially incompatible advice interpretation rationale assessed. | Closed—verified |
+| DID012-02 | 1–3;12–16 | Explicit non-normative nature retained;independent mandatory owner authority,scoped objectives/evidence andType-independent authority prevent newuniversal requirements/global guarantees. | Closed—verified |
+| DID012-03 | 4;12 | Assignment recommendations nowidentify actual normalized/domain/decision/history subject,early timing,pre-allocation/functions andprovisional tracking withoutautomatic key/state/authority. | Closed—verified |
+| DID012-04 | 4.1;5–6;8;12 | Stable assigned qualified key differs frommutable records/editions andactual migration effects;necessary transition requiresseparate prior/new authority/consumer/interfaces/mappings/history/snapshot assessment andlater exact validation. | Closed—verified |
+| DID012-05 | 3;6;11;12 | Qualified key/canonical/alias interpretation andactual assignment/population/reservation evidence;stable registered DF series001–999/non-reuse/continuation distinct frommutable categories andhistorical purpose. | Closed—verified |
+| DID012-06 | 6.3;7.4;12 | Typed intended document/exact-edition/context,other endpoints,legitimate logical alias/interface andoptional incoming0..N separated fromper-reference/connection/live validity. | Closed—verified |
+| DID012-07 | 7;13–14 | Five actual owners andother entity domains retainmeaning/records;repeated descriptors/projections notautomatically duplicates;actual scoped reciprocity/cycle/interface limits retained. | Closed—verified |
+| DID012-08 | 5.3;8–9;12 | Governance area four-component contracts versusactual DMS/tool/manual/CMS/executor/decision,lifecycle/status andexact approved Baseline selection separated;no inherited Draft approval. | Closed—verified |
+| DID012-09 | 9;12–14 | Five advisory occasions retainactual claim/rule/source/context/check/executor/observation/coverage andDID-007 outcome limits;mandatory peer fields notwaived,separate result/correction/approval. | Closed—verified |
+| DID012-10 | 3;10;12–16 | Four ordinary extension subjects separated fromnecessary assessed normative revision andactual current DID-011/restrictive DID-014 authority;no waiver/global agreement ormigration. | Closed—verified |
+| DID012-11 | 11.1–11.7;12 | Allseven anti-patterns nowadvisory cautions withactual responsible rule/subject/observed evidence andlegitimate record/alias/adapter/copy/edition distinctions;missinghistory notverdict/repairpermission. | Closed—verified |
+| DID012-W01 | All36 headings;4–14;16 | Alloriginal body/heading/list/example/role/table/anti-pattern subjects retained withcomplete maps;no invented historical diagram/date/constraintallocation/temporary Author list. | Closed—verified |
+| DID012-W02 | 13–14;16 | Eleven original contribution/dependency subjects resolveintended IDs withqualified authority andexact comparison provenance;documentary links notexecution/full required graph orcompleted peercycle. | Closed—verified |
+
+### 86.3. Preservation and advisory semantic cases
+
+All36 original headings/15 chapters, three assignment/three preservation/three identifier/five integration/seven anti-pattern subjects, five encoding examples, five validation occasions, four extension conditions, eight practice subjects, eleven specification contribution roles and eleven original dependencies remain traceable. Twenty-nine links resolve intended declared IDs or functional README, including the eleven role-to-ID mappings and eleven original dependency links. Exact author order, received lifecycle/provenance, retained Reference responsibility and substantive advice-interpretation V2.0 R1/monotonic Revision rationale checked. No historical diagrams, local constraint IDs, original date or temporary Author indicator invented. All selected REVIEW peer clauses remain in their byte-unchanged exact comparison sources/hashes.
+
+Twenty-five documentary cases assess advisory versus mandatory authority, creation/governance entry, pre-allocation/function exclusions, temporary tracking, ordinary content/metadata evolution, actual repository movement, necessary governing-contract transition, publication copies, stable historical series, gaps/continuation, logical aliases/other endpoints, optional incoming/historical retrieval, repeated Metadata descriptors, actual reciprocity, Registry/Graph refresh, Governance/Status, exact approved Baseline selection, five advisory check occasions, missing/partial/conflicted evidence, ordinary extension versus necessary revision and seven anti-pattern distinctions. These inspect corrected advice against actual responsible contracts, not real allocation/authority/migration, implemented checker execution or a complete required graph.
+
+Assignment guidance no longer assumes allocation from recognition, file creation, governance entry or a matching provisional string. Ordinary evolution preserves assigned same-document key, reservations/non-reuse and history; actual records/editions/locations can change under owners and have consumer/reference effects. Necessary domain/representation/normative transition needs separately established prior/new authority/rationale, affected owners/interfaces, compatibility/version, mappings/aliases/collisions/reservations/history and reference/immutable-snapshot continuity before authorized change and later exact validation. No movement is assumed harmless and no original failure is rewritten as success.
+
+Qualified document/exact-edition/context reference meaning, other endpoint contracts and logical alias/interface responsibilities differ from runtime-only representations. Optional incoming0..N does not waive per-reference validity. Legitimate repeated descriptors, registrations, copies, aliases, editions and graph projections do not alone prove competing allocation/semantic authority. Historical interpretation differs from actual connection validity/live retrieval; no perpetual resolver or silent target repair. Seven anti-patterns retain advisory caution, actual responsible-rule/subject/observation requirements and legitimate record/adapter distinctions.
+
+Current DID-011 common assessed evolution distinguishes ordinary compatible extension from necessary normative revision. DID-01414 still states additive/backward-compatible/core-not-extensible restrictions; mandatory State/Canonical Reference/lifecycle authority and actual reciprocal Metadata/Identity required interfaces remain responsible owner work. Local closure means accurate advisory treatment and visible limits, not globally reconciled owner contracts, removed fields or permission to implement a conflicting rule. Projection or relationship relabelling cannot conceal an indispensable required cycle or certify acyclicity.
+
+Governance four-component documentary contracts differ from actual DMS/tool/manual execution and CMS change scope. Lifecycle/status, authorship, review, validation, approval, publication and exact eligible approved-edition/pinned-context selection remain distinct. Five recommended check occasions are not a serial workflow, execution evidence, complete mandatory coverage or permission; DID-007 outcomes/coverage preserve partial/missing/conflicted/negative observations and withhold broader conformity where required. No Draft successor inherits approval or Baseline membership from a label/local PASS or retargets immutable history.
+
+### 86.4. Tracking, preservation and pause
+
+Thirteen DID012 records move Corrected—pending validation→Closed—verified. Totals19 global Open,259 Closed—verified,INV-02 Not applicable;zero local corrected-pending records. M12 twelve C/52 O In Progress;DID-012 local documentary cycle completion2026-10-15. This is not global mandatory authority/extension/dependency resolution. All other source/evidence bytes unchanged.
+
+ReportV1.0 R79→R80;CHANGELOG475 exact-source validation,476 report,477 Milestone. Stable89 progress positions,current manifest and cumulative Context-only package checked;temporary Author indicator absent. Source remains Draft/unassigned and explicitly non-normative. No actual allocation,domain/series registration,migration,retirement,operational permission,implemented global conformity,formal approval,publication orBaseline inclusion. Integrated final delivery remains pending.
+
+**Pause after VALIDATE. CONTINUAR starts4.26 REVIEW DOCUMENT DF-DID-013 — Document Identity Dictionary,then pauses before UPDATE.**

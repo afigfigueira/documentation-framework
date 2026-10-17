@@ -221,7 +221,7 @@ Dependencies: M10/M11; typed domain dependencies recorded per cycle. Evidence: D
 | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-007 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-007 - Document Identity Validation.md |
 | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-008 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-008 - Document Identity Governance.md |
 | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-011 | /02-Documentation/DocumentIdentity/03-Behavior/DF-DID-011 - Document Identity Extensibility.md |
-| S | 2026-09-30 | 2026-10-15 |  | DF-DID-012 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md |
+| C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-012 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-012 - Document Identity Best Practices.md |
 | O | 2026-09-30 |  |  | DF-DID-013 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-013 - Document Identity Dictionary.md |
 | O | 2026-09-30 |  |  | DF-DID-014 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md |
 | O | 2026-09-30 |  |  | DF-DID-015 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md |
@@ -693,3 +693,5 @@ Step4.24 VALIDATE (2026-10-15): exact unchanged DID-011 V2.0 R1 local documentar
 Step4.25 REVIEW (2026-10-15): exact unchanged DID-012 V1.0 R0 Canonical/Baseline1.0,Author Arnaldo Figueira;11 findings/2 warnings Open;explicit advisory role/all36 headings/7 anti-patterns/8 practice rows/11 specification roles anddependencies retained. Eleven C/one S/52 O M12 In Progress;DID-012 start2026-10-15,no completion. ReportR78 section84;CHANGELOG468–471;mandatory/extension/reciprocal owner work pending,UPDATE/VALIDATE not performed;no global approval/Baseline.
 
 Step4.25 UPDATE (2026-10-15): DID-012 V2.0 R1 Draft/unassigned,Family/Component Document Identity,Type Reference,cumulative Author Arnaldo Figueira; Codex — AI assistant. 13 corrections pending VALIDATE;explicit advisory nature/all36 headings,7 anti-patterns,8 practices,11 specification/dependency subjects andoriginal lists retained. Eleven C/one S/52 O M12 In Progress;no completion. ReportR79 section85;CHANGELOG472–474;actual mandatory/extension/reciprocal authority pending,no global approval/publication/Baseline.
+
+Step4.25 VALIDATE (2026-10-15): exact unchanged DID-012 V2.0 R1 local advisory correction PASS;13 records Closed—verified;36 headings/all original subjects,cumulative Author andnon-normative recommendation role preserved. DID-012 completion2026-10-15;twelve C/52 O M12 In Progress. ReportR80 section86;CHANGELOG475–477. Draft/unassigned;actual mandatory field/state/lifecycle/extension/reciprocal owner/full graph integration pending,no approval/Baseline. Next4.26 REVIEW DF-DID-013.
