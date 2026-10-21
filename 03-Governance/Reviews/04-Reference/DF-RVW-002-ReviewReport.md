@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 84 |
+| **Revision** | 85 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -290,6 +290,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 82 | Step4.26 Dictionary UPDATE;V2.0 R1;14 corrections pending | Compatible report event;section88;30 terms/unnumbered anchor preserved;source validation not performed |
 | 2026-10-15 | 1.0 | 83 | Step4.26 exact Dictionary V2.0 R1 local PASS;14closures;comparison header coordinates recovered | Compatible report event;section89;source unchanged;actualglobal authority/extension/dependency work pending |
 | 2026-10-15 | 1.0 | 84 | Step4.27 complete Specification REVIEW;13findings/2warnings Open | Compatible report event;section90;source unchanged;actualmandatory/extension/authority/triage maps;next UPDATE |
+| 2026-10-15 | 1.0 | 85 | Step4.27 Specification UPDATE;V2.0R1;15correctionspending | Compatible report event;section91;explicitK/Rmandate andprior/newevolution/sourceauthority decisions;sourcevalidation notperformed |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -6583,3 +6584,55 @@ Fifteen DID014 records Open;19global Open and273earlier Closed—verified unchan
 ReportV1.0 R83→R84;CHANGELOG488 source REVIEW,489 report,490 Milestone,491 REVIEW traceability checks. Stable89progress positions,current manifest andcumulative Context-only package synchronized;all domain/evidence bytes preserved. Traceability PASS concerns exact source/inventory/comparison/header/hash/tracking/packaging only,not source VALIDATE DOCUMENT,finding closure,complete mandatory contract integration,implemented conformity,formal architectural approval,publication orBaseline selection.
 
 **Pause after REVIEW. CONTINUAR starts4.27 UPDATE DOCUMENT DF-DID-014 — Document Identity Specification,then pauses before VALIDATE DOCUMENT.**
+
+## 91. Step 4.27 — UPDATE DOCUMENT DF-DID-014 — Document Identity Specification
+
+### 91.1. Exact successor and operation
+
+UPDATE complete,2026-10-15. Received V1.0 R0 becomes **V2.0 R1, Draft, Baseline Not assigned**, Family/Component Document Identity, Type Reference, cumulative Author Arnaldo Figueira; Codex — AI assistant. ID/path and all28 original headings remain. Received Canonical/Baseline1.0 and absent date remain provenance. Output SHA-256 `972291275ecb10e8a2ae17f9071e4ca3fa5d45eb5958fd202372aaf228f56dec`. No VALIDATE DOCUMENT performed.
+
+Fifteen DID014-01–13/W01/W02 records are Corrected—pending validation, not Closed. Section90 preserves REVIEW-time states. Scoped normative intent remains; DID-012 advice is not promoted by citation. All other domain/evidence bytes are unchanged, and earlier exact semantic/attribution results retain their scopes.
+
+### 91.2. Corrections and later validation requirements
+
+| Record | Corrected scope | Required later validation |
+|---|---|---|
+| DID014-01 | Header;1/17/20: component Family, Reference, cumulative author, received history and working lifecycle | Exact header/history/compatibility and original contribution |
+| DID014-02 | 1/15/17–20: all21 source subjects with actual clause/subject/edition authority, including current DID-011 requirements, DID-012 advice and DID-013 definitions | No Type/title/list-derived authority, advice promotion, Draft approval or complete consolidation |
+| DID014-03 | 1–4/13: applicable assigned K/R, pre-allocation, functional/file/entity/edition/record scope; component contracts versus actual executor | No automatic allocation, structural Foundation reassignment or installed engine; REV2-09 remains global |
+| DID014-04 | 4–8/13/16: qualified K/domain/canonical rendering/aliases, actual assignment/population/reservation history and stable DF series | Copies/editions/suffixes/gaps versus actual conflict or availability; no syntax-only proof |
+| DID014-05 | 3–5/11/13–14/16/18: stable K versus mutable supporting records, non-reuse and necessary governed transition | Prior/new authority, owners/consumers/interfaces, mappings/history/reference/snapshot continuity; no arbitrary mutation |
+| DID014-06 | 1/6–8/15/20: K versus complete assigned R; all five mandatory Yes roles retained with State assertion and canonical-target descriptor | Exact prior/new mandate map; pre-allocation is not assigned R; K-only success is not full R; affected peer propagation remains |
+| DID014-07 | 9: four original labels and actual eight DID-006 rows, including five Preserved self-loops | Actual transition/decision/status/retirement scope; no universal permissions, missing edge or automatic retirement from deletion |
+| DID014-08 | 6–10/12–13: mandatory R Canonical Reference distinct from incoming0..N connections and immutable K | Typed target/exact-edition/context and actual validity/history/live observations; no silent repair or perpetual resolver |
+| DID014-09 | 10–11/15–18: six validation/six governance subjects with actual claim/rules/context/executor/outcomes/coverage | Partial/missing/conflicted/negative observations and independent actual approval/selection evidence |
+| DID014-10 | 12: nine subjects, six components/three areas, typed actual required consumption versus ownership/projection/execution | Reciprocal requirements remain explicit; no one-way blanket, full DAG or universal route |
+| DID014-11 | 2/5.6/13/16: seven design exclusions with legitimate logical representation/interface/evidence obligations | Actual input/output/source/contributor/authority observations, not installed services or universal suitability |
+| DID014-12 | 14/20: explicit replacement of this source's V1.0 R0 absolute extension-only restriction | Prior/new authority, alternatives/rationale, affected exact sources, compatibility/version/history and transition evidence; peer citations are not silently rewritten |
+| DID014-13 | 1/10–11/13/15–20: actual full claim, applicable mandatory-rule inventory, authority/check/coverage limits | No complete peer/implementation conformity, approved merged schema or global finding closure from a source/local PASS |
+| DID014-W01 | 6/8/9: three original texts/digests and five/five/four labels with typed key/record/mandate/event roles | Original section anchors, no invented historic IDs, storage layout, required edges or universal workflow |
+| DID014-W02 | All28 bodies/19 chapters, lists/table subjects,21 references and authority maps | Exact before/after header/body/list/role/view/compatibility/source coordinates and intended targets; no auxiliary or migration |
+
+### 91.3. Explicit K/R mandatory-subject decision
+
+Assigned K is governing Domain+Identifier and its same-document association. Complete supporting assigned R represents that subject with all five original roles still Yes:Document Identity, Identifier, Identity Domain, Identity State and Canonical Reference. This is an explicit incompatible correction of unqualified every-identity composition, not deletion of fields to fit a minimal view. State/Lifecycle State names denote the same supporting actual DID-006 assertion role in R. Assigned/Preserved/Retired differ from document Status; Unassigned is pre-allocation, not R with a missing K.
+
+Canonical Reference is the mandatory R canonical-target descriptor and context/evidence, which may reuse governed key rendering without a mandatory runtime URL. It is not an independent allocation, immutable K coordinate or incoming Relationships record. External incoming reference population remains0..N. Descriptor presence, connection validity, performed resolution and live retrieval are separate. K-only success cannot claim complete R or full implementation conformity; an out-of-scope pre-allocation/other-entity subject is not automatically an invalid R. Missing applicable mandatory R roles cannot be silently waived.
+
+This working decision uses existing lifecycle/typed-target contracts but creates no Metadata Element/Profile, actual populated record, approved merged catalog or complete owner agreement. Exact DID-003/004/005/006/013 and consumer editions/hashes are mapped. Their current bytes and pending notes remain, with separately traced propagation required. REV2-10's integrated global criterion is not automatically closed.
+
+### 91.4. Explicit prior/new evolution and source authority
+
+V1.0 R0§14's absolute additive/backward-compatible/core-not-extensible claim is retained as exact prior-source history. V2.0 R1 replaces that prohibition in this specification under common AP-015–018: ordinary extensions preserve meaning; necessary normative/foundational/responsibility/interface revision requires actual prior/new authority, alternatives/rationale, exact owners/consumers/indispensable interfaces, compatibility/version, mappings/reservations/history/reference/exact-snapshot continuity and later transition validation. No arbitrary key reassignment, retired reuse or historical retargeting is allowed.
+
+DID-005§11, DID-010§12, DID-011§§4.2/9 and DID-013§9 currently reference the received restriction. Their exact prior-source claims remain evidence and are explicitly identified for propagation/qualification. These peers are compared only, not edited or revalidated; no completed rollout is logged. Old and new clauses are not presented as simultaneous governing rules for the same current operation. Other mandatory record/interface and reciprocal Metadata/Identity requirements remain responsible owner work; projection or relabelling cannot dissolve a real required cycle or prove global acyclicity.
+
+All21 received source subjects retain their actual scoped roles. Current DID-011 architectural/evolution requirements apply where their responsible clauses govern; DID-012 advice is not promoted to mandatory by listing; DID-013 component-normative definitions remain qualified. Historical FND-006 rationale and common ARC-006 owner-linked consultation are not blanket normative takeovers. Conformance needs actual claim/subject/domain/rule/source-edition/artifact/context/authority/executor/check/observation/coverage, not citation or Version labels. Validation, operational permission, formal approval, publication and exact approved Baseline selection remain separate.
+
+These incompatible applicability, authority, K/R mandatory subject, state/reference/lifecycle, evolution and conformance meanings justify V1.0→V2.0/R0→R1 under Policy§5. Family alone does not determine Version. All original subjects, headings and views remain mapped with the complete diff. No peer, source ID/path, canonical field population, allocation or actual implementation is changed by this operation.
+
+### 91.5. Tracking and pause
+
+Report V1.0 R84→R85;CHANGELOG492 source UPDATE,493 report,494 Milestone. Totals19 global Open,15 Corrected—pending validation,273 Closed—verified,INV-02 Not applicable. M12 thirteen C/one S/50 O In Progress;DID-014 start2026-10-15,no completion. REV2-09/10 remain within19 global Open. Stable progress/manifest synchronized. Construction checks cover preservation,headings/maps/link existence and packaging only,not VALIDATE DOCUMENT or closure. Source remains Draft/unassigned;no implemented global conformity,operational permission,formal approval,publication orBaseline membership.
+
+**Pause after UPDATE. CONTINUAR starts4.27 VALIDATE DOCUMENT DF-DID-014,then pauses before4.28 REVIEW.**
