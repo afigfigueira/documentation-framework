@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 88 |
+| **Revision** | 89 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -294,6 +294,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-15 | 1.0 | 86 | Step4.27 exact Specification V2.0 R1 local PASS;15 closures | Compatible report event;section92;source unchanged;K/R/evolution decisions traced,peer/global propagation pending |
 | 2026-10-15 | 1.0 | 87 | Step4.28 complete Examples REVIEW;14 findings/2 warnings Open | Compatible report event;section93;source unchanged;20 examples/views;next UPDATE |
 | 2026-10-15 | 1.0 | 88 | Step4.28 Examples UPDATE;V1.0R1;16 corrections pending | Compatible educational correction;section94;20 original diagrams retained with typed legends;source VALIDATE not performed |
+| 2026-10-15 | 1.0 | 89 | Step4.28 exact Examples V1.0 R1 local PASS;16 closures | Compatible report event;section95;source unchanged;20original diagrams/14source rows/28documentary cases;global work pending |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -6839,3 +6840,62 @@ Metadata descriptors, Classification assignments, Registry registrations, Relati
 Sixteen local records move Open→Corrected—pending validation;19 global Open and288 earlier Closed—verified remain unchanged;INV-02 remains Not applicable. No local finding is closed. REV2-09/10 keep their independent integrated criteria and completed cycles are not reopened. M12 fourteen C/one S/49 O, In Progress;DID-015 remains S with start2026-10-15 and no completion. Report V1.0 R87→R88; CHANGELOG502 source UPDATE,503 report,504 Milestone. Stable89 progress positions, current manifest and cumulative Context-only ZIP maintained; original/historical exports and all other source bytes preserved. No temporary Author auxiliary is created.
 
 **Pause after UPDATE. CONTINUAR starts4.28 VALIDATE DOCUMENT DF-DID-015 — Document Identity Examples.** That later phase must compare exact written bytes, every finding's closure criterion and affected-source occurrences; construction checks here do not substitute for it. No architectural approval, full integrated owner/implementation conformity, publication or Baseline inclusion follows from this UPDATE.
+
+## 95. Step 4.28 — VALIDATE DOCUMENT DF-DID-015 — Document Identity Examples
+
+### 95.1. Exact unchanged edition and result
+
+**PASS — local educational correction scope only (2026-10-15).** DID-015 V1.0 R1, Family/Component Document Identity, Type Reference, Draft/Baseline Not assigned, cumulative Author Arnaldo Figueira; Codex — AI assistant remains byte-identical to UPDATE. Exact SHA-256 `b61ca89b7ad87bc04118d3d6b37e21b59e3c044f2f3bc5313c9a396a3e06ed73`. Validation changes neither source bytes nor Version/Revision. The UPDATE package and all361 input manifest hashes match. Full original/written header and24 heading/body maps were compared, together with twenty diagrams/legends, source-authority rows and related-source occurrences. Source history's pending-validation wording remains the UPDATE-time record; this later central event records the scoped result without rewriting it.
+
+Compatible V1.0 R1 is justified by this source's explicit informative educational responsibility: corrections qualify its illustrations against current owner contracts without adding/amending an owner requirement, mandatory capability, allocation, lifecycle edge, accepted field/profile or governing domain. Original unqualified claims remain exact historical evidence; they are not simultaneously governing current explanations. Family correction or volume of explanation does not alone require a major/minor contract increment. DID-014's own earlier incompatible K/R/evolution decision stays at its exact V2.0 R1 local scope and is neither recreated nor architecturally approved here.
+
+### 95.2. Sixteen local closures
+
+| Record | Checked scope | Assessment | Local result |
+|---|---|---|---|
+| DID015-01 | Header;25 | Canonical Family/Component,retained Reference,original/actual contributor order,Draft/unassigned and compatible V1.0R1/received provenance checked. | Closed—verified |
+| DID015-02 | 1–2;24 | Educational/informative intent and conditional labels retained; owner authority and technology-independent implementation evidence limits explicit. | Closed—verified |
+| DID015-03 | 2–4;22 | K versus complete R,allfive mandatory roles,scoped State alias,target descriptor and partial Example2 distinguished without field/catalog waiver. | Closed—verified |
+| DID015-04 | 2;5 | Applicable logical-document/preallocation/function scopes and real allocation authority/decision/collision/history/executor boundary retained; no actual operation. | Closed—verified |
+| DID015-05 | 6;12–13;19–20 | Ordinary stable K versus mutable records/consumer effects,Version/Revision,representations and necessary assessed governing transition qualified with history/snapshot continuity. | Closed—verified |
+| DID015-06 | 7–11;21 | Metadata/Classification/Registry/Relationships/Graph owner and record roles typed;both actual required Metadata directions retained with pending interface/cycle reconciliation. | Closed—verified |
+| DID015-07 | 2–4;9–11;13;22 | Mandatory R descriptor distinct from incoming0..N,actual typed connection target/context/exact edition and observed retrieval;no service route or perpetual locator inferred. | Closed—verified |
+| DID015-08 | 14 | Four received lifecycle labels and exact eight owner triples/five loops retained;preallocation/event/decision/Status/retirement and unlisted-edge scope checked. | Closed—verified |
+| DID015-09 | 15;17–20 | Conditional Valid/Invalid claims require exact rule/subject/context/authority/checks/observations/coverage;actual missing role versus missing evidence and K-only limits explicit. | Closed—verified |
+| DID015-10 | 13–14;16 | Independent change subjects and actual Governance contracts/executor/CMS scope separated from permission,approval/publication and exact approved-edition/pinned-context selection. | Closed—verified |
+| DID015-11 | 17 | Illustrative distinct labels are not population proof;qualified domain/copies/aliases and stable series/nonzero/nonreuse/gap/continuation rules scoped without allocation. | Closed—verified |
+| DID015-12 | 18 | Original same-label diagram/title/three violation subjects retained;duplicate assignment separated from explicitly hypothetical retired nonreuse with actual rule/ownership/evidence limits. | Closed—verified |
+| DID015-13 | 21–22 | Allten Complete-view labels typed;selected coverage explicitly replaces full architecture/schema/runtime/graph claim without waiving record roles or detailed owner contracts. | Closed—verified |
+| DID015-14 | 23 | Fourteen original source/contribution subjects resolve exact intended IDs/current coordinates and authority;DID012 advice/DID013 definitions/currentDID014 decision and prior-peer pending propagation explicit. | Closed—verified |
+| DID015-W01 | 3–22 | All20 individually anchored original diagrams have exact received text/digests,original labels,typed per-label/edge explanations and source locators;no invented historical event or view ID. | Closed—verified |
+| DID015-W02 | All24originalchapters;23;25 | Full24before/after heading/body/header maps,20view maps,14authority rows,3violation subjects and history/compatibility checked;other sources/exports/temporary-file exclusion preserved. | Closed—verified |
+
+Closure concerns exact corrected wording, preservation, actual comparison claims and local traceability. It is not acceptance of a merged canonical R architecture, complete Metadata catalog, full field/interface/source/consumer propagation, operational implementation or globally reconciled dependency graph.
+
+### 95.3. Preservation, references and documentary cases
+
+All24 original chapter numbers/titles remain; new §25 records provenance/compatibility without inventing an original date. All20 original diagram texts/digests remain individually anchored at §§3–22 with their original labels and per-label/arrow/source consultation maps. Illustrative Version1.0/1.1/2.0/3.0, PDF/HTML/Markdown, Repository A/B, Document A/B and Identity A/B are retained without allocating keys or fabricating history. All14 specification/contribution subjects and all3 original violation subjects remain explicitly mapped. Twenty links resolve intended declared document IDs or the non-normalized README. Fourteen source-table coordinates agree with exact current headers;23 normalized comparison coordinate sets and all24 source hashes/selected clause occurrences remain unchanged.
+
+A redundant UPDATE view preview for source §17 (Example15) was captured before three final spacing corrections (`three-digit001`→`three-digit 001`, `;000`→`; 000`, `at999`→`at 999`). Exact substring comparison detected that discrepancy. The authoritative full24-section body map already matches the actual source; diagram text/digests/labels/edges are unaffected. The original UPDATE export remains byte-identical. This later validation export records the observed mismatch, prior/normalized preview, exact current full section and all20 verified full-view maps as a traceable central evidence reconciliation. No source correction or revision is needed; the failed preview comparison is not represented as having originally passed.
+
+Twenty-eight documentary cases assess K versus complete R and partial Example2;State/pre-allocation and target descriptor versus incoming population;actual allocation/executor;Version/Revision and mutable support records;Metadata reciprocity and Classification semantics;Registry and graph projections;typed endpoints/exact editions/formats/approval;lifecycle eight selected transitions/five loops/retirement limits;conditional outcomes/coverage/actual missing role versus missing evidence/nonmutating checks;Governance versus executor;qualified uniqueness/copies/stable series/gaps/continuation;duplicate assignment versus explicitly hypothetical retired non-reuse/three violation subjects;arbitrary mutation/replacement versus necessary assessed governing revision;current source versus prior restriction;selected Complete-view/dependency scope;and authority/global limits. These are reasoned documentary assessments, not executed allocations, permission/transition tests, migration, populated records or a production validator.
+
+The exact eight DID-006 transition/event triples match, including five Preserved self-loops. No unlisted/direct Assigned-retirement edge or automatic retirement from Status/deletion is granted. Unassigned has no assigned K/complete R;retirement keeps same-document history and reservations. Complete R still retains allfive mandatory current DID-014 roles;Example2 remains a selected partial view without Canonical Reference and cannot claim complete R. State is a scoped supporting assertion, not an immutable key coordinate or universal Metadata/document Status alias. Mandatory canonical descriptor, external incoming0..N, actual connection validity and observed retrieval differ. Successful K-only checks do not certify full R or implementation;observed applicable missing roles and missing/unperformed evidence are distinguished without fabricated positive/negative results.
+
+### 95.4. Authority, propagation and actual limits
+
+Current DID-014 V2.0 R1 ordinary extension versus necessary assessed governing normative/domain/representation revision is accurately qualified in the examples. Necessary transition needs actual prior/new authority/rationale/alternatives,exact owners/consumers/indispensable interfaces,compatibility/version,mappings/aliases/collisions/reservations/history/reference and exact-snapshot continuity with subsequent checks. It grants no arbitrary reassignment or historical retargeting. Its prior V1R0 absolute restriction remains history, not a contradictory simultaneous current rule.
+
+Five actual unchanged prior-restriction occurrences were re-read and retained: DID-005§11,DID-010§12,DID-011§4.2,DID-011§9 andDID-013§9. They still cite the received restriction or pending qualification;DID-015§§19/23 explicitly leave separately traced version-qualified propagation pending. Current K/R field/profile/interface and consumer source reconciliation likewise remains outstanding. The source/table links do not claim that these peers were edited,approved or newly fully validated.
+
+Actual Metadata→Identity and Identity→Metadata claims remain explicit pending responsible core/descriptor/interface reconciliation. Semantic authority,logical association,record/projection,indispensable consumer→provider requirement and execution differ. Support order is not a universal serial chain;legitimate same-Layer contracts need actual interfaces/no required cycles. Projection,scope names or selected arrows certify no full DAG and hide no indispensable provider. DID-012 remains advice,DID-013 scoped definitions,DID-014 a current working normative source with local decisions and remaining propagation;ARC-006 R2 owner-linked consultation retains attribution-only limits. A title,Type or citation promotes no authority or approval.
+
+Actual allocation/checking/retirement/migration/execution needs responsible subject/rules/decision/executor/observations/evidence. Examples create no actual event,installed service,canonical field/profile or runtime schema. Evaluation,result writing,authorized correction,permission,formal approval,publication and exact eligible approved-edition/pinned-context Baseline selection remain separate. Earlier exact source/attribution checks keep their own scope;later changed bytes need a new assessment.
+
+### 95.5. Tracking and pause
+
+Sixteen DID015 records move Corrected—pending validation→Closed—verified. Totals:19 global Open,304 Closed—verified,INV-02 Not applicable;zero local corrected-pending records. REV2-09/10 stay among19 global Open with their independent integrated criteria. No completed cycle is restarted or global record closed from this local PASS. M12 fifteen C/49 O,In Progress;DID-015 local documentary cycle completed2026-10-15. This milestone records documentary review completion,not architecture approval or implemented global conformity.
+
+Report V1.0 R88→R89;CHANGELOG505 exact-source validation,506 report,507 Milestone. Stable89 progress positions,current manifest and cumulative Context-only package checked;all other source/historical export bytes preserved and temporary Author indicator absent. No actual allocation,domain/series registration,ownership transfer,migration,retirement,permission,formal approval,publication or Baseline inclusion.
+
+**Pause after VALIDATE. CONTINUAR starts4.29 REVIEW DOCUMENT DF-CLS-001 — Classification Architecture,then pauses before UPDATE.**
