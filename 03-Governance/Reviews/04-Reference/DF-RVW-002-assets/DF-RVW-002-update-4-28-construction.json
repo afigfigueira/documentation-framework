@@ -1,0 +1,27 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/88",
+  "date": "2026-10-15",
+  "step": "4.28",
+  "phase": "UPDATE construction only",
+  "source_validation_performed": false,
+  "source_sha256": "b61ca89b7ad87bc04118d3d6b37e21b59e3c044f2f3bc5313c9a396a3e06ed73",
+  "checks": {
+    "input358_manifest_hashes_match": true,
+    "24original_heading_body_maps": true,
+    "20exact_original_diagram_texts_retained": true,
+    "20view_legends_all_original_labels_mapped": true,
+    "14source_subjects_authority_targets": true,
+    "all_relative_links_exist": true,
+    "all24comparison_hashes_unchanged": true,
+    "all_other_sources_and_historical_exports_unchanged": true,
+    "89progress_rows": true,
+    "changelog_reverse504to1": true,
+    "16records_pendingvalidation": true,
+    "cumulative_author_and_draft_unassigned": true,
+    "temporary_auxiliary_absent": true
+  },
+  "relative_link_count": 20,
+  "limit": "Construction/traceability checks, not semantic finding closure, source VALIDATE, full integrated contract or architecture approval",
+  "next": "4.28 VALIDATE DOCUMENT DF-DID-015"
+}
