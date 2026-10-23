@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 105 |
+| **Revision** | 106 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -311,6 +311,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-16 | 1.0 | 103 | Step4.33 SchemaV2.0R1 UPDATE;17corrections pendingVALIDATE | Compatible report event;section109;boundedstructural/known-cardinality/owner/identity/evolutioncontract;58exactunnamedspans retained;TypeStructure/ID/path andM13residual unchanged |
 | 2026-10-16 | 1.0 | 104 | Step4.33 exact Schema V2.0 R1 documentary validation PASS;17 local closures | Compatible report event;section110;source unchanged;384 Closed—verified/19 global Open;general owner/cardinality/interface integration and M13 placement remain pending |
 | 2026-10-16 | 1.0 | 105 | Step4.34 full Classification Lifecycle REVIEW;15 findings/2 warnings Open;source unchanged | Compatible report event;section111;62 named spans and229 labels inventoried;actual state/usage/transition authority assessed;UPDATE/VALIDATE pending |
+| 2026-10-16 | 1.0 | 106 | Step4.34 Lifecycle V2.0 R1 UPDATE;17 corrections pending VALIDATE | Compatible report event;section112;bounded state/action/transition/use/authority contract;62 exact named spans and229 labels retained;Behavior/ID/path and M13 residual unchanged |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -8077,3 +8078,88 @@ Seventeen new local records remain Open. Totals:36 Open (19 global plus17 local)
 Report V1.0 R104→R105; CHANGELOG558 exact source REVIEW,559 report,560 Milestone,561 REVIEW traceability. The [REVIEW checks](DF-RVW-002-assets/DF-RVW-002-review-4-34-checks.json) cover input integrity, full inventory/literal criteria/actual owner snapshots, references/batch, stable89 progress positions and source/evidence immutability. The [central diff](DF-RVW-002-assets/DF-RVW-002-review-4-34.diff) contains only tracking changes. The cumulative package contains only Context/ at root; the manifest excludes its own hash. These checks are REVIEW traceability, not source VALIDATE, lifecycle execution, architecture acceptance, implementation approval, publication or Baseline inclusion.
 
 **Pause after REVIEW. CONTINUAR starts4.34 UPDATE DOCUMENT DF-CLS-006 — Classification Lifecycle only.** UPDATE and VALIDATE have not been performed.
+
+## 112. Step 4.34 — UPDATE DOCUMENT DF-CLS-006 — Classification Lifecycle
+
+### 112.1. Exact input and actual successor
+
+The user CONTINUAR authorizes UPDATE only, following §111. All406 input manifest hashes and byte counts match; REVIEW ZIP SHA-256 is `4830c497eeb953a23e31baaae528fa066e183a43716f25c4653c1b064f986d23`. No completed cycle is restarted. The source remains `02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md`; correct ID/title/Family/Component Classification/Type Behavior/Language/path are retained. No reclassification, path move or identity allocation occurs.
+
+Received source: V1.0 R0, Draft, Baseline1.0, Author Arnaldo Figueira,33780 bytes, SHA-256 `fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e`. Actual successor: V2.0 R1, Draft, Baseline Not assigned; cumulative Author Arnaldo Figueira; Codex — AI assistant. Original undated initial history stays verbatim; the actual later contribution is recorded separately. Permission alone is not attributed as authored work.
+
+Resulting source: 173415 bytes, SHA-256 `f52b83ab5ed3b65bd9a22d15a2ab3ab5ad44a22e74edd0c49e61c9c3e5b80a8b`. [UPDATE evidence](DF-RVW-002-assets/DF-RVW-002-update-4-34-map.json) contains exact full before/after source, header/edition maps, four reasoned prior/new decisions,59 original body/heading maps, three original table contexts,17 list maps/10 invariants/7 conformance subjects/33 related subjects,62 individual named-view/229 label-relation/final-context maps, matrices19/20/48 and17 corrected-pending records. The [exact diff](DF-RVW-002-assets/DF-RVW-002-update-4-34.diff) includes source and central changes.
+
+### 112.2. Actual decisions, authority and compatibility
+
+| Decision | Prior meaning / gap | Actual bounded working contract |
+|---|---|---|
+| Roles and definition subjects | Broad-domain Family, Family-specializing Type, nature-role Class and untyped definition/Element/value uses | Actual membership Family, one uniform four-value Type, optional defined non-conflicting Class; governing role/category/value/relationship/schema definition, edition, assignment and descriptor differ |
+| States/actions/transitions/use | Four proposed states plus Modified branch; complete-looking chain with exact rules deferred; Active/history shorthand can imply blanket validity or permission | Working states20, known selected transition concerns19 and known-versus-unestablished matrix48; Modified/action markers are not extra states; actual decision/rule/evidence and independent mandates retained; eligibility/interpretability differ from actual validity/permission |
+| Identity/edition/owners | Correct continuity and no automatic edition coupling lack actual edited-source and typed identity/assertion/owner scope | Stable qualified K/local K-R/reference limits; external events do not revise all documents but actual persisted edits need own successors; Classification domain, Metadata representation/artifact lifecycle, common process and authorized executor remain separate |
+| Evolution/conformance | Absolute meaning/compatibility freeze and old-role complete-looking success claim | Ordinary preservation versus necessary assessed revision with actual authority/need/rationale/alternatives, owners/consumers/interfaces, compatibility/mappings/history/transition/later checks; bounded claims retain independent requirements |
+
+Header-only edits would preserve already correct Behavior but leave operative role-specific lifecycle, examples, invariants and conformance contradictory. Treating supplied mandatory consumers as absent would waive actual requirements. Silently promoting the proposal to globally approved exhaustive machine or inventing guards, reverse routes, exceptions, Metadata fields or populations is unsupported. The chosen working contract states justified meanings/known obligations and explicit genuine gaps.
+
+Actual Family/Type/hierarchy, lifecycle-use/authority, evolution and conformance meaning replacement is incompatible. Version1.0→2.0, minor0 and monotonic Revision0→1 follow Policy5.2; correct header labels or formatting alone would not justify a major increment. Draft remains; Baseline becomes Not assigned because exact successor inclusion is not evidenced. This working source correction is not architectural acceptance or automatic peer propagation. Later unchanged-source VALIDATE increments neither source coordinate.
+
+### 112.3. Known state/transition obligations and genuine remaining authority
+
+State matrix20 preserves all four received row subjects and exact prior meanings beside current bounded interpretation and responsible owner/evidence limits. Defined concerns actual documented identity/meaning and required relationships; Active concerns scoped eligibility under actual valid/authorized definition rules and decision; Deprecated retains recognized interpretation with ordinary-new-use restrictions; Retired excludes ordinary active/new use under actual retirement conditions while preserving necessary history. Received historically-valid shorthand no longer guarantees every original assignment's validity.
+
+Modified is explicitly an action/process concern, not a fifth canonical state or automatic return to Active. Undefined is an explanatory entry marker. Definition/Active Use/Deprecation/Retirement/Activated are action/event/concern words, not automatically registered aliases. Dictionary term statuses/entry lifecycle, extension state, document Status, identity R assertion, finding and Milestone state retain their actual subjects.
+
+Matrix19 records known definition establishment, governed activation, assessed modification, deprecation and retirement concerns. Matrix48 identifies actual subject/assertion evidence and what remains unestablished:complete routes/guards, reverse/reactivation/direct jumps, conflict/concurrency/bulk/effective-time details, populations and universal persisted fields unless actual responsible sources supply them. Absence of a rule is neither permission nor an invented violation. Further substantive mandates need actual prior/new authority, need, alternatives/rationale, affected owners/consumers/indispensable interfaces, compatibility/mappings/history/transition and later checks before propagation.
+
+Actual supplied CLS00819–22/49, CLS01031–36, CLS00759, Dictionary9/11/24/32 and Specification R-019/R-020/R-021/R-022/R-023/R-025/R-026/R-027/R-029/R-030/§9/Core16.1 remain independently applicable. These sources already contain real mandates; the proposal label cannot waive them or pretend the sources absent. Selected lifecycle diagrams do not prove complete transition or Core implementation conformity.
+
+Active is not universal assignment validity, observed discovery, operational access, document approval, publication or exact Baseline eligibility. Historical interpretation is not proof of original validity or present permission. Actual ordinary-use restrictions, rule/context/source editions, decisions and observations govern use; no invented exception, automatic deprecated warning/invalidity or grandfathering follows. CLS007 Valid/Valid with Warnings/Invalid remain rule-dependent. Evaluation is nonmutating; result writing, correction, authorization, execution, assignment, permission, approval, publication and Baseline are distinct. Missing mandatory evidence withholds broader success without fabricating a violation; known violations remain real.
+
+### 112.4. Identity, history, edition and real interfaces
+
+Governing K of the same logical document is not recalculated from classification/lifecycle. Category/definition/value/assignment identity, document K, definition/source edition, exact target, local supporting R/assertion/Canonical Reference and incoming relationship/live retrieval differ. Current stable DF series/nonreuse/000/999 rules remain scoped; historical META-DCL-001 is not the current key formula. No allocation, alias, reservation, rekeying or retirement occurs.
+
+External definition events alone do not revise every using document; actual persisted source/descriptor/assignment-record edits require their own responsible compatibility/edition/history assessment. No universal Metadata lifecycle record or mandatory field catalog is invented. Ordinary preservation differs from necessary assessed governing revision under current Architecture28/Model26/Elements29/Schema44/common AP015–018. Prior meaning and pending/failed evidence stay exact; real changes require actual need/authority/rationale/alternatives, owners/consumers/interfaces, compatibility, mappings/nonreuse/reservation/history, pinned edition/bytes/context and later checks. Replacement, migration and execution are separate authorized operations; none is performed here.
+
+Classification owns domain conditions; Metadata Dictionary/Schema/Profile/Instance/effective Profile owns representation. Actual Metadata Lifecycle6–10/13 states concern Metadata artifacts and Profile independence, not automatic Classification aliases. Common Workflow/Policies/Reviews/Baselines and an authorized DMS/tool/manual executor or CMS process retain their contracts. Actual indispensable Classification→Metadata/Identity and conditional Templates requirements remain visible; MTD001/DID009/README reciprocal claims still need responsible core/descriptor/source-edition/interface/cycle reconciliation. A projection label conceals no provider or real cycle; document order proves no runtime route or complete DAG.
+
+### 112.5. Preservation, current sources and seventeen pending corrections
+
+All55 original major chapters,59 numbered titles/subjects and62 heading lines remain in order; new§56 records decisions, authority/alternatives, batch and provenance/residuals. All62 received named text spans retain exact fence attributes, text, IDs cls-lc-001–062 and order. All229 independently inventoried labels/relations have individual current interpretation, relation scope and actual final complete section context. No original ID is invented, removed or renamed; no stale preview substitutes for actual source.
+
+All three received table contexts are mapped:header, four-state table with prior/current meanings, and exact undated initial history. All17 list groups retain counts/order/subjects, including10 invariants and7 conformance subjects; all33 actual relative links resolve intended current ID/title/path. Full prior source/examples/history and all prior exports remain evidence. No temporary Author indicator is created.
+
+Current Model remains explicit V2R1 reconstruction, not authentic historical recovery or accepted global architecture. Schema V2R1 has completed its local cycle, with known role obligations and incomplete general cardinality/owner integration. Elements V2R1 Type Architecture remains under02-Structure:its actual ARC007 placement requirement is unmet in M13, Not Started. This Lifecycle's correct Behavior/path does not resolve or waive it; the entire M13 block stays byte-identical.
+
+Architecture/Concepts/Model/Elements/Schema received Lifecycle V1R0/proposed-state notes retain event-time scope. Any broader current normative/status reading after this actual successor needs separately traced actual-edition qualification. Historical snapshots and earlier Policy4.3/Model premise qualifications are not rewritten; completed peer cycles are not restarted or silently revalidated.
+
+| Record | Actual current sections | Source-local correction | State |
+|---|---|---|---|
+| CLS006-01 | 1,2,3,6,7,52,53,56 | Correct Behavior/ID/path retained; actual definition/claim scope, functional exclusions, pre-allocation and contributor/edition provenance explicit. | Corrected—pending validation |
+| CLS006-02 | 1,4,10,12,36,47,54 | Family uses actual component/admitted-area membership throughout; historical META/broad-domain views qualified without population or component retirement. | Corrected—pending validation |
+| CLS006-03 | 1,4,10,12,36,37,47,54 | Type is exactly one uniform primary responsibility; DCL/Family-specialization historical; no fifth Type or lifecycle removal of required role obligations. | Corrected—pending validation |
+| CLS006-04 | 1,3,6,35,38,47,53 | Class optional, explicitly defined and non-conflicting; no complete population, mandatory third field/child level or unsupported maximum. | Corrected—pending validation |
+| CLS006-05 | 4,6,7,8,9,10,13,19,20,21,34,39,44,48,49 | Definition/role/category/value/assignment/edition/context typed; Modified/actions/entry markers not additional states or automatic aliases. | Corrected—pending validation |
+| CLS006-06 | 4,9,10,11,15,17,19,20,21,22,23,24,31,48,49,52,53,56 | Matrices19/20/48 state justified working meanings and real owner mandates versus unestablished exact routes/guards/representation; no approved exhaustive machine claimed. | Corrected—pending validation |
+| CLS006-07 | 8,11,12,19,20,22,32,39,48,53 | Active eligibility distinguished from every assignment validity, permission, discovery, publication or Baseline; actual decision/rule/evidence required. | Corrected—pending validation |
+| CLS006-08 | 15,16,17,18,20,23,24,25,32,39,40,45,47,53 | Deprecation/retirement preserve interpretation and actual use restrictions; historical validity/current permission/severity not inferred from state alone. | Corrected—pending validation |
+| CLS006-09 | 13,14,36,37,38,45,46,47,53,54,56 | Absolute freeze replaced by ordinary preservation versus necessary assessed revision with actual authority, rationale/alternatives, interfaces, compatibility/history and later checks. | Corrected—pending validation |
+| CLS006-10 | 12,18,25,26,40,41,42,43,45,47,54 | Qualified K/local K-R/reference and category/definition/assignment/edition subjects distinct; historical ID example qualified; no rekey or migration. | Corrected—pending validation |
+| CLS006-11 | 1,3,5,27,28,29,44,46,47,54,56 | No automatic coupling from external definition events, while real persisted edits require own edition/compatibility/history; state subjects separated. | Corrected—pending validation |
+| CLS006-12 | 1,3,5,27,28,29,30,31,32,33,34,35,50,51,52,56 | Classification domain, Metadata descriptor/artifact lifecycle, common process and actual executor distinguished; required providers/reciprocity remain visible. | Corrected—pending validation |
+| CLS006-13 | 19,20,22,25,31,32,33,43,48,52,53,56 | Actual rule-dependent outcomes and nonmutating evaluation separated from authorization/execution/correction/assignment/permission/approval; coverage limits explicit. | Corrected—pending validation |
+| CLS006-14 | 13,34,40,41,42,43,44,45,46,51,52,53,54,56 | Replacement and migration remain separately authorized scoped operations with mappings, owners/consumers/interfaces, compatibility/history/pinned snapshots; none executed. | Corrected—pending validation |
+| CLS006-15 | 1,2,3,19,20,47,48,49,50,51,52,53,54,55,56 | All invariant/conformance/reference/history subjects and actual current peer provenance/independent requirements mapped; global19 and M13/M14 not closed. | Corrected—pending validation |
+| CLS006-W01 | 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,44,45,48,49,50,51,54 | All62 exact named views/IDs/order and229 label-relation inventories/current final-section contexts preserved and individually qualified. | Corrected—pending validation |
+| CLS006-W02 | 1,3,20,47,51,52,53,54,55,56 | Full source/header/body/table/list/view/reference/history/batch maps and33 intended links supplied; prior exports,89 stable positions and M13 exact block preserved. | Corrected—pending validation |
+
+All17 move Open→Corrected—pending validation. None is Closed—verified by construction. Actual remaining transition/general-rule/owner/interface/current-note/acceptance gaps are explicit residuals, not falsely treated complete. Separate VALIDATE must compare exact resulting bytes, original criteria, actual owner clauses, all preservation/label/final-context maps and affected occurrences with these authority/coverage limits.
+
+### 112.6. Batch, construction record, tracking and pause
+
+Twenty-eight source-specific owner/consumer/reference paths were identified before mutation with actual coordinates/hashes/clauses, prior/new actions, rationale, authority, interfaces and compatibility/history. All other domain/process source bytes remain unchanged. Forty-six received inbound occurrences across20 sources retain input line/provenance snapshots; the changed current tracking row has explicit diff evidence. Fifty-four comparison snapshots remain explicitly REVIEW-time evidence:this target changes while the other53 sources remain exact. The batch does not prove knowledge of every external consumer or complete implementation conformity.
+
+The [construction record](DF-RVW-002-assets/DF-RVW-002-update-4-34-construction.json) checks exact source/header/edition/heading/table/list/view/link/decision/batch/tracking/package consistency during UPDATE. It is not VALIDATE DOCUMENT, actual assignment/lifecycle/permission/migration execution or architecture acceptance. Source hashes remain external and the manifest excludes its own hash. All89 progress positions, prior paths/exports and completed-cycle scopes remain; the cumulative ZIP contains only Context/ at root.
+
+Totals:19 global Open,17 local Corrected—pending validation,384 Closed—verified, INV-02 Not applicable—scope decision. M12 twenty C/one S/43 O, In Progress; Lifecycle remains S, started2026-10-16 without completion. M13 known Elements placement/Not Started and M14 integrated criteria remain independent. Global records including REV2-03/04/09/10 and INV-01/REV2-05 retain their criteria. Report V1.0 R105→R106; CHANGELOG562 source,563 report,564 Milestone. No publication, approval, complete implementation, permission or Baseline inclusion occurs.
+
+**Pause after UPDATE. CONTINUAR starts4.34 VALIDATE DOCUMENT DF-CLS-006 — Classification Lifecycle only.** Source validation and local finding closure have not been performed.
