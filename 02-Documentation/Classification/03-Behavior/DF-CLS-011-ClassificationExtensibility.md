@@ -12,7 +12,7 @@
 | **Author** | Arnaldo Figueira; Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 2.0 |
-| **Revision** | 1 |
+| **Revision** | 2 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -1310,7 +1310,9 @@ Canonical Classification
 
 Before actual approval,the extension remains a proposal. An authorized working Draft correction is not canonical adoption,publication or operational permission.
 
-**Current governing scope.** | Canonicality concern | Actual evidence required | Consequence limit |
+**Current governing scope.**
+
+| Canonicality concern | Actual evidence required | Consequence limit |
 |---|---|---|
 | Necessary actual approval | Identified proposal/subject/exact source-definition edition,scope,real responsible authority,criteria/evidence and rationale | No inherited approval on changed Draft bytes or actual decision from phase command |
 | Applicable conditions | Real decision/owner conditions,required fulfillment evidence and unresolved limits | Unknown or unsatisfied conditions are not fulfilled;§37 condition-before-canonical duty remains |
@@ -1395,7 +1397,9 @@ Extensions may themselves have a lifecycle:
 
 The lifecycle state of an extension does not replace the lifecycle state of the Classification Elements introduced by it.
 
-**Current governing scope.** | State / use subject | Actual bounded requirement | Genuine boundary |
+**Current governing scope.**
+
+| State / use subject | Actual bounded requirement | Genuine boundary |
 |---|---|---|
 | Extension / proposal / approved capability | Identify actual entity/definition/source edition,proposal scope,decision/conditions and state/use assertion | Same extension name is not evidence current proposal approved or exact edition adopted |
 | Proposed / Under Review / Approved | Selected proposal/assessment/decision concerns | Not complete universal transition routes/guards/actors/records;Approved decision is not automatically Active or a fifth Element definition state |
@@ -1813,7 +1817,9 @@ Actual equivalent subjects,source/definition/rule/set editions,scope/applicabili
 
 The extension shall not depend on implementation-specific interpretation.
 
-**Current governing scope.** | Claimed equivalent interpretation / evaluation | Actual support needed | Boundary |
+**Current governing scope.**
+
+| Claimed equivalent interpretation / evaluation | Actual support needed | Boundary |
 |---|---|---|
 | Same extension / subject | Actual extension/proposal/definition/entity/assignment/association/document edition and relevant bytes/population | Matching labels,names,paths or stable IDs alone do not establish equal input |
 | Same governing meaning | Actual source/definition/rule/set editions,scope/applicability,authority and real Specification precedence | Set/order names or unknown conflicts supply no complete authoritative rule context |
@@ -2487,6 +2493,8 @@ Twenty-three local corrections are Corrected—pending validation. This UPDATE c
 
 ---
 
+**Corrective successor — Step4.39 Correction1 UPDATE (2026-10-16).** The current exact document edition is V2.0 R2,Draft,Baseline Not assigned. Statements above describingV2.0 R1,its actual first UPDATE contribution and its then-pending VALIDATE retain that event-time scope. The actual subsequentV2R1 VALIDATE failed because the new matrix headers35/38/59 were joined to preceding scope paragraphs. This compatible successor separates those three paragraphs/headers with blank lines;all matrix cells,rows and governing meanings remain unchanged. The finalized failedV2R1,its full source/diff and failed validation remain in central evidence and earlier cumulative packages,not overwritten or relabeled as passed. Actual contributor Codex — AI assistant is already in cumulative Author and is recorded for this correction only in the event history. All23 local records remain Corrected—pending validation;no new-edition VALIDATE or closure occurs in this corrective UPDATE. Independent actual placement/owner/integration/implementation/permission/global-acceptance limits remain unchanged.
+
 # Change History
 
 | Version | Description |
@@ -2498,6 +2506,7 @@ Twenty-three local corrections are Corrected—pending validation. This UPDATE c
 | Date | Version | Revision | Contributor | Event and limits |
 |---|---|---|---|---|
 | 2026-10-16 | 2.0 | 1 | Codex — AI assistant | Step4.39 UPDATE:actual current-role,ordinary-preservation/necessary-revision,approval/conditions/adoption/activation,lifecycle/history/identity,evaluation/precedence/equivalence and owner-interface/conformance correction. Behavior/current path retained;original author/undated history preserved. Twenty-three local corrections pending separate VALIDATE. Draft;Baseline Not assigned;no actual canonical/operational/global architectural approval. |
+| 2026-10-16 | 2.0 | 2 | Codex — AI assistant | Step4.39 Correction1 UPDATE:compatible separation of scope paragraphs and unchanged matrix headers35/38/59 after failedV2R1 VALIDATE;no semantic/cell/row/identity/path change. FailedV2R1 and validation evidence retained;all23 corrections remain pending a separate exact-edition VALIDATE. Draft;Baseline Not assigned;no canonical/operational/global approval. |
 
 ---
 

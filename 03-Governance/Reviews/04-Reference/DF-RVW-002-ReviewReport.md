@@ -10,7 +10,7 @@
 | **Author** | Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 122 |
+| **Revision** | 123 |
 | **Baseline** | Not assigned |
 | **Language** | English |
 
@@ -328,6 +328,7 @@ The Step 3 and translation registers, exports and diffs were delivered in Contex
 | 2026-10-16 | 1.0 | 120 | Step4.39 Extensibility REVIEW;21 findings/two warnings Open | Compatible report event;section126;source unchangedV1R0 Behavior/current path correct;roles,necessary revision,conditional canonicality,activation,lifecycle/history,identity/evaluation/real-interface scope;M13 actual placement residuals unchanged,no UPDATE/VALIDATE |
 | 2026-10-16 | 1.0 | 121 | Step4.39 ExtensibilityV2.0 R1 UPDATE;23 corrections pending VALIDATE | Compatible report event;section127;Behavior/current path retained;actual roles/necessary revision/conditional canonicality/activation/lifecycle/history/identity/evaluation/owner interfaces;28 exact spans/129 labels,5 table contexts preserved;M13 actual placement residuals independent |
 | 2026-10-16 | 1.0 | 122 | Step4.39 ExtensibilityV2.0 R1 VALIDATE FAIL | Compatible report event;section128;source exact unchanged;GFM headers35/38/59 have4-versus3 cell mismatch;23 corrections remain pending,no closure. Corrective UPDATE/new-edition VALIDATE required;M12 S/M13 exact/global19 independent |
+| 2026-10-16 | 1.0 | 123 | Step4.39 Correction1 UPDATE;compatibleV2.0 R2 | Section129;three scope/header paragraph separations35/38/59,all cells/rows/semantics retained;actual revision/provenance event;failedV2R1/validation preserved.23 corrections pending new VALIDATE,no closure;M12 S/M13 exact |
 
 ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
 
@@ -9832,3 +9833,56 @@ Totals remain19 global Open,23 local Corrected—pending validation,484 Closed�
 ReportV1.0 R121→R122 compatible report event,section128;CHANGELOG615 source Validated with explicit FAIL,616 report Updated,617 Milestone Updated. Validated is the executed check-event Type,not a success claim. Source remainsV2.0 R1 exact. Cumulative package has only Context/ at root,451 manifest entries excluding itself,452 files including it. Failed source/package/result remain evidence for corrective successor. No actual correction,condition fulfillment,adoption,activation,allocation,assignment,transition,migration,permission,publication,Baseline,engine/runtime/replay or global architectural acceptance occurs.
 
 **Pause after failed VALIDATE. Next CONTINUAR starts4.39 corrective UPDATE DOCUMENT DF-CLS-011 — Classification Extensibility,followed by a separate new-edition VALIDATE. Do not start4.40 or overwrite failedV2R1/history as passed.**
+
+## 129. Step 4.39 — Correction1 UPDATE DOCUMENT DF-CLS-011 — Classification Extensibility
+
+### 129.1. Exact recovery point and authorized correction
+
+The user CONTINUAR authorizes corrective UPDATE after§128 failedV2R1 VALIDATE,not source validation or4.40. All451 input manifest entries verify raw hashes/bytes;manifest edition1.0/122 SHA-256 `0ba018728194b7c46904d589cae8c5bb33c124b78a9e64de32f67259714d0ecf` excludes itself. Failed-validation cumulative ZIP SHA-256 `0eb216dc1e7a211640146accfa51d0c9bfcc4c9a65f77351737a59c906b72bb0`,27277042 bytes,452 files,only Context/ at root,agrees with actual input,reportR122/CHANGELOG617. No completed cycle restarts or earlier failure is overwritten.
+
+Actual source path remains `02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md`. FailedV2.0 R1 is175285 bytes,SHA-256 `9792e24f36439773f420d028d4e5c71bda76e64ba1b01c44c19d87cbe3eefc17`. It had actual scope paragraphs joined to matrix headers35/38/59,creating four header cells against three delimiter cells. The exact failure and full failed source remain in immutable earlier exports/packages. This corrective phase implements only the recorded compatible remedy and necessary successor/event provenance.
+
+Actual corrected source is176795 bytes,SHA-256 `2b9a1576001c0bd040a31d1bb6b374d241cb13ca8b1acbe48f3006d79d8209e8`,V2.0 R2,Type Behavior,Draft,Baseline Not assigned. Valid ID/title/Family/Component Classification/English,current path and cumulative Author Arnaldo Figueira; Codex — AI assistant remain. No duplicate author or user authorship inferred from authorization.
+
+[Correction1 UPDATE map](DF-RVW-002-assets/DF-RVW-002-correction-1-update-4-39-map.json) contains exact full failed-before/corrected-after,actual decision/authority/alternatives/compatibility,header/body/table/list/visual/final-context/link/history maps and23 pending records. [Correction diff](DF-RVW-002-assets/DF-RVW-002-correction-1-update-4-39.diff) records source and central changes. [Construction checks](DF-RVW-002-assets/DF-RVW-002-correction-1-update-4-39-construction.json) concern repair preparation/traceability,not a new source VALIDATE or closure.
+
+### 129.2. Actual before/after remedy and compatibility
+
+| Actual section | Before | After | Effect |
+|---|---|---|---|
+| 35 | **Current governing scope.** \| Canonicality concern \| Actual evidence required \| Consequence limit \| | **Current governing scope.** [paragraph break]  [paragraph break] \| Canonicality concern \| Actual evidence required \| Consequence limit \| | Separate scope paragraph from unchanged pipe-starting three-column header;no cell/row/semantic change. |
+| 38 | **Current governing scope.** \| State / use subject \| Actual bounded requirement \| Genuine boundary \| | **Current governing scope.** [paragraph break]  [paragraph break] \| State / use subject \| Actual bounded requirement \| Genuine boundary \| | Separate scope paragraph from unchanged pipe-starting three-column header;no cell/row/semantic change. |
+| 59 | **Current governing scope.** \| Claimed equivalent interpretation / evaluation \| Actual support needed \| Boundary \| | **Current governing scope.** [paragraph break]  [paragraph break] \| Claimed equivalent interpretation / evaluation \| Actual support needed \| Boundary \| | Separate scope paragraph from unchanged pipe-starting three-column header;no cell/row/semantic change. |
+
+Each corrected source fragment has this exact layout:
+
+```markdown
+**Current governing scope.**
+
+| Actual three-column header | Second heading | Third heading |
+|---|---|---|
+```
+
+This excerpt describes the layout only;all actual original matrix header/cell/row text is unchanged in source and full literal map. No schema,semantic mandate,condition,owner,rule,identity,path or approval effect changes. Exact reversible comparison whitelists only these three paragraph/header separations,the source Revision1→2,the actual corrective provenance paragraph and actual later contribution row. Reversing those explicit changes recovers byte-exact failedV2R1 text;there are no incidental source edits.
+
+Actual authority is the user's phase instruction and ReviewPolicy5.2/6:finalized failed editions receive a successor,failures remain traceable,and UPDATE precedes separate VALIDATE. Need is actual malformed delivery35/38/59. Leaving it unchanged fails the recorded check;silently overwritingV2R1 would conceal history;rewriting semantics would exceed this compatible remedy. Selected exact paragraph/header separation restores intended structure while preserving all matrix contents. Version2.0 is retained for compatible formatting-only repair,Revision1→2 is monotonic. Draft/unassigned remains. Existing actual Codex contributor is recorded in the new event without header duplication;undated initial history and firstV2R1 contribution remain verbatim. Current corrective note explicitly scopes prior source79V2R1 statements and then-pending validation as earlier events,not current acceptance.
+
+All44 detected table headers/delimiters now have matching cell counts in a deterministic construction check,including the repaired three-column matrices. This is not a claim an external renderer or domain runtime was executed,and it is not the next exact-edition VALIDATE. Every cell/row/meaning of35/38/59 matches failed input;all other original numbered sections remain exact. Section79 receives only corrective provenance and actual contribution history,which is separately mapped. All23 original criteria remain unchanged and Corrected—pending validation. Prior content comparisons and current construction checks do not establish successor acceptance or closure.
+
+### 129.3. Preservation,actual references and independent residuals
+
+All116 original REVIEW numbered bodies/119 raw headings/78 chapters plus existing79 retain titles/order. All28 exact unnamed fenced spans/text/order and129 individual literal labels/relations retain typed interpretation and actual relation scope;complete final section hashes are recomputed for actualV2R2 rather than inheritedV2R1. All38 original list groups retain current subjects/count/order,including actual seven principle/role/category/E-constraint/characteristic groups,fourteen invariants andten conformance bullets. All five original table contexts and21 rowwise impact/level/compatibility pairs retain actual original/current meaning;only headerRevision and real contribution history have necessary provenance changes. The exact central quote and original initial-history table remain. No diagram ID,initial date,unseen intermediate edition or Author auxiliary is invented.
+
+All26 intended relative links resolve actual unique ID/title/path in original order/selflink;self-reference coordinates/hash are recalculated forV2R2,not assumed old. Original REVIEW/firstUPDATE/failedVALIDATE exports remain byte-identical and event-time scoped;new corrective maps provide actual successor sections/final hashes without rewriting old evidence. Thirty-six actual affected owner/consumer/reference paths,61 selected REVIEW comparison snapshots,49 received inbound occurrences across19 input-of-REVIEW sources and25 prior-note contexts retain their source-qualified provenance. Other sources remain byte-unchanged;this repair propagates no semantic rule,path,key or reference migration and reopens no completed cycle.
+
+Actual prior semantic contract remains:current complementary roles/known duties versus genuine general gaps;ordinary preservation and necessary assessed mandate revision;real authority/conditions/fulfillment/adoption/activation;typed lifecycle/identity/history;actual rule/applicability/precedence/observations/coverage/equivalence;separate domain/common records/Metadata/effective Profile/Identity/capability/authorized executor and indispensable provider/cycle requirements. Unchanged Metadata owner restrictions remain real pending differences. Correcting Markdown proves no implementation,permission,canonical adoption or integrated/global architectural acceptance.
+
+Correct Behavior/current03-Behavior placement remains valid for this actual responsibility. Elements Architecture/02-Structure and Constraints Structure/03-Behavior remain actual unmet ARC007 placement requirements,not compliant,waived or mere missing evidence. Entire M13 Not Started block remains exact;M14 integrated and actual owner/general-rule/population/precedence/authority/actor/guard/route/record/descriptor/provider/current-note/interface/cycle/implementation/permission/global-acceptance requirements remain independent. Model remains explicit reconstruction and earlier Policy/Model factual-premise qualifications/history remain.
+
+### 129.4. Tracking and pause
+
+Source,four central tracking files and self-excluding manifest change;three new corrective exports are added. All earlier evidence/other source bytes and paths remain exact. All89 progress positions/order and other88 rows remain unchanged;4.40 is not started. M12 remains25 C/1 S/38 O In Progress;Extensibility S,no completion. Totals19 global Open,23 local Corrected—pending validation,484 Closed—verified,INV-02 Not applicable—scope decision;none closes. Failed validation remains an actual prior failed event,not relabeled as passed.
+
+ReportV1.0 R122→R123 compatible report event,section129. CHANGELOG618 actual source Updated/Correction,619 report Updated,620 Milestone Updated. Cumulative package has only Context/ at root,454 manifest entries excluding itself and455 files including it. Earlier failed source/package/result remain retrievable through unchanged full evidence and prior cumulative packages. No new-edition source VALIDATE,actual domain decision/condition fulfillment/adoption/activation,allocation,assignment,transition,migration,retirement,deletion,permission,publication,Baseline,engine/runtime/replay,complete implementation or global architectural acceptance occurs.
+
+**Pause after Correction1 UPDATE. Next CONTINUAR starts4.39 Correction1 VALIDATE DOCUMENT DF-CLS-011 — Classification Extensibility,exactV2.0 R2 only. Preserve initial failedV2R1 result;do not start4.40 before this corrective cycle succeeds.**
