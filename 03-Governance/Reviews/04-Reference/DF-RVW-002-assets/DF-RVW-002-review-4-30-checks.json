@@ -1,0 +1,37 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/93",
+  "date": "2026-10-15",
+  "result": "PASS — REVIEW traceability only",
+  "scope": "Not source VALIDATE,finding closure,accepted Model,completeowner/sourceconsumer agreement,implementation orarchitecturalapproval",
+  "checks": {
+    "input371_manifest_hashes_match": true,
+    "source_exact_unchanged": true,
+    "all_domain_sources_and_historical_exports_unchanged": true,
+    "43chapters_50numbered_bodies_57allheadings": true,
+    "all_original_list_counts": true,
+    "11boundary_rows_and7principle_headings": true,
+    "30original_view_texts_digests_labels": true,
+    "2wrapped_context_assignment_label_spans": true,
+    "14specificationstages_15M6IDs_10summarysubjects": true,
+    "31related_subjects_29distinctIDs_4groups": true,
+    "actual2CLS001_0CLS003_declarations_recorded": true,
+    "currentArchitecture_V2R1_nominalModel_V1R0_qualified": true,
+    "41normalized_comparison_headercoordinates_complete": true,
+    "44comparison_source_hashes_current": true,
+    "actual_selected_comparison_clauses_current": true,
+    "16literal_finding_evidence_current": true,
+    "16localrecords_Open": true,
+    "89stable_progress_positions": true,
+    "changelog_reverse521to1": true,
+    "originalAuthor_correctHeader_unchanged": true,
+    "temporary_auxiliary_absent": true,
+    "source_UPDATE_not_performed": true,
+    "source_VALIDATE_not_performed": true
+  },
+  "M12_counts": {
+    "C": 16,
+    "S": 1,
+    "O": 47
+  }
+}
