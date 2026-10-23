@@ -1,10 +1,10 @@
 {
   "parent_document_id": "DF-RVW-002",
-  "edition": "1.0/110",
+  "edition": "1.0/111",
   "date": "2026-10-16",
   "self_hash": "Excluded;external receipt",
-  "source_state": "4.35 exact unchanged CLS007 V2R1 Type Behavior local documentary correction/traceability PASS;19 local closures;420 Closed/19 global Open/INV02;M12 22C42O;general/exact-transition/owner/interface/current-note/implementation criteria and known Elements placement M13 Not Started remain independent;no real domain checker/replay/assignment/permission/migration or architecture acceptance;next4.36 REVIEW CLS008 not started",
-  "known_collision": "Actual scoped IDs unique;received Model collision remains historical evidence;global INV01/REV205 independent integrated criteria remain Open",
+  "source_state": "4.36 REVIEW CLS008 exact unchanged V1R0 Type Behavior;16 findings/2 warnings Open;37 Open/420 Closed/INV02;M12 22C1S41O;current roles,authority/decision-condition/effect,lifecycle/history,validation/canonicality/publication/Baseline,impact/identity/evolution/conformance corrections proposed;UPDATE/VALIDATE pending;known Elements M13 unmet placement unchanged",
+  "known_collision": "Current scoped IDs unique;received Model collision remains historical evidence;global INV01/REV205 independent integrated criteria remain Open",
   "files": [
     {
       "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
@@ -554,8 +554,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
-      "sha256": "8f18e640be0ab7bbc4db9add74ea4dcb0941e8a5097876b1058d9941d009d87f",
-      "bytes": 1768705,
+      "sha256": "8e64cb9484b4bd166e815825e2955dd16d4d423bedc6f90302fbf3e55e483f8e",
+      "bytes": 1803839,
       "normalization_scope": true,
       "input_sha256": null
     },
@@ -624,8 +624,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv",
-      "sha256": "7eed0b862da4b11a483985dadf71fadfa9d7cfce2f4c31914d2ba53f95030630",
-      "bytes": 80121,
+      "sha256": "d0638113c98d3879ad8264d24455b77744ad88c0d8e9913b93c046c59986564a",
+      "bytes": 80657,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -1317,6 +1317,24 @@
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-35.diff",
       "sha256": "51edeb90ef2ac6c7e7a135b60fbd668e2bc9db96b482921f923c94b28fbb16dc",
       "bytes": 53851,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-36-checks.json",
+      "sha256": "c5fc8676d3ae5956adffca8a7733e4fb21d1e078b4c13f035d9f08b00bef2038",
+      "bytes": 1719,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-36-evidence.json",
+      "sha256": "542db222f512da78ac34640c761d6c85e4d98605b8853142e234253fb87fb98f",
+      "bytes": 2425757,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-36.diff",
+      "sha256": "9b989585db68058533a6b63c291a10f091882db285c9409af9a7a894f19c707b",
+      "bytes": 54078,
       "normalization_scope": false
     },
     {
@@ -2717,15 +2735,15 @@
     },
     {
       "path": "ArchitecturalMilestones.md",
-      "sha256": "f24475b6834c7ee81294a552c5420a0d21d7e6cf959e1cf42fd1d075bafe038e",
-      "bytes": 94254,
+      "sha256": "71a2d5e9f66006114791439acd0bcbf1447467b91b63ff065105073e8a8c5684",
+      "bytes": 95191,
       "normalization_scope": false,
       "input_sha256": "9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "4cad30c30142019780e8def348955b198cc385ab0110cc18ee06f7ded31f9731",
-      "bytes": 192465,
+      "sha256": "b857ed6749602134fe19bc2c66313b8328800faa7186be82f95914e0a0f806a5",
+      "bytes": 194248,
       "normalization_scope": false,
       "input_sha256": "ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b"
     },
