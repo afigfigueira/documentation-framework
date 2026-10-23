@@ -9,11 +9,11 @@
 | **Family** | Classification |
 | **Type** | Reference |
 | **Component** | Classification |
-| **Author** | Arnaldo Figueira |
+| **Author** | Arnaldo Figueira; Codex — AI assistant |
 | **Status** | Draft |
 | **Version** | 1.0 |
-| **Revision** | 0 |
-| **Baseline** | 1.0 |
+| **Revision** | 1 |
+| **Baseline** | Not assigned |
 | **Language** | English |
 
 ---
@@ -40,6 +40,10 @@ Classification Best Practices defines recommended practices for designing, using
 This document is **informative**.
 
 It provides guidance rather than introducing additional normative requirements beyond those established by the Classification architecture, constraints and specification.
+
+**Current advisory context and sourced duties.**
+
+This entire guide remains informative,including imperative wording,examples,workflows and checklists. It creates no independent normative mandate or violation from recommendation omission. Actual applicable owner requirements retain their own source/edition/scope/authority;they do not become optional because this guide says should. Reference/current04-Reference fits consultation responsibility,not authority by label. Local working Draft correction is not canonical adoption.
 
 ---
 
@@ -82,7 +86,11 @@ It does not replace:
 - Classification Governance;
 - Classification Specification.
 
-Where this document conflicts with a normative Classification document, the normative document takes precedence.
+This informative guide does not override an actual applicable normative requirement. Resolve any real source conflict using identified editions,scope,authority and responsible precedence/decision contracts;section93 supplies no new priority.
+
+**Current advisory context and sourced duties.**
+
+Advice should identify actual documentary/entity/definition/assignment/relationship/constraint/extension/proposal/decision/source editions and applicable owners. README/CHANGELOG/ArchitecturalMilestones remain non-normalized at every location while content/reference effects remain. Not every category/term/decision/record gets a DF identity or universal Metadata fields. No complete implementation or canonical approval follows from this guide.
 
 ---
 
@@ -91,6 +99,8 @@ Where this document conflicts with a normative Classification document, the norm
 Best practices provide recommendations rather than independent architectural requirements.
 
 The distinction is:
+
+**Received unnamed visual in §4 (span 1 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -114,7 +124,35 @@ The distinction is:
 
 ```
 
+**Current recommended relation scope:** Consultation roles and actual sourced requirements versus informative application advice;no authority by label/order,new mandate or completed conformance.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Classification Architecture | Actual responsible source/role to consult for identified editions,scope,authority and applicable clauses;title/Type/directory or reading order alone creates no normative priority,completed implementation or canonical acceptance. Best Practices does not add or waive its real requirements. |
+| Normative Rules | Actual applicable owner requirement/definition/rule/set/source editions,scope,applicability,authority,precedence and evidence. Known duties remain with genuine gaps;this guide creates no new rule,complete catalog,priority,waiver or implemented result. |
+| Schema | Actual structural source/role and responsible known obligations/general multiplicity-field-population gaps. Not authority by name,universal fields/role tree or complete representation conformity from citation. |
+| Constraints | Actual applicable owner requirement/definition/rule/set/source editions,scope,applicability,authority,precedence and evidence. Known duties remain with genuine gaps;this guide creates no new rule,complete catalog,priority,waiver or implemented result. |
+| Lifecycle | Actual subject-specific state/use/transition/history role or illustrative independent dimension under actual owner context. Classification Element/definition/assignment,document Workflow,extension/proposal/decision,term/R/result/finding/Milestone states differ;no universal machine/aliases or performed event. |
+| Specification | Actual scoped normative integration/consultation role where its declaration applies,not authority by title or complete accepted catalog. In semantic examples this label is a generic knowledge category,not a fifth primary Type or allocated Class. |
+| Best Practices | Explicitly informative recommendation/consultation role. Advice creates no independent requirement or violation from omission;actual sourced mandates retain their own authority. Not approval,permission or full implementation evidence. |
+| Recommended Ways of Applying | Explicitly informative recommendation/consultation role. Advice creates no independent requirement or violation from omission;actual sourced mandates retain their own authority. Not approval,permission or full implementation evidence. |
+| Those Rules | Actual applicable owner requirement/definition/rule/set/source editions,scope,applicability,authority,precedence and evidence. Known duties remain with genuine gaps;this guide creates no new rule,complete catalog,priority,waiver or implemented result. |
+
+
 Best practices should therefore guide decisions without creating an alternative Classification model.
+
+**Current advisory context and sourced duties.**
+
+The received role diagram illustrates consultation roles,not authority inherent in Architecture,Schema,Specification or Type Reference.
+
+| Concern | Actual authority boundary | Advisory consequence |
+|---|---|---|
+| Best Practices recommendation | Explicitly informative here;actual adoption of a particular requirement would need its own responsible contract | Recommend sound application without creating new mandates or violations from omission |
+| Actual sourced requirement | Identify responsible source/definition/rule edition,scope,applicability and authority | Preserve its actual mandatory force;should wording here waives none |
+| Normative or informative source role | Authority follows actual declarations/incorporation,not title,directory,Type or diagram order | Consult actual owner clauses;do not infer precedence from role labels |
+| Real conflict / missing authority | Actual Specification-owned precedence and Governance/necessary revision apply under Constraints54/56/59 | Unknown scope/priority is unresolved,not a new rule,waiver or automatic success |
+
+No new requirement is allocated by this table.
 
 ---
 
@@ -136,6 +174,10 @@ In particular:
 
 These principles apply to Classification because the architectural principles explicitly apply to all Framework components, including Classification.
 
+**Current advisory context and sourced duties.**
+
+All nine named principles remain actual architectural context,not new requirements introduced by this guide. Ordinary compatible preservation and necessary assessed normative/foundational/role/interface/domain revision differ;actual owner authority/need/compatibility/history governs. Meaning independence retains real physical/representation/reference/history duties.
+
 ---
 
 # 6. Treat Classification as Knowledge Structure
@@ -153,6 +195,10 @@ Therefore, Classification should answer questions such as:
 - What architectural context does it belong to?
 - How does it relate to other classified knowledge?
 
+**Current advisory context and sourced duties.**
+
+All four questions remain recommended semantic inquiry,not a required physical field catalog or allocated population. Current Family is component/admitted documentary-area membership,primary Type exactly one uniform Architecture/Structure/Behavior/Reference responsibility,Class separate optional defined nonconflicting meaning. Actual scheme/definition/assignment context still matters.
+
 ---
 
 # 7. Classify by Meaning
@@ -169,6 +215,10 @@ A document should not be classified according to:
 
 The same principle that separates Classification from document location should be preserved in its application.
 
+**Current advisory context and sourced duties.**
+
+Semantic classification should not be inferred solely from physical organization. Actual ARC007 responsibility placement,Metadata Schema/effective Profile/Instance,identity/reference/index/interface/access/retrieval/freshness/usage/history requirements remain independent;meaning may survive a move while current-use/physical conformity needs actual evidence. Neither known Elements nor Constraints placement residual is waived.
+
 ---
 
 # 8. Avoid Classification by Appearance
@@ -184,6 +234,10 @@ For example, documents should not be classified differently merely because they 
 
 The relevant question is what the document represents, not how it is physically represented.
 
+**Current advisory context and sourced duties.**
+
+Representation labels do not decide meaning or current Type. Actual equivalent content/subject/source edition and responsible representation/Profile/Instance duties need checking;format conversion or generated-file presence alone proves no full conformity,canonical approval or installed capability.
+
 ---
 
 # 9. Define Before Classifying
@@ -193,6 +247,8 @@ A Classification Element should be defined before it is broadly used.
 The definition should establish its intended meaning and context.
 
 A useful sequence is:
+
+**Received unnamed visual in §9 (span 2 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -216,7 +272,22 @@ A useful sequence is:
 
 ```
 
+**Current recommended relation scope:** Recommended definition-before-broad-use inquiry,not automatic canonical permission,allocated member or complete operational workflow.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Requirement | Selected recommended need/concept/definition/subject/use concern requiring actual semantic identity,source edition,context and responsible authority/state/use evidence for real claims. Not allocated DF identity/fields,canonical approval or performed assignment from sequence. |
+| Concept | Selected recommended need/concept/definition/subject/use concern requiring actual semantic identity,source edition,context and responsible authority/state/use evidence for real claims. Not allocated DF identity/fields,canonical approval or performed assignment from sequence. |
+| Definition | Selected recommended need/concept/definition/subject/use concern requiring actual semantic identity,source edition,context and responsible authority/state/use evidence for real claims. Not allocated DF identity/fields,canonical approval or performed assignment from sequence. |
+| Classification Element | Selected recommended need/concept/definition/subject/use concern requiring actual semantic identity,source edition,context and responsible authority/state/use evidence for real claims. Not allocated DF identity/fields,canonical approval or performed assignment from sequence. |
+| Usage | Selected recommended need/concept/definition/subject/use concern requiring actual semantic identity,source edition,context and responsible authority/state/use evidence for real claims. Not allocated DF identity/fields,canonical approval or performed assignment from sequence. |
+
+
 This reduces the risk of Classification emerging implicitly from usage.
+
+**Current advisory context and sourced duties.**
+
+The selected definition-before-use sequence is advice,not a complete permission/workflow or actual allocated Element. Actual definition/source edition,applicability,authority/state/use and required approval/conditions/effective adoption still govern actual broad/canonical use. Authorized working proposals/Drafts may prepare correction without false canonicality.
 
 ---
 
@@ -225,6 +296,8 @@ This reduces the risk of Classification emerging implicitly from usage.
 Before creating a new Classification Element, determine whether an existing element already represents the intended concept.
 
 The preferred decision process is:
+
+**Received unnamed visual in §10 (span 3 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -244,7 +317,23 @@ The preferred decision process is:
 
 ```
 
+**Current recommended relation scope:** Reuse/define inquiry branches need actual semantics/authority/evidence,not names or missing lookup as automatic identity/decision.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| New Requirement | Selected recommended need/concept/definition/subject/use concern requiring actual semantic identity,source edition,context and responsible authority/state/use evidence for real claims. Not allocated DF identity/fields,canonical approval or performed assignment from sequence. |
+| Existing Element? | Selected reuse/definition inquiry or branch. Actual definition/edition/context/equivalence/authority evidence is needed;names or unknown lookup alone prove no duplicate,new allocation,actual decision/permission or completed evaluation. |
+| Yes | Selected reuse/definition inquiry or branch. Actual definition/edition/context/equivalence/authority evidence is needed;names or unknown lookup alone prove no duplicate,new allocation,actual decision/permission or completed evaluation. |
+| No | Selected reuse/definition inquiry or branch. Actual definition/edition/context/equivalence/authority evidence is needed;names or unknown lookup alone prove no duplicate,new allocation,actual decision/permission or completed evaluation. |
+| Reuse | Selected reuse/definition inquiry or branch. Actual definition/edition/context/equivalence/authority evidence is needed;names or unknown lookup alone prove no duplicate,new allocation,actual decision/permission or completed evaluation. |
+| Define New | Selected reuse/definition inquiry or branch. Actual definition/edition/context/equivalence/authority evidence is needed;names or unknown lookup alone prove no duplicate,new allocation,actual decision/permission or completed evaluation. |
+
+
 This supports the Single Source of Truth principle, which requires each architectural concept to have one authoritative definition and discourages duplicated definitions.
+
+**Current advisory context and sourced duties.**
+
+Reuse needs actual equivalence of definition/source edition,scope/context and authority;matching names or absent lookup evidence alone proves neither reuse nor a new concept. Existing Element?/Yes/No are reasoning branches,not actual decisions,outcomes or key allocation.
 
 ---
 
@@ -254,6 +343,8 @@ Do not introduce multiple Classification Elements merely because different autho
 
 For example:
 
+**Received unnamed visual in §11 (span 4 in original order).** Exact received wording is retained as qualified evidence and illustration.
+
 ```text
 
     Architectural Decision
@@ -262,6 +353,15 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Unallocated terminology comparison for same/related/distinct concepts,not new primary Types or actual alias registry.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Architectural Decision | Unallocated example terminology for same/related/distinct meaning inquiry,not additional primary Type values or automatically registered aliases. Actual definition/source/context/authority determines semantic distinction,not spelling alone. |
+| Architecture Decision | Unallocated example terminology for same/related/distinct meaning inquiry,not additional primary Type values or automatically registered aliases. Actual definition/source/context/authority determines semantic distinction,not spelling alone. |
+| Architecture Design Decision | Unallocated example terminology for same/related/distinct meaning inquiry,not additional primary Type values or automatically registered aliases. Actual definition/source/context/authority determines semantic distinction,not spelling alone. |
+
+
 should not automatically become three distinct Classification Elements.
 
 First determine whether they represent:
@@ -269,6 +369,10 @@ First determine whether they represent:
 - the same concept;
 - related concepts;
 - genuinely distinct concepts.
+
+**Current advisory context and sourced duties.**
+
+All three received decision names are unallocated terminology examples,not primary Type values or an accepted synonym registry. Actual same/related/distinct meaning needs responsible definition/edition/context/evidence;advice performs no merge,rekey,alias allocation or semantic identity deletion.
 
 ---
 
@@ -279,6 +383,10 @@ Different names may refer to the same concept.
 Where this occurs, the Classification Dictionary should identify the canonical terminology.
 
 Classification should not encode vocabulary variation as semantic variation unless the concepts are genuinely different.
+
+**Current advisory context and sourced duties.**
+
+Canonical term,name,display label,definition/source edition,semantic identity and represented record differ. Actual Dictionary authority/definition and permitted synonyms must substantiate a terminology claim;names alone do not create a complete vocabulary or transfer domain ownership.
 
 ---
 
@@ -293,6 +401,10 @@ A useful definition should establish:
 - its scope;
 - its relationship to parent concepts.
 
+**Current advisory context and sourced duties.**
+
+All four definition concerns remain recommended clarity subjects. Parent applies only to an actually defined scheme relation,not universal Family-owned Type or mandatory Class child. Actual definition/meaning/source edition/context and scope evidence are claim-dependent,not four universally allocated fields.
+
 ---
 
 # 14. Avoid Overly Broad Categories
@@ -300,6 +412,8 @@ A useful definition should establish:
 A Classification Element should not become a generic container for unrelated concepts.
 
 For example:
+
+**Received unnamed visual in §14 (span 5 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -310,9 +424,23 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Illustrative broad names with actual semantic-justification exception,not universal forbidden values or measured constraint violations.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Miscellaneous | Illustrative broad-category labels,not universally forbidden/reserved values or accepted population. Actual justified semantic purpose/definition/authority matters;advice alone proves no violation. |
+| Other | Illustrative broad-category labels,not universally forbidden/reserved values or accepted population. Actual justified semantic purpose/definition/authority matters;advice alone proves no violation. |
+| General | Illustrative broad-category labels,not universally forbidden/reserved values or accepted population. Actual justified semantic purpose/definition/authority matters;advice alone proves no violation. |
+| Various | Illustrative broad-category labels,not universally forbidden/reserved values or accepted population. Actual justified semantic purpose/definition/authority matters;advice alone proves no violation. |
+
+
 should be avoided as canonical categories unless their semantic purpose is explicitly justified.
 
 Broad categories reduce the information value of Classification.
+
+**Current advisory context and sourced duties.**
+
+Miscellaneous/Other/General/Various are example labels,not reserved or forbidden universal values. Actual explicitly defined semantic purpose and authority matter;advice against broad categories alone establishes no constraint violation or allocated vocabulary.
 
 ---
 
@@ -326,6 +454,10 @@ Do not introduce a new category merely because two documents differ in a minor d
 
 The goal is a useful semantic structure rather than maximum fragmentation.
 
+**Current advisory context and sourced duties.**
+
+Granularity advice creates no numeric threshold or automatic reject/approve outcome. Actual meaningful distinction/context/authority and user needs should support a proposal;current optional defined Class and uniform primary Type do not permit arbitrary new role values.
+
 ---
 
 # 16. Maintain Appropriate Granularity
@@ -333,6 +465,8 @@ The goal is a useful semantic structure rather than maximum fragmentation.
 Classification granularity should be consistent.
 
 Conceptually:
+
+**Received unnamed visual in §16 (span 6 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -348,6 +482,15 @@ Conceptually:
 
 ```
 
+**Current recommended relation scope:** Qualitative granularity concerns,not universal numeric thresholds,state transitions or completed quality metrics.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Too Broad | Qualitative recommended granularity/heuristic concern,not measured implementation state,numeric threshold,canonical permission or severity/outcome enum. Actual need/context/authority/evidence remain. |
+| Useful Granularity | Qualitative recommended granularity/heuristic concern,not measured implementation state,numeric threshold,canonical permission or severity/outcome enum. Actual need/context/authority/evidence remain. |
+| Too Fragmented | Qualitative recommended granularity/heuristic concern,not measured implementation state,numeric threshold,canonical permission or severity/outcome enum. Actual need/context/authority/evidence remain. |
+
+
 The appropriate level depends on:
 
 - the purpose of Classification;
@@ -356,13 +499,19 @@ The appropriate level depends on:
 - governance requirements;
 - maintenance cost.
 
+**Current advisory context and sourced duties.**
+
+Too Broad/Useful Granularity/Too Fragmented are qualitative heuristics,not measured current architecture states,universal cardinalities or severity. All five purpose/information/discovery/governance/cost concerns remain recommended actual context,with no automatic threshold or completed check.
+
 ---
 
 # 17. Keep Hierarchy Meaningful
 
-The hierarchy should communicate a meaningful specialization relationship.
+Any actual explicitly defined scheme hierarchy should communicate its responsible structural meaning;documentary Family,Type and Class are not universally a specialization chain.
 
 For example:
+
+**Received unnamed visual in §17 (span 7 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -374,9 +523,22 @@ For example:
 
 ```
 
-should represent meaningful semantic refinement.
+**Current recommended relation scope:** Historical role-tree example;current complementary membership/uniform Type/optional Class and actual separately defined scheme hierarchy apply.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Family | Received historical/conditional role-tree/direction position. Current Family is real component/admitted documentary-area membership,not universal semantic parent owning primary Type. Actual scheme hierarchy needs responsible definitions;no component/key/population allocated. |
+| Type | Received historical/generic role/example position,not an allocated Family-specific responsibility. Actual primary document Type is exactly one uniform Architecture/Structure/Behavior/Reference across Families;actual valid-use context does not create a fifth value. |
+| Class | Received historical/conditional role-tree position. Current Class is separate optional explicitly defined nonconflicting meaning,not universal Type child,mandatory field/value,unrestricted string or known complete vocabulary/count. |
+
+
+is received historical role-tree evidence,not the current universal primary-role model. Actual scheme-specific refinement needs an explicit responsible definition.
 
 A hierarchy should not exist merely because a tree structure is convenient.
+
+**Current advisory context and sourced duties.**
+
+Current complementary membership Family,uniform primary Type and optional defined Class do not impose a universal specialization tree. The exact received drawing is historical evidence;an actual separately defined scheme may have hierarchy under responsible rules,not from this recommendation.
 
 ---
 
@@ -385,6 +547,8 @@ A hierarchy should not exist merely because a tree structure is convenient.
 Do not create intermediate Classification Elements solely to make a tree deeper.
 
 For example:
+
+**Received unnamed visual in §18 (span 8 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -400,7 +564,22 @@ For example:
 
 ```
 
-is undesirable if the intermediate concepts have no independent semantic purpose.
+**Current recommended relation scope:** Historical/generic intermediate-tree anti-pattern,not actual allocated components/fields or current required role hierarchy.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Family | Received historical/conditional role-tree/direction position. Current Family is real component/admitted documentary-area membership,not universal semantic parent owning primary Type. Actual scheme hierarchy needs responsible definitions;no component/key/population allocated. |
+| Group | Hypothetical intermediate semantic concept/position in an anti-pattern,not automatically allocated architectural component,field,Level or actual required hierarchy. Real defined meaning/context/authority is needed. |
+| Category | Hypothetical intermediate semantic concept/position in an anti-pattern,not automatically allocated architectural component,field,Level or actual required hierarchy. Real defined meaning/context/authority is needed. |
+| Type | Received historical/generic role/example position,not an allocated Family-specific responsibility. Actual primary document Type is exactly one uniform Architecture/Structure/Behavior/Reference across Families;actual valid-use context does not create a fifth value. |
+| Class | Received historical/conditional role-tree position. Current Class is separate optional explicitly defined nonconflicting meaning,not universal Type child,mandatory field/value,unrestricted string or known complete vocabulary/count. |
+
+
+is an illustrative old-role/intermediate-level anti-pattern,not a current role mandate;such extra levels are undesirable without actual independent semantic purpose and responsible scheme authority.
+
+**Current advisory context and sourced duties.**
+
+Group/Category in the received old-role tree are hypothetical intermediate concepts,not allocated components/fields/Levels or a required current role sequence. Extra structure needs actual independent meaning/authority;advice erases no genuine actual hierarchical/prohibited-cycle duty.
 
 ---
 
@@ -412,6 +591,8 @@ The Framework favors explicit relationships over implicit conventions.
 
 For example:
 
+**Received unnamed visual in §19 (span 9 in original order).** Exact received wording is retained as qualified evidence and illustration.
+
 ```text
 
             Classification A
@@ -420,12 +601,25 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Generic typed association example,not accepted kind/alias/universal fields or performed semantic/record/provider edge.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Classification A | Generic endpoint/kind/direction example. Actual responsible relationship definition/endpoints,properties/cardinality/source editions/identity/context govern;old role positions are historical/conditional. No registered kind/alias,automatic inverse/reverse record or actual required-provider edge is created. |
+| relatedTo | Generic endpoint/kind/direction example. Actual responsible relationship definition/endpoints,properties/cardinality/source editions/identity/context govern;old role positions are historical/conditional. No registered kind/alias,automatic inverse/reverse record or actual required-provider edge is created. |
+| Classification B | Generic endpoint/kind/direction example. Actual responsible relationship definition/endpoints,properties/cardinality/source editions/identity/context govern;old role positions are historical/conditional. No registered kind/alias,automatic inverse/reverse record or actual required-provider edge is created. |
+
+
 is preferable to encoding the relationship indirectly through:
 
 - directory names;
 - naming conventions;
 - ordering;
 - textual assumptions.
+
+**Current advisory context and sourced duties.**
+
+Classification A/B and relatedTo are unallocated endpoint/kind examples. Actual kind/definition/association/assertion/endpoint/source editions,semantics/direction/properties/cardinality and allowed scope apply. Common typed records,navigation/inverse/projections and indispensable provider edges differ;no universal fields or performed relation creation.
 
 ---
 
@@ -436,6 +630,10 @@ Not every relationship should be represented through parent-child Classification
 A hierarchy implies structural semantics.
 
 If two concepts are merely related, use an explicit relationship instead.
+
+**Current advisory context and sourced duties.**
+
+Not every association is hierarchical;actual responsible relation-kind properties and allowed endpoints matter. No arbitrary all-pairs admission,universal DAG,generated reverse records or renamed-away required provider cycle follows from explicit relationships advice.
 
 ---
 
@@ -451,6 +649,10 @@ Avoid generic relationship names such as:
 
 when a more precise semantic relationship is available.
 
+**Current advisory context and sourced duties.**
+
+All three generic relation names remain examples,not forbidden canonical values or a completed kind registry. Actual responsible meaning/direction/endpoint/context distinguishes a useful relation;clearer naming alone neither changes identity nor transfers semantic ownership.
+
 ---
 
 # 22. Use Direction Consistently
@@ -458,6 +660,8 @@ when a more precise semantic relationship is available.
 Where relationships are directional, maintain a consistent direction.
 
 For example:
+
+**Received unnamed visual in §22 (span 10 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -467,7 +671,18 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Historical/conditional old-role direction examples;actual defined kind/endpoint properties/inverse scope,no universal current Type-family ownership or automatic reverse record.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Type | Received historical/generic role/example position,not an allocated Family-specific responsibility. Actual primary document Type is exactly one uniform Architecture/Structure/Behavior/Reference across Families;actual valid-use context does not create a fifth value. |
+| belongsTo | Generic endpoint/kind/direction example. Actual responsible relationship definition/endpoints,properties/cardinality/source editions/identity/context govern;old role positions are historical/conditional. No registered kind/alias,automatic inverse/reverse record or actual required-provider edge is created. |
+| Family | Received historical/conditional role-tree/direction position. Current Family is real component/admitted documentary-area membership,not universal semantic parent owning primary Type. Actual scheme hierarchy needs responsible definitions;no component/key/population allocated. |
+
+
 should not arbitrarily alternate with:
+
+**Received unnamed visual in §22 (span 11 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -477,7 +692,20 @@ should not arbitrarily alternate with:
 
 ```
 
+**Current recommended relation scope:** Historical/conditional old-role direction examples;actual defined kind/endpoint properties/inverse scope,no universal current Type-family ownership or automatic reverse record.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Family | Received historical/conditional role-tree/direction position. Current Family is real component/admitted documentary-area membership,not universal semantic parent owning primary Type. Actual scheme hierarchy needs responsible definitions;no component/key/population allocated. |
+| belongsTo | Generic endpoint/kind/direction example. Actual responsible relationship definition/endpoints,properties/cardinality/source editions/identity/context govern;old role positions are historical/conditional. No registered kind/alias,automatic inverse/reverse record or actual required-provider edge is created. |
+| Type | Received historical/generic role/example position,not an allocated Family-specific responsibility. Actual primary document Type is exactly one uniform Architecture/Structure/Behavior/Reference across Families;actual valid-use context does not create a fifth value. |
+
+
 unless both relationships have independently defined meanings.
+
+**Current advisory context and sourced duties.**
+
+The two exact belongsTo views retain historical/conditional old-role context. Actual defined direction/inverse and endpoint/definition/source editions govern;current primary Type is not Family-owned. No automatic symmetry,transitivity,reverse stored record,alias population or reversed indispensable provider direction.
 
 ---
 
@@ -485,7 +713,21 @@ unless both relationships have independently defined meanings.
 
 Classification usage should respect the cardinality defined by the Schema and Constraints.
 
-If a Type belongs to exactly one Family, Classification assignments should not introduce multiple Families merely for convenience.
+The received Type-owned-by-one-Family example is historical/conditional,not the current uniform primary-Type contract. Advice should respect known membership/one-primary-Type/optional-defined-Class duties and any actually defined scheme cardinality,without inventing general counts.
+
+**Current advisory context and sourced duties.**
+
+Advice should distinguish known owner duties from genuine general-rule gaps.
+
+| Subject / concern | Existing sourced duty or limit | Guidance boundary |
+|---|---|---|
+| Applicable normalized document / Family | Actual canonical component or admitted documentary-area membership | No Type-owning domain,new component/key or complete membership population allocated |
+| Applicable normalized document / Type | Exactly one uniform Architecture/Structure/Behavior/Reference primary responsibility | Context may restrict valid use without adding a fifth value or Family-owned vocabulary |
+| Class if used | Separate optional explicitly defined nonconflicting meaning | Not mandatory third field/value,universal Type child,unrestricted string or known general maximum |
+| Actual scheme / relationship / assignment | Respect actually defined allowed endpoints/properties/cardinality/required or optional association rules | Missing general minima/maxima/population/field detail grants no arbitrary counts/all-pairs permission or blanket known-duty deferral |
+| Integrity / identity / evidence | Real defined source/target/kind/context,uniqueness/explicit exceptions and supported observations remain | Endpoint existence alone is not full validity;lookup/authority/check gaps are not fabricated orphan/Invalid;historical/current use and retrieval differ |
+
+Actual Model14/Schema34/Relationships20/23/34/43/46/71 and Constraints28 retain their own authority;this table adds no mandatory counts or fields.
 
 ---
 
@@ -497,6 +739,10 @@ Renaming a Classification Element should not automatically imply the creation of
 
 Identity and presentation should remain conceptually distinct.
 
+**Current advisory context and sourced duties.**
+
+Semantic entity/category/value/definition/assignment/kind/assertion/record identity differs from document K/local complete R/exact edition and readable label. Actual responsible uniqueness/nonreuse/history and qualified target scopes apply;renaming alone performs no replacement,rekey,consumer revision or retargeted pinned approval.
+
 ---
 
 # 25. Separate Name from Meaning
@@ -506,6 +752,10 @@ A Classification Element has a semantic identity that is broader than its displa
 A name may evolve for clarity while the underlying concept remains the same.
 
 Conversely, changing the meaning of an element is an architectural change even if its name remains unchanged.
+
+**Current advisory context and sourced duties.**
+
+Actual changed definition/meaning or mandate is not editorial merely because name/path/key remains. Advice should identify real prior/new source/definition editions,authority,need,alternatives,batch,interfaces,honest compatibility/mappings/history,pinned continuity,authorized transition and checks. No arbitrary mutation or rewritten old meaning.
 
 ---
 
@@ -522,6 +772,10 @@ Canonical Classification terminology should be used consistently throughout:
 
 The Framework explicitly requires architectural concepts to preserve their meaning and terminology to be used consistently.
 
+**Current advisory context and sourced duties.**
+
+All six terminology-use subjects remain. Actual domain/term/definition/source editions and applicable context determine canonical wording;consistent spelling alone proves neither equivalent concept nor a complete approved Vocabulary/Metadata field catalog.
+
 ---
 
 # 27. Avoid Context-Dependent Meaning
@@ -536,6 +790,10 @@ A Classification Element should not mean different things depending on:
 
 Where contextual specialization is required, it should be explicitly represented.
 
+**Current advisory context and sourced duties.**
+
+Stable canonical meaning differs from actual explicitly defined scope/applicability or contextual valid-use restriction. Actual condition evidence/authority/context is needed;unknown applicability is no NotApplicable/Satisfied/Violated or permission. Explicit specialization cannot be invented to hide same-context conflict and supplies no universal stored fields.
+
 ---
 
 # 28. Keep Classification Independent of Storage
@@ -549,11 +807,17 @@ Classification should remain valid if documents move between:
 
 The Classification model should describe the document's semantic role, not its physical location.
 
+**Current advisory context and sourced duties.**
+
+All four move environments remain examples. Meaning independence does not guarantee actually valid current use or waive descriptor/Profile/physical/reference/index/interface/access/retrieval/freshness/history effects. Actual authorized migration requires old/new mapping/identity/edition/conditions/evidence,not a global string replacement or automatic consumer successor.
+
 ---
 
 # 29. Keep Classification Independent of Format
 
 A document should retain the same Classification when represented as:
+
+**Received unnamed visual in §29 (span 12 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -566,7 +830,22 @@ A document should retain the same Classification when represented as:
 
 ```
 
+**Current recommended relation scope:** Representation alternatives preserve intended meaning while actual Profile/physical/reference/interface/history effects need evidence,no performed conversion.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Markdown | Illustrative representation choice,not different semantic meaning/primary Type or proof actual conversion preserves all requirements. Actual equivalent subject/content/source context and descriptor/Profile/physical/reference/interface/history effects remain. |
+| PDF | Illustrative representation choice,not different semantic meaning/primary Type or proof actual conversion preserves all requirements. Actual equivalent subject/content/source context and descriptor/Profile/physical/reference/interface/history effects remain. |
+| HTML | Illustrative representation choice,not different semantic meaning/primary Type or proof actual conversion preserves all requirements. Actual equivalent subject/content/source context and descriptor/Profile/physical/reference/interface/history effects remain. |
+| YAML | Illustrative representation choice,not different semantic meaning/primary Type or proof actual conversion preserves all requirements. Actual equivalent subject/content/source context and descriptor/Profile/physical/reference/interface/history effects remain. |
+| Other Representation | Illustrative representation choice,not different semantic meaning/primary Type or proof actual conversion preserves all requirements. Actual equivalent subject/content/source context and descriptor/Profile/physical/reference/interface/history effects remain. |
+
+
 unless the represented knowledge itself has changed.
+
+**Current advisory context and sourced duties.**
+
+Markdown/PDF/HTML/YAML/Other Representation are representation examples,not different primary Types or proof an actual conversion preserves every owner requirement. Equivalent subject/content/context and actual Schema/effective Profile/Instance/reference/history effects remain separately evidenced.
 
 ---
 
@@ -578,13 +857,19 @@ Tool limitations should be solved at the implementation or integration level whe
 
 Classification should represent architectural knowledge.
 
+**Current advisory context and sourced duties.**
+
+Tool limitations alone are not new domain semantics,but actual architectural interfaces/representation requirements may need responsible integration work. Advice does not waive existing implementation/descriptor/Profile duties or authorize tooling to redefine meaning.
+
 ---
 
 # 31. Preserve Separation of Responsibilities
 
-Classification should not assume responsibilities belonging to other components.
+Classification guidance should respect actual responsible owner boundaries;necessary assessed role/interface revision needs actual prior/new authority,not arbitrary takeover.
 
 For example:
+
+**Received unnamed visual in §31 (span 13 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -600,15 +885,34 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Selected domain-versus-document/operational owner boundary,not denial of actual domain Element identity/lifecycle or real indispensable providers.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Classification | Actual domain semantic category/value/definition/assignment/relationship/constraint meaning or selected classification dimension,not owner of every common record/representation/documentary process. Actual source/edition/scope and independent owners remain,no allocation or installed system. |
+| defines semantic categories | Actual domain semantic category/value/definition/assignment/relationship/constraint meaning or selected classification dimension,not owner of every common record/representation/documentary process. Actual source/edition/scope and independent owners remain,no allocation or installed system. |
+| does not define | Selected owner-boundary statement,not erasure of actual domain Element identity/lifecycle or independent interface/representation/provider requirements. Actual responsibilities/source editions govern;necessary assessed revision needs real authority. |
+| permanent identity | Actual permanent document identity responsibility under Document Identity differs from domain Element/definition/assignment/record identity. This exclusion does not deny that Classification subjects have actual typed identity;no automatic DF allocation/rekey. |
+| physical storage | Operational repository/storage concern with actual authorized implementation/executor,not Classification semantic ownership. Meaning independence retains actual physical/reference/access/retrieval/history/interface duties;no move or permission from view. |
+| lifecycle workflow | Actual common documentary Workflow/authorized operational process concern,distinct from Classification Element/definition/assignment state/use/history and extension/proposal/decision contracts. No erased domain lifecycle,universal machine or performed transition. |
+| repository management | Operational repository/storage concern with actual authorized implementation/executor,not Classification semantic ownership. Meaning independence retains actual physical/reference/access/retrieval/history/interface duties;no move or permission from view. |
+
+
 The Framework explicitly defines components as architectural building blocks with specific responsibilities.
+
+**Current advisory context and sourced duties.**
+
+The exact responsibility view distinguishes domain meaning from permanent document identity/storage/document workflow/repository operations. Classification Element/definition/assignment has actual identity/state/use requirements under its owners;this view removes none. Actual common process/records/projections,Metadata representation,Identity K/R/exact edition and authorized executor remain separate.
 
 ---
 
 # 32. Do Not Encode Lifecycle in Classification
 
-Classification and lifecycle are different dimensions.
+Semantic classification assignment and lifecycle state are different dimensions;this does not remove actual Classification Element/definition/assignment lifecycle responsibilities.
 
 Avoid creating categories such as:
+
+**Received unnamed visual in §32 (span 14 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -618,9 +922,20 @@ Avoid creating categories such as:
 
 ```
 
+**Current recommended relation scope:** Generic assignment-versus-actual-state examples;no universal state enum/aliases/complete machine or erased domain lifecycle.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| DraftDecision | Generic category/state example to distinguish semantic assignment from actual subject-specific lifecycle/decision. Not new primary Type/Class allocation or universal enum/alias. Actual authority/edition/conditions/fulfillment/effects determine use;Approved alone is no adoption,activation,publication or Baseline. |
+| ApprovedDecision | Generic category/state example to distinguish semantic assignment from actual subject-specific lifecycle/decision. Not new primary Type/Class allocation or universal enum/alias. Actual authority/edition/conditions/fulfillment/effects determine use;Approved alone is no adoption,activation,publication or Baseline. |
+| ArchivedDecision | Generic category/state example to distinguish semantic assignment from actual subject-specific lifecycle/decision. Not new primary Type/Class allocation or universal enum/alias. Actual authority/edition/conditions/fulfillment/effects determine use;Approved alone is no adoption,activation,publication or Baseline. |
+
+
 when the distinction is actually lifecycle state.
 
 Instead:
+
+**Received unnamed visual in §32 (span 15 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -636,6 +951,21 @@ Instead:
 
 ```
 
+**Current recommended relation scope:** Generic assignment-versus-actual-state examples;no universal state enum/aliases/complete machine or erased domain lifecycle.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Classification | Actual domain semantic category/value/definition/assignment/relationship/constraint meaning or selected classification dimension,not owner of every common record/representation/documentary process. Actual source/edition/scope and independent owners remain,no allocation or installed system. |
+| Decision | Generic category/state example to distinguish semantic assignment from actual subject-specific lifecycle/decision. Not new primary Type/Class allocation or universal enum/alias. Actual authority/edition/conditions/fulfillment/effects determine use;Approved alone is no adoption,activation,publication or Baseline. |
+| Lifecycle | Actual subject-specific state/use/transition/history role or illustrative independent dimension under actual owner context. Classification Element/definition/assignment,document Workflow,extension/proposal/decision,term/R/result/finding/Milestone states differ;no universal machine/aliases or performed event. |
+| Draft | Generic category/state example to distinguish semantic assignment from actual subject-specific lifecycle/decision. Not new primary Type/Class allocation or universal enum/alias. Actual authority/edition/conditions/fulfillment/effects determine use;Approved alone is no adoption,activation,publication or Baseline. |
+| Approved | Generic category/state example to distinguish semantic assignment from actual subject-specific lifecycle/decision. Not new primary Type/Class allocation or universal enum/alias. Actual authority/edition/conditions/fulfillment/effects determine use;Approved alone is no adoption,activation,publication or Baseline. |
+| Archived | Generic category/state example to distinguish semantic assignment from actual subject-specific lifecycle/decision. Not new primary Type/Class allocation or universal enum/alias. Actual authority/edition/conditions/fulfillment/effects determine use;Approved alone is no adoption,activation,publication or Baseline. |
+
+**Current advisory context and sourced duties.**
+
+DraftDecision/ApprovedDecision/ArchivedDecision and Decision/Draft/Approved/Archived are generic examples of dimension conflation,not additional primary Types/allocated Class values or one universal lifecycle. Actual Element/definition/assignment versus document Workflow/extension/proposal/decision/term/local R/result/finding/Milestone states/use differ. Known Lifecycle19/20/48/53 mandates and genuine exact actor/guard/route/record gaps remain;no automatic transition or permission.
+
 ---
 
 # 33. Do Not Encode Governance in Classification
@@ -643,6 +973,8 @@ Instead:
 Governance status should not normally become part of the Classification hierarchy.
 
 For example:
+
+**Received unnamed visual in §33 (span 16 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -652,15 +984,30 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Illustrative governance-in-name concern,not actual outcomes,forbidden Class values,approval sufficiency or permission.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| ApprovedArchitecture | Illustrative status-in-name anti-pattern,not allocated category,universal forbidden value or observed actual Governance result. Identify precise subject/edition/state/decision/authority/conditions/effects;no automatic outcome or permission. |
+| RejectedArchitecture | Illustrative status-in-name anti-pattern,not allocated category,universal forbidden value or observed actual Governance result. Identify precise subject/edition/state/decision/authority/conditions/effects;no automatic outcome or permission. |
+| PendingArchitecture | Illustrative status-in-name anti-pattern,not allocated category,universal forbidden value or observed actual Governance result. Identify precise subject/edition/state/decision/authority/conditions/effects;no automatic outcome or permission. |
+
+
 may represent governance states rather than Classification concepts.
 
-Such distinctions should be handled by Governance.
+Actual responsible Governance/state/use contracts should handle such distinctions for their identified subject/edition;decision labels and document/Element/extension/term/R states are not universal aliases.
+
+**Current advisory context and sourced duties.**
+
+ApprovedArchitecture/RejectedArchitecture/PendingArchitecture are generic status-name examples,not universally forbidden vocabulary or actual Governance decisions. Actual responsible subject/edition/authority/conditions/effects govern;approval is not fulfillment,adoption,activation,publication or Baseline.
 
 ---
 
 # 34. Do Not Encode Storage in Classification
 
 Avoid categories based on physical storage:
+
+**Received unnamed visual in §34 (span 17 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -671,7 +1018,21 @@ Avoid categories based on physical storage:
 
 ```
 
+**Current recommended relation scope:** Storage-label examples with genuine semantic-subject exception;no actual allocation or physical/representation-duty waiver.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| GitDocuments | Illustrative storage-name category;actual storage-as-semantic-subject exception remains. Not allocated identity/accepted vocabulary or waiver of physical/representation/reference/history obligations. |
+| DatabaseDocuments | Illustrative storage-name category;actual storage-as-semantic-subject exception remains. Not allocated identity/accepted vocabulary or waiver of physical/representation/reference/history obligations. |
+| ArchiveDocuments | Illustrative storage-name category;actual storage-as-semantic-subject exception remains. Not allocated identity/accepted vocabulary or waiver of physical/representation/reference/history obligations. |
+| LocalDocuments | Illustrative storage-name category;actual storage-as-semantic-subject exception remains. Not allocated identity/accepted vocabulary or waiver of physical/representation/reference/history obligations. |
+
+
 unless storage itself is genuinely the semantic subject being classified.
+
+**Current advisory context and sourced duties.**
+
+Git/Database/Archive/LocalDocuments are example labels. The actual semantic-subject exception remains;storage neutrality does not waive physical/representation/reference/history obligations or guarantee no effects from moving files.
 
 ---
 
@@ -681,6 +1042,8 @@ Ownership and responsibility should not automatically become Classification cate
 
 For example:
 
+**Received unnamed visual in §35 (span 18 in original order).** Exact received wording is retained as qualified evidence and illustration.
+
 ```text
 
     TeamADocuments
@@ -688,7 +1051,19 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Hypothetical team-ownership concern,not actual actor/delegation/permission allocation or component-membership erasure.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| TeamADocuments | Hypothetical team-ownership labels,not real organization actors,delegation or permissions. Team/author ownership differs from canonical component/admitted-area membership Family;no actor or component allocation. |
+| TeamBDocuments | Hypothetical team-ownership labels,not real organization actors,delegation or permissions. Team/author ownership differs from canonical component/admitted-area membership Family;no actor or component allocation. |
+
+
 should not replace semantic Classification where ownership is a separate concern.
+
+**Current advisory context and sourced duties.**
+
+TeamA/B labels are ownership examples,not real allocated organizational actors or permissions. Actual canonical component membership Family differs from team/author ownership;advice creates no complete actor/delegation scheme or owner transfer.
 
 ---
 
@@ -706,6 +1081,10 @@ Good candidates include:
 
 Transient attributes should normally remain outside Classification.
 
+**Current advisory context and sourced duties.**
+
+All five stable-dimension candidates remain generic concerns. Kind/specification type is not a fifth primary documentary Type or complete Class vocabulary;actual defined context/authority and independent dimension mechanisms govern,not a universal field catalog.
+
 ---
 
 # 37. Keep Classification Small Enough to Understand
@@ -716,6 +1095,10 @@ The Framework favors modular architecture and independent components that can ev
 
 A Classification model that cannot be understood by its maintainers becomes difficult to govern and validate.
 
+**Current advisory context and sourced duties.**
+
+Comprehensibility and modularity are recommended qualities,not measured maturity or no-provider/no-required-cycle claims. Real existing owner/consumer/interfaces and necessary assessed revision remain;independent understanding does not erase dependencies.
+
 ---
 
 # 38. Prefer Coherent Vocabulary
@@ -723,6 +1106,8 @@ A Classification model that cannot be understood by its maintainers becomes diff
 Classification terminology should form a coherent vocabulary.
 
 Avoid mixing unrelated naming conventions such as:
+
+**Received unnamed visual in §38 (span 19 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -733,9 +1118,23 @@ Avoid mixing unrelated naming conventions such as:
 
 ```
 
+**Current recommended relation scope:** Mixed-name illustration,not automatically duplicated semantic identity,new primary Type or allocated alias population.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| ArchitectureDecision | Unallocated mixed terminology examples. Actual definition/context/naming scope/authority determine consistency;spelling alone proves neither semantic identity/collision nor a new primary Type,accepted alias or field. |
+| API-Doc | Unallocated mixed terminology examples. Actual definition/context/naming scope/authority determine consistency;spelling alone proves neither semantic identity/collision nor a new primary Type,accepted alias or field. |
+| DesignNotes | Unallocated mixed terminology examples. Actual definition/context/naming scope/authority determine consistency;spelling alone proves neither semantic identity/collision nor a new primary Type,accepted alias or field. |
+| TechnicalSpecificationDocument | Unallocated mixed terminology examples. Actual definition/context/naming scope/authority determine consistency;spelling alone proves neither semantic identity/collision nor a new primary Type,accepted alias or field. |
+
+
 without a clear semantic rationale.
 
 Terminology should reflect the conceptual model rather than individual author preferences.
+
+**Current advisory context and sourced duties.**
+
+All four received mixed-name examples remain hypothetical terminology. Actual canonical name/readable label,meaning/source edition and definition/context determine consistency;different spellings alone establish neither duplicate semantic identity nor new primary Type/registered alias.
 
 ---
 
@@ -751,6 +1150,10 @@ Names should be:
 - concise;
 - semantically meaningful.
 
+**Current advisory context and sourced duties.**
+
+All five naming qualities remain advice under actual scope. No universal name-key,automatic collision/merge,complete vocabulary or renamed document/entity identity follows. Keep actual definition/context/authority and needed history separately.
+
 ---
 
 # 40. Avoid Abbreviations When Ambiguous
@@ -758,6 +1161,8 @@ Names should be:
 Abbreviations should be avoided when they reduce semantic clarity.
 
 For example:
+
+**Received unnamed visual in §40 (span 20 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -768,13 +1173,29 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Abbreviation examples,not series allocation or current classification inferred from identifier;stable namespace and readable term differ.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| ADR | Received abbreviation examples,not new series allocation,current Family/Type values or complete canonical vocabulary. Actual registered series is a stable allocation namespace,not recalculated current responsibility;identity and label differ. |
+| ARC | Received abbreviation examples,not new series allocation,current Family/Type values or complete canonical vocabulary. Actual registered series is a stable allocation namespace,not recalculated current responsibility;identity and label differ. |
+| SPEC | Received abbreviation examples,not new series allocation,current Family/Type values or complete canonical vocabulary. Actual registered series is a stable allocation namespace,not recalculated current responsibility;identity and label differ. |
+| REF | Received abbreviation examples,not new series allocation,current Family/Type values or complete canonical vocabulary. Actual registered series is a stable allocation namespace,not recalculated current responsibility;identity and label differ. |
+
+
 may be useful in identifiers but should not automatically become ambiguous canonical Classification names.
+
+**Current advisory context and sourced duties.**
+
+ADR/ARC/SPEC/REF are abbreviation examples,not new allocated series or primary Types. A stable allocation series does not recalculate document Family/Type/component/location or identity;actual canonical names and responsible term scope differ from representation labels.
 
 ---
 
 # 41. Separate Identifier from Label
 
 Where the architecture defines stable identifiers, distinguish:
+
+**Received unnamed visual in §41 (span 21 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -788,7 +1209,21 @@ Where the architecture defines stable identifiers, distinguish:
 
 ```
 
+**Current recommended relation scope:** Typed identity/readable-label distinction,not universal fields/keys,automatic rekey,consumer revision or pinned-history retargeting.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Identifier | Conceptual identity-versus-readable-label concern,not universal physical fields or automatic DF identity for every entity. Actual typed subject/definition/record/document K/local R/exact-edition scope and history remain,no rekey/retargeting by rename. |
+| stable identity | Conceptual identity-versus-readable-label concern,not universal physical fields or automatic DF identity for every entity. Actual typed subject/definition/record/document K/local R/exact-edition scope and history remain,no rekey/retargeting by rename. |
+| Label | Conceptual identity-versus-readable-label concern,not universal physical fields or automatic DF identity for every entity. Actual typed subject/definition/record/document K/local R/exact-edition scope and history remain,no rekey/retargeting by rename. |
+| human-readable name | Conceptual identity-versus-readable-label concern,not universal physical fields or automatic DF identity for every entity. Actual typed subject/definition/record/document K/local R/exact-edition scope and history remain,no rekey/retargeting by rename. |
+
+
 This permits terminology improvements without unnecessarily changing identity.
+
+**Current advisory context and sourced duties.**
+
+Identifier/stable identity and Label/human-readable name are conceptual roles,not universal physical fields or proof every entity receives a DF key. Actual entity/definition/assignment/record and document K/local R/exact-edition targets retain typed scope/nonreuse/history;renaming does not retarget pinned evidence.
 
 ---
 
@@ -804,11 +1239,15 @@ The rationale should explain:
 
 This improves future governance decisions.
 
+**Current advisory context and sourced duties.**
+
+All three rationale subjects remain advice;actual responsible need,alternatives/source/subject editions,authority,criteria/evidence,conditions and history may require more support. Rationale wording is no actual canonical decision or universal allocated record schema.
+
 ---
 
 # 43. Review Before Creating New Elements
 
-Before introducing a new Family, Type or Class, review:
+Before proposing an actual membership option,a defined optional Class value or necessary assessed revision of an existing primary-Type mandate,review:
 
 1. existing terminology;
 2. existing definitions;
@@ -819,6 +1258,10 @@ Before introducing a new Family, Type or Class, review:
 
 This minimizes duplication and inconsistency.
 
+**Current advisory context and sourced duties.**
+
+All six consultation subjects remain original order. Advice does not routinely introduce Family-owned primary Types or mandatory Class levels;actual membership/admitted area,uniform primary responsibility and optional defined Class apply. Necessary Type mandate revision requires real prior/new authority/need/batch/history,not a fifth value by suggestion.
+
 ---
 
 # 44. Prefer Additive Evolution
@@ -826,6 +1269,8 @@ This minimizes duplication and inconsistency.
 When possible, extend Classification by adding new elements rather than redefining existing ones.
 
 For example:
+
+**Received unnamed visual in §44 (span 22 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -838,9 +1283,23 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Ordinary compatible addition preference with actual impact/authority/history;necessary assessed revision remains possible,no absolute freeze or no-effects proof.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Existing Model | Unallocated ordinary-addition illustration,not actual canonical members,proof no consumer impact or absolute preservation freeze. Actual need/authority/compatible meaning and necessary assessed mandate revision/history govern real change. |
+| Existing A | Unallocated ordinary-addition illustration,not actual canonical members,proof no consumer impact or absolute preservation freeze. Actual need/authority/compatible meaning and necessary assessed mandate revision/history govern real change. |
+| Existing B | Unallocated ordinary-addition illustration,not actual canonical members,proof no consumer impact or absolute preservation freeze. Actual need/authority/compatible meaning and necessary assessed mandate revision/history govern real change. |
+| New C | Unallocated ordinary-addition illustration,not actual canonical members,proof no consumer impact or absolute preservation freeze. Actual need/authority/compatible meaning and necessary assessed mandate revision/history govern real change. |
+
+
 is generally preferable to changing the meaning of A or B.
 
 This is consistent with the Framework's incremental evolution and backward compatibility principles.
+
+**Current advisory context and sourced duties.**
+
+Existing A/B/New C are unallocated illustrative subjects. Compatible addition is preferred where it actually meets need;necessary assessed normative/foundational/role/interface/domain revision follows actual authority,need,alternatives,batch,honest compatibility/mappings/history,pinned continuity,authorized transition and later checks. No freeze or unqualified no-effects claim.
 
 ---
 
@@ -849,6 +1308,8 @@ This is consistent with the Framework's incremental evolution and backward compa
 Specialization should be introduced when it improves semantic precision.
 
 For example:
+
+**Received unnamed visual in §45 (span 23 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -860,7 +1321,20 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Generic semantic specialization under actual definition/context,not new primary Type or mandatory Class/complete accepted scheme.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Document | Generic documentary/semantic-specialization or endpoint example,not additional primary Type,allocated identity,mandatory Class or complete accepted hierarchy. Actual responsible definition/source edition/context and separately owned documentary/relationship/lifecycle dimensions govern. |
+| Specification | Generic semantic category/example of knowledge role in this exact span,not an additional primary Type,allocated Class,complete hierarchy or normative authority by title. Actual responsible definition/context/source edition and separate lifecycle/relationship dimensions apply. |
+| Architecture Specification | Generic documentary/semantic-specialization or endpoint example,not additional primary Type,allocated identity,mandatory Class or complete accepted hierarchy. Actual responsible definition/source edition/context and separately owned documentary/relationship/lifecycle dimensions govern. |
+
+
 may be appropriate if the specialized concept has an independently meaningful definition.
+
+**Current advisory context and sourced duties.**
+
+Document/Specification/Architecture Specification are generic semantic specialization examples,not new primary Type values,component allocation or a complete hierarchy. Actual separately defined scheme/context/authority and known role duties govern;optional Class remains defined and nonconflicting.
 
 ---
 
@@ -869,6 +1343,10 @@ may be appropriate if the specialized concept has an independently meaningful de
 Do not create specialized categories merely because they might be useful in the future.
 
 Classification should evolve in response to actual architectural requirements.
+
+**Current advisory context and sourced duties.**
+
+Advice against premature specialization creates no population maximum or automatic reject outcome. Actual supported architectural need/meaning/context/authority matters;unknown future need is not permission to allocate arbitrary roles/fields.
 
 ---
 
@@ -888,13 +1366,19 @@ Before approving an extension, consider its impact on:
 
 Classification Extensibility establishes controlled architectural review and impact analysis as part of extension evolution.
 
+**Current advisory context and sourced duties.**
+
+All nine impact subjects retain actual applicable source/definition/rule-set/assignment/consumer editions and interfaces. Concrete prior/new authority,need,alternatives,compatibility/history and authorized transition/checks precede actual propagation. Local advice review or an extension label proves no canonical approval/complete batch or unchanged consumer.
+
 ---
 
 # 48. Preserve Backward Compatibility
 
-Classification evolution should preserve existing interpretation whenever possible.
+Advice should preserve compatible interpretation where feasible and identify actual required historical interpretation and necessary assessed incompatibility under responsible contracts.
 
 Conceptually:
+
+**Received unnamed visual in §48 (span 24 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -908,13 +1392,28 @@ Conceptually:
 
 ```
 
+**Current recommended relation scope:** Intended compatible continuity and actual required historical interpretation,not original conformity,current permission/retrieval or prohibition of necessary assessed change.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Existing Classification | Selected intended compatibility/history concern,not observed original conformity,current use,live retrieval or absolute revision prohibition. Actual required interpretation and necessary assessed current incompatibility/source editions/pinned context remain separately evidenced. |
+| New Classification | Selected intended compatibility/history concern,not observed original conformity,current use,live retrieval or absolute revision prohibition. Actual required interpretation and necessary assessed current incompatibility/source editions/pinned context remain separately evidenced. |
+| Existing Meaning Preserved | Selected intended compatibility/history concern,not observed original conformity,current use,live retrieval or absolute revision prohibition. Actual required interpretation and necessary assessed current incompatibility/source editions/pinned context remain separately evidenced. |
+
+
 The Framework explicitly identifies backward compatibility as an architectural principle.
+
+**Current advisory context and sourced duties.**
+
+Existing Meaning Preserved is intended compatible continuity,not proof old conformity,current use or retrieval. Actual required historical meaning is mandatory under responsible sources;necessary current incompatibility needs honest assessed authority/history/transition,not simultaneous contradictory canonical mandates. Unchanged Metadata freeze/Profile restrictions remain actual pending differences.
 
 ---
 
 # 49. Deprecate Before Removing
 
 When a Classification Element is no longer appropriate, prefer:
+
+**Received unnamed visual in §49 (span 25 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -930,17 +1429,34 @@ When a Classification Element is no longer appropriate, prefer:
 
 ```
 
+**Current recommended relation scope:** Selected subject-specific deprecation path,not complete machine,performed transition or permission to delete required earlier meaning.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Active | Selected actual subject-specific state/use path,not complete universal transition machine or automatic retirement/deletion of related entities. Actual edition/authority/conditions/history and separate authorized effects matter,no grandfathering or permission from label. |
+| Deprecated | Selected actual subject-specific state/use path,not complete universal transition machine or automatic retirement/deletion of related entities. Actual edition/authority/conditions/history and separate authorized effects matter,no grandfathering or permission from label. |
+| Retired | Selected actual subject-specific state/use path,not complete universal transition machine or automatic retirement/deletion of related entities. Actual edition/authority/conditions/history and separate authorized effects matter,no grandfathering or permission from label. |
+
+
 rather than immediate deletion.
 
 This preserves historical interpretation and supports controlled evolution.
+
+**Current advisory context and sourced duties.**
+
+Active/Deprecated/Retired is a selected subject-specific state/use path,not a complete universal machine or automatic event/retirement of introduced entities. Actual lifecycle/current-use/history and separately authorized effects require identified subject/edition/authority/conditions;preference for deprecation is not permission to delete required meaning.
 
 ---
 
 # 50. Preserve Historical Meaning
 
-Historical documents should remain understandable even after Classification evolves.
+Guidance should preserve historical understandability;where actual responsible mandates require interpretation,that duty remains mandatory independently of this recommendation.
 
 A newer Classification should not silently change the meaning of historical Classification assignments.
+
+**Current advisory context and sourced duties.**
+
+Actual Constraints67/68/74/75/86.7 and Lifecycle/Extensibility required preservation retains earlier definitions/rules/sets/relationships/assignments/states/decisions/conditions/results/source editions and needed pinned context. Interpretation,original conformity,current use/compliance and retrieval differ. New rules are not backdated;later real evidence may justify traced earlier-contract reassessment with original observations retained,no blanket grandfathering.
 
 ---
 
@@ -958,11 +1474,15 @@ Traceability should allow maintainers to determine:
 
 Traceability is an explicit architectural principle of the Framework.
 
+**Current advisory context and sourced duties.**
+
+All five traceability questions remain recommended inquiry,not sufficient universal physical fields. Actual responsible evidence may need source/subject/rule/decision editions,authority/alternatives/conditions/fulfillment and separate effects. Preserve pending/failed/rejected history,not later success substituted into earlier events.
+
 ---
 
 # 52. Use Governance for Significant Changes
 
-Significant Classification changes should pass through the Classification Governance process.
+Advice should identify and follow actual responsible Governance requirements;informal significance does not exempt any change requiring approval,including actual canonical extensions.
 
 Examples include:
 
@@ -972,6 +1492,10 @@ Examples include:
 - changes to constraints;
 - semantic redefinition;
 - retirement of canonical concepts.
+
+**Current advisory context and sourced duties.**
+
+All six significant-change examples remain actual concerns,but significance is no exemption from a real canonical approval requirement. Current membership Family/actual defined schemes/relationships/rules and necessary assessed semantic revision apply;source-phase CONTINUAR authorizes working Draft correction,not actual canonical adoption or operational permission.
 
 ---
 
@@ -985,13 +1509,27 @@ A proposed Classification change should be validated against:
 - Lifecycle;
 - existing Classification.
 
-Validation verifies compliance with the Framework.
+Actual scoped validation compares identified applicable responsible rules and evidence;it does not establish complete Framework compliance from a recommendation,example or successful subset.
+
+**Current advisory context and sourced duties.**
+
+All five proposed-check areas remain selected concerns;actual responsible sources establish mandatory breadth.
+
+| Actual evaluation concern | Existing owner meaning | Advisory boundary |
+|---|---|---|
+| Applicable criterion observed satisfied | Actual rule/definition/set/source editions,scope/applicability,authority and evidence support that observation | Advice,example or checked subset alone proves no complete coverage or permission |
+| Applicable criterion observed violated | Actual supported noncompliance with an applicable responsible rule | Known real observations remain even when other checks are incomplete |
+| Required evidence / authority / applicability unknown,conflicting or unperformed | Record actual performed scope and unresolved limits;withhold unsupported broader success | No automatic NotApplicable,Satisfied,Violation,Invalid,new universal outcome or waiver from absence alone |
+| Aggregate Valid / Valid with Warnings / Invalid | Actual Validation16/39/67 three rule-dependent results and adequate support for asserted scope | No arbitrary severity or aggregate result from recommendation omission;subset/local PASS is no complete Core/implementation/global acceptance |
+| Comparison / recording / correction / decision / operation | Actual nonmutating comparison is separate from evidence recording and separately authorized changes/effects | Checking grants no approval,condition fulfillment,adoption/activation,permission,publication or exact Baseline |
+
+Actual independently applicable Schema/Constraints/Relationships/Lifecycle/Profile/Identity/Specification requirements retain their scope. This table recommends faithful reporting of actual duties;it creates no checker,result schema or new mandate.
 
 ---
 
 # 54. Keep Validation Deterministic
 
-The same Classification structure should produce the same validation result under the same rules.
+Equivalent identified subjects,rule/definition/set/source editions,applicability,authority,context,observations and mandatory coverage should support consistent results;equal labels alone are insufficient.
 
 This improves:
 
@@ -1001,13 +1539,31 @@ This improves:
 - debugging;
 - trust.
 
+**Current advisory context and sourced duties.**
+
+The five repeatability benefits remain goals,not measured deployed behavior.
+
+| Claimed equivalent evaluation | Actual support to consult | Limit |
+|---|---|---|
+| Same subject / input | Actual entity/definition/assignment/association/document exact edition,relevant bytes/population | Names/paths/stable IDs alone do not establish equal input |
+| Same rules / meaning | Actual source/definition/rule/set editions,scope/applicability,authority and actual precedence | Set/order labels or unresolved conflict do not supply complete authority |
+| Same related context | Actual relevant Schema/Profile/Lifecycle/representation/endpoint/provider state and observations | Context changes need reassessment;no universal stored tuple/fields allocated |
+| Same checked scope | Actual executor,performed/unperformed mandatory checks,observations and coverage | Equal no-error labels conceal no missing support;known violations remain |
+| Consistent output / replay | Actual criterion/finding/aggregate meaning and needed pinned evidence under responsible rules | Ordering supplies no priority and intended consistency is no installed evaluator or executed runtime/replay PASS |
+
+Actual Constraints50 and ExtensibilityV2R2 59 retain authority;this is informative guidance on evidence,not a new deterministic algorithm.
+
 ---
 
 # 55. Use Automation Carefully
 
 Automation should operate on the architectural Classification model rather than relying on accidental file characteristics.
 
-The Framework explicitly defines Automation as operating on architectural concepts rather than individual files.
+The Framework defines conceptual Automation capabilities;actual authorized implementations still need real file bytes/source editions,representations,inputs,observations and effects where relevant.
+
+**Current advisory context and sourced duties.**
+
+Actual common Automation capability and authorized DMS/CMS/tool/manual implementation differ. Actual file bytes/source-rule/input editions,descriptor/representation/Profile/reference/history evidence and observations still matter;architectural concepts do not make concrete artifacts irrelevant. Source presence installs no tool or operation.
 
 ---
 
@@ -1025,6 +1581,10 @@ It should not silently create or redefine canonical Classification semantics.
 
 Semantic decisions remain architectural decisions.
 
+**Current advisory context and sourced duties.**
+
+All five assistance capabilities remain possibilities. Generation/checking/reporting does not own canonical semantics,allocate concepts/fields,make actual Governance decisions,fulfill conditions or perform authorized migration/adoption. Separate capability/input/action/observation/effect evidence and actual owner duties remain.
+
 ---
 
 # 57. Keep Dictionary and Classification Aligned
@@ -1035,6 +1595,8 @@ When a Classification Element changes, determine whether the Dictionary requires
 
 Avoid situations where:
 
+**Received unnamed visual in §57 (span 26 in original order).** Exact received wording is retained as qualified evidence and illustration.
+
 ```text
 
             Classification
@@ -1043,6 +1605,18 @@ Avoid situations where:
 
 ```
 
+**Current recommended relation scope:** Illustrative domain/Dictionary mismatch concern,not measured actual failure or authority transfer;actual definitions/editions apply.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Classification | Actual domain semantic category/value/definition/assignment/relationship/constraint meaning or selected classification dimension,not owner of every common record/representation/documentary process. Actual source/edition/scope and independent owners remain,no allocation or installed system. |
+| ≠ | Illustrative domain/terminology consistency concern and actual responsible definition/source-edition consultation role. Not measured current failure,complete accepted vocabulary or semantic owner transfer from symbol/name;required actual incorporation/conditions retain scope. |
+| Dictionary | Illustrative domain/terminology consistency concern and actual responsible definition/source-edition consultation role. Not measured current failure,complete accepted vocabulary or semantic owner transfer from symbol/name;required actual incorporation/conditions retain scope. |
+
+**Current advisory context and sourced duties.**
+
+Classification≠Dictionary is an illustrative mismatch concern,not a measured actual failure or authority transfer. Actual term/definition/source edition and domain meaning should be traced;Dictionary incorporation where required and decision/conditions/effective adoption remain independently governed.
+
 ---
 
 # 58. Keep Specification and Classification Aligned
@@ -1050,6 +1624,10 @@ Avoid situations where:
 The Classification Specification should describe the normative Classification architecture.
 
 An approved Classification change should therefore be evaluated for its effect on the Specification.
+
+**Current advisory context and sourced duties.**
+
+Actual responsible approved change/source edition,fulfilled conditions/effective adoption and Specification normative integration retain scope. Evaluating documentation effects is not performed propagation or complete supplied precedence/catalog;Type/title alone assigns no authority.
 
 ---
 
@@ -1066,6 +1644,10 @@ Examples should demonstrate:
 
 Examples should not become an alternative source of normative definitions.
 
+**Current advisory context and sourced duties.**
+
+All six example concerns remain illustrative aids,not actual observed validity,complete population or normative definitions. Actual rule/subject/source editions/applicability/authority/coverage determine a claim;examples perform no assignment,transition,approval,migration or full conformance test.
+
 ---
 
 # 60. Distinguish Examples from Rules
@@ -1075,6 +1657,8 @@ A document example illustrates a rule.
 It does not redefine the rule.
 
 Therefore:
+
+**Received unnamed visual in §60 (span 27 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -1087,6 +1671,19 @@ Therefore:
             └── demonstrate requirement
 
 ```
+
+**Current recommended relation scope:** Requirement versus example role illustration;actual declarations/source incorporation govern,not titles alone or this informative guide.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Specification | Actual scoped normative integration/consultation role where its declaration applies,not authority by title or complete accepted catalog. In semantic examples this label is a generic knowledge category,not a fifth primary Type or allocated Class. |
+| defines requirement | Selected requirement-versus-illustration consultation role. Actual source declaration/incorporation/edition/scope determines normative authority;examples demonstrate limited use,not independent definitions,performed validation or full conformance/approval. |
+| Examples | Selected requirement-versus-illustration consultation role. Actual source declaration/incorporation/edition/scope determines normative authority;examples demonstrate limited use,not independent definitions,performed validation or full conformance/approval. |
+| demonstrate requirement | Selected requirement-versus-illustration consultation role. Actual source declaration/incorporation/edition/scope determines normative authority;examples demonstrate limited use,not independent definitions,performed validation or full conformance/approval. |
+
+**Current advisory context and sourced duties.**
+
+Specification/Examples roles illustrate requirement versus demonstration,not authority by label. Actual explicit source declaration/incorporation and edition/scope determine normative force;this guide and examples add no independent rules and waive no known owner requirement.
 
 ---
 
@@ -1102,6 +1699,10 @@ Classification should be periodically reviewed for:
 - relationship inconsistencies.
 
 Review supports long-term maintainability.
+
+**Current advisory context and sourced duties.**
+
+All six periodic-review subjects remain advice,not an invented review interval,actor,threshold or performed check. Unused/retired/lookup-unavailable does not alone establish invalidity or deletion permission;actual source/context/authority and required history apply.
 
 ---
 
@@ -1119,6 +1720,10 @@ Rapid growth in the number of categories may indicate:
 
 Growth should therefore be evaluated semantically rather than numerically alone.
 
+**Current advisory context and sourced duties.**
+
+All five growth concerns remain possible heuristics,not proven defects,numeric thresholds,severity/outcome enums or canonical permission. Actual semantic need and responsible context/evidence matter;necessary controlled revision remains possible without architectural stagnation.
+
 ---
 
 # 63. Avoid Classification Inflation
@@ -1126,6 +1731,8 @@ Growth should therefore be evaluated semantically rather than numerically alone.
 Classification inflation occurs when increasingly small distinctions become independent canonical categories.
 
 For example:
+
+**Received unnamed visual in §63 (span 28 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -1138,7 +1745,23 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Unallocated inflation labels distinguish semantic category from version/lifecycle/tool concerns,no numbering algorithm or actual violation.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Document | Generic documentary/semantic-specialization or endpoint example,not additional primary Type,allocated identity,mandatory Class or complete accepted hierarchy. Actual responsible definition/source edition/context and separately owned documentary/relationship/lifecycle dimensions govern. |
+| TypeA | Unallocated inflation anti-pattern labels,not primary Type values,identity allocations,approved successor chain or document Version/Revision algorithm. Actual semantic distinction/authority and separate edition/lifecycle/tool concerns require evidence. |
+| TypeA-1 | Unallocated inflation anti-pattern labels,not primary Type values,identity allocations,approved successor chain or document Version/Revision algorithm. Actual semantic distinction/authority and separate edition/lifecycle/tool concerns require evidence. |
+| TypeA-1a | Unallocated inflation anti-pattern labels,not primary Type values,identity allocations,approved successor chain or document Version/Revision algorithm. Actual semantic distinction/authority and separate edition/lifecycle/tool concerns require evidence. |
+| TypeA-1a-v2 | Unallocated inflation anti-pattern labels,not primary Type values,identity allocations,approved successor chain or document Version/Revision algorithm. Actual semantic distinction/authority and separate edition/lifecycle/tool concerns require evidence. |
+| TypeA-1a-v2-final | Unallocated inflation anti-pattern labels,not primary Type values,identity allocations,approved successor chain or document Version/Revision algorithm. Actual semantic distinction/authority and separate edition/lifecycle/tool concerns require evidence. |
+
+
 Such structures often represent lifecycle, versioning or implementation concerns rather than genuine semantic Classification.
+
+**Current advisory context and sourced duties.**
+
+TypeA/TypeA-1/...-v2-final are unallocated anti-pattern labels,not primary Types,documentary Version/Revision algorithm or current accepted taxonomy. Actual identity/edition/lifecycle/tool dimensions should be distinguished;names alone prove no semantic duplicate or automatic violation.
 
 ---
 
@@ -1150,6 +1773,10 @@ Where the Framework requires independent dimensions, those dimensions should be 
 
 Classification should remain coherent and governed.
 
+**Current advisory context and sourced duties.**
+
+Separate explicitly defined dimensions and optional Class do not authorize arbitrary tags or an unowned universal field catalog. Advice against unrestricted labels creates no new mandatory category/count;real known owner rules remain with genuine general gaps.
+
 ---
 
 # 65. Prefer Explicit Dimensions
@@ -1157,6 +1784,8 @@ Classification should remain coherent and governed.
 If different semantic dimensions are required, do not force them into a single hierarchy.
 
 For example:
+
+**Received unnamed visual in §65 (span 29 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -1175,7 +1804,25 @@ For example:
 
 ```
 
+**Current recommended relation scope:** Independent semantic assignment,state/decision and typed relationship dimensions,not universal fields,all-document endpoints,automatic approval or executed connection.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Document | Generic documentary/semantic-specialization or endpoint example,not additional primary Type,allocated identity,mandatory Class or complete accepted hierarchy. Actual responsible definition/source edition/context and separately owned documentary/relationship/lifecycle dimensions govern. |
+| Classification | Actual domain semantic category/value/definition/assignment/relationship/constraint meaning or selected classification dimension,not owner of every common record/representation/documentary process. Actual source/edition/scope and independent owners remain,no allocation or installed system. |
+| Specification | Generic semantic category/example of knowledge role in this exact span,not an additional primary Type,allocated Class,complete hierarchy or normative authority by title. Actual responsible definition/context/source edition and separate lifecycle/relationship dimensions apply. |
+| Lifecycle | Actual subject-specific state/use/transition/history role or illustrative independent dimension under actual owner context. Classification Element/definition/assignment,document Workflow,extension/proposal/decision,term/R/result/finding/Milestone states differ;no universal machine/aliases or performed event. |
+| Approved | Generic category/state example to distinguish semantic assignment from actual subject-specific lifecycle/decision. Not new primary Type/Class allocation or universal enum/alias. Actual authority/edition/conditions/fulfillment/effects determine use;Approved alone is no adoption,activation,publication or Baseline. |
+| Relationship | Illustrative independently typed relation-kind/endpoint concern,not allocated association,universal physical tuple or all-document endpoints. Actual semantics/source editions/allowed properties/context and common records/projections/providers differ,no performed connection. |
+| Implements | Illustrative independently typed relation-kind/endpoint concern,not allocated association,universal physical tuple or all-document endpoints. Actual semantics/source editions/allowed properties/context and common records/projections/providers differ,no performed connection. |
+| Architecture | Generic typed relation endpoint/knowledge subject in this exact illustration,not automatically a DF document,key,component/provider dependency or new primary Type. Actual kind/endpoints/definitions/source editions and authority/context apply. |
+
+
 Each mechanism expresses a different architectural dimension.
+
+**Current advisory context and sourced duties.**
+
+Document/Specification/Approved/Implements/Architecture are illustrative typed concerns. Classification assignment,Element definition state,document Workflow,extension/proposal/decision/activation and actual relationship endpoints/kind differ;not all endpoints are DF documents and Approved is no universal state/fulfilled condition. No field/key/relationship allocation occurs.
 
 ---
 
@@ -1184,6 +1831,10 @@ Each mechanism expresses a different architectural dimension.
 Classification interacts with other components but should not absorb their responsibilities.
 
 The Framework architecture explicitly defines components as having distinct responsibilities and interacting through explicit architectural relationships.
+
+**Current advisory context and sourced duties.**
+
+Actual domain/common process/typed records/projections/Metadata broad effective-Profile/Identity K-R-exact edition/capability/authorized executor boundaries remain. Necessary assessed owner/interface revision requires real authority/need,batch,compatibility/history;advice permits no arbitrary takeover or complete merged schema.
 
 ---
 
@@ -1197,6 +1848,10 @@ Useful Classification should help answer:
 - What documents serve this role?
 - What documents represent this kind of knowledge?
 
+**Current advisory context and sourced duties.**
+
+All three discovery questions remain user-facing inquiry,not actual query results,population counts,complete lookup guarantees or allocated indexes/fields. Actual authoritative source/definition/assignment editions and current/historical/snapshot/freshness matter.
+
 ---
 
 # 68. Consider Navigation Requirements
@@ -1205,6 +1860,10 @@ Classification should make navigation meaningful.
 
 Users should be able to move from a general Classification context toward more specific contexts without encountering arbitrary or unexplained branches.
 
+**Current advisory context and sourced duties.**
+
+Navigation advice applies to actual defined contexts/relations,not compulsory universal role hierarchy or complete accepted categories. Meaningful scheme refinement needs actual owner definitions;known roles and general counts/gaps retain scope.
+
 ---
 
 # 69. Consider Governance Requirements
@@ -1212,6 +1871,10 @@ Users should be able to move from a general Classification context toward more s
 Classification should provide sufficient semantic distinction to support governance where necessary.
 
 However, Governance state itself should not automatically become Classification.
+
+**Current advisory context and sourced duties.**
+
+Actual domain decision and actual subject state/use/authority/conditions/effects differ from classification assignment. Governance labels are not automatic Class/Type values,universal transition states or permission. Advice significance creates no required-approval exemption.
 
 ---
 
@@ -1223,6 +1886,10 @@ The Knowledge Graph supports navigation, dependency analysis, impact analysis an
 
 Classification should therefore avoid structures that obscure semantic relationships.
 
+**Current advisory context and sourced duties.**
+
+Actual Knowledge Graph capability/projection uses responsible source/endpoint/record editions,current/historical/snapshot/freshness and evidence. Domain semantic relations,inverse/navigation/projection and indispensable consumer→provider graph differ. No complete DAG/runtime,owner takeover or renamed-away real cycle.
+
 ---
 
 # 71. Prefer Explicit Semantics for Graph Integration
@@ -1230,6 +1897,10 @@ Classification should therefore avoid structures that obscure semantic relations
 When Classification relationships are intended to participate in semantic discovery, their meanings should be explicit.
 
 Ambiguous relationships reduce the quality of the resulting knowledge graph.
+
+**Current advisory context and sourced duties.**
+
+Actual responsible kind/definition/endpoints,properties/cardinality/source editions and observations substantiate graph meaning;clear labels alone are no complete registry or created relation. Source93 consultation order supplies no rule/edge priority.
 
 ---
 
@@ -1246,6 +1917,10 @@ It should not require knowledge of a specific:
 
 This follows the Framework's layered and technology-independent architecture.
 
+**Current advisory context and sourced duties.**
+
+All four implementation-specific knowledge examples remain unnecessary for conceptual understanding;actual indispensable providers,descriptor/Profile/physical/reference/access/retrieval/history and authorized executor requirements still apply. Independence is no no-dependency or no-effects guarantee.
+
 ---
 
 # 73. Use Modular Classification Design
@@ -1253,6 +1928,10 @@ This follows the Framework's layered and technology-independent architecture.
 Classification should be organized so that coherent areas can evolve without requiring unrelated changes elsewhere.
 
 Modularity is an explicit architectural principle of the Framework.
+
+**Current advisory context and sourced duties.**
+
+Modularity recommends avoiding unrelated changes while actual affected owners/consumers/interfaces are traced honestly. Necessary assessed cross-source mandate revision needs actual authority/batch/history/transition/checks;local labels neither exempt rollout nor prove integrated consistency.
 
 ---
 
@@ -1262,6 +1941,10 @@ A Classification Element should depend only on concepts necessary to express its
 
 Unnecessary dependencies increase the cost of evolution.
 
+**Current advisory context and sourced duties.**
+
+Minimize unnecessary coupling without deleting real indispensable Classification→Metadata/Identity,conditional Templates or supplied Metadata↔Identity reciprocal descriptor/provider/core/source-edition/interface/cycle duties. Semantic/navigation/projection labels erase no actual required edge/cycle.
+
 ---
 
 # 75. Preserve Cohesion
@@ -1269,6 +1952,10 @@ Unnecessary dependencies increase the cost of evolution.
 Related Classification concepts should remain conceptually coherent.
 
 Unrelated concepts should not be grouped simply to reduce the number of categories.
+
+**Current advisory context and sourced duties.**
+
+Cohesion remains a qualitative recommendation,not a numeric category bound or prohibition on actual necessary assessed domain/role/interface revision. Actual context/authority,need,compatible use/history and independent owners remain.
 
 ---
 
@@ -1280,6 +1967,10 @@ Avoid relying on conventions that are known only by maintainers.
 
 The Framework explicitly requires architecture to be defined and documented rather than relying on implicit conventions.
 
+**Current advisory context and sourced duties.**
+
+Explicit decisions/architecture are recommended;actual mandatory rationale/traceability and conditions follow responsible sources. Maintainer convention alone grants no authority or permission,while this guide creates no universal actor/delegation/record schema.
+
 ---
 
 # 77. Use a Single Authoritative Definition
@@ -1289,6 +1980,10 @@ A Classification concept should have one authoritative definition.
 Other documents should reference that definition rather than reproducing competing definitions.
 
 This directly follows the Single Source of Truth principle.
+
+**Current advisory context and sourced duties.**
+
+One authoritative definition and references retain actual source/definition editions,scope,authority and historical targets. Copies or readable labels do not necessarily duplicate semantic ownership;no automatic alias merge,rekey or retargeted pinned approval.
 
 ---
 
@@ -1306,6 +2001,10 @@ When a Classification Element changes, review:
 
 This avoids partial architectural evolution.
 
+**Current advisory context and sourced duties.**
+
+All seven supporting-document subjects remain content/reference concerns;README remains non-normalized. Actual source/owner/consumer/reference batch,prior/new authority/interfaces/compatibility/history and later checks precede substantive propagation. Reviewing this list is not completed coordinated rollout,consumer successor or reopened peer cycle.
+
 ---
 
 # 79. Review Before Baseline
@@ -1313,6 +2012,10 @@ This avoids partial architectural evolution.
 Classification changes should be reviewed before becoming part of an architectural Baseline.
 
 A Baseline represents an immutable snapshot and preserves architectural history.
+
+**Current advisory context and sourced duties.**
+
+Actual required review/approval and fulfilled conditions differ from exact Baseline selection. Identify real documentary/definition/rule editions and actual membership evidence;source presence or review recommendation selects no immutable snapshot or inherited successor approval.
 
 ---
 
@@ -1322,11 +2025,17 @@ Changes made after a Baseline should not retroactively alter the meaning of the 
 
 Historical Classification should remain interpretable in the context in which the Baseline was created.
 
+**Current advisory context and sourced duties.**
+
+Actual pinned Baseline/source/definition/rule/assignment/decision/result editions/bytes/context remain interpretable where required. Current change does not backdate meaning;historical interpretation is not automatic old conformity,current use or live retrieval. Real later evidence may support traced earlier-contract reassessment without erasing observations.
+
 ---
 
 # 81. Recommended Classification Design Workflow
 
 A practical workflow is:
+
+**Received unnamed visual in §81 (span 30 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -1374,6 +2083,28 @@ A practical workflow is:
 
 ```
 
+**Current recommended relation scope:** Recommended inquiry/assessment sequence,not full workflow or Governance→sufficient canonicality;actual conditions/fulfillment/adoption/activation/publication/Baseline remain separate.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Requirement | Selected recommended need/concept/definition/subject/use concern requiring actual semantic identity,source edition,context and responsible authority/state/use evidence for real claims. Not allocated DF identity/fields,canonical approval or performed assignment from sequence. |
+| Semantic Analysis | Selected recommended assessment/actual validation concern. Identify actual subject/source-rule-definition-set editions,scope/applicability/authority/observations/checked coverage;nonmutating comparison is no correction,permission or full implementation PASS. Structural Placement is not a performed file move. |
+| Existing Concept Review | Selected reuse/definition inquiry or branch. Actual definition/edition/context/equivalence/authority evidence is needed;names or unknown lookup alone prove no duplicate,new allocation,actual decision/permission or completed evaluation. |
+| Existing | Selected reuse/definition inquiry or branch. Actual definition/edition/context/equivalence/authority evidence is needed;names or unknown lookup alone prove no duplicate,new allocation,actual decision/permission or completed evaluation. |
+| Reuse | Selected reuse/definition inquiry or branch. Actual definition/edition/context/equivalence/authority evidence is needed;names or unknown lookup alone prove no duplicate,new allocation,actual decision/permission or completed evaluation. |
+| New | Selected reuse/definition inquiry or branch. Actual definition/edition/context/equivalence/authority evidence is needed;names or unknown lookup alone prove no duplicate,new allocation,actual decision/permission or completed evaluation. |
+| Definition | Selected recommended need/concept/definition/subject/use concern requiring actual semantic identity,source edition,context and responsible authority/state/use evidence for real claims. Not allocated DF identity/fields,canonical approval or performed assignment from sequence. |
+| Structural Placement | Selected recommended assessment/actual validation concern. Identify actual subject/source-rule-definition-set editions,scope/applicability/authority/observations/checked coverage;nonmutating comparison is no correction,permission or full implementation PASS. Structural Placement is not a performed file move. |
+| Relationship Analysis | Selected recommended assessment/actual validation concern. Identify actual subject/source-rule-definition-set editions,scope/applicability/authority/observations/checked coverage;nonmutating comparison is no correction,permission or full implementation PASS. Structural Placement is not a performed file move. |
+| Constraint Analysis | Selected recommended assessment/actual validation concern. Identify actual subject/source-rule-definition-set editions,scope/applicability/authority/observations/checked coverage;nonmutating comparison is no correction,permission or full implementation PASS. Structural Placement is not a performed file move. |
+| Validation | Selected recommended assessment/actual validation concern. Identify actual subject/source-rule-definition-set editions,scope/applicability/authority/observations/checked coverage;nonmutating comparison is no correction,permission or full implementation PASS. Structural Placement is not a performed file move. |
+| Governance | Actual necessary scoped decision/fulfilled conditions/effective adoption concern,not sufficient approval or observed canonical integration. Actual subject/edition/authority/criteria/evidence/rationale/conditions and separate activation/publication/Baseline matter;working phase is no canonical permission. |
+| Canonical Classification | Actual necessary scoped decision/fulfilled conditions/effective adoption concern,not sufficient approval or observed canonical integration. Actual subject/edition/authority/criteria/evidence/rationale/conditions and separate activation/publication/Baseline matter;working phase is no canonical permission. |
+
+**Current advisory context and sourced duties.**
+
+The selected design sequence is recommended consultation/assessment,not a complete workflow/actor schema or Governance→automatic canonicality. Actual approval,conditions/fulfillment,effective adoption/activation and separate publication/Baseline retain real Extensibility33/35/37/39/50/51 authority. Structural Placement means actual scheme/source responsibility context,not a performed file move.
+
 ---
 
 # 82. Recommended Review Questions
@@ -1387,7 +2118,7 @@ Before approving a Classification change, ask:
 5. Are the relationships explicit?
 6. Are the cardinalities appropriate?
 7. Does the change respect constraints?
-8. Does it preserve existing meaning?
+8. Does ordinary change preserve applicable meaning,and is any necessary explicit revision assessed under actual authority?
 9. Does it affect lifecycle?
 10. Does it affect validation?
 11. Does it affect governance?
@@ -1396,47 +2127,109 @@ Before approving a Classification change, ask:
 14. Does it preserve historical interpretation?
 15. Is the extension necessary?
 
+**Current advisory context and sourced duties.**
+
+All fifteen questions retain original order/subjects with current role/necessary-revision meaning. They are prompts,not executed criteria/results or complete mandatory coverage;answering yes grants no priority,approval or operation. Actual rule/source/context/authority/evidence and unresolved limits remain.
+
 ---
 
 # 83. Common Anti-Patterns
 
 The following patterns should generally be avoided.
 
+**Current advisory context and sourced duties.**
+
+All nine anti-patterns remain generally avoidable illustrative concerns,not universally forbidden values or new constraint violations. Real storage/lifecycle/ownership as semantic subject exceptions,actual source authority and advisory evidence scope apply.
+
+---
+
 ## 83.1. Classification by Folder
 
 Using directory structure as the semantic Classification.
+
+**Current advisory context and sourced duties.**
+
+A folder alone does not assign semantic meaning;actual responsibility-based physical placement remains independently mandatory,not waived. Known Elements/Constraints ARC007 placement remains unmet/M13.
+
+---
 
 ## 83.2. Classification by File Type
 
 Using file extension as Classification.
 
+**Current advisory context and sourced duties.**
+
+File extension alone is no classification meaning;actual equivalent content/subject and representation/Profile/reference/history duties still apply.
+
+---
+
 ## 83.3. Classification by Lifecycle
 
 Using lifecycle states as Classification categories.
+
+**Current advisory context and sourced duties.**
+
+Avoiding lifecycle-as-category does not erase actual domain Classification Element/definition/assignment state/use/history or document/extension/term/R distinctions.
+
+---
 
 ## 83.4. Classification by Ownership
 
 Using team or author ownership as the primary Classification.
 
+**Current advisory context and sourced duties.**
+
+Team/author ownership differs from actual canonical component/admitted-area membership Family;advice creates no actor/permission scheme or new component.
+
+---
+
 ## 83.5. Classification Duplication
 
 Creating multiple elements for the same concept.
+
+**Current advisory context and sourced duties.**
+
+Actual duplicate meaning needs definition/source/context/authority evidence;names,copies or projection records alone prove no competing semantic identity.
+
+---
 
 ## 83.6. Classification Inflation
 
 Creating excessive categories for minor distinctions.
 
+**Current advisory context and sourced duties.**
+
+Minor distinctions are heuristic concern,not an invented maximum category count,automatic rejection or complete accepted population.
+
+---
+
 ## 83.7. Implicit Relationships
 
 Encoding relationships only through naming or physical organization.
+
+**Current advisory context and sourced duties.**
+
+Actual explicit semantic kind/endpoints/meaning and separately owned records/representation differ;advice creates no universal tuple fields or actual relationship.
+
+---
 
 ## 83.8. Tool-Driven Classification
 
 Allowing implementation limitations to define semantic categories.
 
+**Current advisory context and sourced duties.**
+
+Tool limits alone do not define domain semantics;real actual descriptor/Profile/physical/interface constraints remain with authorized implementation evidence.
+
+---
+
 ## 83.9. Silent Redefinition
 
 Changing the meaning of an existing Classification Element without governance.
+
+**Current advisory context and sourced duties.**
+
+No silent redefinition is an actual sourced duty. Necessary explicit assessed revision requires prior/new authority,need,batch,compatibility/history,authorized transition/checks,not freeze or arbitrary mutation.
 
 ---
 
@@ -1455,6 +2248,10 @@ A healthy Classification architecture should exhibit:
 - traceable evolution;
 - clear governance.
 
+**Current advisory context and sourced duties.**
+
+All ten quality indicators remain qualitative recommendations,not observed system health or universal metric/severity/outcome enum. Predictable validation needs actual rule/authority/context/evidence/coverage;source presence proves no implemented evaluator.
+
 ---
 
 # 85. Classification Smell Indicators
@@ -1472,6 +2269,10 @@ The following may indicate Classification degradation:
 - frequent exceptions to constraints;
 - undocumented Classification decisions.
 
+**Current advisory context and sourced duties.**
+
+All ten smell indicators are possible symptoms,not automatic violations. Actual independent normative rule/applicability/observations govern any real violation;exceptions require actual mandate/conditions,not an advisory blanket waiver or new priority.
+
 ---
 
 # 86. Maintenance Practices
@@ -1487,6 +2288,10 @@ Classification maintainers should periodically:
 - update Dictionary references;
 - update Specification references;
 - review examples.
+
+**Current advisory context and sourced duties.**
+
+All nine maintenance subjects remain advice,not completed reviews,automatic updates or invented frequency/actors. Actual changed source/consumer editions,authority,compatibility/history and later evidence are separately traced;required history remains after retirement.
 
 ---
 
@@ -1504,6 +2309,10 @@ Classification changes should be:
 
 Avoid making architectural Classification changes as incidental edits to unrelated documentation.
 
+**Current advisory context and sourced duties.**
+
+All seven change-management qualities remain recommended with actual sourced mandatory duties independently retained. Working correction/user authorization is not authored contribution by itself or canonical approval;actual contributor/event/history and exact-edition evidence remain.
+
 ---
 
 # 88. Extension Practices
@@ -1518,10 +2327,14 @@ When extending Classification:
 6. Evaluate relationship impact.
 7. Evaluate constraint impact.
 8. Evaluate validation impact.
-9. Preserve compatibility.
-10. Obtain governance approval.
+9. Preserve compatibility where feasible and assess/govern necessary incompatibility under actual responsible contracts.
+10. Identify actual required approval,conditions/fulfillment and separate effective adoption/activation evidence.
 
 These practices complement the formal extension architecture defined by DF-CLS-011.
+
+**Current advisory context and sourced duties.**
+
+All ten extension recommendations remain prompts under actual ExtensibilityV2R2. Prefer ordinary compatible additions where adequate,but necessary assessed normative/foundational/role/interface/domain revision is possible with real authority/batch/history/transition. Actual approval/fulfilled conditions/effective adoption/activation differ from source-phase instruction. No automatic fifth Type or optional Class child.
 
 ---
 
@@ -1538,6 +2351,10 @@ When deprecating a Classification Element:
 7. Update examples.
 8. Ensure validation handles the deprecated state correctly.
 
+**Current advisory context and sourced duties.**
+
+All eight deprecation subjects remain recommended steps where applicable,not an executed migration or universal compulsory physical workflow. Identify actual Element/definition/assignment/source editions/state/use/authority/conditions and needed required history;replacement/equivalence/current permission/original validity/retrieval differ. No automatic consumer successor.
+
 ---
 
 # 90. Retirement Practices
@@ -1553,11 +2370,17 @@ When retiring a Classification Element:
 7. Update validation.
 8. Update Dictionary and Specification where required.
 
+**Current advisory context and sourced duties.**
+
+All eight retirement subjects retain actual authority/effective scope/conditions and separately authorized effects. Retired current use is not all-context deletion or automatic retirement of relations/assignments/documents;required earlier meaning/context survives under actual owners,approval alone permits no erasure.
+
 ---
 
 # 91. Documentation Practices
 
 Classification documentation should distinguish clearly between:
+
+**Received unnamed visual in §91 (span 31 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -1579,13 +2402,33 @@ Classification documentation should distinguish clearly between:
 
 ```
 
+**Current recommended relation scope:** Consultation role separation,not authority by title/Type,new requirements or completed implementation.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Architecture | Actual source/consultation role where declared,or illustrative semantic/relationship endpoint in§65. Not authority by label,allocated component,extra primary Type or proven normative dependency/approval;actual source/subject/edition/context governs. |
+| what Classification is | Selected source-role explanation,not normative force by title. Actual explicit declaration/incorporation and responsible edition/scope/authority determine requirements;this guide remains informative. |
+| Specification | Actual scoped normative integration/consultation role where its declaration applies,not authority by title or complete accepted catalog. In semantic examples this label is a generic knowledge category,not a fifth primary Type or allocated Class. |
+| what Classification requires | Selected source-role explanation,not normative force by title. Actual explicit declaration/incorporation and responsible edition/scope/authority determine requirements;this guide remains informative. |
+| Best Practices | Explicitly informative recommendation/consultation role. Advice creates no independent requirement or violation from omission;actual sourced mandates retain their own authority. Not approval,permission or full implementation evidence. |
+| how Classification should preferably be applied | Explicitly informative recommendation/consultation role. Advice creates no independent requirement or violation from omission;actual sourced mandates retain their own authority. Not approval,permission or full implementation evidence. |
+| Examples | Selected requirement-versus-illustration consultation role. Actual source declaration/incorporation/edition/scope determines normative authority;examples demonstrate limited use,not independent definitions,performed validation or full conformance/approval. |
+| how Classification may be used | Selected requirement-versus-illustration consultation role. Actual source declaration/incorporation/edition/scope determines normative authority;examples demonstrate limited use,not independent definitions,performed validation or full conformance/approval. |
+
+
 This preserves the role of each document in the Classification documentation sequence.
+
+**Current advisory context and sourced duties.**
+
+Architecture/Specification/Best Practices/Examples are consultation roles,not authority by title,Type or diagram. Actual declarations/source incorporation/edition/scope govern;this guide remains informative and examples illustrate rather than establish requirements or full implementation evidence.
 
 ---
 
 # 92. Recommended Separation of Concerns
 
 The Classification component should maintain the following separation:
+
+**Received unnamed visual in §92 (span 32 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -1645,13 +2488,39 @@ The Classification component should maintain the following separation:
 
 ```
 
+**Current recommended relation scope:** Documentary concern sequence,not normative priority,allocated components,complete actual provider DAG or runtime order.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Concepts | Documentary subject/consultation role in a recommended source sequence,not newly allocated components,complete runtime/provider DAG or precedence. Actual definitions/subject editions/owner duties and real interface/provider/cycle limits remain. |
+| Model | Documentary subject/consultation role in a recommended source sequence,not newly allocated components,complete runtime/provider DAG or precedence. Actual definitions/subject editions/owner duties and real interface/provider/cycle limits remain. |
+| Elements | Documentary subject/consultation role in a recommended source sequence,not newly allocated components,complete runtime/provider DAG or precedence. Actual definitions/subject editions/owner duties and real interface/provider/cycle limits remain. |
+| Schema | Actual structural source/role and responsible known obligations/general multiplicity-field-population gaps. Not authority by name,universal fields/role tree or complete representation conformity from citation. |
+| Lifecycle | Actual subject-specific state/use/transition/history role or illustrative independent dimension under actual owner context. Classification Element/definition/assignment,document Workflow,extension/proposal/decision,term/R/result/finding/Milestone states differ;no universal machine/aliases or performed event. |
+| Validation | Selected recommended assessment/actual validation concern. Identify actual subject/source-rule-definition-set editions,scope/applicability/authority/observations/checked coverage;nonmutating comparison is no correction,permission or full implementation PASS. Structural Placement is not a performed file move. |
+| Governance | Actual necessary scoped decision/fulfilled conditions/effective adoption concern,not sufficient approval or observed canonical integration. Actual subject/edition/authority/criteria/evidence/rationale/conditions and separate activation/publication/Baseline matter;working phase is no canonical permission. |
+| Relationships | Documentary subject/consultation role in a recommended source sequence,not newly allocated components,complete runtime/provider DAG or precedence. Actual definitions/subject editions/owner duties and real interface/provider/cycle limits remain. |
+| Constraints | Actual applicable owner requirement/definition/rule/set/source editions,scope,applicability,authority,precedence and evidence. Known duties remain with genuine gaps;this guide creates no new rule,complete catalog,priority,waiver or implemented result. |
+| Extensibility | Documentary subject/consultation role in a recommended source sequence,not newly allocated components,complete runtime/provider DAG or precedence. Actual definitions/subject editions/owner duties and real interface/provider/cycle limits remain. |
+| Best Practices | Explicitly informative recommendation/consultation role. Advice creates no independent requirement or violation from omission;actual sourced mandates retain their own authority. Not approval,permission or full implementation evidence. |
+| Dictionary | Illustrative domain/terminology consistency concern and actual responsible definition/source-edition consultation role. Not measured current failure,complete accepted vocabulary or semantic owner transfer from symbol/name;required actual incorporation/conditions retain scope. |
+| Specification | Actual scoped normative integration/consultation role where its declaration applies,not authority by title or complete accepted catalog. In semantic examples this label is a generic knowledge category,not a fifth primary Type or allocated Class. |
+| Examples | Selected requirement-versus-illustration consultation role. Actual source declaration/incorporation/edition/scope determines normative authority;examples demonstrate limited use,not independent definitions,performed validation or full conformance/approval. |
+
+
 Each document addresses a different architectural concern rather than repeating the same material.
+
+**Current advisory context and sourced duties.**
+
+Concepts→...→Examples is documentary subject organization,not runtime execution order,new components,complete mandatory dependency graph or normative precedence. Actual providers/source editions/owners and real reciprocal cycles remain pending responsible interface work;no completed integration is implied.
 
 ---
 
 # 93. Recommended Decision Hierarchy
 
-When making a Classification decision, use the following order:
+The received sequence below is at most recommended consultation order,not normative conflict precedence or an authority assigned by document role:
+
+**Received unnamed visual in §93 (span 33 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -1683,7 +2552,34 @@ When making a Classification decision, use the following order:
 
 ```
 
+**Current recommended relation scope:** Recommended consultation order only;actual source/edition/scope/authority/precedence/Governance duties and unresolved gaps remain,no invented priority.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Architectural Principles | Actual responsible source/role to consult for identified editions,scope,authority and applicable clauses;title/Type/directory or reading order alone creates no normative priority,completed implementation or canonical acceptance. Best Practices does not add or waive its real requirements. |
+| Classification Architecture | Actual responsible source/role to consult for identified editions,scope,authority and applicable clauses;title/Type/directory or reading order alone creates no normative priority,completed implementation or canonical acceptance. Best Practices does not add or waive its real requirements. |
+| Classification Model | Actual responsible source/role to consult for identified editions,scope,authority and applicable clauses;title/Type/directory or reading order alone creates no normative priority,completed implementation or canonical acceptance. Best Practices does not add or waive its real requirements. |
+| Classification Schema | Actual responsible source/role to consult for identified editions,scope,authority and applicable clauses;title/Type/directory or reading order alone creates no normative priority,completed implementation or canonical acceptance. Best Practices does not add or waive its real requirements. |
+| Classification Constraints | Actual responsible source/role to consult for identified editions,scope,authority and applicable clauses;title/Type/directory or reading order alone creates no normative priority,completed implementation or canonical acceptance. Best Practices does not add or waive its real requirements. |
+| Classification Specification | Actual responsible source/role to consult for identified editions,scope,authority and applicable clauses;title/Type/directory or reading order alone creates no normative priority,completed implementation or canonical acceptance. Best Practices does not add or waive its real requirements. |
+| Best Practices | Explicitly informative recommendation/consultation role. Advice creates no independent requirement or violation from omission;actual sourced mandates retain their own authority. Not approval,permission or full implementation evidence. |
+
+
 Best Practices should support the architecture rather than override it.
+
+**Current advisory context and sourced duties.**
+
+Best Practices supports actual requirements;the exact received sequence is retained as consultation advice only.
+
+| Consultation / conflict concern | Actual source authority to consult | Limit |
+|---|---|---|
+| Reading order | Use selected document-role sequence to find context and responsible clauses | It creates no universal Principles/Architecture/Model/Schema/Constraints/Specification priority |
+| Normative requirement | Identify actual source/definition/rule/set edition,scope/applicability and authority | Type/title/directory or should wording here grants/removes no normative force |
+| Actual conflict | Identify precise competing clauses,subjects,context/evidence and real Specification-owned precedence | No first/last/most-specific/highest-severity algorithm or invented scope tag conceals same-context conflict |
+| Resolution / necessary revision | Actual responsible Governance mandate/conditions/evidence and where needed actual prior/new mandate revision | Temporary acceptance alone is no exception authority,erased violation or blanket waiver |
+| Missing mandatory detail | Preserve known observations/duties and unresolved support under actual coverage limits | Withhold unsupported broader success;invent no result,violation,permission,field or actor |
+
+Actual Constraints54/56/59/91 and Specification13/Core16.1 retain authority. No new priority is introduced by this informative table.
 
 ---
 
@@ -1703,6 +2599,10 @@ This requires:
 
 The Framework's conceptual model explicitly characterizes architectural concepts as clearly defined, independent, stable, reusable and explicit.
 
+**Current advisory context and sourced duties.**
+
+All seven maintainability subjects remain qualitative guidance under actual source scope. Stable identities and terms do not forbid necessary explicit assessed revision or guarantee implemented quality;actual owner boundaries,required history and providers remain.
+
 ---
 
 # 95. Simplicity
@@ -1712,6 +2612,10 @@ Classification should remain as simple as possible while satisfying its architec
 Simplicity does not mean minimizing the number of elements.
 
 It means avoiding unnecessary concepts, relationships and structural complexity.
+
+**Current advisory context and sourced duties.**
+
+Simplicity is qualitative,not smallest numeric population or permission to omit mandatory requirements/indispensable interfaces. Actual semantic adequacy,owner duties and required evidence govern,not advice-driven waiver.
 
 ---
 
@@ -1726,6 +2630,10 @@ Reuse reduces:
 - validation complexity;
 - documentation complexity.
 
+**Current advisory context and sourced duties.**
+
+All four reuse benefits remain goals,not measured reductions or permission to merge concepts by names. Actual definition/source edition/scope/context/equivalence and authority support reuse;no automatic alias/key allocation or record deletion.
+
 ---
 
 # 97. Explicitness
@@ -1738,6 +2646,10 @@ Avoid requiring maintainers to infer meaning from:
 - directory structure;
 - naming conventions;
 - historical knowledge.
+
+**Current advisory context and sourced duties.**
+
+All four avoided inference shortcuts remain advice. Actual architectural meaning/authority should be traceable rather than guessed from order/path/name/history;source93 creates no precedence from a list. Historical observations themselves remain legitimate evidence,not rewritten into current mandates.
 
 ---
 
@@ -1752,6 +2664,10 @@ Frequent semantic changes reduce the reliability of:
 - governance;
 - historical interpretation.
 
+**Current advisory context and sourced duties.**
+
+Slow-evolution preference is not absolute freeze. Necessary assessed change needs actual need/alternatives/authority,batch,compatibility/mappings/history,pinned continuity,authorized transition/checks. All four reliability concerns remain actual goals,not measured effects or excuse to retain contradictory canonical rules.
+
 ---
 
 # 99. Evolution
@@ -1759,6 +2675,8 @@ Frequent semantic changes reduce the reliability of:
 Classification should nevertheless remain capable of controlled evolution.
 
 The objective is:
+
+**Received unnamed visual in §99 (span 34 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -1772,13 +2690,33 @@ The objective is:
 
 ```
 
+**Current recommended relation scope:** Controlled evolution preference versus stagnation/arbitrary change,not accepted core or absolute freeze on necessary assessed mandate revision.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Stable Core | Recommended controlled-evolution concerns,not proof a complete accepted core or executed transition. Ordinary preservation and necessary assessed normative/foundational/role/interface/domain revision need actual authority,need,batch,compatibility/history and transition evidence. |
+| Controlled Extensions | Recommended controlled-evolution concerns,not proof a complete accepted core or executed transition. Ordinary preservation and necessary assessed normative/foundational/role/interface/domain revision need actual authority,need,batch,compatibility/history and transition evidence. |
+| Controlled Deprecation | Recommended controlled-evolution concerns,not proof a complete accepted core or executed transition. Ordinary preservation and necessary assessed normative/foundational/role/interface/domain revision need actual authority,need,batch,compatibility/history and transition evidence. |
+| Controlled Refinement | Recommended controlled-evolution concerns,not proof a complete accepted core or executed transition. Ordinary preservation and necessary assessed normative/foundational/role/interface/domain revision need actual authority,need,batch,compatibility/history and transition evidence. |
+
+
 rather than either uncontrolled change or architectural stagnation.
+
+**Current advisory context and sourced duties.**
+
+Stable Core/Controlled Extensions/Deprecation/Refinement is recommended controlled evolution,not proof accepted complete core or prohibition of necessary foundational/role/interface/domain revision. Real need/authority,conditions,honest compatibility/history and transition/checks remain,no arbitrary mutation or performed operation.
 
 ---
 
 # 100. Best Practices Checklist
 
 Before introducing or modifying Classification, verify:
+
+**Current advisory context and sourced duties.**
+
+All thirty original boxes below remain unchecked recommendations. They are not performed observations,result records,mandatory physical fields or a complete source-rule inventory. Interpret each under current roles,actual applicable authority/context and honest necessary incompatibility;recommendation omission alone is no violation. Actual sourced mandatory duties remain independently binding.
+
+---
 
 ### 100.1. Semantics
 
@@ -1787,12 +2725,24 @@ Before introducing or modifying Classification, verify:
 - [ ] Semantic duplication was considered.
 - [ ] The terminology is consistent.
 
+**Current advisory context and sourced duties.**
+
+All four semantic prompts remain unchecked. Actual clear definition/source/context/authority,considered equivalence and canonical terminology require evidence for any real claim;names alone prove no duplication/reuse.
+
+---
+
 ### 100.2. Structure
 
 - [ ] The hierarchy is meaningful.
 - [ ] The structural position is appropriate.
 - [ ] Artificial hierarchy was avoided.
 - [ ] Granularity is appropriate.
+
+**Current advisory context and sourced duties.**
+
+All four structural prompts remain unchecked. Meaningful hierarchy applies only to actual defined schemes,not universal Family→Type→Class;known role duties and genuine general gaps remain.
+
+---
 
 ### 100.3. Relationships
 
@@ -1801,17 +2751,35 @@ Before introducing or modifying Classification, verify:
 - [ ] Direction is consistent.
 - [ ] Cardinality is respected.
 
+**Current advisory context and sourced duties.**
+
+All four relationship prompts remain unchecked. Actual kind/endpoints/definition/source editions,properties/cardinality/integrity and responsible permission/evidence matter;no arbitrary all-pairs/priority or automatic reverse record.
+
+---
+
 ### 100.4. Constraints
 
 - [ ] Applicable constraints were reviewed.
 - [ ] No constraint is silently overridden.
 - [ ] New constraints are identified where necessary.
 
+**Current advisory context and sourced duties.**
+
+All three constraint prompts remain unchecked. Actual applicability/precedence/authority/observations/coverage govern;unknown is no NotApplicable or success and temporary decision is no blanket override. New rule needs actual responsible definition/authority,not a checkbox.
+
+---
+
 ### 100.5. Lifecycle
 
 - [ ] Lifecycle is kept separate from Classification.
 - [ ] Deprecation is handled explicitly.
 - [ ] Historical meaning is preserved.
+
+**Current advisory context and sourced duties.**
+
+All three lifecycle prompts remain unchecked. Separate assignment dimension from actual Element/document/extension/decision/state/use contracts without removing domain lifecycle;required historical meaning remains sourced duty,not optional retention.
+
+---
 
 ### 100.6. Governance
 
@@ -1820,12 +2788,24 @@ Before introducing or modifying Classification, verify:
 - [ ] Governance requirements were identified.
 - [ ] The change is traceable.
 
+**Current advisory context and sourced duties.**
+
+All four governance prompts remain unchecked. Actual required approval/authority,rationale/conditions/fulfillment/effective adoption differ from impact advice or source-phase command. No actor,universal threshold,outcome or permission allocated.
+
+---
+
 ### 100.7. Documentation
 
 - [ ] Dictionary impact was considered.
 - [ ] Specification impact was considered.
 - [ ] Examples remain valid.
 - [ ] Related documents were reviewed.
+
+**Current advisory context and sourced duties.**
+
+All four documentation prompts remain unchecked. Actual current source/definition/rule editions,required Dictionary/Specification incorporation,example scope and intended references need evidence;review prompts do not execute propagation or certify completeness.
+
+---
 
 ### 100.8. Architecture
 
@@ -1834,6 +2814,10 @@ Before introducing or modifying Classification, verify:
 - [ ] Existing Classification remains compatible.
 - [ ] The canonical Classification model remains coherent.
 
+**Current advisory context and sourced duties.**
+
+All four architecture prompts remain unchecked. Actual responsibilities/independence/compatible ordinary meaning and one authoritative model retain scope;necessary assessed role/interface/mandate revision and honest incompatibility follow responsible authority/history,not absolute freeze. Real physical/provider duties remain.
+
 ---
 
 # 101. Summary
@@ -1841,6 +2825,8 @@ Before introducing or modifying Classification, verify:
 Classification Best Practices provides guidance for maintaining a coherent and useful Classification architecture.
 
 The central principles are:
+
+**Received unnamed visual in §101 (span 35 in original order).** Exact received wording is retained as qualified evidence and illustration.
 
 ```text
 
@@ -1872,6 +2858,19 @@ The central principles are:
 
 ```
 
+**Current recommended relation scope:** Qualitative guidance and bounded evidence/change summary,not completed implemented/global PASS,canonical adoption or operation.
+
+| Received label / relation | Current typed interpretation and authority limit |
+|---|---|
+| Clear Semantics | Selected qualitative guidance/evidence/change concern,not observed system health,completed aggregate PASS,canonical adoption,universal thresholds or permission. Actual sourced duties/authority/context/coverage/history and independent owner/implementation limits remain. |
+| Meaningful Structure | Selected qualitative guidance/evidence/change concern,not observed system health,completed aggregate PASS,canonical adoption,universal thresholds or permission. Actual sourced duties/authority/context/coverage/history and independent owner/implementation limits remain. |
+| Explicit Relationships | Selected qualitative guidance/evidence/change concern,not observed system health,completed aggregate PASS,canonical adoption,universal thresholds or permission. Actual sourced duties/authority/context/coverage/history and independent owner/implementation limits remain. |
+| Controlled Constraints | Selected qualitative guidance/evidence/change concern,not observed system health,completed aggregate PASS,canonical adoption,universal thresholds or permission. Actual sourced duties/authority/context/coverage/history and independent owner/implementation limits remain. |
+| Validated Classification | Selected qualitative guidance/evidence/change concern,not observed system health,completed aggregate PASS,canonical adoption,universal thresholds or permission. Actual sourced duties/authority/context/coverage/history and independent owner/implementation limits remain. |
+| Governed Evolution | Selected qualitative guidance/evidence/change concern,not observed system health,completed aggregate PASS,canonical adoption,universal thresholds or permission. Actual sourced duties/authority/context/coverage/history and independent owner/implementation limits remain. |
+| Stable Knowledge Structure | Selected qualitative guidance/evidence/change concern,not observed system health,completed aggregate PASS,canonical adoption,universal thresholds or permission. Actual sourced duties/authority/context/coverage/history and independent owner/implementation limits remain. |
+
+
 The most important practical rule is:
 
 > Prefer the simplest Classification structure that clearly represents the intended semantics while preserving the architectural principles of the Documentation Framework.
@@ -1886,6 +2885,10 @@ Classification should therefore be:
 - governed rather than arbitrary;
 - extensible rather than rigid;
 - technology independent.
+
+**Current advisory context and sourced duties.**
+
+All eight summary qualities and exact quoted simplest-structure rule remain informative advice. Validated Classification is a scoped evidence concern,not complete implemented/global PASS;Governed Evolution needs actual authority/conditions/effects. Current roles,necessary assessed revision and independently sourced mandatory breadth remain without new mandates.
 
 ---
 
@@ -1906,44 +2909,155 @@ Normative conformance is determined by the applicable:
 - Classification Specification;
 - Governance decisions.
 
+**Current advisory context and sourced duties.**
+
+This explicit informative conformance boundary remains:following guidance where appropriate is not normative certification and omission alone is no constraint violation. All six listed normative-source concerns retain actual authority/edition/scope/applicability and coverage;source-role labels or Governance decision alone waive no independent mandate. Actual implementation/Core/global acceptance,permission,adoption/publication/Baseline need independent evidence.
+
 ---
 
 # 103. Related Documents
 
+
+
+**Current advisory context and sourced duties.**
+
+All26 original related subjects retain order/self-reference with intended actual ID/title/path links. They point to current working source editions,not inherited approval or full revalidation;earlier source-qualified/event-time notes,actual owner mandates and prior failed/corrected results remain.
+
+---
+
 ## 103.1. Foundation
 
-- DF-FND-001 — Framework Manifest
-- DF-FND-002 — Research Journal
-- DF-FND-003 — Evolution Timeline
-- DF-FND-004 — Architectural Blueprint
-- DF-FND-005 — Framework Evolution
-- DF-FND-006 — Design Rationale
+- [DF-FND-001 — Framework Manifest](../../../00-Foundation/DF-FND-001-FrameworkManifest.md)
+- [DF-FND-002 — Research Journal](../../../00-Foundation/DF-FND-002-ResearchJournal.md)
+- [DF-FND-003 — Evolution Timeline](../../../00-Foundation/DF-FND-003-EvolutionTimeline.md)
+- [DF-FND-004 — Architectural Blueprint](../../../00-Foundation/DF-FND-004-ArchitecturalBlueprint.md)
+- [DF-FND-005 — Framework Evolution](../../../00-Foundation/DF-FND-005-FrameworkEvolution.md)
+- [DF-FND-006 — Design Rationale](../../../00-Foundation/DF-FND-006-DesignRationale.md)
+
+---
 
 ## 103.2. Architecture
 
-- DF-ARC-001 — Architecture Overview
-- DF-ARC-002 — Architectural Principles
-- DF-ARC-003 — Architectural Concepts
-- DF-ARC-004 — Architectural Layers
-- DF-ARC-007 — Component Documentation Structure
+- [DF-ARC-001 — Architecture Overview](../../../01-Architecture/DF-ARC-001-ArchitectureOverview.md)
+- [DF-ARC-002 — Architectural Principles](../../../01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md)
+- [DF-ARC-003 — Architectural Concepts](../../../01-Architecture/DF-ARC-003-ArchitecturalConcepts.md)
+- [DF-ARC-004 — Architectural Layers](../../../01-Architecture/DF-ARC-004-ArchitecturalLayers.md)
+- [DF-ARC-007 — Component Documentation Structure](../../../01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md)
+
+---
 
 ## 103.3. Classification
 
-- DF-CLS-001 — Classification Architecture
-- DF-CLS-002 — Classification Concepts
-- DF-CLS-003 — Classification Model
-- DF-CLS-004 — Classification Elements
-- DF-CLS-005 — Classification Schema
-- DF-CLS-006 — Classification Lifecycle
-- DF-CLS-007 — Classification Validation
-- DF-CLS-008 — Classification Governance
-- DF-CLS-009 — Classification Relationships
-- DF-CLS-010 — Classification Constraints
-- DF-CLS-011 — Classification Extensibility
-- **DF-CLS-012 — Classification Best Practices**
-- DF-CLS-013 — Classification Dictionary
-- DF-CLS-014 — Classification Specification
-- DF-CLS-015 — Classification Examples
+- [DF-CLS-001 — Classification Architecture](../01-Architecture/DF-CLS-001-ClassificationArchitecture.md)
+- [DF-CLS-002 — Classification Concepts](../01-Architecture/DF-CLS-002-ClassificationConcepts.md)
+- [DF-CLS-003 — Classification Model](../01-Architecture/DF-CLS-003-ClassificationModel.md)
+- [DF-CLS-004 — Classification Elements](../02-Structure/DF-CLS-004-ClassificationElements.md)
+- [DF-CLS-005 — Classification Schema](../02-Structure/DF-CLS-005-ClassificationSchema.md)
+- [DF-CLS-006 — Classification Lifecycle](../03-Behavior/DF-CLS-006-ClassificationLifecycle.md)
+- [DF-CLS-007 — Classification Validation](../03-Behavior/DF-CLS-007-ClassificationValidation.md)
+- [DF-CLS-008 — Classification Governance](../03-Behavior/DF-CLS-008-ClassificationGovernance.md)
+- [DF-CLS-009 — Classification Relationships](../02-Structure/DF-CLS-009-ClassificationRelationships.md)
+- [DF-CLS-010 — Classification Constraints](../03-Behavior/DF-CLS-010-ClassificationConstraints.md)
+- [DF-CLS-011 — Classification Extensibility](../03-Behavior/DF-CLS-011-ClassificationExtensibility.md)
+- [DF-CLS-012 — Classification Best Practices](DF-CLS-012-ClassificationBestPractices.md)
+- [DF-CLS-013 — Classification Dictionary](DF-CLS-013-ClassificationDictionary.md)
+- [DF-CLS-014 — Classification Specification](DF-CLS-014-ClassificationSpecification.md)
+- [DF-CLS-015 — Classification Examples](DF-CLS-015-ClassificationExamples.md)
+
+---
+
+# 104. Informative working alignment, source coordination and provenance
+
+This V1.0 R1 working successor aligns recommendations/examples with actual current responsible contracts. It remains informative,including this section and all new tables. It creates no independent normative requirement,capability,priority,permission or violation from recommendation omission. Actual imported owner duties keep their own source/edition/scope/authority and are not weakened by should wording in this guide. Five reasoned editorial alignment choices were prepared before mutation;they are not new canonical architectural decisions or operational approvals.
+
+| Actual advisory alignment choice | Prior guidance / ambiguity | Current bounded guidance |
+|---|---|---|
+| Informative authority and actual consultation order | Explicit informative status is correct,while source-role views and93 order can suggest label-derived mandates or a universal conflict priority | Recommendations remain informative;existing sourced requirements retain their own actual authority.93 is consultation advice only,not precedence,waiver or new mandate |
+| Current role,property,identity and context guidance | Old Family–Type–Class trees,direction/cardinality and new-role creation examples plus generic names/series/version-looking labels | Actual membership Family,one uniform four-value primary Type,optional defined Class;actual scheme/kind/endpoints/properties/counts/context and typed entity/document identity. Old exact spans remain individually qualified illustrations |
+| Controlled revision,conditions,lifecycle and required history | Preserve existing meaning/compatibility and significant-only governance advice;selected state/canonical arrows and should-preserve history can conceal actual owner conditions/retention obligations | Recommend ordinary preservation versus necessary explicitly assessed revision,real decision/conditions/fulfillment/adoption/activation and separately scoped subject states/effects. Required historical interpretation remains sourced obligation,not optional advice |
+| Evidence,heuristics,equivalence and actual implementation limits | Framework-compliance validation shorthand,same-structure/same-rules determinism and unchecked quality/smell/checklist subjects can imply full implemented success or mandatory thresholds | Actual criterion versus aggregate/applicability/authority/observations/coverage/nonmutation and equivalent context;all30 boxes remain unchecked,heuristics are not measured outcomes,permission or numeric severity thresholds |
+| Real owner interfaces,independence and compatible guidance provenance | Physical/format neutrality,low coupling,role sequence/Graph/Automation descriptions and supporting-document review can imply no actual providers/effects or complete integration | Actual domain/common records/process/projection/Metadata effective-Profile/Identity/capability/authorized executor and indispensable providers remain;meaning independence waives no physical/representation/reference/history duty. Concrete36-path batch/current-note history retained |
+
+**Existing responsible authority,need and alternatives.**
+
+**Informative authority and actual consultation order.** Existing authority: ReviewPolicy3.1,actual ARC00710,Constraints54/56/59,Specification13/16.1 and actual responsible source declarations. Need/rationale/alternatives: Treating every imperative as a new requirement contradicts1/102;discarding real mandates because this guide says should waives actual duties. Selected clarification preserves advice/violation distinction without inventing precedence,thresholds or canonical permission.
+
+**Current role,property,identity and context guidance.** Existing authority: ReviewPolicy3/4,current Model11–14,Schema34,Relationships20/23/34/43/46/71,Constraints28/48/50/56,DID014 and Extensibility7.1–7.4/59. Need/rationale/alternatives: Advice should not restore superseded role ownership or fabricate populations/counts/fields/keys. Removing examples loses received evidence. Selected contextual guidance retains exact examples and known duties/general gaps with no allocation,rekey or normative change.
+
+**Controlled revision,conditions,lifecycle and required history.** Existing authority: Constraints52/59/67/68/69/71/74/75/91,Lifecycle19/20/48/53,Governance43/51/53/55/56,ExtensibilityV2R2 33/35/37/38/39/50/51/79 and SpecificationR029/R030. Need/rationale/alternatives: Absolute freeze and arbitrary mutation both misguide;approval alone cannot fulfill conditions or permit erasure of required meaning. Selected advice references actual duties/unknown exact actors/guards/records and honest compatibility/history/transition rather than creating new process authority.
+
+**Evidence,heuristics,equivalence and actual implementation limits.** Existing authority: Validation16/39/67,Constraints46/50/54/56/59,Extensibility59/66/67 and SpecificationCore16.1. Need/rationale/alternatives: Unknown cannot become NotApplicable/PASS/Violation;advice/examples/checklist are not performed observations. Selected guidance retains known violations/mandatory coverage and claim-specific context without inventing universal fields,outcomes,software tests or deployed evaluator.
+
+**Real owner interfaces,independence and compatible guidance provenance.** Existing authority: Actual ARC005/007,Relationships49–54/71,Constraints61–65/91,Extensibility79,Metadata/Profile/Identity/common owners and ReviewPolicy5–7. Need/rationale/alternatives: Renaming semantic edges or Local scope cannot remove real required cycles;automatically migrating references/revising peers exceeds advice correction. Selected compatible informative alignment retains valid Reference/path and identity,actual authorship/history,prior peer/failure evidence and independent M13/M14/global criteria. No new architectural mandate or capability is added.
+
+**Advisory alignment and actual edition.** Explicit informative1/4/102 status is retained. Corrections qualify outdated examples and consultation/authority/evidence scope to match existing adopted ReviewPolicy and actual responsible Classification/Architecture/Metadata/Identity/common contracts. No new independent mandatory meaning,allowed capability,decision outcome,field schema or precedence is introduced. This is compatible correction of guidance,not the incompatible normative replacement made by some owner sources. Actual effects justify retaining Version1.0 and monotonic Revision0→1 under Policy5.2;other documents' major2 does not mechanically apply. Any later genuine additive/incompatible source contract effect would require its own assessed successor,not hidden as informative editing.
+
+Type Reference,current `02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md`,valid DF-CLS-012,title,Family/Component Classification and English remain. Reference/current04-Reference matches actual consultation/recommendation responsibility under ReviewPolicy3.1/ARC0075/10,but explicit declarations/incorporation—not Type/title/directory—determine authority. Changed exact edition remains Draft/Baseline Not assigned,not inherited1.0 membership or earlier acceptance. Original Author Arnaldo Figueira is preserved;actual contributor Codex — AI assistant is added cumulatively with a separate actual event. Original initial-history table remains verbatim undated;no initial date or completed intermediate edition is invented. Later unchanged-source validation would increment neither source Version nor Revision.
+
+**Actual sourced duties and genuine limits.** Current membership Family,one uniform four-value primary Type and optional defined nonconflicting Class are sourced roles,not newly allocated by this advice. Separately defined schemes/kinds/endpoints/properties/cardinality/identity/integrity/state/use apply under actual Schema34,Relationships20/23/34/43/46/71 and Constraints28/31. Known duties remain alongside genuine general counts/fields/population gaps;advice supplies no arbitrary limits,unrestricted labels/all-pairs edges,universal role tree/global DAG,automatic reverse record or waived actual prohibited cycle. Domain/category/value/definition/assignment/relationship/assertion/record identity and document K/local complete R/exact edition remain distinct,no automatic key/alias/population allocation,rekey,consumer successor or retargeted pinned approval.
+
+Ordinary preservation and necessary assessed normative/foundational/role/interface/domain revision retain actual prior/new authority,need,rationale/alternatives,concrete owners/consumers/indispensable interfaces/batch,honest compatibility,mappings/nonreuse/history,pinned source/rule/definition/set/assignment/decision/condition/result/target editions/bytes/context,authorized coordinated transition and later checks before actual propagation. Old mandates need actual responsible revision,not silently reinterpreted or left as simultaneous contradictory same-context canonical demands. Extension/clarification/Low-impact labels or same paths/names prove no compatibility. Unchanged Metadata owner no-invalidating/no-redefinition/Profile restrictions remain real source-specific pending differences,not edited or waived by this guide.
+
+Actual Governance43/51/53/55/56 and ExtensibilityV2R2 33/35/37/38/39/50/51/79 retain necessary actual scoped approval,criteria/evidence/rationale,conditions/fulfillment,effective adoption/activation and separate publication/availability/Baseline. Informal significance grants no exemption from known approval requirements. Domain Element/definition/assignment,extension/proposal/decision/activation,relationship/constraint-set,document Workflow,term/local R/result/finding/Milestone states/use remain distinct;known duties and genuine exact actors/guards/routes/records gaps are not filled by arbitrary defaults. Phase authorization permits this working Draft correction,not canonical adoption,fulfilled conditions or operational permission.
+
+Actual Validation16/39/67 and Constraints46/50/54/56/59 retain criterion versus three aggregate results,applicability/authority,observations,mandatory checked/unchecked coverage,nonmutation,real precedence and claim-specific equivalent context. Missing mandatory support withholds unsupported broader success without fabricated result/violation/NotApplicable/outcome/priority/waiver;known observations persist. Reading order/checklist/examples are not performed checking or full implementation/Core/global acceptance. Actual source/rule/definition/set/subject bytes/editions,Schema/Profile/Lifecycle/provider/representation context,executor/observations/coverage substantiate any equivalence/replay claim;intended consistency is not an installed evaluator or executed software test and creates no universal physical context fields.
+
+Required historical interpretation under actual Constraints67/68/74/75/86.7,Lifecycle and Extensibility41–44/69/70 retains earlier definitions/rules/sets/relations/assignments/states/decisions/conditions/results/source editions and needed pinned context. Additional retention is separately advisory. Necessary approval permits no destruction of required meaning;new rules do not backdate original validity and actual later evidence can support traced earlier-contract reassessment with original observations retained. Interpretation,original conformity,current compliance/use and live retrieval differ. Supersession,replacement,equivalence,retirement scope and actual migration/effects are separately evidenced;no automatic propagated state,consumer revision,deletion or grandfathering follows from these recommendations.
+
+**Real representation,providers and independence.** Domain Classification meaning differs from common typed Relationship records/Specification28,Workflow/Policies/Reviews/Baselines,Registry/Graph source-edition/current-historical/snapshot/freshness projections,Automation capability,Metadata broader Concepts/Values/Dictionary/Schema/Profile/Instance/effective representation,Identity K/R/exact edition and actual authorized DMS/CMS/tool/manual executor. Actual Metadata Validation7.2/14,SpecificationR005/§7 and real Profile/Instance/provider/no-owner-transfer/no-cycle/representation duties remain independently applicable. Meaning independence waives no descriptor/Profile/physical/reference/index/interface/access/retrieval/freshness/usage/history requirement;actual file/source bytes and effects still matter. No complete accepted merged schema,universal fields,all-document endpoints,installed checker or operation follows.
+
+Actual indispensable Classification→Metadata/Identity,conditional Templates and supplied MTD001 depends-only/support versus DID009/README reciprocal Metadata↔Identity descriptor/provider/core/source-edition/interface/cycle claims remain pending responsible assessment. Semantic hierarchy,inverse/navigation/record/projection and actual required consumer→provider graphs differ. Low coupling,independent understanding,Local or renamed relationship labels erase no real required edge/cycle and prove no complete DAG/runtime. Source92 documentary role sequence and93 consultation order supply neither dependency/execution graph nor normative conflict priority.
+
+This source's actual Reference/current04-Reference placement fixes no other source. Elements Type Architecture physically under02-Structure and Constraints Type Structure under03-Behavior remain actual unmet ARC007 responsibility-placement requirements,not compliant,waived or merely unverified. Entire M13 Not Started block remains exact. Any later actual move/current-reference propagation needs separately authorized concrete old/new identity/path/source edition/contribution/compatibility/history,pinned-versus-current intended-target mapping and later checks. No move,alias,reservation,key migration or global replacement occurs here.
+
+**Concrete actual batch before propagation.** Thirty-six real source/owner/consumer/reference paths retain exact input coordinates/hashes/clauses,path-specific prior/new actions,reason,authority,interfaces and compatibility/history before mutation. All peers remain byte-unchanged;this is concrete prospective coordination,not every external consumer known or integrated consistency. Later substantive source propagation needs its own authority,assessed successor/contribution/event history and checks;this advice creates none. Non-normalized README/CHANGELOG/ArchitecturalMilestones retain their own role while applicable content/reference checks remain.
+
+| Actual source / functional subject | Exact input edition | Actual path | Pending coordination |
+|---|---|---|---|
+| DF-ARC-002 | V2.0 R2; Draft; Baseline Not assigned | 01-Architecture/DF-ARC-002-ArchitecturalPrinciples.md | Keep actual architectural principles/necessary assessed revision and quality/compatibility scope;Best Practices repeats no new requirements or absolute freeze from advisory wording. |
+| DF-ARC-005 | V2.0 R2; Draft; Baseline Not assigned | 01-Architecture/DF-ARC-005-ArchitecturalComponents.md | Actual domain/common typed records/process/projections/Metadata-Identity providers/capability/executor ownership remains;advisory source sequence is no operational dependency graph or installed Automation. |
+| DF-ARC-007 | V2.0 R2; Draft; Baseline Not assigned | 01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md | Actual Best Practices informative Reference/04-Reference role remains correct;authority follows actual declarations/incorporation,not label. Both actual Elements/Constraints placement residuals remain unmet/M13. |
+| DF-CLS-001 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md | Current membership/uniform Type/optional defined Class and owner duties remain;earlier CLS012V1R0 advice snapshot is event-time,not new normative hierarchy or current successor approval. |
+| DF-CLS-002 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md | Keep actual semantic category/value/definition/assignment distinctions and explicit contexts;advice on naming/meaning does not allocate role/population or own canonical definitions. |
+| DF-CLS-003 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md | Actual reconstructed Model provenance,known14 role duties/general gaps,23 state/use and26 necessary revision remain;advisory hierarchy cannot restore old universal role tree. |
+| DF-CLS-004 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md | Actual role/category/value/definition/assignment guidance must preserve known duties and Element lifecycle responsibilities;actual Architecture/02-Structure placement unmet/M13 is not waived by semantic neutrality. |
+| DF-CLS-005 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md | Actual34 known membership/one-Type/optional-defined-Class versus general counts/fields/population remain;advice/checklists invent no maxima or all-pairs admission and waive no real Schema duty. |
+| DF-CLS-006 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md | Actual19/20/48/53 Element/definition/state/use/transition/history mandates remain distinct from document Workflow,extension/decision/term/R/result/finding states;do-not-encode-lifecycle advice erases no domain lifecycle. |
+| DF-CLS-007 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md | Actual16/39/67 rule-dependent outcomes,applicability/authority/observations/coverage/nonmutation and equivalence apply;checklist/advice/examples are no performed validation or subset broad PASS. |
+| DF-CLS-013 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md | Actual term/name/concept/definition/source edition/alias scope remains;examples ADR/ARC/SPEC/REF and near-duplicate names are not complete canonical vocabulary or allocated identity/field registry. |
+| DF-CLS-014 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md | Actual R014/13 mandatory constraints,R023–025 evaluation,R027 traceability,R029/030 necessary explicit change and16.1 mandatory Core breadth remain. Source93 consultation sequence invents no universal normative priority or waiver. |
+| DF-CLS-015 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md | Examples are explicitly scoped illustrative aids,not normative definitions,performed criterion checks,approval/condition fulfillment or full conformance evidence. |
+| 02-Documentation/Classification/README.md | Functional non-normalized file | 02-Documentation/Classification/README.md | Non-normalized index remains exact with actual Best Practices informative Reference/current04-Reference path. Future guidance/target/current-history reconciliation requires actual scoped successor,not silently propagated global consistency. |
+| DF-DID-009 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md | Actual entity/document/record/edition/reference/projection/provider scopes remain;independence/navigation advice erases no real reciprocal Metadata↔Identity core/descriptor/interface/cycle duty. |
+| DF-DID-014 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md | Actual typed document K/local complete R/exact edition versus entity/definition/assignment/term/record/label identity and historical qualified targets apply;renaming/examples do not allocate/rekey/revise consumers or retarget pinned history. |
+| DF-MTD-001 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md | Actual Metadata→Identity and reciprocal descriptor/provider/source-edition requirements remain;advisory low coupling/semantic neutrality cannot remove indispensable real interfaces/cycles. |
+| DF-MTD-002 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md | Actual Metadata descriptions differ from Classification semantic meaning/definition/role/applicability;advice creates no mandatory descriptors or owner transfer. |
+| DF-MTD-003 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md | Actual Metadata Schema/effective Profile/Instance model remains independently mandatory;explicit meaning/context/checklist subjects allocate no universal stored fields or complete merged representation. |
+| DF-MTD-004 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md | Metadata Element/definition/record identity differs from Classification entities/labels/document K;example terminology and advice allocate no Metadata/DF IDs. |
+| DF-MTD-005 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md | Actual Schema/Profile/Instance field/value/representation duties remain;storage/format independence and local advice/checklist cannot waive owner conformance or prove full representation success. |
+| DF-MTD-009 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md | Actual Metadata relation categories/providers/no-owner-transfer/no-cycle restrictions retain scope;semantic/inverse/navigation/projection advice cannot conceal real mandatory reciprocal provider edges. |
+| DF-MTD-010 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md | Actual constraints/applicability/dependency/Profile/stability/external enforcement rules remain;informative advice or current Classification revision grants no automatic waiver/override of unchanged Metadata restrictions. |
+| DF-MTD-013 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md | Actual descriptor/term/definition/source-edition authority remains;names/abbreviations/checklist/context evidence needs supply no complete canonical field registry. |
+| DF-MTD-006 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md | Actual Metadata lifecycle states remain separate from Classification Element/document/extension/term/R/result/finding states and sample Draft/Approved/Archived labels;no automatic aliases/transitions. |
+| DF-MTD-007 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md | Actual Metadata rule/schema/profile/authority/observation/coverage checks remain independent;Best Practices following alone proves no implemented Metadata conformity or permission. |
+| DF-MTD-008 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md | Actual outcome/rationale/process/owner/condition/state restrictions retain scope;general governance advice creates no universal enum,automatic approval or fulfilled conditions. |
+| DF-MTD-011 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md | Actual no-invalidating/no-redefinition/Profile/semantic/owner restrictions remain source-specific pending differences;necessary assessed Classification change neither silently edits nor waives them. |
+| DF-MTD-012 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md | Both Best Practices roles remain explicitly informative unless actual responsible contract adopts particular requirements;advice alone creates no violation,threshold,actor,field or permission. |
+| DF-MTD-014 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md | Actual independent Profile/Instance/descriptor/source authority conformance remains;representation neutrality/advice/checklist/examples supplies no complete schema or global acceptance. |
+| DF-MTD-015 | V1.0 R0; Draft; Baseline 1.0 | 02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md | Explicitly informative examples have actual intended scope,not canonical fields,source-rule priority,performed validation/decision/operation or approved implementation. |
+| DF-RVW-001 | V1.0 R2; Draft; Baseline Not assigned | 03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md | Apply actual phase/evidence/edition/cumulative-contribution/stable-identity/functional-exclusion rules. Target Reference/path/informative status retained;compatible advice correction proposesV1R1 subject to actual UPDATE,not automaticmajor2. No source edit/VALIDATE or global acceptance in REVIEW. |
+| DF-CLS-008 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md | Actual43/51/53/55/56 scoped decision/rationale/conditions/fulfillment/effects/publication/Baseline requirements remain;significant-only advice grants no canonical-approval exemption or phase-command authority. |
+| DF-CLS-009 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md | Actual20/23/34/43/46/71 property/cardinality/integrity/typed identity/state/history/provider requirements remain;direction/tree/graph guidance invents no reverse record,universal DAG or lookup-gap violation. |
+| DF-CLS-010 | V2.0 R1; Draft; Baseline Not assigned | 02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md | Actual28/31/46/50/54/56/59/67/68/69/71/74/75/91 duties/general gaps,precedence/authority/evaluation/history/necessary revision remain. Recommended reading order/advice invents no priority,waiver or optionalization of required history;Structure/03-Behavior placement remains unmet. |
+| DF-CLS-011 | V2.0 R2; Draft; Baseline Not assigned | 02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md | ActualV2.0 R2 corrected35/38/59 and33/37/39/50/51 canonicality/condition/activation duties remain;initial failedV2R1 and later local PASS retain exact edition scope. Recommendations align with current roles/necessary revision and do not create new normative authority. |
+
+**Current peers and preserved earlier events.** Actual CLS001–010 V2R1 and CLS011V2R2 working successors completed local documentary cycles,not global integrated acceptance. CLS011 initialV2R1 failed table-delivery validation and actual correctiveV2R2 later local PASS remain their exact-edition history,not rewritten or transferred to unseen bytes. Model remains explicit reconstruction,not authentic recovered history;earlier Policy4.3/Model factual-premise qualifications remain. Schema/Lifecycle/Validation/Governance/Relationships/Constraints/Extensibility known duties and genuine general-rule/population/precedence/authority/actor/route/guard/record/coverage/interface gaps remain. Actual SpecificationR014/13/Core16.1 and independent Schema/Constraints/Profile/Identity mandatory breadth is not a complete supplied catalog/precedence/approved implementation from citation.
+
+Twenty-six actual current prior-note contexts inCLS001–011 retain event-time/source-qualified earlier Best Practices observations,not this corrected guidance as a new normative source. Broader current status/meaning readings need separately traced exact-edition qualification without rewriting notes,reopening completed cycles or silently revalidating peers. Forty-nine received inbound occurrences across19 actual input-of-REVIEW sources retain exact hashes/lines/text;changed target/tracking successors are explicit events/diffs,not historical literals falsely current. The19 global findings,M14 integrated and actual owner/general-rule/population/precedence/authority/actor/guard/route/record/descriptor/provider/current-note/interface/cycle/implementation/permission/global architecture-acceptance work remain independent;both physical-placement residuals remain unmet/M13.
+
+**Full received subject and provenance preservation.** All103 original major chapters/123 numbered titles/bodies/126 raw headings,two original table contexts,56 original list groups,nine principles/nine anti-patterns/ten quality indicators/ten smell indicators/nine maintenance subjects/fifteen review questions/ten extension/eight deprecation/eight retirement recommendations and30 unchecked checklist subjects retain complete before/current maps and order. Individual wording corrections align guidance with existing sources,not new mandates. Exact central quote and undated initial history remain. All35 exact unnamed spans retain fences/text/order with176 actual individual typed label/relation interpretations,recommended relation scope and complete final section text/hash. No diagram ID,stale preview,unchecked-to-completed result,initial date or Author auxiliary is invented. All26 intended relative links resolve actual unique ID/title/path in original order/selflink;prior paths/exports/failed/pending history and89 progress positions remain.
+
+All22 local corrections are Corrected—pending validation. This UPDATE constructs informative guidance and traceability only;no source VALIDATE or finding closure occurs. Separate VALIDATE must compare exact successor/all original criteria,actual sourced authority/advice boundary,current sources/owners/coverage,all preservation/individual-view/final-context/table-format/link/history/current-note/batch evidence and independent actual residuals. No actual architectural decision/condition fulfillment/adoption/activation,field/key/term allocation,assignment,transition,migration,retirement,deletion,permission,publication,Baseline,engine/runtime/replay,complete implementation or global acceptance is performed. Recommendation omission alone remains no violation,while known mandatory observations/requirements retain their actual independent force.
 
 ---
 
@@ -1952,6 +3066,12 @@ Normative conformance is determined by the applicable:
 | Version | Description |
 |---------|-------------|
 | 1.0 | Initial definition of Classification Best Practices. |
+
+## Actual later contributions
+
+| Date | Version | Revision | Contributor | Event and limits |
+|---|---|---|---|---|
+| 2026-10-16 | 1.0 | 1 | Codex — AI assistant | Step4.40 UPDATE:compatible informative guidance/example alignment to existing current roles,authority/consultation-order,conditions/evidence/coverage/history/identity/independence/provider contracts. Reference/current path,explicit informative status,original author/undated history and30 unchecked checklist subjects retained. All22 corrections pending separate VALIDATE. Draft;Baseline Not assigned;no new normative mandate,actual canonical/operational/global approval. |
 
 ---
 
