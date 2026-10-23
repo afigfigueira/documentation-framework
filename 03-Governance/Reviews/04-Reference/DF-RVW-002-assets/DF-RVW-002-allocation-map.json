@@ -1,7 +1,7 @@
 {
   "parent_document_id": "DF-RVW-002",
   "version": "1.0",
-  "revision": 2,
+  "revision": 3,
   "general_migration": "not required",
   "external_history": "not available; no global uniqueness claim",
   "allocations": [
@@ -114,13 +114,14 @@
       "path": "02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md",
       "declared_id": "DF-CLS-001",
       "nominal_id": "DF-CLS-003",
-      "action": "Localized Model reconstruction and intended declaration correction performed; pending VALIDATE and independent global criteria",
+      "action": "Localized intended Model reconstruction/declaration correction locally verified at4.31 VALIDATE;global owner/reference/acceptance criteria remain Open",
       "input_sha256": "2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28",
       "received_action": "Pending path-scoped CLS-003 recovery; not a global CLS-001 alias",
       "current_document_id": "DF-CLS-003",
       "current_title": "Classification Model",
       "current_edition": "V2.0 R1 Draft; Baseline Not assigned",
-      "current_sha256": "82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039"
+      "current_sha256": "82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039",
+      "current_source_validation_state": "Closed—verified within exact local documentary scope"
     },
     {
       "path": "02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md",
@@ -632,7 +633,7 @@
       "action": "New allocation; corpus scan found no prior RVW occurrences; external allocation history unavailable"
     }
   ],
-  "parent_report_edition": "1.0/97",
+  "parent_report_edition": "1.0/98",
   "date": "2026-10-16",
   "declared_id_semantics": "Retained received declarations in allocation rows; current corrected identity is stated explicitly in scoped successor fields",
   "correction_events": [
@@ -646,6 +647,21 @@
       "state": "Corrected—pending validation",
       "evidence": "DF-RVW-002-update-4-31-map.json",
       "external_history": "Unavailable;documented localized intended-allocation decision,not general gap-based allocation"
+    }
+  ],
+  "validation_events": [
+    {
+      "date": "2026-10-16",
+      "step": "4.31 VALIDATE",
+      "report_section": 104,
+      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md",
+      "current_document_id": "DF-CLS-003",
+      "source_sha256": "82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039",
+      "source_edition": "V2.0 R1 Draft; Baseline Not assigned",
+      "result": "PASS — scoped documentary identity correction and reconstruction traceability;source unchanged",
+      "local_source_finding_state": "Closed—verified",
+      "scope": "One scoped current CLS001 andoneCLS003;noalias/generalreplacement;no external allocationhistory assurance,completeowner-referenceintegration orarchitecturalacceptance",
+      "global_INV01_REV205": "Open — independent integrated criteria"
     }
   ]
 }

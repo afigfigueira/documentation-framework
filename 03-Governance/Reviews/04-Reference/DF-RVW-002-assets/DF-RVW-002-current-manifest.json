@@ -1,10 +1,10 @@
 {
   "parent_document_id": "DF-RVW-002",
-  "edition": "1.0/97",
+  "edition": "1.0/98",
   "date": "2026-10-16",
   "self_hash": "Excluded;external receipt",
-  "source_state": "4.31 UPDATE explicit Model reconstruction andlocalized intended identity correction;CLS003V2.0R1 Draft/unassigned;14localpendingVALIDATE/19globalOpen/336Closed/INV02;M12 17C1S46O;genuineArchitecture unchanged;global owner/reference coordination pending",
-  "known_collision": "Received wrong CLS001 declaration retained as evidence;current local headers distinct CLS001 Architecture andCLS003 Model;global INV-01/REV2-05 remainOpen pending independent criteria",
+  "source_state": "4.31 exact unchanged CLS003V2R1 local documentary Model reconstruction/identity correction andtraceability PASS;14Closed/19globalOpen/350Closed/INV02;M12 18C46O;actualpeer-owner/cardinality/interface/priornote propagation andarchitecturalacceptance pending;next4.32REVIEW CLS004 notstarted",
+  "known_collision": "Received collision preserved as evidence;current local normalized headers unique withdistinct CLS001Architecture/CLS003Model;INV01/REV205 remainOpen pending independent integrated criteria",
   "files": [
     {
       "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
@@ -554,15 +554,15 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
-      "sha256": "3e22c0f78ae79c6f1138dbbf19decb630de903b99f1b3d1ed7fa1ede7a5e5a98",
-      "bytes": 1479776,
+      "sha256": "012587f35705ed95f230b79fee3e17d1937a4cd9350946ef784a995885a88a2d",
+      "bytes": 1496157,
       "normalization_scope": true,
       "input_sha256": null
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-allocation-map.json",
-      "sha256": "13db05e20286e75c0c2cbbbf4b6520a42fdd399e791eb980d0a6d176645bcc66",
-      "bytes": 30245,
+      "sha256": "d344a119474763dcde5bbba93b25e7121529fb323d7588a0a727f2075431c63a",
+      "bytes": 31225,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -624,8 +624,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv",
-      "sha256": "51f649508f2d1b5673c3b66d0bd3889529d0b603c796189c779062ff3e278f61",
-      "bytes": 75675,
+      "sha256": "69c0a896a9edade9ffaf6afa143a5d6c8907ab6f030df63d55a82abc5b362d14",
+      "bytes": 75936,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -2505,6 +2505,18 @@
       "bytes": 867066
     },
     {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation-4-31.diff",
+      "sha256": "c03321d72dbd99cf2dadeba795622f37328da0b2705629e99fbb9000431cc956",
+      "bytes": 37328,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation-4-31.json",
+      "sha256": "55d1fc5ec76655a55b48a10fa3a003c690a373cac14d8d3293a3c9d5964def63",
+      "bytes": 1051807,
+      "normalization_scope": false
+    },
+    {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation.json",
       "sha256": "b4f2b4e01f807ac7184fd7d4a021a73ab300337d0fbc1368aa2278b6203f65a1",
       "bytes": 915,
@@ -2513,15 +2525,15 @@
     },
     {
       "path": "ArchitecturalMilestones.md",
-      "sha256": "c7ae90d1cd31de49aa2ed24a87565298635820751109dfd40878366c0c014f5d",
-      "bytes": 82120,
+      "sha256": "fef007e2940d875e071e91fed6b2c05ec5714b11d10e534ff0ec6066c434ceee",
+      "bytes": 82819,
       "normalization_scope": false,
       "input_sha256": "9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "5639a31ad3abadb2f400e28e39dd04ff108e8efc125e67980e1b5abde53cb1d1",
-      "bytes": 173203,
+      "sha256": "2adc3161b112a375226f0b457c83f2a84598c37eaa85d1c9a8401d766206e2fa",
+      "bytes": 174522,
       "normalization_scope": false,
       "input_sha256": "ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b"
     },

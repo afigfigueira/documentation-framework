@@ -1,0 +1,186 @@
+--- update431/Context/CHANGELOG.md
++++ validated431/Context/CHANGELOG.md
+@@ -58,6 +58,9 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 537 | 2026-10-16 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Correction | M12 Model S→C, completion2026-10-16; eighteen C/46 O In Progress; local documentary scope only;19globalOpen/current peer-owner/interface/cardinality/prior-note propagation pending; next4.32 REVIEW CLS004,not started. |
++| 536 | 2026-10-16 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Correction | V1.0 R97→R98 compatible validation event;section104;14local closures/350Closed/19globalOpen/INV02;exact Model unchanged;51selected comparison sources/36links/32documentary cases;Policy4.3/Architecture39/Concepts44 actual prior-note qualification;no global acceptance. |
++| 535 | 2026-10-16 | Codex — AI assistant | Validated | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md | Correction | Step4.31 exact unchanged V2.0 R1 local Model reconstruction/identity correction andtraceability PASS;14records Closed—verified;SHA-256 82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039;33new sections/48received subject maps/18old views/2new views;genuine Architecture unchanged;allocation export1.0/3 scoped validation event;reportR98 section104;M12;global INV01/REV205 and19Open criteria pending,noapproval/Baseline. |
+ | 534 | 2026-10-16 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Correction | M12 Model remains S;seventeen C/one S/46 O In Progress;intended CLS003 V2.0 R1 pending VALIDATE;start2026-10-16,no completion;M13/global coordination pending;no approval/Baseline. |
+ | 533 | 2026-10-16 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Correction | V1.0 R96→R97 compatible report event;section103;14local corrections pending VALIDATE,19globalOpen/336Closed/INV02;full before/after/diff/33newsections/48receivedsubjectmaps/18oldviews/2newviews/15affectedpaths;no closure or architecture acceptance. |
+ | 532 | 2026-10-16 | Codex — AI assistant | Updated | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md | Correction | Step4.31 explicit newly authored Model reconstruction from received wrong Architecture copy;localized declaration CLS001→intended CLS003 at this path only,genuine CLS001 unchanged,no alias/global replacement. V1.0 R0→V2.0 R1 incompatible purpose/contract;Draft/unassigned;cumulative Author Arnaldo Figueira; Codex — AI assistant;exact SHA-256 82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039;14pendingVALIDATE;allocation export1.0/2;reportR97 section103;M12;map/diff evidence. |
+--- update431/Context/ArchitecturalMilestones.md
++++ validated431/Context/ArchitecturalMilestones.md
+@@ -196,7 +196,7 @@
+ | ------: | :--------- | :--------- | :-------------- | -------- | ---- |
+ | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-CLS-001 | /02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md |
+ | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-CLS-002 | /02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md |
+-| S | 2026-09-30 | 2026-10-16 |  | DF-CLS-003 — Classification Model V2.0 R1; pending VALIDATE | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md |
++| C | 2026-09-30 | 2026-10-16 | 2026-10-16 | DF-CLS-003 — Classification Model V2.0 R1; local documentary validation | /02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md |
+ | O | 2026-09-30 |  |  | DF-CLS-004 | /02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md |
+ | O | 2026-09-30 |  |  | DF-CLS-005 | /02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md |
+ | O | 2026-09-30 |  |  | DF-CLS-009 | /02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md |
+@@ -729,3 +729,5 @@
+ Step4.31 REVIEW (2026-10-16, Europe/Lisbon): nominal Model exact unchanged V1.0 R0 Draft/Baseline1.0 declares CLS001/Classification Architecture;12 findings/2 warnings Open. All38 chapters/48 bodies/18 unnamed views and original subjects preserved as evidence. No authentic Model recovered or source corrected. M12 seventeen C/one S/46 O In Progress;nominal Model started2026-10-16,no completion. ReportR96 section102;CHANGELOG528–531. Distinct reconstruction/identity/reference decisions proposed;19 global Open remain;no UPDATE/VALIDATE,architectural approval or Baseline.
+ 
+ Step4.31 UPDATE (2026-10-16): explicit newly authored Model reconstruction at the nominal path;erroneous received CLS001/Architecture corrected to intended CLS003/Model V2.0 R1 Draft/unassigned. Genuine CLS001 unchanged;no alias or global substitution. Original contributor/evidence retained,cumulative Author Arnaldo Figueira; Codex — AI assistant;33new Model sections/48received subject maps/18old views/2new views/15affected peer paths. All14 local corrections pending VALIDATE. M12 seventeen C/one S/46 O In Progress;Model remains S,no completion;M13/global coordination pending. ReportR97 section103;CHANGELOG532–534;19globalOpen/336Closed/INV02 unchanged;no architecture approval,implementation or Baseline.
++
++Step4.31 VALIDATE (2026-10-16): exact unchanged CLS003 V2.0 R1 local Model reconstruction/identity correction and traceability PASS;14 records Closed—verified. Original Architecture input/history/attribution and genuine CLS001 preserved;33new sections/48received subject maps/18old views/2new views/36intended links/32documentary cases checked. Model completion2026-10-16;M12 eighteen C/46 O In Progress. ReportR98 section104;CHANGELOG535–537. Actual peer/cardinality/owner/interface/current prior-note propagation and 19globalOpen including INV-01/REV2-05 remain pending;no architecture acceptance,implementation or Baseline. Next4.32 REVIEW DF-CLS-004;not started here.
+--- update431/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ validated431/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 97 |
++| **Revision** | 98 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -303,6 +303,7 @@
+ | 2026-10-15 | 1.0 | 95 | Step4.30 exact Concepts V2.0R1 local PASS;16 closures | Compatible report event;section101;source unchanged;30views/50maps/actualowner-state-outcome/Architecturepriornote/Model evidence;globalwork pending |
+ | 2026-10-16 | 1.0 | 96 | Step4.31 REVIEW of nominal Model;actual received Architecture copy unchanged | Compatible report event;section102;12 findings/2 warnings Open;reconstruction/identity proposal only;no source UPDATE/VALIDATE or global acceptance |
+ | 2026-10-16 | 1.0 | 97 | Step4.31 explicit Model reconstruction and localized declaration correction;14 corrections pending validation | Compatible report event;section103;source V2.0 R1;genuine Architecture unchanged;19globalOpen and independent acceptance/owner propagation pending |
++| 2026-10-16 | 1.0 | 98 | Step4.31 exact Model V2.0 R1 local documentary validation PASS;14 closures | Compatible report event;section104;source unchanged;identity/provenance/subject/view/owner/reference scope checked;global criteria and propagation remain pending |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -7483,3 +7484,68 @@
+ Totals:19globalOpen,14localCorrected—pending validation,336Closed—verified,INV-02Not applicable—scope decision. INV-01/REV2-05/03/04/09/10 retain independent integrated criteria. M12 seventeen C/one S/46 O,In Progress;Model remains S,started2026-10-16,no completion. M13/global owner/reference coordination remains pending. ReportV1.0 R96→R97;CHANGELOG532 source reconstruction/localized identity/register event,533report,534M12. SourceV2.0 R1 Draft/unassigned does not imply architectural acceptance,full implementation conformity,publication orBaseline membership.
+ 
+ **Pause after UPDATE. CONTINUAR starts4.31 VALIDATE DOCUMENT DF-CLS-003 — Classification Model only.** Source validation andlocal finding closure have not been performed.
++
++## 104. Step 4.31 — VALIDATE DOCUMENT DF-CLS-003 — Classification Model
++
++### 104.1. Exact input, outcome and validation scope
++
++**PASS — local documentary validation of the Model reconstruction, localized identity correction and traceability.** The user CONTINUAR authorizes this VALIDATE only, following §103. All 385 UPDATE-manifest entries match actual bytes. The input package SHA-256 is `b89c7622457d67303abd8fc7c10bcf62d862305f925e0f84c324cb7c68d1aa06`.
++
++The exact validated source is `02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md`, 79187 bytes, SHA-256 `82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039`. It remains V2.0 R1, Draft, Baseline Not assigned, Family/Component Classification, Type Architecture, English; cumulative Author Arnaldo Figueira; Codex — AI assistant. No source byte or edition coordinate changes during VALIDATE. Source§33 retains its actual UPDATE-time pending-validation event; this later result is recorded centrally, not retroactively substituted into source history.
++
++This result concerns the fourteen source-local correction criteria and exact documentary evidence. It does not establish authentic historical Model recovery, complete authoritative vocabulary/cardinality/schema/owner integration, deployed implementation, global architectural acceptance, permission, publication or Baseline membership. Actual independent mandatory requirements and remaining owner/interface/consumer/source propagation are not waived. Detailed checks, current source clauses, cases and limitations are in [validation evidence](DF-RVW-002-assets/DF-RVW-002-validation-4-31.json); the [validation diff](DF-RVW-002-assets/DF-RVW-002-validation-4-31.diff) records central changes only.
++
++### 104.2. Fourteen local finding outcomes
++
++| Record | Validated Model sections | Observation supporting local closure | State |
++|---|---|---|---|
++| CLS003-01 | 1,16,17,30,33 | Anchored81-header scan has one genuine CLS001 andone distinct CLS003;intended-allocation/path decision,input/history andno-alias mapping checked. External history andintegrated owner/current-reference qualification remain explicit independent global criteria. | Closed—verified |
++| CLS003-02 | 1,3,4,5,10,27,31,33 | Thirty-three newly authored Model sections supply actual conceptual entities,typed associations,assignment/applicability/invariants andscope;source1/31/33 explicitly distinguishes reconstruction from historical recovery. Exact original Architecture copy preserved;not a header-only fabrication. | Closed—verified |
++| CLS003-03 | 4,5,6,7,8,9,10,14,15 | Model4–10 defines role/category/value/assignment/context distinctions andtwo typed views;actual Dictionary6.1/6.5–6.7 differences remain source-qualified. No fabricated merged catalog,record population orMetadata Element allocation. | Closed—verified |
++| CLS003-04 | 2,11,12,13,14,15 | Model2/11–15/27 matches current working normalized-document Family,uniform four-value primary Type andoptional defined Class;actual older detailed-source meanings andincompatible Model purpose/contract replacements remain explicit. | Closed—verified |
++| CLS003-05 | 2,6,10,18,24 | Model2/6/10/18/24 requires actual subject/role/value/context/authority/evidence as applicable,distinguishes pre-allocation/logical/edition subjects andhistorical membership versuscurrentpermission/reference/retrieval. No universal storage tuple oractual assignment inferred. | Closed—verified |
++| CLS003-06 | 16,17,18,20 | Model16–20 separates category/label/value/assignment/edition from stablequalified K;actual current DID014 K/R andunchanged field/interface/restriction source limits checked. Only intended Model declaration changes;genuine Architecture andallocated identities preserved. | Closed—verified |
++| CLS003-07 | 5,14,15,22 | Model14 matrix distinguishes justified normalized-role rules from missing completeSchema cardinality;actualSchema34/Relationships20/43/SpecificationR013 inspected. Model15/22 distinguishes semantic hierarchies,associations andrequired-service graphs;no blanketDAG/tuple. | Closed—verified |
++| CLS003-08 | 19,20,21,22 | Model19–22 explicitly maps actual provider/consumer/descriptor versusdomain semantic/common Governance/executor responsibilities;actual MTD001/DID009 reciprocity remainsvisible. Registryrecordcataloging andRelationships/Graphowners distinct;no runtime/fullgraph proof. | Closed—verified |
++| CLS003-09 | 18,23,24,25 | Model18/23–25 preservesactual proposed definitionstates andCLS007 threeoutcomes withrule-dependentwarnings,evidencecoverage/nonmutation andpermission/approval separation. Actual definition/usage/docStatus/R/finding/Milestonestates notmerged;missingmandatoryevidence notinventedviolation. | Closed—verified |
++| CLS003-10 | 3,26,30,33 | Model3/26/30/33 identifiesactual prior/new purpose/entity/role/authority/evolution decisions undercurrentArchitecture28;ordinarypreservation versusnecessaryassessedrevision retainsowner/consumer/interface/compatibility/version/mapping/history/snapshot andlatercheck requirements. Peersunchanged/globalacceptance withheld. | Closed—verified |
++| CLS003-11 | 27,28,29,30 | Model27–29 supplies12localconceptualinvariants,claim/evidence/actualmandatoryownercoverage and10illustrativecases;actualSpecR004/R010/R013/Corecriteria retainedwithoutimplementationPASS. M6 history andM12 review completion/localversusglobalacceptance remain separate. | Closed—verified |
++| CLS003-12 | 1,3,30,31,32,33 | Full exactbefore/after/header/history,diff,48oldsubjectmaps/18viewmaps/33newsections andcompatibility/provenance decision verified. OriginalundatedArchitecturehistory andcontributorretained;newModelworkattributedtoCodex. CurrentArchitecture/Concepts completedevents retainexactscope. | Closed—verified |
++| CLS003-W01 | 5,10,31 | Eighteen received unnamed views compare exactly withoriginalsource,hashes,anchors andeverylabel/relation/currentArchitecturecontext/disposition;two newviews explicitlynewlyauthoredandscoped. No inventedhistoricalviewIDs/cardinalities/runtimepath. | Closed—verified |
++| CLS003-W02 | 1,16,17,30,31,32,33 | All53receivedinboundoccurrences/20sources and15prospectivedomainbatch coordinate/hash/disposition maps checked;36intendedtargetlinks resolve. Threeactualpriornotecontexts,includingPolicy4.3,explicitlyqualifiedwithoutclaimingpropagation;historicalexports,89positions andContextonlypackaging retained. | Closed—verified |
++
++The incompatible V2.0 R1 successor is supported by actual replacement of Architecture purpose/contract with a newly authored conceptual Model, including role/entity/assignment/interface/evolution and conformance meaning. It is not justified merely by corrected header labels. Major 1→2, minor 0 and monotonic Revision 0→1 follow Policy5.2 for this received file. Genuine Architecture retains its legitimate key and path; this does not invent an authentic historical Model R0. Received V1.0 R0/Draft/Baseline1.0 and original attribution remain evidence. This unchanged-source validation increments neither Version nor Revision.
++
++### 104.3. Provenance, preservation and actual conceptual coverage
++
++The exact full before-source matches the received REVIEW copy and its SHA-256; the exact full after-source matches the current Model. All 33 newly authored section texts/headings/digests agree. The original 38 Architecture chapters/48 numbered headings, body digests, original list subjects, fifteen-row catalog, fifteen-ID M6 view, thirty-one related subjects/twenty-nine distinct IDs plus two component subjects and undated initial Architecture history remain exact evidence. Their current Architecture section/title/body/hash and newly authored Model disposition maps agree with genuine CLS001 V2.0 R1. They are not falsely described as recovered historical Model chapters.
++
++All eighteen original unnamed view texts, digests and anchors match the original copy. Every actual label/relation line and its typed current Architecture context/disposition was checked. There are no invented original diagram IDs. Model§§5/10 contains two explicitly newly authored Mermaid views; their semantic/evidence arrows establish neither runtime route, physical record, allocation, permission nor implicit cardinality. Ten illustrative cases and twelve local M-01–M-12 clause labels remain scoped; no global constraint/Metadata/category allocations are inferred.
++
++Thirty-two reasoned documentary cases assess actual identity/provenance, authorship/edition/Baseline, functional exclusions, pre-allocation/logical/edition subjects, entity/role/category/value/context/assignment distinctions, actual Dictionary differences, normalized Family/uniform Type/optional Class, justified role requirements versus missing general cardinality, semantic hierarchy/acyclicity, assignment/membership/history/usage, stable K/allocation/aliases, definition edition/retrieval, Metadata and provider ownership, actual reciprocal dependency claims, Registry/Relationships/Graph scope, proposed definition lifecycle, actual three validation outcomes/warnings, missing evidence versus observed violation, nonmutating evaluation/permission/approval, necessary assessed revision, compatibility/version, mandatory Specification owner requirements and local-versus-global/current-prior-note scope. They compare actual source meaning and evidence; they are not executed assignments, permission tests, classifier/lifecycle runs, migrations or production integration tests.
++
++### 104.4. Identity, references and current owner evidence
++
++The anchored scoped inventory has 81 normalized documents and eight functional Markdown files. Each normalized current header has its required identity/edition/lifecycle coordinates, all scoped IDs are unique, and current declarations include one genuine DF-CLS-001 Architecture and one distinct DF-CLS-003 Model. Historical wrong declarations remain in the received manifest/maps and event evidence. Genuine Architecture exact hash remains `6eb5fe3d98319b15ec487a13aaf705bc6e4d399974aec0f72d3f33b2d583e7d4`; Concepts remains unchanged. There is no CLS001→CLS003 alias, global substitution or retired-ID reuse. Historical naming intent, external reservation-history limitations and the actual path-scoped decision were verified separately from Model content and acceptance.
++
++All 36 actual source links resolve to intended paths and actual declared ID/title. All 53 received inbound occurrences across 20 sources retain exact text in the appropriate current source, immutable Model before-source or traced M12 tracking-row diff. The original M12 O/CLS001 row is preserved in the REVIEW diff; its explicit REVIEW O→S and UPDATE intended-ID changes are recorded by their exact diffs, and this validation records the later S→C event. This is a traceable current-tracking progression, not a silent rewrite of historical completion or source events. The fifteen-path domain batch retains exact source coordinates/hashes and remains byte-unchanged. Each proposed action identifies the prior/new intended Model reference meaning and actual owner/consumer/interface/compatibility limits; no operational implementation compliance follows from an intended document link now resolving.
++
++Forty-five original REVIEW comparison sources were re-read with actual selected clauses. The received nominal-Model comparison is explicitly historical after reconstruction; current Model clauses/coordinates replace it only in this new validation evidence. The other 44 REVIEW comparison source hashes and coordinates remain exact. Six additional current DID003/004/006/010/011/013 sources were inspected for the Model's actual field/core/lifecycle and prior-restriction context: 51 selected comparison sources in this validation, not full revalidation of those documents.
++
++Actual Dictionary6.1/6.5–6.7 broader terminology differs from the Model's qualified working distinctions. Elements/Schema/Constraints still carry older Family/Type meanings. Schema34 leaves complete cardinality unestablished; Relationships20 illustrates old multiplicities, and43 qualifies acyclicity by actual relationship type/Schema. Specification R-004/R-010/R-013 and Core16.1 require their actual Model/Element/cardinality evidence. Model4/14/15/28/30 exposes these differences rather than filling missing numbers, merging all terms or claiming complete Core/implementation success.
++
++Actual CLS00620 states proposed Defined/Active/Deprecated/Retired definition states, distinct from usage/document Status/identity assertion/finding/Milestone. Actual CLS00739–42 has Valid/Valid with Warnings/Invalid under applicable rule/observation/coverage conditions. Model23–24 preserves those distinctions, rule-dependent warnings and missing-evidence limits. Current DID014 local K/R decision and actual field/interface/prior-restriction propagation retain their limits. Actual MTD001 depends-only versus support/descriptor statements and DID009/README reciprocal required claims remain unchanged pending core-versus-descriptor/source-edition/interface/cycle assessment. Typed projections or selected diagrams erase no indispensable provider and establish no full DAG.
++
++### 104.5. Current prior-note qualifications and independent global limits
++
++Three exact source contexts still need factual/current-status coordination: genuine Architecture V2.0 R1 §39, Concepts V2.0 R1 §44, and Review Policy V1.0 R2 §4.3. Architecture/Concepts contain event-time missing-Model/wrong-declaration/batch-coordinate notes. Policy4.3 still describes the received wrong Architecture copy and its then-pending recovery/update. This validation explicitly qualifies those factual premises as pre-4.31 input evidence; the localized-correction/no-global-alias process rule remains applicable. None of those source bytes is silently changed or claimed already current after the reconstruction. The previously identified Architecture prior-Concepts coordinate note likewise remains pending responsible qualification.
++
++Those completed source cycles and historical events retain their exact scope. A separately traced responsible propagation must qualify current normative/current-status statements and actual owner/consumer rules before a full integrated claim. The fifteen domain-path batch is not represented as including every process/authority source or external consumer; the actual Policy occurrence and source coordinates are separately recorded here. Source-local closure of fourteen Model findings is not closure of INV-01/REV2-05, architectural acceptance of the reconstruction or proof of complete reference/semantic conformity. REV2-03/04/09/10 and all nineteen global Open records retain independent criteria.
++
++### 104.6. Tracking, export and pause
++
++Fourteen local records move Corrected—pending validation→Closed—verified. Totals: 19 global Open, 350 Closed—verified, INV-02 Not applicable—scope decision and zero local corrected-pending records. M12 eighteen C/46 O, In Progress; Model's scoped documentary cycle completes2026-10-16. That completion records actual local documentary criteria only; M13/global owner/reference and M14 integrated validation remain pending. Historical M0–M7 remain unchanged and no completed cycle restarts.
++
++Report V1.0 R97→R98; CHANGELOG535 exact-source validation,536 report,537 Milestone. Allocation-map export receives its traced representation successor1.0/3, retaining the actual pending UPDATE event and adding this later scoped validation event; old declared/input fields remain evidence. All89 progress positions, prior evidence exports, unaffected domain bytes and source authorship/edition are preserved. Only central report/CHANGELOG/Milestone/progress/current manifest/allocation representation changes; sourceModel remains exact unchanged. No auxiliary Author indicator, allocation of unrelated entities, migration, operational approval, publication or Baseline inclusion is performed.
++
++**Pause after VALIDATE. CONTINUAR starts4.32 REVIEW DOCUMENT DF-CLS-004 — Classification Elements.** Step4.32 is not started by this validation.
+--- update431/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv
++++ validated431/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv
+@@ -29,7 +29,7 @@
+ 4.28,02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md,DF-DID-015,Document Identity Examples,Version=1.0; Revision=0; Status=Canonical; Baseline=1.0; SHA-256=30d79dc17cbda645f4c2ab5541b7fcab8aef068e995e85321239329b1e6511c0,V1.0 R1 Draft;Baseline Not assigned;Family/Component Document Identity;Type Reference;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=b61ca89b7ad87bc04118d3d6b37e21b59e3c044f2f3bc5313c9a396a3e06ed73,Complete full REVIEW;14 findings/2 warnings Open;24chapters/20examples/20views/14source rows;source unchanged;reportR87 section93,Complete;compatible informative correction;24original chapters/20exact diagrams retained with typed legends;K/R/currentDID014evolution/conditionalclaims/authority;reportR88 section94,PASS—local educational correction/traceability;exact unchangedV1.0R1 SHA-256 b61ca89b7ad87bc04118d3d6b37e21b59e3c044f2f3bc5313c9a396a3e06ed73;24maps/20original diagrams/14source rows/28documentary cases;reportR89 section95,16DID015 records Closed—verified;19globalOpen includingREV2-09/10 unchanged;currentK/Rfield/interface/sourceconsumer propagation andactualMetadata reciprocity remainpending,498–501 REVIEW;502–504 UPDATE;505–507 VALIDATE,"M12 fifteen C/49 O In Progress;DID-015 C,completion2026-10-15;local documentary scope only",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+ 4.29,02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md,DF-CLS-001,Classification Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=75b689426bec5e349f555ab41855732c1c689898a49563aa4bdf44ef7d4014e9,V2.0 R1 Draft;Baseline Not assigned;Family/Component Classification;Type Architecture;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=6eb5fe3d98319b15ec487a13aaf705bc6e4d399974aec0f72d3f33b2d583e7d4,Complete full REVIEW;14 findings/2 warnings Open;38chapters/48bodies/18views/allsubjects;source unchanged;reportR90 section96,Complete;incompatiblearchitectural contract/interpretation reconciliation;uniformclassification/domain-descriptor/evolution/requiredinterface/governance/validation/conformance scope;48originalbodies/18views and23affected-source map;reportR91 section97,PASS—local Architecture correction/traceability;exact unchangedV2.0R1 SHA-256 6eb5fe3d98319b15ec487a13aaf705bc6e4d399974aec0f72d3f33b2d583e7d4;48maps/18views/47links/30documentarycases/23affectedentries;reportR92 section98,16CLS001records Closed—verified;19globalOpen includingINV-01/REV2-05/09/10 unchanged;nominalModel separate4.31/actualoldpeer/Metadata/providerinterfaces/fullimplementation remainpending,508–511 REVIEW;512–514 UPDATE;515–517 VALIDATE,"M12 sixteen C/48 O In Progress;genuineCLS001 C,completion2026-10-15;local documentary scope only;nominalModel4.31 unchanged",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+ 4.30,02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md,DF-CLS-002,Classification Concepts,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=33d5277a1f47cdb83970915d70e8c7fecc782ff05b386a42726ecffbe97bb3e3,V2.0 R1 Draft;Baseline Not assigned;Family/Component Classification;Type Architecture;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=640b3e6ad7ed850d45a4eaee97403810915402342c39c5cbd024421a912a23e4,Complete full REVIEW;14findings/2warnings Open;43chapters/50bodies/30views/11boundaryrows/allsubjects;sourceunchanged;reportR93 section99,Complete;incompatibleconceptual Family/Type/hierarchy/conformance andscopedrole/owner/usage/outcome/evolution reconciliation;50originalbodies/30exactviews/24affected-source map;reportR94 section100,PASS—local conceptual correction/traceability;exact unchangedV2.0R1 SHA-256 640b3e6ad7ed850d45a4eaee97403810915402342c39c5cbd024421a912a23e4;50maps/30views/33links/32documentarycases/24affectedentries/actualArchitecturepriornote;reportR95 section101,16CLS002records Closed—verified;19globalOpen includingREV2-03/04/09/10 andINV-01/REV2-05 unchanged;ArchitecturepriorConceptsnote qualification/actualpeer-owner-interface andauthenticModel recovery remainpending,518–521 REVIEW;522–524 UPDATE;525–527 VALIDATE,"M12 seventeen C/47 O In Progress;CLS002 C,completion2026-10-15;localdocumentary scope only;Model4.31 unchanged",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+-4.31,02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md,DF-CLS-003,Classification Model,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28,V2.0 R1 Draft;Baseline Not assigned;Family/Component Classification;Type Architecture;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039,Complete full received-source REVIEW;12 findings/2 warnings Open;38 chapters/48 bodies/18 views;Model identity/content gap;source unchanged;reportR96 section102,Complete explicit newly authored Model reconstruction and localized wrong CLS001→intended CLS003 declaration correction at Model path only;33newsections/48receivedsubjectmaps/18receivedviews/2newviews/15affectedpaths;reportR97 section103,Not performed;separate phase pending,14CLS003records Corrected—pending validation;19globalOpen/336Closed/INV02 unchanged;no global closure or architecture approval,528–531 REVIEW;532–534 UPDATE,"M12 seventeen C/one S/46 O In Progress;Model S;start2026-10-16,no completion;local source update only",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
++4.31,02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md,DF-CLS-003,Classification Model,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28,V2.0 R1 Draft;Baseline Not assigned;Family/Component Classification;Type Architecture;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039,Complete full received-source REVIEW;12 findings/2 warnings Open;38 chapters/48 bodies/18 views;Model identity/content gap;source unchanged;reportR96 section102,Complete explicit newly authored Model reconstruction and localized wrong CLS001→intended CLS003 declaration correction at Model path only;33newsections/48receivedsubjectmaps/18receivedviews/2newviews/15affectedpaths;reportR97 section103,PASS—exact unchanged V2.0 R1 local Model reconstruction/identity correction andtraceability;33newsections/48receivedsubjectmaps/18oldviews/2newviews/36links/32documentarycases;reportR98 section104,14CLS003records Closed—verified;19globalOpen/350Closed/INV02 unchangedscope;INV01/REV205 remainindependent;actualpeer-owner/cardinality/interface/priornote propagation andarchitecturalacceptance pending,528–531 REVIEW;532–534 UPDATE;535–537 VALIDATE,M12 eighteen C/46 O In Progress;Model documentary cycle completed2026-10-16;noarchitectureapproval/Baseline,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+ 4.32,02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md,DF-CLS-004,Classification Elements,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=b83d95cae80262ce0cf72b42cd0f7a2b64f16ebab9c4bfcbca5fa65bf66f2215,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=b83d95cae80262ce0cf72b42cd0f7a2b64f16ebab9c4bfcbca5fa65bf66f2215,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+ 4.33,02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md,DF-CLS-005,Classification Schema,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=949674b939519664145cd57b4186ff5f1edfbbd5be268d015858bebcc0977b6f,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=949674b939519664145cd57b4186ff5f1edfbbd5be268d015858bebcc0977b6f,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-03; REV2-04; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+ 4.34,02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md,DF-CLS-006,Classification Lifecycle,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=fc13b069e9f4f31cf05e3c2a1ad017f08802150cdde8dbf28a21251093fd856e,Review pending,Not performed,Not performed,Initial triage; see report,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+--- update431/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-allocation-map.json
++++ validated431/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-allocation-map.json
+@@ -1,7 +1,7 @@
+ {
+   "parent_document_id": "DF-RVW-002",
+   "version": "1.0",
+-  "revision": 2,
++  "revision": 3,
+   "general_migration": "not required",
+   "external_history": "not available; no global uniqueness claim",
+   "allocations": [
+@@ -114,13 +114,14 @@
+       "path": "02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md",
+       "declared_id": "DF-CLS-001",
+       "nominal_id": "DF-CLS-003",
+-      "action": "Localized Model reconstruction and intended declaration correction performed; pending VALIDATE and independent global criteria",
++      "action": "Localized intended Model reconstruction/declaration correction locally verified at4.31 VALIDATE;global owner/reference/acceptance criteria remain Open",
+       "input_sha256": "2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28",
+       "received_action": "Pending path-scoped CLS-003 recovery; not a global CLS-001 alias",
+       "current_document_id": "DF-CLS-003",
+       "current_title": "Classification Model",
+       "current_edition": "V2.0 R1 Draft; Baseline Not assigned",
+-      "current_sha256": "82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039"
++      "current_sha256": "82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039",
++      "current_source_validation_state": "Closed—verified within exact local documentary scope"
+     },
+     {
+       "path": "02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md",
+@@ -632,7 +633,7 @@
+       "action": "New allocation; corpus scan found no prior RVW occurrences; external allocation history unavailable"
+     }
+   ],
+-  "parent_report_edition": "1.0/97",
++  "parent_report_edition": "1.0/98",
+   "date": "2026-10-16",
+   "declared_id_semantics": "Retained received declarations in allocation rows; current corrected identity is stated explicitly in scoped successor fields",
+   "correction_events": [
+@@ -647,5 +648,20 @@
+       "evidence": "DF-RVW-002-update-4-31-map.json",
+       "external_history": "Unavailable;documented localized intended-allocation decision,not general gap-based allocation"
+     }
++  ],
++  "validation_events": [
++    {
++      "date": "2026-10-16",
++      "step": "4.31 VALIDATE",
++      "report_section": 104,
++      "path": "02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md",
++      "current_document_id": "DF-CLS-003",
++      "source_sha256": "82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039",
++      "source_edition": "V2.0 R1 Draft; Baseline Not assigned",
++      "result": "PASS — scoped documentary identity correction and reconstruction traceability;source unchanged",
++      "local_source_finding_state": "Closed—verified",
++      "scope": "One scoped current CLS001 andoneCLS003;noalias/generalreplacement;no external allocationhistory assurance,completeowner-referenceintegration orarchitecturalacceptance",
++      "global_INV01_REV205": "Open — independent integrated criteria"
++    }
+   ]
+ }
