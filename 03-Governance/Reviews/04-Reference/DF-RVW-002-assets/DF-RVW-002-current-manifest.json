@@ -1,9 +1,9 @@
 {
   "parent_document_id": "DF-RVW-002",
-  "edition": "1.0/135",
+  "edition": "1.0/136",
   "date": "2026-10-16",
   "self_hash": "Excluded;external receipt",
-  "source_state": "4.43 UPDATE CLS015 compatible illustrativeV1R1 Reference/current04-Reference,Draft/unassigned,cumulative real author.65 original examples/77 original bodies/80 raw headings72 chapters/14 lists99 subjects/28 original data rows/108 exact unnamed spans518 literal fragments/four quotes28 links/undated original history retained. Actual conditional assumptions/fictional-real identities/typed subjects/current owner/evidence-coverage/Dictionary ten-minimum fiveR031/Core-all/authority-conditions/history/necessary revision/physical-provider-executor scope explicit.117 proper table blocks. Five decisions73/36 prospective unchanged paths,61 REVIEW-time snapshots/51 received occurrences19sources/33 prior-note contexts.28 corrected-pending/19 globalOpen/579Closed/INV02;M12 29C1S34O. EntireM13 NotStarted exact/both actual placement requirements unmet/unwaived;M14/owner/implementation/permission/global architectural acceptance independent. No source VALIDATE/closure/allocation/adoption/operation/publication/Baseline/global approval",
+  "source_state": "4.43 VALIDATE PASS exact unchanged CLS015V1R1 illustrative Reference/current04-Reference,Draft/unassigned.28 localClosed—verified/19globalOpen/607Closed/INV02;M12 30C0S34O InProgress.56 documentary comparisons/65 complete example-context audits/ten minimum-owner-support audits/fiveR031/Core-all retained/Extended overlap.77 original bodies80 headings72 chapters14lists99subjects28 original data rows108 exact unnamed spans518 fragments28links/fourquotes/undated history/cumulative real contributor retained;117 actual table blocks610rows verified.61 current source snapshots36 unchanged affected paths/51 received occurrences19sources33 actual prior notes/historical basis. EntireM13 NotStarted exact/both actual placement requirements unmet/unwaived;M14/owner/integration/implementation/permission/global acceptance independent. No source edit/actual execution of examples/popuIated canonical records/field-key-term allocation/full implementation/operation/adoption/publication/Baseline/global approval. Next4.44 REVIEW MTD001 not started",
   "known_collision": "81 scoped IDs unique at REVIEW;received Model collision historical,INV01/REV205 integrated criteria independent",
   "files": [
     {
@@ -554,8 +554,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
-      "sha256": "54f1a144d11b34a477ba9fb6f8ad3b81543079c0af52011332d28d960ea1854c",
-      "bytes": 2608422,
+      "sha256": "2fa7c1395b53728c59fb9c660a80152ad80086d2b45aa76064b12d1b7fbac7aa",
+      "bytes": 2645297,
       "normalization_scope": true,
       "input_sha256": null
     },
@@ -654,8 +654,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv",
-      "sha256": "9f2542da3fba4eb280c985ad4572bee9793211fc3c791f67acba2da06130c7a2",
-      "bytes": 93051,
+      "sha256": "cb21de37177ee0ff3a021bb7cd1dc2e306e865b5c36aaa754235eccd4060be49",
+      "bytes": 93540,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -3111,6 +3111,18 @@
       "normalization_scope": false
     },
     {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation-4-43.diff",
+      "sha256": "7f713312181fc419bbe95fa5db98a78c4e4dda1f206e9ec9fc678791e57ec634",
+      "bytes": 65831,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation-4-43.json",
+      "sha256": "b37e1cab3019b1bbd2fe0e194cfcf98ac204256ede67d3344a728438bd05527a",
+      "bytes": 13529274,
+      "normalization_scope": false
+    },
+    {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation.json",
       "sha256": "b4f2b4e01f807ac7184fd7d4a021a73ab300337d0fbc1368aa2278b6203f65a1",
       "bytes": 915,
@@ -3119,15 +3131,15 @@
     },
     {
       "path": "ArchitecturalMilestones.md",
-      "sha256": "f19b0c42a9b567c711f7db0bab33e15e57a9669d9462cad82edd9cebfbdd6dfe",
-      "bytes": 132561,
+      "sha256": "299e9eeca4b05265c2a3da36285eaccc739e060e4b5408a30bdfd01c2ccea0aa",
+      "bytes": 134499,
       "normalization_scope": false,
       "input_sha256": "9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "c3fb74861eac30bf67dd691f23c133990bd6734832a05b3bb741fb72bee82a40",
-      "bytes": 239536,
+      "sha256": "8ead0fc31462dff9b8bde7f749a68f05558e57e7047438fea4cdd06387f89fec",
+      "bytes": 241573,
       "normalization_scope": false,
       "input_sha256": "ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b"
     },
