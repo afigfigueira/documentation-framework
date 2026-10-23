@@ -1,0 +1,40 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/105",
+  "date": "2026-10-16",
+  "result": "PASS — REVIEW traceability only",
+  "scope": "No source VALIDATE,correction,transition,finding closure,implementation or architecture approval",
+  "checks": {
+    "input403_manifest_hashes_bytes_and_package_match": true,
+    "source_exact_unchanged": true,
+    "55_chapters59_bodies62_headings3_tables": true,
+    "62_exact_named_spans_IDs001to062": true,
+    "229_actual_label_relation_occurrences": true,
+    "17_list_groups10_invariants7_conformance33_related_IDs": true,
+    "17_literal_records15_findings2_warnings_Open": true,
+    "54_current_selected_headers_hashes_clauses": true,
+    "actual_Model_Elements_Schema_successors_and_limits_explicit": true,
+    "correct_Behavior_header_path_retained": true,
+    "actual_supplied_Governance_Constraints_Dictionary_Spec_mandates_not_waived": true,
+    "proposed_state_action_and_missing_exact_transition_authority_distinguished": true,
+    "actual81_normalized_header_IDs_unique_8_functional_excluded": true,
+    "46_literal_inbound_occurrences20_sources_exact": true,
+    "28_actual_affected_paths_hashes_coords_and_clauses": true,
+    "M13_entire_block_unchanged_placement_known_unmet": true,
+    "89_stable_progress_positions_other88_rows_unchanged": true,
+    "M12_actual20C1S43O_no_completion": true,
+    "CHANGELOG_reverse561_to1": true,
+    "all_prior_files_except4_central_tracking_files_unchanged": true,
+    "source_UPDATE_VALIDATE_not_performed": true,
+    "no_Author_auxiliary": true
+  },
+  "comparison_paths": 54,
+  "prospective_batch_paths": 28,
+  "inbound_sources": 20,
+  "inbound_occurrences": 46,
+  "M12_counts": {
+    "C": 20,
+    "S": 1,
+    "O": 43
+  }
+}
