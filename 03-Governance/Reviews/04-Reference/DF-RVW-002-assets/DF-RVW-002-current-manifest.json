@@ -1,10 +1,10 @@
 {
   "parent_document_id": "DF-RVW-002",
-  "edition": "1.0/129",
+  "edition": "1.0/130",
   "date": "2026-10-16",
   "self_hash": "Excluded;external receipt",
-  "source_state": "4.41 UPDATE CLS013V2R1 incompatible authoritative role/derived meaning correction,Reference/current04-Reference,Draft/unassigned.24 corrected-pending/19 global Open/529 Closed/INV02;M12 27C1S36O In Progress.73 entries/201 literal related strings17 nonexact labels/29 original table pairs/131 bodies/86 lists/6 exact unnamed spans46 labels/26 links/14 unchecked prompts/undated initial history fully mapped. Five actual decisions40/36 unchanged prospective paths/current peer history scoped. EntireM13 Not Started,both actual placement requirements unmet/unwaived;M14/owner/implementation/permission/global acceptance independent. No source VALIDATE,closure,actual canonical decision/condition fulfillment/adoption/activation,operation,publication,Baseline or global approval",
-  "known_collision": "81 scoped IDs unique at REVIEW;received Model collision historical,INV01/REV205 integrated criteria remain",
+  "source_state": "4.41 VALIDATE PASS exact unchangedCLS013V2R1 authoritative scoped terminology,Reference/current04-Reference,Draft/unassigned.24 local Closed—verified/19 global Open/553 Closed/INV02;M12 28C0S36O In Progress.46 documentary comparisons/73 full entry201 ordered reference17 nonexact-label audits/87 actual table blocks330 rows/full131-body6-span46-label86-list29-pair26-link14-unchecked/source-owner-authority-history evidence. Received report129 omitted history row reconciled from actual existing UPDATE event during130,not invented source/intermediate edition. EntireM13 Not Started,both actual placement requirements unmet/unwaived;M14/actual owner/integration/implementation/permission/global architectural acceptance independent. No source edit/domain operation/canonical adoption/publication/Baseline/global approval. Next4.42 REVIEW CLS014 not started",
+  "known_collision": "81 scoped IDs unique;received Model collision historical,INV01/REV205 integrated criteria independent",
   "files": [
     {
       "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
@@ -554,8 +554,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
-      "sha256": "1db4614a0b2dd79407e557fcb54859234cfa929be9bdca55808fcec41fae5388",
-      "bytes": 2390629,
+      "sha256": "bda86cc815511781b51db4119226b1645f288671381ef55dd11c9da33c512009",
+      "bytes": 2419676,
       "normalization_scope": true,
       "input_sha256": null
     },
@@ -654,8 +654,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv",
-      "sha256": "42242af7446fa56ea65a938a7d72f16e21048141c736435fc13a92e29118c458",
-      "bytes": 88968,
+      "sha256": "d254f0d8f19d1b6422e7b4874cfe58d997e0e68d1f4f6dd7c344ac06e90074a9",
+      "bytes": 89413,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -3015,6 +3015,18 @@
       "normalization_scope": false
     },
     {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation-4-41.diff",
+      "sha256": "feed499acef8df48c7cc100b24817ba1037f113159311dda78d80a352f6f6261",
+      "bytes": 55401,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation-4-41.json",
+      "sha256": "c0bc0289e008897cbcbb75b7d09d48f32ad9f22099ceb49f4c410b5652230a0d",
+      "bytes": 11179399,
+      "normalization_scope": false
+    },
+    {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-validation.json",
       "sha256": "b4f2b4e01f807ac7184fd7d4a021a73ab300337d0fbc1368aa2278b6203f65a1",
       "bytes": 915,
@@ -3023,15 +3035,15 @@
     },
     {
       "path": "ArchitecturalMilestones.md",
-      "sha256": "f9e7f5cdfbdf75d9405a1e937e2387bb1a94fb5f4b492b1818353a727fcc0cd7",
-      "bytes": 120943,
+      "sha256": "11882fe096b2a850b0bb08de5d34277d4e58cb8eb7d8c291c5948c39c11fcd49",
+      "bytes": 122772,
       "normalization_scope": false,
       "input_sha256": "9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "879d55dc33c5cb08d6fd21c7da8e5bfa4ec19c4a92761156de424c1b80fc0bfd",
-      "bytes": 226540,
+      "sha256": "d6719abe33017e4eee3337b21d5ab2b03c0b3e4112c59a5812e9138a97106267",
+      "bytes": 228487,
       "normalization_scope": false,
       "input_sha256": "ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b"
     },
