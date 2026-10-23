@@ -1,10 +1,10 @@
 {
   "parent_document_id": "DF-RVW-002",
-  "edition": "1.0/124",
+  "edition": "1.0/125",
   "date": "2026-10-16",
   "self_hash": "Excluded;external receipt",
-  "source_state": "4.39 Correction1 VALIDATE PASS exact unchangedCLS011V2R2 Behavior/current03-Behavior Draft/unassigned.23 local Closed—verified/19 global Open/507 Closed/INV02;M12 26C0S38O In Progress. Three exact repairs/44 header arities/38 documentary comparisons and actual source-owner-preservation-history evidence;failedV2R1/result immutable. EntireM13 Not Started/both actual placement residuals unmet/unwaived;actual independent owner/integration/implementation/permission/global acceptance limits remain. No source edit/domain operation/canonical adoption/publication/Baseline/global approval. Next4.40 REVIEW CLS012 not started",
-  "known_collision": "81 current scoped IDs unique;received Model collision historical,INV01/REV205 integrated criteria independent",
+  "source_state": "4.40 REVIEW exact unchangedCLS012V1R0 Reference/current04-Reference,Draft/Baseline1.0,explicit informative guidance.22 local Open/19 global Open/507 Closed/INV02;M12 26C1S37O In Progress.123 bodies/126 headings/35 unnamed spans/176 labels/2 tables/56 lists/30 unchecked checklist items/26 targets/36 prospective paths/49 occurrences/26 prior notes. Current advice-authority/roles/precedence/conditions/coverage/history/identity/independence/provider scope;propose compatibleV1R1 conditional actual UPDATE,no automaticmajor2/new mandates. EntireM13 Not Started/both actual placement residuals unchanged. No source UPDATE/VALIDATE/domain operation/permission/canonical adoption/publication/Baseline/global acceptance",
+  "known_collision": "81 scoped IDs unique;received Model collision historical,INV01/REV205 integrated criteria independent",
   "files": [
     {
       "path": "00-Foundation/DF-FND-001-FrameworkManifest.md",
@@ -554,8 +554,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
-      "sha256": "8262c33496b324d8dfcdf03c1486956f6048869d0b13a7ab50c1a0b4c4306453",
-      "bytes": 2221520,
+      "sha256": "9cfae3efab9b1b78c6043bf0ceddfeeabb71398868239aa611bfa768b7a45c7c",
+      "bytes": 2259290,
       "normalization_scope": true,
       "input_sha256": null
     },
@@ -654,8 +654,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv",
-      "sha256": "128cfec3e18e4296f9bcf9e6feade80ac16cfce33de01ff561e93711769377d2",
-      "bytes": 85894,
+      "sha256": "0008ed6c42a13e9c44ab197a9244b824ac17875419e486add22da90962db6f7f",
+      "bytes": 86816,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -1419,6 +1419,24 @@
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-39.diff",
       "sha256": "3dc8da3a4785114600bee6f0da7bb3a1c85679112de47b482c82d08f8adb3c46",
       "bytes": 62586,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-40-checks.json",
+      "sha256": "ca25def000f64b3694f0586a3c5b045577056a6bb37d160b57ae6d3a4971b5f6",
+      "bytes": 2217,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-40-evidence.json",
+      "sha256": "b4468dcee9506ab7784f64988be16a72cfb42aac6e313241e153b39749b3f67b",
+      "bytes": 4231800,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-40.diff",
+      "sha256": "f5da4ccafe3e905369a869f275a03d1dcb9a0d50398d5abada4d7168047e571e",
+      "bytes": 60273,
       "normalization_scope": false
     },
     {
@@ -2939,15 +2957,15 @@
     },
     {
       "path": "ArchitecturalMilestones.md",
-      "sha256": "e816a74b584e22455fc992d75e9b7615de796284bc4d9b06a2ba12fb2bb9d4e8",
-      "bytes": 113208,
+      "sha256": "8b1be58f5d3a7397ab8b15ade8f013bd8b774c613bdcc719191f00f322641b1d",
+      "bytes": 114587,
       "normalization_scope": false,
       "input_sha256": "9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "f26768db6e2dc4a8057e36a3a5fc8102b36f1db9effe21e6855a7b4882648631",
-      "bytes": 216689,
+      "sha256": "207d78ac215151c330a2b69ca2ee8db1b18d795599b3fdf2dc2c5fcac9710eaf",
+      "bytes": 218864,
       "normalization_scope": false,
       "input_sha256": "ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b"
     },
