@@ -1,7 +1,7 @@
 {
   "parent_document_id": "DF-RVW-002",
   "version": "1.0",
-  "revision": 1,
+  "revision": 2,
   "general_migration": "not required",
   "external_history": "not available; no global uniqueness claim",
   "allocations": [
@@ -114,8 +114,13 @@
       "path": "02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md",
       "declared_id": "DF-CLS-001",
       "nominal_id": "DF-CLS-003",
-      "action": "Pending path-scoped CLS-003 recovery; not a global CLS-001 alias",
-      "input_sha256": "2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28"
+      "action": "Localized Model reconstruction and intended declaration correction performed; pending VALIDATE and independent global criteria",
+      "input_sha256": "2fff65812d8db30768966b6b313387cafb35b4c3b33c2a53ed7b6aeecd066d28",
+      "received_action": "Pending path-scoped CLS-003 recovery; not a global CLS-001 alias",
+      "current_document_id": "DF-CLS-003",
+      "current_title": "Classification Model",
+      "current_edition": "V2.0 R1 Draft; Baseline Not assigned",
+      "current_sha256": "82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039"
     },
     {
       "path": "02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md",
@@ -625,6 +630,22 @@
       "declared_id": "DF-RVW-002",
       "nominal_id": "DF-RVW-002",
       "action": "New allocation; corpus scan found no prior RVW occurrences; external allocation history unavailable"
+    }
+  ],
+  "parent_report_edition": "1.0/97",
+  "date": "2026-10-16",
+  "declared_id_semantics": "Retained received declarations in allocation rows; current corrected identity is stated explicitly in scoped successor fields",
+  "correction_events": [
+    {
+      "step": "4.31 UPDATE",
+      "report_section": 103,
+      "source_path": "02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md",
+      "received_declared_id": "DF-CLS-001",
+      "current_document_id": "DF-CLS-003",
+      "current_source_sha256": "82e5cace5d9bc7b05f2f591c25462a7adcf0a2253a751fdeca36ea9392045039",
+      "state": "Corrected—pending validation",
+      "evidence": "DF-RVW-002-update-4-31-map.json",
+      "external_history": "Unavailable;documented localized intended-allocation decision,not general gap-based allocation"
     }
   ]
 }
