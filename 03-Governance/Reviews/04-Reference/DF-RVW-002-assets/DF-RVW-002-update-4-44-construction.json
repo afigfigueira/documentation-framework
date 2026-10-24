@@ -1,0 +1,737 @@
+{
+  "parent_document_id": "DF-RVW-002",
+  "report_edition": "1.0/138",
+  "date": "2026-10-16",
+  "step": "4.44",
+  "phase": "UPDATE construction checks only",
+  "source_sha256": "bf898f2bd26bdbdaa2c804d568ed5704fcb9d3061ef1b6ce8da97f22eae4be22",
+  "source_bytes": 85436,
+  "checks": {
+    "491_input_manifest_raw_hashes_bytes_exact_REVIEW_ZIP_receipt_manifest": true,
+    "actual_incompatibleV2R1_Architecture_current01_Architecture_Draft_unassigned_cumulativeAuthor": true,
+    "actual7_8_1_10_6_10_9_13_operative_contract_changes_full_before_current_material_map": true,
+    "29_original_bodies15_major_chapters31_rawheadings_order_full_maps": true,
+    "12_lists83_subjects_eight_actual_exclusion_changes_individually_mapped": true,
+    "9_principle_subjects7_constraints7_ordered_stages6_local_conformance_subjects_retained": true,
+    "eight_received_exclusion_subjects_historical_scope_not_competing_operative_bans": true,
+    "11_original_component_relation_pairs_both_cells_current_scope_retained": true,
+    "11_required_by_consumer_subjects_individual_interfaces_retained": true,
+    "7_actual_required_provider_scope_maps_literal_owner_clauses_coordinates_hashes": true,
+    "actual_reciprocal_MetadataIdentity_MetadataClassification_cycles_unresolved_not_waived_no_globalDAG": true,
+    "actual_unchanged_peer_preservation_owner_Profile_restrictions_not_silently_waived": true,
+    "broad_Metadata_actual_ProfileR005_known_duties_and_real_population_gaps_no_fabricated_fields_records": true,
+    "actual_authority_conditions_history_evidence_nonmutation_physical_provider_fullmandatory_conformance_scope": true,
+    "2_exact_received_CRLF_unnamed_spans17_individual_fragments_final_sections_hashes": true,
+    "10_actual_separate_GFM_table_blocks_all121_data_row_arities": true,
+    "18_actual_unique_intended_ID_title_path_links_order": true,
+    "no_original_quotes_checkboxes_no_invented_source_history_initialdate_event": true,
+    "raw_CRLF_preserved_full_original_updated_raw_bytes_and_normalized_evidence_distinct": true,
+    "five_actual_decisions_and50_concrete_prospective_paths_before_mutation_peers_exact": true,
+    "68_REVIEW_time_snapshots_other67_sources_exact_current_owners": true,
+    "54_input_of_REVIEW_occurrences41sources22_prior_notes_historical_scope_retained": true,
+    "16_original_criteria_literal_evidence_corrected_pending_no_closure": true,
+    "89_stable_progress_positions_other88rows4_45_untouched": true,
+    "M12_30C1S33O_MetadataArchitecture_S_start2026_10_16_no_completion": true,
+    "entireM13_NotStarted_exact_both_actual_placement_requirements_unmet_unwaived_M14_independent": true,
+    "Report138_section144_actual_history_prior_content129_reconciliation_retained": true,
+    "CHANGELOG670_to1_reverse_events_Codex_prior_entries_exact": true,
+    "all_prior_domain_process_evidence_bytes_paths_unchanged_except_source4tracking_manifest": true,
+    "global19_607Closed_INV02_no_global_architecture_implementation_permission_adoption": true,
+    "no_Author_auxiliary_source_selfhash_or_separate_VALIDATION": true
+  },
+  "checks_passed": 31,
+  "actual_table_blocks": [
+    {
+      "header_line": 5,
+      "header": "| Metadata | Value |",
+      "delimiter": "|----------|-------|",
+      "columns": 2,
+      "actual_rows": [
+        {
+          "line": 7,
+          "cells": 2,
+          "sha256_normalized_utf8": "1af178f94ab26e02ed4ab1ded9b6c6d5605faee68fa05541f618a0f746f9fab9"
+        },
+        {
+          "line": 8,
+          "cells": 2,
+          "sha256_normalized_utf8": "8d1904f8e6d30b625a2c452cfd0a71ce4f6ea95560aeb6ed654af5fc3e8afdcd"
+        },
+        {
+          "line": 9,
+          "cells": 2,
+          "sha256_normalized_utf8": "19c1c33ddd5610b3dbce6740e08ff3013911bf854385eaffc720eeef40f802bc"
+        },
+        {
+          "line": 10,
+          "cells": 2,
+          "sha256_normalized_utf8": "9e4617092e1f648ac7287384eec15b75983b1687438705319f67dbdcaa256397"
+        },
+        {
+          "line": 11,
+          "cells": 2,
+          "sha256_normalized_utf8": "89ffb48d58aa8d0a50657c89bca2170460c1653297a37ec2721a9d9da0fe58be"
+        },
+        {
+          "line": 12,
+          "cells": 2,
+          "sha256_normalized_utf8": "7f0a83cf5b82590a771171c72558a8d333dd8991aa12111b42a44492347d9cdf"
+        },
+        {
+          "line": 13,
+          "cells": 2,
+          "sha256_normalized_utf8": "74e19bf203686118de75b7b028fcdfdfc6d80c2e37e00ad4c911db20f7e78bd8"
+        },
+        {
+          "line": 14,
+          "cells": 2,
+          "sha256_normalized_utf8": "b55740cb45e810a1441b771483db353decd0217830dfaaa55528869d8a3fdee9"
+        },
+        {
+          "line": 15,
+          "cells": 2,
+          "sha256_normalized_utf8": "319e3aaf3a391a40c8e0a8ed78f270a4582f6d422ae7ee2a38072e745b126876"
+        },
+        {
+          "line": 16,
+          "cells": 2,
+          "sha256_normalized_utf8": "78efc1acf593c0aaf8af3ac4228276a257aa97a950b3d07366a1cdb54453fef8"
+        },
+        {
+          "line": 17,
+          "cells": 2,
+          "sha256_normalized_utf8": "8ad6756e4d5b2c827a4d250a70c79c6d1b56f78899f7cb8bdc4068b2d03ee1b6"
+        }
+      ]
+    },
+    {
+      "header_line": 116,
+      "header": "| Received literal fragment | Actual current typed interpretation |",
+      "delimiter": "|---|---|",
+      "columns": 2,
+      "actual_rows": [
+        {
+          "line": 118,
+          "cells": 2,
+          "sha256_normalized_utf8": "c1c1ee2574c6561f448d27308e5847639a6cf670fbc13d2c8e1dc3cecfc49185"
+        },
+        {
+          "line": 119,
+          "cells": 2,
+          "sha256_normalized_utf8": "e438efd5e6c17a52b8e6c984d30216d91b5de4b71da450b25f5fd03d2f5325a9"
+        },
+        {
+          "line": 120,
+          "cells": 2,
+          "sha256_normalized_utf8": "ed329ba00165badf3153f3c77d1f2b3b337b1e8e4b9264d202e082c0966109b6"
+        },
+        {
+          "line": 121,
+          "cells": 2,
+          "sha256_normalized_utf8": "028feafb70de0760916d5c7dd3938ffc8680f097124640baffe95e826cce5d6a"
+        },
+        {
+          "line": 122,
+          "cells": 2,
+          "sha256_normalized_utf8": "0040eb0e0a896b4f003d28ffdca7ca18a63d69f09329f570216c892f47174489"
+        },
+        {
+          "line": 123,
+          "cells": 2,
+          "sha256_normalized_utf8": "22b6ce55b63fc02665fb5b626d10a0764a5b78779a073d230505aa6169fb915d"
+        },
+        {
+          "line": 124,
+          "cells": 2,
+          "sha256_normalized_utf8": "9391c4c890348026c465606dc6d63419ee5d58dae271f0af7701a76a7511394c"
+        },
+        {
+          "line": 125,
+          "cells": 2,
+          "sha256_normalized_utf8": "c067c4711864b8847b8a592391142b8d2d873ea4991a42f676fc85c98312f907"
+        }
+      ]
+    },
+    {
+      "header_line": 206,
+      "header": "| Received exclusion subject (historical wording) | Actual current owner and execution boundary |",
+      "delimiter": "|---|---|",
+      "columns": 2,
+      "actual_rows": [
+        {
+          "line": 208,
+          "cells": 2,
+          "sha256_normalized_utf8": "b568d24b17ca8b2504483e9900c60b424968da26d7bced93ad16d43eeaa25bb1"
+        },
+        {
+          "line": 209,
+          "cells": 2,
+          "sha256_normalized_utf8": "7fc46ede74e84d5ab46b0134690d41b469e8440acbdc9c7f56dc143bd4ed388d"
+        },
+        {
+          "line": 210,
+          "cells": 2,
+          "sha256_normalized_utf8": "a066e7f6c30eddbe37ea60a5c551b81798a9d89da501ef7b36d4e3974f622c8d"
+        },
+        {
+          "line": 211,
+          "cells": 2,
+          "sha256_normalized_utf8": "6df9bd731a6c765dcb1bec6a2642fe57238ad546879de116120dc9676f21de11"
+        },
+        {
+          "line": 212,
+          "cells": 2,
+          "sha256_normalized_utf8": "a4892922f3ccd21a18fc3af69cd43da6c34f79ccb0a3f4581196d0903e1bad94"
+        },
+        {
+          "line": 213,
+          "cells": 2,
+          "sha256_normalized_utf8": "eed73ec80c7dcb13bee45471e9ea772ef2d22ee66834ae8d44211049b90d9db0"
+        },
+        {
+          "line": 214,
+          "cells": 2,
+          "sha256_normalized_utf8": "339fcac6cf7fed5e0512ed2391eb0432a1950e5004d4424d40e56105dd49afac"
+        },
+        {
+          "line": 215,
+          "cells": 2,
+          "sha256_normalized_utf8": "2890719b684bae527fef75597fb71598fe4f0c0f8e830d3305efc0492a047378"
+        }
+      ]
+    },
+    {
+      "header_line": 239,
+      "header": "| Actual consumer → provider | Required contract / actual source | Scope,interface and unresolved condition |",
+      "delimiter": "|---|---|---|",
+      "columns": 3,
+      "actual_rows": [
+        {
+          "line": 241,
+          "cells": 3,
+          "sha256_normalized_utf8": "ab049789f449d4b6ec59d3ceb91122051eab0df09608787851d24a0b6c077f4b"
+        },
+        {
+          "line": 242,
+          "cells": 3,
+          "sha256_normalized_utf8": "57a4d1b98ca2f0d7a0ea2666f7809babed60b48a22b14672a74922b52ebd90b3"
+        },
+        {
+          "line": 243,
+          "cells": 3,
+          "sha256_normalized_utf8": "482d51862746be5011f582f9c679990382c04a75c8a97a87ac6cf86f2377cc6f"
+        },
+        {
+          "line": 244,
+          "cells": 3,
+          "sha256_normalized_utf8": "607c08d45cde0d60933aa8ce9dc5cd7d426714543f17ae47afa553287420b7c1"
+        },
+        {
+          "line": 245,
+          "cells": 3,
+          "sha256_normalized_utf8": "52368ef1014208f0e7993d74b4675affd5f8227fb981ec5380a30ad95bc431b6"
+        },
+        {
+          "line": 246,
+          "cells": 3,
+          "sha256_normalized_utf8": "f497902fe4403a4279e46ae71ab7130ee803940ab972313880a4d2b83ee98122"
+        },
+        {
+          "line": 247,
+          "cells": 3,
+          "sha256_normalized_utf8": "1a6cc5fd238b2a6d574f315b3c2639c3a863f637f0d6088109b9274d7be949a5"
+        }
+      ]
+    },
+    {
+      "header_line": 277,
+      "header": "| Original consumer | Actual current scope / interface |",
+      "delimiter": "|---|---|",
+      "columns": 2,
+      "actual_rows": [
+        {
+          "line": 279,
+          "cells": 2,
+          "sha256_normalized_utf8": "08c196940d2b7f1aa157d38aa1c1e9fabe120ed4baf3036e2bd73cecf98254da"
+        },
+        {
+          "line": 280,
+          "cells": 2,
+          "sha256_normalized_utf8": "74a8946e13947ce522e4bb7875aab439f396c9b749e0ba5ba747af7a3aa0075c"
+        },
+        {
+          "line": 281,
+          "cells": 2,
+          "sha256_normalized_utf8": "577ffc30e43055fa49ae9b746e097eb0d193e3adbebb254258255934beb05fb3"
+        },
+        {
+          "line": 282,
+          "cells": 2,
+          "sha256_normalized_utf8": "7c7e15d6f8bbdbbdb95bb9e7f19507f7e0703377fb893a654852b4b48412e624"
+        },
+        {
+          "line": 283,
+          "cells": 2,
+          "sha256_normalized_utf8": "4c88c1586f89ae283ab046d53404a99eaf298f136b665a97c72edf245dd99abb"
+        },
+        {
+          "line": 284,
+          "cells": 2,
+          "sha256_normalized_utf8": "0ffb2e515636917051f43a76be49e42a7785023e1a121aa510cabad47497528f"
+        },
+        {
+          "line": 285,
+          "cells": 2,
+          "sha256_normalized_utf8": "650317cf46727eb815451bfa1eb9341211d200d3e652936f25a9e899d86bcec5"
+        },
+        {
+          "line": 286,
+          "cells": 2,
+          "sha256_normalized_utf8": "f20b5e0595fa74babef716b28f78375997ccf8a066eca74feec181346355c3c3"
+        },
+        {
+          "line": 287,
+          "cells": 2,
+          "sha256_normalized_utf8": "1cf31bd1ecbd5eca058c91476e8b667987d95975924cedfb40574cb9c2544bad"
+        },
+        {
+          "line": 288,
+          "cells": 2,
+          "sha256_normalized_utf8": "2989bc244ba6c0113cdd17d674c68249268ff4c75d33075b0b308891df8cb95f"
+        },
+        {
+          "line": 289,
+          "cells": 2,
+          "sha256_normalized_utf8": "30a5c76fd68489ecf11f404fcc5fbc7e9a3f23151c758f0e1d0fdf05ebcda5b9"
+        }
+      ]
+    },
+    {
+      "header_line": 332,
+      "header": "| Received literal fragment | Actual current typed interpretation |",
+      "delimiter": "|---|---|",
+      "columns": 2,
+      "actual_rows": [
+        {
+          "line": 334,
+          "cells": 2,
+          "sha256_normalized_utf8": "0040eb0e0a896b4f003d28ffdca7ca18a63d69f09329f570216c892f47174489"
+        },
+        {
+          "line": 335,
+          "cells": 2,
+          "sha256_normalized_utf8": "40afa5e044838211f7834bb7866fb104d58dfc06bb688cdf2fa0b0efd2bab549"
+        },
+        {
+          "line": 336,
+          "cells": 2,
+          "sha256_normalized_utf8": "9391c4c890348026c465606dc6d63419ee5d58dae271f0af7701a76a7511394c"
+        },
+        {
+          "line": 337,
+          "cells": 2,
+          "sha256_normalized_utf8": "c067c4711864b8847b8a592391142b8d2d873ea4991a42f676fc85c98312f907"
+        },
+        {
+          "line": 338,
+          "cells": 2,
+          "sha256_normalized_utf8": "377684311d3e6d99c05c75e538837330911b542b3c38795fb2f1634bce941dd5"
+        },
+        {
+          "line": 339,
+          "cells": 2,
+          "sha256_normalized_utf8": "a93669aec8499a1d0b28aa9515b9010a65e5b77e95c2fe0bcae43fa60ad19476"
+        },
+        {
+          "line": 340,
+          "cells": 2,
+          "sha256_normalized_utf8": "6fb76cdc27377e80949c1673cc3391e02adf25fb726182a1a9099a8d1b4c8bba"
+        },
+        {
+          "line": 341,
+          "cells": 2,
+          "sha256_normalized_utf8": "b8173c12f6683c57a83ca586b172db3e45a8e9ba9e1d16f021b09eea9ca46ce9"
+        },
+        {
+          "line": 342,
+          "cells": 2,
+          "sha256_normalized_utf8": "b8703717e42075389a88fe13ae688f18aa9136d76c2bbef8547ad54ebaf3d7c3"
+        }
+      ]
+    },
+    {
+      "header_line": 477,
+      "header": "| Component | Received relationship summary | Actual current interface and evidence boundary |",
+      "delimiter": "|---|---|---|",
+      "columns": 3,
+      "actual_rows": [
+        {
+          "line": 479,
+          "cells": 3,
+          "sha256_normalized_utf8": "c70beefde4ddafab8a8b3af147c98c517d5b34ba77259e3952c17865fa45c84e"
+        },
+        {
+          "line": 480,
+          "cells": 3,
+          "sha256_normalized_utf8": "fcfc1fabf0f5b78974a77cf83aade80e40ec3a8bb21558fe2b77ca4449f45b5c"
+        },
+        {
+          "line": 481,
+          "cells": 3,
+          "sha256_normalized_utf8": "457269ed6861689962f9a8147c2e1e6306ad8a33facb5baa4970f7f162d544d1"
+        },
+        {
+          "line": 482,
+          "cells": 3,
+          "sha256_normalized_utf8": "ee70909cce5913d033147eee798513949754746ba677e662795c574b034bcd2c"
+        },
+        {
+          "line": 483,
+          "cells": 3,
+          "sha256_normalized_utf8": "e19940e650af5da9be1a5aca33c964297f1fa08b5bdce2f8894d4f8d5530bb6d"
+        },
+        {
+          "line": 484,
+          "cells": 3,
+          "sha256_normalized_utf8": "f266a69876dd6b1ec9ab812717e05b773ba46f78fcc93bdfbac9ec63d3286ac3"
+        },
+        {
+          "line": 485,
+          "cells": 3,
+          "sha256_normalized_utf8": "c7a1e087454f28b6b713f65340012dce423fc9ad4504ea172eb24747d6a09a4c"
+        },
+        {
+          "line": 486,
+          "cells": 3,
+          "sha256_normalized_utf8": "cf5f150b28e83ae04a15b55463a1474a528c4135d42c1683dbce92c3c1bda0d1"
+        },
+        {
+          "line": 487,
+          "cells": 3,
+          "sha256_normalized_utf8": "557419871970c272215feacd3e08b85a5e482a409ebc7b354499e78e1846aa3f"
+        },
+        {
+          "line": 488,
+          "cells": 3,
+          "sha256_normalized_utf8": "01ec3f04fca830bb986a3be2333ba097cdac92771a3d7fdbaea4939656f3d306"
+        },
+        {
+          "line": 489,
+          "cells": 3,
+          "sha256_normalized_utf8": "e4a602c02007a7ca0b27779b896b9eef24758e692afdd943b7726666437e63af"
+        }
+      ]
+    },
+    {
+      "header_line": 601,
+      "header": "| Actual decision established before mutation | Received contract / risk | Current choice | Actual authority and need / alternatives |",
+      "delimiter": "|---|---|---|---|",
+      "columns": 4,
+      "actual_rows": [
+        {
+          "line": 603,
+          "cells": 4,
+          "sha256_normalized_utf8": "ecf4c05305402012901fef8a1531b8c29c6f06bb092ca1a689925d10044fcefa"
+        },
+        {
+          "line": 604,
+          "cells": 4,
+          "sha256_normalized_utf8": "e97660251d501c1b01600026a77dc263898adcf3f9f79fe2f5b110579ef1190e"
+        },
+        {
+          "line": 605,
+          "cells": 4,
+          "sha256_normalized_utf8": "6f626f858adb47e3c68978b26f35a4fc60901eeecb78cf229a227b16690bf036"
+        },
+        {
+          "line": 606,
+          "cells": 4,
+          "sha256_normalized_utf8": "4b8c54851fa0b0bee8ae7090bc5360ef717202d5ea8fc6f656f68bbbc4b29de5"
+        },
+        {
+          "line": 607,
+          "cells": 4,
+          "sha256_normalized_utf8": "075e7301104ce6246a5ae834a2a35d49677c2c460428cd8baee121bb60432e8f"
+        }
+      ]
+    },
+    {
+      "header_line": 633,
+      "header": "| Actual affected path | Actual input edition / scope | Actual proposed coordination |",
+      "delimiter": "|---|---|---|",
+      "columns": 3,
+      "actual_rows": [
+        {
+          "line": 635,
+          "cells": 3,
+          "sha256_normalized_utf8": "d1cd31aad557e624e41d1362d1cec0332299c3b0f690cfe5f2e15f56e0145978"
+        },
+        {
+          "line": 636,
+          "cells": 3,
+          "sha256_normalized_utf8": "fad45411281948389b8b57811d5fbd9e58119c1082ca23200688322cff20a7ce"
+        },
+        {
+          "line": 637,
+          "cells": 3,
+          "sha256_normalized_utf8": "e6b620b61edb4643476fc92c37f134b57860750161bf16cbf9cea80c1058cac3"
+        },
+        {
+          "line": 638,
+          "cells": 3,
+          "sha256_normalized_utf8": "003034c9aa7d2f5f058a944cd4396a71f96baa16e54d5cb67432d18a28fb9685"
+        },
+        {
+          "line": 639,
+          "cells": 3,
+          "sha256_normalized_utf8": "6599415dfc6710c108f4584af09150ec2469dc42a213f122a71692f656c5233e"
+        },
+        {
+          "line": 640,
+          "cells": 3,
+          "sha256_normalized_utf8": "61c8840e5b4d199776e5aa75a06381ede2b1e44cc5ad2b823c8be92897ff79da"
+        },
+        {
+          "line": 641,
+          "cells": 3,
+          "sha256_normalized_utf8": "3032b31cd47ca05cd97e13bad130a0cf2559bb51c7c91f0c35bdcf723719a0d5"
+        },
+        {
+          "line": 642,
+          "cells": 3,
+          "sha256_normalized_utf8": "31ac422eee1f44abfffce921dc2d4fabc55a63d0c21e10a8f928e937957c7db9"
+        },
+        {
+          "line": 643,
+          "cells": 3,
+          "sha256_normalized_utf8": "fd459da638efe7684550aa749d01df22aef20d095a5212b0645531626d6f460f"
+        },
+        {
+          "line": 644,
+          "cells": 3,
+          "sha256_normalized_utf8": "f073f8e82f80bd1bbef461ce1f178ea1167b08b36a6c5c162e63de6f4c03182f"
+        },
+        {
+          "line": 645,
+          "cells": 3,
+          "sha256_normalized_utf8": "51f814bc7c33f8c9f0ea4515d1fdb1ac85d595435a3182975a215e9091869a2c"
+        },
+        {
+          "line": 646,
+          "cells": 3,
+          "sha256_normalized_utf8": "39c010ceaee6ad7c79e14ad35c8d649f868eb9267c90900f9ab06d4436d4cd84"
+        },
+        {
+          "line": 647,
+          "cells": 3,
+          "sha256_normalized_utf8": "88adada868984e3721be6930d33f35e6e478f2cf6085c0d430004b10dd5c0830"
+        },
+        {
+          "line": 648,
+          "cells": 3,
+          "sha256_normalized_utf8": "3d2e9cbca165593b74303adf753c931f8895aa2ff4923a3ef4107ca5d0e8f24c"
+        },
+        {
+          "line": 649,
+          "cells": 3,
+          "sha256_normalized_utf8": "0f29f64e9ec171ae624fdf5019aae167c38043b5e15580b2fec86fd7b66846da"
+        },
+        {
+          "line": 650,
+          "cells": 3,
+          "sha256_normalized_utf8": "899214060e408df405d2ab3c3dd3c82d1d7f14d3c6db1dfadcfb7f22cb2fa13f"
+        },
+        {
+          "line": 651,
+          "cells": 3,
+          "sha256_normalized_utf8": "2e18f51a4c51930528c23aca7707a94d70c048c7190f0982fb3647fad1554209"
+        },
+        {
+          "line": 652,
+          "cells": 3,
+          "sha256_normalized_utf8": "1ed913e9ac1aabd0caf73206744866cff3e11fc5430dd859261aa121df83ba5d"
+        },
+        {
+          "line": 653,
+          "cells": 3,
+          "sha256_normalized_utf8": "92831288bde0b85195f3484db36422bd346d48a85fe731c158c88567dad05083"
+        },
+        {
+          "line": 654,
+          "cells": 3,
+          "sha256_normalized_utf8": "ffa03d9ba30807cea895f00d44aae98d1378e068dff17c49a7eab047bb4f92c5"
+        },
+        {
+          "line": 655,
+          "cells": 3,
+          "sha256_normalized_utf8": "8a07071d1b1f98dfc18d312219b39f967939deb610dbf55f70429e42541fcda5"
+        },
+        {
+          "line": 656,
+          "cells": 3,
+          "sha256_normalized_utf8": "ed9c8195f755a24e2263adfb4b043fc2491a9db0be8d12395cec7b58d62bac81"
+        },
+        {
+          "line": 657,
+          "cells": 3,
+          "sha256_normalized_utf8": "d8ef0a92d51b6cfee13266091e6604dda6c69e6e5e75fdc7e4832520d662ab66"
+        },
+        {
+          "line": 658,
+          "cells": 3,
+          "sha256_normalized_utf8": "e558bda04b79d9dd63c4145fd6b1adb8ba6cb1094e7134c1505302bf32e81eff"
+        },
+        {
+          "line": 659,
+          "cells": 3,
+          "sha256_normalized_utf8": "e5113844fa3b68bf827b81da93b538fb89c578ee7036763249a61b07683b04ac"
+        },
+        {
+          "line": 660,
+          "cells": 3,
+          "sha256_normalized_utf8": "b9ab61af1d1ff80a734841c073a47e36955d21115732e64ae5bb6acb3f5fbaa6"
+        },
+        {
+          "line": 661,
+          "cells": 3,
+          "sha256_normalized_utf8": "159e67b956192bc4510b8c16bfa8d914ca99e564a5a88b0fdf9d000ef611571c"
+        },
+        {
+          "line": 662,
+          "cells": 3,
+          "sha256_normalized_utf8": "b1cb153ab1a7e27553aa86c3eeb3a909473c6d1b037d907a9e4e5d57184e2d54"
+        },
+        {
+          "line": 663,
+          "cells": 3,
+          "sha256_normalized_utf8": "5ac86b2aaebb1c64f4d0929236cd7ddde6ab59da088c99248ba52f9558bc065f"
+        },
+        {
+          "line": 664,
+          "cells": 3,
+          "sha256_normalized_utf8": "5454099d765f43b31d5885c4ca10b684aa4b047e0e05f21c711f21038efbaba3"
+        },
+        {
+          "line": 665,
+          "cells": 3,
+          "sha256_normalized_utf8": "79aefb299c240082f6d7f953e27e363ebe0e647e8fc20cc6e044ddbb18e726b7"
+        },
+        {
+          "line": 666,
+          "cells": 3,
+          "sha256_normalized_utf8": "05533d7fafb7fbce84af4b90225a62f6d57bf3eea9b4c1f3bd486768bc4aab6d"
+        },
+        {
+          "line": 667,
+          "cells": 3,
+          "sha256_normalized_utf8": "ea1355367b2a223598f524add017ec3052b7f3ff0758b0e1c050993e87a59229"
+        },
+        {
+          "line": 668,
+          "cells": 3,
+          "sha256_normalized_utf8": "7e05bb099cfa6168fdf84cf81961c4c0eb6f15c73fc3b0a59420154ecaf03471"
+        },
+        {
+          "line": 669,
+          "cells": 3,
+          "sha256_normalized_utf8": "2f1d8ee027830e149784fd3db2864ea68bd6f1c78852600d6041255302c4b0be"
+        },
+        {
+          "line": 670,
+          "cells": 3,
+          "sha256_normalized_utf8": "b25705eb52186bec765e07e501c72e1aa3b08380ae312cf07b2709f019ea0bed"
+        },
+        {
+          "line": 671,
+          "cells": 3,
+          "sha256_normalized_utf8": "a78d03dd6c97b10156c9af756d7eb59a3c03986935acfebeee76ad5f519cb4c7"
+        },
+        {
+          "line": 672,
+          "cells": 3,
+          "sha256_normalized_utf8": "861c7a5c5486fefcff03bca0ea35276336b7fd6226767be2b04e7f123e131f75"
+        },
+        {
+          "line": 673,
+          "cells": 3,
+          "sha256_normalized_utf8": "6896ff3f253522dc5999b630117af71db33393ac63281f8318f9c2ee04c87773"
+        },
+        {
+          "line": 674,
+          "cells": 3,
+          "sha256_normalized_utf8": "ec6dfc58c7bd54dc458350f7fcbe2bd22620097584b1df886e6b80ddce3088fb"
+        },
+        {
+          "line": 675,
+          "cells": 3,
+          "sha256_normalized_utf8": "102f4e26472df7ba6a5fc45a7e0ea25aab983e59eaa63b73afccc0a2fea2a545"
+        },
+        {
+          "line": 676,
+          "cells": 3,
+          "sha256_normalized_utf8": "2a70542c05b17a1a4500c44175adb7f2c974f66df82e821aba83ed4057c13f90"
+        },
+        {
+          "line": 677,
+          "cells": 3,
+          "sha256_normalized_utf8": "550dbd165132550dc5722ada8e0d561c0f62f8264f01fc2ba2dd3062bab82a46"
+        },
+        {
+          "line": 678,
+          "cells": 3,
+          "sha256_normalized_utf8": "b982fcddb431db89b893a5720444cac472b2dccfa572941ed7c7b80213ea772d"
+        },
+        {
+          "line": 679,
+          "cells": 3,
+          "sha256_normalized_utf8": "c2e83cc1e906af78d8fb6288d899d2ac38401c6d076f6fc1e4acb541cf228b23"
+        },
+        {
+          "line": 680,
+          "cells": 3,
+          "sha256_normalized_utf8": "46ec4ba557b0a6dae9d5896732ba0af1b52e347400e93324063b8cde4d55666e"
+        },
+        {
+          "line": 681,
+          "cells": 3,
+          "sha256_normalized_utf8": "ac150d988357d49fdf01a00f4238959dc516aa8b5b350b4e3a8d5a50a522b039"
+        },
+        {
+          "line": 682,
+          "cells": 3,
+          "sha256_normalized_utf8": "1ad5212f2bb20ce04466dba7f0d0463a3c2ebd0c5f58d623b9a9d328c833ba7d"
+        },
+        {
+          "line": 683,
+          "cells": 3,
+          "sha256_normalized_utf8": "f287878e829aa48b7fa06991f21a312291e6f102b75c5739446eea9f0b64c078"
+        },
+        {
+          "line": 684,
+          "cells": 3,
+          "sha256_normalized_utf8": "0657bdcb6ed84f0247821773eb85e704eb90bcdc2f82af539129471f349d8c89"
+        }
+      ]
+    },
+    {
+      "header_line": 698,
+      "header": "| Date | Version | Revision | Contributor | Actual contribution / status |",
+      "delimiter": "|---|---|---|---|---|",
+      "columns": 5,
+      "actual_rows": [
+        {
+          "line": 700,
+          "cells": 5,
+          "sha256_normalized_utf8": "5bb0755f15c12ba139ca4cee1d2f7f4fecf372727be1c50eab97ea016a56635c"
+        }
+      ]
+    }
+  ],
+  "source_VALIDATION_performed": false,
+  "local_pending": 16,
+  "global_Open": 19,
+  "Closed": 607,
+  "M12": "30C/1S/33O InProgress",
+  "residuals": "EntireM13 NotStarted exact,both actual ClassificationElementsArchitecture/02-Structure and ConstraintsStructure/03-Behavior placement requirements unmet/unwaived. Global19/M14/actual Metadata peer restrictions/required reciprocal providers/cycles/general-detail/population/count/precedence/authority/guard/record/representation/interface/implementation/permission/architectural acceptance independent. Earlier qualified/reconstructed/failed-corrected history preserved.",
+  "next": "Pause;CONTINUAR starts4.44 VALIDATE exactV2.0 R1 DF-MTD-001 only."
+}

@@ -1,0 +1,771 @@
+--- review444/Context/02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md
++++ update444/Context/02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md
+@@ -9,11 +9,11 @@
+ | **Family** | Metadata |
+ | **Type** | Architecture |
+ | **Component** | Metadata |
+-| **Author** | Arnaldo Figueira |
++| **Author** | Arnaldo Figueira; Codex — AI assistant |
+ | **Status** | Draft |
+-| **Version** | 1.0 |
+-| **Revision** | 0 |
+-| **Baseline** | 1.0 |
++| **Version** | 2.0 |
++| **Revision** | 1 |
++| **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+ ---
+@@ -30,6 +30,12 @@
+ 
+ Instead, it describes the document itself as an architectural entity.
+ 
++**Current governing scope.**
++
++Metadata describes the applicable documentary entity/edition and its context;it does not substitute for the knowledge content itself. Descriptors may be informed by content and evolve with it. Independent semantics does not require physically isolated content or forbid actual bytes/representation evidence. Current normalized-document rules apply only in their declared scope;all files named README.md,CHANGELOG.md or ArchitecturalMilestones.md remain non-normalized functional files with content/reference duties. This is not a universal mandatory header,Profile or complete Instance population claim.
++
++Architecture defines responsibility and interfaces. Metadata has its own Concepts,Element/Value,Model,Dictionary,Schema,Profile/Instance,lifecycle,validation,governance,relationship and constraint contracts. Identity/Classification meanings,common mechanisms and actual authorized execution retain separate owners (sections6–8).
++
+ ---
+ 
+ # 2. Purpose
+@@ -37,6 +43,10 @@
+ The purpose of the Metadata component is to provide a standardized, technology-independent mechanism for describing documents throughout the Documentation Framework.
+ 
+ Metadata enables documents to become self-describing while remaining independent of their physical representation, storage mechanism or implementation technology.
++
++**Current governing scope.**
++
++Technology independence is independence of semantic definitions from a particular tool,storage or serialization. Actual representation,concrete document/edition bytes,Schema/effectiveProfile/Instance,physical/reference/access/history/provider conditions still have to be satisfied for real use. Supporting self-description does not prove every required descriptor is canonically defined,populated,approved or available.
+ 
+ ---
+ 
+@@ -62,6 +72,12 @@
+ - implementation details.
+ 
+ These topics are specified in dedicated Metadata documents.
++
++**Current governing scope.**
++
++The included architectural subjects and excluded detailed definitions above remain. This document establishes domain responsibility,operative boundaries and provider contracts;the dedicated Metadata sources own their detailed concepts,fields,schemas,rules and conditions. A scope exclusion here is not a ban on the Metadata component defining those domain contracts in its own documents.
++
++Metadata Concepts defines conceptual meanings;Model defines abstraction/composition;Element/Value distinguishes definition from an assigned documentary value;Dictionary defines authoritative Element information;Schema organizes permitted structure and references;Profile constrains declared use without silently redefining owners;Instance supplies actual values. Current Model7.6/Schema15 require exactly one Profile for an Instance;identify the actual single effective Profile and its governing editions rather than silently making the requirement optional. General cardinality/population/physical-record details and actual canonical Profile/catalog evidence remain genuine owner-source gaps. No field IDs,values or complete accepted Profile are allocated here.
+ 
+ ---
+ 
+@@ -95,7 +111,25 @@
+ 
+ ```
+ 
+-Metadata is one of the earliest architectural capabilities introduced by the framework and serves as a foundational service for multiple higher-level components.
++**Current received-span relation scope.** View4 is actual support/allocation and selected descriptive-service context,not every peer in a higher Layer or a universal required-provider/execution chain.
++
++| Received literal fragment | Actual current typed interpretation |
++|---|---|
++| Documentation Framework | The framework container,not an additional component or required runtime provider. Its support/allocation/source authority is not an execution stage. |
++| Foundation | Common foundational support/authority area. Actual applicable source editions govern;vertical placement does not require every consumer to execute or consume every foundational document. |
++| Architecture | Common architectural support/authority area. Actual allocation,ownership/support order/interfaces/cycle constraints remain;this label is not a separate runtime executor. |
++| Documentation Layer | Primary allocation area containing Metadata,Document Identity,Classification andTemplates peers. Actual same-Layer required contracts are permitted with explicit scope/interfaces and no genuine required cycles. |
++| Metadata | The actual Metadata component/domain definition and representation owner,not every represented semantic owner,common process/record or installed executor. Real provider scopes and unresolved reciprocal claims remain8.1. |
++| Document Identity | The actual same-Layer document-key/domain/edition/reference owner. Descriptor provision does not transfer identity meaning;actual Metadata→Identity and reciprocalIdentity→Metadata required claims remain unresolved8.1. |
++| Classification | The actual same-Layer category/assignment meaning owner,not a new Layer or automaticMetadata-ownedType field. Actual required representation/reverse represented-meaning scopes retain source authority and cycle assessment8.1. |
++| Templates | The actual same-Layer reusable structural-definition owner. Representation can realize Metadata locations under real Schema/effectiveProfile contracts;no universal mandatoryTemplate runtime or ownership of Metadata semantics follows. |
++
++
++Metadata supplies descriptive contracts to declared consumers,including same-Layer peers. Its place in a planning or allocation view neither changes primary allocation nor proves introduced/installed capabilities,a higher peer Layer or a required execution sequence.
++
++**Current governing scope.**
++
++The received view below is allocation/support and selected service-consumption evidence,not a current complete required-provider graph or an execution order. Metadata,Document Identity,Classification andTemplates remain Documentation peers;being supplied descriptive contracts does not place peers in a higher Layer. Foundation/Architecture support and actual required consumer→provider directions are separately stated8.1. Exact label fragments have individual scope maps;no component or Layer is created by this drawing.
+ 
+ ---
+ 
+@@ -116,6 +150,12 @@
+ Metadata does not replace document content.
+ 
+ Instead, it complements document content by providing architectural information about the document itself.
++
++**Current governing scope.**
++
++All seven capability concerns remain intended responsibilities,not observed implementation results. Identity establishes qualified documentK/localR/exact-edition/reference meaning;Metadata represents descriptors under its actual owners. A MetadataElement permanent architectural identity underMTD00415 is not automatically a normalizedDF document key. Classification owns applicable category/assignment meaning;Metadata representation does not allocate categories or perform assignments.
++
++Self-describing,discoverable,governable,traceable andautomatable require actual subject/source editions,applicability,authority,evidence and mandatory coverage for real claims. This source performs no registration,live lookup,evaluation,decision,condition fulfillment,adoption,operation or installed runtime.
+ 
+ ---
+ 
+@@ -134,34 +174,81 @@
+ 
+ Metadata shall not perform responsibilities assigned to other architectural components.
+ 
++**Current governing scope.**
++
++The eight support responsibilities remain. Metadata shall define its own domain concepts/model/Element-Value/Dictionary/Schema/Profile/Instance and lifecycle/validation/governance/relationship/constraint conditions. This does not duplicate common mechanisms or transfer other components' semantic authority. Operative exclusions7 distinguish actual domain rules,shared processes/records/projections/capabilities and authorized execution.
++
++For applicable normalized documents,current Family is canonical component/admitted documentary-area membership,primaryType is exactly one ofArchitecture/Structure/Behavior/Reference,andClass is optional but requires an explicit nonconflicting definition if used. Classification/common governing sources retain those meanings;Metadata owns their descriptive representation and broader unrelated concepts. This is not a new field catalog or a claim the received source defined an old Family-ownedType hierarchy.
++
+ ---
+ 
+ # 7. Non-Responsibilities
+ 
+-The Metadata component shall not:
+-
+-- assign document identities;
+-- classify documents;
+-- govern document lifecycles;
+-- maintain document registries;
+-- manage relationships;
+-- perform validation;
+-- generate documentation;
+-- implement automation.
+-
+-These responsibilities belong to other architectural components.
+-
+-Metadata only provides the descriptive information required by those components.
++The following operative exclusions distinguish Metadata-domain contracts from common mechanisms and actual execution. The Metadata component shall not:
++
++- allocate or assign document identities as an operational act,or redefine Document Identity allocation/preservation contracts;
++- replace Classification-owned category or assignment semantics,or perform a classification operation merely by representing descriptor values;
++- take over common documentary Workflow,Policies,Reviews or Baselines responsibilities merely because it defines Metadata-domain lifecycle and governance contracts;
++- take over common document registration,indexing or discovery operations through its Dictionary or descriptive records;
++- take over common typed connection-record/provenance mechanisms or other domains' relationship semantics through Metadata-domain relationship definitions;
++- replace the common validation capability or claim an evaluation has executed merely by declaring Metadata-domain rules;
++- own operational documentation generation merely through descriptive definitions or output fields;
++- stand in for an installed automation system or its authorized executor.
++
++The excluded common mechanisms and operational responsibilities remain with their actual owners and authorized processes. Metadata shall define its own domain lifecycle,validation,governance and relationship contracts without taking over those mechanisms or claiming performed operations.
++
++Metadata provides descriptive concepts,definitions,structure,usage/state/validation/decision conditions and represented values for its domain. It is not restricted to passive values,and it does not thereby own every consuming domain meaning,common record or executor.
++
++**Current governing scope.**
++
++The current operative exclusions above replace blanket bans that would deny Metadata's own Lifecycle,Validation,Governance orRelationships contracts. The following maps retain every received exclusion subject as historical evidence and explain the actual current boundary;the received wording is not a second current governing prohibition.
++
++| Received exclusion subject (historical wording) | Actual current owner and execution boundary |
++|---|---|
++| assign document identities; | Metadata defines and represents descriptor requirements;Document Identity retains actual document-key/domain meaning and allocation-preservation contracts. Actual authorized processes execute allocation. Permanent Metadata Element identity is a separate domain entity,not automatically a DF document allocation. |
++| classify documents; | Classification owns applicable category/assignment meaning;Metadata defines and represents descriptors under its own Schema/effective Profile. Neither a generated field nor a changed Family/Type recalculates document identity. |
++| govern document lifecycles; | Metadata defines its own artifact/definition/Schema/Profile/Instance state-use and decision conditions. Common process/rule/review/snapshot mechanisms and actual authority/executor retain their contracts;document Status is not every Metadata artifact state. |
++| maintain document registries; | An authoritative Metadata definition/entry catalog is not the common Registry. Registry owns registrations/indexes/projections and source-edition/freshness/access evidence;actual storage/execution remains with implementation. |
++| manage relationships; | Metadata defines its own composition/specialization/association/dependency/traceability meanings and represented relations. Relationships retains common typed connections/provenance;actual typed endpoints/kind/assertion/context and required provider edges remain. |
++| perform validation; | Metadata defines applicable domain criteria and source/Schema/effective-Profile requirements. The common validation capability and actual authorized tool/manual/DMS/CMS executor evaluate concrete inputs;nonmutating evaluation is distinct from correction,decision and operation. |
++| generate documentation; | Metadata supplies actual descriptor/representation contracts;Templates supplies its structural contracts and registered generation capabilities/processes/executors retain operational responsibility. A generated header does not allocate identity,approval or canonical fields. |
++| implement automation. | Automation is an architectural area/capability context containing registered components,not a new single Metadata runtime. Actual checking/generation/integration requires concrete source editions,inputs,authority,observations and effects;this source installs or executes none. |
++
++Document Identity retains allocation/preservation contracts and actual authorized allocation execution;Metadata does not rekey from Family/Type/Component/version/location changes. MetadataElement identity,documentK/localR/exact edition,domain decision/record identity and common registration/connection identity remain distinct. No canonical Element/field/Profile or actual operation is generated by describing these contracts.
+ 
+ ---
+ 
+ # 8. Architectural Dependencies
+ 
++**Current governing scope.**
++
++An architectural relation shall identify its kind and actual source/definition edition. Required dependency means indispensable consumer→provider contract in a declared scope;documentary authority,semantic association,data flow,allocation,projection,navigation and execution are separate. A different name cannot remove a real required edge. Exact area allocations and actual cycle rules remain authoritative;the complete accepted graph and detailed provider interfaces are not supplied by this local source.
++
++---
++
+ ## 8.1. Depends On
+ 
+-The Metadata component depends only upon the Foundation and Architecture layers.
+-
+-It shall not depend upon Governance, Discovery, Automation or Integration.
++Metadata uses Foundation and Architecture as common documentary and structural authorities. Its actual required provider contracts also include the stated same-Layer identity/representation and classification-meaning scopes below;the previous only-Foundation-and-Architecture restriction is replaced by this scoped contract.
++
++Required cross-Layer provider contracts shall respect the actual support order in ARC-004 sections12–13 and ARC-005 section12:Foundation,Architecture,Documentation,Governance,Discovery,Automation,Integration. Same-Layer required contracts shall have explicit owners,scope,source editions and interfaces and shall satisfy the prohibition of genuine required cycles. Representing upper-area meanings or citing authority is not by itself a runtime edge;an indispensable provider shall not be hidden by relabelling it as a reference. Changing a structural constraint requires its own assessed responsible-source revision,not an arbitrary upward exception.
++
++**Current governing scope.**
++
++The following actual current declarations specify their source authority,scope and unresolved interface conditions. They are not complete implementation records.
++
++| Actual consumer → provider | Required contract / actual source | Scope,interface and unresolved condition |
++|---|---|---|
++| Metadata → Foundation / Architecture; Documentation → earlier support authorities | Actual common concepts,allocation,structural support order and owner/dependency constraints. Documentary authority is not automatically a runtime dependency on every foundational document. DF-ARC-004 V2.0 R2 §12; DF-ARC-005 V2.0 R2 §12 | Identify applicable source/definition editions and real required contract. No universal adjacent Layer chain or all-earlier-provider requirement. |
++| Metadata → Document Identity; Documentation → Documentation | Actual document-key/domain/edition/reference meaning for the applicable assigned normalized document being described;DID0095.1.1 explicitly declares Metadata→Document Identity. DF-DID-009 V2.0 R1 §5.1.1; DF-DID-001 V2.0 R2 §9.1; DF-DID-005 V2.0 R1 §9 | Typed documentK/localR/exact edition and intended reference subject;Metadata owns descriptors,not identity meaning. Exact field/record/consumer interfaces and general representation details need actual owner evidence. The reverse claim below remains unresolved. |
++| Document Identity → Metadata; Documentation → Documentation | Actual functionalDIDREADME declaration requires canonical Metadata concepts used to describe document identity;DID0019.1 andDID0095.1.1/10 explicitly retain this reciprocal required claim. DF-DID-001 V2.0 R2 §9.1; DF-DID-009 V2.0 R1 §5.1.1; DF-DID-009 V2.0 R1 §10 | Identify indispensable concepts/interfaces for identity core versus descriptive records and actual use. Different scope names alone do not prove independence or dissolve a genuine required cycle. No current accepted cycle-free integration is claimed. |
++| Metadata → Classification; Documentation → Documentation | Classification-owned category/assignment/normalized-role meaning where Metadata represents those actual values;ARC0055.1/5.3 and adoptedPolicy3 retain those domain responsibilities. DF-ARC-005 V2.0 R2 §5.1; DF-ARC-005 V2.0 R2 §5.3; DF-RVW-001 V1.0 R2 §3; DF-CLS-001 V2.0 R1 §12 | Applicable Family membership,one uniform Architecture/Structure/Behavior/Reference Type and optional defined nonconflicting Class;not every unrelated field namedType. Exact definition/source edition and assignment context needed,no fabricated field catalog. |
++| Classification → Metadata; Documentation → Documentation | Actual CLS00112 required provider declaration where governed Metadata representation is indispensable for document classification in scope. DF-CLS-001 V2.0 R1 §12; DF-CLS-001 V2.0 R1 §20; DF-CLS-001 V2.0 R1 §21 | Category/assignment semantics remain with Classification;Metadata owns Dictionary/Schema/effectiveProfile/Instance representation. Assess actual reciprocal required scopes/interfaces/cycles,not semantic relabelling as an exemption. |
++| Templates → Metadata / Document Identity / Classification; Documentation → Documentation | Actual receivedTPL0019.1 consumes established concepts when representing standardized structures. The actual peer declaration is retained;this source does not certify every blanket peer dependency scope. DF-TPL-001 V1.0 R0 §5; DF-TPL-001 V1.0 R0 §7; DF-TPL-001 V1.0 R0 §9.1 | Template entity/instance/output and applicable normalized Template document differ. Metadata→Templates is not asserted as a universal core runtime dependency;any actual use requiring a Template structural contract needs its own real scope/authority/interface and cycle assessment. |
++| Registry / Workflow / Baselines / Knowledge Graph → Metadata and other actual scoped owners; Higher support areas → Documentation;other selected same-area contracts retained | Actual ARC00412/ARC00512 include Registry→Metadata descriptors,Workflow→Metadata state/edition,Baselines→Metadata exact-edition context;Graph document nodes needIdentity and typed connections needRelationships. DF-ARC-004 V2.0 R2 §12; DF-ARC-005 V2.0 R2 §12 | Registration/decision/exact-snapshot/projection owners retain source-edition/provenance/freshness/access and real typed endpoint duties. These are selected current declarations,not a complete graph,operational inventory or all-document one-to-one mapping. |
++
++The Metadata↔Document Identity reciprocal required declarations remain unresolved. The Metadata↔Classification represented-meaning and required-representation scopes likewise require actual owner/interface/cycle assessment. Separating core from descriptor use,receiving data through a projection,or calling an edge semantic does not establish independence or acyclicity. Genuine required cycles remain prohibited and must be reconciled by actual responsible contract/allocation revisions;recording a conflict is not permission to operate a prohibited cycle.
++
++Metadata-domain Governance/Lifecycle/Validation/Relationships documents remain Metadata contracts in Documentation,not automatically upper-area runtime components. Documentary process authority and represented state values alone create no required upper-area runtime service. If an actual indispensable upper provider is found,retain the edge and assess the responsible structural/source change;do not evade the support constraint through relabelling. No global DAG certification or integrated rollout follows from this table.
+ 
+ ---
+ 
+@@ -183,11 +270,31 @@
+ 
+ These components consume Metadata but do not own it.
+ 
++**Current governing scope.**
++
++All eleven consumer subjects remain. Their actual interface scope is typed below;the list does not make every consumer mandatory for every Instance or transfer its domain authority to Metadata.
++
++| Original consumer | Actual current scope / interface |
++|---|---|
++| Document Identity | Actual identity-descriptor consumption and reciprocalMetadata→Identity declaration8.1;exact core-versus-record interfaces remain pending. LogicalK/localR/exact edition differs from MetadataElement identity. |
++| Classification | Actual Metadata representation provider where indispensable,with Classification-owned meanings and reverse represented-meaning scope8.1. No Family-ownedType tree or owner transfer. |
++| Workflow | Common documentary process/transition owner uses represented state/edition values;Metadata own lifecycle conditions and real authority/evidence/operation remain separate. |
++| Policies | Common decision/rule mechanism uses descriptors;Metadata owns domain decision conditions,not actual organizational authority or performed approval. |
++| Baselines | Exact edition-reference/selection/pinned context provider for actual snapshot duties;no inclusion of a changed Draft from its header or presence. |
++| Registry | Descriptor index/registration/projection with actual source-edition/provenance/freshness/access requirements;definition records are not registrations. |
++| Relationships | Typed connection/provenance mechanism uses Metadata descriptors;domain relation semantics/endpoints and required providers retain actual owners. |
++| Knowledge Graph | Typed entity/connection projections use descriptors and other actual identity/relationship contracts;no full live graph or all-document endpoint assumption. |
++| Validation | Common capability and real executor consume actual domain rules/Schema/effectiveProfile/definitions/observations/bytes with coverage/nonmutation duties;not installed by this source. |
++| Automation | Area/capability context with actual registered checking/generation/verification owners and authorized executor/effects,not one newly allocated Metadata engine. |
++| AI Integration | Actual registered Integration capability may consume Metadata under scoped exchange/reference/authority contracts;no inferred universal final runtime stage or performed reasoning. |
++
++The consumer list includes AI Integration while the original relationship table12 containsTemplates instead;neither list claims a complete one-to-one registry. Their distinct original subjects are preserved rather than inventing a missing-table defect or new component.
++
+ ---
+ 
+ # 9. Component Interactions
+ 
+-Metadata interacts with other architectural components through explicit architectural dependencies.
++Metadata shall distinguish explicit typed architectural relations from actual required dependencies. A required dependency is a consumer→provider contract needed in its declared scope;allocation,documentary authority,semantic association,representation,projection,navigation and execution are separate meanings. Actual required edges and their unresolved reciprocal claims are retained in section8.1,not inferred or erased from the drawing.
+ 
+ ```text
+ 
+@@ -220,65 +327,128 @@
+ 
+ ```
+ 
++**Current received-span relation scope.** View9 keeps parallel Classification/Templates and split Document Identity as peers;higher-area groups show consumer context,not a complete graph,priority or installed runtime pipeline. Actual required directions/interfaces/reciprocal cycles remain8.1.
++
++| Received literal fragment | Actual current typed interpretation |
++|---|---|
++| Metadata | The actual Metadata component/domain definition and representation owner,not every represented semantic owner,common process/record or installed executor. Real provider scopes and unresolved reciprocal claims remain8.1. |
++| Document | First raw fragment of the split name Document Identity in the received view9. With the next Identity fragment it denotes one registered component,not a separate Document component or every physical/entity endpoint. |
++| Classification | The actual same-Layer category/assignment meaning owner,not a new Layer or automaticMetadata-ownedType field. Actual required representation/reverse represented-meaning scopes retain source authority and cycle assessment8.1. |
++| Templates | The actual same-Layer reusable structural-definition owner. Representation can realize Metadata locations under real Schema/effectiveProfile contracts;no universal mandatoryTemplate runtime or ownership of Metadata semantics follows. |
++| Identity | Second raw fragment of the split name Document Identity in view9,not a distinct component or an automatically allocated MetadataElement. Keep actual identity/descriptor/edition/reference/provider boundaries8.1. |
++| Governance Components | Higher support-area consumer group containing actual Workflow,Policies,Reviews,Baselines contracts,not one component or a compelled next runtime stage. DomainMetadata governance is not automatically an upper-area execution dependency. |
++| Discovery Components | Higher support-area consumer group including actual Registry,Relationships,Knowledge Graph,Navigation,Search owners. Projection/index/connection source-edition/provenance/freshness/access and required-provider duties remain;not complete live graph or mandatory serial pipeline. |
++| Automation Components | Higher support-area capability group containing registered Validation,Metadata Generator,Registry Generator,Documentation Generator,Consistency Verification. Actual authorized executor,input bytes/source editions/authority/observations/effects remain separate;no installed run from this drawing. |
++| Integration Components | Higher support-area consumer/adapter context containing actual registered integration capabilities,includingAI Integration. Actual scoped exchange/source-edition/reference/authority conditions remain;not an obligatory final execution stage or global architecture approval. |
++
++
+ Metadata remains the authoritative source of descriptive information regardless of the number of consuming components.
+ 
++**Current governing scope.**
++
++Metadata is authoritative for its own descriptive definitions/representation,not every represented identity,classification,state,decision or operation. Actual current ClassificationArchitecture12 preserves the functionalClassificationREADME10 statement that Type meaning remains with Metadata as a pending owner-source discrepancy. For normalized documentary classification,current ARC0055.1/5.3 andPolicy3 retain Classification/common meaning ownership. This does not transfer every unrelated Metadata field calledType or silently rewrite that unchanged README.
++
++The view's Document andIdentity fragments form the split name DocumentIdentity;Classification andTemplates are parallel peers. Higher-area consumer groups are not single new components or a compulsory runtime pipeline. Required provider directions/interfaces/cycles remain those actually evidenced8.1,even when the exact received drawing is retained as historical/conceptual evidence.
++
+ ---
+ 
+ # 10. Architectural Principles
+ 
+ The Metadata component shall conform to the following principles.
+ 
++**Current governing scope.**
++
++All nine principles retain actual mandatory force in their responsible source/definition edition and applicable scope. The current operative10.6–10.9 clauses distinguish ordinary meaning stability from necessary actual mandate revision;earlier received wording is preserved in the before/diff evidence,not treated as a simultaneous conflicting current rule. Technology/content/repository/storage/format independence does not remove actual representation/reference/physical/history/provider obligations.
++
++---
++
+ ## 10.1. Technology Independence
+ 
+ Metadata shall not depend on implementation technologies.
+ 
++**Current governing scope.**
++
++Definitions do not depend semantically on a particular implementation technology. Real implementations still require concrete subjects/bytes,source editions,representation/interfaces,authority and evidence for their claims. No installed technology or executor is allocated by this principle.
++
+ ---
+ 
+ ## 10.2. Content Independence
+ 
+ Metadata shall remain independent of document content.
+ 
++**Current governing scope.**
++
++Metadata describes the document/entity/edition rather than replacing its knowledge content. Values can legitimately reflect actual content and change in coordinated document evolution. This principle does not ban content-informed descriptors or concrete bytes in validation,or prove physically separate storage/access/compliance.
++
+ ---
+ 
+ ## 10.3. Repository Independence
+ 
+ Metadata shall not depend on repository organization.
+ 
++**Current governing scope.**
++
++Repository location does not define Metadata semantics or logical document identity. Actual representation,index/reference/access/freshness/history and authorized migration/provider conditions remain;neutrality is not a live retrieval guarantee or permission to move files.
++
+ ---
+ 
+ ## 10.4. Storage Independence
+ 
+ Metadata shall not depend on storage technologies.
+ 
++**Current governing scope.**
++
++Storage neutrality preserves meaning across legitimate realizations;it does not prove an actual stored Instance meets its Schema/effectiveProfile/reference/history contract or supply a concrete backend/record. Actual data and provider effects need evidence.
++
+ ---
+ 
+ ## 10.5. Format Independence
+ 
+ Metadata shall not depend on document formats.
+ 
++**Current governing scope.**
++
++A format does not redefine owner meanings. A real conversion still needs actual content/edition/representation/effectiveProfile/reference/history/interface equivalence and authorized effects;no conversion or universal serialization/field schema is implemented here.
++
+ ---
+ 
+ ## 10.6. Explicit Semantics
+ 
+-Every Metadata element shall possess a single, well-defined meaning.
++Every Metadata Element shall possess a single,well-defined authoritative meaning for its identified definition/source edition and applicable context. Ordinary use or representation shall not silently redefine it;necessary revision shall follow the actual governing-change conditions in section16.
++
++**Current governing scope.**
++
++Element definition/source edition,documentary value,record representation and actual use differ. A well-defined meaning is not proof a complete canonical Element population exists. Context does not authorize arbitrary semantic variation;necessary actual changed meaning needs the prior/new governing revision16,not a tag hiding simultaneous contradictory mandates.
+ 
+ ---
+ 
+ ## 10.7. Single Source of Truth
+ 
+-Each Metadata concept shall possess one authoritative definition.
++Each Metadata concept shall possess one authoritative definition for its identified source edition and applicable scope. Labels,synonyms,copies and representations do not alone establish different concepts,identity equivalence or competing canonical authority. Required earlier definitions remain historical evidence;an actual necessary successor shall be assessed under section16,not made a second contradictory current rule.
++
++**Current governing scope.**
++
++One authoritative definition does not prohibit legitimate labels/synonyms or preserved historical copies. Equivalence/duplication and identity require actual definition/source-edition/context/authority evidence;names alone authorize no merge,deletion,rekey or canonical adoption. Working documentDraft,term/Element state and actual accepted definition are distinct claims.
+ 
+ ---
+ 
+ ## 10.8. Extensibility
+ 
+-The Metadata architecture shall support future Metadata extensions without compromising existing Metadata definitions.
++Ordinary additive Metadata extension shall preserve established applicable meanings and owner responsibilities. A necessary architectural,semantic,role or interface mandate revision is a distinct governed change and shall actually identify and revise the responsible prior/new contract under section16,with authority,need/alternatives,affected batch/interfaces,honest compatibility,mappings/history/pinned continuity,authorized transition and later checks. Unchanged peer restrictions are not waived by this sentence.
++
++**Current governing scope.**
++
++This clause actually changes the unqualified received preservation contract;it is not a generic disclaimer beside an unchanged restriction. Actual MTD00311.5/12,MTD00513/14,MTD0119/11 andMTD01412 restrictions remain real unchanged peer obligations pending their own source-specific cycles. This target successor does not repeal them or grant arbitrary semantic/role transfer. Current necessary revision16 must establish actual prior/new owner authority before coordinated adoption.
+ 
+ ---
+ 
+ ## 10.9. Backward Compatibility
+ 
+-Metadata evolution shall preserve compatibility with previously established Metadata whenever possible.
++Metadata evolution shall preserve compatibility with previously established Metadata whenever possible. Where necessary actual revision is incompatible,it shall be declared and assessed honestly under section16;required historical meaning and continuity evidence shall not be dropped merely because current-use compatibility cannot be retained.
++
++**Current governing scope.**
++
++Compatibility concerns actual meaning,use,structure/representation,consumers and source editions,not only readable names or unchanged IDs. Necessary incompatibility shall retain required older meaning,observations and pinned context,with actual mappings/conditions/effects and later checks. Historical interpretation,original conformity,current allowed use and live access are separate,no blanket grandfathering or automatic older invalidity.
+ 
+ ---
+ 
+@@ -294,25 +464,35 @@
+ - Metadata shall remain independent of serialization formats.
+ - Metadata shall not duplicate responsibilities belonging to other architectural components.
+ 
++**Current governing scope.**
++
++All seven original constraints remain. Metadata-domain definitions/conditions are not duplication of common mechanisms or other domains' meanings. Actual required owner boundaries,Schema/effectiveProfile/Instance,physical/reference/index/access/retrieval/freshness/history/provider interfaces still apply despite implementation/language/tool/repository/storage/format neutrality. A necessary change to a real boundary or foundational mandate needs the actual responsible revision16,not an unrecorded exception.
++
+ ---
+ 
+ # 12. Relationship with Other Components
+ 
+ Metadata collaborates with other components while preserving strict responsibility boundaries.
+ 
+-| Component | Relationship |
+-|-----------|--------------|
+-| Document Identity | Consumes Metadata to describe document identity. |
+-| Classification | Consumes Metadata to organize documents. |
+-| Templates | Define how Metadata is represented in documents. |
+-| Workflow | Consumes Metadata during lifecycle management. |
+-| Policies | Uses Metadata for governance decisions. |
+-| Baselines | Preserve Metadata across framework evolution. |
+-| Registry | Indexes Metadata for document discovery. |
+-| Relationships | Connect Metadata across architectural entities. |
+-| Knowledge Graph | Uses Metadata as semantic nodes and properties. |
+-| Validation | Verifies Metadata compliance. |
+-| Automation | Produces and consumes Metadata during automated processes. |
++| Component | Received relationship summary | Actual current interface and evidence boundary |
++|---|---|---|
++| Document Identity | Consumes Metadata to describe document identity.  | Document Identity owns document-key/domain/allocation-preservation/reference meaning;Metadata owns descriptor definitions/Schema/effectiveProfile/Instance. Actual reciprocal required contracts8.1 remain unresolved,no rekey,automatic allocation or complete merged record. |
++| Classification | Consumes Metadata to organize documents.  | Classification owns applicable category/assignment semantics,including normalized Family/primaryType/optionalClass meaning;Metadata owns broader representation. Actual required reciprocal scopes8.1 and functionalREADME Type-meaning discrepancy remain pending,no accepted assignment/owner takeover. |
++| Templates | Define how Metadata is represented in documents.  | Templates defines reusable structural organization and may realize Metadata locations/representation under actual Schema/effectiveProfile contracts. It does not own Metadata semantics/Schema or make every Metadata use require an installed Template runtime. ActualTPL0019.1 declarations remain source-qualified. |
++| Workflow | Consumes Metadata during lifecycle management.  | Workflow owns common document-process/transition mechanisms;Metadata defines its own artifact/definition/Schema/Profile/Instance state-use contracts and represents descriptors. Actual subject/edition/authority/conditions/evidence and authorized execution differ from documentStatus or source presence. |
++| Policies | Uses Metadata for governance decisions.  | Policies owns common applicable decision/rule mechanisms;Metadata Governance defines domain change conditions. Actual authority/evidence/rationale/conditions/fulfillment/adoption/effects are needed;phase authorization is not canonical or operational approval. |
++| Baselines | Preserve Metadata across framework evolution.  | Baselines owns exact selected-edition membership and immutable snapshot evidence. Required prior Metadata meaning/Schema/Profile/Instances/decisions/pinned context remain separately preserved;source presence,prior approval or receivedBaseline1.0 does not select this changed Draft. |
++| Registry | Indexes Metadata for document discovery.  | Registry owns registrations/indexes/projections and source-edition provenance/freshness/access obligations. A descriptor or authoritative Metadata Dictionary is not a registration,complete populated index or live retrieval guarantee. |
++| Relationships | Connect Metadata across architectural entities.  | Relationships owns common typed connection records/provenance;Metadata owns domain composition/association/dependency meanings. Real kind/definition/assertion/typed endpoints/properties/count/source editions and required provider edges remain,no universal all-document tuple/inverse registry. |
++| Knowledge Graph | Uses Metadata as semantic nodes and properties.  | Knowledge Graph owns logical projections of typed entities/relations/provenance. Metadata can supply node/property descriptors;not every node is a document and a projection is not semantic ownership,current assignment validity or complete live accepted provider graph. |
++| Validation | Verifies Metadata compliance.  | Common Validation capability and actual authorized executor evaluate concrete Metadata against responsible source-rule-definition-set/Schema-effectiveProfile editions,scope/authority/observations/coverage. Metadata owns domain criteria;nonmutating evaluation is not correction,approval,operation or a deployed checker from this statement. |
++| Automation | Produces and consumes Metadata during automated processes.  | Automation area/capabilities include registered Validation,Metadata Generator,Registry Generator,Documentation Generator andConsistency Verification owners. Actual DMS/CMS/tool/manual executor,inputs/source bytes/authority/observations/effects remain separate. Producing fields gives no canonical allocation,approval,adoption or permission. |
++
++**Current governing scope.**
++
++All eleven original component/relationship pairs are preserved beside their actual current interface/evidence scope. Some received summaries are shorthand,not complete allocated records or observed operations. Metadata domain relationship definition/association/assertion and common typed connection/projection mechanisms differ;endpoints need actual domain/identity/source-edition/context evidence,not automatic all-document keys or a universal physical tuple.
++
++Registry andGraph outputs require actual source-edition/provenance/snapshot/freshness/access evidence;reading or producing descriptors alone proves no current assignment validity,canonical adoption or complete populated runtime graph. Required provider relationships8.1 remain,including unresolved reciprocal requirements. Actual Templates andAutomation source declarations are retained with their own scope and pending detail,not silently accepted or rewritten.
+ 
+ ---
+ 
+@@ -330,13 +510,19 @@
+ 6. Discovery Metadata
+ 7. Automation Metadata
+ 
+-Each stage extends the Metadata architecture without redefining previously established concepts.
++Each ordinary additive stage shall preserve previously established applicable concepts. A stage that necessarily changes a governing concept,role or interface shall be treated as an actual assessed prior/new mandate revision under sections10.8 and16,not silently called a compatible extension. The seven stages are planning concerns,not new components,performed capability milestones or a universal required-provider/execution order.
++
++**Current governing scope.**
++
++All seven stages preserve their exact order and distinct concerns. They are the received MetadataRoadmap planning progression,not seven new architectural components or proof current capabilities have been implemented/published. The actual Roadmap6.1 initial-field list and11 success criteria remain received source-specific plans;they allocate no canonical Metadata Elements/Profiles/Instances or completed milestones.
++
++Metadata definition/Schema/Profile/Instance evolution,documentaryVersion/Revision and actual domain artifact/source editions are different subjects. A stage/Version label does not propagate consumer successors,state changes,approval or Baseline inclusion. Required history and actual adoption/effects remain under responsible owners16.
+ 
+ ---
+ 
+ # 14. Conformance
+ 
+-An implementation conforms to the Metadata Architecture when:
++The following six concerns summarize local architectural conformance;they are not an exhaustive or sufficient full-implementation test:
+ 
+ - Metadata is maintained independently of document content;
+ - Metadata responsibilities remain isolated from other components;
+@@ -345,38 +531,173 @@
+ - Metadata remains technology independent;
+ - Metadata is extensible without architectural disruption.
+ 
++**Current governing scope.**
++
++For a declared MetadataArchitecture conformance claim,the implementation shall satisfy every actual applicable requirement of this Architecture,including the nine principles,seven constraints and the operative responsibility/provider/evolution rules,with independently applicable owner contracts retained. Real source/definition/rule-set/Schema-effectiveProfile/subject editions,scope/applicability/authority,observations/executor and mandatory coverage shall support the claim. An untested subset or absent evidence does not justify broader success or fabricate a violation/default outcome.
++
++MetadataSpecification15.1 Core means every actual mandatory requirement,including unnumbered/incorporated duties andR005 Profile compliance. Its Extended15.2 states Core plus extensibility/governance/lifecycle concerns that overlap already mandatory duties;retain actual capability evidence and genuine additional-differentiation limits,not a new disjoint optional package. The Dictionary's16 recommended attributes7 andSpecification14 six required entry subjects remain distinct actual contracts. IllustrativeDictionary13 MTD-001/Published values are not allocated canonical Element or lifecycle records. No mandatory information is waived or missing ID/state/Version/Revision/relationship/constraint/field/Profile population invented.
++
++MetadataValidation7/10/11/13/14 andSpecification10 retain actual structural/profile/semantic/consistency/referential evaluation,criterion/severity versus Valid/Valid with Warnings/Invalid aggregate scope,determinism/repeatability/coverage/nonmutation. Missing evidence is not by itself an observed violation,warning severity or operational permission. Evaluation does not silently modify Metadata;recording,correction,decision and authorized operation are separate. Source-local documentary checks do not certify a complete implementation,performed evaluation,canonical adoption,global architecture or actual availability.
++
+ ---
+ 
+ # 15. Related Documents
+ 
++**Current governing scope.**
++
++All eighteen received related-document subjects retain their intended unique ID/title/path and order through explicit relative links. Source authority comes from actual declaration/incorporation and applicable owner editions,not Type,title,link success or list order. MetadataBestPractices remains explicitly informative;omission alone is no nonconformance and advice waives no independent mandate. Current peers' actual invalidType/header details and wider content work remain pending their own scheduled cycles,not normalized by this source.
++
++---
++
+ ## 15.1. Architecture
+ 
+-- DF-ARC-004 — Architectural Layers
+-- DF-ARC-005 — Architectural Components
+-- DF-ARC-006 — Terminology
++- [DF-ARC-004 — Architectural Layers](../../../01-Architecture/DF-ARC-004-ArchitecturalLayers.md)
++- [DF-ARC-005 — Architectural Components](../../../01-Architecture/DF-ARC-005-ArchitecturalComponents.md)
++- [DF-ARC-006 — Terminology](../../../01-Architecture/DF-ARC-006-Terminology.md)
++
++**Current governing scope.**
++
++These three actual Architecture sources retain owner/allocation/support-order/terminology contracts and genuine integration limits. A local source correction does not accept unresolved provider cycles or actual physical-placement deviations.
++
++---
+ 
+ ## 15.2. Roadmaps
+ 
+-- DF-RDM-010 — Metadata Roadmap
++- [DF-RDM-010 — Metadata Roadmap](../../../Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md)
++
++**Current governing scope.**
++
++The actual componentMetadataRoadmap remains a planning/evolution source with its received constraints/fields/stage/success criteria and pending own normalization/content cycle. It is not a newly allocated Metadata component or evidence its planned deliverables were executed.
++
++---
+ 
+ ## 15.3. Metadata Specifications
+ 
+-- DF-MTD-002 — Metadata Concepts
+-- DF-MTD-003 — Metadata Model
+-- DF-MTD-004 — Metadata Elements
+-- DF-MTD-005 — Metadata Schema
+-- DF-MTD-006 — Metadata Lifecycle
+-- DF-MTD-007 — Metadata Validation
+-- DF-MTD-008 — Metadata Governance
+-- DF-MTD-009 — Metadata Relationships
+-- DF-MTD-010 — Metadata Constraints
+-- DF-MTD-011 — Metadata Extensibility
+-- DF-MTD-012 — Metadata Best Practices
+-- DF-MTD-013 — Metadata Dictionary
+-- DF-MTD-014 — Metadata Specification
+-- DF-MTD-015 — Metadata Examples
+-
+----
++- [DF-MTD-002 — Metadata Concepts](DF-MTD-002-MetadataConcepts.md)
++- [DF-MTD-003 — Metadata Model](DF-MTD-003-MetadataModel.md)
++- [DF-MTD-004 — Metadata Elements](DF-MTD-004-MetadataElements.md)
++- [DF-MTD-005 — Metadata Schema](../02-Structure/DF-MTD-005-MetadataSchema.md)
++- [DF-MTD-006 — Metadata Lifecycle](../03-Behavior/DF-MTD-006-MetadataLifecycle.md)
++- [DF-MTD-007 — Metadata Validation](../03-Behavior/DF-MTD-007-MetadataValidation.md)
++- [DF-MTD-008 — Metadata Governance](../03-Behavior/DF-MTD-008-MetadataGovernance.md)
++- [DF-MTD-009 — Metadata Relationships](../02-Structure/DF-MTD-009-MetadataRelationships.md)
++- [DF-MTD-010 — Metadata Constraints](../02-Structure/DF-MTD-010-MetadataConstraints.md)
++- [DF-MTD-011 — Metadata Extensibility](../03-Behavior/DF-MTD-011-MetadataExtensibility.md)
++- [DF-MTD-012 — Metadata Best Practices](../04-Reference/DF-MTD-012-MetadataBestPractices.md)
++- [DF-MTD-013 — Metadata Dictionary](../02-Structure/DF-MTD-013-MetadataDictionary.md)
++- [DF-MTD-014 — Metadata Specification](../04-Reference/DF-MTD-014-MetadataSpecification.md)
++- [DF-MTD-015 — Metadata Examples](../04-Reference/DF-MTD-015-MetadataExamples.md)
++
++**Current governing scope.**
++
++All fourteen Metadata peers retain actual source-local authority and receivedV1R0 duties pending their cycles. Their Model/Schema/Profile/Instance,required validation/governance/history and no-redefinition/ownership restrictions are not silently waived. This architecture does not create missing canonical fields/Profiles or restart any completed Identity/Classification cycle. There was no initial ChangeHistory in the received source;only the actual later contribution below is dated.
++
++---
++
++# 16. Actual Working Decisions,Coordination and Provenance
++
++This is an actual authorized working architectural successor under Review Policy,not canonical approval,condition fulfillment,effective adoption,publication,Baseline selection or complete implementation/global architectural acceptance. The operative responsibility/dependency/preservation clauses in7/8.1/10.6–10.9/13 are actually changed;the received source remains exact historical evidence,not a second contradictory current governing rule.
++
++| Actual decision established before mutation | Received contract / risk | Current choice | Actual authority and need / alternatives |
++|---|---|---|---|
++| Actual domain-contract versus common mechanism and execution responsibility | Section7 bans governing lifecycles/managing relationships/performing validation and says Metadata only provides descriptive information,without distinguishing its actual own family contracts. | Metadata defines its domain conceptual/representation/state-use/validation/governance/relationship contracts;common mechanisms/records and authorized operational executor retain ownership. All eight exclusions are actually rewritten in that scope. | Actual ARC0055.1/6/7/8,MTD006/007/008/009 and adopted Policy3/5/6;Metadata stays in Documentation. A generic disclaimer beside unchanged operative bans leaves conflicting rules. Moving Metadata to Governance/Automation or transferring all common mechanisms fabricates architecture. Selected actual operative replacement preserves subjects and real owner/executor boundaries. |
++| Actual required provider declarations and unresolved reciprocal interfaces | Section8.1 permits only Foundation/Architecture dependencies despite source-declared Metadata→Identity and reciprocal Identity→Metadata,plus actual Classification representation requirements. | Replace blanket restriction with actual consumer→provider/source-edition/scope/interface map;retain support-order/same-Layer rules and required-cycle prohibition. Preserve reciprocal declarations as unresolved,not waived by semantic/reference naming. | Actual ARC00412/13,ARC00512,DID0019.1,DID0095.1.1/10,functionalDIDREADME,CLS00112/20 and Policy6. Deleting required edges,calling every dependency a reference,or declaring complete acyclicity is unsupported. An arbitrary upper-area exception violates current structural constraints. Selected actual scoped provider declarations expose conflicts for responsible coordinated reconciliation. |
++| Broader Metadata representation and independent meaning/state/evidence owners | Passive descriptor/service summaries and representation table can be overread as complete accepted fields/Profiles,identity/classification ownership,executed validation or sufficient approval. | State actual Concepts/Element/Value/Model/Dictionary/Schema/effectiveProfile/Instance responsibilities,known one-Profile duty and genuine detail/population gaps. Identity/classification meanings,typed states,authority/conditions/evidence/history and concrete execution remain separate. | Actual ARC0055.1–5.4,MTD0037/10/12,MTD00511/12/14/15,MTD014R005/7/10/14/15,DID014 and currentCLS contracts. Inventing canonical field IDs/values/Profiles,waiving missing information,or imposing a universal Template runtime would exceed evidence. Selected broad interface map retains mandatory duties and real limits without allocating records or weakening owners. |
++| Actual ordinary preservation and necessary governing mandate revision | Sections10.8/13 unqualified preservation/no-redefinition and actual peer MTD003/005/011/014 restrictions can prohibit necessary semantic/role/interface revision. | Actually revise target clauses:ordinary extension preserves meanings;necessary actual prior/new mandate revision requires authority,need/alternatives,batch/interfaces,honest incompatibility,mappings/history/pinned continuity,authorized transition/effects and later checks. Unchanged peer restrictions remain real pending source-specific work. | Actual adopted Policy5.2/6,ARC00413/17,ARC00515,target architectural authority and current responsible Metadata owner clauses. A permanent freeze prevents required correction;arbitrary mutation or claiming Governance alone overrides unchanged contracts is false. Selected real target-rule replacement honestly changes contract permission and warrants majorV2.0 R1,not a cosmetic compatible label. |
++| Complete preservation,physical/consumer/stage/conformance scope and traceable edition | Two unnamed CRLF views,29 bodies,all original consumer/exclusion/evolution subjects and no initial Change History must remain;capability/stage/local conformance summaries are not implemented or globally accepted architecture. | Preserve full before/current evidence,all original subjects/two exact spans17 fragments/11 pairs/18 target references. Retain physical/provider/authority/history duties,stage planning and full mandatory breadth;new actual contribution only,no invented initial event. | Actual Policy2/3/5/6/7,ARC0075/14,MTD014Core and all50-path prospective/current-source interfaces. Replacing the source with a summary loses work;fabricating initial history or source authorship is false. Selected cumulative actual author/Draft/unassigned successor and exact maps preserve qualified/reconstructed/failed-corrected history without global closure or completed-cycle restart. |
++
++## 16.1. Necessary actual mandate revision and honest compatibility
++
++Actual section7 blanket domain-responsibility exclusions and Metadata-only-description rule are replaced by domain-contract/common-mechanism/executor boundaries. Actual8.1 onlyFoundation/Architecture dependency restriction is replaced by scoped required-provider/same-Layer/structural-constraint rules,with real reciprocal requirements exposed rather than hidden. Actual10.6–10.9/13 preserve ordinary meanings while permitting necessary explicitly assessed governing revisions. These changes alter what the architectural contract permits/requires;they justify an incompatible major successor V1.0 R0→V2.0 R1 under Policy5.2. Revision remains monotonic0→1;the major is not due to Type,label,path,format,links or peer numbering. TypeArchitecture/current01-Architecture and actual ID/title/Family/Component/English remain.
++
++An actual necessary architectural,semantic,role,interface or foundational mandate revision shall identify the responsible prior/new source and exact applicable meaning,need/rationale/alternatives,authority and decision conditions,the concrete affected owner/consumer/interface batch,and honest compatibility. It shall provide actual old/new mappings/nonreuse,required earlier meaning/rules/definitions/Schema/Profile/Instance/assignments/states/decisions/results/source editions and pinned continuity,authorized coordinated transition/effects and later checks. A governing contract that truly changes shall actually be revised;adding a scope label or Governance paragraph does not remove contradictory current duties. Required history is not optional because a new consumer contract is incompatible.
++
++This working phase authorization permits this Draft source correction. It is not an organizational actor assignment,canonical/operational decision,fulfillment of required adoption/activation/publication conditions,permission for all operations or exact Baseline inclusion. Actual responsible scope/authority/evidence/rationale/conditions/fulfillment/effect/source-edition records remain needed;genuine actor/guard/route/general-record/interface gaps are not invented. Necessary approval is not proof of sufficient effective adoption. Metadata Element/definition/Schema/Profile/Instance,document Status/Workflow,identity/reference record,decision/outcome,validation result/finding and Milestone states are distinct. No universal state aliases/machine or consumer transition is inferred.
++
++Actual unchanged MetadataModel11.5/12,MetadataSchema13/14,MetadataExtensibility9/11 andMetadataSpecification12 retain received no-redefinition/ownership/preservation constraints in their own scopes. Current MetadataLifecycle/Elements deprecation/older-validity claims andDictionary history duties likewise remain actual peer statements requiring source-specific reconciliation. This local target revision does not repeal them or certify integrated compatibility;where a real necessary peer mandate must change,it needs its own actual responsible prior/new revision,authority,compatibility/history/interfaces and separate checks. Existing scoped duties are not ignored merely because this target now distinguishes ordinary addition from necessary revision.
++
++## 16.2. Required history,physical representation and conformance limits
++
++Required earlier meaning and source/definition/Schema/Profile/rule-set/assignment/state/decision/result editions and needed pinned references shall remain interpretable under actual owners. Historical interpretation,original conformity,current allowed use/compliance and live retrieval/access/freshness are different claims. A later traced reassessment under the actual earlier contract may use new evidence while retaining previous observations;new rules shall not be backdated. Retirement/replacement/approval does not automatically delete records,migrate assignments,rekey documents,propagate consumer successors,guarantee every older assignment valid/invalid or select a Baseline.
++
++DocumentVersion/Revision,this sourceV2R1,MetadataElement/definition architectural editions,Profile/Instance context and identity localR/record/effective-state coordinates shall not be silently conflated. No numbering/reset/default per-Element value,canonical field or new metadata definition is fabricated. Cumulative authorship records actual contributions,not approval or blanket responsibility for every later product.
++
++Semantic technology/content/repository/storage/format independence preserves meaning while actual descriptor/Schema/effectiveProfile/Instance,physical/reference/index/access/retrieval/freshness/use/history/provider duties remain. Actual concrete subject/bytes/source editions/authority,observations/executor and mandatory coverage are needed for evaluated claims. Missing evidence withholds unsupported breadth without inventing a violation/default aggregate/severity/waiver/permission;known supported violations remain. Nonmutating evaluation is separate from recording/correction/decision/authorized operation. This source supplies no installed engine,complete canonical Element/Profile population,performed examples/full Core-Extended implementation or globally accepted runtime.
++
++Both actual ClassificationElementsArchitecture at02-Structure and ClassificationConstraintsStructure at03-Behavior remain unmet ARC007 placement requirements pendingM13,not compliant,waived or mere missing-evidence gaps. MetadataArchitecture itself remains correctly placedArchitecture/current01-Architecture. Metadata↔Identity and actual Metadata/Classification provider scope/cycle questions remain visible and must be reconciled under the actual no-required-cycle rule;recording them does not waive it. Global19/M14 and actual owner/general-detail/population/count/precedence/authority/guard/record/representation/provider/interface/cycle/implementation/permission/architectural acceptance criteria remain independent.
++
++## 16.3. Actual prospective owner and consumer coordination
++
++These50 concrete current owner/consumer/reference paths were identified with raw hashes,coordinates,literal clauses,path-specific prior/proposed need/authority/interfaces/compatibility-history before source mutation. Full evidence is attached to the Review Report;the paths remain unchanged here. This is a prospective coordinated batch,not completed propagation or every external consumer known. Functional files remain non-normalized.
++
++| Actual affected path | Actual input edition / scope | Actual proposed coordination |
++|---|---|---|
++| 00-Foundation/DF-FND-004-ArchitecturalBlueprint.md | V2.0 R1 | Retain actual foundational/current owner mandate and received source-qualified Metadata dependency/responsibility context;actual meaning changes need prior/new source authority and compatibility/history evidence. |
++| 00-Foundation/DF-FND-006-DesignRationale.md | V2.0 R1 | Retain actual foundational/current owner mandate and received source-qualified Metadata dependency/responsibility context;actual meaning changes need prior/new source authority and compatibility/history evidence. |
++| 01-Architecture/DF-ARC-003-ArchitecturalConcepts.md | V2.0 R2 | Retain actual component allocation/support-order/same-Layer interfaces/no required cycles and genuine placement obligations;assess actual Metadata domain-versus-executor responsibility revision without inventing component/Layer or globally accepted DAG. |
++| 01-Architecture/DF-ARC-004-ArchitecturalLayers.md | V2.0 R2 | Retain actual component allocation/support-order/same-Layer interfaces/no required cycles and genuine placement obligations;assess actual Metadata domain-versus-executor responsibility revision without inventing component/Layer or globally accepted DAG. |
++| 01-Architecture/DF-ARC-005-ArchitecturalComponents.md | V2.0 R2 | Retain actual component allocation/support-order/same-Layer interfaces/no required cycles and genuine placement obligations;assess actual Metadata domain-versus-executor responsibility revision without inventing component/Layer or globally accepted DAG. |
++| 01-Architecture/DF-ARC-007-ComponentDocumentationStructure.md | V2.0 R2 | Retain actual component allocation/support-order/same-Layer interfaces/no required cycles and genuine placement obligations;assess actual Metadata domain-versus-executor responsibility revision without inventing component/Layer or globally accepted DAG. |
++| 02-Documentation/Classification/01-Architecture/DF-CLS-001-ClassificationArchitecture.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/01-Architecture/DF-CLS-002-ClassificationConcepts.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/01-Architecture/DF-CLS-003-ClassificationModel.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/02-Structure/DF-CLS-004-ClassificationElements.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/02-Structure/DF-CLS-005-ClassificationSchema.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/02-Structure/DF-CLS-009-ClassificationRelationships.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/03-Behavior/DF-CLS-006-ClassificationLifecycle.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/03-Behavior/DF-CLS-007-ClassificationValidation.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/03-Behavior/DF-CLS-008-ClassificationGovernance.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/03-Behavior/DF-CLS-010-ClassificationConstraints.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/03-Behavior/DF-CLS-011-ClassificationExtensibility.md | V2.0 R2 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/04-Reference/DF-CLS-012-ClassificationBestPractices.md | V1.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md | V2.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md | V1.0 R1 | Retain actual Family membership/uniform primaryType/optionalClass/domain definition-assignment semantics,Metadata broader representation and actual required provider/history/Core obligations. Source-local Classification closures do not settle Metadata owner integration. |
++| 02-Documentation/Classification/README.md | Functional file;non-normalized,no edition assigned | Keep non-normalized README navigation/owner/provider assertions and source-qualified historical context;no normalized ID/header requirement or silently edited consumer/Metadata Type meaning. |
++| 02-Documentation/DocumentIdentity/01-Architecture/DF-DID-001-DocumentIdentityArchitecture.md | V2.0 R2 | Retain actual identity domain/documentK/localR/exact edition,Metadata descriptor/Schema/Profile/Instance and actual reciprocal provider declarations;identify actual scope/contract/interfaces without renaming away indispensable Metadata↔Identity cycle. |
++| 02-Documentation/DocumentIdentity/02-Structure/DF-DID-005 - Document Identity Schema.md | V2.0 R1 | Retain actual identity domain/documentK/localR/exact edition,Metadata descriptor/Schema/Profile/Instance and actual reciprocal provider declarations;identify actual scope/contract/interfaces without renaming away indispensable Metadata↔Identity cycle. |
++| 02-Documentation/DocumentIdentity/02-Structure/DF-DID-009 - Document Identity Relationships.md | V2.0 R1 | Retain actual identity domain/documentK/localR/exact edition,Metadata descriptor/Schema/Profile/Instance and actual reciprocal provider declarations;identify actual scope/contract/interfaces without renaming away indispensable Metadata↔Identity cycle. |
++| 02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md | V2.0 R1 | Retain actual identity domain/documentK/localR/exact edition,Metadata descriptor/Schema/Profile/Instance and actual reciprocal provider declarations;identify actual scope/contract/interfaces without renaming away indispensable Metadata↔Identity cycle. |
++| 02-Documentation/DocumentIdentity/README.md | Functional file;non-normalized,no edition assigned | Keep non-normalized README navigation/owner/provider assertions and source-qualified historical context;no normalized ID/header requirement or silently edited consumer/Metadata Type meaning. |
++| 02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/02-Structure/DF-MTD-005-MetadataSchema.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/02-Structure/DF-MTD-009-MetadataRelationships.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/02-Structure/DF-MTD-010-MetadataConstraints.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/02-Structure/DF-MTD-013-MetadataDictionary.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/03-Behavior/DF-MTD-006-MetadataLifecycle.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/03-Behavior/DF-MTD-007-MetadataValidation.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/03-Behavior/DF-MTD-008-MetadataGovernance.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/03-Behavior/DF-MTD-011-MetadataExtensibility.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/04-Reference/DF-MTD-012-MetadataBestPractices.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/04-Reference/DF-MTD-014-MetadataSpecification.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/04-Reference/DF-MTD-015-MetadataExamples.md | V1.0 R0 | Retain actual received owner contract for concepts/model/elements/schema/lifecycle/validation/governance/relations/constraints/extensibility/dictionary/specification/examples. Architecture replacement must name actual prior/new mandates,need/authority/interfaces and honest compatibility/history;unchanged current restrictions are not silently waived. |
++| 02-Documentation/Metadata/README.md | Functional file;non-normalized,no edition assigned | Keep non-normalized README navigation/owner/provider assertions and source-qualified historical context;no normalized ID/header requirement or silently edited consumer/Metadata Type meaning. |
++| 02-Documentation/Templates/01-Architecture/DF-TPL-001-TemplatesArchitecture.md | V1.0 R0 | Retain actual Templates definition/representation responsibilities and conditional template use versus Metadata Schema/effectiveProfile/Instance authority. No mandatory template-runtime dependency,complete merged field catalog or Profile population inferred. |
++| 02-Documentation/Templates/02-Structure/DF-TPL-005-TemplatesSchema.md | V1.0 R0 | Retain actual Templates definition/representation responsibilities and conditional template use versus Metadata Schema/effectiveProfile/Instance authority. No mandatory template-runtime dependency,complete merged field catalog or Profile population inferred. |
++| 02-Documentation/Templates/02-Structure/DF-TPL-009-TemplatesRelationships.md | V1.0 R0 | Retain actual Templates definition/representation responsibilities and conditional template use versus Metadata Schema/effectiveProfile/Instance authority. No mandatory template-runtime dependency,complete merged field catalog or Profile population inferred. |
++| 02-Documentation/Templates/03-Behavior/DF-TPL-010-TemplatesConstraints.md | V1.0 R0 | Retain actual Templates definition/representation responsibilities and conditional template use versus Metadata Schema/effectiveProfile/Instance authority. No mandatory template-runtime dependency,complete merged field catalog or Profile population inferred. |
++| 02-Documentation/Templates/04-Reference/DF-TPL-014-TemplatesSpecification.md | V1.0 R0 | Retain actual Templates definition/representation responsibilities and conditional template use versus Metadata Schema/effectiveProfile/Instance authority. No mandatory template-runtime dependency,complete merged field catalog or Profile population inferred. |
++| 02-Documentation/Templates/README.md | Functional file;non-normalized,no edition assigned | Keep non-normalized README navigation/owner/provider assertions and source-qualified historical context;no normalized ID/header requirement or silently edited consumer/Metadata Type meaning. |
++| 03-Governance/Reviews/03-Behavior/DF-RVW-001-ReviewPolicy.md | V1.0 R2 | Apply adopted exact phase/effect-based edition/cumulative and event-specific author/functional exclusion/stable plan/central evidence rules. Prior global criteria and completed/failed/corrected history remain independent. |
++| Roadmaps/02-Documentation/Metadata/DF-RDM-010-MetadataRoadmap.md | V1.0 R1 | Keep actual seven Metadata stages/initial-field plan/integration consumers/success criteria as received planned evolution,not performed capabilities,new components or mandatory provider/execution graph. Component roadmap remains pending own normalization/content cycle. |
++
++68 REVIEW-time current source snapshots remain source-qualified:targetV1R0 is exact historical input,current working successorV2R1;other67 selected sources retain exact bytes,not full peer revalidation.54 input-of4.44 REVIEW literal occurrences across41 sources and22 current prior-note contexts retain actual source/time bases. Actual source/central successors are separately diffed rather than pretending those old literals are total current occurrences. Current Identity/Classification source-local results,explicit Model reconstruction/prior factual qualifications,CLS011 failedV2R1/later correctedV2R2 and report129 later history reconciliation remain intact. No earlier completed cycle is restarted or source-qualified global criterion narrowed.
++
++All29 original numbered bodies/15 chapters/31 raw headings,twelve listgroups83 subjects,nine principles,seven constraints,seven stages,eighteen intended related subjects and eleven full component-relation pairs are mapped before/current. The eight actual exclusion bullet replacements retain their original subjects in explicit historical/current maps. Both exact unnamed CRLF spans/17 raw-line fragments remain with typed scope and final section hashes;no diagram IDs are allocated. Proper separate table headers/delimiters/data arities are checked. Received source has no ChangeHistory;the actual later contribution below does not invent an original date/event.
++
++All16 local corrections remain Corrected—pending validation. Construction checks establish preparation/preservation/traceability,not the separate VALIDATE phase. Pause after UPDATE. CONTINUAR starts4.44 VALIDATE of this exactV2.0 R1 only.
++
++---
++
++# Actual Later Contribution
++
++The received V1.0 R0 source has no Change History section. Its exact raw bytes,header and Arnaldo Figueira authorship are retained in the input/before evidence;no original date or initial contribution event is invented here.
++
++| Date | Version | Revision | Contributor | Actual contribution / status |
++|---|---|---|---|---|
++| 2026-10-16 | 2.0 | 1 | Codex — AI assistant | Step4.44 UPDATE:actual incompatible responsibility/dependency/preservation mandate correction with typed owner/provider/state/authority/evidence/history/representation/conformance boundaries and complete original subject maps. Cumulative original author retained;16 corrections pending separate VALIDATE. Draft;Baseline Not assigned;no canonical/operational/global approval. |
+ 
+ **End of Document**
+ 
+--- review444/Context/CHANGELOG.md
++++ update444/Context/CHANGELOG.md
+@@ -58,6 +58,9 @@
+ 
+ | # | Date | Author | Type | Document | Impact | Description |
+ |--:|:-----------|-------------------|-----------|----------|-----------|-------------|
++| 670 | 2026-10-16 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Correction | MetadataArchitecture remains S,start2026-10-16,no completion;M12 30C1S33O InProgress.16 corrected-pending/19globalOpen/607Closed/INV02. EntireM13 NotStarted andboth actual Elements-Constraints placement requirements exact/unmet/unwaived;M14/global19/actual peer-provider-cycle work independent. |
++| 669 | 2026-10-16 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Correction | V1.0 R137→R138 compatible reporting event;section144/actual history row.16 MTD001 corrections pending separate VALIDATE;19globalOpen/607Closed/INV02. Full29-body/12-list83-subject/eight actual exclusion replacements/11-pair/two exactCRLF span17-fragment/18-link/rawEOL/history/provider/current-owner maps;ten tables121 rows. No source VALIDATE/closure or global architecture approval. |
++| 668 | 2026-10-16 | Codex — AI assistant | Updated | /02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md | Major | Step4.44 actual incompatible7 domain-contract/common-mechanism/executor,8.1 scoped required-provider and10.6–10.9/13 ordinary-preservation+necessary mandate-revision correction V1.0 R0→V2.0 R1,Draft/Baseline Not assigned,Architecture/current01-Architecture retained. Actual contract permission/responsibility changes,not Type/path/format/peer numbering. Five decisions16/seven actual provider scopes/50 prospective unchanged paths;reciprocal Metadata-Identity/Metadata-Classification cycles and unchanged peer restrictions remain pending/unwaived. All original29 bodies12lists83subjects/eight exclusion-subject maps11pairs/two exactCRLF spans17fragments18links/rawbefore-after/history preserved. SourceSHA-256 bf898f2bd26bdbdaa2c804d568ed5704fcb9d3061ef1b6ce8da97f22eae4be22;85436 bytes;cumulative Author Arnaldo Figueira; Codex — AI assistant,actual later contribution only,no invented initial date/event.16 corrected-pending;full map/diff/reportR138 section144;M12. No VALIDATE/closure/allocation/adoption/operation/permission/global approval. |
+ | 667 | 2026-10-16 | Codex — AI assistant | Reviewed | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Correction | Step4.44 REVIEW traceability:all16 exact original criteria/literal evidence/current owner clauses,29 full bodies9principles7constraints7stages/12lists83subjects11core tablepairs/two exactCRLF unnamed spans17fragments/18targets/no invented initialhistory;68 actual selected sources50 prospective paths54 inbound occurrences41sources22 prior contexts. Peers unchanged,source unchanged;no UPDATE/VALIDATE/global approval. |
+ | 666 | 2026-10-16 | Codex — AI assistant | Updated | /ArchitecturalMilestones.md | Correction | MetadataArchitecture starts2026-10-16,remains S/no completion;M12 30C1S33O InProgress.16 localOpen+19 globalOpen/607Closed/INV02. EntireM13 NotStarted andboth actual Elements-Constraints placement requirements exact/unmet/unwaived;M14 independent. |
+ | 665 | 2026-10-16 | Codex — AI assistant | Updated | /03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md | Correction | V1.0 R136→R137 compatible reporting event;section143/actual history row. Full4.44 MetadataArchitecture REVIEW,14 findings+2 warnings Open;35 totalOpen/607Closed/INV02. Actual domain-contract/common-executor boundary,only-lower-layer restriction/reciprocal providers/cycles,broadrepresentation/state/evidence/evolution/history/conformance/preservation assessed. No source UPDATE/VALIDATE or global acceptance. |
+--- review444/Context/ArchitecturalMilestones.md
++++ update444/Context/ArchitecturalMilestones.md
+@@ -228,7 +228,7 @@
+ | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-014 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-014 - Document Identity Specification.md |
+ | C | 2026-09-30 | 2026-10-15 | 2026-10-15 | DF-DID-015 | /02-Documentation/DocumentIdentity/04-Reference/DF-DID-015 - Document Identity Examples.md |
+ | O | 2026-09-30 |  |  | README.md | /02-Documentation/DocumentIdentity/README.md |
+-| S | 2026-09-30 | 2026-10-16 |  | DF-MTD-001 — Metadata Architecture; REVIEW | /02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md |
++| S | 2026-09-30 | 2026-10-16 |  | DF-MTD-001 — V2.0 R1 Architecture; UPDATE complete;16 corrections pending VALIDATE | /02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md |
+ | O | 2026-09-30 |  |  | DF-MTD-002 | /02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md |
+ | O | 2026-09-30 |  |  | DF-MTD-003 | /02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md |
+ | O | 2026-09-30 |  |  | DF-MTD-004 | /02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md |
+@@ -811,3 +811,5 @@
+ Step4.43 VALIDATE (2026-10-16): PASS exact unchanged DF-CLS-015V1.0 R1 Reference/current04-Reference,Draft/Baseline Not assigned,explicit illustrative/no-additional-requirements responsibility retained. Source384185 bytes/SHA-256 886803f06be3e78a7dca76f9ac3cd1e44cdea678851125f1e5f6de67870fabf5;no source byte/coordinate changes.28 original source-local documentary criteria/56 reasoned documentary comparisons,65 complete example-context audits/ten actual minimum-owner-support audits/Specification15 ten minima+fiveR031/full mandatoryCore/Extended overlap retained.486 input manifest raw hashes/bytes/exact UPDATE ZIP,77 original bodies80 headings72 major chapters/14 lists99 subjects28 original data rows/108 exact unnamed spans518 fragments/28 intended links/four exact quotes/undated initial history/cumulative real contribution checked.117 actual proper Markdown table blocks/all610 data-row arities verified.61 selected actual source snapshots/36 unchanged affected paths/51 received occurrences19 input sources/33 actual prior notes checked with historical basis. All28 local records now Closed—verified;19 globalOpen/607 Closed/INV02. Examples documentary cycle completed2026-10-16;M12 30C0S34O In Progress. EntireM13 Not Started exact,both actual Elements/Constraints ARC007 placement requirements unmet/unwaived;M14/actual owner/general-detail/population/precedence/representation/provider/interface/cycle/implementation/permission/global acceptance independent. Prior qualified/reconstructed/failed-corrected histories/report129 reconciliation retained. ReportR136 section142;CHANGELOG661–663. No actual execution of examples,populated canonical Element/field-key-term allocation,full Core-Extended implementation,domain operation/decision/condition fulfillment/adoption/activation/permission/publication/Baseline/runtime or global architecture approval. Pause;next4.44 REVIEW DF-MTD-001 — Metadata Architecture,not started.
+ 
+ Step4.44 REVIEW (2026-10-16): exact unchanged DF-MTD-001V1.0 R0 Architecture/current01-Architecture,Draft/Baseline1.0,Author Arnaldo Figueira;11069 bytes/SHA-256 7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747. Full383 logical lines/382 CRLF breaks/15 major chapters29 numbered bodies31 raw headings/9 principles7 constraints7 evolution stages/2 exact unnamed spans17 raw-line fragments/2 original tables11 core relation pairs/12 lists83 subjects18 correct intended ID-title-path targets/no quotes-checkboxes-initial ChangeHistory.14 findings+2 warnings Open. Actual Metadata domain-contract/common-mechanism/executor boundary andonlyFoundation-Architecture restriction/required same-Layer providers/reciprocalDID cycles,typed views/current identity-classification ownership,broadMetadata Schema/effectiveProfile/Instance representation and real missing catalog/Profile details,state-authority-approval-conditions/validation evidence/history/necessary assessed mandate revision/consumer-interface/conformance limits reviewed.68 actual fresh selected sources/50 actual prospective paths/54 incoming occurrences41 sources/22 current source-qualified prior contexts retained. ProposedV2R1 only for actual incompatible operative restriction/mandate replacements,not by Type/format/path;Architecture placement correct,no move. Original source authorship/raw bytes/no-initial-history fact retained. M12 30C1S33O InProgress,MetadataArchitecture starts2026-10-16,no completion;19 globalOpen/607Closed/INV02 plus16localOpen. EntireM13 NotStarted block exact,both actual Elements-Constraints ARC007 placement requirements unmet/unwaived;M14/actual owner/integration/implementation/permission/global acceptance independent. Prior qualified/reconstructed/failed-corrected events/report129 reconciliation retained. ReportR137 section143;CHANGELOG664–667. No source UPDATE/VALIDATE,canonical field-key-term/Profile allocation,actual Instance/assignment/evaluation/decision/condition fulfillment/adoption/activation,operation/permission/publication/Baseline/global approval. Pause before4.44 UPDATE.
++
++Step4.44 UPDATE (2026-10-16): actual incompatible MetadataArchitecture operative7 domain-contract/common-mechanism/executor,8.1 required provider scope and10.6–10.9/13 ordinary-preservation/necessary governing-revision correction V1.0 R0→V2.0 R1,Draft/Baseline Not assigned,Architecture/current01-Architecture retained. SourceSHA-256 bf898f2bd26bdbdaa2c804d568ed5704fcb9d3061ef1b6ce8da97f22eae4be22;85436 rawCRLF bytes. All29 original bodies31 raw headings15 chapters/12 lists83subjects/eight explicit exclusion replacements/9 principle subjects7 constraints7 exact stages/11 original component-relation pairs/two exact unnamedCRLF spans17fragments/18 intended links mapped;ten proper tables121 rows. OriginalArnaldo author preserved cumulatively plus actualCodex contribution;no initial ChangeHistory/date/event invented. Five actual decisions16/seven actual provider scope maps/50 concrete prospective paths before mutation;68 REVIEW-time source snapshots54 received occurrences41sources22 prior-note contexts retained,peers exact. ActualMetadata↔Identity/Metadata-Classification provider/cycle claims and unchanged MTD003/005/011/014 restrictions remain source-specific pending owner work,not waived by local correction.16 corrected-pending/19globalOpen/607Closed/INV02;M12 30C1S33O InProgress,MetadataArchitecture S,no completion. EntireM13 NotStarted block exact,both actual Elements-Constraints ARC007 placement requirements unmet/unwaived;M14/actual owner/general-detail/population/Profile/authority/provider/interface/cycle/implementation/permission/global acceptance independent. Earlier reconstructed/qualified/failed-corrected history/report129 reconciliation retained. ReportR138 section144;CHANGELOG668–670. No source VALIDATE/closure,canonical field-key-term/Profile allocation,actual Instance/assignment/evaluation/decision/condition fulfillment/adoption/activation,operation/permission/publication/Baseline/runtime/global approval. Pause before4.44 VALIDATE exactV2R1.
+--- review444/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
++++ update444/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md
+@@ -10,7 +10,7 @@
+ | **Author** | Codex — AI assistant |
+ | **Status** | Draft |
+ | **Version** | 1.0 |
+-| **Revision** | 137 |
++| **Revision** | 138 |
+ | **Baseline** | Not assigned |
+ | **Language** | English |
+ 
+@@ -343,6 +343,7 @@
+ | 2026-10-16 | 1.0 | 135 | Step4.43 Examples compatibleV1.0 R1 UPDATE;28 corrections pending VALIDATE | Section141;all65 examples/108 exact spans518 fragments and original subjects/history preserved;actual illustrative/evidence/owner/Core-Dictionary/condition/history/interface scope. No automaticmajor2. M12 29C1S34O,M13 exact/global limits independent |
+ | 2026-10-16 | 1.0 | 136 | Step4.43 exact illustrativeV1R1 VALIDATE PASS;28 local records Closed—verified | Section142;source unchanged,56 documentary comparisons/65 complete example audits/ten actual minimum-owner-support audits/Core-all retained/117 tables610 rows/full preservation/current-owner/history evidence.19 globalOpen/607 Closed/INV02;M12 30C0S34O,M13 exact;not execution of examples/full implementation or global architecture approval |
+ | 2026-10-16 | 1.0 | 137 | Step4.44 MetadataArchitecture REVIEW;14 findings/two warnings Open | Section143;source unchangedV1R0 Architecture/current01-Architecture. Actual domain-contract/executor andonly-lower-layer restriction/providers-cycles/evolution/history/conformance assessed;proposedV2R1 conditional actual incompatible mandates.68 current sources50 prospective paths;M12 30C1S33O,M13 exact/global limits independent |
++| 2026-10-16 | 1.0 | 138 | Step4.44 MetadataArchitecture actual incompatibleV2R1 UPDATE;16 corrections pending VALIDATE | Section144;operative7/8.1/10.6–10.9/13 actual responsibility/provider/preservation mandate change,not Type/path/format. Full original subject maps/seven provider scopes/50 prospective paths;reciprocal cycles/unchanged peer restrictions independent. M12 30C1S33O,M13 exact/global limits retained |
+ 
+ ## 9. Step 4.01 — REVIEW DF-FND-004 — Architectural Blueprint
+ 
+@@ -11219,3 +11220,86 @@
+ Only four central tracking files and self-excluding manifest change;three new REVIEW evidence/check/diff exports added. All source/domain/process/prior evidence bytes/paths remain exact. Cumulative ZIP contains Context/only root,491 manifest entries excluding itself,492 files including it. REVIEW checks are recovery/preservation/traceability,not source UPDATE/VALIDATE,canonical record/field-key-term/Profile allocation,actual Instance/assignment/evaluation/decision/condition fulfillment/adoption/activation,domain operation/permission/publication/Baseline,installed runtime or global architectural acceptance.
+ 
+ **Pause after REVIEW. CONTINUAR starts4.44 UPDATE DOCUMENT DF-MTD-001 — Metadata Architecture only.** UPDATE and VALIDATE have not been performed.
++
++## 144. Step 4.44 UPDATE — DF-MTD-001 — Metadata Architecture
++
++### 144.1. Authorized recovery and actual architectural successor
++
++CONTINUAR authorizes UPDATE only after section143 completed REVIEW. Exact input Context-Working-Step-4-44-Review.zip SHA-256 `b4dfe2f02e7a5163298ee65e091373ebc654b537f609ed085461d455ceb8da53`,49589222 bytes,492 files,Context/only root. Self-excluding manifestV1.0/137 SHA-256 `2b137796a63ac812d02a8e13c9bfc2eb23885eede9fe52acc79d74b767ab5f6b`;all491 actual raw hashes/byte counts match. ReportR137/CHANGELOG667/16localOpen/19globalOpen/607Closed/INV02/M12 30C1S33O agree. Exact received sourceV1.0 R0,Architecture/current01-Architecture,Draft/Baseline1.0,Author Arnaldo Figueira,11069 bytes/SHA-256 `7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747`,383 logical lines382CRLF breaks/no final newline retained in full raw before evidence. No earlier cycle is restarted.
++
++Current actual source is **V2.0 R1,Architecture,current01-Architecture,Draft,Baseline Not assigned,Author Arnaldo Figueira; Codex — AI assistant**,valid ID/title/Family-Component Metadata/English retained. Source rawCRLF SHA-256 **bf898f2bd26bdbdaa2c804d568ed5704fcb9d3061ef1b6ce8da97f22eae4be22**,**85436 bytes**. No move/rekey or peer source revision. Separate source VALIDATE has not been performed;source hash is outside source.
++
++Actual7 blanket lifecycle/relationship/validation exclusions and Metadata-only-description restriction now distinguish Metadata-domain contracts,common mechanisms/records and actual execution. Actual8.1 onlyFoundation-Architecture restriction is replaced by scoped required-provider/same-Layer/structural-constraint rules with real reciprocal declarations visible. Actual10.6–10.9/13 unqualified meaning-preservation/no-redefinition contract now permits necessary explicitly assessed actual prior/new governing revision while retaining ordinary preservation and history. These actually change contract permission/responsibility,so major1→2 is honest underPolicy5.2,not a label/path/format/link/peer-number change. Revision0→1 remains monotonic;later source-unchanged VALIDATE increments neither coordinate. Working Draft correction is no canonical approval/condition fulfillment/adoption/publication/Baseline/global acceptance.
++
++### 144.2. Actual pre-mutation decisions and complete evidence
++
++Five actual decisions16 preceded mutation:domain/common-executor responsibility;required providers/unresolved reciprocal interfaces;broad Metadata representation and independent meaning/state/evidence owners;ordinary preservation/necessary actual mandate revision;full preservation/physical-consumer-stage-conformance/provenance scope. Each records exact prior/current choice,authority,need/alternatives. A generic disclaimer beside unchanged bans,deleted required edges,arbitrary higher-area exception,new canonical fields/Profiles or permanent semantic freeze would not resolve the actual contract.
++
++[Full UPDATE map](DF-RVW-002-assets/DF-RVW-002-update-4-44-map.json) contains exact full raw/normalized before/current source,header/effect-based compatibility/actual operative replacements,29 complete original body maps,12 listgroups83 subjects with all eight actual exclusion changes,eleven original component-relation pairs/current scope,two original table contexts,two exact unnamedCRLF spans17 individual raw-line fragments/current interpretations/final complete section digests,18 intended actualID-title-path links,five decisions/seven actual required-provider scope maps with literal owner clauses/coordinates/raw hashes,50-path prospective batch,68 REVIEW-time current-source snapshots/54 inbound occurrences41 input sources/22 prior-note contexts,no-initial-history provenance/actual contribution andall16 original criteria/current correction evidence. [Full source/central diff](DF-RVW-002-assets/DF-RVW-002-update-4-44.diff) and [construction checks](DF-RVW-002-assets/DF-RVW-002-update-4-44-construction.json) are preparation/traceability evidence,not separate VALIDATE.
++
++All29 original numbered bodies/15 major chapters/31 raw headings preserve order and subjects. New16/16.1/.2/.3 give33 current numbered bodies;ActualLaterContribution is an explicit unnumbered addition. All12 original listgroups83 subjects preserve count/order/topic;only eight section7 exclusion bullets actually change wording,with full original/current subject maps and explicit historical wording table rather than lost exclusions. Seven constraint bullets11/seven ordered stages13/six local conformance concerns14 remain exact. Nine principle subjects remain,with actual10.6–10.9 operative mandate changes explicitly mapped;old rules are historical input,not simultaneous conflicting current mandates.
++
++Both original unnamed fenced spans4/9 retain exact originalCRLF bytes/text/order andall17 raw-line/column fragments. SplitDocument+Identity remains one component;Classification/Templates remain parallel peers. Individual current interpretations and complete final section hashes map allocation/support/service/representation/required-provider/consumer/execution meaning,not invented diagramIDs or a stale summary. All11 original component-relation pairs12 retain both cells beside actual current scope. Ten proper actual Markdown table blocks121 data rows have separate header/delimiter/data matching arities. All18 intended relative links resolve actual uniqueID/title/path in original related-document order. No quotes/checkboxes are invented.
++
++All source line breaks remainCRLF;normalization is only for evidence bodies/digests. The original source had no ChangeHistory;new actual later-contribution text explicitly preserves that absence,received Arnaldo authorship/V1R0 raw bytes and lack of original date. Only the actual2026-10-16Codex contribution is dated,with cumulative author separator semicolon-space. Event author remainsCodex alone. No original date/initial history/intermediate edition or Author auxiliary is fabricated.
++
++### 144.3. Actual responsibility,representation and required providers
++
++Metadata now actually defines its domain Concepts/Element-Value/Model/Dictionary/Schema/Profile-Instance/lifecycle/validation/governance/relationship/constraint contracts. Shared Workflow/Policies/Reviews/Baselines/Registry/Relationships/Validation and actual authorized DMS/CMS/tool/manual executor retain their process/record/projection/capability/operation contracts. Eight revised exclusions preserve their original subjects without forbidding Metadata own domain contracts or transferring every consuming domain meaning to Metadata. Component remains in Documentation;Behavior subjects do not create a new Layer/component.
++
++Actual applicable documentary entity/edition/context versus knowledge content is explicit1–3/5/10.2. Content-informed descriptors/coordinated content evolution and concrete payload bytes remain legitimate. README/CHANGELOG/ArchitecturalMilestones remain non-normalized functional files,not required universal normalized headers. Identity documentK/localR/exact edition/reference/domain allocation-preservation and MetadataElement permanent identity differ;Metadata represents descriptors under actual owners,no automaticDF allocation/rekey/key reset/pinned retargeting. Actual Family membership/uniform Architecture-Structure-Behavior-Reference primaryType/optional explicitly defined nonconflictingClass meaning remains with Classification/common sources,not every unrelated Metadata field namedType. The actual unchangedClassificationREADME10 Type-meaning discrepancy remains pending responsible source work;no false old-taxonomy finding or integrated agreement.
++
++Metadata broad representation is not a reduced header list. Concepts/definition/value/Model/Dictionary/Schema/Profile/Instance responsibilities and real current one-Profile duty are explicit3/6/14. Actual Model7.6/Schema15/SpecificationR005 duties remain;single effectiveProfile requires actual governing source evidence,not an invented complete Profile/catalog,arbitrary cardinality or waiver. Templates can realize structural representation under actual Metadata Schema/effectiveProfile contracts without owning Metadata semantics or imposing a universal installedTemplate dependency. ReceivedTPL0019.1 required-source declaration is retained source-qualified,not globally accepted merely by inclusion.
++
++Seven provider maps8.1 retain actual source editions/literal clauses/raw hashes and consumer→provider direction:common Foundation-Architecture authorities;Metadata→DocumentIdentity for applicable document-key meaning;actual reciprocalDocumentIdentity→Metadata descriptive-concept claim;Metadata→Classification represented-meaning scope;actual Classification→Metadata indispensable-representation declaration;Templates received consumption declaration and conditional actual use;selected Registry/Workflow/Baselines/Graph owners. Actual cross-Layer support order and same-Layer interface/no-required-cycle constraints remain. Upper-area documentary authority or represented states alone are no runtime edge;an indispensable provider is not erased by calling it semantic/reference/projection. Structural constraints change only through actual assessed responsible revision,not arbitrary exceptions.
++
++**Metadata↔Identity remains unresolved;actual Metadata/Classification reciprocal scopes likewise need owner/interface/cycle assessment.** Different core-versus-descriptor names or a projected value do not prove independent contracts or acyclicity. Required cycles remain prohibited;recording a conflict grants no permission to operate one. This source changes its blanket restriction,not every responsible peer or foundational rule,and certifies no complete DAG/integrated rollout. All11 required-by subjects8.2 and11 original relation pairs12 have individual domain/common-record/projection/capability/executor/source-edition/freshness/access maps. AI/Automation areas are not extra single components;Graph nodes/endpoints need not all be documents. Stage/row omission alone creates no defect or allocation.
++
++### 144.4. Actual necessary revision,history,authority and conformance
++
++Actual10.6/10.7 meanings are source-edition/context-qualified;ordinary representations/labels/synonyms/copies do not silently redefine canonical meaning or authorize merge/deletion/rekey. Actual10.8/10.9/13 distinguish ordinary additive preservation from necessary architectural/semantic/role/interface prior-new mandate revision16. Actual responsible rule/source authority,need/rationale/alternatives,50-path batch/interfaces,honest compatibility,mappings/nonreuse/history/pinned continuity,authorized coordinated transition/effects and later checks are required. A genuinely changed governing mandate must actually be revised;generic Governance prose or scope tags cannot conceal contradictory current duties.
++
++UnchangedMTD00311.5/12,MTD00513/14,MTD0119/11 andMTD01412 no-redefinition/ownership/preservation restrictions remain real pending source-specific work. Current MetadataLifecycle/Elements older-validity/deprecation statements andDictionary history duties likewise remain actual peer claims. This target successor does not repeal them,transfer arbitrary owners or certify integrated consumer compatibility. Current Classification source-local results do not waive Metadata contracts. Real needed peer revisions retain their own actual prior/new authority/compatibility/history/interface evidence and separate checks.
++
++Actual artifact/definition/Schema/Profile/Instance/documentWorkflow/identity-reference/decision/validation-finding/Milestone states remain typed. Necessary approval does not prove fulfilled conditions/effective canonical adoption/activation/publication/availability/exactBaseline;changed Draft inherits none. Real subject/source-definition editions,authority,evidence/rationale,conditions/fulfillment/effects and genuine actor/guard/route/record/interface gaps remain. Source presence,phase commands,generated descriptors and positive questions do not perform decisions or operations.
++
++Required older meaning/definitions/rules/sets/Schema/Profile/Instance/assignments/states/decisions/results/source editions/pinned references remain. Historical interpretation,original conformity,current permitted use/live retrieval and traced earlier-contract reassessment differ;new rules not backdated,prior observations retained,no blanket older validity/invalidity/grandfathering or automatic consumer successor/rekey/deletion/migration/Baseline selection. SourceVersion-Revision,Element/Profile/Instance editions,identitylocalR andrecord effective-state coordinates differ,no invented defaults/numbering/reset/value/schema population.
++
++Physical/content/storage/format neutrality preserves meaning without discharging actual descriptor/effectiveProfile/Instance,physical/reference/index/access/retrieval/freshness/use/history/provider duties. Real validation needs concrete subject/bytes/source-rule-definition-set/Schema-effectiveProfile editions,scope/applicability/authority,observations/executor and mandatory coverage. Criterion/severity versus actual three aggregate labels remain distinct;missing evidence is not defaultInvalid,Violation,severity,waiver or permission. Evaluation nonmutating,separate record/correction/decision/operation,no installed checker or performed run.
++
++Six local conformance concerns14 retain every actual applicable Architecture mandate,nine principles/seven constraints and independent current owner duties. MetadataCore means every actual mandatory requirement,includingR005/unnumbered/incorporated duties. Extended overlaps already mandatory extensibility/governance/lifecycle;no new disjoint optional package/capability is invented. Actual Dictionary16 recommended entry attributes7 andSpecification14 six required information subjects remain distinct;Dictionary13 MTD-001/Published is explicitly illustrative,not allocated canonical fields/Element/approval records. Genuine general-detail/cardinality/physical-record/catalog/Profile/provider/cycle/authority gaps remain;no absent information fabricated or mandate optionalized.
++
++All seven exact ordered stages13 remain actualRoadmap planning/abstraction concerns,not new components,full required-provider/execution order,current installed capabilities or completed milestones.4 earliest/higher-level service wording is actually replaced by scoped peer allocation/service meaning. ActualRoadmap initial fields/success criteria remain source-qualified plans,not complete canonical Metadata population or approval.
++
++### 144.5. Original criteria and current pending corrections
++
++| Record | Actual updated sections | Actual source-local correction | State |
++|---|---|---|---|
++| MTD001-01 | 1,2,3,5,10.2,11,14,16 | Applicable documentary entity/edition/context versus knowledge-content distinction clarified1–3/5/10.2/11/14;functionalREADME/CHANGELOG/ArchitecturalMilestones remain non-normalized. Content-informed descriptors/coordinated evolution and actual bytes/representation evidence remain valid,no falsely attributed universal-header mandate or complete Profile/Instance population. | Corrected—pending validation |
++| MTD001-02 | 3,6,7,11,12,16 | Actual7 blanket exclusions/only-description sentence replaced by eight mapped operative domain-contract/common-mechanism/executor boundaries;6 defines own Metadata conceptual/structure/state-validation-governance-relation contracts. All original subjects retained,common Workflow/Policies/Reviews/Baselines/Registry/Relationships/Validation and actual executor owners not transferred;Documentation allocation retained. | Corrected—pending validation |
++| MTD001-03 | 4,8,9,12,16 | Actual8.1 onlyFoundation-Architecture restriction replaced by scoped consumer→provider/source-edition/area/contract/interface map. Seven provider scopes include actual Metadata↔Identity and Metadata/Classification reciprocal claims,Templates source declaration and selected higher consumers. Real support-order/same-Layer/no-required-cycle rules remain;unresolved conflicts visible,no arbitrary upper exception,hidden indispensable edge or global DAG. | Corrected—pending validation |
++| MTD001-04 | 4,9,16 | Actual4/9 operative scope and both exact unnamedCRLF views retained;all17 raw-line fragments individually typed with final full section hashes. Document+Identity is one split registered component,parallelClassification/Templates peers preserved;allocation/service/semantic/representation/required/execution meanings distinct,no invented diagramIDs/components or serial priority/runtime. | Corrected—pending validation |
++| MTD001-05 | 1,5,6,7,8.2,12,16 | Actual documentK/localR/exact edition/reference/domain allocation-preservation versus Metadata descriptor/effectiveProfile/Instance/permanentElement identity clarified5–8/12/16. Original assign-document-identity exclusion now actual execution/owner boundary,no automaticDF allocation,classification-based rekey,key reset,pinned retargeting or fabricated catalog. | Corrected—pending validation |
++| MTD001-06 | 1,5,6,7,8.2,9,12,16 | Current normalizedFamily membership/uniform four-Type/optional defined nonconflictingClass authority versus Metadata broad representation explicit6/8.1/9/12. Actual unchangedClassificationREADME10 Type-meaning discrepancy retained as pending source work;no falsely attributed old tree,fifthType/mandatoryClass,blanket transfer of unrelated Type fields or integrated agreement. | Corrected—pending validation |
++| MTD001-07 | 3,5,6,7,9,12,14,16 | Broader Concepts/Element-Value/Model/Dictionary/Schema/Profile/Instance owner interfaces explicit3/6–9/12/14. Actual one-Profile obligation andR005 duties retained,genuine cardinality/physical-record/catalog/Profile limits explicit. Templates structural realization conditional,no universally mandatoryTemplate runtime,all-representation ownership transfer or allocated missing fields/Profiles. | Corrected—pending validation |
++| MTD001-08 | 6,7,8.2,12,13,14,16 | Actual Metadata artifact/definition/Schema/Profile/Instance versus documentWorkflow/identity/reference/decision/result/finding states and domain/common authority separated7/8.2/12/13/14/16. Necessaryapproval versus conditions/fulfillment/effective adoption/activation/publication/availability/exactBaseline distinct;real actor/guard/route/record gaps retained,no universal machine/aliases/inherited approval/performed transition. | Corrected—pending validation |
++| MTD001-09 | 5,6,7,8.2,12,14,16 | Actual7 validation exclusion replaced;domain rules/common capability/real authorized DMS-CMS-tool-manual executor and concrete subject/bytes/source-rule-definition-set/Schema-effectiveProfile editions/applicability/authority/observations/coverage explicit14/16. Criterion/severity versus three aggregate meanings and nonmutation retained,no installed checker/fake run/default missing-evidence violation/permission or subset-as-full success. | Corrected—pending validation |
++| MTD001-10 | 10.6,10.7,10.8,10.9,11,13,14,16 | Actual10.6/10.7/10.8/10.9/13 clauses changed to edition-scoped ordinary meaning preservation plus necessary assessed actual governing revision16,with prior/new authority/need/alternatives/50-path batch/interfaces/honest incompatibility/mappings/history/pinned continuity/authorized transition/later checks. UnchangedMTD003/005/011/014 restrictions remain real pending work,no generic waiver/freeze/arbitrary takeover. Actual mandate-permission change honestly majorV2R1. | Corrected—pending validation |
++| MTD001-11 | 5,6,10.6,10.7,10.8,10.9,12,13,14,16 | Required earlier definitions/rules/Schema/Profile/Instances/assignments/states/decisions/results/source editions/pinned context retained10.9/12–14/16. Historical interpretation,original conformity,current allowed use/live retrieval and traced earlier-contract reassessment distinct;new rules not backdated,no blanket old validity/invalidity,automatic consumer successor/rekey/deletion/migration/Baseline. Source/Element/Profile/Instance/localR coordinates not conflated. | Corrected—pending validation |
++| MTD001-12 | 6,7,8,9,11,12,16 | All11 original relation pairs12 retain both cells beside actual current interface scope;all11 required-by subjects8.2 retained with individual map. Domain semantics/common typed records/provenance/Registry-Graph projections/source-edition/freshness/access and registered Automation/AI capabilities/authorized executor distinguished,no all-document tuple/complete graph/new component/runtime or erased required provider. | Corrected—pending validation |
++| MTD001-13 | 4,5,8,9,13,16 | All seven exact ordered evolution stages13 and actualRoadmap target preserved as planning/abstraction,not new components,complete required-provider/execution order,current installed capability or performed milestone.4 earliest/higher-level service sentence actually replaced by peer allocation/scope wording;actualRoadmap initial fields/success criteria remain source-qualified,not canonical allocation. | Corrected—pending validation |
++| MTD001-14 | 3,10,11,14,15,16 | All six local conformance concerns,nine principles/seven constraints/independent mandatory owner breadth retained14/16. Actual applicable source editions/authority/observations/mandatory coverage required;MetadataCore every mandatory/Extended overlap genuine limits,no invented capability or waived field/Profile/physical/provider/history duty. Architecture/current path correct;actual incompatible successor explained,no full implementation/canonical/global acceptance. | Corrected—pending validation |
++| MTD001-W01 | 4,9,12,16 | Both exact unnamedCRLF spans/17 individual raw-line/column fragments and11 original pair values retain full original/current scope/final section hashes. Ten proper actual Markdown table blocks121 rows have separate header/delimiter/data arities;splitDocumentIdentity/parallel peers preserved,no stale preview/new diagramID/hidden required cycle. | Corrected—pending validation |
++| MTD001-W02 | 1,2,3,4,5,6,7,8,8.1,8.2,9,10,10.1,10.2,10.3,10.4,10.5,10.6,10.7,10.8,10.9,11,12,13,14,15,15.1,15.2,15.3,16 | Full29-body/15-chapter/31-original-heading/12-list83-subject/11-pair/two-span17-fragment/18-ID-title-path target/actual owner/batch maps. OriginalArnaldo cumulative contribution preserved plus actualCodex event;received source had no ChangeHistory or originaldate,no initial event fabricated. CurrentCRLF source/diff/full rawbefore-after/EOL recorded;all89 positions/other88rows/prior paths/evidence unchanged,no Author auxiliary/completed-cycle restart/global acceptance. | Corrected—pending validation |
++
++All16 retain original severity/observation/proposal/closure criterion and exact literal received evidence. Open→Corrected—pending validation only;none closes through construction. Separate VALIDATE must assess exactV2.0 R1 against original criteria,actual operative incompatible effect/owner-required-provider/cycle/unchanged-peer restrictions/mandatory representation-Profile/authority-state-evidence/history/conformance/preservation/table-reference/rawEOL/current-note-batch scope. No inherited or future validation/approval is claimed.
++
++### 144.6. Concrete coordination,central tracking and pause
++
++Fifty actual prospective affected paths and five actual prior/new choices preceded mutation,with current coordinates/raw hashes/literal clauses,path-specific need/authority/interfaces/compatibility-history. Peers remain exact,not completed propagation or every external consumer known.68 REVIEW-time snapshots retain targetoldV1R0 historical/currentV2R1 andother67 exact selected sources.54 received occurrences41sources explicitly use input-of4.44 REVIEW validated443/Context basis;22 current source-qualified prior-note contexts retain event-time/owner concerns. Actual later target/central successors are fully diffed,not old literal totals falsely current. Prior globalREV2-02/08 criteria,Model reconstruction/factual qualifications,CLS011 failedV2R1/correctedV2R2,report129 later reconciliation and all completed cycles remain,no silent peer rewrite/revalidation/narrowed criterion/restarted cycle.
++
++ReportV1.0 R137→R138 compatible reporting event,section144/actual history row. CHANGELOG668 source Updated/Major,669 report Updated/Correction,670 Milestone Updated/Correction. Only source andfour central tracking files change;three new UPDATE map/diff/construction exports added,self-excluding manifest updated. All other prior domain/process/evidence bytes/paths remain exact. All89 progress positions/order andother88rows unchanged;4.45 untouched. M12 remains30 C/1 S/33 O InProgress;MetadataArchitecture S,start2026-10-16,no completion. EntireM13 NotStarted block exact;both actual ClassificationElementsArchitecture/02-Structure and ConstraintsStructure/03-Behavior ARC007 placement requirements unmet/unwaived,not compliant or mere evidence gaps. M14/global19/actual Metadata peer preservation restrictions/provider-cycle/general-detail/Profile-catalog/authority/interface/implementation/permission/global acceptance remain independent.
++
++Totals19 globalOpen,16 localCorrected—pending validation,607Closed—verified,INV02 Not applicable—scope decision. No global criterion closes. Cumulative ZIP contains Context/only root,494 manifest entries excluding itself,495 files including it. Construction checks are preparation/preservation/traceability,not source VALIDATE,canonical field-key-term/Profile allocation,actual Instance/assignment/evaluation/decision/condition fulfillment/adoption/activation,operation/transition/migration/deletion,permission,publication,Baseline,installed engine/runtime or global architectural approval.
++
++**Pause after UPDATE. CONTINUAR starts4.44 VALIDATE DOCUMENT DF-MTD-001 — Metadata Architecture,exactV2.0 R1 only.** VALIDATE has not been performed.
+--- review444/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv
++++ update444/Context/03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv
+@@ -42,7 +42,7 @@
+ 4.41,02-Documentation/Classification/04-Reference/DF-CLS-013-ClassificationDictionary.md,DF-CLS-013,Classification Dictionary,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=a1ca8359af0f52b9723d418798ace0abc352233e76afd81597d181bf22f823f5,V2.0 R1 Draft;Baseline Not assigned;Reference/current04-Reference;actual authoritative scoped terminology;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=3c6c9ae0a253ba3f6956d860d1ba55001ff49df76d98a4ce0b1378e30584299e,Complete full1897-normalized-line Dictionary REVIEW;39 chapters/131 numbered bodies/134 raw headings/73 entries/201 related-term occurrences/17 distinct unmatched exact-local labels/5 tables29 pairs/86 lists/6 unnamed spans46 labels/26 doc targets/no quoted rules/14 unchecked checklist.22 findings+2 warnings Open;61 actual selected comparisons incl Best PracticesV1R1/ExtensibilityV2R2;36 prospective paths/50 inbound occurrences19 sources/29 prior notes;reportR128 section134,Complete actual incompatible authoritative Family/Type/Class and derived terminology correction;73 full entries/201 related-term occurrence dispositions/17 nonexact labels/29 original row pairs/86 lists/6 exact spans46 labels/26 links/14 unchecked prompts;five actual decisions40/36-path prospective unchanged batch;reportR129 section135,"Complete—PASS exact unchanged authoritative scopedV2.0 R1;24 original local criteria/46 reasoned documentary comparisons;87 actual table blocks330 rows;73 entries/201 ordered related references and17 nonexact-label scope/owner-evidence checks,14 exact unchecked prompts/full preservation/current sources/history/batch audits;reportR130 section136. No domain runtime/canonical adoption/global approval",24 CLS013 records Closed—verified for exact authoritative scopedV2R1 local documentary criteria;19 global Open/553 Closed—verified/INV02. Genuine general-rule/population/count/actor/guard/record/precedence/provider gaps and actual unmet M13 placement/integration/implementation/permission/global architectural acceptance independent,634–637 REVIEW;638–640 UPDATE;641–643 VALIDATE,"M12 28 C/0 S/36 O In Progress;Dictionary local documentary cycle completed2026-10-16;entireM13 Not Started/both actual Elements-Constraints placement residuals exact/unmet/unwaived;M14 independent. Next4.42 REVIEW CLS014,not started",Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+ 4.42,02-Documentation/Classification/04-Reference/DF-CLS-014-ClassificationSpecification.md,DF-CLS-014,Classification Specification,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=e3edf0047a9cf3dcdbc5c3f69f1c64ad2b7872dc792b0d9641bf8999ccc2f663,V2.0 R1 Draft;Baseline Not assigned;Reference/current04-Reference;explicit normative consolidated source;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=4e323d948f349d4ccfd587b0f8d4945fc6fffa99cfbd37c49ee41af99f7c8430,Complete full1235-line/37-chapter/99-body/102-heading normative specification REVIEW;36 identified requirements plus unnumbered mandatory breadth;five tables19 reference-modality pairs/30 lists/6 unnamed spans47 individual labels/28 related targets/exact quoted principle/undated history;24 findings+2 warnings Open;reportR131 section137,Complete actual incompatibleR028/14 ordinary-preservation/necessary assessed mandate-revision and35 non-pipeline responsibility contract correction;all36 requirements/unnumbered mandatory breadth/Dictionary ten-minimum+fiveR031/Core breadth preserved;99 bodies30 lists19 original core table pairs6 exact spans47 labels28 links/quote/history;five decisions38/36-path prospective unchanged batch;reportR132 section138,Complete—PASS exact unchanged normativeV2.0 R1;26 original local criteria/50 reasoned documentary comparisons;36 requirement audits/Dictionary10 minimum+fiveR031 owner-support audits/Core-all retained/13 current incorporation audits;16 actual table blocks137 rows/full preservation/source-owner/reference/history/batch checks;reportR133 section139. No actual full entry population/Core-Extended implementation/canonical adoption/global approval,26 CLS014 records Closed—verified for exact normativeV2R1 local documentary criteria;19 global Open/579 Closed—verified/INV02. Actual mandatory Dictionary/Core/independent owner breadth retained with genuine population/count/representation/priority/actor/guard/route/record/provider/cycle gaps. Both actual unmet M13 placements/integration/implementation/permission/global architecture acceptance independent,644–647 REVIEW;648–650 UPDATE;651–653 VALIDATE,"M12 29 C/0 S/35 O In Progress;Specification local documentary cycle completed2026-10-16;entireM13 Not Started/both actual Elements-Constraints placement requirements exact/unmet/unwaived;M14 independent. Next4.43 REVIEW CLS015,not started","61 actual selected current sources incl DictionaryV2R1/BestPracticesV1R1/ExtensibilityV2R2,36 actual prospective affected paths,53 received inbound occurrences23 sources/31 prior-note contexts;actual owner/general-rule/population/count/precedence/authority/transition/record/provider/cycle/implementation/permission/global acceptance independent"
+ 4.43,02-Documentation/Classification/04-Reference/DF-CLS-015-ClassificationExamples.md,DF-CLS-015,Classification Examples,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=204db601fc644f2fb799905beb8e03676ecf258a9a7dad7a4f509be0cf6e0603,V1.0 R1 Draft;Baseline Not assigned;Reference/current04-Reference;explicit illustrative authority;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=886803f06be3e78a7dca76f9ac3cd1e44cdea678851125f1e5f6de67870fabf5,Complete full2343-normalized-line/72-chapter/77-body/80-heading Examples REVIEW;all65 actual example contexts/108 unnamed spans518 literal fragments/5 tables28 core rowpairs/14 lists/4 quotes/28 intended targets;26 findings+2 warnings Open;reportR134 section140,Complete compatible illustrative clarification;all65 examples/77 original bodies/14 lists28 core data rows108 exact unnamed spans518 fragments/four quotes28 intended links/original undated history mapped. Actual conditional premises/typed subjects/current owners/entry minima/full Core/evidence/authority/history/interfaces retained;five decisions73/36-path prospective unchanged batch;reportR135 section141,Complete—PASS exact unchanged illustrativeV1.0 R1;28 original local criteria/56 reasoned documentary comparisons;65 complete example-context audits/ten entry-minimum actual owner-support audits/Core-all retained;117 actual table blocks610 rows/full preservation/current-source/history/batch checks;reportR136 section142. No actual execution of examples/full canonical record population/Core-Extended implementation/adoption/global approval,28 CLS015 records Closed—verified for exactV1R1 local documentary criteria;19 global Open/607 Closed—verified/INV02. Actual illustrative authority/conditional premises/current owner mandatory breadth retained;genuine population/count/representation/precedence/actor/guard/route/record/provider/cycle gaps remain. Both actual unmetM13 placements/integration/implementation/permission/global architectural acceptance independent,654–657 REVIEW;658–660 UPDATE;661–663 VALIDATE,"M12 30 C/0 S/34 O In Progress;Examples local documentary cycle completed2026-10-16;entireM13 Not Started/both actual Elements-Constraints placement requirements exact/unmet/unwaived;M14 independent. Next4.44 REVIEW MTD001,not started",61 fresh actual selected sources incl SpecificationV2R1/DictionaryV2R1/BestPracticesV1R1/ExtensibilityV2R2;36 actual prospective affected paths/51 received occurrences19 sources/33 current prior notes;actual owner/general-rule/population/count/precedence/authority/transition/record/representation/provider/cycle/implementation/permission/global acceptance independent
+-4.44,02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md,DF-MTD-001,Metadata Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747,Complete full383-logical-line/15-chapter/29-body31-heading MetadataArchitecture REVIEW;9 principles7 constraints/7 ordered stages/2 unnamed spans17 fragments/2 tables11 core relation rows12 lists83 subjects18 actual intended targets/no initial history;14 findings+2 warnings Open;reportR137 section143,Not performed,Not performed,"16 MTD001 Open;35 totalOpen=19global+16local,607 Closed—verified/INV02. Actual domain-contract/common mechanism/executor boundary,only-lower-layer dependency restriction/reciprocal providers/cycles,typed views/identities/classification,full Metadata representation/Profile obligations,state/authority/evidence/evolution/history/conformance scope require reconciliation. Architecture/current01-Architecture correct;proposedV2R1 conditional actual incompatible mandate changes,not automatic by Type",664–667 REVIEW,"M12 30 C/1 S/33 O In Progress;MetadataArchitecture starts2026-10-16,no completion;entireM13 NotStarted/both actual Elements-Constraints placement requirements exact/unmet/unwaived;M14 independent",68 fresh actual selected sources/50 concrete prospective paths/54 received occurrences41 input sources/22 current source-qualified prior-note contexts;actual currentDID-Classification/MetadataV1R0 owner restrictions/general-detail/Profile/catalog/provider/cycle/implementation/permission/global acceptance independent
++4.44,02-Documentation/Metadata/01-Architecture/DF-MTD-001-MetadataArchitecture.md,DF-MTD-001,Metadata Architecture,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=7a757a7e72d108bf307d1a71f323ff54aea0a2e20e9541cb86558731ec0a4747,V2.0 R1 Draft;Baseline Not assigned;Architecture/current01-Architecture;Author Arnaldo Figueira; Codex — AI assistant;SHA-256=bf898f2bd26bdbdaa2c804d568ed5704fcb9d3061ef1b6ce8da97f22eae4be22,Complete full383-logical-line/15-chapter/29-body31-heading MetadataArchitecture REVIEW;9 principles7 constraints/7 ordered stages/2 unnamed spans17 fragments/2 tables11 core relation rows12 lists83 subjects18 actual intended targets/no initial history;14 findings+2 warnings Open;reportR137 section143,Complete actual incompatible7 domain-common-executor/8.1 scoped providers/10.6–10.9-13 ordinary preservation+necessary mandate-revision correction;all29 original bodies/12lists83subjects/eight exclusion subject changes/11 pairs/two exactCRLF spans17fragments18links/no initialhistory mapped. Five actual decisions16/50-path prospective unchanged batch/seven real provider scopes;reportR138 section144,Not performed;separate exactV2.0 R1 phase pending,16 MTD001 records Corrected—pending validation;19 globalOpen/607Closed—verified/INV02. Actual Metadata domain/common/executor/identity-classification/broadrepresentation/Profile/authority-state-evidence/history/fullmandatory breadth retained;actual peer preservation restrictions/reciprocal providers-cycles/general-detail/catalog/Profile/placement/integration/implementation/permission/global acceptance independent,664–667 REVIEW;668–670 UPDATE,"M12 30 C/1 S/33 O InProgress;MetadataArchitecture S,start2026-10-16,no completion;entireM13 NotStarted/both actual Elements-Constraints placement requirements exact/unmet/unwaived;M14 independent",68 fresh actual selected sources/50 concrete prospective paths/54 received occurrences41 input sources/22 current source-qualified prior-note contexts;actual currentDID-Classification/MetadataV1R0 owner restrictions/general-detail/Profile/catalog/provider/cycle/implementation/permission/global acceptance independent
+ 4.45,02-Documentation/Metadata/01-Architecture/DF-MTD-002-MetadataConcepts.md,DF-MTD-002,Metadata Concepts,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=1abf7b1d0c2b80b14bff6d49c902f9ba8f951889daf833522e33e2e08fe5e19c,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=1abf7b1d0c2b80b14bff6d49c902f9ba8f951889daf833522e33e2e08fe5e19c,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-08; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+ 4.46,02-Documentation/Metadata/01-Architecture/DF-MTD-003-MetadataModel.md,DF-MTD-003,Metadata Model,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=0eb29cbb5dda1c85d88f90cf01a06df7a2d34258cfe183347e00364740661746,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
+ 4.47,02-Documentation/Metadata/01-Architecture/DF-MTD-004-MetadataElements.md,DF-MTD-004,Metadata Elements,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=60dc7aa35153410b7bfacb774163d62959c3c830b6fa15948a82f913c0657568,Version=1.0; Revision=0; Status=Draft; Baseline=1.0; SHA-256=60dc7aa35153410b7bfacb774163d62959c3c830b6fa15948a82f913c0657568,Step 2 thematic comparison; complete document cycle pending,Not performed,Not performed,REV2-06; Open,202: thematic consolidation; individual cycle pending,M12,Owner-source reconciliation and impact mapping before UPDATE; uniform four-value Type for normalized documents
