@@ -1,9 +1,9 @@
 {
   "parent_document_id": "DF-RVW-002",
-  "edition": "1.0/136",
+  "edition": "1.0/137",
   "date": "2026-10-16",
   "self_hash": "Excluded;external receipt",
-  "source_state": "4.43 VALIDATE PASS exact unchanged CLS015V1R1 illustrative Reference/current04-Reference,Draft/unassigned.28 localClosed—verified/19globalOpen/607Closed/INV02;M12 30C0S34O InProgress.56 documentary comparisons/65 complete example-context audits/ten minimum-owner-support audits/fiveR031/Core-all retained/Extended overlap.77 original bodies80 headings72 chapters14lists99subjects28 original data rows108 exact unnamed spans518 fragments28links/fourquotes/undated history/cumulative real contributor retained;117 actual table blocks610rows verified.61 current source snapshots36 unchanged affected paths/51 received occurrences19sources33 actual prior notes/historical basis. EntireM13 NotStarted exact/both actual placement requirements unmet/unwaived;M14/owner/integration/implementation/permission/global acceptance independent. No source edit/actual execution of examples/popuIated canonical records/field-key-term allocation/full implementation/operation/adoption/publication/Baseline/global approval. Next4.44 REVIEW MTD001 not started",
+  "source_state": "4.44 REVIEW MTD001 exact unchangedV1R0 Architecture/current01-Architecture,Draft/Baseline1.0,originalAuthor.383 logical lines382CRLF/15 chapters29 bodies31headings9principles7constraints7stages12lists83subjects/2 tables11core relationpairs/2 exact unnamed spans17fragments18intendedtargets/no initialhistory.14findings2warningsOpen;35totalOpen=19global16local/607Closed/INV02/0pending;M12 30C1S33O InProgress. Actual domain-contract/common-executor/only-lowerlayer restriction/required reciprocal providers-cycles/broadrepresentation/state/evidence/preservation-necessarymandaterevision/history/conformance assessed;conditionalV2R1 proposal actualeffect,not Type/path/format.68 current selected sources50 prospective paths54 received occurrences41sources22 prior notes retained;peers exact. EntireM13 NotStarted,both actual placement requirements unmet/unwaived;M14/owner/implementation/permission/global acceptance independent. No source UPDATE/VALIDATE/allocation/adoption/operation/publication/Baseline/global approval. Pause4.44 UPDATE",
   "known_collision": "81 scoped IDs unique at REVIEW;received Model collision historical,INV01/REV205 integrated criteria independent",
   "files": [
     {
@@ -554,8 +554,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-ReviewReport.md",
-      "sha256": "2fa7c1395b53728c59fb9c660a80152ad80086d2b45aa76064b12d1b7fbac7aa",
-      "bytes": 2645297,
+      "sha256": "13b5b2afc0ce026c02023f07853fbcd3b1fb8baefa419c2edb1aaffec259231a",
+      "bytes": 2679432,
       "normalization_scope": true,
       "input_sha256": null
     },
@@ -654,8 +654,8 @@
     },
     {
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-progress.csv",
-      "sha256": "cb21de37177ee0ff3a021bb7cd1dc2e306e865b5c36aaa754235eccd4060be49",
-      "bytes": 93540,
+      "sha256": "79171e76379f219db4fb10857fb04c79919de778160be52762f9f31f60429286",
+      "bytes": 94624,
       "normalization_scope": false,
       "input_sha256": null
     },
@@ -1491,6 +1491,24 @@
       "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-43.diff",
       "sha256": "083447491adf96771b6e99ca71a563e09f71bcab6da907e46140b5ad7376c388",
       "bytes": 76516,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-44-checks.json",
+      "sha256": "6fd2f6c7b60c9a80e068fb3fa2729c07f328449f76ba4a3c5bdbcf2ed0af17c0",
+      "bytes": 3352,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-44-evidence.json",
+      "sha256": "24c6d1a4cfaffea011990574e083754363f432fa3ec02d63919bdcdfdde1240f",
+      "bytes": 3773202,
+      "normalization_scope": false
+    },
+    {
+      "path": "03-Governance/Reviews/04-Reference/DF-RVW-002-assets/DF-RVW-002-review-4-44.diff",
+      "sha256": "749210fb3c80f7c759f3f0c788def6a45bc98c857567ab287177f68acdb2afd8",
+      "bytes": 60796,
       "normalization_scope": false
     },
     {
@@ -3131,15 +3149,15 @@
     },
     {
       "path": "ArchitecturalMilestones.md",
-      "sha256": "299e9eeca4b05265c2a3da36285eaccc739e060e4b5408a30bdfd01c2ccea0aa",
-      "bytes": 134499,
+      "sha256": "7d13d50d1a4983b57cb09edb33e1f12de03b515b86c72125281cffdf9ec97ac6",
+      "bytes": 136648,
       "normalization_scope": false,
       "input_sha256": "9096c806dc5b0d2e50905d2ad345c1bdfb0e8ddf30ad88e462c6b07a76b11bfb"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "8ead0fc31462dff9b8bde7f749a68f05558e57e7047438fea4cdd06387f89fec",
-      "bytes": 241573,
+      "sha256": "248db756d545f959d9a4c95a783a4e8122e6407f994a179e16358f949e340be7",
+      "bytes": 243934,
       "normalization_scope": false,
       "input_sha256": "ff7794ce9068eb2a0179bdada2d4fa06485d174f4d7d395acca6c1778c8b010b"
     },
